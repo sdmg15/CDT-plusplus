@@ -12,5 +12,5 @@ var searchData=
   ['parse_5fshort',['parse_short',['../docopt_8cpp.html#a9cf875c3b9242a86d4bda0bdd378fad1',1,'docopt.cpp']]],
   ['parse_5ftest',['parse_test',['../namespacerun__tests.html#aeb1b7e38777dd0048ffb87f93ed46e39',1,'run_tests']]],
   ['pop',['pop',['../class_tokens.html#ae07c89765c0406cdf25c638f5b98a070',1,'Tokens']]],
-  ['print_5fresults',['print_results',['../utilities_8h.html#a151b9d8c2662b9676c767d2348c7b85d',1,'print_results(const T &amp;universe_ptr) noexcept:&#160;utilities.h'],['../utilities_8h.html#a31c09522f1cd76ef1657975118651e60',1,'print_results(const T &amp;universe_ptr, const CGAL::Timer &amp;timer) noexcept:&#160;utilities.h']]]
+  ['print_5fresults',['print_results',['../utilities_8h.html#a151b9d8c2662b9676c767d2348c7b85d',1,'print_results(const T &amp;universe_ptr) noexcept:&#160;utilities.h'],['../utilities_8h.html#af232defb9f6b3b79f98a510bef1e94c3',1,'print_results(const T1 &amp;universe_ptr, const T2 &amp;timer) noexcept:&#160;utilities.h']]]
 ];

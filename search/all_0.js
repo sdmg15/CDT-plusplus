@@ -8,6 +8,5 @@ var searchData=
   ['asstring',['asString',['../structdocopt_1_1value.html#a542177d30af3bf5f32de6a46672012f1',1,'docopt::value']]],
   ['asstringlist',['asStringList',['../structdocopt_1_1value.html#aa757e64fe841b2e1353acf542d7f464f',1,'docopt::value']]],
   ['attempted_5f23_5fmoves',['attempted_23_moves',['../_metropolis_8h.html#a822d5fe38ab7e0586d85f4ba1cfc5a2d',1,'Metropolis.h']]],
-  ['attempted_5f32_5fmoves',['attempted_32_moves',['../_metropolis_8h.html#a3cedb54e62da01a45da83dad5ab6e4dc',1,'Metropolis.h']]],
-  ['average_5fcoordinates',['average_coordinates',['../_s3_ergodic_moves_8h.html#a12eb5718592a9ff34f62736e40b8cdfb',1,'S3ErgodicMoves.h']]]
+  ['attempted_5f32_5fmoves',['attempted_32_moves',['../_metropolis_8h.html#a3cedb54e62da01a45da83dad5ab6e4dc',1,'Metropolis.h']]]
 ];

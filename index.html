@@ -88,7 +88,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><p><b>Quantize spacetime on your laptop.</b></p>
-<p><a href="http://arxiv.org/abs/hep-th/0105267">Causal Dynamical Triangulations</a> in C++ using the <a href="http://www.cgal.org">Computational Geometry Algorithms Library</a> and <a href="http://eigen.tuxfamily.org/index.php?title=Main_Page">Eigen</a>&gt;3.1.0, compiled with <a href="http://www.cmake.org">CMake</a> using <a href="http://clang.llvm.org">Clang</a>/<a href="http://llvm.org">LLVM</a>. Arbitrary-precision numbers and functions by <a href="http://www.mpfr.org">MPFR</a> and <a href="https://gmplib.org">GMP</a>. <a href="https://github.com/docopt/docopt.cpp">Docopt</a> provides a beautiful command-line interface. <a href="https://github.com/google/googletest/tree/master/googlemock">Gmock 1.7</a> may be optionally installed in order to build/run unit tests. <a href="https://martine.github.io/ninja/">Ninja</a> is a nice (but optional) replacement for <code>make</code>. Follows (mostly) the <a href="https://google.github.io/styleguide/cppguide.html">Google C++ Style Guide</a>, which you can check by downloading and running the <a href="http://google-styleguide.googlecode.com/svn/trunk/cpplint/cpplint.py">cpplint.py</a> script:</p>
+<p><a href="http://arxiv.org/abs/hep-th/0105267">Causal Dynamical Triangulations</a> in C++ using the <a href="http://www.cgal.org">Computational Geometry Algorithms Library</a> and <a href="http://eigen.tuxfamily.org/index.php?title=Main_Page">Eigen</a>&gt;3.1.0, compiled with <a href="http://www.cmake.org">CMake</a> using <a href="http://clang.llvm.org">Clang</a>/<a href="http://llvm.org">LLVM</a>. Arbitrary-precision numbers and functions by <a href="http://www.mpfr.org">MPFR</a> and <a href="https://gmplib.org">GMP</a>. <a href="https://github.com/docopt/docopt.cpp">Docopt</a> provides a beautiful command-line interface. <a href="https://github.com/google/googletest/tree/master/googlemock">Gmock 1.7</a> may be optionally installed in order to build/run unit tests. <a href="https://martine.github.io/ninja/">Ninja</a> is a nice (but optional) replacement for <code>make</code>. Intel's <a href="https://www.threadingbuildingblocks.org">TBB</a> provides significantly better performance if present (3x+). Follows (mostly) the <a href="https://google.github.io/styleguide/cppguide.html">Google C++ Style Guide</a>, which you can check by downloading and running the <a href="http://google-styleguide.googlecode.com/svn/trunk/cpplint/cpplint.py">cpplint.py</a> script:</p>
 <div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;# python cpplint.py &lt;filename&gt;</div>
 </div><!-- fragment --><p>The goals and targets of this project are:</p>
 <ul>
@@ -102,14 +102,13 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <li>[x] 2+1 foliation</li>
 <li>[x] Integrate <a href="https://github.com/docopt/docopt.cpp">docopt</a> CLI</li>
 <li>[x] S3 Bulk action</li>
-<li>[ ] S3 Boundary action</li>
 <li>[x] 3D Ergodic moves</li>
+<li>[x] <a href="https://www.threadingbuildingblocks.org">TBB</a> multithreading</li>
 <li>[ ] Metropolis algorithm</li>
 <li>[ ] 4D Simplex</li>
 <li>[ ] 4D Spherical triangulation</li>
 <li>[ ] 3+1 foliation</li>
 <li>[ ] S4 Bulk action</li>
-<li>[ ] S4 Boundary action</li>
 <li>[ ] 4D Ergodic moves</li>
 <li>[ ] Initialize two masses</li>
 <li>[ ] Shortest path algorithm</li>
@@ -202,11 +201,12 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!-- fragment --><p>In addition to the command line output, you can see detailed results in the build/Testing directory which is generated thereby.</p>
 <h2>Static Analysis: </h2>
 <p>The <a href="https://github.com/acgetchell/CDT-plusplus/blob/master/cppcheck-build.sh">cppcheck-build.sh</a> script runs a quick static analysis using <a href="http://cppcheck.sourceforge.net">cppcheck</a>.</p>
-<p>Clang comes with <a href="http://clang-analyzer.llvm.org/scan-build.html">scan-build</a> which can run a much more thorough, but slower static analysis integrated with CMake and Ninja. Simply run the <a href="https://github.com/acgetchell/CDT-plusplus/blob/master/scan-build.sh">scan-build.sh</a> script. Note that this script is somewhat fragile, as it depends upon the version of llvm installed, and links directly to those directories without helpful symlinks to abstract version numbers away. </p>
+<p>Clang comes with <a href="http://clang-analyzer.llvm.org/scan-build.html">scan-build</a> which can run a much more thorough, but slower static analysis integrated with CMake and Ninja. Simply run the <a href="https://github.com/acgetchell/CDT-plusplus/blob/master/scan-build.sh">scan-build.sh</a> script. Note that this script is somewhat fragile, as it depends upon the version of llvm installed, and links directly to those directories without helpful symlinks to abstract version numbers away.</p>
+<p>Also, these tools build in DEBUG mode. You should probably not then run unittests as you will get thousands of lines of debugging output from the tests that create large triangulations. (You could use **&ndash;gtest_filter** to run just the tests that you want.) </p>
 </div></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Sep 23 2015 04:01:19 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon Oct 12 2015 17:01:52 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.10
 </small></address>

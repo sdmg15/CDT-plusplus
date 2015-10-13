@@ -122,8 +122,9 @@ This graph shows which files directly or indirectly include this file:</div>
 <div class="center"><img src="utilities_8h__dep__incl.png" border="0" usemap="#src_2utilities_8hdep" alt=""/></div>
 <map name="src_2utilities_8hdep" id="src_2utilities_8hdep">
 <area shape="rect" id="node2" href="cdt_8cpp.html" title="The main body of the program. " alt="" coords="5,159,91,184"/>
-<area shape="rect" id="node3" href="_metropolis_8h.html" title="src/Metropolis.h" alt="" coords="127,79,242,104"/>
-<area shape="rect" id="node5" href="_s3_ergodic_moves_8h.html" title="Pachner moves on 3D Delaunay Triangulations. " alt="" coords="320,79,475,104"/>
+<area shape="rect" id="node3" href="_metropolis_8h.html" title="src/Metropolis.h" alt="" coords="133,79,249,104"/>
+<area shape="rect" id="node5" href="_s3_ergodic_moves_8h.html" title="Pachner moves on 3D Delaunay Triangulations. " alt="" coords="272,79,427,104"/>
+<area shape="rect" id="node7" href="_utilities_test_8cpp.html" title="Tests of utility functions. " alt="" coords="451,79,619,104"/>
 <area shape="rect" id="node4" href="_metropolis_test_8cpp.html" title="unittests/MetropolisTest.cpp" alt="" coords="115,159,301,184"/>
 <area shape="rect" id="node6" href="_s3_ergodic_moves_test_8cpp.html" title="Tests for S3 ergodic moves. " alt="" coords="324,152,500,191"/>
 </map>
@@ -160,10 +161,10 @@ Functions</h2></td></tr>
 <tr class="memitem:a151b9d8c2662b9676c767d2348c7b85d"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="utilities_8h.html#a151b9d8c2662b9676c767d2348c7b85d">print_results</a> (const T &amp;universe_ptr) noexcept</td></tr>
 <tr class="memdesc:a151b9d8c2662b9676c767d2348c7b85d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print out runtime results.  <a href="#a151b9d8c2662b9676c767d2348c7b85d">More...</a><br /></td></tr>
 <tr class="separator:a151b9d8c2662b9676c767d2348c7b85d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a31c09522f1cd76ef1657975118651e60"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a31c09522f1cd76ef1657975118651e60"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="utilities_8h.html#a31c09522f1cd76ef1657975118651e60">print_results</a> (const T &amp;universe_ptr, const CGAL::Timer &amp;timer) noexcept</td></tr>
-<tr class="memdesc:a31c09522f1cd76ef1657975118651e60"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print out runtime results including time elapsed.  <a href="#a31c09522f1cd76ef1657975118651e60">More...</a><br /></td></tr>
-<tr class="separator:a31c09522f1cd76ef1657975118651e60"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af232defb9f6b3b79f98a510bef1e94c3"><td class="memTemplParams" colspan="2">template&lt;typename T1 , typename T2 &gt; </td></tr>
+<tr class="memitem:af232defb9f6b3b79f98a510bef1e94c3"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="utilities_8h.html#af232defb9f6b3b79f98a510bef1e94c3">print_results</a> (const T1 &amp;universe_ptr, const T2 &amp;timer) noexcept</td></tr>
+<tr class="memdesc:af232defb9f6b3b79f98a510bef1e94c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print out runtime results including time elapsed.  <a href="#af232defb9f6b3b79f98a510bef1e94c3">More...</a><br /></td></tr>
+<tr class="separator:af232defb9f6b3b79f98a510bef1e94c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a74f6d79ac2a9ae485fe9951809675c65"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:a74f6d79ac2a9ae485fe9951809675c65"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="utilities_8h.html#a74f6d79ac2a9ae485fe9951809675c65">write_file</a> (const T &amp;universe_ptr, const <a class="el" href="utilities_8h.html#ad9c9232841af64b400d39d994e5564c5">topology_type</a> &amp;topology, const unsigned dimensions, const unsigned number_of_simplices, const unsigned number_of_timeslices) noexcept</td></tr>
 <tr class="memdesc:a74f6d79ac2a9ae485fe9951809675c65"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes the runtime results to a file.  <a href="#a74f6d79ac2a9ae485fe9951809675c65">More...</a><br /></td></tr>
@@ -171,16 +172,26 @@ Functions</h2></td></tr>
 <tr class="memitem:a43895b203fdb39fdeb7f485f1835bc51"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="utilities_8h.html#a43895b203fdb39fdeb7f485f1835bc51">generate_random_unsigned</a> (const unsigned min_value, const unsigned max_value) noexcept</td></tr>
 <tr class="memdesc:a43895b203fdb39fdeb7f485f1835bc51"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generate random unsigned integers.  <a href="#a43895b203fdb39fdeb7f485f1835bc51">More...</a><br /></td></tr>
 <tr class="separator:a43895b203fdb39fdeb7f485f1835bc51"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1658d2dab13ed16607bf47a55d0513d7"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="utilities_8h.html#a1658d2dab13ed16607bf47a55d0513d7">generate_random_timeslice</a> (unsigned const max_timeslice) noexcept</td></tr>
+<tr class="memdesc:a1658d2dab13ed16607bf47a55d0513d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generate a random timeslice.  <a href="#a1658d2dab13ed16607bf47a55d0513d7">More...</a><br /></td></tr>
+<tr class="separator:a1658d2dab13ed16607bf47a55d0513d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a38f78f101db43d860c23c7410c41c45b"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a38f78f101db43d860c23c7410c41c45b"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="utilities_8h.html#a38f78f101db43d860c23c7410c41c45b">generate_random_real</a> (const T min_value, const T max_value) noexcept</td></tr>
+<tr class="memdesc:a38f78f101db43d860c23c7410c41c45b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generate random real numbers.  <a href="#a38f78f101db43d860c23c7410c41c45b">More...</a><br /></td></tr>
+<tr class="separator:a38f78f101db43d860c23c7410c41c45b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a00f40321b0d644e5814ea67d4e396f"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="utilities_8h.html#a1a00f40321b0d644e5814ea67d4e396f">generate_probability</a> () noexcept</td></tr>
+<tr class="memdesc:a1a00f40321b0d644e5814ea67d4e396f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generate a random timeslice.  <a href="#a1a00f40321b0d644e5814ea67d4e396f">More...</a><br /></td></tr>
+<tr class="separator:a1a00f40321b0d644e5814ea67d4e396f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Utility functions. </p>
 <p>Causal Dynamical Triangulations in C++ using CGAL</p>
 <p>Copyright (c) 2013 Adam Getchell</p>
-<p>Utility functions for <a class="el" href="cdt_8cpp.html" title="The main body of the program. ">cdt.cpp</a> </p><dl class="done"><dt><b><a class="el" href="done.html#_done000008">Implemented To-do's:</a></b></dt><dd><p class="startdd"><a href="http://www.cprogramming.com/tutorial/const_correctness.html">Const Correctness</a> </p>
+<p>Utility functions for <a class="el" href="cdt_8cpp.html" title="The main body of the program. ">cdt.cpp</a> </p><dl class="done"><dt><b><a class="el" href="done.html#_done000007">Implemented To-do's:</a></b></dt><dd><p class="startdd"><a href="http://www.cprogramming.com/tutorial/const_correctness.html">Const Correctness</a> </p>
 <p class="enddd">Use localtime_r() for thread safety </p>
 </dd></dl>
 <dl class="section author"><dt>Author</dt><dd>Adam Getchell </dd></dl>
-<dl class="bug"><dt><b><a class="el" href="bug.html#_bug000008">Bug:</a></b></dt><dd><a href="http://clang-analyzer.llvm.org/scan-build.html">scan-build</a>: No bugs found. </dd></dl>
+<dl class="bug"><dt><b><a class="el" href="bug.html#_bug000007">Bug:</a></b></dt><dd><a href="http://clang-analyzer.llvm.org/scan-build.html">scan-build</a>: No bugs found. </dd></dl>
 </div><h2 class="groupheader">Enumeration Type Documentation</h2>
 <a class="anchor" id="afacb89cb65e7bc872a93079c927634c9"></a>
 <div class="memitem">
@@ -309,6 +320,114 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A filename as a std::string </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a1a00f40321b0d644e5814ea67d4e396f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto generate_probability </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Generate a random timeslice. </p>
+<p>This function generates a probability using <b><a class="el" href="utilities_8h.html#a38f78f101db43d860c23c7410c41c45b" title="Generate random real numbers. ">generate_random_real()</a></b>.</p>
+<dl class="section return"><dt>Returns</dt><dd>A probability from 0 to 1 </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a38f78f101db43d860c23c7410c41c45b"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto generate_random_real </td>
+          <td>(</td>
+          <td class="paramtype">const T&#160;</td>
+          <td class="paramname"><em>min_value</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const T&#160;</td>
+          <td class="paramname"><em>max_value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Generate random real numbers. </p>
+<p>This function generates a random real number from [min_value, max_value] using a non-deterministic random number generator, if supported. There may be exceptions thrown if a random device is not available. See: <a href="http://www.cplusplus.com/reference/random/random_device/">http://www.cplusplus.com/reference/random/random_device/</a> for more details.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">min_value</td><td>The minimum value in the range </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">max_value</td><td>The maximum value in the range </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A random real number between min_value and max_value, inclusive </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a1658d2dab13ed16607bf47a55d0513d7"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto generate_random_timeslice </td>
+          <td>(</td>
+          <td class="paramtype">unsigned const&#160;</td>
+          <td class="paramname"><em>max_timeslice</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Generate a random timeslice. </p>
+<p>This function generates a random timeslice using <b><a class="el" href="utilities_8h.html#a43895b203fdb39fdeb7f485f1835bc51" title="Generate random unsigned integers. ">generate_random_unsigned()</a></b>. Timeslices go from 1 to max_timeslice.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">max_timeslice</td><td>The maximum timeslice </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A random timeslice from 1 to max_timeslice </dd></dl>
 
 </div>
 </div>
@@ -453,11 +572,11 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a31c09522f1cd76ef1657975118651e60"></a>
+<a class="anchor" id="af232defb9f6b3b79f98a510bef1e94c3"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T &gt; </div>
+template&lt;typename T1 , typename T2 &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -465,13 +584,13 @@ template&lt;typename T &gt; </div>
         <tr>
           <td class="memname">void print_results </td>
           <td>(</td>
-          <td class="paramtype">const T &amp;&#160;</td>
+          <td class="paramtype">const T1 &amp;&#160;</td>
           <td class="paramname"><em>universe_ptr</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const CGAL::Timer &amp;&#160;</td>
+          <td class="paramtype">const T2 &amp;&#160;</td>
           <td class="paramname"><em>timer</em>&#160;</td>
         </tr>
         <tr>
@@ -569,7 +688,7 @@ template&lt;typename T &gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Sep 23 2015 04:01:19 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon Oct 12 2015 17:01:52 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.10
 </small></address>

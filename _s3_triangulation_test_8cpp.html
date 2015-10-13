@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.10"/>
-<title>CDT++: src/parallel_insertion_in_delaunay_3.cpp File Reference</title>
+<title>CDT++: unittests/S3TriangulationTest.cpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -89,51 +89,118 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_bf98ff0daefb3983824d395793f723ed.html">unittests</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
   <div class="summary">
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">parallel_insertion_in_delaunay_3.cpp File Reference</div>  </div>
+<div class="title">S3TriangulationTest.cpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p><a href="http://doc.cgal.org/latest/Triangulation_3/Triangulation_3_2parallel_insertion_in_delaunay_3_8cpp-example.html">http://doc.cgal.org/latest/Triangulation_3/Triangulation_3_2parallel_insertion_in_delaunay_3_8cpp-example.html</a>  
+<p>Tests for correctly foliated triangulations.  
 <a href="#details">More...</a></p>
-<div class="textblock"><code>#include &lt;CGAL/Exact_predicates_inexact_constructions_kernel.h&gt;</code><br />
-<code>#include &lt;CGAL/Delaunay_triangulation_3.h&gt;</code><br />
-<code>#include &lt;CGAL/point_generators_3.h&gt;</code><br />
-<code>#include &lt;iostream&gt;</code><br />
-<code>#include &lt;fstream&gt;</code><br />
-<code>#include &lt;vector&gt;</code><br />
+<div class="textblock"><code>#include &quot;gmock/gmock.h&quot;</code><br />
+<code>#include &quot;<a class="el" href="_s3_triangulation_8h_source.html">S3Triangulation.h</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
-Include dependency graph for parallel_insertion_in_delaunay_3.cpp:</div>
+Include dependency graph for S3TriangulationTest.cpp:</div>
 <div class="dyncontent">
-<div class="center"><img src="parallel__insertion__in__delaunay__3_8cpp__incl.png" border="0" usemap="#src_2parallel__insertion__in__delaunay__3_8cpp" alt=""/></div>
-<map name="src_2parallel__insertion__in__delaunay__3_8cpp" id="src_2parallel__insertion__in__delaunay__3_8cpp">
+<div class="center"><img src="_s3_triangulation_test_8cpp__incl.png" border="0" usemap="#unittests_2_s3_triangulation_test_8cpp" alt=""/></div>
+<map name="unittests_2_s3_triangulation_test_8cpp" id="unittests_2_s3_triangulation_test_8cpp">
+<area shape="rect" id="node3" href="_s3_triangulation_8h.html" title="S3Triangulation.h" alt="" coords="1115,92,1240,117"/>
 </map>
 </div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ae66f6b31b5ad750f1fe042a706a4e3d4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="parallel__insertion__in__delaunay__3_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a> ()</td></tr>
-<tr class="separator:ae66f6b31b5ad750f1fe042a706a4e3d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3afa00e1d44713d4c49757841a5ebbe6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_s3_triangulation_test_8cpp.html#a3afa00e1d44713d4c49757841a5ebbe6">TEST</a> (S3Triangulation, CreateWithUniquePtr)</td></tr>
+<tr class="separator:a3afa00e1d44713d4c49757841a5ebbe6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a17e189dcf0b7465d75a1a27506234c30"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_s3_triangulation_test_8cpp.html#a17e189dcf0b7465d75a1a27506234c30">TEST</a> (S3Triangulation, CreatesFoliatedWithTwoTimeslices)</td></tr>
+<tr class="separator:a17e189dcf0b7465d75a1a27506234c30"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d373f086aaa072c962848d884f2107f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_s3_triangulation_test_8cpp.html#a6d373f086aaa072c962848d884f2107f">TEST</a> (S3Triangulation, CreateWithLotsOfSimplices)</td></tr>
+<tr class="separator:a6d373f086aaa072c962848d884f2107f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p><a href="http://doc.cgal.org/latest/Triangulation_3/Triangulation_3_2parallel_insertion_in_delaunay_3_8cpp-example.html">http://doc.cgal.org/latest/Triangulation_3/Triangulation_3_2parallel_insertion_in_delaunay_3_8cpp-example.html</a> </p>
-<p>Test case for parallelism using TBB </p>
+<div class="textblock"><p>Tests for correctly foliated triangulations. </p>
+<p>Causal Dynamical Triangulations in C++ using CGAL</p>
+<p>Copyright (c) 2015 Adam Getchell</p>
+<p>Tests that foliated tetrahedrons are constructed correctly in a Delaunay triangulation. </p><dl class="section author"><dt>Author</dt><dd>Adam Getchell </dd></dl>
+<dl class="bug"><dt><b><a class="el" href="bug.html#_bug000012">Bug:</a></b></dt><dd><a href="http://clang-analyzer.llvm.org/scan-build.html">scan-build</a>: No bugs found. </dd></dl>
 </div><h2 class="groupheader">Function Documentation</h2>
-<a class="anchor" id="ae66f6b31b5ad750f1fe042a706a4e3d4"></a>
+<a class="anchor" id="a3afa00e1d44713d4c49757841a5ebbe6"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int main </td>
+          <td class="memname">TEST </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">S3Triangulation&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">CreateWithUniquePtr&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a17e189dcf0b7465d75a1a27506234c30"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TEST </td>
+          <td>(</td>
+          <td class="paramtype">S3Triangulation&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">CreatesFoliatedWithTwoTimeslices&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a6d373f086aaa072c962848d884f2107f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TEST </td>
+          <td>(</td>
+          <td class="paramtype">S3Triangulation&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">CreateWithLotsOfSimplices&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -143,7 +210,7 @@ Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Sep 23 2015 04:01:19 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon Oct 12 2015 17:01:52 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.10
 </small></address>

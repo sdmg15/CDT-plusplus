@@ -94,9 +94,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#typedef-members">Typedefs</a> &#124;
-<a href="#func-members">Functions</a> &#124;
-<a href="#var-members">Variables</a>  </div>
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">S3ErgodicMoves.h File Reference</div>  </div>
 </div><!--header-->
@@ -104,9 +102,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 
 <p>Pachner moves on 3D Delaunay Triangulations.  
 <a href="#details">More...</a></p>
-<div class="textblock"><code>#include &quot;<a class="el" href="_spherical_triangulation_8h_source.html">SphericalTriangulation.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="_s3_triangulation_8h_source.html">S3Triangulation.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="utilities_8h_source.html">Utilities.h</a>&quot;</code><br />
-<code>#include &lt;CGAL/Gmpzf.h&gt;</code><br />
+<code>#include &lt;CGAL/barycenter.h&gt;</code><br />
 <code>#include &lt;vector&gt;</code><br />
 <code>#include &lt;utility&gt;</code><br />
 <code>#include &lt;algorithm&gt;</code><br />
@@ -116,8 +114,8 @@ Include dependency graph for S3ErgodicMoves.h:</div>
 <div class="dyncontent">
 <div class="center"><img src="_s3_ergodic_moves_8h__incl.png" border="0" usemap="#src_2_s3_ergodic_moves_8h" alt=""/></div>
 <map name="src_2_s3_ergodic_moves_8h" id="src_2_s3_ergodic_moves_8h">
-<area shape="rect" id="node2" href="_spherical_triangulation_8h.html" title="Functions on Spherical Delaunay Triangulations. " alt="" coords="829,79,993,104"/>
-<area shape="rect" id="node14" href="utilities_8h.html" title="Utility functions. " alt="" coords="1670,79,1746,104"/>
+<area shape="rect" id="node2" href="_s3_triangulation_8h.html" title="S3Triangulation.h" alt="" coords="1176,79,1302,104"/>
+<area shape="rect" id="node15" href="utilities_8h.html" title="Utility functions. " alt="" coords="1804,79,1880,104"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
@@ -131,19 +129,8 @@ This graph shows which files directly or indirectly include this file:</div>
 </div>
 <p><a href="_s3_ergodic_moves_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
-Typedefs</h2></td></tr>
-<tr class="memitem:ab09035cfa5e10fa4ee88d95ef5fa7ac5"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_s3_ergodic_moves_8h.html#ab09035cfa5e10fa4ee88d95ef5fa7ac5">Gmpzf</a> = CGAL::Gmpzf</td></tr>
-<tr class="separator:ab09035cfa5e10fa4ee88d95ef5fa7ac5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a12eb5718592a9ff34f62736e40b8cdfb"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_s3_ergodic_moves_8h.html#a12eb5718592a9ff34f62736e40b8cdfb">average_coordinates</a> (const long double c1, const long double c2, const long double c3) noexcept</td></tr>
-<tr class="memdesc:a12eb5718592a9ff34f62736e40b8cdfb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Average points with full <b>PRECISION</b>-bits.  <a href="#a12eb5718592a9ff34f62736e40b8cdfb">More...</a><br /></td></tr>
-<tr class="separator:a12eb5718592a9ff34f62736e40b8cdfb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1658d2dab13ed16607bf47a55d0513d7"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_s3_ergodic_moves_8h.html#a1658d2dab13ed16607bf47a55d0513d7">generate_random_timeslice</a> (unsigned const max_timeslice) noexcept</td></tr>
-<tr class="memdesc:a1658d2dab13ed16607bf47a55d0513d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generate a random timeslice.  <a href="#a1658d2dab13ed16607bf47a55d0513d7">More...</a><br /></td></tr>
-<tr class="separator:a1658d2dab13ed16607bf47a55d0513d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae00887b75764fb53ef3de0561311a135"><td class="memTemplParams" colspan="2">template&lt;typename T1 , typename T2 &gt; </td></tr>
 <tr class="memitem:ae00887b75764fb53ef3de0561311a135"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="_s3_ergodic_moves_8h.html#ae00887b75764fb53ef3de0561311a135">make_23_move</a> (T1 &amp;&amp;universe_ptr, T2 &amp;&amp;simplex_types) noexcept-&gt; decltype(universe_ptr)</td></tr>
 <tr class="memdesc:ae00887b75764fb53ef3de0561311a135"><td class="mdescLeft">&#160;</td><td class="mdescRight">Make a (2,3) move.  <a href="#ae00887b75764fb53ef3de0561311a135">More...</a><br /></td></tr>
@@ -158,6 +145,14 @@ Functions</h2></td></tr>
 <tr class="memitem:a5a98b7837202111eeb52504c82cdb323"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_s3_ergodic_moves_8h.html#a5a98b7837202111eeb52504c82cdb323">find_26_movable</a> (const <a class="el" href="container__test_8cpp.html#aeed6d966b9e9704e557321b5422a10e6">Cell_handle</a> c, unsigned *n) noexcept</td></tr>
 <tr class="memdesc:a5a98b7837202111eeb52504c82cdb323"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find a (2,6) move.  <a href="#a5a98b7837202111eeb52504c82cdb323">More...</a><br /></td></tr>
 <tr class="separator:a5a98b7837202111eeb52504c82cdb323"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace1b0b5a1b33f62d5c36b9f40240b5d7"><td class="memTemplParams" colspan="2">template&lt;typename T1 , typename T2 &gt; </td></tr>
+<tr class="memitem:ace1b0b5a1b33f62d5c36b9f40240b5d7"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="_s3_ergodic_moves_8h.html#ace1b0b5a1b33f62d5c36b9f40240b5d7">make_26_move</a> (T1 &amp;&amp;universe_ptr, T2 &amp;&amp;simplex_types) noexcept-&gt; decltype(universe_ptr)</td></tr>
+<tr class="memdesc:ace1b0b5a1b33f62d5c36b9f40240b5d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert (1,3) and (3,1) into 3 (1,3)s and 3 (3,1)s.  <a href="#ace1b0b5a1b33f62d5c36b9f40240b5d7">More...</a><br /></td></tr>
+<tr class="separator:ace1b0b5a1b33f62d5c36b9f40240b5d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a30566a17c17290f0d4839a407ae12440"><td class="memTemplParams" colspan="2">template&lt;typename T1 , typename T2 &gt; </td></tr>
+<tr class="memitem:a30566a17c17290f0d4839a407ae12440"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="_s3_ergodic_moves_8h.html#a30566a17c17290f0d4839a407ae12440">make_62_move</a> (T1 &amp;&amp;universe_ptr, T2 &amp;&amp;simplex_types) noexcept-&gt; decltype(universe_ptr)</td></tr>
+<tr class="memdesc:a30566a17c17290f0d4839a407ae12440"><td class="mdescLeft">&#160;</td><td class="mdescRight">Make a (6,2) move.  <a href="#a30566a17c17290f0d4839a407ae12440">More...</a><br /></td></tr>
+<tr class="separator:a30566a17c17290f0d4839a407ae12440"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a61737d214222310da6e30fcbff0b9c60"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_s3_ergodic_moves_8h.html#a61737d214222310da6e30fcbff0b9c60">find_disjoint_index</a> (<a class="el" href="container__test_8cpp.html#aeed6d966b9e9704e557321b5422a10e6">Cell_handle</a> const first, <a class="el" href="container__test_8cpp.html#aeed6d966b9e9704e557321b5422a10e6">Cell_handle</a> const second) noexcept</td></tr>
 <tr class="memdesc:a61737d214222310da6e30fcbff0b9c60"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds the disjoint index.  <a href="#a61737d214222310da6e30fcbff0b9c60">More...</a><br /></td></tr>
 <tr class="separator:a61737d214222310da6e30fcbff0b9c60"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -169,105 +164,25 @@ Functions</h2></td></tr>
 <tr class="memitem:a671a9bcb3dd9a3388a5cb88b139946ff"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_s3_ergodic_moves_8h.html#a671a9bcb3dd9a3388a5cb88b139946ff">set_adjacencies</a> (<a class="el" href="cdt-gv_8cpp.html#aa737d424de730275a305a1c9ff28836d">Delaunay</a> *const D3, std::vector&lt; std::pair&lt; <a class="el" href="container__test_8cpp.html#aeed6d966b9e9704e557321b5422a10e6">Cell_handle</a>, <a class="el" href="container__test_8cpp.html#aeed6d966b9e9704e557321b5422a10e6">Cell_handle</a> &gt;&gt; const adjacency_vector) noexcept</td></tr>
 <tr class="memdesc:a671a9bcb3dd9a3388a5cb88b139946ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set pairs of cells to be each others neighbors.  <a href="#a671a9bcb3dd9a3388a5cb88b139946ff">More...</a><br /></td></tr>
 <tr class="separator:a671a9bcb3dd9a3388a5cb88b139946ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8b186e8fbe128b4684fc678e2f569252"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_s3_ergodic_moves_8h.html#a8b186e8fbe128b4684fc678e2f569252">move_26</a> (<a class="el" href="cdt-gv_8cpp.html#aa737d424de730275a305a1c9ff28836d">Delaunay</a> *const D3, <a class="el" href="container__test_8cpp.html#aeed6d966b9e9704e557321b5422a10e6">Cell_handle</a> bottom, <a class="el" href="container__test_8cpp.html#aeed6d966b9e9704e557321b5422a10e6">Cell_handle</a> top) noexcept</td></tr>
-<tr class="memdesc:a8b186e8fbe128b4684fc678e2f569252"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert (1,3) and (3,1) into 3 (1,3)s and 3 (3,1)s.  <a href="#a8b186e8fbe128b4684fc678e2f569252">More...</a><br /></td></tr>
-<tr class="separator:a8b186e8fbe128b4684fc678e2f569252"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3b5782ac612d259d22558a1da8eed0f9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_s3_ergodic_moves_8h.html#a3b5782ac612d259d22558a1da8eed0f9">make_26_move</a> (<a class="el" href="cdt-gv_8cpp.html#aa737d424de730275a305a1c9ff28836d">Delaunay</a> *const D3, std::vector&lt; <a class="el" href="container__test_8cpp.html#aeed6d966b9e9704e557321b5422a10e6">Cell_handle</a> &gt; *const one_three) noexcept</td></tr>
-<tr class="memdesc:a3b5782ac612d259d22558a1da8eed0f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Make a (2,6) move.  <a href="#a3b5782ac612d259d22558a1da8eed0f9">More...</a><br /></td></tr>
-<tr class="separator:a3b5782ac612d259d22558a1da8eed0f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae51f4d18259c5fb9725bd6955c946e9b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_s3_ergodic_moves_8h.html#ae51f4d18259c5fb9725bd6955c946e9b">make_62_move</a> (<a class="el" href="cdt-gv_8cpp.html#aa737d424de730275a305a1c9ff28836d">Delaunay</a> *const D3, std::vector&lt; <a class="el" href="container__test_8cpp.html#a810e689a92350f09cd11cf40dac748a5">Vertex_handle</a> &gt; *const vertices) noexcept</td></tr>
-<tr class="memdesc:ae51f4d18259c5fb9725bd6955c946e9b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Make a (6,2) move.  <a href="#ae51f4d18259c5fb9725bd6955c946e9b">More...</a><br /></td></tr>
-<tr class="separator:ae51f4d18259c5fb9725bd6955c946e9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
-Variables</h2></td></tr>
-<tr class="memitem:a671b693b663f7061730cc535251feb95"><td class="memItemLeft" align="right" valign="top">static constexpr unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_s3_ergodic_moves_8h.html#a671b693b663f7061730cc535251feb95">PRECISION</a> = 256</td></tr>
-<tr class="memdesc:a671b693b663f7061730cc535251feb95"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the precision for <a href="http://www.mpfr.org">MPFR</a>.  <a href="#a671b693b663f7061730cc535251feb95">More...</a><br /></td></tr>
-<tr class="separator:a671b693b663f7061730cc535251feb95"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Pachner moves on 3D Delaunay Triangulations. </p>
 <p>Causal Dynamical Triangulations in C++ using CGAL</p>
 <p>Copyright (c) 2014, 2015 Adam Getchell</p>
-<p>Performs ergodic moves on S3 (2+1) spacetimes.</p>
+<p>Performs the 5 types of ergodic moves on S3 (2+1) spacetimes.</p>
 <dl class="done"><dt><b><a class="el" href="done.html#_done000005">Implemented To-do's:</a></b></dt><dd><p class="startdd">(2,3) move </p>
 <p>(3,2) move </p>
 <p><a href="http://www.cprogramming.com/tutorial/const_correctness.html">Const Correctness</a> </p>
-<p class="enddd">Complete function documentation </p>
+<p>Complete function documentation </p>
+<p class="enddd">(2,6) move </p>
 </dd></dl>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000005">Todo:</a></b></dt><dd><p class="startdd">(2,6) move </p>
-<p>(6,2) move </p>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000005">Todo:</a></b></dt><dd><p class="startdd">(6,2) move </p>
 <p>(4,4) move </p>
 <p class="enddd">Multi-threaded operations using Intel TBB </p>
 </dd></dl>
 <dl class="section author"><dt>Author</dt><dd>Adam Getchell </dd></dl>
 <dl class="bug"><dt><b><a class="el" href="bug.html#_bug000004">Bug:</a></b></dt><dd><a href="http://clang-analyzer.llvm.org/scan-build.html">scan-build</a>: No bugs found. </dd></dl>
-</div><h2 class="groupheader">Typedef Documentation</h2>
-<a class="anchor" id="ab09035cfa5e10fa4ee88d95ef5fa7ac5"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="_s3_action_8h.html#ab09035cfa5e10fa4ee88d95ef5fa7ac5">Gmpzf</a> =  CGAL::Gmpzf</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Results are converted to a CGAL multi-precision floating point number. Gmpzf itself is based on GMP (<a href="https://gmplib.org">https://gmplib.org</a>), as is MPFR. </p>
-
-</div>
-</div>
-<h2 class="groupheader">Function Documentation</h2>
-<a class="anchor" id="a12eb5718592a9ff34f62736e40b8cdfb"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">auto average_coordinates </td>
-          <td>(</td>
-          <td class="paramtype">const long double&#160;</td>
-          <td class="paramname"><em>c1</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const long double&#160;</td>
-          <td class="paramname"><em>c2</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const long double&#160;</td>
-          <td class="paramname"><em>c3</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Average points with full <b>PRECISION</b>-bits. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">c1</td><td>The first coordinate to be averaged </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">c2</td><td>The second coordinate to be averaged </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">c3</td><td>The third coordinate to be averaged </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>The average of the coordinates </dd></dl>
-
-</div>
-</div>
+</div><h2 class="groupheader">Function Documentation</h2>
 <a class="anchor" id="afa25341a3340822bb06b27c54c16d1e8"></a>
 <div class="memitem">
 <div class="memproto">
@@ -409,40 +324,6 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a1658d2dab13ed16607bf47a55d0513d7"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">auto generate_random_timeslice </td>
-          <td>(</td>
-          <td class="paramtype">unsigned const&#160;</td>
-          <td class="paramname"><em>max_timeslice</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Generate a random timeslice. </p>
-<p>This function generates a random timeslice using <b><a class="el" href="utilities_8h.html#a43895b203fdb39fdeb7f485f1835bc51" title="Generate random unsigned integers. ">generate_random_unsigned()</a></b>. Timeslices go from 1 to max_timeslice.</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">max_timeslice</td><td>The maximum timeslice </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>A random timeslice from 1 to max_timeslice </dd></dl>
-
-</div>
-</div>
 <a class="anchor" id="a21a4e5ebb80cb2f646ee61c991ef0f23"></a>
 <div class="memitem">
 <div class="memproto">
@@ -531,33 +412,35 @@ template&lt;typename T1 , typename T2 &gt; </div>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>universe_ptr A std::unique_ptr to the Delaunay triangulation </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>universe_ptr A std::unique_ptr to the Delaunay triangulation after the move has been made </dd></dl>
 
 </div>
 </div>
-<a class="anchor" id="a3b5782ac612d259d22558a1da8eed0f9"></a>
+<a class="anchor" id="ace1b0b5a1b33f62d5c36b9f40240b5d7"></a>
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;typename T1 , typename T2 &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void make_26_move </td>
+          <td class="memname">auto make_26_move </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="cdt-gv_8cpp.html#aa737d424de730275a305a1c9ff28836d">Delaunay</a> *const&#160;</td>
-          <td class="paramname"><em>D3</em>, </td>
+          <td class="paramtype">T1 &amp;&amp;&#160;</td>
+          <td class="paramname"><em>universe_ptr</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::vector&lt; <a class="el" href="container__test_8cpp.html#aeed6d966b9e9704e557321b5422a10e6">Cell_handle</a> &gt; *const&#160;</td>
-          <td class="paramname"><em>one_three</em>&#160;</td>
+          <td class="paramtype">T2 &amp;&amp;&#160;</td>
+          <td class="paramname"><em>simplex_types</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td></td>
+          <td></td><td> -&gt; decltype(universe_ptr) </td>
         </tr>
       </table>
   </td>
@@ -567,12 +450,16 @@ template&lt;typename T1 , typename T2 &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Make a (2,6) move. </p>
-<p>This function performs the (2,6) move by picking a (1,3) simplex and then checking that the spacelike face has an opposing (3,1) simplex. This is done using the <b><a class="el" href="_s3_ergodic_moves_8h.html#a5a98b7837202111eeb52504c82cdb323" title="Find a (2,6) move. ">find_26_movable()</a></b> function, which in addition to returning a boolean value also has an out parameter which is the unsigned index of the first (3,1) neighbor that <b><a class="el" href="_s3_ergodic_moves_8h.html#a5a98b7837202111eeb52504c82cdb323" title="Find a (2,6) move. ">find_26_movable()</a></b> finds. The actual move is performed by <b><a class="el" href="_s3_ergodic_moves_8h.html#a8b186e8fbe128b4684fc678e2f569252" title="Convert (1,3) and (3,1) into 3 (1,3)s and 3 (3,1)s. ">move_26()</a></b>.</p>
-<dl class="params"><dt>Parameters</dt><dd>
+<p>Convert (1,3) and (3,1) into 3 (1,3)s and 3 (3,1)s. </p>
+<p>This function performs the (2,6) move by picking a random (1,3) simplex from <b>simplex_types</b>. The <b><a class="el" href="_s3_ergodic_moves_8h.html#a5a98b7837202111eeb52504c82cdb323" title="Find a (2,6) move. ">find_26_movable()</a></b> function finds the index of the neighboring (3,1) simplex, <b>neighboring_31_index</b>, and <b>has_neighbor()</b> is used to check the results.</p>
+<p>After some other values are gathered for debugging purposes, the <b>v_center</b> vertex is inserted into the facet delineated by <b>neighboring_31_index</b> using <b>tds().insert_in_facet()</b>. Finally, the centroid of the common face calculated using <b>CGAL::centroid()</b> and assigned to <b>v_center</b>, along with a timevalue taken from one of the vertices of the common face.</p>
+<div class="image">
+<img src="26.png" alt="26.png"/>
+</div>
+ <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in,out]</td><td class="paramname">D3</td><td>The Delaunay triangulation </td></tr>
-    <tr><td class="paramdir">[in,out]</td><td class="paramname">one_three</td><td>A list of (1,3) simplices to attempt move on </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">universe_ptr</td><td>A std::unique_ptr to the Delaunay triangulation </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">simplex_types</td><td>A tuple of vectors of (3,1),(2,2), and (1,3) simplices </td></tr>
   </table>
   </dd>
 </dl>
@@ -617,37 +504,40 @@ template&lt;typename T1 , typename T2 &gt; </div>
 <p>This function performs the (3,2) move by converting a timelike edge from the vector <b>timelike_edges</b> into its dual facet.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in,out]</td><td class="paramname">D3</td><td>The Delaunay triangulation </td></tr>
-    <tr><td class="paramdir">[in,out]</td><td class="paramname">timelike_edges</td><td>Timelike edges to pick to attempt move </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">universe_ptr</td><td>A std::unique_ptr to the Delaunay triangulation </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">edge_types</td><td>A pair&lt;vector&lt;Edge_tuple&gt;, unsigned&gt; holding the timelike edges and a count of the spacelike edges </td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>universe_ptr A std::unique_ptr to the Delaunay triangulation after the move has been made </dd></dl>
 
 </div>
 </div>
-<a class="anchor" id="ae51f4d18259c5fb9725bd6955c946e9b"></a>
+<a class="anchor" id="a30566a17c17290f0d4839a407ae12440"></a>
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;typename T1 , typename T2 &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void make_62_move </td>
+          <td class="memname">auto make_62_move </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="cdt-gv_8cpp.html#aa737d424de730275a305a1c9ff28836d">Delaunay</a> *const&#160;</td>
-          <td class="paramname"><em>D3</em>, </td>
+          <td class="paramtype">T1 &amp;&amp;&#160;</td>
+          <td class="paramname"><em>universe_ptr</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::vector&lt; <a class="el" href="container__test_8cpp.html#a810e689a92350f09cd11cf40dac748a5">Vertex_handle</a> &gt; *const&#160;</td>
-          <td class="paramname"><em>vertices</em>&#160;</td>
+          <td class="paramtype">T2 &amp;&amp;&#160;</td>
+          <td class="paramname"><em>simplex_types</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td></td>
+          <td></td><td> -&gt; decltype(universe_ptr) </td>
         </tr>
       </table>
   </td>
@@ -661,66 +551,8 @@ template&lt;typename T1 , typename T2 &gt; </div>
 <p>This function performs the (6,2) move by removing a vertex that has 3 (1,3) and 3 (3,1) simplices around it</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in,out]</td><td class="paramname">D3</td><td>The Delaunay triangulation </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">vertices</td><td>Vertices to pick to attempt move </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a class="anchor" id="a8b186e8fbe128b4684fc678e2f569252"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void move_26 </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="cdt-gv_8cpp.html#aa737d424de730275a305a1c9ff28836d">Delaunay</a> *const&#160;</td>
-          <td class="paramname"><em>D3</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="container__test_8cpp.html#aeed6d966b9e9704e557321b5422a10e6">Cell_handle</a>&#160;</td>
-          <td class="paramname"><em>bottom</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="container__test_8cpp.html#aeed6d966b9e9704e557321b5422a10e6">Cell_handle</a>&#160;</td>
-          <td class="paramname"><em>top</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Convert (1,3) and (3,1) into 3 (1,3)s and 3 (3,1)s. </p>
-<p>This function takes in a (1,3) and its neighboring (3,1), finding <b>common_face_index</b> using <b>has_neighbor()</b>. The points of the common face are then averaged to get their center. A new vertex, <b>v_center</b>, is inserted there. <b>v_center</b> is then assigned an incident cell with <b>set_cell()</b>.</p>
-<p>Next, the neighbors of the (1,3) and (3,1) are obtained.</p>
-<p>The new cells are created with <b>v_center</b> and either <b>v_top</b> or <b>v_bottom</b>, plus 2 of {v1, v2, v3}. The correct adjacency relationships with the neighbors and each other are then set with <b>set_adjacency</b>.</p>
-<p>The incident cell for each vertex must be set, again with <b>set_cell</b>.</p>
-<p>Finally, the orientations of each cell are checked, and fixed with <b><a class="el" href="_s3_ergodic_moves_8h.html#afa25341a3340822bb06b27c54c16d1e8" title="Change orientation of a cell. ">change_orientation()</a></b>, an undocumented CGAL function which swaps indices 0 and 1.</p>
-<div class="image">
-<img src="26.png" alt="26.png"/>
-</div>
- <dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in,out]</td><td class="paramname">D3</td><td>The Delaunay triangulation </td></tr>
-    <tr><td class="paramdir">[in,out]</td><td class="paramname">bottom</td><td>The (1,3) simplex that will be split </td></tr>
-    <tr><td class="paramdir">[in,out]</td><td class="paramname">top</td><td>The (3,1) simplex that will be split </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">universe_ptr</td><td>A std::unique_ptr to the Delaunay triangulation </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">simplex_types</td><td>A tuple of vectors of (3,1),(2,2), and (1,3) simplices </td></tr>
   </table>
   </dd>
 </dl>
@@ -770,33 +602,10 @@ template&lt;typename T1 , typename T2 &gt; </div>
 
 </div>
 </div>
-<h2 class="groupheader">Variable Documentation</h2>
-<a class="anchor" id="a671b693b663f7061730cc535251feb95"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">constexpr unsigned PRECISION = 256</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Sets the precision for <a href="http://www.mpfr.org">MPFR</a>. </p>
-
-</div>
-</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Sep 23 2015 04:01:19 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon Oct 12 2015 17:01:52 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.10
 </small></address>
