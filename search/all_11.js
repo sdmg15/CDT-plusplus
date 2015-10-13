@@ -11,7 +11,6 @@ var searchData=
   ['s3ergodicmovestest_2ecpp',['S3ErgodicMovesTest.cpp',['../_s3_ergodic_moves_test_8cpp.html',1,'']]],
   ['s3triangulation_2eh',['S3Triangulation.h',['../_s3_triangulation_8h.html',1,'']]],
   ['s3triangulationtest_2ecpp',['S3TriangulationTest.cpp',['../_s3_triangulation_test_8cpp.html',1,'']]],
-  ['set_5fadjacencies',['set_adjacencies',['../_s3_ergodic_moves_8h.html#a671a9bcb3dd9a3388a5cb88b139946ff',1,'S3ErgodicMoves.h']]],
   ['setchildren',['setChildren',['../classdocopt_1_1_branch_pattern.html#a1b4609af47df9ebba57067e2cb5d762d',1,'docopt::BranchPattern']]],
   ['setup',['SetUp',['../class_s3_action.html#a1a21c64c5374cfab5d7d0fe8a01d6823',1,'S3Action::SetUp()'],['../class_s3_ergodic_moves.html#ac635321bd497d5077b3cab1ea976c0f6',1,'S3ErgodicMoves::SetUp()'],['../class_minimal26_test.html#a58ea1fb6d689d8a39790bee7fae84c70',1,'Minimal26Test::SetUp()'],['../class_minimal62_test.html#aa543f3aaf583b8fdf1de67c0d8afb7e7',1,'Minimal62Test::SetUp()'],['../class_tetrahedron.html#a89b6a885a34239c4a511e9a67e4cf5b9',1,'Tetrahedron::SetUp()'],['../class_foliated_tetrahedron.html#a256fb1c6ff586b05c486918be164727b',1,'FoliatedTetrahedron::SetUp()']]],
   ['setvalue',['setValue',['../classdocopt_1_1_leaf_pattern.html#a44655164a427a6f6e0d98f1f30a88bac',1,'docopt::LeafPattern']]],

@@ -114,7 +114,7 @@ Include dependency graph for S3ErgodicMoves.h:</div>
 <div class="dyncontent">
 <div class="center"><img src="_s3_ergodic_moves_8h__incl.png" border="0" usemap="#src_2_s3_ergodic_moves_8h" alt=""/></div>
 <map name="src_2_s3_ergodic_moves_8h" id="src_2_s3_ergodic_moves_8h">
-<area shape="rect" id="node2" href="_s3_triangulation_8h.html" title="S3Triangulation.h" alt="" coords="1176,79,1302,104"/>
+<area shape="rect" id="node2" href="_s3_triangulation_8h.html" title="Functions on Spherical Delaunay Triangulations. " alt="" coords="1176,79,1302,104"/>
 <area shape="rect" id="node15" href="utilities_8h.html" title="Utility functions. " alt="" coords="1804,79,1880,104"/>
 </map>
 </div>
@@ -153,17 +153,6 @@ Functions</h2></td></tr>
 <tr class="memitem:a30566a17c17290f0d4839a407ae12440"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="_s3_ergodic_moves_8h.html#a30566a17c17290f0d4839a407ae12440">make_62_move</a> (T1 &amp;&amp;universe_ptr, T2 &amp;&amp;simplex_types) noexcept-&gt; decltype(universe_ptr)</td></tr>
 <tr class="memdesc:a30566a17c17290f0d4839a407ae12440"><td class="mdescLeft">&#160;</td><td class="mdescRight">Make a (6,2) move.  <a href="#a30566a17c17290f0d4839a407ae12440">More...</a><br /></td></tr>
 <tr class="separator:a30566a17c17290f0d4839a407ae12440"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a61737d214222310da6e30fcbff0b9c60"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_s3_ergodic_moves_8h.html#a61737d214222310da6e30fcbff0b9c60">find_disjoint_index</a> (<a class="el" href="container__test_8cpp.html#aeed6d966b9e9704e557321b5422a10e6">Cell_handle</a> const first, <a class="el" href="container__test_8cpp.html#aeed6d966b9e9704e557321b5422a10e6">Cell_handle</a> const second) noexcept</td></tr>
-<tr class="memdesc:a61737d214222310da6e30fcbff0b9c60"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds the disjoint index.  <a href="#a61737d214222310da6e30fcbff0b9c60">More...</a><br /></td></tr>
-<tr class="separator:a61737d214222310da6e30fcbff0b9c60"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0cc61ace23b9bbfe8f1c4be287287d5f"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_s3_ergodic_moves_8h.html#a0cc61ace23b9bbfe8f1c4be287287d5f">check_orientation</a> (<a class="el" href="container__test_8cpp.html#aeed6d966b9e9704e557321b5422a10e6">Cell_handle</a> const c) noexcept</td></tr>
-<tr class="separator:a0cc61ace23b9bbfe8f1c4be287287d5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afa25341a3340822bb06b27c54c16d1e8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_s3_ergodic_moves_8h.html#afa25341a3340822bb06b27c54c16d1e8">change_orientation</a> (<a class="el" href="container__test_8cpp.html#aeed6d966b9e9704e557321b5422a10e6">Cell_handle</a> const c) noexcept</td></tr>
-<tr class="memdesc:afa25341a3340822bb06b27c54c16d1e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Change orientation of a cell.  <a href="#afa25341a3340822bb06b27c54c16d1e8">More...</a><br /></td></tr>
-<tr class="separator:afa25341a3340822bb06b27c54c16d1e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a671a9bcb3dd9a3388a5cb88b139946ff"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_s3_ergodic_moves_8h.html#a671a9bcb3dd9a3388a5cb88b139946ff">set_adjacencies</a> (<a class="el" href="cdt-gv_8cpp.html#aa737d424de730275a305a1c9ff28836d">Delaunay</a> *const D3, std::vector&lt; std::pair&lt; <a class="el" href="container__test_8cpp.html#aeed6d966b9e9704e557321b5422a10e6">Cell_handle</a>, <a class="el" href="container__test_8cpp.html#aeed6d966b9e9704e557321b5422a10e6">Cell_handle</a> &gt;&gt; const adjacency_vector) noexcept</td></tr>
-<tr class="memdesc:a671a9bcb3dd9a3388a5cb88b139946ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set pairs of cells to be each others neighbors.  <a href="#a671a9bcb3dd9a3388a5cb88b139946ff">More...</a><br /></td></tr>
-<tr class="separator:a671a9bcb3dd9a3388a5cb88b139946ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Pachner moves on 3D Delaunay Triangulations. </p>
@@ -174,66 +163,15 @@ Functions</h2></td></tr>
 <p>(3,2) move </p>
 <p><a href="http://www.cprogramming.com/tutorial/const_correctness.html">Const Correctness</a> </p>
 <p>Complete function documentation </p>
-<p class="enddd">(2,6) move </p>
+<p>(2,6) move </p>
+<p class="enddd">Multi-threaded operations using Intel TBB </p>
 </dd></dl>
 <dl class="todo"><dt><b><a class="el" href="todo.html#_todo000005">Todo:</a></b></dt><dd><p class="startdd">(6,2) move </p>
-<p>(4,4) move </p>
-<p class="enddd">Multi-threaded operations using Intel TBB </p>
+<p class="enddd">(4,4) move </p>
 </dd></dl>
 <dl class="section author"><dt>Author</dt><dd>Adam Getchell </dd></dl>
 <dl class="bug"><dt><b><a class="el" href="bug.html#_bug000004">Bug:</a></b></dt><dd><a href="http://clang-analyzer.llvm.org/scan-build.html">scan-build</a>: No bugs found. </dd></dl>
 </div><h2 class="groupheader">Function Documentation</h2>
-<a class="anchor" id="afa25341a3340822bb06b27c54c16d1e8"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void change_orientation </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="container__test_8cpp.html#aeed6d966b9e9704e557321b5422a10e6">Cell_handle</a> const&#160;</td>
-          <td class="paramname"><em>c</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Change orientation of a cell. </p>
-<p>This is a private member function in Triangulation_data_structure_3.h Copied here since this code doesn't have access </p>
-
-</div>
-</div>
-<a class="anchor" id="a0cc61ace23b9bbfe8f1c4be287287d5f"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">auto check_orientation </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="container__test_8cpp.html#aeed6d966b9e9704e557321b5422a10e6">Cell_handle</a> const&#160;</td>
-          <td class="paramname"><em>c</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a class="anchor" id="a5a98b7837202111eeb52504c82cdb323"></a>
 <div class="memitem">
 <div class="memproto">
@@ -276,51 +214,6 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd><b>True</b> if the (2,6) move is possible </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="a61737d214222310da6e30fcbff0b9c60"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">auto find_disjoint_index </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="container__test_8cpp.html#aeed6d966b9e9704e557321b5422a10e6">Cell_handle</a> const&#160;</td>
-          <td class="paramname"><em>first</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="container__test_8cpp.html#aeed6d966b9e9704e557321b5422a10e6">Cell_handle</a> const&#160;</td>
-          <td class="paramname"><em>second</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Finds the disjoint index. </p>
-<p>Given two cells, find the index of a vertex in cell 1 that is not in cell 2.</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">first</td><td>The first cell </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">second</td><td>The second cell </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>The integer index of a vertex in first that is not in second </dd></dl>
 
 </div>
 </div>
@@ -559,53 +452,10 @@ template&lt;typename T1 , typename T2 &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a671a9bcb3dd9a3388a5cb88b139946ff"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void set_adjacencies </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="cdt-gv_8cpp.html#aa737d424de730275a305a1c9ff28836d">Delaunay</a> *const&#160;</td>
-          <td class="paramname"><em>D3</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::vector&lt; std::pair&lt; <a class="el" href="container__test_8cpp.html#aeed6d966b9e9704e557321b5422a10e6">Cell_handle</a>, <a class="el" href="container__test_8cpp.html#aeed6d966b9e9704e557321b5422a10e6">Cell_handle</a> &gt;&gt; const&#160;</td>
-          <td class="paramname"><em>adjacency_vector</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Set pairs of cells to be each others neighbors. </p>
-<p>Given a vector of pairs of Cell_handles, find their mutual neighbor indices and call <b>set_adjacency(Cell1, index of Cell2 in Cell1, Cell2, index of Cell1 in Cell2)</b> to set neighbors</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">adjacency_vector</td><td>A vector of pairs of Cell handles </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Oct 12 2015 17:01:52 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Oct 13 2015 15:58:10 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.10
 </small></address>

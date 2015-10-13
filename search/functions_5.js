@@ -1,7 +1,6 @@
 var searchData=
 [
   ['find_5f26_5fmovable',['find_26_movable',['../_s3_ergodic_moves_8h.html#a5a98b7837202111eeb52504c82cdb323',1,'S3ErgodicMoves.h']]],
-  ['find_5fdisjoint_5findex',['find_disjoint_index',['../_s3_ergodic_moves_8h.html#a61737d214222310da6e30fcbff0b9c60',1,'S3ErgodicMoves.h']]],
   ['fix',['fix',['../classdocopt_1_1_branch_pattern.html#ab0c5769d242d5b41c5766ba6d772a34e',1,'docopt::BranchPattern']]],
   ['fix_5fidentities',['fix_identities',['../classdocopt_1_1_branch_pattern.html#a46f26e4a11c66913472100a2abdb6463',1,'docopt::BranchPattern']]],
   ['fix_5frepeating_5farguments',['fix_repeating_arguments',['../classdocopt_1_1_branch_pattern.html#a5f99fb75d1e146c3e059b06535b0e924',1,'docopt::BranchPattern']]],

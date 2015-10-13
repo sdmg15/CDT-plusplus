@@ -1,8 +1,6 @@
 var searchData=
 [
-  ['change_5forientation',['change_orientation',['../_s3_ergodic_moves_8h.html#afa25341a3340822bb06b27c54c16d1e8',1,'S3ErgodicMoves.h']]],
   ['check_5fand_5ffix_5ftimeslices',['check_and_fix_timeslices',['../_s3_triangulation_8h.html#a5eb746674297f1ffc331cb492c4b0474',1,'S3Triangulation.h']]],
-  ['check_5forientation',['check_orientation',['../_s3_ergodic_moves_8h.html#a0cc61ace23b9bbfe8f1c4be287287d5f',1,'S3ErgodicMoves.h']]],
   ['children',['children',['../classdocopt_1_1_branch_pattern.html#aef6be6b3fde295700938f0e7bf389e2f',1,'docopt::BranchPattern']]],
   ['classify_5fedges',['classify_edges',['../_s3_triangulation_8h.html#aea41d50b6d07c648c5aaaa0e79c60fa6',1,'S3Triangulation.h']]],
   ['classify_5fsimplices',['classify_simplices',['../_s3_triangulation_8h.html#a6eae5e81fbc86f691083957d5f7aa96d',1,'S3Triangulation.h']]],
