@@ -94,8 +94,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#func-members">Functions</a> &#124;
-<a href="#var-members">Variables</a>  </div>
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">Metropolis.h File Reference</div>  </div>
 </div><!--header-->
@@ -123,27 +123,23 @@ This graph shows which files directly or indirectly include this file:</div>
 </div>
 <p><a href="_metropolis_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_metropolis.html">Metropolis</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:aa9a264cd82981ad3b56a86a15ca4b0cf"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:aa9a264cd82981ad3b56a86a15ca4b0cf"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="_metropolis_8h.html#aa9a264cd82981ad3b56a86a15ca4b0cf">attempt_23_move</a> (T &amp;&amp;universe_ptr) noexcept-&gt; decltype(universe_ptr)</td></tr>
-<tr class="separator:aa9a264cd82981ad3b56a86a15ca4b0cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a20e0391d4e7a71dfbc9c4d393067a57a"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a20e0391d4e7a71dfbc9c4d393067a57a"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="_metropolis_8h.html#a20e0391d4e7a71dfbc9c4d393067a57a">metropolis</a> (T &amp;&amp;universe_ptr, unsigned number_of_passes, unsigned output_every_n_passes) noexcept-&gt; decltype(universe_ptr)</td></tr>
-<tr class="memdesc:a20e0391d4e7a71dfbc9c4d393067a57a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Apply the Metropolis-Hastings algorithm.  <a href="#a20e0391d4e7a71dfbc9c4d393067a57a">More...</a><br /></td></tr>
-<tr class="separator:a20e0391d4e7a71dfbc9c4d393067a57a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
-Variables</h2></td></tr>
-<tr class="memitem:a2efb4c7fcefbf6b36359ede4f39680fd"><td class="memItemLeft" align="right" valign="top">std::tuple&lt; std::atomic&lt; unsigned &gt;, std::atomic&lt; unsigned &gt;, std::atomic&lt; unsigned &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_metropolis_8h.html#a2efb4c7fcefbf6b36359ede4f39680fd">attempted_moves</a></td></tr>
-<tr class="separator:a2efb4c7fcefbf6b36359ede4f39680fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f41c4c46e844040f2d08136f6ec0817"><td class="memTemplParams" colspan="2">template&lt;typename T1 , typename T2 &gt; </td></tr>
+<tr class="memitem:a7f41c4c46e844040f2d08136f6ec0817"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="_metropolis_8h.html#a7f41c4c46e844040f2d08136f6ec0817">attempt_23_move</a> (T1 &amp;&amp;universe_ptr, T2 &amp;&amp;simplex_types) noexcept-&gt; decltype(universe_ptr)</td></tr>
+<tr class="separator:a7f41c4c46e844040f2d08136f6ec0817"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
-<a class="anchor" id="aa9a264cd82981ad3b56a86a15ca4b0cf"></a>
+<a class="anchor" id="a7f41c4c46e844040f2d08136f6ec0817"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T &gt; </div>
+template&lt;typename T1 , typename T2 &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -151,46 +147,14 @@ template&lt;typename T &gt; </div>
         <tr>
           <td class="memname">auto attempt_23_move </td>
           <td>(</td>
-          <td class="paramtype">T &amp;&amp;&#160;</td>
-          <td class="paramname"><em>universe_ptr</em></td><td>)</td>
-          <td> -&gt; decltype(universe_ptr) </td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a20e0391d4e7a71dfbc9c4d393067a57a"></a>
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">auto metropolis </td>
-          <td>(</td>
-          <td class="paramtype">T &amp;&amp;&#160;</td>
+          <td class="paramtype">T1 &amp;&amp;&#160;</td>
           <td class="paramname"><em>universe_ptr</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">unsigned&#160;</td>
-          <td class="paramname"><em>number_of_passes</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">unsigned&#160;</td>
-          <td class="paramname"><em>output_every_n_passes</em>&#160;</td>
+          <td class="paramtype">T2 &amp;&amp;&#160;</td>
+          <td class="paramname"><em>simplex_types</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -205,37 +169,12 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Apply the Metropolis-Hastings algorithm. </p>
-<p>The Metropolis-Hastings algorithm is a Markov Chain Monte Carlo method. The probability of making an ergodic (Pachner) move is:</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">universe_ptr</td><td>A std::unique_ptr to the Delaunay triangulation </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">number_of_passes</td><td>The number of passes made with MCMC, where a pass is defined as a number of attempted moves equal to the current number of simplices. </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">output_every_n_passes</td><td>Prints/saves to file the current Delaunay triangulation every n passes. </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>universe_ptr A std::unique_ptr to the Delaunay triangulation after the move has been made </dd></dl>
-
-</div>
-</div>
-<h2 class="groupheader">Variable Documentation</h2>
-<a class="anchor" id="a2efb4c7fcefbf6b36359ede4f39680fd"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::tuple&lt;std::atomic&lt;unsigned&gt;, std::atomic&lt;unsigned&gt;, std::atomic&lt;unsigned&gt; &gt; attempted_moves</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
 </div>
 </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Oct 14 2015 17:40:37 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sun Oct 18 2015 11:06:44 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.10
 </small></address>
