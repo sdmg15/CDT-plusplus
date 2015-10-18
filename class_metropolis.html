@@ -100,6 +100,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!--header-->
 <div class="contents">
 
+<p>Apply the Metropolis-Hastings algorithm.  
+ <a href="class_metropolis.html#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="_metropolis_8h_source.html">Metropolis.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -110,6 +113,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ae205f0f3f79ff9c4d441c30c224b5e19"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_metropolis.html#ae205f0f3f79ff9c4d441c30c224b5e19">operator()</a> (T &amp;&amp;universe_ptr) -&gt; decltype(universe_ptr)</td></tr>
 <tr class="separator:ae205f0f3f79ff9c4d441c30c224b5e19"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a056f7cf4728b99adacf9b8647c2e7283"><td class="memItemLeft" align="right" valign="top">unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_metropolis.html#a056f7cf4728b99adacf9b8647c2e7283">Passes</a> ()</td></tr>
+<tr class="memdesc:a056f7cf4728b99adacf9b8647c2e7283"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets value of passes.  <a href="#a056f7cf4728b99adacf9b8647c2e7283">More...</a><br /></td></tr>
 <tr class="separator:a056f7cf4728b99adacf9b8647c2e7283"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab42d7260f4fc9aab79a5a5aaeccb001e"><td class="memItemLeft" align="right" valign="top">unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_metropolis.html#ab42d7260f4fc9aab79a5a5aaeccb001e">Output</a> ()</td></tr>
 <tr class="separator:ab42d7260f4fc9aab79a5a5aaeccb001e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -129,7 +133,10 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:afb073e5e45b078ad621ae772051979bf"><td class="memItemLeft" align="right" valign="top">std::tuple&lt; std::atomic&lt; unsigned &gt;, std::atomic&lt; unsigned &gt;, std::atomic&lt; unsigned &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_metropolis.html#afb073e5e45b078ad621ae772051979bf">attempted_moves_</a></td></tr>
 <tr class="separator:afb073e5e45b078ad621ae772051979bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Apply the Metropolis-Hastings algorithm. </p>
+<p>The Metropolis-Hastings algorithm is a Markov Chain Monte Carlo method. The probability of making an ergodic (Pachner) move is: </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a27d432bbd3b2b4b9a9a32869451e64e4"></a>
 <div class="memitem">
 <div class="memproto">
@@ -234,6 +241,8 @@ template&lt;typename T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Gets value of passes. </p>
 
 </div>
 </div>
@@ -367,7 +376,7 @@ template&lt;typename T &gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Oct 18 2015 11:06:44 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sun Oct 18 2015 11:10:39 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.10
 </small></address>
