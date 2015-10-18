@@ -113,10 +113,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ae205f0f3f79ff9c4d441c30c224b5e19"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_metropolis.html#ae205f0f3f79ff9c4d441c30c224b5e19">operator()</a> (T &amp;&amp;universe_ptr) -&gt; decltype(universe_ptr)</td></tr>
 <tr class="separator:ae205f0f3f79ff9c4d441c30c224b5e19"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a056f7cf4728b99adacf9b8647c2e7283"><td class="memItemLeft" align="right" valign="top">unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_metropolis.html#a056f7cf4728b99adacf9b8647c2e7283">Passes</a> ()</td></tr>
-<tr class="memdesc:a056f7cf4728b99adacf9b8647c2e7283"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets value of passes_.  <a href="#a056f7cf4728b99adacf9b8647c2e7283">More...</a><br /></td></tr>
+<tr class="memdesc:a056f7cf4728b99adacf9b8647c2e7283"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets value of <b>passes_</b>.  <a href="#a056f7cf4728b99adacf9b8647c2e7283">More...</a><br /></td></tr>
 <tr class="separator:a056f7cf4728b99adacf9b8647c2e7283"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab42d7260f4fc9aab79a5a5aaeccb001e"><td class="memItemLeft" align="right" valign="top">unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_metropolis.html#ab42d7260f4fc9aab79a5a5aaeccb001e">Output</a> ()</td></tr>
-<tr class="memdesc:ab42d7260f4fc9aab79a5a5aaeccb001e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets value of output_every_n_passes_.  <a href="#ab42d7260f4fc9aab79a5a5aaeccb001e">More...</a><br /></td></tr>
+<tr class="memdesc:ab42d7260f4fc9aab79a5a5aaeccb001e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets value of <b>output_every_n_passes_</b>.  <a href="#ab42d7260f4fc9aab79a5a5aaeccb001e">More...</a><br /></td></tr>
 <tr class="separator:ab42d7260f4fc9aab79a5a5aaeccb001e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a97edbee04ff6d936c4187c338165e1c6"><td class="memItemLeft" align="right" valign="top">unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_metropolis.html#a97edbee04ff6d936c4187c338165e1c6">TotalMoves</a> ()</td></tr>
 <tr class="memdesc:a97edbee04ff6d936c4187c338165e1c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the total number of attempted moves.  <a href="#a97edbee04ff6d936c4187c338165e1c6">More...</a><br /></td></tr>
@@ -136,6 +136,9 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a5b995cd33464d635d85d0936b106b20a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afb073e5e45b078ad621ae772051979bf"><td class="memItemLeft" align="right" valign="top">std::tuple&lt; std::atomic&lt; unsigned &gt;, std::atomic&lt; unsigned &gt;, std::atomic&lt; unsigned &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_metropolis.html#afb073e5e45b078ad621ae772051979bf">attempted_moves_</a></td></tr>
 <tr class="separator:afb073e5e45b078ad621ae772051979bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a53577493bd707fb5cd3db97d14b3abac"><td class="memItemLeft" align="right" valign="top">std::pair&lt; std::vector&lt; <a class="el" href="_s3_triangulation_8h.html#ab98aabfc727a35d0b7a74339e834e02f">Edge_tuple</a> &gt;, unsigned &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_metropolis.html#a53577493bd707fb5cd3db97d14b3abac">edge_types_</a></td></tr>
+<tr class="memdesc:a53577493bd707fb5cd3db97d14b3abac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Timelike and spacelike edges.  <a href="#a53577493bd707fb5cd3db97d14b3abac">More...</a><br /></td></tr>
+<tr class="separator:a53577493bd707fb5cd3db97d14b3abac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Apply the Metropolis-Hastings algorithm. </p>
@@ -223,7 +226,7 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Gets value of output_every_n_passes_. </p>
+<p>Gets value of <b>output_every_n_passes_</b>. </p>
 
 </div>
 </div>
@@ -248,7 +251,7 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Gets value of passes_. </p>
+<p>Gets value of <b>passes_</b>. </p>
 
 </div>
 </div>
@@ -295,6 +298,28 @@ template&lt;typename T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a53577493bd707fb5cd3db97d14b3abac"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::pair&lt;std::vector&lt;<a class="el" href="_s3_triangulation_8h.html#ab98aabfc727a35d0b7a74339e834e02f">Edge_tuple</a>&gt;, unsigned&gt; Metropolis::edge_types_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Timelike and spacelike edges. </p>
 
 </div>
 </div>
@@ -388,7 +413,7 @@ template&lt;typename T &gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Oct 18 2015 11:17:00 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sun Oct 18 2015 12:12:52 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.10
 </small></address>
