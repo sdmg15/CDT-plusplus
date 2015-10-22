@@ -11,7 +11,7 @@ var searchData=
   ['parse_5fseq',['parse_seq',['../docopt_8cpp.html#a935d9d1291c416351feae0c06fc1adaf',1,'docopt.cpp']]],
   ['parse_5fshort',['parse_short',['../docopt_8cpp.html#a9cf875c3b9242a86d4bda0bdd378fad1',1,'docopt.cpp']]],
   ['parse_5ftest',['parse_test',['../namespacerun__tests.html#aeb1b7e38777dd0048ffb87f93ed46e39',1,'run_tests']]],
-  ['passes',['passes',['../class_metropolis_test.html#ae28dd4d81843c5c95ca9ad00313cc8a4',1,'MetropolisTest::passes()'],['../class_metropolis.html#a056f7cf4728b99adacf9b8647c2e7283',1,'Metropolis::Passes()'],['../namespacerun__tests.html#ada5b71ecfcdf0f81d8a89a6132daf0c5',1,'run_tests.passes()']]],
+  ['passes',['Passes',['../class_metropolis.html#a8380ff6b24e0752fb06d2c01bd7a3d25',1,'Metropolis::Passes()'],['../class_metropolis_test.html#ae28dd4d81843c5c95ca9ad00313cc8a4',1,'MetropolisTest::passes()'],['../namespacerun__tests.html#ada5b71ecfcdf0f81d8a89a6132daf0c5',1,'run_tests.passes()']]],
   ['passes_5f',['passes_',['../class_metropolis.html#aeaa9d1efe7df9df9c7400f858b930c94',1,'Metropolis']]],
   ['pattern',['Pattern',['../classdocopt_1_1_pattern.html',1,'docopt']]],
   ['patternhasher',['PatternHasher',['../structdocopt_1_1_pattern_hasher.html',1,'docopt']]],

@@ -131,10 +131,18 @@ This graph shows which files directly or indirectly include this file:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:a1cfb3c66702ab581b44e544a896992f6"><td class="memTemplParams" colspan="2">template&lt;typename T1 &gt; </td></tr>
+<tr class="memitem:a1cfb3c66702ab581b44e544a896992f6"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="_s3_ergodic_moves_8h.html#a1cfb3c66702ab581b44e544a896992f6">try_23_move</a> (T1 &amp;&amp;universe_ptr, <a class="el" href="container__test_8cpp.html#aeed6d966b9e9704e557321b5422a10e6">Cell_handle</a> to_be_moved) noexcept</td></tr>
+<tr class="memdesc:a1cfb3c66702ab581b44e544a896992f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Try a (2,3) move.  <a href="#a1cfb3c66702ab581b44e544a896992f6">More...</a><br /></td></tr>
+<tr class="separator:a1cfb3c66702ab581b44e544a896992f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae00887b75764fb53ef3de0561311a135"><td class="memTemplParams" colspan="2">template&lt;typename T1 , typename T2 &gt; </td></tr>
 <tr class="memitem:ae00887b75764fb53ef3de0561311a135"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="_s3_ergodic_moves_8h.html#ae00887b75764fb53ef3de0561311a135">make_23_move</a> (T1 &amp;&amp;universe_ptr, T2 &amp;&amp;simplex_types) noexcept-&gt; decltype(universe_ptr)</td></tr>
 <tr class="memdesc:ae00887b75764fb53ef3de0561311a135"><td class="mdescLeft">&#160;</td><td class="mdescRight">Make a (2,3) move.  <a href="#ae00887b75764fb53ef3de0561311a135">More...</a><br /></td></tr>
 <tr class="separator:ae00887b75764fb53ef3de0561311a135"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a519301dd5366d42b1b4f2528b2cb60fa"><td class="memTemplParams" colspan="2">template&lt;typename T1 &gt; </td></tr>
+<tr class="memitem:a519301dd5366d42b1b4f2528b2cb60fa"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="_s3_ergodic_moves_8h.html#a519301dd5366d42b1b4f2528b2cb60fa">try_32_move</a> (T1 &amp;&amp;universe_ptr, <a class="el" href="_s3_triangulation_8h.html#ab98aabfc727a35d0b7a74339e834e02f">Edge_tuple</a> to_be_moved) noexcept</td></tr>
+<tr class="memdesc:a519301dd5366d42b1b4f2528b2cb60fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Try a (3,2) move.  <a href="#a519301dd5366d42b1b4f2528b2cb60fa">More...</a><br /></td></tr>
+<tr class="separator:a519301dd5366d42b1b4f2528b2cb60fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adef819c5258143e6c002234fa1149717"><td class="memTemplParams" colspan="2">template&lt;typename T1 , typename T2 &gt; </td></tr>
 <tr class="memitem:adef819c5258143e6c002234fa1149717"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="_s3_ergodic_moves_8h.html#adef819c5258143e6c002234fa1149717">make_32_move</a> (T1 &amp;&amp;universe_ptr, T2 &amp;&amp;edge_types) noexcept-&gt; decltype(universe_ptr)</td></tr>
 <tr class="memdesc:adef819c5258143e6c002234fa1149717"><td class="mdescLeft">&#160;</td><td class="mdescRight">Make a (3,2) move.  <a href="#adef819c5258143e6c002234fa1149717">More...</a><br /></td></tr>
@@ -297,7 +305,7 @@ template&lt;typename T1 , typename T2 &gt; </div>
 </div><div class="memdoc">
 
 <p>Make a (2,3) move. </p>
-<p>This function performs the (2,3) move by converting a facet from a (2,2) simplex in the (2,2) vector of the simplex_types tuple into its dual edge. This move does not always succeed, but when it does the triangulation is no longer Delaunay.</p>
+<p>This function calls <b><a class="el" href="_s3_ergodic_moves_8h.html#a1cfb3c66702ab581b44e544a896992f6" title="Try a (2,3) move. ">try_23_move()</a></b> until it succeeds; the triangulation is no longer Delaunay.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">universe_ptr</td><td>A std::unique_ptr to the Delaunay triangulation </td></tr>
@@ -394,7 +402,7 @@ template&lt;typename T1 , typename T2 &gt; </div>
 </div><div class="memdoc">
 
 <p>Make a (3,2) move. </p>
-<p>This function performs the (3,2) move by converting a timelike edge from the vector <b>timelike_edges</b> into its dual facet.</p>
+<p>This function calls <b><a class="el" href="_s3_ergodic_moves_8h.html#a519301dd5366d42b1b4f2528b2cb60fa" title="Try a (3,2) move. ">try_32_move()</a></b> until it succeeds; the triangulation is no longer Delaunay.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">universe_ptr</td><td>A std::unique_ptr to the Delaunay triangulation </td></tr>
@@ -452,10 +460,104 @@ template&lt;typename T1 , typename T2 &gt; </div>
 
 </div>
 </div>
+<a class="anchor" id="a1cfb3c66702ab581b44e544a896992f6"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T1 &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto try_23_move </td>
+          <td>(</td>
+          <td class="paramtype">T1 &amp;&amp;&#160;</td>
+          <td class="paramname"><em>universe_ptr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="container__test_8cpp.html#aeed6d966b9e9704e557321b5422a10e6">Cell_handle</a>&#160;</td>
+          <td class="paramname"><em>to_be_moved</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Try a (2,3) move. </p>
+<p>This function performs the (2,3) move by converting a facet from a (2,2) simplex in the (2,2) vector of the simplex_types tuple into its dual edge.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">universe_ptr</td><td>A std::unique_ptr to the Delaunay triangulation </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">to_be_moved</td><td>The Cell_handle that is tried </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>flipped A boolean value whether the move succeeded </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a519301dd5366d42b1b4f2528b2cb60fa"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T1 &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto try_32_move </td>
+          <td>(</td>
+          <td class="paramtype">T1 &amp;&amp;&#160;</td>
+          <td class="paramname"><em>universe_ptr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_s3_triangulation_8h.html#ab98aabfc727a35d0b7a74339e834e02f">Edge_tuple</a>&#160;</td>
+          <td class="paramname"><em>to_be_moved</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Try a (3,2) move. </p>
+<p>This function performs a foliation-preserving (3,2) move by converting timelike edge into it's dual facet.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">universe_ptr</td><td>A std::unique_ptr to the Delaunay triangulation </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">to_be_moved</td><td>The Edge_tuple that is tried </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>flipped A boolean value whether the move succeeded </dd></dl>
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Oct 18 2015 12:12:52 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Oct 21 2015 22:35:58 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.10
 </small></address>

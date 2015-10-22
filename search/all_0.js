@@ -7,6 +7,6 @@ var searchData=
   ['aslong',['asLong',['../structdocopt_1_1value.html#abf696121d9b797d2510c0a2609a1afe1',1,'docopt::value']]],
   ['asstring',['asString',['../structdocopt_1_1value.html#a542177d30af3bf5f32de6a46672012f1',1,'docopt::value']]],
   ['asstringlist',['asStringList',['../structdocopt_1_1value.html#aa757e64fe841b2e1353acf542d7f464f',1,'docopt::value']]],
-  ['attempt_5f23_5fmove',['attempt_23_move',['../_metropolis_8h.html#a7f41c4c46e844040f2d08136f6ec0817',1,'Metropolis.h']]],
+  ['attempt_5f23_5fmove',['attempt_23_move',['../class_metropolis.html#aae5fcd18bb6378c1d8ed34759af2d984',1,'Metropolis']]],
   ['attempted_5fmoves_5f',['attempted_moves_',['../class_metropolis.html#afb073e5e45b078ad621ae772051979bf',1,'Metropolis']]]
 ];
