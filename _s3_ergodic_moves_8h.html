@@ -123,7 +123,10 @@ This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
 <div class="center"><img src="_s3_ergodic_moves_8h__dep__incl.png" border="0" usemap="#src_2_s3_ergodic_moves_8hdep" alt=""/></div>
 <map name="src_2_s3_ergodic_moves_8hdep" id="src_2_s3_ergodic_moves_8hdep">
-<area shape="rect" id="node2" href="_s3_ergodic_moves_test_8cpp.html" title="Tests for S3 ergodic moves. " alt="" coords="5,79,181,117"/>
+<area shape="rect" id="node2" href="_metropolis_8h.html" title="src/Metropolis.h" alt="" coords="71,85,186,111"/>
+<area shape="rect" id="node5" href="_s3_ergodic_moves_test_8cpp.html" title="Tests for S3 ergodic moves. " alt="" coords="210,79,385,117"/>
+<area shape="rect" id="node3" href="cdt_8cpp.html" title="The main body of the program. " alt="" coords="5,165,91,191"/>
+<area shape="rect" id="node4" href="_metropolis_test_8cpp.html" title="unittests/MetropolisTest.cpp" alt="" coords="115,165,301,191"/>
 </map>
 </div>
 </div>
@@ -135,28 +138,28 @@ Functions</h2></td></tr>
 <tr class="memitem:a1cfb3c66702ab581b44e544a896992f6"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="_s3_ergodic_moves_8h.html#a1cfb3c66702ab581b44e544a896992f6">try_23_move</a> (T1 &amp;&amp;universe_ptr, <a class="el" href="container__test_8cpp.html#aeed6d966b9e9704e557321b5422a10e6">Cell_handle</a> to_be_moved) noexcept</td></tr>
 <tr class="memdesc:a1cfb3c66702ab581b44e544a896992f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Try a (2,3) move.  <a href="#a1cfb3c66702ab581b44e544a896992f6">More...</a><br /></td></tr>
 <tr class="separator:a1cfb3c66702ab581b44e544a896992f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae00887b75764fb53ef3de0561311a135"><td class="memTemplParams" colspan="2">template&lt;typename T1 , typename T2 &gt; </td></tr>
-<tr class="memitem:ae00887b75764fb53ef3de0561311a135"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="_s3_ergodic_moves_8h.html#ae00887b75764fb53ef3de0561311a135">make_23_move</a> (T1 &amp;&amp;universe_ptr, T2 &amp;&amp;simplex_types) noexcept-&gt; decltype(universe_ptr)</td></tr>
-<tr class="memdesc:ae00887b75764fb53ef3de0561311a135"><td class="mdescLeft">&#160;</td><td class="mdescRight">Make a (2,3) move.  <a href="#ae00887b75764fb53ef3de0561311a135">More...</a><br /></td></tr>
-<tr class="separator:ae00887b75764fb53ef3de0561311a135"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a493f060af1b759ce6983cbf82116c67d"><td class="memTemplParams" colspan="2">template&lt;typename T1 , typename T2 , typename T3 &gt; </td></tr>
+<tr class="memitem:a493f060af1b759ce6983cbf82116c67d"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="_s3_ergodic_moves_8h.html#a493f060af1b759ce6983cbf82116c67d">make_23_move</a> (T1 &amp;&amp;universe_ptr, T2 &amp;&amp;simplex_types, T3 &amp;&amp;attempted_moves) noexcept-&gt; decltype(universe_ptr)</td></tr>
+<tr class="memdesc:a493f060af1b759ce6983cbf82116c67d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Make a (2,3) move.  <a href="#a493f060af1b759ce6983cbf82116c67d">More...</a><br /></td></tr>
+<tr class="separator:a493f060af1b759ce6983cbf82116c67d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a519301dd5366d42b1b4f2528b2cb60fa"><td class="memTemplParams" colspan="2">template&lt;typename T1 &gt; </td></tr>
 <tr class="memitem:a519301dd5366d42b1b4f2528b2cb60fa"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="_s3_ergodic_moves_8h.html#a519301dd5366d42b1b4f2528b2cb60fa">try_32_move</a> (T1 &amp;&amp;universe_ptr, <a class="el" href="_s3_triangulation_8h.html#ab98aabfc727a35d0b7a74339e834e02f">Edge_tuple</a> to_be_moved) noexcept</td></tr>
 <tr class="memdesc:a519301dd5366d42b1b4f2528b2cb60fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Try a (3,2) move.  <a href="#a519301dd5366d42b1b4f2528b2cb60fa">More...</a><br /></td></tr>
 <tr class="separator:a519301dd5366d42b1b4f2528b2cb60fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adef819c5258143e6c002234fa1149717"><td class="memTemplParams" colspan="2">template&lt;typename T1 , typename T2 &gt; </td></tr>
-<tr class="memitem:adef819c5258143e6c002234fa1149717"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="_s3_ergodic_moves_8h.html#adef819c5258143e6c002234fa1149717">make_32_move</a> (T1 &amp;&amp;universe_ptr, T2 &amp;&amp;edge_types) noexcept-&gt; decltype(universe_ptr)</td></tr>
-<tr class="memdesc:adef819c5258143e6c002234fa1149717"><td class="mdescLeft">&#160;</td><td class="mdescRight">Make a (3,2) move.  <a href="#adef819c5258143e6c002234fa1149717">More...</a><br /></td></tr>
-<tr class="separator:adef819c5258143e6c002234fa1149717"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2fcf97a7f1a72dfc0f2738b3485eb70a"><td class="memTemplParams" colspan="2">template&lt;typename T1 , typename T2 , typename T3 &gt; </td></tr>
+<tr class="memitem:a2fcf97a7f1a72dfc0f2738b3485eb70a"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="_s3_ergodic_moves_8h.html#a2fcf97a7f1a72dfc0f2738b3485eb70a">make_32_move</a> (T1 &amp;&amp;universe_ptr, T2 &amp;&amp;edge_types, T3 &amp;&amp;attempted_moves) noexcept-&gt; decltype(universe_ptr)</td></tr>
+<tr class="memdesc:a2fcf97a7f1a72dfc0f2738b3485eb70a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Make a (3,2) move.  <a href="#a2fcf97a7f1a72dfc0f2738b3485eb70a">More...</a><br /></td></tr>
+<tr class="separator:a2fcf97a7f1a72dfc0f2738b3485eb70a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a21a4e5ebb80cb2f646ee61c991ef0f23"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_s3_ergodic_moves_8h.html#a21a4e5ebb80cb2f646ee61c991ef0f23">is_26_movable</a> (const <a class="el" href="container__test_8cpp.html#aeed6d966b9e9704e557321b5422a10e6">Cell_handle</a> c, unsigned i) noexcept</td></tr>
 <tr class="memdesc:a21a4e5ebb80cb2f646ee61c991ef0f23"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check a (2,6) move.  <a href="#a21a4e5ebb80cb2f646ee61c991ef0f23">More...</a><br /></td></tr>
 <tr class="separator:a21a4e5ebb80cb2f646ee61c991ef0f23"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5a98b7837202111eeb52504c82cdb323"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_s3_ergodic_moves_8h.html#a5a98b7837202111eeb52504c82cdb323">find_26_movable</a> (const <a class="el" href="container__test_8cpp.html#aeed6d966b9e9704e557321b5422a10e6">Cell_handle</a> c, unsigned *n) noexcept</td></tr>
 <tr class="memdesc:a5a98b7837202111eeb52504c82cdb323"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find a (2,6) move.  <a href="#a5a98b7837202111eeb52504c82cdb323">More...</a><br /></td></tr>
 <tr class="separator:a5a98b7837202111eeb52504c82cdb323"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ace1b0b5a1b33f62d5c36b9f40240b5d7"><td class="memTemplParams" colspan="2">template&lt;typename T1 , typename T2 &gt; </td></tr>
-<tr class="memitem:ace1b0b5a1b33f62d5c36b9f40240b5d7"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="_s3_ergodic_moves_8h.html#ace1b0b5a1b33f62d5c36b9f40240b5d7">make_26_move</a> (T1 &amp;&amp;universe_ptr, T2 &amp;&amp;simplex_types) noexcept-&gt; decltype(universe_ptr)</td></tr>
-<tr class="memdesc:ace1b0b5a1b33f62d5c36b9f40240b5d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert (1,3) and (3,1) into 3 (1,3)s and 3 (3,1)s.  <a href="#ace1b0b5a1b33f62d5c36b9f40240b5d7">More...</a><br /></td></tr>
-<tr class="separator:ace1b0b5a1b33f62d5c36b9f40240b5d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a7e47f842c760a733f5abc23244f814"><td class="memTemplParams" colspan="2">template&lt;typename T1 , typename T2 , typename T3 &gt; </td></tr>
+<tr class="memitem:a1a7e47f842c760a733f5abc23244f814"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="_s3_ergodic_moves_8h.html#a1a7e47f842c760a733f5abc23244f814">make_26_move</a> (T1 &amp;&amp;universe_ptr, T2 &amp;&amp;simplex_types, T3 &amp;&amp;attempted_moves) noexcept-&gt; decltype(universe_ptr)</td></tr>
+<tr class="memdesc:a1a7e47f842c760a733f5abc23244f814"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert (1,3) and (3,1) into 3 (1,3)s and 3 (3,1)s.  <a href="#a1a7e47f842c760a733f5abc23244f814">More...</a><br /></td></tr>
+<tr class="separator:a1a7e47f842c760a733f5abc23244f814"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a30566a17c17290f0d4839a407ae12440"><td class="memTemplParams" colspan="2">template&lt;typename T1 , typename T2 &gt; </td></tr>
 <tr class="memitem:a30566a17c17290f0d4839a407ae12440"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="_s3_ergodic_moves_8h.html#a30566a17c17290f0d4839a407ae12440">make_62_move</a> (T1 &amp;&amp;universe_ptr, T2 &amp;&amp;simplex_types) noexcept-&gt; decltype(universe_ptr)</td></tr>
 <tr class="memdesc:a30566a17c17290f0d4839a407ae12440"><td class="mdescLeft">&#160;</td><td class="mdescRight">Make a (6,2) move.  <a href="#a30566a17c17290f0d4839a407ae12440">More...</a><br /></td></tr>
@@ -207,7 +210,7 @@ Functions</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -252,7 +255,7 @@ Functions</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -270,11 +273,11 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ae00887b75764fb53ef3de0561311a135"></a>
+<a class="anchor" id="a493f060af1b759ce6983cbf82116c67d"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T1 , typename T2 &gt; </div>
+template&lt;typename T1 , typename T2 , typename T3 &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -289,7 +292,13 @@ template&lt;typename T1 , typename T2 &gt; </div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">T2 &amp;&amp;&#160;</td>
-          <td class="paramname"><em>simplex_types</em>&#160;</td>
+          <td class="paramname"><em>simplex_types</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T3 &amp;&amp;&#160;</td>
+          <td class="paramname"><em>attempted_moves</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -317,11 +326,11 @@ template&lt;typename T1 , typename T2 &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="ace1b0b5a1b33f62d5c36b9f40240b5d7"></a>
+<a class="anchor" id="a1a7e47f842c760a733f5abc23244f814"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T1 , typename T2 &gt; </div>
+template&lt;typename T1 , typename T2 , typename T3 &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -336,7 +345,13 @@ template&lt;typename T1 , typename T2 &gt; </div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">T2 &amp;&amp;&#160;</td>
-          <td class="paramname"><em>simplex_types</em>&#160;</td>
+          <td class="paramname"><em>simplex_types</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T3 &amp;&amp;&#160;</td>
+          <td class="paramname"><em>attempted_moves</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -367,11 +382,11 @@ template&lt;typename T1 , typename T2 &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="adef819c5258143e6c002234fa1149717"></a>
+<a class="anchor" id="a2fcf97a7f1a72dfc0f2738b3485eb70a"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T1 , typename T2 &gt; </div>
+template&lt;typename T1 , typename T2 , typename T3 &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -386,7 +401,13 @@ template&lt;typename T1 , typename T2 &gt; </div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">T2 &amp;&amp;&#160;</td>
-          <td class="paramname"><em>edge_types</em>&#160;</td>
+          <td class="paramname"><em>edge_types</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T3 &amp;&amp;&#160;</td>
+          <td class="paramname"><em>attempted_moves</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -557,7 +578,7 @@ template&lt;typename T1 &gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Oct 22 2015 23:20:11 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Oct 23 2015 21:59:30 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.10
 </small></address>

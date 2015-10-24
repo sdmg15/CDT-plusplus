@@ -1,3 +1,6 @@
 <map id="src/S3ErgodicMoves.h" name="src/S3ErgodicMoves.h">
-<area shape="rect" id="node2" href="$_s3_ergodic_moves_test_8cpp.html" title="Tests for S3 ergodic moves. " alt="" coords="5,79,181,117"/>
+<area shape="rect" id="node2" href="$_metropolis_8h.html" title="src/Metropolis.h" alt="" coords="71,85,186,111"/>
+<area shape="rect" id="node5" href="$_s3_ergodic_moves_test_8cpp.html" title="Tests for S3 ergodic moves. " alt="" coords="210,79,385,117"/>
+<area shape="rect" id="node3" href="$cdt_8cpp.html" title="The main body of the program. " alt="" coords="5,165,91,191"/>
+<area shape="rect" id="node4" href="$_metropolis_test_8cpp.html" title="unittests/MetropolisTest.cpp" alt="" coords="115,165,301,191"/>
 </map>

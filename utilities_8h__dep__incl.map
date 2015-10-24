@@ -1,8 +1,8 @@
 <map id="src/utilities.h" name="src/utilities.h">
-<area shape="rect" id="node2" href="$cdt_8cpp.html" title="The main body of the program. " alt="" coords="5,159,91,184"/>
-<area shape="rect" id="node3" href="$_metropolis_8h.html" title="src/Metropolis.h" alt="" coords="133,79,249,104"/>
-<area shape="rect" id="node5" href="$_s3_ergodic_moves_8h.html" title="Pachner moves on 3D Delaunay Triangulations. " alt="" coords="272,79,427,104"/>
-<area shape="rect" id="node7" href="$_utilities_test_8cpp.html" title="Tests of utility functions. " alt="" coords="451,79,619,104"/>
-<area shape="rect" id="node4" href="$_metropolis_test_8cpp.html" title="unittests/MetropolisTest.cpp" alt="" coords="115,159,301,184"/>
-<area shape="rect" id="node6" href="$_s3_ergodic_moves_test_8cpp.html" title="Tests for S3 ergodic moves. " alt="" coords="324,152,500,191"/>
+<area shape="rect" id="node2" href="$cdt_8cpp.html" title="The main body of the program. " alt="" coords="5,239,91,264"/>
+<area shape="rect" id="node3" href="$_s3_ergodic_moves_8h.html" title="Pachner moves on 3D Delaunay Triangulations. " alt="" coords="158,79,312,104"/>
+<area shape="rect" id="node4" href="$_metropolis_8h.html" title="src/Metropolis.h" alt="" coords="85,159,201,184"/>
+<area shape="rect" id="node7" href="$_utilities_test_8cpp.html" title="Tests of utility functions. " alt="" coords="337,79,504,104"/>
+<area shape="rect" id="node6" href="$_s3_ergodic_moves_test_8cpp.html" title="Tests for S3 ergodic moves. " alt="" coords="224,152,400,191"/>
+<area shape="rect" id="node5" href="$_metropolis_test_8cpp.html" title="unittests/MetropolisTest.cpp" alt="" coords="115,239,301,264"/>
 </map>

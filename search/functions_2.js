@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['calculatea1',['CalculateA1',['../class_metropolis.html#a01ff2475c689a55080e134b0e460a6bd',1,'Metropolis']]],
   ['check_5fand_5ffix_5ftimeslices',['check_and_fix_timeslices',['../_s3_triangulation_8h.html#a5eb746674297f1ffc331cb492c4b0474',1,'S3Triangulation.h']]],
   ['children',['children',['../classdocopt_1_1_branch_pattern.html#aef6be6b3fde295700938f0e7bf389e2f',1,'docopt::BranchPattern']]],
   ['classify_5fedges',['classify_edges',['../_s3_triangulation_8h.html#aea41d50b6d07c648c5aaaa0e79c60fa6',1,'S3Triangulation.h']]],

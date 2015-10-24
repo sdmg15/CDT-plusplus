@@ -3,9 +3,9 @@ var searchData=
   ['main',['main',['../cdt-gv_8cpp.html#af3ed9c200de85b53c94cd18764b246a2',1,'main(int argc, char *const argv[]):&#160;cdt-gv.cpp'],['../cdt_8cpp.html#af3ed9c200de85b53c94cd18764b246a2',1,'main(int argc, char *const argv[]):&#160;cdt.cpp'],['../container__test_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4',1,'main():&#160;container_test.cpp'],['../naval__fate_8cpp.html#a217dbf8b442f20279ea00b898af96f52',1,'main(int argc, const char **argv):&#160;naval_fate.cpp'],['../src_2docopt_2main_8cpp.html#ac0f2228420376f4db7e1274f2b41667c',1,'main(int argc, const char *argv[]):&#160;main.cpp'],['../run__testcase_8cpp.html#a217dbf8b442f20279ea00b898af96f52',1,'main(int argc, const char **argv):&#160;run_testcase.cpp'],['../grid__d_8cpp.html#abf9e6b7e6f15df4b525a2e7705ba3089',1,'main(int argc, char const *argv[]):&#160;grid_d.cpp'],['../unittests_2main_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627',1,'main(int argc, char **argv):&#160;main.cpp']]],
   ['main_2ecpp',['main.cpp',['../src_2docopt_2main_8cpp.html',1,'']]],
   ['main_2ecpp',['main.cpp',['../unittests_2main_8cpp.html',1,'']]],
-  ['make_5f23_5fmove',['make_23_move',['../_s3_ergodic_moves_8h.html#ae00887b75764fb53ef3de0561311a135',1,'S3ErgodicMoves.h']]],
-  ['make_5f26_5fmove',['make_26_move',['../_s3_ergodic_moves_8h.html#ace1b0b5a1b33f62d5c36b9f40240b5d7',1,'S3ErgodicMoves.h']]],
-  ['make_5f32_5fmove',['make_32_move',['../_s3_ergodic_moves_8h.html#adef819c5258143e6c002234fa1149717',1,'S3ErgodicMoves.h']]],
+  ['make_5f23_5fmove',['make_23_move',['../_s3_ergodic_moves_8h.html#a493f060af1b759ce6983cbf82116c67d',1,'S3ErgodicMoves.h']]],
+  ['make_5f26_5fmove',['make_26_move',['../_s3_ergodic_moves_8h.html#a1a7e47f842c760a733f5abc23244f814',1,'S3ErgodicMoves.h']]],
+  ['make_5f32_5fmove',['make_32_move',['../_s3_ergodic_moves_8h.html#a2fcf97a7f1a72dfc0f2738b3485eb70a',1,'S3ErgodicMoves.h']]],
   ['make_5f62_5fmove',['make_62_move',['../_s3_ergodic_moves_8h.html#a30566a17c17290f0d4839a407ae12440',1,'S3ErgodicMoves.h']]],
   ['make_5fd_5fcube',['make_d_cube',['../grid__d_8h.html#a356f77d5afddcfc838dacccc381dc27c',1,'grid_d.h']]],
   ['make_5fd_5fsphere',['make_d_sphere',['../sphere__d_8h.html#a10de1d654fc34845b6f1c70b95a404fe',1,'make_d_sphere(unsigned number_of_points, unsigned dimension, double radius, bool output, std::vector&lt; Kd::Point_d &gt; *const points) noexcept:&#160;sphere_d.h'],['../sphere__d_8h.html#a826a84c5144452fbd767b5f505d456b8',1,'make_d_sphere(unsigned number_of_points, unsigned dimension, double radius, std::vector&lt; Kd::Point_d &gt; *const points) noexcept:&#160;sphere_d.h']]],
@@ -23,5 +23,6 @@ var searchData=
   ['metropolistest_2ecpp',['MetropolisTest.cpp',['../_metropolis_test_8cpp.html',1,'']]],
   ['minimal26test',['Minimal26Test',['../class_minimal26_test.html',1,'']]],
   ['minimal62test',['Minimal62Test',['../class_minimal62_test.html',1,'']]],
-  ['move_5ftype',['move_type',['../utilities_8h.html#afacb89cb65e7bc872a93079c927634c9',1,'utilities.h']]]
+  ['move_5ftuple',['move_tuple',['../_metropolis_8h.html#aa361d2afa2c1f053dd43971179178c24',1,'Metropolis.h']]],
+  ['move_5ftype',['move_type',['../_metropolis_8h.html#afacb89cb65e7bc872a93079c927634c9',1,'Metropolis.h']]]
 ];
