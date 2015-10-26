@@ -1,5 +1,6 @@
 <map id="src/Metropolis.h" name="src/Metropolis.h">
-<area shape="rect" id="node5" href="$_s3_triangulation_8h.html" title="Functions on Spherical Delaunay Triangulations. " alt="" coords="1158,152,1283,177"/>
-<area shape="rect" id="node18" href="$_s3_ergodic_moves_8h.html" title="Pachner moves on 3D Delaunay Triangulations. " alt="" coords="1434,79,1567,104"/>
-<area shape="rect" id="node19" href="$utilities_8h.html" title="Utility functions. " alt="" coords="1860,152,1936,177"/>
+<area shape="rect" id="node5" href="$_s3_triangulation_8h.html" title="Functions on Spherical Delaunay Triangulations. " alt="" coords="609,152,734,177"/>
+<area shape="rect" id="node18" href="$_s3_ergodic_moves_8h.html" title="Pachner moves on 3D Delaunay Triangulations. " alt="" coords="699,79,832,104"/>
+<area shape="rect" id="node19" href="$utilities_8h.html" title="Utility functions. " alt="" coords="1863,152,1938,177"/>
+<area shape="rect" id="node28" href="$_s3_action_8h.html" title="Calculate S3 bulk actions on 3D Delaunay Triangulations. " alt="" coords="163,79,249,104"/>
 </map>

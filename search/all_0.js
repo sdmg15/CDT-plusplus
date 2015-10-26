@@ -1,5 +1,7 @@
 var searchData=
 [
+  ['alpha',['Alpha',['../class_metropolis_test.html#ad114c87203d60bf4fbfe335a637fc165',1,'MetropolisTest::Alpha()'],['../class_metropolis.html#a3f68c6799ba7aa5558fe6172d950fec4',1,'Metropolis::Alpha()']]],
+  ['alpha_5f',['Alpha_',['../class_metropolis.html#a943281d3bd65d50063098cc9d2e37d46',1,'Metropolis']]],
   ['argcount',['argCount',['../classdocopt_1_1_option.html#a9ad24b86137eedc5eb0b66b61f461971',1,'docopt::Option']]],
   ['args',['args',['../namespacerun__tests.html#a9d44de058a832095e8ee4359f0dc6de7',1,'run_tests']]],
   ['argument',['Argument',['../classdocopt_1_1_argument.html',1,'docopt']]],

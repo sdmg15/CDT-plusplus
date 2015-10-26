@@ -17,7 +17,7 @@ var searchData=
   ['max_5ffoliation_5ffix_5fpasses',['MAX_FOLIATION_FIX_PASSES',['../_s3_triangulation_8h.html#a3a780d061ba64903ad59797eb5b14ad0',1,'S3Triangulation.h']]],
   ['maybe_5fcollapse_5fto_5feither',['maybe_collapse_to_either',['../docopt_8cpp.html#ad6dbebb6d4c24874e7c1b7c287d10c35',1,'docopt.cpp']]],
   ['maybe_5fcollapse_5fto_5frequired',['maybe_collapse_to_required',['../docopt_8cpp.html#af8180c4d8a8b79c033d2d88800258c2d',1,'docopt.cpp']]],
-  ['metropolis',['Metropolis',['../class_metropolis.html',1,'Metropolis'],['../class_metropolis.html#a27d432bbd3b2b4b9a9a32869451e64e4',1,'Metropolis::Metropolis()']]],
+  ['metropolis',['Metropolis',['../class_metropolis.html',1,'Metropolis'],['../class_metropolis.html#ae23fce957468b20b6e7f8a27119796f1',1,'Metropolis::Metropolis()']]],
   ['metropolis_2eh',['Metropolis.h',['../_metropolis_8h.html',1,'']]],
   ['metropolistest',['MetropolisTest',['../class_metropolis_test.html',1,'']]],
   ['metropolistest_2ecpp',['MetropolisTest.cpp',['../_metropolis_test_8cpp.html',1,'']]],

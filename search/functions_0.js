@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['alpha',['Alpha',['../class_metropolis.html#a3f68c6799ba7aa5558fe6172d950fec4',1,'Metropolis']]],
   ['argcount',['argCount',['../classdocopt_1_1_option.html#a9ad24b86137eedc5eb0b66b61f461971',1,'docopt::Option']]],
   ['asbool',['asBool',['../structdocopt_1_1value.html#a9171c1b0ec9b433da6b04ef9e853ce92',1,'docopt::value']]],
   ['aslong',['asLong',['../structdocopt_1_1value.html#abf696121d9b797d2510c0a2609a1afe1',1,'docopt::value']]],
