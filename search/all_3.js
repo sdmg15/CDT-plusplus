@@ -1,6 +1,7 @@
 var searchData=
 [
-  ['delaunay',['Delaunay',['../cdt-gv_8cpp.html#aa737d424de730275a305a1c9ff28836d',1,'Delaunay():&#160;cdt-gv.cpp'],['../container__test_8cpp.html#a07c39f2f3f95c3e765779388ec1a12df',1,'Delaunay():&#160;container_test.cpp'],['../_s3_triangulation_8h.html#a07c39f2f3f95c3e765779388ec1a12df',1,'Delaunay():&#160;S3Triangulation.h']]],
+  ['delaunay',['Delaunay',['../cdt-gv_8cpp.html#aa737d424de730275a305a1c9ff28836d',1,'Delaunay():&#160;cdt-gv.cpp'],['../_s3_triangulation_8h.html#a07c39f2f3f95c3e765779388ec1a12df',1,'Delaunay():&#160;S3Triangulation.h']]],
+  ['dimension',['DIMENSION',['../_s3_triangulation_8h.html#a088ca7ee466c991c2cc28eae39e86289',1,'S3Triangulation.h']]],
   ['docopt',['docopt',['../namespacedocopt.html',1,'docopt'],['../namespacedocopt.html#afc0cea8a73acc6b09d7dface47cbd0e7',1,'docopt::docopt()']]],
   ['docopt_2ecpp',['docopt.cpp',['../docopt_8cpp.html',1,'']]],
   ['docopt_2eh',['docopt.h',['../docopt_8h.html',1,'']]],

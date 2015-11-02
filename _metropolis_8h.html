@@ -105,9 +105,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="textblock"><code>#include &lt;CGAL/Gmpzf.h&gt;</code><br />
 <code>#include &lt;CGAL/Gmpz.h&gt;</code><br />
 <code>#include &lt;mpfr.h&gt;</code><br />
-<code>#include &quot;<a class="el" href="_s3_triangulation_8h_source.html">S3Triangulation.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="_s3_ergodic_moves_8h_source.html">S3ErgodicMoves.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="utilities_8h_source.html">Utilities.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="_s3_action_8h_source.html">S3Action.h</a>&quot;</code><br />
 <code>#include &lt;vector&gt;</code><br />
 <code>#include &lt;utility&gt;</code><br />
@@ -117,10 +115,10 @@ Include dependency graph for Metropolis.h:</div>
 <div class="dyncontent">
 <div class="center"><img src="_metropolis_8h__incl.png" border="0" usemap="#src_2_metropolis_8h" alt=""/></div>
 <map name="src_2_metropolis_8h" id="src_2_metropolis_8h">
-<area shape="rect" id="node5" href="_s3_triangulation_8h.html" title="Functions on Spherical Delaunay Triangulations. " alt="" coords="609,152,734,177"/>
-<area shape="rect" id="node18" href="_s3_ergodic_moves_8h.html" title="Pachner moves on 3D Delaunay Triangulations. " alt="" coords="699,79,832,104"/>
-<area shape="rect" id="node19" href="utilities_8h.html" title="Utility functions. " alt="" coords="1863,152,1938,177"/>
-<area shape="rect" id="node28" href="_s3_action_8h.html" title="Calculate S3 bulk actions on 3D Delaunay Triangulations. " alt="" coords="163,79,249,104"/>
+<area shape="rect" id="node5" href="_s3_ergodic_moves_8h.html" title="Pachner moves on 3D Delaunay Triangulations. " alt="" coords="1424,79,1557,104"/>
+<area shape="rect" id="node28" href="_s3_action_8h.html" title="Calculate S3 bulk actions on 3D Delaunay Triangulations. " alt="" coords="996,79,1082,104"/>
+<area shape="rect" id="node6" href="_s3_triangulation_8h.html" title="Functions on Spherical Delaunay Triangulations. " alt="" coords="1150,152,1275,177"/>
+<area shape="rect" id="node7" href="utilities_8h.html" title="Utility functions. " alt="" coords="1030,239,1106,264"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
@@ -147,14 +145,15 @@ Typedefs</h2></td></tr>
 <tr class="separator:ab09035cfa5e10fa4ee88d95ef5fa7ac5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4648cc17c7db99f1d4627bcb33624219"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_metropolis_8h.html#a4648cc17c7db99f1d4627bcb33624219">Gmpz</a> = CGAL::Gmpz</td></tr>
 <tr class="separator:a4648cc17c7db99f1d4627bcb33624219"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa361d2afa2c1f053dd43971179178c24"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_metropolis_8h.html#aa361d2afa2c1f053dd43971179178c24">move_tuple</a> = std::tuple&lt; unsigned long int, unsigned long int, unsigned long int &gt;</td></tr>
-<tr class="separator:aa361d2afa2c1f053dd43971179178c24"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a20bdb2f7cc566dbf1eb2509a631d14a2"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_metropolis_8h.html#a20bdb2f7cc566dbf1eb2509a631d14a2">move_tuple</a> = std::tuple&lt; unsigned long int, unsigned long int, unsigned long int, unsigned long int &gt;</td></tr>
+<tr class="separator:a20bdb2f7cc566dbf1eb2509a631d14a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
 <tr class="memitem:afacb89cb65e7bc872a93079c927634c9"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_metropolis_8h.html#afacb89cb65e7bc872a93079c927634c9">move_type</a> { <a class="el" href="_metropolis_8h.html#afacb89cb65e7bc872a93079c927634c9a1f47cfc932deac1ab967badbc8932b52">move_type::TWO_THREE</a> = 1, 
 <a class="el" href="_metropolis_8h.html#afacb89cb65e7bc872a93079c927634c9a336621bbf09adfcabdf66dd43433b22b">move_type::THREE_TWO</a> = 2, 
-<a class="el" href="_metropolis_8h.html#afacb89cb65e7bc872a93079c927634c9ae4d50f5cd218df5e3d0b516c65241486">move_type::TWO_SIX</a> = 3
+<a class="el" href="_metropolis_8h.html#afacb89cb65e7bc872a93079c927634c9ae4d50f5cd218df5e3d0b516c65241486">move_type::TWO_SIX</a> = 3, 
+<a class="el" href="_metropolis_8h.html#afacb89cb65e7bc872a93079c927634c9a22daae4d30a16ec976d8255b2229dc61">move_type::SIX_TWO</a> = 4
  }<tr class="separator:afacb89cb65e7bc872a93079c927634c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </td></tr>
 </table><table class="memberdecls">
@@ -188,12 +187,12 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="aa361d2afa2c1f053dd43971179178c24"></a>
+<a class="anchor" id="a20bdb2f7cc566dbf1eb2509a631d14a2"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="_metropolis_8h.html#aa361d2afa2c1f053dd43971179178c24">move_tuple</a> =  std::tuple&lt;unsigned long int, unsigned long int, unsigned long int&gt;</td>
+          <td class="memname">using <a class="el" href="_metropolis_8h.html#a20bdb2f7cc566dbf1eb2509a631d14a2">move_tuple</a> =  std::tuple&lt;unsigned long int, unsigned long int, unsigned long int, unsigned long int&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -225,6 +224,8 @@ Variables</h2></td></tr>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="afacb89cb65e7bc872a93079c927634c9ae4d50f5cd218df5e3d0b516c65241486"></a>TWO_SIX&#160;</td><td class="fielddoc">
 </td></tr>
+<tr><td class="fieldname"><a class="anchor" id="afacb89cb65e7bc872a93079c927634c9a22daae4d30a16ec976d8255b2229dc61"></a>SIX_TWO&#160;</td><td class="fielddoc">
+</td></tr>
 </table>
 
 </div>
@@ -245,7 +246,7 @@ Variables</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Oct 25 2015 17:58:25 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sun Nov 1 2015 20:31:15 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.10
 </small></address>

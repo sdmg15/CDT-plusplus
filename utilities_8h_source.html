@@ -254,17 +254,40 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;  <span class="keywordflow">return</span> result;</div>
 <div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;}</div>
 <div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;</div>
-<div class="line"><a name="l00256"></a><span class="lineno"><a class="line" href="utilities_8h.html#a1a00f40321b0d644e5814ea67d4e396f">  256</a></span>&#160;<span class="keyword">inline</span> <span class="keyword">auto</span> <a class="code" href="utilities_8h.html#a1a00f40321b0d644e5814ea67d4e396f">generate_probability</a>() noexcept {</div>
-<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;  <span class="keyword">auto</span> min = <span class="keyword">static_cast&lt;</span><span class="keywordtype">long</span> <span class="keywordtype">double</span><span class="keyword">&gt;</span>(0.0);</div>
-<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;  <span class="keyword">auto</span> max = <span class="keyword">static_cast&lt;</span><span class="keywordtype">long</span> <span class="keywordtype">double</span><span class="keyword">&gt;</span>(1.0);</div>
-<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;  <span class="keywordflow">return</span> <a class="code" href="utilities_8h.html#a38f78f101db43d860c23c7410c41c45b">generate_random_real</a>(min, max);</div>
-<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;}  <span class="comment">// generate_probability()</span></div>
-<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;</div>
-<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;<span class="preprocessor">#endif  // SRC_UTILITIES_H_</span></div>
-<div class="ttc" id="utilities_8h_html_a1a00f40321b0d644e5814ea67d4e396f"><div class="ttname"><a href="utilities_8h.html#a1a00f40321b0d644e5814ea67d4e396f">generate_probability</a></div><div class="ttdeci">auto generate_probability() noexcept</div><div class="ttdoc">Generate a random timeslice. </div><div class="ttdef"><b>Definition:</b> utilities.h:256</div></div>
+<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;<span class="keyword">inline</span></div>
+<div class="line"><a name="l00257"></a><span class="lineno"><a class="line" href="utilities_8h.html#a1a00f40321b0d644e5814ea67d4e396f">  257</a></span>&#160;<span class="keyword">auto</span> <a class="code" href="utilities_8h.html#a1a00f40321b0d644e5814ea67d4e396f">generate_probability</a>() noexcept {</div>
+<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;  <span class="keyword">auto</span> min = <span class="keyword">static_cast&lt;</span><span class="keywordtype">long</span> <span class="keywordtype">double</span><span class="keyword">&gt;</span>(0.0);</div>
+<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;  <span class="keyword">auto</span> max = <span class="keyword">static_cast&lt;</span><span class="keywordtype">long</span> <span class="keywordtype">double</span><span class="keyword">&gt;</span>(1.0);</div>
+<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;  <span class="keywordflow">return</span> <a class="code" href="utilities_8h.html#a38f78f101db43d860c23c7410c41c45b">generate_random_real</a>(min, max);</div>
+<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;}  <span class="comment">// generate_probability()</span></div>
+<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;</div>
+<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;<span class="keyword">inline</span></div>
+<div class="line"><a name="l00277"></a><span class="lineno"><a class="line" href="utilities_8h.html#ac2ca5eb952e4ff7e46bc1a76c2008773">  277</a></span>&#160;<span class="keyword">auto</span> <a class="code" href="utilities_8h.html#ac2ca5eb952e4ff7e46bc1a76c2008773">expected_points_per_simplex</a>(<span class="keyword">const</span> <span class="keywordtype">unsigned</span> dimension,</div>
+<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;                                 <span class="keyword">const</span> <span class="keywordtype">unsigned</span> simplices,</div>
+<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;                                 <span class="keyword">const</span> <span class="keywordtype">unsigned</span> timeslices)</div>
+<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;                                 noexcept {</div>
+<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;  std::cout &lt;&lt; simplices &lt;&lt; <span class="stringliteral">&quot; simplices desired on &quot;</span></div>
+<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;            &lt;&lt; timeslices &lt;&lt; <span class="stringliteral">&quot; timeslices.&quot;</span></div>
+<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;            &lt;&lt; std::endl;</div>
+<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;  <span class="keyword">const</span> <span class="keyword">auto</span> simplices_per_timeslice = simplices/timeslices;</div>
+<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;  <span class="comment">// Avoid segfaults for small values</span></div>
+<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;  <span class="keywordflow">if</span> (simplices == timeslices) {</div>
+<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;    <span class="keywordflow">return</span> 4*simplices_per_timeslice;</div>
+<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;  } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (simplices &lt; 10000) {</div>
+<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;    <span class="keywordflow">return</span> simplices_per_timeslice;</div>
+<div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;  } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (simplices &lt; 100000) {</div>
+<div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">static_cast&lt;</span><span class="keywordtype">unsigned</span><span class="keyword">&gt;</span>(1.5*simplices_per_timeslice);</div>
+<div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;  } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">static_cast&lt;</span><span class="keywordtype">unsigned</span><span class="keyword">&gt;</span>(2.7*simplices_per_timeslice);</div>
+<div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;  }</div>
+<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;}</div>
+<div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;</div>
+<div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;<span class="preprocessor">#endif  // SRC_UTILITIES_H_</span></div>
+<div class="ttc" id="utilities_8h_html_a1a00f40321b0d644e5814ea67d4e396f"><div class="ttname"><a href="utilities_8h.html#a1a00f40321b0d644e5814ea67d4e396f">generate_probability</a></div><div class="ttdeci">auto generate_probability() noexcept</div><div class="ttdoc">Generate a random timeslice. </div><div class="ttdef"><b>Definition:</b> utilities.h:257</div></div>
 <div class="ttc" id="namespacerun__tests_html_afdd6d58e55ad48ca97521fcc6e38d9c7"><div class="ttname"><a href="namespacerun__tests.html#afdd6d58e55ad48ca97521fcc6e38d9c7">run_tests.out</a></div><div class="ttdeci">out</div><div class="ttdef"><b>Definition:</b> run_tests.py:37</div></div>
 <div class="ttc" id="utilities_8h_html_a74f6d79ac2a9ae485fe9951809675c65"><div class="ttname"><a href="utilities_8h.html#a74f6d79ac2a9ae485fe9951809675c65">write_file</a></div><div class="ttdeci">void write_file(const T &amp;universe_ptr, const topology_type &amp;topology, const unsigned dimensions, const unsigned number_of_simplices, const unsigned number_of_timeslices) noexcept</div><div class="ttdoc">Writes the runtime results to a file. </div><div class="ttdef"><b>Definition:</b> utilities.h:172</div></div>
 <div class="ttc" id="utilities_8h_html_a151b9d8c2662b9676c767d2348c7b85d"><div class="ttname"><a href="utilities_8h.html#a151b9d8c2662b9676c767d2348c7b85d">print_results</a></div><div class="ttdeci">void print_results(const T &amp;universe_ptr) noexcept</div><div class="ttdoc">Print out runtime results. </div><div class="ttdef"><b>Definition:</b> utilities.h:130</div></div>
+<div class="ttc" id="utilities_8h_html_ac2ca5eb952e4ff7e46bc1a76c2008773"><div class="ttname"><a href="utilities_8h.html#ac2ca5eb952e4ff7e46bc1a76c2008773">expected_points_per_simplex</a></div><div class="ttdeci">auto expected_points_per_simplex(const unsigned dimension, const unsigned simplices, const unsigned timeslices) noexcept</div><div class="ttdoc">Calculate expected # of points per simplex. </div><div class="ttdef"><b>Definition:</b> utilities.h:277</div></div>
 <div class="ttc" id="utilities_8h_html_a43895b203fdb39fdeb7f485f1835bc51"><div class="ttname"><a href="utilities_8h.html#a43895b203fdb39fdeb7f485f1835bc51">generate_random_unsigned</a></div><div class="ttdeci">auto generate_random_unsigned(const unsigned min_value, const unsigned max_value) noexcept</div><div class="ttdoc">Generate random unsigned integers. </div><div class="ttdef"><b>Definition:</b> utilities.h:200</div></div>
 <div class="ttc" id="utilities_8h_html_a0c44c2aed3941edbff71efc807c48cce"><div class="ttname"><a href="utilities_8h.html#a0c44c2aed3941edbff71efc807c48cce">generate_filename</a></div><div class="ttdeci">auto generate_filename(const topology_type &amp;top, const unsigned dimensions, const unsigned number_of_simplices, const unsigned number_of_timeslices) noexcept</div><div class="ttdoc">Generate useful filenames. </div><div class="ttdef"><b>Definition:</b> utilities.h:86</div></div>
 <div class="ttc" id="utilities_8h_html_a38f78f101db43d860c23c7410c41c45b"><div class="ttname"><a href="utilities_8h.html#a38f78f101db43d860c23c7410c41c45b">generate_random_real</a></div><div class="ttdeci">auto generate_random_real(const T min_value, const T max_value) noexcept</div><div class="ttdoc">Generate random real numbers. </div><div class="ttdef"><b>Definition:</b> utilities.h:238</div></div>
@@ -278,7 +301,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Oct 25 2015 17:58:24 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sun Nov 1 2015 20:31:15 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.10
 </small></address>
