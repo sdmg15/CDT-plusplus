@@ -1,8 +1,8 @@
 var searchData=
 [
-  ['s3_5fbulk_5faction',['S3_bulk_action',['../_s3_action_8h.html#a2a5fbb83b4eed452b35ca75ff2214d5a',1,'S3Action.h']]],
-  ['s3_5fbulk_5faction_5falpha_5fminus_5fone',['S3_bulk_action_alpha_minus_one',['../_s3_action_8h.html#ad3298ca25723f772f1df96c0020576b6',1,'S3Action.h']]],
-  ['s3_5fbulk_5faction_5falpha_5fone',['S3_bulk_action_alpha_one',['../_s3_action_8h.html#ada36a55ed775e2d5c791ac2899a63740',1,'S3Action.h']]],
+  ['s3_5fbulk_5faction',['S3_bulk_action',['../_s3_action_8h.html#a2efe9f07ccfb005de21832dfe780539a',1,'S3Action.h']]],
+  ['s3_5fbulk_5faction_5falpha_5fminus_5fone',['S3_bulk_action_alpha_minus_one',['../_s3_action_8h.html#a56f7417bc949bb9a1feb2e8881524984',1,'S3Action.h']]],
+  ['s3_5fbulk_5faction_5falpha_5fone',['S3_bulk_action_alpha_one',['../_s3_action_8h.html#a835fd58e867f55dc84d049a5528c092c',1,'S3Action.h']]],
   ['setchildren',['setChildren',['../classdocopt_1_1_branch_pattern.html#a1b4609af47df9ebba57067e2cb5d762d',1,'docopt::BranchPattern']]],
   ['setup',['SetUp',['../class_metropolis_test.html#a74d7799620556373bca2bbe125011003',1,'MetropolisTest::SetUp()'],['../class_s3_action.html#a1a21c64c5374cfab5d7d0fe8a01d6823',1,'S3Action::SetUp()'],['../class_s3_ergodic_moves.html#ac635321bd497d5077b3cab1ea976c0f6',1,'S3ErgodicMoves::SetUp()'],['../class_minimal26_test.html#a58ea1fb6d689d8a39790bee7fae84c70',1,'Minimal26Test::SetUp()'],['../class_minimal62_test.html#aa543f3aaf583b8fdf1de67c0d8afb7e7',1,'Minimal62Test::SetUp()'],['../class_tetrahedron.html#a89b6a885a34239c4a511e9a67e4cf5b9',1,'Tetrahedron::SetUp()'],['../class_foliated_tetrahedron.html#a256fb1c6ff586b05c486918be164727b',1,'FoliatedTetrahedron::SetUp()']]],
   ['setvalue',['setValue',['../classdocopt_1_1_leaf_pattern.html#a44655164a427a6f6e0d98f1f30a88bac',1,'docopt::LeafPattern']]],

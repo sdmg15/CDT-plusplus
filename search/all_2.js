@@ -1,6 +1,7 @@
 var searchData=
 [
   ['calculatea1',['CalculateA1',['../class_metropolis.html#a01ff2475c689a55080e134b0e460a6bd',1,'Metropolis']]],
+  ['calculatea2',['CalculateA2',['../class_metropolis.html#a05d81cdf05d687db50ad2c98a89e1336',1,'Metropolis']]],
   ['cb',['Cb',['../periodic__3__triangulations_8h.html#ad7405b481a75465b00ae37a4f32453ac',1,'Cb():&#160;periodic_3_triangulations.h'],['../_s3_triangulation_8h.html#a043f5efd4a57d50aa8def2f3b0ea10b0',1,'Cb():&#160;S3Triangulation.h']]],
   ['cbds',['CbDS',['../periodic__3__triangulations_8h.html#a1aabd7f958991d7d2c7b101d08bede3e',1,'periodic_3_triangulations.h']]],
   ['cdt_2dgv_2ecpp',['cdt-gv.cpp',['../cdt-gv_8cpp.html',1,'']]],
