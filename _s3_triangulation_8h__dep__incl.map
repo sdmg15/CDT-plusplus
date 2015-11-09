@@ -1,12 +1,12 @@
 <map id="src/S3Triangulation.h" name="src/S3Triangulation.h">
-<area shape="rect" id="node2" href="$cdt_8cpp.html" title="The main body of the program. " alt="" coords="5,252,91,277"/>
-<area shape="rect" id="node3" href="$_s3_ergodic_moves_8h.html" title="Pachner moves on 3D Delaunay Triangulations. " alt="" coords="86,85,240,111"/>
-<area shape="rect" id="node7" href="$_s3_action_test_8cpp.html" title="Tests for the S3 action functions. " alt="" coords="265,85,442,111"/>
-<area shape="rect" id="node8" href="$_s3_triangulation_test_8cpp.html" title="Tests for correctly foliated triangulations. " alt="" coords="466,79,633,117"/>
-<area shape="rect" id="node9" href="$_sphere_test_8cpp.html" title="Tests for spheres. " alt="" coords="658,85,825,111"/>
-<area shape="rect" id="node10" href="$_tetrahedron_test_8cpp.html" title="Tests for 3D triangulated and foliated tetrahedrons. " alt="" coords="849,85,1045,111"/>
-<area shape="rect" id="node11" href="$_vertex_test_8cpp.html" title="Tests on vertices. " alt="" coords="1068,85,1231,111"/>
-<area shape="rect" id="node4" href="$_metropolis_8h.html" title="src/Metropolis.h" alt="" coords="95,172,210,197"/>
-<area shape="rect" id="node6" href="$_s3_ergodic_moves_test_8cpp.html" title="Tests for S3 ergodic moves. " alt="" coords="234,165,409,204"/>
-<area shape="rect" id="node5" href="$_metropolis_test_8cpp.html" title="unittests/MetropolisTest.cpp" alt="" coords="115,252,301,277"/>
+<area shape="rect" id="node2" href="$_s3_ergodic_moves_8h.html" title="Pachner moves on 3D Delaunay Triangulations. " alt="" coords="135,85,290,111"/>
+<area shape="rect" id="node7" href="$_s3_action_test_8cpp.html" title="Tests for the S3 action functions. " alt="" coords="314,85,492,111"/>
+<area shape="rect" id="node8" href="$_s3_triangulation_test_8cpp.html" title="Tests for correctly foliated triangulations. " alt="" coords="515,79,683,117"/>
+<area shape="rect" id="node9" href="$_sphere_test_8cpp.html" title="Tests for spheres. " alt="" coords="707,85,875,111"/>
+<area shape="rect" id="node10" href="$_tetrahedron_test_8cpp.html" title="Tests for 3D triangulated and foliated tetrahedrons. " alt="" coords="898,85,1094,111"/>
+<area shape="rect" id="node11" href="$_vertex_test_8cpp.html" title="Tests on vertices. " alt="" coords="1118,85,1280,111"/>
+<area shape="rect" id="node3" href="$_metropolis_8h.html" title="Perform Metropolis&#45;Hasting algorithm on Delaunay Triangulations. " alt="" coords="71,172,186,197"/>
+<area shape="rect" id="node6" href="$_s3_ergodic_moves_test_8cpp.html" title="Tests for S3 ergodic moves. " alt="" coords="210,165,385,204"/>
+<area shape="rect" id="node4" href="$cdt_8cpp.html" title="The main body of the program. " alt="" coords="5,252,91,277"/>
+<area shape="rect" id="node5" href="$_metropolis_test_8cpp.html" title="Tests for the Metropolis&#45;Hastings algorithm. " alt="" coords="115,252,301,277"/>
 </map>

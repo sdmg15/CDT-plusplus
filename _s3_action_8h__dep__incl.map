@@ -1,6 +1,6 @@
 <map id="src/S3Action.h" name="src/S3Action.h">
-<area shape="rect" id="node2" href="$_metropolis_8h.html" title="src/Metropolis.h" alt="" coords="71,79,186,104"/>
+<area shape="rect" id="node2" href="$_metropolis_8h.html" title="Perform Metropolis&#45;Hasting algorithm on Delaunay Triangulations. " alt="" coords="71,79,186,104"/>
 <area shape="rect" id="node5" href="$_s3_action_test_8cpp.html" title="Tests for the S3 action functions. " alt="" coords="210,79,388,104"/>
 <area shape="rect" id="node3" href="$cdt_8cpp.html" title="The main body of the program. " alt="" coords="5,152,91,177"/>
-<area shape="rect" id="node4" href="$_metropolis_test_8cpp.html" title="unittests/MetropolisTest.cpp" alt="" coords="115,152,301,177"/>
+<area shape="rect" id="node4" href="$_metropolis_test_8cpp.html" title="Tests for the Metropolis&#45;Hastings algorithm. " alt="" coords="115,152,301,177"/>
 </map>

@@ -192,8 +192,8 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a5b995cd33464d635d85d0936b106b20a"><td class="memItemLeft" align="right" valign="top">unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_metropolis.html#a5b995cd33464d635d85d0936b106b20a">output_every_n_passes_</a></td></tr>
 <tr class="memdesc:a5b995cd33464d635d85d0936b106b20a"><td class="mdescLeft">&#160;</td><td class="mdescRight">How often to print/write output.  <a href="#a5b995cd33464d635d85d0936b106b20a">More...</a><br /></td></tr>
 <tr class="separator:a5b995cd33464d635d85d0936b106b20a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac16c5d8c36babd2d90cc7c0e4d21fe87"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_metropolis_8h.html#a20bdb2f7cc566dbf1eb2509a631d14a2">move_tuple</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_metropolis.html#ac16c5d8c36babd2d90cc7c0e4d21fe87">attempted_moves_</a></td></tr>
-<tr class="memdesc:ac16c5d8c36babd2d90cc7c0e4d21fe87"><td class="mdescLeft">&#160;</td><td class="mdescRight">Attempted (2,3), (3,2), and (2,6) moves.  <a href="#ac16c5d8c36babd2d90cc7c0e4d21fe87">More...</a><br /></td></tr>
+<tr class="memitem:ac16c5d8c36babd2d90cc7c0e4d21fe87"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_metropolis_8h.html#a2f50caa6f32fe6e2227eaca5807edf32">move_tuple</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_metropolis.html#ac16c5d8c36babd2d90cc7c0e4d21fe87">attempted_moves_</a></td></tr>
+<tr class="memdesc:ac16c5d8c36babd2d90cc7c0e4d21fe87"><td class="mdescLeft">&#160;</td><td class="mdescRight">Attempted (2,3), (3,2), (2,6), (6,2), and (4,4) moves.  <a href="#ac16c5d8c36babd2d90cc7c0e4d21fe87">More...</a><br /></td></tr>
 <tr class="separator:ac16c5d8c36babd2d90cc7c0e4d21fe87"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae22a8bf833d08123cae948ee6c47744e"><td class="memItemLeft" align="right" valign="top">std::tuple&lt; std::vector&lt; <a class="el" href="_s3_triangulation_8h.html#aeed6d966b9e9704e557321b5422a10e6">Cell_handle</a> &gt;, std::vector&lt; <a class="el" href="_s3_triangulation_8h.html#aeed6d966b9e9704e557321b5422a10e6">Cell_handle</a> &gt;, std::vector&lt; <a class="el" href="_s3_triangulation_8h.html#aeed6d966b9e9704e557321b5422a10e6">Cell_handle</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_metropolis.html#ae22a8bf833d08123cae948ee6c47744e">simplex_types_</a></td></tr>
 <tr class="memdesc:ae22a8bf833d08123cae948ee6c47744e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Movable (3,1), (2,2) and (1,3) simplices.  <a href="#ae22a8bf833d08123cae948ee6c47744e">More...</a><br /></td></tr>
@@ -204,6 +204,7 @@ Private Attributes</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Metropolis-Hastings algorithm functor. </p>
+<p>The Metropolis-Hastings algorithm is a Markov Chain Monte Carlo method. The probability of making an ergodic (Pachner) move is:</p>
 <p class="formulaDsp">
 \[P_{ergodic move}=a_{1}a_{2}\]
 </p>
@@ -213,8 +214,7 @@ Private Attributes</h2></td></tr>
  <p class="formulaDsp">
 \[a_2=e^{\Delta S}\]
 </p>
-<p>The Metropolis-Hastings algorithm is a Markov Chain Monte Carlo method. The probability of making an ergodic (Pachner) move is: </p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+ </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="ae23fce957468b20b6e7f8a27119796f1"></a>
 <div class="memitem">
 <div class="memproto">
@@ -768,7 +768,7 @@ template&lt;typename T &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="_metropolis_8h.html#a20bdb2f7cc566dbf1eb2509a631d14a2">move_tuple</a> Metropolis::attempted_moves_</td>
+          <td class="memname"><a class="el" href="_metropolis_8h.html#a2f50caa6f32fe6e2227eaca5807edf32">move_tuple</a> Metropolis::attempted_moves_</td>
         </tr>
       </table>
   </td>
@@ -778,7 +778,7 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Attempted (2,3), (3,2), and (2,6) moves. </p>
+<p>Attempted (2,3), (3,2), (2,6), (6,2), and (4,4) moves. </p>
 
 </div>
 </div>
@@ -843,7 +843,7 @@ template&lt;typename T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>\(\Lambda=\frac{\lambda}{8\pi G_{N}}\) where \(\lambda\) is the cosmological constant. </p>
+<p>\(\lambda=\frac{\Lambda}{8\pi G_{N}}\) where \(\Lambda\) is the cosmological constant. </p>
 
 </div>
 </div>
@@ -1028,7 +1028,7 @@ template&lt;typename T &gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Nov 4 2015 17:37:39 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon Nov 9 2015 00:04:22 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.10
 </small></address>
