@@ -10,8 +10,10 @@ var searchData=
   ['tetrahedrontest_2ecpp',['TetrahedronTest.cpp',['../_tetrahedron_test_8cpp.html',1,'']]],
   ['the_5frest',['the_rest',['../class_tokens.html#a54d3ee77bef393a23866b320acb50a06',1,'Tokens']]],
   ['three_5ftwo',['THREE_TWO',['../_metropolis_8h.html#afacb89cb65e7bc872a93079c927634c9a336621bbf09adfcabdf66dd43433b22b',1,'Metropolis.h']]],
+  ['threeonesimplices',['ThreeOneSimplices',['../class_metropolis.html#a1c75b3f535b242a81470684048a2b8fd',1,'Metropolis']]],
   ['threetwomoves',['ThreeTwoMoves',['../class_metropolis.html#a7b840987f1a77e84b3ce54199d57ae37',1,'Metropolis']]],
   ['throwifnotkind',['throwIfNotKind',['../structdocopt_1_1value.html#a37a7c5d8a3e067a1b4b337ef9ccfa0ad',1,'docopt::value']]],
+  ['timelikeedges',['TimelikeEdges',['../class_metropolis.html#a80e5504b74bbdaf94a480e4a8ef40e03',1,'Metropolis']]],
   ['timeslices',['timeslices',['../class_metropolis_test.html#ad7c643dbced8ca9f2b237c6270917e2a',1,'MetropolisTest::timeslices()'],['../class_s3_action.html#ab27f104ac421308e349e8a39792fa36d',1,'S3Action::timeslices()'],['../class_s3_ergodic_moves.html#a65f28d91fdfce80a86a9fd6392440305',1,'S3ErgodicMoves::timeslices()']]],
   ['timevalue',['timevalue',['../class_minimal26_test.html#a9a019a82b15c6d248fb4253aa518f516',1,'Minimal26Test::timevalue()'],['../class_foliated_tetrahedron.html#a8cc2ef3d7b98390636d4afcf9fd29ed7',1,'FoliatedTetrahedron::timevalue()']]],
   ['todo_20list',['Todo List',['../todo.html',1,'']]],
@@ -26,5 +28,6 @@ var searchData=
   ['two_5fsix',['TWO_SIX',['../_metropolis_8h.html#afacb89cb65e7bc872a93079c927634c9ae4d50f5cd218df5e3d0b516c65241486',1,'Metropolis.h']]],
   ['two_5fthree',['TWO_THREE',['../_metropolis_8h.html#afacb89cb65e7bc872a93079c927634c9a1f47cfc932deac1ab967badbc8932b52',1,'Metropolis.h']]],
   ['twosixmoves',['TwoSixMoves',['../class_metropolis.html#a791546eb9591f0b252cf4f80278ba22c',1,'Metropolis']]],
-  ['twothreemoves',['TwoThreeMoves',['../class_metropolis.html#ab22ce32ff6835e1f99c9af24b69aa2b0',1,'Metropolis']]]
+  ['twothreemoves',['TwoThreeMoves',['../class_metropolis.html#ab22ce32ff6835e1f99c9af24b69aa2b0',1,'Metropolis']]],
+  ['twotwosimplices',['TwoTwoSimplices',['../class_metropolis.html#a2a2d61d1ac52bf150b53fa6ce7575d41',1,'Metropolis']]]
 ];

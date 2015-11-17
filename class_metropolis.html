@@ -154,6 +154,15 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:af3ff9d8e8c682dcfea24106df7441f6a"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_metropolis.html#af3ff9d8e8c682dcfea24106df7441f6a">MovableOneThree</a> () const </td></tr>
 <tr class="memdesc:af3ff9d8e8c682dcfea24106df7441f6a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the number of movable (1,3) simplices.  <a href="#af3ff9d8e8c682dcfea24106df7441f6a">More...</a><br /></td></tr>
 <tr class="separator:af3ff9d8e8c682dcfea24106df7441f6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a80e5504b74bbdaf94a480e4a8ef40e03"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_metropolis.html#a80e5504b74bbdaf94a480e4a8ef40e03">TimelikeEdges</a> () const </td></tr>
+<tr class="memdesc:a80e5504b74bbdaf94a480e4a8ef40e03"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets current number of timelike edges.  <a href="#a80e5504b74bbdaf94a480e4a8ef40e03">More...</a><br /></td></tr>
+<tr class="separator:a80e5504b74bbdaf94a480e4a8ef40e03"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c75b3f535b242a81470684048a2b8fd"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_metropolis.html#a1c75b3f535b242a81470684048a2b8fd">ThreeOneSimplices</a> () const </td></tr>
+<tr class="memdesc:a1c75b3f535b242a81470684048a2b8fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets current number of (3,1) and (1,3) simplices.  <a href="#a1c75b3f535b242a81470684048a2b8fd">More...</a><br /></td></tr>
+<tr class="separator:a1c75b3f535b242a81470684048a2b8fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2a2d61d1ac52bf150b53fa6ce7575d41"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_metropolis.html#a2a2d61d1ac52bf150b53fa6ce7575d41">TwoTwoSimplices</a> () const </td></tr>
+<tr class="memdesc:a2a2d61d1ac52bf150b53fa6ce7575d41"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets current number of (2,2) simplices.  <a href="#a2a2d61d1ac52bf150b53fa6ce7575d41">More...</a><br /></td></tr>
+<tr class="separator:a2a2d61d1ac52bf150b53fa6ce7575d41"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a01ff2475c689a55080e134b0e460a6bd"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_metropolis.html#a01ff2475c689a55080e134b0e460a6bd">CalculateA1</a> (<a class="el" href="_metropolis_8h.html#afacb89cb65e7bc872a93079c927634c9">move_type</a> move) const </td></tr>
 <tr class="separator:a01ff2475c689a55080e134b0e460a6bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a05d81cdf05d687db50ad2c98a89e1336"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_metropolis.html#a05d81cdf05d687db50ad2c98a89e1336">CalculateA2</a> (<a class="el" href="_metropolis_8h.html#afacb89cb65e7bc872a93079c927634c9">move_type</a> move) const </td></tr>
@@ -652,6 +661,31 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
+<a class="anchor" id="a1c75b3f535b242a81470684048a2b8fd"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto Metropolis::ThreeOneSimplices </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets current number of (3,1) and (1,3) simplices. </p>
+
+</div>
+</div>
 <a class="anchor" id="a7b840987f1a77e84b3ce54199d57ae37"></a>
 <div class="memitem">
 <div class="memproto">
@@ -674,6 +708,31 @@ template&lt;typename T &gt; </div>
 </div><div class="memdoc">
 
 <p>Gets attempted (3,2) moves. </p>
+
+</div>
+</div>
+<a class="anchor" id="a80e5504b74bbdaf94a480e4a8ef40e03"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto Metropolis::TimelikeEdges </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets current number of timelike edges. </p>
 
 </div>
 </div>
@@ -749,6 +808,31 @@ template&lt;typename T &gt; </div>
 </div><div class="memdoc">
 
 <p>Gets attempted (2,3) moves. </p>
+
+</div>
+</div>
+<a class="anchor" id="a2a2d61d1ac52bf150b53fa6ce7575d41"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto Metropolis::TwoTwoSimplices </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets current number of (2,2) simplices. </p>
 
 </div>
 </div>
@@ -1043,7 +1127,7 @@ template&lt;typename T &gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Nov 10 2015 12:02:51 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon Nov 16 2015 22:32:47 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.10
 </small></address>
