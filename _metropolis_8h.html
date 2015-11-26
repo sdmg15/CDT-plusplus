@@ -105,11 +105,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 
 <p>Perform Metropolis-Hasting algorithm on Delaunay Triangulations.  
 <a href="#details">More...</a></p>
-<div class="textblock"><code>#include &lt;CGAL/Gmpzf.h&gt;</code><br />
-<code>#include &lt;CGAL/Gmpz.h&gt;</code><br />
-<code>#include &lt;mpfr.h&gt;</code><br />
-<code>#include &lt;CGAL/Mpzf.h&gt;</code><br />
-<code>#include &quot;<a class="el" href="_s3_ergodic_moves_8h_source.html">S3ErgodicMoves.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="_s3_ergodic_moves_8h_source.html">S3ErgodicMoves.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="_s3_action_8h_source.html">S3Action.h</a>&quot;</code><br />
 <code>#include &lt;vector&gt;</code><br />
 <code>#include &lt;utility&gt;</code><br />
@@ -119,10 +115,10 @@ Include dependency graph for Metropolis.h:</div>
 <div class="dyncontent">
 <div class="center"><img src="_metropolis_8h__incl.png" border="0" usemap="#src_2_metropolis_8h" alt=""/></div>
 <map name="src_2_metropolis_8h" id="src_2_metropolis_8h">
-<area shape="rect" id="node6" href="_s3_ergodic_moves_8h.html" title="Pachner moves on 3D Delaunay Triangulations. " alt="" coords="949,79,1082,104"/>
-<area shape="rect" id="node29" href="_s3_action_8h.html" title="Calculate S3 bulk actions on 3D Delaunay Triangulations. " alt="" coords="1851,79,1937,104"/>
-<area shape="rect" id="node7" href="_s3_triangulation_8h.html" title="Functions on Spherical Delaunay Triangulations. " alt="" coords="953,152,1078,177"/>
-<area shape="rect" id="node8" href="utilities_8h.html" title="Utility functions. " alt="" coords="1151,239,1226,264"/>
+<area shape="rect" id="node2" href="_s3_ergodic_moves_8h.html" title="Pachner moves on 3D Delaunay Triangulations. " alt="" coords="1576,79,1710,104"/>
+<area shape="rect" id="node26" href="_s3_action_8h.html" title="Calculate S3 bulk actions on 3D Delaunay Triangulations. " alt="" coords="318,79,403,104"/>
+<area shape="rect" id="node3" href="_s3_triangulation_8h.html" title="Functions on 3D Spherical Delaunay Triangulations. " alt="" coords="818,152,943,177"/>
+<area shape="rect" id="node4" href="utilities_8h.html" title="Utility functions. " alt="" coords="397,239,473,264"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
@@ -147,12 +143,8 @@ Classes</h2></td></tr>
 Typedefs</h2></td></tr>
 <tr class="memitem:ab09035cfa5e10fa4ee88d95ef5fa7ac5"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_metropolis_8h.html#ab09035cfa5e10fa4ee88d95ef5fa7ac5">Gmpzf</a> = CGAL::Gmpzf</td></tr>
 <tr class="separator:ab09035cfa5e10fa4ee88d95ef5fa7ac5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4648cc17c7db99f1d4627bcb33624219"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_metropolis_8h.html#a4648cc17c7db99f1d4627bcb33624219">Gmpz</a> = CGAL::Gmpz</td></tr>
-<tr class="separator:a4648cc17c7db99f1d4627bcb33624219"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5e57115e042eb919e5f7752ebc4aecf7"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_metropolis_8h.html#a5e57115e042eb919e5f7752ebc4aecf7">MP_Float</a> = CGAL::MP_Float</td></tr>
-<tr class="separator:a5e57115e042eb919e5f7752ebc4aecf7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2f50caa6f32fe6e2227eaca5807edf32"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_metropolis_8h.html#a2f50caa6f32fe6e2227eaca5807edf32">move_tuple</a> = std::tuple&lt; unsigned long int, unsigned long int, unsigned long int, unsigned long int, unsigned long int &gt;</td></tr>
-<tr class="separator:a2f50caa6f32fe6e2227eaca5807edf32"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad463fc55dd884e41ebd48517e0f2cf90"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_metropolis_8h.html#ad463fc55dd884e41ebd48517e0f2cf90">move_tuple</a> = std::tuple&lt; uintmax_t, uintmax_t, uintmax_t, uintmax_t, uintmax_t &gt;</td></tr>
+<tr class="separator:ad463fc55dd884e41ebd48517e0f2cf90"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
@@ -188,18 +180,6 @@ Variables</h2></td></tr>
 <dl class="section author"><dt>Author</dt><dd>Adam Getchell </dd></dl>
 <dl class="bug"><dt><b><a class="el" href="bug.html#_bug000002">Bug:</a></b></dt><dd><a href="http://clang-analyzer.llvm.org/scan-build.html">scan-build</a>: No bugs found. </dd></dl>
 </div><h2 class="groupheader">Typedef Documentation</h2>
-<a class="anchor" id="a4648cc17c7db99f1d4627bcb33624219"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="_metropolis_8h.html#a4648cc17c7db99f1d4627bcb33624219">Gmpz</a> =  CGAL::Gmpz</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a class="anchor" id="ab09035cfa5e10fa4ee88d95ef5fa7ac5"></a>
 <div class="memitem">
 <div class="memproto">
@@ -212,24 +192,12 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a2f50caa6f32fe6e2227eaca5807edf32"></a>
+<a class="anchor" id="ad463fc55dd884e41ebd48517e0f2cf90"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="_metropolis_8h.html#a2f50caa6f32fe6e2227eaca5807edf32">move_tuple</a> =  std::tuple&lt;unsigned long int, unsigned long int, unsigned long int, unsigned long int, unsigned long int&gt;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a5e57115e042eb919e5f7752ebc4aecf7"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="_metropolis_8h.html#a5e57115e042eb919e5f7752ebc4aecf7">MP_Float</a> =  CGAL::MP_Float</td>
+          <td class="memname">using <a class="el" href="_metropolis_8h.html#ad463fc55dd884e41ebd48517e0f2cf90">move_tuple</a> =  std::tuple&lt;uintmax_t, uintmax_t, uintmax_t, uintmax_t, uintmax_t&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -285,7 +253,7 @@ Variables</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Nov 16 2015 22:32:47 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Nov 26 2015 04:43:59 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.10
 </small></address>

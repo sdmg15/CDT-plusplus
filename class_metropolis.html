@@ -108,9 +108,11 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ae23fce957468b20b6e7f8a27119796f1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_metropolis.html#ae23fce957468b20b6e7f8a27119796f1">Metropolis</a> (const long double <a class="el" href="class_metropolis.html#a3f68c6799ba7aa5558fe6172d950fec4">Alpha</a>, const long double <a class="el" href="cdt-gv_8cpp.html#ab351a84f2421d5f971fbab843bbc3a62">K</a>, const long double <a class="el" href="class_metropolis.html#a94e51bbb74d41a3d08ea64c086d16ff7">Lambda</a>, const unsigned passes, const unsigned output_every_n_passes)</td></tr>
+<tr class="memdesc:ae23fce957468b20b6e7f8a27119796f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="#ae23fce957468b20b6e7f8a27119796f1">More...</a><br /></td></tr>
 <tr class="separator:ae23fce957468b20b6e7f8a27119796f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae205f0f3f79ff9c4d441c30c224b5e19"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:ae205f0f3f79ff9c4d441c30c224b5e19"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_metropolis.html#ae205f0f3f79ff9c4d441c30c224b5e19">operator()</a> (T &amp;&amp;universe_ptr) -&gt; decltype(universe_ptr)</td></tr>
+<tr class="memdesc:ae205f0f3f79ff9c4d441c30c224b5e19"><td class="mdescLeft">&#160;</td><td class="mdescRight">() operator  <a href="#ae205f0f3f79ff9c4d441c30c224b5e19">More...</a><br /></td></tr>
 <tr class="separator:ae205f0f3f79ff9c4d441c30c224b5e19"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3f68c6799ba7aa5558fe6172d950fec4"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_metropolis.html#a3f68c6799ba7aa5558fe6172d950fec4">Alpha</a> () const </td></tr>
 <tr class="memdesc:a3f68c6799ba7aa5558fe6172d950fec4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets value of <b>Alpha_</b>.  <a href="#a3f68c6799ba7aa5558fe6172d950fec4">More...</a><br /></td></tr>
@@ -187,21 +189,21 @@ Private Attributes</h2></td></tr>
 <tr class="separator:afd5327e9b9e25afea0b1df405bfd92f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0e607efa296c45c2f7611d19857871e9"><td class="memItemLeft" align="right" valign="top">long double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_metropolis.html#a0e607efa296c45c2f7611d19857871e9">Lambda_</a></td></tr>
 <tr class="separator:a0e607efa296c45c2f7611d19857871e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8145d7c719f75dc8708e0edf3fcb8d35"><td class="memItemLeft" align="right" valign="top">unsigned long int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_metropolis.html#a8145d7c719f75dc8708e0edf3fcb8d35">N1_TL_</a></td></tr>
-<tr class="memdesc:a8145d7c719f75dc8708e0edf3fcb8d35"><td class="mdescLeft">&#160;</td><td class="mdescRight">The current number of timelike edges, some of which may not be movable.  <a href="#a8145d7c719f75dc8708e0edf3fcb8d35">More...</a><br /></td></tr>
-<tr class="separator:a8145d7c719f75dc8708e0edf3fcb8d35"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a12ffcf05f1b7c98b847a4dac018214c7"><td class="memItemLeft" align="right" valign="top">unsigned long int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_metropolis.html#a12ffcf05f1b7c98b847a4dac018214c7">N3_31_</a></td></tr>
-<tr class="separator:a12ffcf05f1b7c98b847a4dac018214c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8f32aecea8206ee27b9cfaf8e2dedd7c"><td class="memItemLeft" align="right" valign="top">unsigned long int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_metropolis.html#a8f32aecea8206ee27b9cfaf8e2dedd7c">N3_22_</a></td></tr>
-<tr class="memdesc:a8f32aecea8206ee27b9cfaf8e2dedd7c"><td class="mdescLeft">&#160;</td><td class="mdescRight">The current number of (2,2) simplices, some of which may not be movable.  <a href="#a8f32aecea8206ee27b9cfaf8e2dedd7c">More...</a><br /></td></tr>
-<tr class="separator:a8f32aecea8206ee27b9cfaf8e2dedd7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b71365fe171daee32baa6086d0ceb7b"><td class="memItemLeft" align="right" valign="top">uintmax_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_metropolis.html#a8b71365fe171daee32baa6086d0ceb7b">N1_TL_</a></td></tr>
+<tr class="memdesc:a8b71365fe171daee32baa6086d0ceb7b"><td class="mdescLeft">&#160;</td><td class="mdescRight">The current number of timelike edges, some of which may not be movable.  <a href="#a8b71365fe171daee32baa6086d0ceb7b">More...</a><br /></td></tr>
+<tr class="separator:a8b71365fe171daee32baa6086d0ceb7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a33181f0117c2e792f8806675ef8451c8"><td class="memItemLeft" align="right" valign="top">uintmax_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_metropolis.html#a33181f0117c2e792f8806675ef8451c8">N3_31_</a></td></tr>
+<tr class="separator:a33181f0117c2e792f8806675ef8451c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3cbd4ca82b0695347e94448f6bccafcc"><td class="memItemLeft" align="right" valign="top">uintmax_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_metropolis.html#a3cbd4ca82b0695347e94448f6bccafcc">N3_22_</a></td></tr>
+<tr class="memdesc:a3cbd4ca82b0695347e94448f6bccafcc"><td class="mdescLeft">&#160;</td><td class="mdescRight">The current number of (2,2) simplices, some of which may not be movable.  <a href="#a3cbd4ca82b0695347e94448f6bccafcc">More...</a><br /></td></tr>
+<tr class="separator:a3cbd4ca82b0695347e94448f6bccafcc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeaa9d1efe7df9df9c7400f858b930c94"><td class="memItemLeft" align="right" valign="top">unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_metropolis.html#aeaa9d1efe7df9df9c7400f858b930c94">passes_</a></td></tr>
 <tr class="memdesc:aeaa9d1efe7df9df9c7400f858b930c94"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of passes of ergodic moves on triangulation.  <a href="#aeaa9d1efe7df9df9c7400f858b930c94">More...</a><br /></td></tr>
 <tr class="separator:aeaa9d1efe7df9df9c7400f858b930c94"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5b995cd33464d635d85d0936b106b20a"><td class="memItemLeft" align="right" valign="top">unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_metropolis.html#a5b995cd33464d635d85d0936b106b20a">output_every_n_passes_</a></td></tr>
 <tr class="memdesc:a5b995cd33464d635d85d0936b106b20a"><td class="mdescLeft">&#160;</td><td class="mdescRight">How often to print/write output.  <a href="#a5b995cd33464d635d85d0936b106b20a">More...</a><br /></td></tr>
 <tr class="separator:a5b995cd33464d635d85d0936b106b20a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac16c5d8c36babd2d90cc7c0e4d21fe87"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_metropolis_8h.html#a2f50caa6f32fe6e2227eaca5807edf32">move_tuple</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_metropolis.html#ac16c5d8c36babd2d90cc7c0e4d21fe87">attempted_moves_</a></td></tr>
+<tr class="memitem:ac16c5d8c36babd2d90cc7c0e4d21fe87"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_metropolis_8h.html#ad463fc55dd884e41ebd48517e0f2cf90">move_tuple</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_metropolis.html#ac16c5d8c36babd2d90cc7c0e4d21fe87">attempted_moves_</a></td></tr>
 <tr class="memdesc:ac16c5d8c36babd2d90cc7c0e4d21fe87"><td class="mdescLeft">&#160;</td><td class="mdescRight">Attempted (2,3), (3,2), (2,6), (6,2), and (4,4) moves.  <a href="#ac16c5d8c36babd2d90cc7c0e4d21fe87">More...</a><br /></td></tr>
 <tr class="separator:ac16c5d8c36babd2d90cc7c0e4d21fe87"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae22a8bf833d08123cae948ee6c47744e"><td class="memItemLeft" align="right" valign="top">std::tuple&lt; std::vector&lt; <a class="el" href="_s3_triangulation_8h.html#aeed6d966b9e9704e557321b5422a10e6">Cell_handle</a> &gt;, std::vector&lt; <a class="el" href="_s3_triangulation_8h.html#aeed6d966b9e9704e557321b5422a10e6">Cell_handle</a> &gt;, std::vector&lt; <a class="el" href="_s3_triangulation_8h.html#aeed6d966b9e9704e557321b5422a10e6">Cell_handle</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_metropolis.html#ae22a8bf833d08123cae948ee6c47744e">simplex_types_</a></td></tr>
@@ -273,6 +275,8 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Constructor. </p>
 
 </div>
 </div>
@@ -584,6 +588,8 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>() operator </p>
+
 </div>
 </div>
 <a class="anchor" id="ae807a34e7d5ea9a54a2a5e30928e56f3"></a>
@@ -867,7 +873,7 @@ template&lt;typename T &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="_metropolis_8h.html#a2f50caa6f32fe6e2227eaca5807edf32">move_tuple</a> Metropolis::attempted_moves_</td>
+          <td class="memname"><a class="el" href="_metropolis_8h.html#ad463fc55dd884e41ebd48517e0f2cf90">move_tuple</a> Metropolis::attempted_moves_</td>
         </tr>
       </table>
   </td>
@@ -946,7 +952,7 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a8145d7c719f75dc8708e0edf3fcb8d35"></a>
+<a class="anchor" id="a8b71365fe171daee32baa6086d0ceb7b"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -954,7 +960,7 @@ template&lt;typename T &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">unsigned long int Metropolis::N1_TL_</td>
+          <td class="memname">uintmax_t Metropolis::N1_TL_</td>
         </tr>
       </table>
   </td>
@@ -968,7 +974,7 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a8f32aecea8206ee27b9cfaf8e2dedd7c"></a>
+<a class="anchor" id="a3cbd4ca82b0695347e94448f6bccafcc"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -976,7 +982,7 @@ template&lt;typename T &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">unsigned long int Metropolis::N3_22_</td>
+          <td class="memname">uintmax_t Metropolis::N3_22_</td>
         </tr>
       </table>
   </td>
@@ -990,7 +996,7 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a12ffcf05f1b7c98b847a4dac018214c7"></a>
+<a class="anchor" id="a33181f0117c2e792f8806675ef8451c8"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -998,7 +1004,7 @@ template&lt;typename T &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">unsigned long int Metropolis::N3_31_</td>
+          <td class="memname">uintmax_t Metropolis::N3_31_</td>
         </tr>
       </table>
   </td>
@@ -1127,7 +1133,7 @@ template&lt;typename T &gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Nov 16 2015 22:32:47 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Nov 26 2015 04:43:59 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.10
 </small></address>

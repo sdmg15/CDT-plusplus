@@ -7,7 +7,6 @@ var searchData=
   ['generate_5frandom_5funsigned',['generate_random_unsigned',['../utilities_8h.html#a43895b203fdb39fdeb7f485f1835bc51',1,'utilities.h']]],
   ['getenvvar',['getEnvVar',['../utilities_8h.html#acd3b19853598764475ffd026bd45fdb7',1,'utilities.h']]],
   ['getvalue',['getValue',['../classdocopt_1_1_leaf_pattern.html#ac3f4114aa80355e18d6fb35c6dc70022',1,'docopt::LeafPattern::getValue()'],['../classdocopt_1_1_branch_pattern.html#a910412ec3c695a4927e9418664948057',1,'docopt::BranchPattern::getValue()']]],
-  ['gmpz',['Gmpz',['../_metropolis_8h.html#a4648cc17c7db99f1d4627bcb33624219',1,'Metropolis.h']]],
   ['gmpzf',['Gmpzf',['../_metropolis_8h.html#ab09035cfa5e10fa4ee88d95ef5fa7ac5',1,'Gmpzf():&#160;Metropolis.h'],['../_s3_action_8h.html#ab09035cfa5e10fa4ee88d95ef5fa7ac5',1,'Gmpzf():&#160;S3Action.h'],['../utilities_8h.html#ab09035cfa5e10fa4ee88d95ef5fa7ac5',1,'Gmpzf():&#160;utilities.h']]],
   ['gmpzf_5fto_5fdouble',['Gmpzf_to_double',['../utilities_8h.html#aa8f005d233eb0291c6214ef4a9bc150f',1,'utilities.h']]],
   ['grid_5fd_2ecpp',['grid_d.cpp',['../grid__d_8cpp.html',1,'']]],
