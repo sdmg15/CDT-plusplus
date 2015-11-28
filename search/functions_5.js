@@ -9,5 +9,6 @@ var searchData=
   ['flat',['flat',['../classdocopt_1_1_pattern.html#a0a235229a02694f2127df05a890dec94',1,'docopt::Pattern::flat()'],['../classdocopt_1_1_leaf_pattern.html#a1bcf7e63fb2cac3e95999cb3ebd2282e',1,'docopt::LeafPattern::flat()'],['../classdocopt_1_1_branch_pattern.html#a7927fbc8ea5f3571f6b2e0e941f3b9b4',1,'docopt::BranchPattern::flat()']]],
   ['flat_5ffilter',['flat_filter',['../docopt_8cpp.html#ae427baa600cf6784c61d3792bc7bc905',1,'docopt.cpp']]],
   ['formal_5fusage',['formal_usage',['../docopt_8cpp.html#a2adced3e8858da8f28f43478a9d59f45',1,'docopt.cpp']]],
+  ['fourfourmoves',['FourFourMoves',['../class_metropolis.html#aac87e6e47bf04afa29bb8db9717e47b6',1,'Metropolis']]],
   ['from_5fpattern',['from_pattern',['../class_tokens.html#a16874c82bd94f507cd69bbf8ab342768',1,'Tokens']]]
 ];

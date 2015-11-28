@@ -18,6 +18,7 @@ var searchData=
   ['foliatedtetrahedron',['FoliatedTetrahedron',['../class_foliated_tetrahedron.html',1,'']]],
   ['formal_5fusage',['formal_usage',['../docopt_8cpp.html#a2adced3e8858da8f28f43478a9d59f45',1,'docopt.cpp']]],
   ['four_5ffour',['FOUR_FOUR',['../_metropolis_8h.html#afacb89cb65e7bc872a93079c927634c9aa099613980170d4fb92adf8b6c3497d2',1,'Metropolis.h']]],
+  ['fourfourmoves',['FourFourMoves',['../class_metropolis.html#aac87e6e47bf04afa29bb8db9717e47b6',1,'Metropolis']]],
   ['from_5fpattern',['from_pattern',['../class_tokens.html#a16874c82bd94f507cd69bbf8ab342768',1,'Tokens']]],
   ['fshortoption',['fShortOption',['../classdocopt_1_1_option.html#a03a0faef38c4e9776b1da3ed0082d98b',1,'docopt::Option']]],
   ['ftokens',['fTokens',['../class_tokens.html#aa2e304b2b3017d0514aa582a1b2303ea',1,'Tokens']]],

@@ -23,10 +23,10 @@ var searchData=
   ['metropolistest_2ecpp',['MetropolisTest.cpp',['../_metropolis_test_8cpp.html',1,'']]],
   ['minimal26test',['Minimal26Test',['../class_minimal26_test.html',1,'']]],
   ['minimal62test',['Minimal62Test',['../class_minimal62_test.html',1,'']]],
-  ['movableonethree',['MovableOneThree',['../class_metropolis.html#af3ff9d8e8c682dcfea24106df7441f6a',1,'Metropolis']]],
-  ['movablethreeone',['MovableThreeOne',['../class_metropolis.html#a4a8728af97840895446ca189300cea77',1,'Metropolis']]],
+  ['movableonethreesimplices',['MovableOneThreeSimplices',['../class_metropolis.html#a3ec07597a6abb182cd4e4c1bdb4c752a',1,'Metropolis']]],
+  ['movablethreeonesimplices',['MovableThreeOneSimplices',['../class_metropolis.html#ace5cf6a2f87d4e287e6049d1f69284ff',1,'Metropolis']]],
   ['movabletimelikeedges',['MovableTimelikeEdges',['../class_metropolis.html#abcc91fb69338890aa40c543ca1ddc7ce',1,'Metropolis']]],
-  ['movabletwotwo',['MovableTwoTwo',['../class_metropolis.html#ad88c99acd60750589f5e2b90113ef0b5',1,'Metropolis']]],
+  ['movabletwotwosimplices',['MovableTwoTwoSimplices',['../class_metropolis.html#af4b7523eda499e7371213f64b205e6e6',1,'Metropolis']]],
   ['move_5ftuple',['move_tuple',['../_metropolis_8h.html#ad463fc55dd884e41ebd48517e0f2cf90',1,'move_tuple():&#160;Metropolis.h'],['../_s3_ergodic_moves_test_8cpp.html#a2f50caa6f32fe6e2227eaca5807edf32',1,'move_tuple():&#160;S3ErgodicMovesTest.cpp']]],
   ['move_5ftype',['move_type',['../_metropolis_8h.html#afacb89cb65e7bc872a93079c927634c9',1,'Metropolis.h']]],
   ['mp_5ffloat',['MP_Float',['../_s3_action_8h.html#a5e57115e042eb919e5f7752ebc4aecf7',1,'S3Action.h']]]
