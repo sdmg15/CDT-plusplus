@@ -1,6 +1,7 @@
 var searchData=
 [
   ['delaunay',['Delaunay',['../cdt-gv_8cpp.html#aa737d424de730275a305a1c9ff28836d',1,'Delaunay():&#160;cdt-gv.cpp'],['../_s3_triangulation_8h.html#a07c39f2f3f95c3e765779388ec1a12df',1,'Delaunay():&#160;S3Triangulation.h']]],
+  ['detailed_5fdebugging',['DETAILED_DEBUGGING',['../_s3_triangulation_8h.html#a9a0c2b3d03bbbef60eff20621e4e951a',1,'S3Triangulation.h']]],
   ['dimension',['DIMENSION',['../_s3_triangulation_8h.html#a088ca7ee466c991c2cc28eae39e86289',1,'S3Triangulation.h']]],
   ['docopt',['docopt',['../namespacedocopt.html',1,'docopt'],['../namespacedocopt.html#afc0cea8a73acc6b09d7dface47cbd0e7',1,'docopt::docopt()']]],
   ['docopt_2ecpp',['docopt.cpp',['../docopt_8cpp.html',1,'']]],
@@ -10,9 +11,9 @@ var searchData=
   ['docopt_5futil_2eh',['docopt_util.h',['../docopt__util_8h.html',1,'']]],
   ['docopt_5fvalue_2eh',['docopt_value.h',['../docopt__value_8h.html',1,'']]],
   ['docoptargumenterror',['DocoptArgumentError',['../structdocopt_1_1_docopt_argument_error.html',1,'docopt']]],
-  ['docoptexithelp',['DocoptExitHelp',['../structdocopt_1_1_docopt_exit_help.html',1,'docopt']]],
   ['docoptexithelp',['DocoptExitHelp',['../structdocopt_1_1_docopt_exit_help.html#a532e459ae603181d97542baea0a1c07b',1,'docopt::DocoptExitHelp']]],
-  ['docoptexitversion',['DocoptExitVersion',['../structdocopt_1_1_docopt_exit_version.html#af42930febdbaa2360413b057400824dd',1,'docopt::DocoptExitVersion']]],
+  ['docoptexithelp',['DocoptExitHelp',['../structdocopt_1_1_docopt_exit_help.html',1,'docopt']]],
   ['docoptexitversion',['DocoptExitVersion',['../structdocopt_1_1_docopt_exit_version.html',1,'docopt']]],
+  ['docoptexitversion',['DocoptExitVersion',['../structdocopt_1_1_docopt_exit_version.html#af42930febdbaa2360413b057400824dd',1,'docopt::DocoptExitVersion']]],
   ['docoptlanguageerror',['DocoptLanguageError',['../structdocopt_1_1_docopt_language_error.html',1,'docopt']]]
 ];

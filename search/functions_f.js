@@ -8,5 +8,8 @@ var searchData=
   ['setvalue',['setValue',['../classdocopt_1_1_leaf_pattern.html#a44655164a427a6f6e0d98f1f30a88bac',1,'docopt::LeafPattern']]],
   ['shortoption',['shortOption',['../classdocopt_1_1_option.html#a77588710fb8f7e3c37baf404436017a9',1,'docopt::Option']]],
   ['single_5fmatch',['single_match',['../classdocopt_1_1_leaf_pattern.html#af9acf024a8713ee621678a4f2051975a',1,'docopt::LeafPattern::single_match()'],['../classdocopt_1_1_argument.html#aa84c2a74f1d5aac1a1446eecc084541f',1,'docopt::Argument::single_match()'],['../classdocopt_1_1_command.html#a64b647248952014f1bd5adc3b919ff65',1,'docopt::Command::single_match()'],['../classdocopt_1_1_option.html#a82d9b976e0cafd40492b1515020a236e',1,'docopt::Option::single_match()']]],
-  ['sixtwomoves',['SixTwoMoves',['../class_metropolis.html#a00c1927e4aafecbc8594a5ceb0421cc6',1,'Metropolis']]]
+  ['sixtwomoves',['SixTwoMoves',['../class_metropolis.html#a00c1927e4aafecbc8594a5ceb0421cc6',1,'Metropolis']]],
+  ['successfulthreetwomoves',['SuccessfulThreeTwoMoves',['../class_metropolis.html#a7ff3044ecc205944bdff79b6a8879b3d',1,'Metropolis']]],
+  ['successfultwosixmoves',['SuccessfulTwoSixMoves',['../class_metropolis.html#af44a864b6d61317917a4b268a12f7d50',1,'Metropolis']]],
+  ['successfultwothreemoves',['SuccessfulTwoThreeMoves',['../class_metropolis.html#a0b11f68fdfd9ce84ba214aac58cbd3d1',1,'Metropolis']]]
 ];

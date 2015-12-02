@@ -7,5 +7,6 @@ var searchData=
   ['starting_5fedges',['starting_edges',['../class_metropolis_test.html#a75e9ef52b6ac2c9f2d6d0b5266985294',1,'MetropolisTest']]],
   ['starting_5fvertices',['starting_vertices',['../class_metropolis_test.html#a8932483348ef35f0a2a7cd881ba618e1',1,'MetropolisTest']]],
   ['strlist',['strList',['../uniondocopt_1_1value_1_1_variant.html#a1390ede5e708fa8e9eeba75ce4b3adf7',1,'docopt::value::Variant']]],
-  ['strvalue',['strValue',['../uniondocopt_1_1value_1_1_variant.html#a0e3a46755436f2dee7eb71c53c60e4e7',1,'docopt::value::Variant']]]
+  ['strvalue',['strValue',['../uniondocopt_1_1value_1_1_variant.html#a0e3a46755436f2dee7eb71c53c60e4e7',1,'docopt::value::Variant']]],
+  ['successful_5fmoves_5f',['successful_moves_',['../class_metropolis.html#a241d076e3c0a246720a320ddbc3c260d',1,'Metropolis']]]
 ];
