@@ -33,6 +33,8 @@ var searchData=
   ['strlist',['strList',['../uniondocopt_1_1value_1_1_variant.html#a1390ede5e708fa8e9eeba75ce4b3adf7',1,'docopt::value::Variant']]],
   ['strvalue',['strValue',['../uniondocopt_1_1value_1_1_variant.html#a0e3a46755436f2dee7eb71c53c60e4e7',1,'docopt::value::Variant']]],
   ['successful_5fmoves_5f',['successful_moves_',['../class_metropolis.html#a241d076e3c0a246720a320ddbc3c260d',1,'Metropolis']]],
+  ['successfulfourfourmoves',['SuccessfulFourFourMoves',['../class_metropolis.html#a9ef68aaf2bf9808371f739d934b9d223',1,'Metropolis']]],
+  ['successfulsixtwomoves',['SuccessfulSixTwoMoves',['../class_metropolis.html#a8dcd778488f68b68638049ec63ccfe8e',1,'Metropolis']]],
   ['successfulthreetwomoves',['SuccessfulThreeTwoMoves',['../class_metropolis.html#a7ff3044ecc205944bdff79b6a8879b3d',1,'Metropolis']]],
   ['successfultwosixmoves',['SuccessfulTwoSixMoves',['../class_metropolis.html#af44a864b6d61317917a4b268a12f7d50',1,'Metropolis']]],
   ['successfultwothreemoves',['SuccessfulTwoThreeMoves',['../class_metropolis.html#a0b11f68fdfd9ce84ba214aac58cbd3d1',1,'Metropolis']]]

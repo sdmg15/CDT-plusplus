@@ -149,12 +149,12 @@ Typedefs</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
 <tr class="memitem:afacb89cb65e7bc872a93079c927634c9"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_metropolis_8h.html#afacb89cb65e7bc872a93079c927634c9">move_type</a> { <br />
-&#160;&#160;<a class="el" href="_metropolis_8h.html#afacb89cb65e7bc872a93079c927634c9a1f47cfc932deac1ab967badbc8932b52">move_type::TWO_THREE</a> = 1, 
-<a class="el" href="_metropolis_8h.html#afacb89cb65e7bc872a93079c927634c9a336621bbf09adfcabdf66dd43433b22b">move_type::THREE_TWO</a> = 2, 
-<a class="el" href="_metropolis_8h.html#afacb89cb65e7bc872a93079c927634c9ae4d50f5cd218df5e3d0b516c65241486">move_type::TWO_SIX</a> = 3, 
-<a class="el" href="_metropolis_8h.html#afacb89cb65e7bc872a93079c927634c9a22daae4d30a16ec976d8255b2229dc61">move_type::SIX_TWO</a> = 4, 
+&#160;&#160;<a class="el" href="_metropolis_8h.html#afacb89cb65e7bc872a93079c927634c9a1f47cfc932deac1ab967badbc8932b52">move_type::TWO_THREE</a> = 0, 
+<a class="el" href="_metropolis_8h.html#afacb89cb65e7bc872a93079c927634c9a336621bbf09adfcabdf66dd43433b22b">move_type::THREE_TWO</a> = 1, 
+<a class="el" href="_metropolis_8h.html#afacb89cb65e7bc872a93079c927634c9ae4d50f5cd218df5e3d0b516c65241486">move_type::TWO_SIX</a> = 2, 
+<a class="el" href="_metropolis_8h.html#afacb89cb65e7bc872a93079c927634c9a22daae4d30a16ec976d8255b2229dc61">move_type::SIX_TWO</a> = 3, 
 <br />
-&#160;&#160;<a class="el" href="_metropolis_8h.html#afacb89cb65e7bc872a93079c927634c9aa099613980170d4fb92adf8b6c3497d2">move_type::FOUR_FOUR</a> = 5
+&#160;&#160;<a class="el" href="_metropolis_8h.html#afacb89cb65e7bc872a93079c927634c9aa099613980170d4fb92adf8b6c3497d2">move_type::FOUR_FOUR</a> = 4
 <br />
  }<tr class="separator:afacb89cb65e7bc872a93079c927634c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </td></tr>
@@ -173,8 +173,8 @@ Variables</h2></td></tr>
 <p>CalculateA1 </p>
 <p class="enddd">CalculateA2 </p>
 </dd></dl>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000004">Todo:</a></b></dt><dd><p class="startdd">Add logic to update N1_TL_, N3_31_ and N3_22_ after successful moves </p>
-<p>Implement 3D <a class="el" href="class_metropolis.html" title="Metropolis-Hastings algorithm functor. ">Metropolis</a> algorithm </p>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000004">Todo:</a></b></dt><dd><p class="startdd">Update N1_TL_, N3_31_ and N3_22_ after successful moves </p>
+<p>Implement 3D <a class="el" href="class_metropolis.html" title="Metropolis-Hastings algorithm functor. ">Metropolis</a> algorithm in operator() </p>
 <p class="enddd">Implement concurrency </p>
 </dd></dl>
 <dl class="section author"><dt>Author</dt><dd>Adam Getchell </dd></dl>
@@ -253,7 +253,7 @@ Variables</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Dec 2 2015 00:12:21 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Dec 3 2015 17:33:34 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.10
 </small></address>
