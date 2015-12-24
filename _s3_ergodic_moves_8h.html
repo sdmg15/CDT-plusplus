@@ -157,7 +157,7 @@ Functions</h2></td></tr>
 <tr class="separator:a5a98b7837202111eeb52504c82cdb323"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1a7e47f842c760a733f5abc23244f814"><td class="memTemplParams" colspan="2">template&lt;typename T1 , typename T2 , typename T3 &gt; </td></tr>
 <tr class="memitem:a1a7e47f842c760a733f5abc23244f814"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="_s3_ergodic_moves_8h.html#a1a7e47f842c760a733f5abc23244f814">make_26_move</a> (T1 &amp;&amp;universe_ptr, T2 &amp;&amp;simplex_types, T3 &amp;&amp;attempted_moves) noexcept-&gt; decltype(universe_ptr)</td></tr>
-<tr class="memdesc:a1a7e47f842c760a733f5abc23244f814"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert (1,3) and (3,1) into 3 (1,3)s and 3 (3,1)s.  <a href="#a1a7e47f842c760a733f5abc23244f814">More...</a><br /></td></tr>
+<tr class="memdesc:a1a7e47f842c760a733f5abc23244f814"><td class="mdescLeft">&#160;</td><td class="mdescRight">Make a (2,6) move.  <a href="#a1a7e47f842c760a733f5abc23244f814">More...</a><br /></td></tr>
 <tr class="separator:a1a7e47f842c760a733f5abc23244f814"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2b29f0d69dcd4b8f72f510fd594d3168"><td class="memTemplParams" colspan="2">template&lt;typename T1 , typename T2 , typename T3 &gt; </td></tr>
 <tr class="memitem:a2b29f0d69dcd4b8f72f510fd594d3168"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="_s3_ergodic_moves_8h.html#a2b29f0d69dcd4b8f72f510fd594d3168">make_62_move</a> (T1 &amp;&amp;universe_ptr, T2 &amp;&amp;edge_types, T3 &amp;&amp;attempted_moves) noexcept-&gt; decltype(universe_ptr)</td></tr>
@@ -313,6 +313,7 @@ template&lt;typename T1 , typename T2 , typename T3 &gt; </div>
 </div><div class="memdoc">
 
 <p>Make a (2,3) move. </p>
+<p>A (2,3) moves adds a (2,2) simplex and a timelike edge.</p>
 <p>This function calls <b><a class="el" href="_s3_ergodic_moves_8h.html#a1cfb3c66702ab581b44e544a896992f6" title="Try a (2,3) move. ">try_23_move()</a></b> until it succeeds; the triangulation is no longer Delaunay.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -366,7 +367,8 @@ template&lt;typename T1 , typename T2 , typename T3 &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Convert (1,3) and (3,1) into 3 (1,3)s and 3 (3,1)s. </p>
+<p>Make a (2,6) move. </p>
+<p>A (2,6) move adds 2 (1,3) simplices and 2 (3,1) simplices for a total of 3 (1,3) simplices and 3 (3,1) simplices. It also adds 2 timelike edges and 3 spacelike edges, for a total of 8 timelike edges and 6 spacelike edges.</p>
 <p>This function performs the (2,6) move by picking a random (1,3) simplex from <b>simplex_types</b>. The <b><a class="el" href="_s3_ergodic_moves_8h.html#a5a98b7837202111eeb52504c82cdb323" title="Find a (2,6) move. ">find_26_movable()</a></b> function finds the index of the neighboring (3,1) simplex, <b>neighboring_31_index</b>, and <b>has_neighbor()</b> is used to check the results.</p>
 <p>After some other values are gathered for debugging purposes, the <b>v_center</b> vertex is inserted into the facet delineated by <b>neighboring_31_index</b> using <b>tds().insert_in_facet()</b>. Finally, the centroid of the common face calculated using <b>CGAL::centroid()</b> and assigned to <b>v_center</b>, along with a timevalue taken from one of the vertices of the common face.</p>
 <div class="image">
@@ -425,6 +427,7 @@ template&lt;typename T1 , typename T2 , typename T3 &gt; </div>
 </div><div class="memdoc">
 
 <p>Make a (3,2) move. </p>
+<p>A (3,2) move removes a (2,2) simplex and a timelike edge.</p>
 <p>This function calls <b><a class="el" href="_s3_ergodic_moves_8h.html#a519301dd5366d42b1b4f2528b2cb60fa" title="Try a (3,2) move. ">try_32_move()</a></b> until it succeeds; the triangulation is no longer Delaunay.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -589,7 +592,7 @@ template&lt;typename T1 &gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Dec 3 2015 17:33:35 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Dec 24 2015 02:15:34 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.10
 </small></address>
