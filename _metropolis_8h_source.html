@@ -282,9 +282,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;    <span class="comment">// auto newS3Action = static_cast&lt;MP_Float&gt;(0);</span></div>
 <div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;    <span class="keywordflow">switch</span> (move) {</div>
 <div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;      <span class="keywordflow">case</span> <a class="code" href="_metropolis_8h.html#afacb89cb65e7bc872a93079c927634c9a1f47cfc932deac1ab967badbc8932b52">move_type::TWO_THREE</a>:</div>
-<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;        <span class="comment">// A (2,3) move removes a timelike edge and</span></div>
-<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;        <span class="comment">// adds a (2,2) simplex</span></div>
-<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;        newS3Action = <a class="code" href="_s3_action_8h.html#a2efe9f07ccfb005de21832dfe780539a">S3_bulk_action</a>(<a class="code" href="class_metropolis.html#a8b71365fe171daee32baa6086d0ceb7b">N1_TL_</a>-1,</div>
+<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;        <span class="comment">// A (2,3) move adds a timelike edge</span></div>
+<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;        <span class="comment">// and a (2,2) simplex</span></div>
+<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;        newS3Action = <a class="code" href="_s3_action_8h.html#a2efe9f07ccfb005de21832dfe780539a">S3_bulk_action</a>(<a class="code" href="class_metropolis.html#a8b71365fe171daee32baa6086d0ceb7b">N1_TL_</a>+1,</div>
 <div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;                                     <a class="code" href="class_metropolis.html#a33181f0117c2e792f8806675ef8451c8">N3_31_</a>,</div>
 <div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;                                     <a class="code" href="class_metropolis.html#a3cbd4ca82b0695347e94448f6bccafcc">N3_22_</a>+1,</div>
 <div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;                                     <a class="code" href="class_metropolis.html#a943281d3bd65d50063098cc9d2e37d46">Alpha_</a>,</div>
@@ -292,9 +292,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;                                     <a class="code" href="class_metropolis.html#a0e607efa296c45c2f7611d19857871e9">Lambda_</a>);</div>
 <div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;        <span class="keywordflow">break</span>;</div>
 <div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;      <span class="keywordflow">case</span> <a class="code" href="_metropolis_8h.html#afacb89cb65e7bc872a93079c927634c9a336621bbf09adfcabdf66dd43433b22b">move_type::THREE_TWO</a>:</div>
-<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;        <span class="comment">// A (3,2) move adds a timelike edge and</span></div>
-<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;        <span class="comment">// removes a (2,2) simplex</span></div>
-<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;        newS3Action = <a class="code" href="_s3_action_8h.html#a2efe9f07ccfb005de21832dfe780539a">S3_bulk_action</a>(<a class="code" href="class_metropolis.html#a8b71365fe171daee32baa6086d0ceb7b">N1_TL_</a>+1,</div>
+<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;        <span class="comment">// A (3,2) move removes a timelike edge</span></div>
+<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;        <span class="comment">// and a (2,2) simplex</span></div>
+<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;        newS3Action = <a class="code" href="_s3_action_8h.html#a2efe9f07ccfb005de21832dfe780539a">S3_bulk_action</a>(<a class="code" href="class_metropolis.html#a8b71365fe171daee32baa6086d0ceb7b">N1_TL_</a>-1,</div>
 <div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;                                   <a class="code" href="class_metropolis.html#a33181f0117c2e792f8806675ef8451c8">N3_31_</a>,</div>
 <div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;                                   <a class="code" href="class_metropolis.html#a3cbd4ca82b0695347e94448f6bccafcc">N3_22_</a>-1,</div>
 <div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;                                   <a class="code" href="class_metropolis.html#a943281d3bd65d50063098cc9d2e37d46">Alpha_</a>,</div>
@@ -704,7 +704,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Dec 24 2015 02:15:34 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Dec 24 2015 11:34:51 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.10
 </small></address>
