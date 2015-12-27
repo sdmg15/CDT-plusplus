@@ -8,6 +8,7 @@ var searchData=
   ['make_5fd_5fcube',['make_d_cube',['../grid__d_8h.html#a356f77d5afddcfc838dacccc381dc27c',1,'grid_d.h']]],
   ['make_5fd_5fsphere',['make_d_sphere',['../sphere__d_8h.html#a10de1d654fc34845b6f1c70b95a404fe',1,'make_d_sphere(unsigned number_of_points, unsigned dimension, double radius, bool output, std::vector&lt; Kd::Point_d &gt; *const points) noexcept:&#160;sphere_d.h'],['../sphere__d_8h.html#a826a84c5144452fbd767b5f505d456b8',1,'make_d_sphere(unsigned number_of_points, unsigned dimension, double radius, std::vector&lt; Kd::Point_d &gt; *const points) noexcept:&#160;sphere_d.h']]],
   ['make_5ffoliated_5fsphere',['make_foliated_sphere',['../_s3_triangulation_8h.html#a87bb72cc15f932170bfbf4ea9a0bb7ad',1,'S3Triangulation.h']]],
+  ['make_5fmove',['make_move',['../class_metropolis.html#a3da26987ae8a5617fe61cab6901b11f6',1,'Metropolis']]],
   ['make_5frandom_5ft3_5fsimplicial_5fcomplex',['make_random_T3_simplicial_complex',['../periodic__3__complex_8h.html#a77af2727b5f5883202b20e8ce9326d60',1,'periodic_3_complex.h']]],
   ['make_5frandom_5ft3_5ftriangulation',['make_random_T3_triangulation',['../periodic__3__triangulations_8h.html#a80761c04c540a5fdc40101d4c10f41b9',1,'periodic_3_triangulations.h']]],
   ['make_5ftriangulation',['make_triangulation',['../_s3_triangulation_8h.html#a23c61ab88c98e27287896d5b248bf41e',1,'S3Triangulation.h']]],

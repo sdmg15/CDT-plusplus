@@ -179,10 +179,16 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a3b2df39d3af41a0289e0d888ea008ef5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets current total number of simplices.  <a href="#a3b2df39d3af41a0289e0d888ea008ef5">More...</a><br /></td></tr>
 <tr class="separator:a3b2df39d3af41a0289e0d888ea008ef5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a01ff2475c689a55080e134b0e460a6bd"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_metropolis.html#a01ff2475c689a55080e134b0e460a6bd">CalculateA1</a> (<a class="el" href="_metropolis_8h.html#afacb89cb65e7bc872a93079c927634c9">move_type</a> move) const </td></tr>
+<tr class="memdesc:a01ff2475c689a55080e134b0e460a6bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate A1.  <a href="#a01ff2475c689a55080e134b0e460a6bd">More...</a><br /></td></tr>
 <tr class="separator:a01ff2475c689a55080e134b0e460a6bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a05d81cdf05d687db50ad2c98a89e1336"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_metropolis.html#a05d81cdf05d687db50ad2c98a89e1336">CalculateA2</a> (<a class="el" href="_metropolis_8h.html#afacb89cb65e7bc872a93079c927634c9">move_type</a> move) const </td></tr>
+<tr class="memdesc:a05d81cdf05d687db50ad2c98a89e1336"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculte A2.  <a href="#a05d81cdf05d687db50ad2c98a89e1336">More...</a><br /></td></tr>
 <tr class="separator:a05d81cdf05d687db50ad2c98a89e1336"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3da26987ae8a5617fe61cab6901b11f6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_metropolis.html#a3da26987ae8a5617fe61cab6901b11f6">make_move</a> (const <a class="el" href="_metropolis_8h.html#afacb89cb65e7bc872a93079c927634c9">move_type</a> move) noexcept</td></tr>
+<tr class="memdesc:a3da26987ae8a5617fe61cab6901b11f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Make a move of the selected type.  <a href="#a3da26987ae8a5617fe61cab6901b11f6">More...</a><br /></td></tr>
+<tr class="separator:a3da26987ae8a5617fe61cab6901b11f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad5dee4d32e50f8e185193191b126da82"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_metropolis.html#ad5dee4d32e50f8e185193191b126da82">attempt_move</a> (const <a class="el" href="_metropolis_8h.html#afacb89cb65e7bc872a93079c927634c9">move_type</a> move) noexcept</td></tr>
+<tr class="memdesc:ad5dee4d32e50f8e185193191b126da82"><td class="mdescLeft">&#160;</td><td class="mdescRight">Attempt a move of the selected type.  <a href="#ad5dee4d32e50f8e185193191b126da82">More...</a><br /></td></tr>
 <tr class="separator:ad5dee4d32e50f8e185193191b126da82"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae205f0f3f79ff9c4d441c30c224b5e19"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:ae205f0f3f79ff9c4d441c30c224b5e19"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_metropolis.html#ae205f0f3f79ff9c4d441c30c224b5e19">operator()</a> (T &amp;&amp;universe_ptr) -&gt; decltype(universe_ptr)</td></tr>
@@ -295,7 +301,7 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p><a class="el" href="class_metropolis.html" title="Metropolis-Hastings algorithm functor. ">Metropolis</a> constructor. </p>
-<p>Very minimal setup of runtime job parameters. All the real work is done by operator().</p>
+<p>Minimal setup of runtime job parameters. All the real work is done by operator().</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">Alpha</td><td>\(\alpha\) is the timelike edge length </td></tr>
@@ -357,6 +363,15 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Attempt a move of the selected type. </p>
+<p>This function implements the core of the Metropolis-Hastings algorithm by generating a random number and comparing with the results of <a class="el" href="class_metropolis.html#a01ff2475c689a55080e134b0e460a6bd" title="Calculate A1. ">CalculateA1()</a> and <a class="el" href="class_metropolis.html#a05d81cdf05d687db50ad2c98a89e1336" title="Calculte A2. ">CalculateA2()</a>. If the move is accepted, this function calls <a class="el" href="class_metropolis.html#a3da26987ae8a5617fe61cab6901b11f6" title="Make a move of the selected type. ">make_move()</a>. If not, it updates attempted_moves_.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">move</td><td>The type of move </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a class="anchor" id="a01ff2475c689a55080e134b0e460a6bd"></a>
@@ -380,6 +395,8 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Calculate A1. </p>
 <p>Calculate the probability of making a move divided by the probability of its reverse, that is: </p><p class="formulaDsp">
 \[a_1=\frac{move[i]}{\sum\limits_{i}move[i]}\]
 </p>
@@ -414,6 +431,8 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Calculte A2. </p>
 <p>Calculate \(a_2=e^{\Delta S}\)</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -522,6 +541,39 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Gets value of <b>Lambda_</b>. </p>
+
+</div>
+</div>
+<a class="anchor" id="a3da26987ae8a5617fe61cab6901b11f6"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Metropolis::make_move </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="_metropolis_8h.html#afacb89cb65e7bc872a93079c927634c9">move_type</a>&#160;</td>
+          <td class="paramname"><em>move</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Make a move of the selected type. </p>
+<p>This function handles making a <b>move_type</b> move by delegating to the particular named function, which handles the bookkeeping for <b>attempted_moves_</b>. This function then handles the bookkeeping for successful_moves_ and updates the counters for N3_31_, N3_22_, and N1_TL_ accordingly.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">move</td><td>The type of move </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -653,7 +705,7 @@ template&lt;typename T &gt; </div>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>The std::unique_ptr to the Delaunay triangulation. Note that this sets the data member <b>universe_ptr_</b> to null, and so no operations can be successfully carried out on <b>universe_ptr_</b> when operator() returns. Instead, they should be conducted on the results of this function call. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>The std::unique_ptr to the Delaunay triangulation. Note that this sets the data member <b>universe_ptr_</b> to null, and so no operations can be successfully carried out on <b>universe_ptr_</b> when operator() returns. Instead, they should be conducted on the std::move() results of this function call. </dd></dl>
 
 </div>
 </div>
@@ -1344,7 +1396,7 @@ template&lt;typename T &gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Dec 24 2015 11:34:52 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sun Dec 27 2015 12:33:40 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.10
 </small></address>
