@@ -24,6 +24,8 @@ var searchData=
   ['metropolistest_2ecpp',['MetropolisTest.cpp',['../_metropolis_test_8cpp.html',1,'']]],
   ['minimal26test',['Minimal26Test',['../class_minimal26_test.html',1,'']]],
   ['minimal62test',['Minimal62Test',['../class_minimal62_test.html',1,'']]],
+  ['movable_5fedge_5ftypes_5f',['movable_edge_types_',['../class_metropolis.html#a7b049d61dc2082dcd311d49e708a98e9',1,'Metropolis']]],
+  ['movable_5fsimplex_5ftypes_5f',['movable_simplex_types_',['../class_metropolis.html#a195d3c11a7dcef0c139bb709bfa0357a',1,'Metropolis']]],
   ['movableonethreesimplices',['MovableOneThreeSimplices',['../class_metropolis.html#a3ec07597a6abb182cd4e4c1bdb4c752a',1,'Metropolis']]],
   ['movablethreeonesimplices',['MovableThreeOneSimplices',['../class_metropolis.html#ace5cf6a2f87d4e287e6049d1f69284ff',1,'Metropolis']]],
   ['movabletimelikeedges',['MovableTimelikeEdges',['../class_metropolis.html#abcc91fb69338890aa40c543ca1ddc7ce',1,'Metropolis']]],

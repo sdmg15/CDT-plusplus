@@ -131,21 +131,21 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;# sudo apt-get install libcgal-dev</div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;# sudo apt-get install ninja-build</div>
 </div><!-- fragment --><h2>Build: </h2>
-<p>This project uses a separate build directory, which allows you to rebuild the project without cluttering the source code. Thus, download this source code (clone this repo from GitHub or grab a zipped archive <a href="https://github.com/acgetchell/CDT-plusplus/archive/master.zip">here</a>) and run the following commands in the top-level directory:</p>
+<p>This project uses a separate <code>build/</code> directory, which allows you to rebuild the project without cluttering the source code. Thus, download this source code (clone this repo from GitHub or grab a zipped archive <a href="https://github.com/acgetchell/CDT-plusplus/archive/master.zip">here</a>) and run the following commands in the top-level directory:</p>
 <div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;# mkdir build</div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;# cd build</div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;# cmake ..</div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;# make</div>
 </div><!-- fragment --><p>(Or run <a href="https://github.com/acgetchell/CDT-plusplus/blob/master/build.sh">build.sh</a>) if you have <a href="https://martine.github.io/ninja/">Ninja</a> installed.</p>
-<p>This should result in the main program executable, <code>cdt</code> in the build directory.</p>
-<p>If you have GMock installed and set <code>GMOCK_TESTS</code> to <b>TRUE</b> (which is the default), the unit test executable, <code>unittests</code>, will also be present. See the section on Tests for details.</p>
+<p>This should result in the main program executable, <code>cdt</code> in the <code>build/</code> directory.</p>
+<p>If you have <a href="https://github.com/google/googletest/tree/master/googlemock">GMock</a> installed and set <code>GMOCK_TESTS</code> to <b>TRUE</b> (which is the default), the unit test executable, <code>unittests</code>, will also be present. See the section on Tests for details.</p>
 <p>If you are not interested in the unit tests and only want to run the program, set <code>GMOCK_TESTS</code> in <a href="https://github.com/acgetchell/CDT-plusplus/blob/master/CMakeLists.txt">CMakeLists.txt</a> to <b>FALSE</b>.</p>
-<p>For some versions of Linux, you may have to build CGAL from source. Follow the instructions (or their equivalent) given in the install section of the <a href="https://github.com/acgetchell/CDT-plusplus/blob/master/.travis.yml">.travis.yml</a> buildfile.</p>
-<p>There are enough unit tests that it's worthwhile doing fast parallel builds. <a href="https://martine.github.io/ninja/">Ninja</a> is just the ticket. It's effectively a drop-in replacement for <code>make</code>, and works nicely because CMake generates the build files. There's quite a difference in speed.</p>
+<p>For some versions of Linux, you may have to build <a href="http://www.cgal.org">CGAL</a> from source. Follow the instructions (or their equivalent) given in the install section of the <a href="https://github.com/acgetchell/CDT-plusplus/blob/master/.travis.yml">.travis.yml</a> buildfile.</p>
+<p>There are enough unit tests that it's worthwhile doing fast parallel builds. <a href="https://martine.github.io/ninja/">Ninja</a> is just the ticket. It's effectively a drop-in replacement for <code>make</code>, and works nicely because <a href="http://www.cmake.org">CMake</a> generates the build files. There's quite a difference in speed.</p>
 <p>Basically, everywhere you see <code>make</code> you can type <code>ninja</code> instead. Again, see <a href="https://github.com/acgetchell/CDT-plusplus/blob/master/build.sh">build.sh</a> for an example.</p>
 <h2>Possible build troubles: </h2>
 <ul>
-<li>While running <code>build.sh</code> under linux with <code>gcc</code> you may encounter <code>virtual memory exhausted: Cannot allocate memory</code>, common solution for which is to <a href="http://www.cyberciti.biz/faq/linux-add-a-swap-file-howto/">allocate swap space</a>.</li>
+<li>While running <code>build.sh</code> under linux with <code>gcc</code> you may encounter <code>virtual memory exhausted: Cannot allocate memory</code>, a common solution for which is to <a href="http://www.cyberciti.biz/faq/linux-add-a-swap-file-howto/">allocate swap space</a>.</li>
 </ul>
 <h2>Usage: </h2>
 <p>CDT-plusplus uses <a href="https://github.com/docopt/docopt.cpp">docopt</a> to parse options from the help message, and so understands long or short argument formats, provided the short argument given is an unambigous match to a longer one. The help message should be instructive:</p>
@@ -180,33 +180,33 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!-- fragment --><p>The dimensionality of the spacetime is such that each slice of spacetime is <code>d-1</code>-dimensional, so setting <code>d=3</code> generates 2 spacelike dimensions and one timelike dimension, with a defined global time foliation. Thus a <code>d</code>-dimensional simplex will have some <code>d-1</code> sub-simplices that are purely spacelike (all on the same timeslice) as well as some that are timelike (span two timeslices). In <a href="http://arxiv.org/abs/hep-th/0105267">CDT</a> we actually care more about the timelike links (in 2+1 spacetime) and the timelike faces (in 3+1 spacetime).</p>
 <h2>Documentation: </h2>
 <p>Online documentation may be found at <a href="http://www.adamgetchell.org/CDT-plusplus/">http://www.adamgetchell.org/CDT-plusplus/</a></p>
-<p>If you have Doxygen installed you can generate the same information by simply typing (at the top level directory, Doxygen will recursively search):</p>
+<p>If you have <a href="http://www.doxygen.org">Doxygen</a> installed you can generate the same information by simply typing (at the top level directory, <a href="http://www.doxygen.org">Doxygen</a> will recursively search):</p>
 <div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;# doxygen</div>
-</div><!-- fragment --><p>This will generate <b>html/</b> and <b>latex/</b> directories which will contain documentation generated from CDT++ source files. <code>USE_MATHJAX</code> has been enabled in <a href="https://github.com/acgetchell/CDT-plusplus/blob/master/Doxyfile">Doxyfile</a> so that the LaTeX formulae can be rendered in the html documentation using <a href="http://www.mathjax.org">MathJax</a>. <code>HAVE_DOT</code> is set to <b>YES</b> which allows various graphs to be autogenerated by Doxygen using <a href="http://www.graphviz.org">GraphViz</a>. If you do not have GraphViz installed, set this option to <b>NO</b>.</p>
+</div><!-- fragment --><p>This will generate <code>html/</code> and <code>latex/</code> directories which will contain documentation generated from CDT++ source files. <code>USE_MATHJAX</code> has been enabled in <a href="https://github.com/acgetchell/CDT-plusplus/blob/master/Doxyfile">Doxyfile</a> so that the LaTeX formulae can be rendered in the html documentation using <a href="http://www.mathjax.org">MathJax</a>. <code>HAVE_DOT</code> is set to <b>YES</b> which allows various graphs to be autogenerated by <a href="http://www.doxygen.org">Doxygen</a> using <a href="http://www.graphviz.org">GraphViz</a>. If you do not have GraphViz installed, set this option to <b>NO</b>.</p>
 <h2>Tests: </h2>
 <p><a href="https://github.com/google/googletest/tree/master/googlemock">GMock</a> is optional, but strongly recommended if you want to make changes to or understand the source code in detail. Building the <a href="https://github.com/google/googletest/tree/master/googlemock">GMock</a> <code>unittests</code> executable is set by the <code>GMOCK_TESTS</code> variable in <a href="https://github.com/acgetchell/CDT-plusplus/blob/master/CMakeLists.txt">CMakeLists.txt</a>.</p>
-<p>To install Gmock, look at the <a href="https://code.google.com/p/googlemock/source/browse/trunk/README">README</a>. Ubuntu users can just do:</p>
+<p>To install GMock, look at the <a href="https://code.google.com/p/googlemock/source/browse/trunk/README">README</a>. Ubuntu users can just do:</p>
 <div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;# sudo apt-get install google-mock</div>
-</div><!-- fragment --><p>But you may run into trouble because Gmock is the wrong version, or has the wrong compiler flags. I just download and build gmock-1.7 in a local directory.</p>
+</div><!-- fragment --><p>But you may run into trouble because GMock is the wrong version, or has the wrong compiler flags. I just download and build gmock-1.7 in a local directory.</p>
 <p>You should also have the following environment variables set:</p>
 <div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;export GMOCK_HOME=&quot;$HOME/gmock-1.7.0&quot;</div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;export DYLD_FALLBACK_LIBRARY_PATH=$GMOCK_HOME/lib/.libs:$GMOCK_HOME/gtest/lib/.libs:/usr/local/lib:$DYLD_FALLBACK_LIBRARY_PATH</div>
 </div><!-- fragment --><p> (Or wherever you built GMOCK and your dynamic libraries for CGAL.)</p>
-<p>Unit tests using GMock are then run (in the build directory) via:</p>
+<p>Unit tests using GMock are then run (in the <code>build/</code> directory) via:</p>
 <div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;# ./unittests</div>
 </div><!-- fragment --><p>You can build and run validation tests by typing:</p>
 <div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;# make test</div>
-</div><!-- fragment --><p>Or, if you are using Ninja:</p>
+</div><!-- fragment --><p>Or, if you are using <a href="https://martine.github.io/ninja/">Ninja</a>:</p>
 <div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;# ninja test</div>
-</div><!-- fragment --><p>In addition to the command line output, you can see detailed results in the build/Testing directory which is generated thereby.</p>
+</div><!-- fragment --><p>In addition to the command line output, you can see detailed results in the <code>build/Testing</code> directory which is generated thereby.</p>
 <h2>Static Analysis: </h2>
 <p>The <a href="https://github.com/acgetchell/CDT-plusplus/blob/master/cppcheck-build.sh">cppcheck-build.sh</a> script runs a quick static analysis using <a href="http://cppcheck.sourceforge.net">cppcheck</a>.</p>
-<p>Clang comes with <a href="http://clang-analyzer.llvm.org/scan-build.html">scan-build</a> which can run a much more thorough, but slower static analysis integrated with CMake and Ninja. Simply run the <a href="https://github.com/acgetchell/CDT-plusplus/blob/master/scan-build.sh">scan-build.sh</a> script. Note that this script is somewhat fragile, as it depends upon the version of llvm installed, and links directly to those directories without helpful symlinks to abstract version numbers away.</p>
-<p>Also, these tools build in DEBUG mode. You should probably not then run unittests as you will get thousands of lines of debugging output from the tests that create large triangulations. (You could use **&ndash;gtest_filter** to run just the tests that you want.) </p>
+<p><a href="http://clang.llvm.org">Clang</a> comes with <a href="http://clang-analyzer.llvm.org/scan-build.html">scan-build</a> which can run a much more thorough, but slower static analysis integrated with <a href="http://www.cmake.org">CMake</a> and <a href="https://martine.github.io/ninja/">Ninja</a>. Simply run the <a href="https://github.com/acgetchell/CDT-plusplus/blob/master/scan-build.sh">scan-build.sh</a> script. Note that this script is somewhat fragile, as it depends upon the version of <a href="http://llvm.org">llvm</a> installed, and links directly to those directories without helpful symlinks to abstract version numbers away.</p>
+<p>Also, these tools build in <b>DEBUG</b> mode. You should probably not then run <code>unittests</code> as you will get thousands of lines of debugging output from the tests that create large triangulations. (You could use <code>--gtest_filter</code> to run just the tests that you want.) </p>
 </div></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Dec 27 2015 12:33:41 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sun Dec 27 2015 19:51:14 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.10
 </small></address>
