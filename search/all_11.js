@@ -19,7 +19,7 @@ var searchData=
   ['simplices',['simplices',['../class_metropolis_test.html#aa4c8fdd351206775f609d8eb24ac9c09',1,'MetropolisTest::simplices()'],['../class_s3_action.html#a56ab3bfbdb59a94ff35ab4c781a7c9f9',1,'S3Action::simplices()'],['../class_s3_ergodic_moves.html#a4925443e638faab57b2e44509ee39021',1,'S3ErgodicMoves::simplices()']]],
   ['single_5fmatch',['single_match',['../classdocopt_1_1_leaf_pattern.html#af9acf024a8713ee621678a4f2051975a',1,'docopt::LeafPattern::single_match()'],['../classdocopt_1_1_argument.html#aa84c2a74f1d5aac1a1446eecc084541f',1,'docopt::Argument::single_match()'],['../classdocopt_1_1_command.html#a64b647248952014f1bd5adc3b919ff65',1,'docopt::Command::single_match()'],['../classdocopt_1_1_option.html#a82d9b976e0cafd40492b1515020a236e',1,'docopt::Option::single_match()']]],
   ['six_5ftwo',['SIX_TWO',['../_metropolis_8h.html#afacb89cb65e7bc872a93079c927634c9a22daae4d30a16ec976d8255b2229dc61',1,'Metropolis.h']]],
-  ['sixtwomoves',['SixTwoMoves',['../class_metropolis.html#a00c1927e4aafecbc8594a5ceb0421cc6',1,'Metropolis']]],
+  ['sixtwomoves',['SixTwoMoves',['../class_metropolis.html#a78370a67a6003459b87f8398ffd45e96',1,'Metropolis']]],
   ['sphere_5fd_2eh',['sphere_d.h',['../sphere__d_8h.html',1,'']]],
   ['spheretest_2ecpp',['SphereTest.cpp',['../_sphere_test_8cpp.html',1,'']]],
   ['spherical',['SPHERICAL',['../utilities_8h.html#ad9c9232841af64b400d39d994e5564c5a7f7d7e3a21bf7decf99d6fd26848772d',1,'utilities.h']]],
@@ -32,9 +32,9 @@ var searchData=
   ['strlist',['strList',['../uniondocopt_1_1value_1_1_variant.html#a1390ede5e708fa8e9eeba75ce4b3adf7',1,'docopt::value::Variant']]],
   ['strvalue',['strValue',['../uniondocopt_1_1value_1_1_variant.html#a0e3a46755436f2dee7eb71c53c60e4e7',1,'docopt::value::Variant']]],
   ['successful_5fmoves_5f',['successful_moves_',['../class_metropolis.html#a241d076e3c0a246720a320ddbc3c260d',1,'Metropolis']]],
-  ['successfulfourfourmoves',['SuccessfulFourFourMoves',['../class_metropolis.html#a9ef68aaf2bf9808371f739d934b9d223',1,'Metropolis']]],
-  ['successfulsixtwomoves',['SuccessfulSixTwoMoves',['../class_metropolis.html#a8dcd778488f68b68638049ec63ccfe8e',1,'Metropolis']]],
-  ['successfulthreetwomoves',['SuccessfulThreeTwoMoves',['../class_metropolis.html#a7ff3044ecc205944bdff79b6a8879b3d',1,'Metropolis']]],
-  ['successfultwosixmoves',['SuccessfulTwoSixMoves',['../class_metropolis.html#af44a864b6d61317917a4b268a12f7d50',1,'Metropolis']]],
-  ['successfultwothreemoves',['SuccessfulTwoThreeMoves',['../class_metropolis.html#a0b11f68fdfd9ce84ba214aac58cbd3d1',1,'Metropolis']]]
+  ['successfulfourfourmoves',['SuccessfulFourFourMoves',['../class_metropolis.html#ab98ab3863f1c2e7fa25f72c396f82d0a',1,'Metropolis']]],
+  ['successfulsixtwomoves',['SuccessfulSixTwoMoves',['../class_metropolis.html#a77fe64f652c9cf4e672fa9621d479654',1,'Metropolis']]],
+  ['successfulthreetwomoves',['SuccessfulThreeTwoMoves',['../class_metropolis.html#a28511dd80c74e39d2bc8bb42a7c52817',1,'Metropolis']]],
+  ['successfultwosixmoves',['SuccessfulTwoSixMoves',['../class_metropolis.html#abd8aa597b13f17ed5a1e1931554db59e',1,'Metropolis']]],
+  ['successfultwothreemoves',['SuccessfulTwoThreeMoves',['../class_metropolis.html#a9c333904c522d69b30dea797c884163f',1,'Metropolis']]]
 ];

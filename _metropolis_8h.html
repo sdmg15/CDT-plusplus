@@ -108,6 +108,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="textblock"><code>#include &quot;<a class="el" href="_s3_ergodic_moves_8h_source.html">S3ErgodicMoves.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="_s3_action_8h_source.html">S3Action.h</a>&quot;</code><br />
 <code>#include &lt;tuple&gt;</code><br />
+<code>#include &lt;atomic&gt;</code><br />
 <code>#include &lt;vector&gt;</code><br />
 <code>#include &lt;utility&gt;</code><br />
 <code>#include &lt;algorithm&gt;</code><br />
@@ -116,9 +117,9 @@ Include dependency graph for Metropolis.h:</div>
 <div class="dyncontent">
 <div class="center"><img src="_metropolis_8h__incl.png" border="0" usemap="#src_2_metropolis_8h" alt=""/></div>
 <map name="src_2_metropolis_8h" id="src_2_metropolis_8h">
-<area shape="rect" id="node2" href="_s3_ergodic_moves_8h.html" title="Pachner moves on 3D Delaunay Triangulations. " alt="" coords="785,79,918,104"/>
-<area shape="rect" id="node26" href="_s3_action_8h.html" title="Calculate S3 bulk actions on 3D Delaunay Triangulations. " alt="" coords="194,79,279,104"/>
-<area shape="rect" id="node3" href="_s3_triangulation_8h.html" title="Functions on 3D Spherical Delaunay Triangulations. " alt="" coords="689,152,814,177"/>
+<area shape="rect" id="node2" href="_s3_ergodic_moves_8h.html" title="Pachner moves on 3D Delaunay Triangulations. " alt="" coords="796,79,929,104"/>
+<area shape="rect" id="node26" href="_s3_action_8h.html" title="Calculate S3 bulk actions on 3D Delaunay Triangulations. " alt="" coords="234,79,320,104"/>
+<area shape="rect" id="node3" href="_s3_triangulation_8h.html" title="Functions on 3D Spherical Delaunay Triangulations. " alt="" coords="700,152,825,177"/>
 <area shape="rect" id="node4" href="utilities_8h.html" title="Utility functions. " alt="" coords="480,239,556,264"/>
 </map>
 </div>
@@ -144,8 +145,8 @@ Classes</h2></td></tr>
 Typedefs</h2></td></tr>
 <tr class="memitem:ab09035cfa5e10fa4ee88d95ef5fa7ac5"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_metropolis_8h.html#ab09035cfa5e10fa4ee88d95ef5fa7ac5">Gmpzf</a> = CGAL::Gmpzf</td></tr>
 <tr class="separator:ab09035cfa5e10fa4ee88d95ef5fa7ac5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad463fc55dd884e41ebd48517e0f2cf90"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_metropolis_8h.html#ad463fc55dd884e41ebd48517e0f2cf90">move_tuple</a> = std::tuple&lt; uintmax_t, uintmax_t, uintmax_t, uintmax_t, uintmax_t &gt;</td></tr>
-<tr class="separator:ad463fc55dd884e41ebd48517e0f2cf90"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba4eff3d1eef38a38c8e720367d1944d"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_metropolis_8h.html#aba4eff3d1eef38a38c8e720367d1944d">move_tuple</a> = std::tuple&lt; std::atomic&lt; uintmax_t &gt;, std::atomic&lt; uintmax_t &gt;, std::atomic&lt; uintmax_t &gt;, std::atomic&lt; uintmax_t &gt;, std::atomic&lt; uintmax_t &gt;&gt;</td></tr>
+<tr class="separator:aba4eff3d1eef38a38c8e720367d1944d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
@@ -173,7 +174,8 @@ Variables</h2></td></tr>
 <p>operator() </p>
 <p>CalculateA1 </p>
 <p>CalculateA2 </p>
-<p class="enddd">Update N1_TL_, N3_31_ and N3_22_ after successful moves </p>
+<p>Update N1_TL_, N3_31_ and N3_22_ after successful moves </p>
+<p class="enddd">Atomic integral types for safe multithreading </p>
 </dd></dl>
 <dl class="todo"><dt><b><a class="el" href="todo.html#_todo000004">Todo:</a></b></dt><dd><p class="startdd">Debug occasional infinite loops and segfaults! </p>
 <p>Implement 3D <a class="el" href="class_metropolis.html" title="Metropolis-Hastings algorithm functor. ">Metropolis</a> algorithm in operator() </p>
@@ -194,12 +196,12 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ad463fc55dd884e41ebd48517e0f2cf90"></a>
+<a class="anchor" id="aba4eff3d1eef38a38c8e720367d1944d"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="_metropolis_8h.html#ad463fc55dd884e41ebd48517e0f2cf90">move_tuple</a> =  std::tuple&lt;uintmax_t, uintmax_t, uintmax_t, uintmax_t, uintmax_t&gt;</td>
+          <td class="memname">using <a class="el" href="_metropolis_8h.html#aba4eff3d1eef38a38c8e720367d1944d">move_tuple</a> =  std::tuple&lt;std::atomic&lt;uintmax_t&gt;, std::atomic&lt;uintmax_t&gt;, std::atomic&lt;uintmax_t&gt;, std::atomic&lt;uintmax_t&gt;, std::atomic&lt;uintmax_t&gt;&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -255,7 +257,7 @@ Variables</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Dec 27 2015 19:51:14 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Jan 2 2016 00:14:41 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.10
 </small></address>
