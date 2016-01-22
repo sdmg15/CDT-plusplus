@@ -144,13 +144,13 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;             <span class="keyword">const</span> <span class="keywordtype">unsigned</span> output_every_n_passes)</div>
 <div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;             : <a class="code" href="class_metropolis.html#a943281d3bd65d50063098cc9d2e37d46">Alpha_</a>(Alpha),</div>
 <div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;               <a class="code" href="class_metropolis.html#afd5327e9b9e25afea0b1df405bfd92f0">K_</a>(K),</div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;               <a class="code" href="class_metropolis.html#a0e607efa296c45c2f7611d19857871e9">Lambda_</a>(Lambda) {</div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;    <span class="comment">// store values atomically</span></div>
-<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    <a class="code" href="class_metropolis.html#a6b2d778d2e7c45a438998e322159a368">passes_</a>.store(passes);</div>
-<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    <a class="code" href="class_metropolis.html#a629dd4d325739d3121e80499c1c09614">output_every_n_passes_</a>.store(output_every_n_passes);</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;               <a class="code" href="class_metropolis.html#a0e607efa296c45c2f7611d19857871e9">Lambda_</a>(Lambda),</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;               <a class="code" href="class_metropolis.html#a6b2d778d2e7c45a438998e322159a368">passes_</a>(passes),</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;               <a class="code" href="class_metropolis.html#a629dd4d325739d3121e80499c1c09614">output_every_n_passes_</a>(output_every_n_passes) {</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    <span class="comment">// RAII stuff</span></div>
 <div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;</div>
 <div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;<span class="preprocessor">    #ifndef NDEBUG</span></div>
-<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;    std::cout &lt;&lt; <span class="stringliteral">&quot;Ctor called.&quot;</span> &lt;&lt; std::endl;</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;    std::cout &lt;&lt; __PRETTY_FUNCTION__ &lt;&lt; <span class="stringliteral">&quot; called.&quot;</span> &lt;&lt; std::endl;</div>
 <div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;<span class="preprocessor">    #endif</span></div>
 <div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;  }</div>
 <div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;</div>
@@ -604,91 +604,13 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00642"></a><span class="lineno"><a class="line" href="class_metropolis.html#a7b049d61dc2082dcd311d49e708a98e9">  642</a></span>&#160;  std::pair&lt;std::vector&lt;Edge_tuple&gt;, <span class="keywordtype">unsigned</span>&gt; <a class="code" href="class_metropolis.html#a7b049d61dc2082dcd311d49e708a98e9">movable_edge_types_</a>;</div>
 <div class="line"><a name="l00644"></a><span class="lineno">  644</span>&#160;};  <span class="comment">// Metropolis</span></div>
 <div class="line"><a name="l00645"></a><span class="lineno">  645</span>&#160;</div>
-<div class="line"><a name="l00646"></a><span class="lineno">  646</span>&#160;</div>
-<div class="line"><a name="l00647"></a><span class="lineno">  647</span>&#160;</div>
-<div class="line"><a name="l00661"></a><span class="lineno">  661</span>&#160;<span class="comment">// template &lt;typename T&gt;</span></div>
-<div class="line"><a name="l00662"></a><span class="lineno">  662</span>&#160;<span class="comment">// auto metropolis(T&amp;&amp; universe_ptr, unsigned number_of_passes,</span></div>
-<div class="line"><a name="l00663"></a><span class="lineno">  663</span>&#160;<span class="comment">//                 unsigned output_every_n_passes) noexcept</span></div>
-<div class="line"><a name="l00664"></a><span class="lineno">  664</span>&#160;<span class="comment">//                 -&gt; decltype(universe_ptr) {</span></div>
-<div class="line"><a name="l00665"></a><span class="lineno">  665</span>&#160;<span class="comment">//   std::cout &lt;&lt; &quot;Starting ...&quot; &lt;&lt; std::endl;</span></div>
-<div class="line"><a name="l00666"></a><span class="lineno">  666</span>&#160;<span class="comment">//</span></div>
-<div class="line"><a name="l00667"></a><span class="lineno">  667</span>&#160;<span class="comment">//   auto simplex_types = classify_simplices(universe_ptr);</span></div>
-<div class="line"><a name="l00668"></a><span class="lineno">  668</span>&#160;<span class="comment">//   auto edge_types = edge_types = classify_edges(universe_ptr);</span></div>
-<div class="line"><a name="l00669"></a><span class="lineno">  669</span>&#160;<span class="comment">//</span></div>
-<div class="line"><a name="l00670"></a><span class="lineno">  670</span>&#160;<span class="comment">//</span></div>
-<div class="line"><a name="l00671"></a><span class="lineno">  671</span>&#160;<span class="comment">//   auto attempted_moves_per_pass = universe_ptr-&gt;number_of_finite_cells();</span></div>
-<div class="line"><a name="l00672"></a><span class="lineno">  672</span>&#160;<span class="comment">//   // First, attempt a move of each type</span></div>
-<div class="line"><a name="l00673"></a><span class="lineno">  673</span>&#160;<span class="comment">//   // attempt_23_move();</span></div>
-<div class="line"><a name="l00674"></a><span class="lineno">  674</span>&#160;<span class="comment">//   ++std::get&lt;0&gt;(attempted_moves);</span></div>
-<div class="line"><a name="l00675"></a><span class="lineno">  675</span>&#160;<span class="comment">//   // attempt_32_move();</span></div>
-<div class="line"><a name="l00676"></a><span class="lineno">  676</span>&#160;<span class="comment">//   ++std::get&lt;1&gt;(attempted_moves);</span></div>
-<div class="line"><a name="l00677"></a><span class="lineno">  677</span>&#160;<span class="comment">//   // attempt_26_move();</span></div>
-<div class="line"><a name="l00678"></a><span class="lineno">  678</span>&#160;<span class="comment">//   ++std::get&lt;2&gt;(attempted_moves);</span></div>
-<div class="line"><a name="l00679"></a><span class="lineno">  679</span>&#160;<span class="comment">//   while (std::get&lt;0&gt;(attempted_moves) +</span></div>
-<div class="line"><a name="l00680"></a><span class="lineno">  680</span>&#160;<span class="comment">//          std::get&lt;1&gt;(attempted_moves) +</span></div>
-<div class="line"><a name="l00681"></a><span class="lineno">  681</span>&#160;<span class="comment">//          std::get&lt;2&gt;(attempted_moves) &lt; attempted_moves_per_pass) {</span></div>
-<div class="line"><a name="l00682"></a><span class="lineno">  682</span>&#160;<span class="comment">//     // Fix this function to use attempt[i]/total attempts</span></div>
-<div class="line"><a name="l00683"></a><span class="lineno">  683</span>&#160;<span class="comment">//     auto move = generate_random_unsigned(1, 3);</span></div>
-<div class="line"><a name="l00684"></a><span class="lineno">  684</span>&#160;<span class="comment">//     std::cout &lt;&lt; &quot;Move #&quot; &lt;&lt; move &lt;&lt; std::endl;</span></div>
-<div class="line"><a name="l00685"></a><span class="lineno">  685</span>&#160;<span class="comment">//</span></div>
-<div class="line"><a name="l00686"></a><span class="lineno">  686</span>&#160;<span class="comment">//     switch (move) {</span></div>
-<div class="line"><a name="l00687"></a><span class="lineno">  687</span>&#160;<span class="comment">//       case (move_type::TWO_THREE):</span></div>
-<div class="line"><a name="l00688"></a><span class="lineno">  688</span>&#160;<span class="comment">//         std::cout &lt;&lt; &quot;Move 1 (2,3) picked&quot; &lt;&lt; std::endl;</span></div>
-<div class="line"><a name="l00689"></a><span class="lineno">  689</span>&#160;<span class="comment">//         // attempt_23_move()</span></div>
-<div class="line"><a name="l00690"></a><span class="lineno">  690</span>&#160;<span class="comment">//         ++std::get&lt;0&gt;(attempted_moves);</span></div>
-<div class="line"><a name="l00691"></a><span class="lineno">  691</span>&#160;<span class="comment">//         break;</span></div>
-<div class="line"><a name="l00692"></a><span class="lineno">  692</span>&#160;<span class="comment">//       case (move_type::THREE_TWO):</span></div>
-<div class="line"><a name="l00693"></a><span class="lineno">  693</span>&#160;<span class="comment">//         std::cout &lt;&lt; &quot;Move 2 (3,2) picked&quot; &lt;&lt; std::endl;</span></div>
-<div class="line"><a name="l00694"></a><span class="lineno">  694</span>&#160;<span class="comment">//         // attempt_32_move()</span></div>
-<div class="line"><a name="l00695"></a><span class="lineno">  695</span>&#160;<span class="comment">//         ++std::get&lt;1&gt;(attempted_moves);</span></div>
-<div class="line"><a name="l00696"></a><span class="lineno">  696</span>&#160;<span class="comment">//         break;</span></div>
-<div class="line"><a name="l00697"></a><span class="lineno">  697</span>&#160;<span class="comment">//       case (move_type::TWO_SIX):</span></div>
-<div class="line"><a name="l00698"></a><span class="lineno">  698</span>&#160;<span class="comment">//         std::cout &lt;&lt; &quot;Move 3 (2,6) picked&quot; &lt;&lt; std::endl;</span></div>
-<div class="line"><a name="l00699"></a><span class="lineno">  699</span>&#160;<span class="comment">//         // attempt_26_move()</span></div>
-<div class="line"><a name="l00700"></a><span class="lineno">  700</span>&#160;<span class="comment">//         ++std::get&lt;2&gt;(attempted_moves);</span></div>
-<div class="line"><a name="l00701"></a><span class="lineno">  701</span>&#160;<span class="comment">//         break;</span></div>
-<div class="line"><a name="l00702"></a><span class="lineno">  702</span>&#160;<span class="comment">//       default:</span></div>
-<div class="line"><a name="l00703"></a><span class="lineno">  703</span>&#160;<span class="comment">//         std::cout &lt;&lt; &quot;Oops!&quot; &lt;&lt; std::endl;</span></div>
-<div class="line"><a name="l00704"></a><span class="lineno">  704</span>&#160;<span class="comment">//         break;</span></div>
-<div class="line"><a name="l00705"></a><span class="lineno">  705</span>&#160;<span class="comment">//     }</span></div>
-<div class="line"><a name="l00706"></a><span class="lineno">  706</span>&#160;<span class="comment">//   }</span></div>
-<div class="line"><a name="l00707"></a><span class="lineno">  707</span>&#160;<span class="comment">//   return universe_ptr;</span></div>
-<div class="line"><a name="l00708"></a><span class="lineno">  708</span>&#160;<span class="comment">// }  // metropolis()</span></div>
-<div class="line"><a name="l00709"></a><span class="lineno">  709</span>&#160;<span class="comment">// auto metropolis =</span></div>
-<div class="line"><a name="l00710"></a><span class="lineno">  710</span>&#160;<span class="comment">//   std::make_unique&lt;decltype(universe)&gt;(Metropolis(universe));</span></div>
-<div class="line"><a name="l00711"></a><span class="lineno">  711</span>&#160;<span class="comment">// std::unique_ptr&lt;Metropolis&gt; metropolis = std::make_unique&lt;Metropolis&gt;(universe);</span></div>
-<div class="line"><a name="l00712"></a><span class="lineno">  712</span>&#160;<span class="comment">// Metropolis metropolis(universe);</span></div>
-<div class="line"><a name="l00713"></a><span class="lineno">  713</span>&#160;</div>
-<div class="line"><a name="l00714"></a><span class="lineno">  714</span>&#160;<span class="comment">// // Main loop of program</span></div>
-<div class="line"><a name="l00715"></a><span class="lineno">  715</span>&#160;<span class="comment">// for (auto i = 0; i &lt; passes; ++i) {</span></div>
-<div class="line"><a name="l00716"></a><span class="lineno">  716</span>&#160;<span class="comment">//   // Initialize data and data structures needed for ergodic moves</span></div>
-<div class="line"><a name="l00717"></a><span class="lineno">  717</span>&#160;<span class="comment">//   // each pass.</span></div>
-<div class="line"><a name="l00718"></a><span class="lineno">  718</span>&#160;<span class="comment">//   // make_23_move(&amp;SphericalUniverse, &amp;two_two) does the (2,3) move</span></div>
-<div class="line"><a name="l00719"></a><span class="lineno">  719</span>&#160;<span class="comment">//   // two_two is populated via classify_3_simplices()</span></div>
-<div class="line"><a name="l00720"></a><span class="lineno">  720</span>&#160;<span class="comment">//</span></div>
-<div class="line"><a name="l00721"></a><span class="lineno">  721</span>&#160;<span class="comment">//   // Get timelike edges V2 for make_32_move(&amp;SphericalUniverse, &amp;V2)</span></div>
-<div class="line"><a name="l00722"></a><span class="lineno">  722</span>&#160;<span class="comment">//   std::vector&lt;Edge_tuple&gt; V2;</span></div>
-<div class="line"><a name="l00723"></a><span class="lineno">  723</span>&#160;<span class="comment">//   auto N1_SL = static_cast&lt;unsigned&gt;(0);</span></div>
-<div class="line"><a name="l00724"></a><span class="lineno">  724</span>&#160;<span class="comment">//   get_timelike_edges(SphericalUniverse, &amp;V2, &amp;N1_SL);</span></div>
-<div class="line"><a name="l00725"></a><span class="lineno">  725</span>&#160;<span class="comment">//</span></div>
-<div class="line"><a name="l00726"></a><span class="lineno">  726</span>&#160;<span class="comment">//   auto moves_this_pass = SphericalUniverse.number_of_finite_cells();</span></div>
-<div class="line"><a name="l00727"></a><span class="lineno">  727</span>&#160;<span class="comment">//</span></div>
-<div class="line"><a name="l00728"></a><span class="lineno">  728</span>&#160;<span class="comment">//   std::cout &lt;&lt; &quot;Pass #&quot; &lt;&lt; i+1 &lt;&lt; &quot; is &quot;</span></div>
-<div class="line"><a name="l00729"></a><span class="lineno">  729</span>&#160;<span class="comment">//             &lt;&lt; moves_this_pass</span></div>
-<div class="line"><a name="l00730"></a><span class="lineno">  730</span>&#160;<span class="comment">//             &lt;&lt; &quot; attempted moves.&quot; &lt;&lt; std::endl;</span></div>
-<div class="line"><a name="l00731"></a><span class="lineno">  731</span>&#160;<span class="comment">//</span></div>
-<div class="line"><a name="l00732"></a><span class="lineno">  732</span>&#160;<span class="comment">//   for (auto j = 0; j &lt; moves_this_pass; ++j) {</span></div>
-<div class="line"><a name="l00733"></a><span class="lineno">  733</span>&#160;<span class="comment">//     // Metropolis algorithm to select moves goes here</span></div>
-<div class="line"><a name="l00734"></a><span class="lineno">  734</span>&#160;<span class="comment">//   }</span></div>
-<div class="line"><a name="l00735"></a><span class="lineno">  735</span>&#160;<span class="comment">// }</span></div>
-<div class="line"><a name="l00736"></a><span class="lineno">  736</span>&#160;</div>
-<div class="line"><a name="l00737"></a><span class="lineno">  737</span>&#160;<span class="preprocessor">#endif  // SRC_METROPOLIS_H_</span></div>
+<div class="line"><a name="l00646"></a><span class="lineno">  646</span>&#160;<span class="preprocessor">#endif  // SRC_METROPOLIS_H_</span></div>
 <div class="ttc" id="class_metropolis_html_a7124c5049a232491edf297b859fdfbf9"><div class="ttname"><a href="class_metropolis.html#a7124c5049a232491edf297b859fdfbf9">Metropolis::CalculateA1</a></div><div class="ttdeci">auto CalculateA1(move_type move) const  noexcept</div><div class="ttdoc">Calculate A1. </div><div class="ttdef"><b>Definition:</b> Metropolis.h:221</div></div>
 <div class="ttc" id="class_metropolis_html_a61d415ab650b308231c304e69ee54505"><div class="ttname"><a href="class_metropolis.html#a61d415ab650b308231c304e69ee54505">Metropolis::FourFourMoves</a></div><div class="ttdeci">auto FourFourMoves() const  noexcept</div><div class="ttdoc">Gets attempted (4,4) moves. </div><div class="ttdef"><b>Definition:</b> Metropolis.h:159</div></div>
 <div class="ttc" id="class_metropolis_html_a28511dd80c74e39d2bc8bb42a7c52817"><div class="ttname"><a href="class_metropolis.html#a28511dd80c74e39d2bc8bb42a7c52817">Metropolis::SuccessfulThreeTwoMoves</a></div><div class="ttdeci">auto SuccessfulThreeTwoMoves() const  noexcept</div><div class="ttdoc">Gets successful (3,2) moves. </div><div class="ttdef"><b>Definition:</b> Metropolis.h:134</div></div>
 <div class="ttc" id="_s3_ergodic_moves_8h_html"><div class="ttname"><a href="_s3_ergodic_moves_8h.html">S3ErgodicMoves.h</a></div><div class="ttdoc">Pachner moves on 3D Delaunay Triangulations. </div></div>
 <div class="ttc" id="class_metropolis_html_afc9012698dcb9a84cb4da9fc0717129b"><div class="ttname"><a href="class_metropolis.html#afc9012698dcb9a84cb4da9fc0717129b">Metropolis::TotalMoves</a></div><div class="ttdeci">auto TotalMoves() const  noexcept</div><div class="ttdoc">Gets the total number of attempted moves. </div><div class="ttdef"><b>Definition:</b> Metropolis.h:169</div></div>
-<div class="ttc" id="utilities_8h_html_a1a00f40321b0d644e5814ea67d4e396f"><div class="ttname"><a href="utilities_8h.html#a1a00f40321b0d644e5814ea67d4e396f">generate_probability</a></div><div class="ttdeci">auto generate_probability() noexcept</div><div class="ttdoc">Generate a random timeslice. </div><div class="ttdef"><b>Definition:</b> utilities.h:264</div></div>
+<div class="ttc" id="utilities_8h_html_a1a00f40321b0d644e5814ea67d4e396f"><div class="ttname"><a href="utilities_8h.html#a1a00f40321b0d644e5814ea67d4e396f">generate_probability</a></div><div class="ttdeci">auto generate_probability() noexcept</div><div class="ttdoc">Generate a random timeslice. </div><div class="ttdef"><b>Definition:</b> utilities.h:276</div></div>
 <div class="ttc" id="class_metropolis_html_a7781e975845329054128393bc2ff5cfc"><div class="ttname"><a href="class_metropolis.html#a7781e975845329054128393bc2ff5cfc">Metropolis::TimelikeEdges</a></div><div class="ttdeci">auto TimelikeEdges() const  noexcept</div><div class="ttdoc">Gets current number of timelike edges. </div><div class="ttdef"><b>Definition:</b> Metropolis.h:200</div></div>
 <div class="ttc" id="class_metropolis_html_a6b2d778d2e7c45a438998e322159a368"><div class="ttname"><a href="class_metropolis.html#a6b2d778d2e7c45a438998e322159a368">Metropolis::passes_</a></div><div class="ttdeci">std::atomic&lt; uintmax_t &gt; passes_</div><div class="ttdoc">Number of passes of ergodic moves on triangulation. </div><div class="ttdef"><b>Definition:</b> Metropolis.h:630</div></div>
 <div class="ttc" id="namespacerun__tests_html_ada5b71ecfcdf0f81d8a89a6132daf0c5"><div class="ttname"><a href="namespacerun__tests.html#ada5b71ecfcdf0f81d8a89a6132daf0c5">run_tests.passes</a></div><div class="ttdeci">int passes</div><div class="ttdef"><b>Definition:</b> run_tests.py:25</div></div>
@@ -705,7 +627,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="ttc" id="_metropolis_8h_html_aba4eff3d1eef38a38c8e720367d1944d"><div class="ttname"><a href="_metropolis_8h.html#aba4eff3d1eef38a38c8e720367d1944d">move_tuple</a></div><div class="ttdeci">std::tuple&lt; std::atomic&lt; uintmax_t &gt;, std::atomic&lt; uintmax_t &gt;, std::atomic&lt; uintmax_t &gt;, std::atomic&lt; uintmax_t &gt;, std::atomic&lt; uintmax_t &gt;&gt; move_tuple</div><div class="ttdef"><b>Definition:</b> Metropolis.h:53</div></div>
 <div class="ttc" id="class_metropolis_html_afd82e37ec669fd7c348fe0df354c0fec"><div class="ttname"><a href="class_metropolis.html#afd82e37ec669fd7c348fe0df354c0fec">Metropolis::ThreeTwoMoves</a></div><div class="ttdeci">auto ThreeTwoMoves() const  noexcept</div><div class="ttdoc">Gets attempted (3,2) moves. </div><div class="ttdef"><b>Definition:</b> Metropolis.h:129</div></div>
 <div class="ttc" id="class_metropolis_html_a6079c2145506bf492955bdb598dffdb6"><div class="ttname"><a href="class_metropolis.html#a6079c2145506bf492955bdb598dffdb6">Metropolis::universe</a></div><div class="ttdeci">Delaunay universe</div><div class="ttdoc">The type of triangulation. </div><div class="ttdef"><b>Definition:</b> Metropolis.h:609</div></div>
-<div class="ttc" id="utilities_8h_html_a43895b203fdb39fdeb7f485f1835bc51"><div class="ttname"><a href="utilities_8h.html#a43895b203fdb39fdeb7f485f1835bc51">generate_random_unsigned</a></div><div class="ttdeci">auto generate_random_unsigned(const unsigned min_value, const unsigned max_value) noexcept</div><div class="ttdoc">Generate random unsigned integers. </div><div class="ttdef"><b>Definition:</b> utilities.h:204</div></div>
+<div class="ttc" id="utilities_8h_html_a43895b203fdb39fdeb7f485f1835bc51"><div class="ttname"><a href="utilities_8h.html#a43895b203fdb39fdeb7f485f1835bc51">generate_random_unsigned</a></div><div class="ttdeci">auto generate_random_unsigned(const unsigned min_value, const unsigned max_value) noexcept</div><div class="ttdoc">Generate random unsigned integers. </div><div class="ttdef"><b>Definition:</b> utilities.h:216</div></div>
 <div class="ttc" id="_s3_triangulation_8h_html_a6eae5e81fbc86f691083957d5f7aa96d"><div class="ttname"><a href="_s3_triangulation_8h.html#a6eae5e81fbc86f691083957d5f7aa96d">classify_simplices</a></div><div class="ttdeci">auto classify_simplices(T &amp;&amp;universe_ptr)</div><div class="ttdoc">Classify simplices as (3,1), (2,2), or (1,3) </div><div class="ttdef"><b>Definition:</b> S3Triangulation.h:170</div></div>
 <div class="ttc" id="class_metropolis_html_a3f62de79a2ecac96aca8e85181292e4e"><div class="ttname"><a href="class_metropolis.html#a3f62de79a2ecac96aca8e85181292e4e">Metropolis::MovableTwoTwoSimplices</a></div><div class="ttdeci">auto MovableTwoTwoSimplices() const  noexcept</div><div class="ttdef"><b>Definition:</b> Metropolis.h:189</div></div>
 <div class="ttc" id="_s3_ergodic_moves_8h_html_a2fcf97a7f1a72dfc0f2738b3485eb70a"><div class="ttname"><a href="_s3_ergodic_moves_8h.html#a2fcf97a7f1a72dfc0f2738b3485eb70a">make_32_move</a></div><div class="ttdeci">auto make_32_move(T1 &amp;&amp;universe_ptr, T2 &amp;&amp;edge_types, T3 &amp;&amp;attempted_moves) noexcept-&gt; decltype(universe_ptr)</div><div class="ttdoc">Make a (3,2) move. </div><div class="ttdef"><b>Definition:</b> S3ErgodicMoves.h:154</div></div>
@@ -721,7 +643,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="ttc" id="class_metropolis_html_a0bd69839e0712d63a035ee0c6f186fec"><div class="ttname"><a href="class_metropolis.html#a0bd69839e0712d63a035ee0c6f186fec">Metropolis::make_move</a></div><div class="ttdeci">void make_move(const move_type move)</div><div class="ttdoc">Make a move of the selected type. </div><div class="ttdef"><b>Definition:</b> Metropolis.h:387</div></div>
 <div class="ttc" id="class_metropolis_html_a64c39c4ea5e95fb64d86ea5ee1a000e0"><div class="ttname"><a href="class_metropolis.html#a64c39c4ea5e95fb64d86ea5ee1a000e0">Metropolis::K</a></div><div class="ttdeci">auto K() const  noexcept</div><div class="ttdoc">Gets value of K_. </div><div class="ttdef"><b>Definition:</b> Metropolis.h:107</div></div>
 <div class="ttc" id="class_metropolis_html_ab98ab3863f1c2e7fa25f72c396f82d0a"><div class="ttname"><a href="class_metropolis.html#ab98ab3863f1c2e7fa25f72c396f82d0a">Metropolis::SuccessfulFourFourMoves</a></div><div class="ttdeci">auto SuccessfulFourFourMoves() const  noexcept</div><div class="ttdoc">Gets successful (4,4) moves. </div><div class="ttdef"><b>Definition:</b> Metropolis.h:164</div></div>
-<div class="ttc" id="utilities_8h_html_aa8f005d233eb0291c6214ef4a9bc150f"><div class="ttname"><a href="utilities_8h.html#aa8f005d233eb0291c6214ef4a9bc150f">Gmpzf_to_double</a></div><div class="ttdeci">auto Gmpzf_to_double(Gmpzf value)</div><div class="ttdoc">Convert Gmpzf into a double. </div><div class="ttdef"><b>Definition:</b> utilities.h:318</div></div>
+<div class="ttc" id="utilities_8h_html_aa8f005d233eb0291c6214ef4a9bc150f"><div class="ttname"><a href="utilities_8h.html#aa8f005d233eb0291c6214ef4a9bc150f">Gmpzf_to_double</a></div><div class="ttdeci">auto Gmpzf_to_double(Gmpzf value)</div><div class="ttdoc">Convert Gmpzf into a double. </div><div class="ttdef"><b>Definition:</b> utilities.h:330</div></div>
 <div class="ttc" id="class_metropolis_html_a9c333904c522d69b30dea797c884163f"><div class="ttname"><a href="class_metropolis.html#a9c333904c522d69b30dea797c884163f">Metropolis::SuccessfulTwoThreeMoves</a></div><div class="ttdeci">auto SuccessfulTwoThreeMoves() const  noexcept</div><div class="ttdoc">Gets successful (2,3) moves. </div><div class="ttdef"><b>Definition:</b> Metropolis.h:124</div></div>
 <div class="ttc" id="_s3_ergodic_moves_8h_html_a1a7e47f842c760a733f5abc23244f814"><div class="ttname"><a href="_s3_ergodic_moves_8h.html#a1a7e47f842c760a733f5abc23244f814">make_26_move</a></div><div class="ttdeci">auto make_26_move(T1 &amp;&amp;universe_ptr, T2 &amp;&amp;simplex_types, T3 &amp;&amp;attempted_moves) noexcept-&gt; decltype(universe_ptr)</div><div class="ttdoc">Make a (2,6) move. </div><div class="ttdef"><b>Definition:</b> S3ErgodicMoves.h:271</div></div>
 <div class="ttc" id="_s3_ergodic_moves_8h_html_a493f060af1b759ce6983cbf82116c67d"><div class="ttname"><a href="_s3_ergodic_moves_8h.html#a493f060af1b759ce6983cbf82116c67d">make_23_move</a></div><div class="ttdeci">auto make_23_move(T1 &amp;&amp;universe_ptr, T2 &amp;&amp;simplex_types, T3 &amp;&amp;attempted_moves) noexcept-&gt; decltype(universe_ptr)</div><div class="ttdoc">Make a (2,3) move. </div><div class="ttdef"><b>Definition:</b> S3ErgodicMoves.h:85</div></div>
@@ -755,7 +677,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Jan 2 2016 00:14:41 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Jan 22 2016 11:31:57 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.10
 </small></address>
