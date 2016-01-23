@@ -107,9 +107,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ae23fce957468b20b6e7f8a27119796f1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_metropolis.html#ae23fce957468b20b6e7f8a27119796f1">Metropolis</a> (const long double <a class="el" href="class_metropolis.html#a7bc09c8e06c92dbb7f35d35945a03102">Alpha</a>, const long double <a class="el" href="cdt-gv_8cpp.html#ab351a84f2421d5f971fbab843bbc3a62">K</a>, const long double <a class="el" href="class_metropolis.html#aad5a257fb4816ad4d8d81f2cbc57f9ac">Lambda</a>, const unsigned passes, const unsigned output_every_n_passes)</td></tr>
-<tr class="memdesc:ae23fce957468b20b6e7f8a27119796f1"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_metropolis.html" title="Metropolis-Hastings algorithm functor. ">Metropolis</a> constructor.  <a href="#ae23fce957468b20b6e7f8a27119796f1">More...</a><br /></td></tr>
-<tr class="separator:ae23fce957468b20b6e7f8a27119796f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa8c270743b765e696a84e97c982e353a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_metropolis.html#aa8c270743b765e696a84e97c982e353a">Metropolis</a> (const long double <a class="el" href="class_metropolis.html#a7bc09c8e06c92dbb7f35d35945a03102">Alpha</a>, const long double <a class="el" href="cdt-gv_8cpp.html#ab351a84f2421d5f971fbab843bbc3a62">K</a>, const long double <a class="el" href="class_metropolis.html#aad5a257fb4816ad4d8d81f2cbc57f9ac">Lambda</a>, const unsigned passes, const unsigned checkpoint)</td></tr>
+<tr class="memdesc:aa8c270743b765e696a84e97c982e353a"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_metropolis.html" title="Metropolis-Hastings algorithm functor. ">Metropolis</a> constructor.  <a href="#aa8c270743b765e696a84e97c982e353a">More...</a><br /></td></tr>
+<tr class="separator:aa8c270743b765e696a84e97c982e353a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7bc09c8e06c92dbb7f35d35945a03102"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_metropolis.html#a7bc09c8e06c92dbb7f35d35945a03102">Alpha</a> () const  noexcept</td></tr>
 <tr class="memdesc:a7bc09c8e06c92dbb7f35d35945a03102"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets value of <b>Alpha_</b>.  <a href="#a7bc09c8e06c92dbb7f35d35945a03102">More...</a><br /></td></tr>
 <tr class="separator:a7bc09c8e06c92dbb7f35d35945a03102"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -123,7 +123,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:ad48390775f6cef27536216be3e0ae2a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets value of <b>passes_</b>.  <a href="#ad48390775f6cef27536216be3e0ae2a7">More...</a><br /></td></tr>
 <tr class="separator:ad48390775f6cef27536216be3e0ae2a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a66c5d22bafd7bc8756561d45f65a3337"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_metropolis.html#a66c5d22bafd7bc8756561d45f65a3337">Output</a> () const  noexcept</td></tr>
-<tr class="memdesc:a66c5d22bafd7bc8756561d45f65a3337"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets value of <b>output_every_n_passes_</b>.  <a href="#a66c5d22bafd7bc8756561d45f65a3337">More...</a><br /></td></tr>
+<tr class="memdesc:a66c5d22bafd7bc8756561d45f65a3337"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets value of <b>checkpoint_</b>.  <a href="#a66c5d22bafd7bc8756561d45f65a3337">More...</a><br /></td></tr>
 <tr class="separator:a66c5d22bafd7bc8756561d45f65a3337"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3963a46731b521d229ae98d1bfab514c"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_metropolis.html#a3963a46731b521d229ae98d1bfab514c">TwoThreeMoves</a> () const  noexcept</td></tr>
 <tr class="memdesc:a3963a46731b521d229ae98d1bfab514c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets attempted (2,3) moves.  <a href="#a3963a46731b521d229ae98d1bfab514c">More...</a><br /></td></tr>
@@ -223,9 +223,9 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a6b2d778d2e7c45a438998e322159a368"><td class="memItemLeft" align="right" valign="top">std::atomic&lt; uintmax_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_metropolis.html#a6b2d778d2e7c45a438998e322159a368">passes_</a> {100}</td></tr>
 <tr class="memdesc:a6b2d778d2e7c45a438998e322159a368"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of passes of ergodic moves on triangulation.  <a href="#a6b2d778d2e7c45a438998e322159a368">More...</a><br /></td></tr>
 <tr class="separator:a6b2d778d2e7c45a438998e322159a368"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a629dd4d325739d3121e80499c1c09614"><td class="memItemLeft" align="right" valign="top">std::atomic&lt; uintmax_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_metropolis.html#a629dd4d325739d3121e80499c1c09614">output_every_n_passes_</a> {10}</td></tr>
-<tr class="memdesc:a629dd4d325739d3121e80499c1c09614"><td class="mdescLeft">&#160;</td><td class="mdescRight">How often to print/write output.  <a href="#a629dd4d325739d3121e80499c1c09614">More...</a><br /></td></tr>
-<tr class="separator:a629dd4d325739d3121e80499c1c09614"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a00f37f60772104a68b3b19c40ee42e"><td class="memItemLeft" align="right" valign="top">std::atomic&lt; uintmax_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_metropolis.html#a7a00f37f60772104a68b3b19c40ee42e">checkpoint_</a> {10}</td></tr>
+<tr class="memdesc:a7a00f37f60772104a68b3b19c40ee42e"><td class="mdescLeft">&#160;</td><td class="mdescRight">How often to print/write output.  <a href="#a7a00f37f60772104a68b3b19c40ee42e">More...</a><br /></td></tr>
+<tr class="separator:a7a00f37f60772104a68b3b19c40ee42e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac16c5d8c36babd2d90cc7c0e4d21fe87"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_metropolis_8h.html#aba4eff3d1eef38a38c8e720367d1944d">move_tuple</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_metropolis.html#ac16c5d8c36babd2d90cc7c0e4d21fe87">attempted_moves_</a> {0, 0, 0, 0, 0}</td></tr>
 <tr class="memdesc:ac16c5d8c36babd2d90cc7c0e4d21fe87"><td class="mdescLeft">&#160;</td><td class="mdescRight">Attempted (2,3), (3,2), (2,6), (6,2), and (4,4) moves.  <a href="#ac16c5d8c36babd2d90cc7c0e4d21fe87">More...</a><br /></td></tr>
 <tr class="separator:ac16c5d8c36babd2d90cc7c0e4d21fe87"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -252,7 +252,7 @@ Private Attributes</h2></td></tr>
 \[a_2=e^{\Delta S}\]
 </p>
  </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="ae23fce957468b20b6e7f8a27119796f1"></a>
+<a class="anchor" id="aa8c270743b765e696a84e97c982e353a"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -287,7 +287,7 @@ Private Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const unsigned&#160;</td>
-          <td class="paramname"><em>output_every_n_passes</em>&#160;</td>
+          <td class="paramname"><em>checkpoint</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -310,7 +310,7 @@ Private Attributes</h2></td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">K</td><td>\(k=\frac{1}{8\pi G_{Newton}}\) </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">Lambda</td><td>\(\lambda=k*\Lambda\) where \(\Lambda\) is the Cosmological constant </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">passes</td><td>Number of passes of ergodic moves on triangulation. </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">output_every_n_passes</td><td>How often to print/write output. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">checkpoint</td><td>How often to print/write output. </td></tr>
   </table>
   </dd>
 </dl>
@@ -733,7 +733,7 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Gets value of <b>output_every_n_passes_</b>. </p>
+<p>Gets value of <b>checkpoint_</b>. </p>
 
 </div>
 </div>
@@ -1155,6 +1155,28 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
+<a class="anchor" id="a7a00f37f60772104a68b3b19c40ee42e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::atomic&lt;uintmax_t&gt; Metropolis::checkpoint_ {10}</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>How often to print/write output. </p>
+
+</div>
+</div>
 <a class="anchor" id="afd5327e9b9e25afea0b1df405bfd92f0"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1307,28 +1329,6 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a629dd4d325739d3121e80499c1c09614"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::atomic&lt;uintmax_t&gt; Metropolis::output_every_n_passes_ {10}</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>How often to print/write output. </p>
-
-</div>
-</div>
 <a class="anchor" id="a6b2d778d2e7c45a438998e322159a368"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1422,7 +1422,7 @@ template&lt;typename T &gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Jan 22 2016 11:31:58 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Jan 22 2016 19:23:03 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.10
 </small></address>

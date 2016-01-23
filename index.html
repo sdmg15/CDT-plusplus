@@ -152,7 +152,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;# ./build/cdt --help</div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;Causal Dynamical Triangulations in C++ using CGAL.</div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;</div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;Copyright (c) 2014, 2015 Adam Getchell</div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;Copyright (c) 2014-2016 Adam Getchell</div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;</div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;A program that generates d-dimensional triangulated spacetimes</div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;with a defined causal structure and evolves them according</div>
@@ -160,23 +160,24 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;how much evolution is desired. Each pass attempts a number of ergodic</div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;moves equal to the number of simplices in the simulation.</div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;Usage:./cdt (--spherical | --toroidal) -n SIMPLICES -t TIMESLICES [-d DIM] -k K --alpha ALPHA --lambda LAMBDA [-p PASSES] [-o OUTPUT]</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;Usage:./cdt (--spherical | --toroidal) -n SIMPLICES -t TIMESLICES [-d DIM] -k K --alpha ALPHA --lambda LAMBDA [-p PASSES] [-c CHECKPOINT]</div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;</div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;Examples:</div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;./cdt --spherical -n 64000 -t 256 --alpha 1.1 -k 2.2 --lambda 3.3 --passes 1000</div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;./cdt --s -n64000 -t256 -a1.1 -k2.2 -l3.3 -p1000</div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;</div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;Options:</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;  -h --help             Show this message</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;  --version             Show program version</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;  -n SIMPLICES          Approximate number of simplices</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;  -t TIMESLICES         Number of timeslices</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;  -d DIM                Dimensionality [default: 3]</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;  -a --alpha ALPHA      Negative squared geodesic length of 1-d timelike edges</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;  -k K                  K = 1/(8*pi*G_newton)</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;  -l --lambda LAMBDA    K * Cosmological constant</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;  -p --passes PASSES    Number of passes [default: 10]</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;  -o --output OUTPUT    Output every n passes [default: 10]</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;  -h --help                   Show this message</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;  --version                   Show program version</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;  -n SIMPLICES                Approximate number of simplices</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;  -t TIMESLICES               Number of timeslices</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;  -d DIM                      Dimensionality [default: 3]</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;  -a --alpha ALPHA            Negative squared geodesic length of 1-d</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;                              timelike edges</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;  -k K                        K = 1/(8*pi*G_newton)</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;  -l --lambda LAMBDA          K * Cosmological constant</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;  -p --passes PASSES          Number of passes [default: 100]</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;  -c --checkpoint CHECKPOINT  Checkpoint every n passes [default: 10]</div>
 </div><!-- fragment --><p>The dimensionality of the spacetime is such that each slice of spacetime is <code>d-1</code>-dimensional, so setting <code>d=3</code> generates 2 spacelike dimensions and one timelike dimension, with a defined global time foliation. Thus a <code>d</code>-dimensional simplex will have some <code>d-1</code> sub-simplices that are purely spacelike (all on the same timeslice) as well as some that are timelike (span two timeslices). In <a href="http://arxiv.org/abs/hep-th/0105267">CDT</a> we actually care more about the timelike links (in 2+1 spacetime) and the timelike faces (in 3+1 spacetime).</p>
 <h2>Documentation: </h2>
 <p>Online documentation may be found at <a href="http://www.adamgetchell.org/CDT-plusplus/">http://www.adamgetchell.org/CDT-plusplus/</a></p>
@@ -206,7 +207,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Jan 22 2016 11:31:58 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Jan 22 2016 19:23:03 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.10
 </small></address>

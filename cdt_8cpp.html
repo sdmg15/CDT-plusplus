@@ -208,37 +208,7 @@ Variables</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">{</div>
-<div class="line">R<span class="stringliteral">&quot;(Causal Dynamical Triangulations in C++ using CGAL.</span></div>
-<div class="line"><span class="stringliteral"></span></div>
-<div class="line"><span class="stringliteral">Copyright (c) 2014, 2015 Adam Getchell</span></div>
-<div class="line"><span class="stringliteral"></span></div>
-<div class="line"><span class="stringliteral">A program that generates d-dimensional triangulated spacetimes</span></div>
-<div class="line"><span class="stringliteral">with a defined causal structure and evolves them according</span></div>
-<div class="line"><span class="stringliteral">to the Metropolis algorithm. Specify the number of passes to control</span></div>
-<div class="line"><span class="stringliteral">how much evolution is desired. Each pass attempts a number of ergodic</span></div>
-<div class="line"><span class="stringliteral">moves equal to the number of simplices in the simulation.</span></div>
-<div class="line"><span class="stringliteral"></span></div>
-<div class="line"><span class="stringliteral">Usage:./cdt (--spherical | --toroidal) -n SIMPLICES -t TIMESLICES [-d DIM] -k K --alpha ALPHA --lambda LAMBDA [-p PASSES] [-o OUTPUT]</span></div>
-<div class="line"><span class="stringliteral"></span></div>
-<div class="line"><span class="stringliteral">Examples:</span></div>
-<div class="line"><span class="stringliteral">./cdt --spherical -n 64000 -t 256 --alpha 1.1 -k 2.2 --lambda 3.3 --passes 1000</span></div>
-<div class="line"><span class="stringliteral">./cdt --s -n64000 -t256 -a1.1 -k2.2 -l3.3 -p1000</span></div>
-<div class="line"><span class="stringliteral"></span></div>
-<div class="line"><span class="stringliteral">Options:</span></div>
-<div class="line"><span class="stringliteral">  -h --help             Show this message</span></div>
-<div class="line"><span class="stringliteral">  --version             Show program version</span></div>
-<div class="line"><span class="stringliteral">  -n SIMPLICES          Approximate number of simplices</span></div>
-<div class="line"><span class="stringliteral">  -t TIMESLICES         Number of timeslices</span></div>
-<div class="line"><span class="stringliteral">  -d DIM                Dimensionality [default: 3]</span></div>
-<div class="line"><span class="stringliteral">  -a --alpha ALPHA      Negative squared geodesic length of 1-d timelike edges</span></div>
-<div class="line"><span class="stringliteral">  -k K                  K = 1/(8*pi*G_newton)</span></div>
-<div class="line"><span class="stringliteral">  -l --lambda LAMBDA    K * Cosmological constant</span></div>
-<div class="line"><span class="stringliteral">  -p --passes PASSES    Number of passes [default: 100]</span></div>
-<div class="line"><span class="stringliteral">  -o --output OUTPUT    Output every n passes [default: 10]</span></div>
-<div class="line"><span class="stringliteral">)&quot;</span></div>
-<div class="line"><span class="stringliteral">}</span></div>
-</div><!-- fragment -->
+
 <p>Help message parsed by docopt into options. </p>
 
 </div>
@@ -246,7 +216,7 @@ Variables</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Jan 22 2016 11:31:57 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Jan 22 2016 19:23:02 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.10
 </small></address>

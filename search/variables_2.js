@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['dimension',['DIMENSION',['../_s3_triangulation_8h.html#a088ca7ee466c991c2cc28eae39e86289',1,'S3Triangulation.h']]]
+  ['checkpoint_5f',['checkpoint_',['../class_metropolis.html#a7a00f37f60772104a68b3b19c40ee42e',1,'Metropolis']]]
 ];

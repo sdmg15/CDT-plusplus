@@ -1,14 +1,6 @@
 var searchData=
 [
-  ['n1_5fsl',['N1_SL',['../class_s3_action.html#ab26f05aaf2e06230cdbc90785c2546f0',1,'S3Action']]],
-  ['n1_5ftl',['N1_TL',['../class_s3_action.html#a20c76c8713c686a8ec4ca8cd17f1d534',1,'S3Action']]],
-  ['n1_5ftl_5f',['N1_TL_',['../class_metropolis.html#aca99b879c13499c78fd95240ffe3d1ee',1,'Metropolis']]],
-  ['n3_5f13_5fbefore',['N3_13_before',['../class_metropolis_test.html#aaded5435281c5a3d6208be771e57da8a',1,'MetropolisTest::N3_13_before()'],['../class_s3_ergodic_moves.html#a7b94c3eb8ae2a63e1807be4b67801609',1,'S3ErgodicMoves::N3_13_before()']]],
-  ['n3_5f22',['N3_22',['../class_s3_action.html#ab3e8fde9365004b6ca57c393f25a7098',1,'S3Action']]],
-  ['n3_5f22_5f',['N3_22_',['../class_metropolis.html#a012ab5ada75303c90f4f6489bc769049',1,'Metropolis']]],
-  ['n3_5f22_5fbefore',['N3_22_before',['../class_metropolis_test.html#a5da3f3213712434d898c2a08a34bcbaf',1,'MetropolisTest::N3_22_before()'],['../class_s3_ergodic_moves.html#a180c0df2c29ebaf8a8c17140ff6aa2fc',1,'S3ErgodicMoves::N3_22_before()']]],
-  ['n3_5f31',['N3_31',['../class_s3_action.html#adb36da9ea6dbac16bd6a186610cb979d',1,'S3Action']]],
-  ['n3_5f31_5f',['N3_31_',['../class_metropolis.html#a31291642a5858cfb09bb2dee449d39cb',1,'Metropolis']]],
-  ['n3_5f31_5fbefore',['N3_31_before',['../class_metropolis_test.html#a08f6729f6dc3f0fe2052fd3174efc8fe',1,'MetropolisTest::N3_31_before()'],['../class_s3_ergodic_moves.html#a8d31eeca90bd61eebc9f877d09a0a768',1,'S3ErgodicMoves::N3_31_before()']]],
-  ['number_5fof_5fvertices_5fbefore',['number_of_vertices_before',['../class_s3_ergodic_moves.html#a764f2a95fbed5f7f92ec1b0cd0e95674',1,'S3ErgodicMoves']]]
+  ['max_5ffoliation_5ffix_5fpasses',['MAX_FOLIATION_FIX_PASSES',['../_s3_triangulation_8h.html#a3a780d061ba64903ad59797eb5b14ad0',1,'S3Triangulation.h']]],
+  ['movable_5fedge_5ftypes_5f',['movable_edge_types_',['../class_metropolis.html#a7b049d61dc2082dcd311d49e708a98e9',1,'Metropolis']]],
+  ['movable_5fsimplex_5ftypes_5f',['movable_simplex_types_',['../class_metropolis.html#a195d3c11a7dcef0c139bb709bfa0357a',1,'Metropolis']]]
 ];
