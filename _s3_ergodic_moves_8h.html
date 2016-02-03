@@ -122,10 +122,12 @@ This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
 <div class="center"><img src="_s3_ergodic_moves_8h__dep__incl.png" border="0" usemap="#src_2_s3_ergodic_moves_8hdep" alt=""/></div>
 <map name="src_2_s3_ergodic_moves_8hdep" id="src_2_s3_ergodic_moves_8hdep">
-<area shape="rect" id="node2" href="_metropolis_8h.html" title="Perform Metropolis&#45;Hasting algorithm on Delaunay Triangulations. " alt="" coords="71,85,186,111"/>
-<area shape="rect" id="node5" href="_s3_ergodic_moves_test_8cpp.html" title="Tests for S3 ergodic moves. " alt="" coords="210,79,385,117"/>
+<area shape="rect" id="node2" href="_metropolis_8h.html" title="Perform Metropolis&#45;Hasting algorithm on Delaunay Triangulations. " alt="" coords="125,85,241,111"/>
+<area shape="rect" id="node7" href="_s3_ergodic_moves_test_8cpp.html" title="Tests for S3 ergodic moves. " alt="" coords="264,79,440,117"/>
 <area shape="rect" id="node3" href="cdt_8cpp.html" title="The main body of the program. " alt="" coords="5,165,91,191"/>
-<area shape="rect" id="node4" href="_metropolis_test_8cpp.html" title="Tests for the Metropolis&#45;Hastings algorithm. " alt="" coords="115,165,301,191"/>
+<area shape="rect" id="node4" href="_pachner_move_8h.html" title="src/PachnerMove.h" alt="" coords="115,165,251,191"/>
+<area shape="rect" id="node6" href="_metropolis_test_8cpp.html" title="Tests for the Metropolis&#45;Hastings algorithm. " alt="" coords="275,165,461,191"/>
+<area shape="rect" id="node5" href="_pachner_move_test_8cpp.html" title="Tests for the PachnerMove RAII class. " alt="" coords="80,239,286,264"/>
 </map>
 </div>
 </div>
@@ -133,36 +135,36 @@ This graph shows which files directly or indirectly include this file:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a1cfb3c66702ab581b44e544a896992f6"><td class="memTemplParams" colspan="2">template&lt;typename T1 &gt; </td></tr>
-<tr class="memitem:a1cfb3c66702ab581b44e544a896992f6"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="_s3_ergodic_moves_8h.html#a1cfb3c66702ab581b44e544a896992f6">try_23_move</a> (T1 &amp;&amp;universe_ptr, <a class="el" href="_s3_triangulation_8h.html#aeed6d966b9e9704e557321b5422a10e6">Cell_handle</a> to_be_moved) noexcept</td></tr>
-<tr class="memdesc:a1cfb3c66702ab581b44e544a896992f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Try a (2,3) move.  <a href="#a1cfb3c66702ab581b44e544a896992f6">More...</a><br /></td></tr>
-<tr class="separator:a1cfb3c66702ab581b44e544a896992f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a493f060af1b759ce6983cbf82116c67d"><td class="memTemplParams" colspan="2">template&lt;typename T1 , typename T2 , typename T3 &gt; </td></tr>
-<tr class="memitem:a493f060af1b759ce6983cbf82116c67d"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="_s3_ergodic_moves_8h.html#a493f060af1b759ce6983cbf82116c67d">make_23_move</a> (T1 &amp;&amp;universe_ptr, T2 &amp;&amp;simplex_types, T3 &amp;&amp;attempted_moves) noexcept-&gt; decltype(universe_ptr)</td></tr>
-<tr class="memdesc:a493f060af1b759ce6983cbf82116c67d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Make a (2,3) move.  <a href="#a493f060af1b759ce6983cbf82116c67d">More...</a><br /></td></tr>
-<tr class="separator:a493f060af1b759ce6983cbf82116c67d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a519301dd5366d42b1b4f2528b2cb60fa"><td class="memTemplParams" colspan="2">template&lt;typename T1 &gt; </td></tr>
-<tr class="memitem:a519301dd5366d42b1b4f2528b2cb60fa"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="_s3_ergodic_moves_8h.html#a519301dd5366d42b1b4f2528b2cb60fa">try_32_move</a> (T1 &amp;&amp;universe_ptr, <a class="el" href="_s3_triangulation_8h.html#ab98aabfc727a35d0b7a74339e834e02f">Edge_tuple</a> to_be_moved) noexcept</td></tr>
-<tr class="memdesc:a519301dd5366d42b1b4f2528b2cb60fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Try a (3,2) move.  <a href="#a519301dd5366d42b1b4f2528b2cb60fa">More...</a><br /></td></tr>
-<tr class="separator:a519301dd5366d42b1b4f2528b2cb60fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2fcf97a7f1a72dfc0f2738b3485eb70a"><td class="memTemplParams" colspan="2">template&lt;typename T1 , typename T2 , typename T3 &gt; </td></tr>
-<tr class="memitem:a2fcf97a7f1a72dfc0f2738b3485eb70a"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="_s3_ergodic_moves_8h.html#a2fcf97a7f1a72dfc0f2738b3485eb70a">make_32_move</a> (T1 &amp;&amp;universe_ptr, T2 &amp;&amp;edge_types, T3 &amp;&amp;attempted_moves) noexcept-&gt; decltype(universe_ptr)</td></tr>
-<tr class="memdesc:a2fcf97a7f1a72dfc0f2738b3485eb70a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Make a (3,2) move.  <a href="#a2fcf97a7f1a72dfc0f2738b3485eb70a">More...</a><br /></td></tr>
-<tr class="separator:a2fcf97a7f1a72dfc0f2738b3485eb70a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a21a4e5ebb80cb2f646ee61c991ef0f23"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_s3_ergodic_moves_8h.html#a21a4e5ebb80cb2f646ee61c991ef0f23">is_26_movable</a> (const <a class="el" href="_s3_triangulation_8h.html#aeed6d966b9e9704e557321b5422a10e6">Cell_handle</a> c, unsigned i) noexcept</td></tr>
-<tr class="memdesc:a21a4e5ebb80cb2f646ee61c991ef0f23"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check a (2,6) move.  <a href="#a21a4e5ebb80cb2f646ee61c991ef0f23">More...</a><br /></td></tr>
-<tr class="separator:a21a4e5ebb80cb2f646ee61c991ef0f23"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5a98b7837202111eeb52504c82cdb323"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_s3_ergodic_moves_8h.html#a5a98b7837202111eeb52504c82cdb323">find_26_movable</a> (const <a class="el" href="_s3_triangulation_8h.html#aeed6d966b9e9704e557321b5422a10e6">Cell_handle</a> c, unsigned *n) noexcept</td></tr>
-<tr class="memdesc:a5a98b7837202111eeb52504c82cdb323"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find a (2,6) move.  <a href="#a5a98b7837202111eeb52504c82cdb323">More...</a><br /></td></tr>
-<tr class="separator:a5a98b7837202111eeb52504c82cdb323"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1a7e47f842c760a733f5abc23244f814"><td class="memTemplParams" colspan="2">template&lt;typename T1 , typename T2 , typename T3 &gt; </td></tr>
-<tr class="memitem:a1a7e47f842c760a733f5abc23244f814"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="_s3_ergodic_moves_8h.html#a1a7e47f842c760a733f5abc23244f814">make_26_move</a> (T1 &amp;&amp;universe_ptr, T2 &amp;&amp;simplex_types, T3 &amp;&amp;attempted_moves) noexcept-&gt; decltype(universe_ptr)</td></tr>
-<tr class="memdesc:a1a7e47f842c760a733f5abc23244f814"><td class="mdescLeft">&#160;</td><td class="mdescRight">Make a (2,6) move.  <a href="#a1a7e47f842c760a733f5abc23244f814">More...</a><br /></td></tr>
-<tr class="separator:a1a7e47f842c760a733f5abc23244f814"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2b29f0d69dcd4b8f72f510fd594d3168"><td class="memTemplParams" colspan="2">template&lt;typename T1 , typename T2 , typename T3 &gt; </td></tr>
-<tr class="memitem:a2b29f0d69dcd4b8f72f510fd594d3168"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="_s3_ergodic_moves_8h.html#a2b29f0d69dcd4b8f72f510fd594d3168">make_62_move</a> (T1 &amp;&amp;universe_ptr, T2 &amp;&amp;edge_types, T3 &amp;&amp;attempted_moves) noexcept-&gt; decltype(universe_ptr)</td></tr>
-<tr class="memdesc:a2b29f0d69dcd4b8f72f510fd594d3168"><td class="mdescLeft">&#160;</td><td class="mdescRight">Make a (6,2) move.  <a href="#a2b29f0d69dcd4b8f72f510fd594d3168">More...</a><br /></td></tr>
-<tr class="separator:a2b29f0d69dcd4b8f72f510fd594d3168"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ec4497ebad27bcae97de2eb2fa10490"><td class="memTemplParams" colspan="2">template&lt;typename T1 &gt; </td></tr>
+<tr class="memitem:a0ec4497ebad27bcae97de2eb2fa10490"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="_s3_ergodic_moves_8h.html#a0ec4497ebad27bcae97de2eb2fa10490">try_23_move</a> (T1 &amp;&amp;universe_ptr, <a class="el" href="_s3_triangulation_8h.html#aeed6d966b9e9704e557321b5422a10e6">Cell_handle</a> to_be_moved)</td></tr>
+<tr class="memdesc:a0ec4497ebad27bcae97de2eb2fa10490"><td class="mdescLeft">&#160;</td><td class="mdescRight">Try a (2,3) move.  <a href="#a0ec4497ebad27bcae97de2eb2fa10490">More...</a><br /></td></tr>
+<tr class="separator:a0ec4497ebad27bcae97de2eb2fa10490"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7c8c0926c7b751fb934ec7b534d9f015"><td class="memTemplParams" colspan="2">template&lt;typename T1 , typename T2 , typename T3 &gt; </td></tr>
+<tr class="memitem:a7c8c0926c7b751fb934ec7b534d9f015"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="_s3_ergodic_moves_8h.html#a7c8c0926c7b751fb934ec7b534d9f015">make_23_move</a> (T1 &amp;&amp;universe_ptr, T2 &amp;&amp;simplex_types, T3 &amp;&amp;attempted_moves) -&gt; decltype(universe_ptr)</td></tr>
+<tr class="memdesc:a7c8c0926c7b751fb934ec7b534d9f015"><td class="mdescLeft">&#160;</td><td class="mdescRight">Make a (2,3) move.  <a href="#a7c8c0926c7b751fb934ec7b534d9f015">More...</a><br /></td></tr>
+<tr class="separator:a7c8c0926c7b751fb934ec7b534d9f015"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc4cd1b9176c06d7fd186369e092b2d1"><td class="memTemplParams" colspan="2">template&lt;typename T1 &gt; </td></tr>
+<tr class="memitem:afc4cd1b9176c06d7fd186369e092b2d1"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="_s3_ergodic_moves_8h.html#afc4cd1b9176c06d7fd186369e092b2d1">try_32_move</a> (T1 &amp;&amp;universe_ptr, <a class="el" href="_s3_triangulation_8h.html#ab98aabfc727a35d0b7a74339e834e02f">Edge_tuple</a> to_be_moved)</td></tr>
+<tr class="memdesc:afc4cd1b9176c06d7fd186369e092b2d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Try a (3,2) move.  <a href="#afc4cd1b9176c06d7fd186369e092b2d1">More...</a><br /></td></tr>
+<tr class="separator:afc4cd1b9176c06d7fd186369e092b2d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7c8b752c49b329dec63828c1785b8d47"><td class="memTemplParams" colspan="2">template&lt;typename T1 , typename T2 , typename T3 &gt; </td></tr>
+<tr class="memitem:a7c8b752c49b329dec63828c1785b8d47"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="_s3_ergodic_moves_8h.html#a7c8b752c49b329dec63828c1785b8d47">make_32_move</a> (T1 &amp;&amp;universe_ptr, T2 &amp;&amp;edge_types, T3 &amp;&amp;attempted_moves) -&gt; decltype(universe_ptr)</td></tr>
+<tr class="memdesc:a7c8b752c49b329dec63828c1785b8d47"><td class="mdescLeft">&#160;</td><td class="mdescRight">Make a (3,2) move.  <a href="#a7c8b752c49b329dec63828c1785b8d47">More...</a><br /></td></tr>
+<tr class="separator:a7c8b752c49b329dec63828c1785b8d47"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a17e48c79bfe7134608f45e5a072e9055"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_s3_ergodic_moves_8h.html#a17e48c79bfe7134608f45e5a072e9055">is_26_movable</a> (const <a class="el" href="_s3_triangulation_8h.html#aeed6d966b9e9704e557321b5422a10e6">Cell_handle</a> c, unsigned i)</td></tr>
+<tr class="memdesc:a17e48c79bfe7134608f45e5a072e9055"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check a (2,6) move.  <a href="#a17e48c79bfe7134608f45e5a072e9055">More...</a><br /></td></tr>
+<tr class="separator:a17e48c79bfe7134608f45e5a072e9055"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af90fda52d7341139e3530d94c2a0ea3f"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_s3_ergodic_moves_8h.html#af90fda52d7341139e3530d94c2a0ea3f">find_26_movable</a> (const <a class="el" href="_s3_triangulation_8h.html#aeed6d966b9e9704e557321b5422a10e6">Cell_handle</a> c, unsigned *n)</td></tr>
+<tr class="memdesc:af90fda52d7341139e3530d94c2a0ea3f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find a (2,6) move.  <a href="#af90fda52d7341139e3530d94c2a0ea3f">More...</a><br /></td></tr>
+<tr class="separator:af90fda52d7341139e3530d94c2a0ea3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3555b99102f61eb52be6a85e41865af2"><td class="memTemplParams" colspan="2">template&lt;typename T1 , typename T2 , typename T3 &gt; </td></tr>
+<tr class="memitem:a3555b99102f61eb52be6a85e41865af2"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="_s3_ergodic_moves_8h.html#a3555b99102f61eb52be6a85e41865af2">make_26_move</a> (T1 &amp;&amp;universe_ptr, T2 &amp;&amp;simplex_types, T3 &amp;&amp;attempted_moves) -&gt; decltype(universe_ptr)</td></tr>
+<tr class="memdesc:a3555b99102f61eb52be6a85e41865af2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Make a (2,6) move.  <a href="#a3555b99102f61eb52be6a85e41865af2">More...</a><br /></td></tr>
+<tr class="separator:a3555b99102f61eb52be6a85e41865af2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a27ea9322e126106a2a4e2458c2bd6a35"><td class="memTemplParams" colspan="2">template&lt;typename T1 , typename T2 , typename T3 &gt; </td></tr>
+<tr class="memitem:a27ea9322e126106a2a4e2458c2bd6a35"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="_s3_ergodic_moves_8h.html#a27ea9322e126106a2a4e2458c2bd6a35">make_62_move</a> (T1 &amp;&amp;universe_ptr, T2 &amp;&amp;edge_types, T3 &amp;&amp;attempted_moves) -&gt; decltype(universe_ptr)</td></tr>
+<tr class="memdesc:a27ea9322e126106a2a4e2458c2bd6a35"><td class="mdescLeft">&#160;</td><td class="mdescRight">Make a (6,2) move.  <a href="#a27ea9322e126106a2a4e2458c2bd6a35">More...</a><br /></td></tr>
+<tr class="separator:a27ea9322e126106a2a4e2458c2bd6a35"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Pachner moves on 3D Delaunay Triangulations. </p>
@@ -183,7 +185,7 @@ Functions</h2></td></tr>
 <dl class="section author"><dt>Author</dt><dd>Adam Getchell </dd></dl>
 <dl class="bug"><dt><b><a class="el" href="bug.html#_bug000004">Bug:</a></b></dt><dd><a href="http://clang-analyzer.llvm.org/scan-build.html">scan-build</a>: No bugs found. </dd></dl>
 </div><h2 class="groupheader">Function Documentation</h2>
-<a class="anchor" id="a5a98b7837202111eeb52504c82cdb323"></a>
+<a class="anchor" id="af90fda52d7341139e3530d94c2a0ea3f"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -210,7 +212,7 @@ Functions</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -228,7 +230,7 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a21a4e5ebb80cb2f646ee61c991ef0f23"></a>
+<a class="anchor" id="a17e48c79bfe7134608f45e5a072e9055"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -255,7 +257,7 @@ Functions</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -273,14 +275,11 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a493f060af1b759ce6983cbf82116c67d"></a>
+<a class="anchor" id="a7c8c0926c7b751fb934ec7b534d9f015"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
 template&lt;typename T1 , typename T2 , typename T3 &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">auto make_23_move </td>
@@ -306,16 +305,11 @@ template&lt;typename T1 , typename T2 , typename T3 &gt; </div>
           <td></td><td> -&gt; decltype(universe_ptr) </td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Make a (2,3) move. </p>
 <p>A (2,3) moves adds a (2,2) simplex and a timelike edge.</p>
-<p>This function calls <b><a class="el" href="_s3_ergodic_moves_8h.html#a1cfb3c66702ab581b44e544a896992f6" title="Try a (2,3) move. ">try_23_move()</a></b> until it succeeds; the triangulation is no longer Delaunay.</p>
+<p>This function calls <b><a class="el" href="_s3_ergodic_moves_8h.html#a0ec4497ebad27bcae97de2eb2fa10490" title="Try a (2,3) move. ">try_23_move()</a></b> until it succeeds; the triangulation is no longer Delaunay.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">universe_ptr</td><td>A std::unique_ptr to the Delaunay triangulation </td></tr>
@@ -328,14 +322,11 @@ template&lt;typename T1 , typename T2 , typename T3 &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a1a7e47f842c760a733f5abc23244f814"></a>
+<a class="anchor" id="a3555b99102f61eb52be6a85e41865af2"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
 template&lt;typename T1 , typename T2 , typename T3 &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">auto make_26_move </td>
@@ -361,16 +352,11 @@ template&lt;typename T1 , typename T2 , typename T3 &gt; </div>
           <td></td><td> -&gt; decltype(universe_ptr) </td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Make a (2,6) move. </p>
 <p>A (2,6) move adds 2 (1,3) simplices and 2 (3,1) simplices for a total of 3 (1,3) simplices and 3 (3,1) simplices. It also adds 2 timelike edges and 3 spacelike edges, for a total of 8 timelike edges and 6 spacelike edges.</p>
-<p>This function performs the (2,6) move by picking a random (1,3) simplex from <b>simplex_types</b>. The <b><a class="el" href="_s3_ergodic_moves_8h.html#a5a98b7837202111eeb52504c82cdb323" title="Find a (2,6) move. ">find_26_movable()</a></b> function finds the index of the neighboring (3,1) simplex, <b>neighboring_31_index</b>, and <b>has_neighbor()</b> is used to check the results.</p>
+<p>This function performs the (2,6) move by picking a random (1,3) simplex from <b>simplex_types</b>. The <b><a class="el" href="_s3_ergodic_moves_8h.html#af90fda52d7341139e3530d94c2a0ea3f" title="Find a (2,6) move. ">find_26_movable()</a></b> function finds the index of the neighboring (3,1) simplex, <b>neighboring_31_index</b>, and <b>has_neighbor()</b> is used to check the results.</p>
 <p>After some other values are gathered for debugging purposes, the <b>v_center</b> vertex is inserted into the facet delineated by <b>neighboring_31_index</b> using <b>tds().insert_in_facet()</b>. Finally, the centroid of the common face calculated using <b>CGAL::centroid()</b> and assigned to <b>v_center</b>, along with a timevalue taken from one of the vertices of the common face.</p>
 <div class="image">
 <img src="26.png" alt="26.png"/>
@@ -387,14 +373,11 @@ template&lt;typename T1 , typename T2 , typename T3 &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a2fcf97a7f1a72dfc0f2738b3485eb70a"></a>
+<a class="anchor" id="a7c8b752c49b329dec63828c1785b8d47"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
 template&lt;typename T1 , typename T2 , typename T3 &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">auto make_32_move </td>
@@ -420,16 +403,11 @@ template&lt;typename T1 , typename T2 , typename T3 &gt; </div>
           <td></td><td> -&gt; decltype(universe_ptr) </td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Make a (3,2) move. </p>
 <p>A (3,2) move removes a (2,2) simplex and a timelike edge.</p>
-<p>This function calls <b><a class="el" href="_s3_ergodic_moves_8h.html#a519301dd5366d42b1b4f2528b2cb60fa" title="Try a (3,2) move. ">try_32_move()</a></b> until it succeeds; the triangulation is no longer Delaunay.</p>
+<p>This function calls <b><a class="el" href="_s3_ergodic_moves_8h.html#afc4cd1b9176c06d7fd186369e092b2d1" title="Try a (3,2) move. ">try_32_move()</a></b> until it succeeds; the triangulation is no longer Delaunay.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">universe_ptr</td><td>A std::unique_ptr to the Delaunay triangulation </td></tr>
@@ -442,14 +420,11 @@ template&lt;typename T1 , typename T2 , typename T3 &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a2b29f0d69dcd4b8f72f510fd594d3168"></a>
+<a class="anchor" id="a27ea9322e126106a2a4e2458c2bd6a35"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
 template&lt;typename T1 , typename T2 , typename T3 &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">auto make_62_move </td>
@@ -475,11 +450,6 @@ template&lt;typename T1 , typename T2 , typename T3 &gt; </div>
           <td></td><td> -&gt; decltype(universe_ptr) </td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Make a (6,2) move. </p>
@@ -496,14 +466,11 @@ template&lt;typename T1 , typename T2 , typename T3 &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a1cfb3c66702ab581b44e544a896992f6"></a>
+<a class="anchor" id="a0ec4497ebad27bcae97de2eb2fa10490"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
 template&lt;typename T1 &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">auto try_23_move </td>
@@ -523,11 +490,6 @@ template&lt;typename T1 &gt; </div>
           <td></td><td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Try a (2,3) move. </p>
@@ -543,14 +505,11 @@ template&lt;typename T1 &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a519301dd5366d42b1b4f2528b2cb60fa"></a>
+<a class="anchor" id="afc4cd1b9176c06d7fd186369e092b2d1"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
 template&lt;typename T1 &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">auto try_32_move </td>
@@ -570,11 +529,6 @@ template&lt;typename T1 &gt; </div>
           <td></td><td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Try a (3,2) move. </p>
@@ -593,7 +547,7 @@ template&lt;typename T1 &gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Jan 22 2016 19:23:03 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Feb 2 2016 17:57:58 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.10
 </small></address>
