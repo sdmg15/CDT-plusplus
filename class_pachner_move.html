@@ -109,8 +109,9 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a264b0b28b2270769760357a66d510178"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0cdc948162a7e7af2ac896bed3fe66a5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pachner_move.html#a0cdc948162a7e7af2ac896bed3fe66a5">~PachnerMove</a> ()</td></tr>
 <tr class="separator:a0cdc948162a7e7af2ac896bed3fe66a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af4f585b1219425755309c742ac05b117"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_pachner_move.html#af4f585b1219425755309c742ac05b117">make_move</a> (<a class="el" href="_metropolis_8h.html#afacb89cb65e7bc872a93079c927634c9">move_type</a>)</td></tr>
-<tr class="separator:af4f585b1219425755309c742ac05b117"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef47c6cf5c35248399ca5f79069f4e10"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:aef47c6cf5c35248399ca5f79069f4e10"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_pachner_move.html#aef47c6cf5c35248399ca5f79069f4e10">make_move</a> (T &amp;&amp;, <a class="el" href="_metropolis_8h.html#afacb89cb65e7bc872a93079c927634c9">move_type</a>)</td></tr>
+<tr class="separator:aef47c6cf5c35248399ca5f79069f4e10"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -127,11 +128,7 @@ Public Attributes</h2></td></tr>
 <tr class="memdesc:acc5cdb6a787cc6cdcf40c587b99be028"><td class="mdescLeft">&#160;</td><td class="mdescRight">Movable timelike and spacelike edges.  <a href="#acc5cdb6a787cc6cdcf40c587b99be028">More...</a><br /></td></tr>
 <tr class="separator:acc5cdb6a787cc6cdcf40c587b99be028"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Causal Dynamical Triangulations in C++ using CGAL</p>
-<p>Copyright (c) 2016 Adam Getchell</p>
-<p>RAII class for managing exception-safe ergodic (foliation-preserving Pachner) moves. See <a href="http://www.stroustrup.com/except.pdf">http://www.stroustrup.com/except.pdf</a> and <a href="http://exceptionsafecode.com">http://exceptionsafecode.com</a> for details. </p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a264b0b28b2270769760357a66d510178"></a>
 <div class="memitem">
 <div class="memproto">
@@ -204,16 +201,28 @@ template&lt;typename T1 , typename T2 , typename T3 , typename T4 &gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="af4f585b1219425755309c742ac05b117"></a>
+<a class="anchor" id="aef47c6cf5c35248399ca5f79069f4e10"></a>
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">void PachnerMove::make_move </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="_metropolis_8h.html#afacb89cb65e7bc872a93079c927634c9">move_type</a>&#160;</td>
-          <td class="paramname"><em>move</em></td><td>)</td>
+          <td class="paramtype">T &amp;&amp;&#160;</td>
+          <td class="paramname"><em>universe</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype"><a class="el" href="_metropolis_8h.html#afacb89cb65e7bc872a93079c927634c9">move_type</a>&#160;</td>
+          <td class="paramname"><em>move</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -291,7 +300,7 @@ template&lt;typename T1 , typename T2 , typename T3 , typename T4 &gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Feb 2 2016 17:57:58 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Feb 4 2016 17:35:47 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.10
 </small></address>

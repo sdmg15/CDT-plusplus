@@ -2,7 +2,7 @@
 <area shape="rect" id="node2" href="$_metropolis_8h.html" title="Perform Metropolis&#45;Hasting algorithm on Delaunay Triangulations. " alt="" coords="125,85,241,111"/>
 <area shape="rect" id="node7" href="$_s3_ergodic_moves_test_8cpp.html" title="Tests for S3 ergodic moves. " alt="" coords="264,79,440,117"/>
 <area shape="rect" id="node3" href="$cdt_8cpp.html" title="The main body of the program. " alt="" coords="5,165,91,191"/>
-<area shape="rect" id="node4" href="$_pachner_move_8h.html" title="src/PachnerMove.h" alt="" coords="115,165,251,191"/>
+<area shape="rect" id="node4" href="$_pachner_move_8h.html" title="Resource Aquisition Is Initialization class to manage exception&#45;safe Pachner moves. " alt="" coords="115,165,251,191"/>
 <area shape="rect" id="node6" href="$_metropolis_test_8cpp.html" title="Tests for the Metropolis&#45;Hastings algorithm. " alt="" coords="275,165,461,191"/>
 <area shape="rect" id="node5" href="$_pachner_move_test_8cpp.html" title="Tests for the PachnerMove RAII class. " alt="" coords="80,239,286,264"/>
 </map>
