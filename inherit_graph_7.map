@@ -1,9 +1,10 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node2" href="$class_metropolis_test.html" title="MetropolisTest" alt="" coords="107,5,214,31"/>
-<area shape="rect" id="node3" href="$class_s3_action.html" title="S3Action" alt="" coords="123,55,198,80"/>
-<area shape="rect" id="node4" href="$class_s3_ergodic_moves.html" title="S3ErgodicMoves" alt="" coords="99,104,221,129"/>
-<area shape="rect" id="node7" href="$class_tetrahedron.html" title="Tetrahedron" alt="" coords="114,153,206,179"/>
-<area shape="rect" id="node5" href="$class_minimal26_test.html" title="Minimal26Test" alt="" coords="286,104,392,129"/>
-<area shape="rect" id="node6" href="$class_minimal62_test.html" title="Minimal62Test" alt="" coords="457,104,564,129"/>
-<area shape="rect" id="node8" href="$class_foliated_tetrahedron.html" title="FoliatedTetrahedron" alt="" coords="269,153,409,179"/>
+<area shape="rect" id="node2" href="$class_metropolis_test.html" title="MetropolisTest" alt="" coords="110,5,217,31"/>
+<area shape="rect" id="node3" href="$class_pachner_move_test.html" title="PachnerMoveTest" alt="" coords="99,55,227,80"/>
+<area shape="rect" id="node4" href="$class_s3_action.html" title="S3Action" alt="" coords="126,104,200,129"/>
+<area shape="rect" id="node5" href="$class_s3_ergodic_moves.html" title="S3ErgodicMoves" alt="" coords="102,153,224,179"/>
+<area shape="rect" id="node8" href="$class_tetrahedron.html" title="Tetrahedron" alt="" coords="117,203,209,228"/>
+<area shape="rect" id="node6" href="$class_minimal26_test.html" title="Minimal26Test" alt="" coords="292,153,398,179"/>
+<area shape="rect" id="node7" href="$class_minimal62_test.html" title="Minimal62Test" alt="" coords="463,153,570,179"/>
+<area shape="rect" id="node9" href="$class_foliated_tetrahedron.html" title="FoliatedTetrahedron" alt="" coords="275,203,415,228"/>
 </map>
