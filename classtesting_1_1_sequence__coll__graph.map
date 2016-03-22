@@ -1,0 +1,12 @@
+<map id="testing::Sequence" name="testing::Sequence">
+<area shape="rect" id="node2" href="$classtesting_1_1internal_1_1linked__ptr.html" title="testing::internal::\llinked_ptr\&lt; testing\l::Expectation \&gt;" alt="" coords="10,619,139,671"/>
+<area shape="rect" id="node3" href="$classtesting_1_1_expectation.html" title="testing::Expectation" alt="" coords="75,532,213,557"/>
+<area shape="rect" id="node4" href="$classtesting_1_1internal_1_1linked__ptr.html" title="testing::internal::\llinked_ptr\&lt; internal\l::ExpectationBase \&gt;" alt="" coords="75,419,215,471"/>
+<area shape="rect" id="node5" href="$classtesting_1_1internal_1_1linked__ptr__internal.html" title="testing::internal::\llinked_ptr_internal" alt="" coords="5,5,136,44"/>
+<area shape="rect" id="node10" href="$classtesting_1_1internal_1_1linked__ptr.html" title="testing::internal::\llinked_ptr\&lt; const testing\l::CardinalityInterface \&gt;" alt="" coords="142,105,308,157"/>
+<area shape="rect" id="node6" href="$classtesting_1_1internal_1_1_expectation_base.html" title="testing::internal::\lExpectationBase" alt="" coords="263,319,385,357"/>
+<area shape="rect" id="node7" href="$classtesting_1_1internal_1_1_mutex.html" title="testing::internal::\lMutex" alt="" coords="315,219,434,257"/>
+<area shape="rect" id="node8" href="$classtesting_1_1_expectation_set.html" title="testing::ExpectationSet" alt="" coords="458,225,616,251"/>
+<area shape="rect" id="node9" href="$classtesting_1_1_cardinality.html" title="testing::Cardinality" alt="" coords="160,225,291,251"/>
+<area shape="rect" id="node11" href="$classtesting_1_1_cardinality_interface.html" title="testing::CardinalityInterface" alt="" coords="219,12,402,37"/>
+</map>

@@ -1,3 +1,5 @@
 <map id="Minimal26Test" name="Minimal26Test">
-<area shape="rect" id="node2" href="$class_s3_ergodic_moves.html" title="S3ErgodicMoves" alt="" coords="5,79,127,104"/>
+<area shape="rect" id="node2" href="$class_s3_ergodic_moves.html" title="S3ErgodicMoves" alt="" coords="37,193,159,219"/>
+<area shape="rect" id="node3" href="$classtesting_1_1_test.html" title="testing::Test" alt="" coords="52,119,144,144"/>
+<area shape="rect" id="node4" href="$classtesting_1_1internal_1_1scoped__ptr.html" title="testing::internal::\lscoped_ptr\&lt; GTEST_FLAG\l_SAVER_ \&gt;" alt="" coords="5,5,191,57"/>
 </map>

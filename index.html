@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>CDT++: CDT-plusplus [![License](https://img.shields.io/badge/license-BSD%203--clause-blue.svg)](https://github.com/acgetchell/CDT-plusplus/blob/master/LICENSE.md)  [![Build Status](https://travis-ci.org/acgetchell/CDT-plusplus.png?branch=master)](https://travis-ci.org/acgetchell/CDT-plusplus)  [![Join the chat at https://gitter.im/acgetchell/CDT-plusplus](https://img.shields.io/badge/gitter-join%20chat%20→-brightgreen.svg)](https://gitter.im/acgetchell/CDT-plusplus?utm_source=badge&amp;utm_medium=badge&amp;utm_campaign=pr-badge&amp;utm_content=badge)</title>
+<title>CDT++: Google Mock</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -46,7 +46,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li class="current"><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
-      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
       <li>
@@ -84,85 +83,156 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 
 <div class="header">
   <div class="headertitle">
-<div class="title">CDT-plusplus [![License](<a href="https://img.shields.io/badge/license-BSD%203--clause-blue.svg">https://img.shields.io/badge/license-BSD%203--clause-blue.svg</a>)](<a href="https://github.com/acgetchell/CDT-plusplus/blob/master/LICENSE.md">https://github.com/acgetchell/CDT-plusplus/blob/master/LICENSE.md</a>) [![Build Status](<a href="https://travis-ci.org/acgetchell/CDT-plusplus.png?branch=master">https://travis-ci.org/acgetchell/CDT-plusplus.png?branch=master</a>)](<a href="https://travis-ci.org/acgetchell/CDT-plusplus">https://travis-ci.org/acgetchell/CDT-plusplus</a>) [![Join the chat at <a href="https://gitter.im/acgetchell/CDT-plusplus">https://gitter.im/acgetchell/CDT-plusplus</a>](<a href="https://img.shields.io/badge/gitter-join%20chat%20">https://img.shields.io/badge/gitter-join%20chat%20</a>→-brightgreen.svg)](<a href="https://gitter.im/acgetchell/CDT-plusplus?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge">https://gitter.im/acgetchell/CDT-plusplus?utm_source=badge&amp;utm_medium=badge&amp;utm_campaign=pr-badge&amp;utm_content=badge</a>) </div>  </div>
+<div class="title">Google <a class="el" href="class_mock.html">Mock</a> </div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p><b>Quantize spacetime on your laptop.</b></p>
-<p><a href="http://arxiv.org/abs/hep-th/0105267">Causal Dynamical Triangulations</a> in C++ using the <a href="http://www.cgal.org">Computational Geometry Algorithms Library</a> and <a href="http://eigen.tuxfamily.org/index.php?title=Main_Page">Eigen</a>&gt;3.1.0, compiled with <a href="http://www.cmake.org">CMake</a> using <a href="http://clang.llvm.org">Clang</a>/<a href="http://llvm.org">LLVM</a>. Arbitrary-precision numbers and functions by <a href="http://www.mpfr.org">MPFR</a> and <a href="https://gmplib.org">GMP</a>. <a href="https://github.com/docopt/docopt.cpp">Docopt</a> provides a beautiful command-line interface. <a href="https://github.com/google/googletest/tree/master/googlemock">Gmock 1.7</a> may be optionally installed in order to build/run unit tests. <a href="https://martine.github.io/ninja/">Ninja</a> is a nice (but optional) replacement for <code>make</code>. Intel's <a href="https://www.threadingbuildingblocks.org">TBB</a> provides significantly better performance if present (3x+). Follows (mostly) the <a href="https://google.github.io/styleguide/cppguide.html">Google C++ Style Guide</a>, which you can check by downloading and running the <a href="http://google-styleguide.googlecode.com/svn/trunk/cpplint/cpplint.py">cpplint.py</a> script:</p>
-<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;# python cpplint.py &lt;filename&gt;</div></div><!-- fragment --><p>The goals and targets of this project are:</p>
+<div class="textblock"><p>The Google C++ mocking framework.</p>
+<h3>Overview</h3>
+<p>Google's framework for writing and using C++ mock classes. It can help you derive better designs of your system and write better tests.</p>
+<p>It is inspired by:</p>
 <ul>
-<li>[x] Developed with <a href="http://www.literateprogramming.com">literate programming</a> generated using <a href="http://www.doxygen.org">Doxygen</a></li>
-<li>[x] <a href="http://blog.knatten.org/2012/11/02/efficient-pure-functional-programming-in-c-using-move-semantics/">Efficient Pure Functional Programming in C++ Using Move Semantics</a></li>
-<li>[x] Validation tests using <a href="http://cmake.org/Wiki/CMake/Testing_With_CTest">CTest</a></li>
-<li>[x] Unit tests with <a href="https://github.com/google/googletest/tree/master/googlemock">Gmock</a></li>
-<li>[x] Test builds with <a href="http://about.travis-ci.org/docs/user/getting-started/">Travis CI</a></li>
-<li>[x] 3D Simplex</li>
-<li>[x] 3D Spherical triangulation</li>
-<li>[x] 2+1 foliation</li>
-<li>[x] Integrate <a href="https://github.com/docopt/docopt.cpp">docopt</a> CLI</li>
-<li>[x] S3 Bulk action</li>
-<li>[x] 3D Ergodic moves</li>
-<li>[x] <a href="https://www.threadingbuildingblocks.org">TBB</a> multithreading</li>
-<li>[ ] <a class="el" href="class_metropolis.html" title="Metropolis-Hastings algorithm functor. ">Metropolis</a> algorithm</li>
-<li>[ ] 4D Simplex</li>
-<li>[ ] 4D Spherical triangulation</li>
-<li>[ ] 3+1 foliation</li>
-<li>[ ] S4 Bulk action</li>
-<li>[ ] 4D Ergodic moves</li>
-<li>[ ] Initialize two masses</li>
-<li>[ ] Shortest path algorithm</li>
-<li>[ ] Einstein tensor</li>
-<li>[ ] Complete test coverage</li>
-<li>[ ] Complete documentation</li>
-<li>[ ] <a href="http://www.hdfgroup.org/HDF5/">HDF5</a> output</li>
-<li>[ ] ???</li>
-<li>[ ] (Non)profit</li>
+<li><a href="http://www.jmock.org/">jMock</a>,</li>
+<li><a href="http://www.easymock.org/">EasyMock</a>, and</li>
+<li><a href="http://code.google.com/p/hamcrest/">Hamcrest</a>,</li>
 </ul>
-<h2>Prerequisites: </h2>
-<p><a href="https://github.com/acgetchell/CDT-plusplus">CDT++</a> should build on any system (e.g. Linux, MacOS, Windows) with <a href="http://www.cmake.org/cmake/help/install.html">CMake</a>, <a href="http://www.cgal.org/Manual/latest/doc_html/installation_manual/Chapter_installation_manual.html">CGAL</a>, and <a href="http://eigen.tuxfamily.org/index.php?title=Main_Page">Eigen</a> installed. <a href="https://www.threadingbuildingblocks.org">TBB</a> provides an optional (but significant) speed boost. <a href="https://github.com/google/googletest/tree/master/googlemock">Gmock</a> is optional for running the unit tests, and <a href="https://martine.github.io/ninja/">Ninja</a> is an optional replacement for <code>make</code> which provides quick parallel builds of the unit tests.</p>
-<p>On MacOS, the easiest way to do this is with <a href="http://brew.sh">HomeBrew</a>:</p>
-<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;# brew install cmake</div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;# brew install eigen</div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;# brew install tbb --c++11</div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;# brew install ninja</div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;# brew install cgal --imaging --with-eigen3 --with-lapack</div></div><!-- fragment --><p>On Ubuntu, you will need an updated version of gcc, which you can install via:</p>
-<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;sudo apt-add-repository -y ppa:ubuntu-toolchain-r/test</div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;sudo apt-get update</div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;sudo apt-get install g++-5</div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;export CXX=&quot;g++-5&quot; CC=&quot;gcc-5&quot;</div></div><!-- fragment --><p>Then you can install the rest of the needed libraries:</p>
-<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;# sudo apt-get install libboost-all-dev</div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;# sudo apt-get install libmpfr-dev</div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;# sudo apt-get install libgmp3-dev</div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;# sudo apt-get install cmake</div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;# sudo apt-get install libeigen3-dev</div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;# sudo apt-get install libtbb-dev</div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;# sudo apt-get install ninja-build</div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;# sudo apt-get install libcgal-dev</div></div><!-- fragment --><p>This is scripted in <a href="https://github.com/acgetchell/CDT-plusplus/blob/master/.travis.yml">.travis.yml</a>.</p>
-<h2>Build: </h2>
-<p>This project uses a separate <code>build/</code> directory, which allows you to rebuild the project without cluttering the source code. Thus, download this source code (clone this repo from GitHub or grab a zipped archive <a href="https://github.com/acgetchell/CDT-plusplus/archive/master.zip">here</a>) and run the following commands in the top-level directory:</p>
-<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;# mkdir build</div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;# cd build</div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;# cmake ..</div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;# make</div></div><!-- fragment --><p>(Or run <a href="https://github.com/acgetchell/CDT-plusplus/blob/master/build.sh">build.sh</a> if you have <a href="https://martine.github.io/ninja/">Ninja</a> installed.)</p>
-<p>This should result in the main program executable, <code>cdt</code> in the <code>build/</code> directory.</p>
-<p>If you have <a href="https://github.com/google/googletest/tree/master/googlemock">GMock</a> installed and set <code>GMOCK_TESTS</code> to <b>TRUE</b> (which is the default), the unit test executable, <code>unittests</code>, will also be present. See the section on Tests for details.</p>
-<p>If you are not interested in the unit tests and only want to run the program, set <code>GMOCK_TESTS</code> in <a href="https://github.com/acgetchell/CDT-plusplus/blob/master/CMakeLists.txt">CMakeLists.txt</a> to <b>FALSE</b>.</p>
-<p>For some versions of Linux, you may have to build <a href="http://www.cgal.org">CGAL</a> from source. Follow the instructions (or their equivalent) given in the install section of the <a href="https://github.com/acgetchell/CDT-plusplus/blob/master/.travis.yml">.travis.yml</a> buildfile.</p>
-<p>There are enough unit tests that it's worthwhile doing fast parallel builds. <a href="https://martine.github.io/ninja/">Ninja</a> is just the ticket. It's effectively a drop-in replacement for <code>make</code>, and works nicely because <a href="http://www.cmake.org">CMake</a> generates the build files. There's quite a difference in speed.</p>
-<p>Basically, everywhere you see <code>make</code> you can type <code>ninja</code> instead. Again, see <a href="https://github.com/acgetchell/CDT-plusplus/blob/master/build.sh">build.sh</a> for an example.</p>
-<h2>Possible build troubles: </h2>
+<p>and designed with C++'s specifics in mind.</p>
+<p>Google mock:</p>
 <ul>
-<li>While running <code>build.sh</code> under linux with <code>gcc</code> you may encounter <code>virtual memory exhausted: Cannot allocate memory</code>, a common solution for which is to <a href="http://www.cyberciti.biz/faq/linux-add-a-swap-file-howto/">allocate swap space</a>.</li>
+<li>lets you create mock classes trivially using simple macros.</li>
+<li>supports a rich set of matchers and actions.</li>
+<li>handles unordered, partially ordered, or completely ordered expectations.</li>
+<li>is extensible by users.</li>
 </ul>
-<h2>Usage: </h2>
-<p>CDT-plusplus uses <a href="https://github.com/docopt/docopt.cpp">docopt</a> to parse options from the help message, and so understands long or short argument formats, provided the short argument given is an unambigous match to a longer one. The help message should be instructive:</p>
-<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;# ./build/cdt --help</div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;Causal Dynamical Triangulations in C++ using CGAL.</div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;</div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;Copyright (c) 2014-2016 Adam Getchell</div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;</div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;A program that generates d-dimensional triangulated spacetimes</div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;with a defined causal structure and evolves them according</div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;to the Metropolis algorithm. Specify the number of passes to control</div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;how much evolution is desired. Each pass attempts a number of ergodic</div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;moves equal to the number of simplices in the simulation.</div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;</div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;Usage:./cdt (--spherical | --toroidal) -n SIMPLICES -t TIMESLICES [-d DIM] -k K --alpha ALPHA --lambda LAMBDA [-p PASSES] [-c CHECKPOINT]</div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;</div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;Examples:</div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;./cdt --spherical -n 64000 -t 256 --alpha 1.1 -k 2.2 --lambda 3.3 --passes 1000</div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;./cdt --s -n64000 -t256 -a1.1 -k2.2 -l3.3 -p1000</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;Options:</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;  -h --help                   Show this message</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;  --version                   Show program version</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;  -n SIMPLICES                Approximate number of simplices</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;  -t TIMESLICES               Number of timeslices</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;  -d DIM                      Dimensionality [default: 3]</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;  -a --alpha ALPHA            Negative squared geodesic length of 1-d</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;                              timelike edges</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;  -k K                        K = 1/(8*pi*G_newton)</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;  -l --lambda LAMBDA          K * Cosmological constant</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;  -p --passes PASSES          Number of passes [default: 100]</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;  -c --checkpoint CHECKPOINT  Checkpoint every n passes [default: 10]</div></div><!-- fragment --><p>The dimensionality of the spacetime is such that each slice of spacetime is <code>d-1</code>-dimensional, so setting <code>d=3</code> generates 2 spacelike dimensions and one timelike dimension, with a defined global time foliation. Thus a <code>d</code>-dimensional simplex will have some <code>d-1</code> sub-simplices that are purely spacelike (all on the same timeslice) as well as some that are timelike (span two timeslices). In <a href="http://arxiv.org/abs/hep-th/0105267">CDT</a> we actually care more about the timelike links (in 2+1 spacetime) and the timelike faces (in 3+1 spacetime).</p>
-<h2>Documentation: </h2>
-<p>Online documentation may be found at <a href="http://www.adamgetchell.org/CDT-plusplus/">http://www.adamgetchell.org/CDT-plusplus/</a></p>
-<p>If you have <a href="http://www.doxygen.org">Doxygen</a> installed you can generate the same information locally by simply typing at the top level directory (<a href="http://www.doxygen.org">Doxygen</a> will recursively search):</p>
-<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;# doxygen</div></div><!-- fragment --><p>This will generate <code>html/</code> and <code>latex/</code> directories which will contain documentation generated from CDT++ source files. <code>USE_MATHJAX</code> has been enabled in <a href="https://github.com/acgetchell/CDT-plusplus/blob/master/Doxyfile">Doxyfile</a> so that the LaTeX formulae can be rendered in the html documentation using <a href="http://www.mathjax.org">MathJax</a>. <code>HAVE_DOT</code> is set to <b>YES</b> which allows various graphs to be autogenerated by <a href="http://www.doxygen.org">Doxygen</a> using <a href="http://www.graphviz.org">GraphViz</a>. If you do not have GraphViz installed, set this option to <b>NO</b>.</p>
-<h2>Tests: </h2>
-<p><a href="https://github.com/google/googletest/tree/master/googlemock">GMock</a> is optional, but strongly recommended if you want to make changes to or understand the source code in detail. Building the <a href="https://github.com/google/googletest/tree/master/googlemock">GMock</a> <code>unittests</code> executable is set by the <code>GMOCK_TESTS</code> variable in <a href="https://github.com/acgetchell/CDT-plusplus/blob/master/CMakeLists.txt">CMakeLists.txt</a>.</p>
-<p>To install GMock, you'll need to install GMock and GTest as a shared library. First look at the https://github.com/google/googletest/blob/master/googlemock/README.md "README". On Linux:</p>
-<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;# git clone https://github.com/google/googletest.git</div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;# cd googletest/googlemock</div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;# cmake -DBUILD_SHARED_LIBS=ON .</div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;# make</div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;# sudo cp -a include/gmock/ /usr/include/</div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;# sudo cp -a libgmock_main.so libgmock.so /usr/lib/</div></div><!-- fragment --><p>GoogleMock is modular, and can use other testing frameworks. Since we want to use GoogleTest, do:</p>
-<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;# cd ../googletest</div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;# cmake -DBUILD_SHARED_LIBS=ON .</div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;# make</div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;# sudo cp -a include/gtest /usr/include/</div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;# sudo cp -a libgtest_main.so libgtest.so /usr/lib/</div></div><!-- fragment --><p>This is also scripted in <a href="https://github.com/acgetchell/CDT-plusplus/blob/master/.travis.yml">.travis.yml</a>. Thanks to <a href="https://stackoverflow.com/users/978486/manuelschneid3r">ManuelSchneid3r</a> and <a href="https://stackoverflow.com/questions/13513905/how-to-setup-googletest-as-a-shared-library-on-linux">Stack Overflow</a> for the assist.</p>
-<p>On MacOS, the following environment variables should be set:</p>
-<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;export GMOCK_HOME=&quot;$HOME/gmock-1.7.0&quot;</div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;export DYLD_FALLBACK_LIBRARY_PATH=$GMOCK_HOME/lib/.libs:$GMOCK_HOME/gtest/lib/.libs:/usr/local/lib:$DYLD_FALLBACK_LIBRARY_PATH</div></div><!-- fragment --><p> (Or wherever you built GMOCK and your dynamic libraries for CGAL.)</p>
-<p>Unit tests using GMock are then run (in the <code>build/</code> directory) via:</p>
-<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;# ./unittests</div></div><!-- fragment --><p>You can build and run validation tests by typing:</p>
-<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;# make test</div></div><!-- fragment --><p>Or, if you are using <a href="https://martine.github.io/ninja/">Ninja</a>:</p>
-<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;# ninja test</div></div><!-- fragment --><p>In addition to the command line output, you can see detailed results in the <code>build/Testing</code> directory which is generated thereby.</p>
-<h2>Static Analysis: </h2>
-<p>The <a href="https://github.com/acgetchell/CDT-plusplus/blob/master/cppcheck-build.sh">cppcheck-build.sh</a> script runs a quick static analysis using <a href="http://cppcheck.sourceforge.net">cppcheck</a>.</p>
-<p><a href="http://clang.llvm.org">Clang</a> comes with <a href="http://clang-analyzer.llvm.org/scan-build.html">scan-build</a> which can run a much more thorough, but slower static analysis integrated with <a href="http://www.cmake.org">CMake</a> and <a href="https://martine.github.io/ninja/">Ninja</a>. Simply run the <a href="https://github.com/acgetchell/CDT-plusplus/blob/master/scan-build.sh">scan-build.sh</a> script. Note that this script is somewhat fragile, as it depends upon the version of <a href="http://llvm.org">llvm</a> installed, and links directly to those directories without helpful symlinks to abstract version numbers away.</p>
-<p>Also, these tools build in <b>DEBUG</b> mode. You should probably not then run <code>unittests</code> as you will get thousands of lines of debugging output from the tests that create large triangulations. (You could use <code>--gtest_filter</code> to run just the tests that you want.) </p>
+<p>We hope you find it useful!</p>
+<h3>Features</h3>
+<ul>
+<li>Provides a declarative syntax for defining mocks.</li>
+<li>Can easily define partial (hybrid) mocks, which are a cross of real and mock objects.</li>
+<li>Handles functions of arbitrary types and overloaded functions.</li>
+<li>Comes with a rich set of matchers for validating function arguments.</li>
+<li>Uses an intuitive syntax for controlling the behavior of a mock.</li>
+<li>Does automatic verification of expectations (no record-and-replay needed).</li>
+<li>Allows arbitrary (partial) ordering constraints on function calls to be expressed,.</li>
+<li>Lets a user extend it by defining new matchers and actions.</li>
+<li>Does not use exceptions.</li>
+<li>Is easy to learn and use.</li>
+</ul>
+<p>Please see the project page above for more information as well as the mailing list for questions, discussions, and development. There is also an IRC channel on OFTC (irc.oftc.net) #gtest available. Please join us!</p>
+<p>Please note that code under <a href="scripts/generator/">scripts/generator</a> is from <a href="http://code.google.com/p/cppclean/">cppclean</a> and released under the Apache License, which is different from Google <a class="el" href="class_mock.html">Mock</a>'s license.</p>
+<h2>Getting Started</h2>
+<p>If you are new to the project, we suggest that you read the user documentation in the following order:</p>
+<ul>
+<li>Learn the ../googletest/docs/Primer.md "basics" of Google Test, if you choose to use Google <a class="el" href="class_mock.html">Mock</a> with it (recommended).</li>
+<li>Read Google Mock for Dummies.</li>
+<li>Read the instructions below on how to build Google <a class="el" href="class_mock.html">Mock</a>.</li>
+</ul>
+<p>You can also watch Zhanyong's <a href="http://www.youtube.com/watch?v=sYpCyLI47rM">talk</a> on Google <a class="el" href="class_mock.html">Mock</a>'s usage and implementation.</p>
+<p>Once you understand the basics, check out the rest of the docs:</p>
+<ul>
+<li>CheatSheet - all the commonly used stuff at a glance.</li>
+<li>CookBook - recipes for getting things done, including advanced techniques.</li>
+</ul>
+<p>If you need help, please check the KnownIssues and FrequentlyAskedQuestions before posting a question on the <a href="http://groups.google.com/group/googlemock">discussion group</a>.</p>
+<h3>Using Google <a class="el" href="class_mock.html">Mock</a> Without Google Test</h3>
+<p>Google <a class="el" href="class_mock.html">Mock</a> is not a testing framework itself. Instead, it needs a testing framework for writing tests. Google <a class="el" href="class_mock.html">Mock</a> works seamlessly with <a href="http://code.google.com/p/googletest/">Google Test</a>, but you can also use it with <a href="googlemock/ForDummies.md#Using_Google_Mock_with_Any_Testing_Framework">any C++ testing framework</a>.</p>
+<h3>Requirements for End Users</h3>
+<p>Google <a class="el" href="class_mock.html">Mock</a> is implemented on top of <a href="http://github.com/google/googletest/">Google Test</a>, and depends on it. You must use the bundled version of Google Test when using Google <a class="el" href="class_mock.html">Mock</a>.</p>
+<p>You can also easily configure Google <a class="el" href="class_mock.html">Mock</a> to work with another testing framework, although it will still need Google Test. Please read <a href="docs/ForDummies.md#Using_Google_Mock_with_Any_Testing_Framework">"Using_Google_Mock_with_Any_Testing_Framework"</a> for instructions.</p>
+<p>Google <a class="el" href="class_mock.html">Mock</a> depends on advanced C++ features and thus requires a more modern compiler. The following are needed to use Google <a class="el" href="class_mock.html">Mock</a>:</p>
+<h4>Linux Requirements</h4>
+<ul>
+<li>GNU-compatible Make or "gmake"</li>
+<li>POSIX-standard shell</li>
+<li>POSIX(-2) Regular Expressions (regex.h)</li>
+<li>C++98-standard-compliant compiler (e.g. GCC 3.4 or newer)</li>
+</ul>
+<h4>Windows Requirements</h4>
+<ul>
+<li>Microsoft Visual C++ 8.0 SP1 or newer</li>
+</ul>
+<h4>Mac OS X Requirements</h4>
+<ul>
+<li>Mac OS X 10.4 Tiger or newer</li>
+<li>Developer Tools Installed</li>
+</ul>
+<h3>Requirements for Contributors</h3>
+<p>We welcome patches. If you plan to contribute a patch, you need to build Google <a class="el" href="class_mock.html">Mock</a> and its tests, which has further requirements:</p>
+<ul>
+<li>Automake version 1.9 or newer</li>
+<li>Autoconf version 2.59 or newer</li>
+<li>Libtool / Libtoolize</li>
+<li>Python version 2.3 or newer (for running some of the tests and re-generating certain source files from templates)</li>
+</ul>
+<h3>Building Google <a class="el" href="class_mock.html">Mock</a></h3>
+<h4>Preparing to Build (Unix only)</h4>
+<p>If you are using a Unix system and plan to use the GNU Autotools build system to build Google <a class="el" href="class_mock.html">Mock</a> (described below), you'll need to configure it now.</p>
+<p>To prepare the Autotools build system: </p><pre class="fragment">cd googlemock
+autoreconf -fvi
+</pre><p>To build Google <a class="el" href="class_mock.html">Mock</a> and your tests that use it, you need to tell your build system where to find its headers and source files. The exact way to do it depends on which build system you use, and is usually straightforward.</p>
+<p>This section shows how you can integrate Google <a class="el" href="class_mock.html">Mock</a> into your existing build system.</p>
+<p>Suppose you put Google <a class="el" href="class_mock.html">Mock</a> in directory <code>${GMOCK_DIR}</code> and Google Test in <code>${GTEST_DIR}</code> (the latter is <code>${GMOCK_DIR}/gtest</code> by default). To build Google <a class="el" href="class_mock.html">Mock</a>, create a library build target (or a project as called by Visual Studio and Xcode) to compile </p><pre class="fragment">${GTEST_DIR}/src/gtest-all.cc and ${GMOCK_DIR}/src/gmock-all.cc
+</pre><p>with </p><pre class="fragment">${GTEST_DIR}/include and ${GMOCK_DIR}/include
+</pre><p>in the system header search path, and </p><pre class="fragment">${GTEST_DIR} and ${GMOCK_DIR}
+</pre><p>in the normal header search path. Assuming a Linux-like system and gcc, something like the following will do: </p><pre class="fragment">g++ -isystem ${GTEST_DIR}/include -I${GTEST_DIR} \
+    -isystem ${GMOCK_DIR}/include -I${GMOCK_DIR} \
+    -pthread -c ${GTEST_DIR}/src/gtest-all.cc
+g++ -isystem ${GTEST_DIR}/include -I${GTEST_DIR} \
+    -isystem ${GMOCK_DIR}/include -I${GMOCK_DIR} \
+    -pthread -c ${GMOCK_DIR}/src/gmock-all.cc
+ar -rv libgmock.a gtest-all.o gmock-all.o
+</pre><p>(We need -pthread as Google Test and Google <a class="el" href="class_mock.html">Mock</a> use threads.)</p>
+<p>Next, you should compile your test source file with ${GTEST_DIR}/include and ${GMOCK_DIR}/include in the header search path, and link it with gmock and any other necessary libraries: </p><pre class="fragment">g++ -isystem ${GTEST_DIR}/include -isystem ${GMOCK_DIR}/include \
+    -pthread path/to/your_test.cc libgmock.a -o your_test
+</pre><p>As an example, the make/ directory contains a Makefile that you can use to build Google <a class="el" href="class_mock.html">Mock</a> on systems where GNU make is available (e.g. Linux, Mac OS X, and Cygwin). It doesn't try to build Google <a class="el" href="class_mock.html">Mock</a>'s own tests. Instead, it just builds the Google <a class="el" href="class_mock.html">Mock</a> library and a sample test. You can use it as a starting point for your own build script.</p>
+<p>If the default settings are correct for your environment, the following commands should succeed: </p><pre class="fragment">cd ${GMOCK_DIR}/make
+make
+./gmock_test
+</pre><p>If you see errors, try to tweak the contents of <a href="make/Makefile">make/Makefile</a> to make them go away.</p>
+<h3>Windows</h3>
+<p>The msvc/2005 directory contains VC++ 2005 projects and the msvc/2010 directory contains VC++ 2010 projects for building Google <a class="el" href="class_mock.html">Mock</a> and selected tests.</p>
+<p>Change to the appropriate directory and run "msbuild gmock.sln" to build the library and tests (or open the gmock.sln in the MSVC IDE). If you want to create your own project to use with Google <a class="el" href="class_mock.html">Mock</a>, you'll have to configure it to use the <code>gmock_config</code> propety sheet. For that:</p>
+<ul>
+<li>Open the Property Manager window (View | Other Windows | Property Manager)</li>
+<li>Right-click on your project and select "Add Existing Property Sheet..."</li>
+<li>Navigate to <code>gmock_config.vsprops</code> or <code>gmock_config.props</code> and select it.</li>
+<li>In Project Properties | Configuration Properties | General | Additional Include Directories, type &lt;path to="" google="" mock&gt;=""&gt;/include.</li>
+</ul>
+<h3>Tweaking Google <a class="el" href="class_mock.html">Mock</a></h3>
+<p>Google <a class="el" href="class_mock.html">Mock</a> can be used in diverse environments. The default configuration may not work (or may not work well) out of the box in some environments. However, you can easily tweak Google <a class="el" href="class_mock.html">Mock</a> by defining control macros on the compiler command line. Generally, these macros are named like <code>GTEST_XYZ</code> and you define them to either 1 or 0 to enable or disable a certain feature.</p>
+<p>We list the most frequently used macros below. For a complete list, see file <a href="../googletest/include/gtest/internal/gtest-port.h">${GTEST_DIR}/include/gtest/internal/gtest-port.h</a>.</p>
+<h3>Choosing a TR1 Tuple Library</h3>
+<p>Google <a class="el" href="class_mock.html">Mock</a> uses the C++ Technical Report 1 (TR1) tuple library heavily. Unfortunately TR1 tuple is not yet widely available with all compilers. The good news is that Google Test 1.4.0+ implements a subset of TR1 tuple that's enough for Google <a class="el" href="class_mock.html">Mock</a>'s need. Google <a class="el" href="class_mock.html">Mock</a> will automatically use that implementation when the compiler doesn't provide TR1 tuple.</p>
+<p>Usually you don't need to care about which tuple library Google Test and Google <a class="el" href="class_mock.html">Mock</a> use. However, if your project already uses TR1 tuple, you need to tell Google Test and Google <a class="el" href="class_mock.html">Mock</a> to use the same TR1 tuple library the rest of your project uses, or the two tuple implementations will clash. To do that, add </p><pre class="fragment">-DGTEST_USE_OWN_TR1_TUPLE=0
+</pre><p>to the compiler flags while compiling Google Test, Google <a class="el" href="class_mock.html">Mock</a>, and your tests. If you want to force Google Test and Google <a class="el" href="class_mock.html">Mock</a> to use their own tuple library, just add </p><pre class="fragment">-DGTEST_USE_OWN_TR1_TUPLE=1
+</pre><p>to the compiler flags instead.</p>
+<p>If you want to use Boost's TR1 tuple library with Google <a class="el" href="class_mock.html">Mock</a>, please refer to the Boost website (<a href="http://www.boost.org/">http://www.boost.org/</a>) for how to obtain it and set it up.</p>
+<h3>As a Shared Library (DLL)</h3>
+<p>Google <a class="el" href="class_mock.html">Mock</a> is compact, so most users can build and link it as a static library for the simplicity. Google <a class="el" href="class_mock.html">Mock</a> can be used as a DLL, but the same DLL must contain Google Test as well. See ../googletest/README.md "Google Test's README" for instructions on how to set up necessary compiler settings.</p>
+<h3>Tweaking Google <a class="el" href="class_mock.html">Mock</a></h3>
+<p>Most of Google Test's control macros apply to Google <a class="el" href="class_mock.html">Mock</a> as well. Please see ../googletest/README.md "Google Test's README" for how to tweak them.</p>
+<h3>Upgrading from an Earlier Version</h3>
+<p>We strive to keep Google <a class="el" href="class_mock.html">Mock</a> releases backward compatible. Sometimes, though, we have to make some breaking changes for the users' long-term benefits. This section describes what you'll need to do if you are upgrading from an earlier version of Google <a class="el" href="class_mock.html">Mock</a>.</p>
+<h4>Upgrading from 1.1.0 or Earlier</h4>
+<p>You may need to explicitly enable or disable Google Test's own TR1 tuple library. See the instructions in section "[Choosing a TR1 Tuple
+Library](../googletest/#choosing-a-tr1-tuple-library)".</p>
+<h4>Upgrading from 1.4.0 or Earlier</h4>
+<p>On platforms where the pthread library is available, Google Test and Google <a class="el" href="class_mock.html">Mock</a> use it in order to be thread-safe. For this to work, you may need to tweak your compiler and/or linker flags. Please see the "[Multi-threaded Tests](../googletest#multi-threaded-tests
+)" section in file Google Test's README for what you may need to do.</p>
+<p>If you have custom matchers defined using <code>MatcherInterface</code> or <code>MakePolymorphicMatcher()</code>, you'll need to update their definitions to use the new matcher API ( <a href="http://code.google.com/p/googlemock/wiki/CookBook#Writing_New_Monomorphic_Matchers">monomorphic</a>, <a href="http://code.google.com/p/googlemock/wiki/CookBook#Writing_New_Polymorphic_Matchers">polymorphic</a>). Matchers defined using <code>MATCHER()</code> or <code>MATCHER_P*()</code> aren't affected.</p>
+<h3>Developing Google <a class="el" href="class_mock.html">Mock</a></h3>
+<p>This section discusses how to make your own changes to Google <a class="el" href="class_mock.html">Mock</a>.</p>
+<h4>Testing Google <a class="el" href="class_mock.html">Mock</a> Itself</h4>
+<p>To make sure your changes work as intended and don't break existing functionality, you'll want to compile and run Google Test's own tests. For that you'll need Autotools. First, make sure you have followed the instructions above to configure Google <a class="el" href="class_mock.html">Mock</a>. Then, create a build output directory and enter it. Next, </p><pre class="fragment">${GMOCK_DIR}/configure  # try --help for more info
+</pre><p>Once you have successfully configured Google <a class="el" href="class_mock.html">Mock</a>, the build steps are standard for GNU-style OSS packages. </p><pre class="fragment">make        # Standard makefile following GNU conventions
+make check  # Builds and runs all tests - all should pass.
+</pre><p>Note that when building your project against Google <a class="el" href="class_mock.html">Mock</a>, you are building against Google Test as well. There is no need to configure Google Test separately.</p>
+<h4>Contributing a Patch</h4>
+<p>We welcome patches. Please read the Developer's Guide for how you can contribute. In particular, make sure you have signed the Contributor License Agreement, or we won't be able to accept the patch.</p>
+<p>Happy testing! </p>
 </div></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Mar 20 2016 10:49:27 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Mar 22 2016 11:25:09 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.11
 </small></address>

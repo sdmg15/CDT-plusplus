@@ -1,0 +1,8 @@
+<map id="testing::internal::BeginEndDistanceIsMatcher&lt; DistanceMatcher &gt;::Impl&lt; Container &gt;" name="testing::internal::BeginEndDistanceIsMatcher&lt; DistanceMatcher &gt;::Impl&lt; Container &gt;">
+<area shape="rect" id="node2" href="$classtesting_1_1_matcher_interface.html" title="testing::MatcherInterface\l\&lt; Container \&gt;" alt="" coords="12,307,180,345"/>
+<area shape="rect" id="node3" href="$classtesting_1_1_matcher_describer_interface.html" title="testing::MatcherDescriber\lInterface" alt="" coords="5,219,179,257"/>
+<area shape="rect" id="node4" href="$classtesting_1_1_matcher.html" title="testing::Matcher\&lt; Distance\lType \&gt;" alt="" coords="205,307,384,345"/>
+<area shape="rect" id="node5" href="$classtesting_1_1internal_1_1_matcher_base.html" title="testing::internal::\lMatcherBase\&lt; DistanceType \&gt;" alt="" coords="202,219,406,257"/>
+<area shape="rect" id="node6" href="$classtesting_1_1internal_1_1linked__ptr.html" title="testing::internal::\llinked_ptr\&lt; const testing\l::MatcherInterface\&lt; T \&gt; \&gt;" alt="" coords="218,105,389,157"/>
+<area shape="rect" id="node7" href="$classtesting_1_1internal_1_1linked__ptr__internal.html" title="testing::internal::\llinked_ptr_internal" alt="" coords="239,5,369,44"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="testing::Matcher&lt; const internal::string &amp; &gt;" name="testing::Matcher&lt; const internal::string &amp; &gt;">
+<area shape="rect" id="node2" href="$classtesting_1_1internal_1_1_matcher_base.html" title="testing::internal::\lMatcherBase\&lt; const internal\l::string &amp; \&gt;" alt="" coords="751,65,942,117"/>
+<area shape="rect" id="node3" href="$classtesting_1_1internal_1_1linked__ptr.html" title="testing::internal::\llinked_ptr\&lt; const testing\l::MatcherInterface\&lt; const\l internal::string &amp; \&gt; \&gt;" alt="" coords="495,59,667,124"/>
+<area shape="rect" id="node4" href="$classtesting_1_1internal_1_1linked__ptr__internal.html" title="testing::internal::\llinked_ptr_internal" alt="" coords="251,43,381,81"/>
+<area shape="rect" id="node5" href="$classtesting_1_1_matcher_interface.html" title="testing::MatcherInterface\l\&lt; const internal::string &amp; \&gt;" alt="" coords="228,105,404,144"/>
+<area shape="rect" id="node6" href="$classtesting_1_1_matcher_describer_interface.html" title="testing::MatcherDescriber\lInterface" alt="" coords="5,105,179,144"/>
+</map>

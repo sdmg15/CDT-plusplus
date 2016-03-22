@@ -1,3 +1,6 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$class_pachner_move.html" title="PachnerMove" alt="" coords="5,5,109,31"/>
+<area shape="rect" id="node2" href="$class_disabled_test.html" title="DisabledTest" alt="" coords="129,5,226,31"/>
+<area shape="rect" id="node3" href="$class_failed_test.html" title="FailedTest" alt="" coords="137,55,219,80"/>
+<area shape="rect" id="node4" href="$class_property_recording_test.html" title="PropertyRecordingTest" alt="" coords="99,104,256,129"/>
+<area shape="rect" id="node5" href="$class_successful_test.html" title="SuccessfulTest" alt="" coords="122,153,233,179"/>
 </map>

@@ -1,13 +1,6 @@
 var searchData=
 [
-  ['failures',['failures',['../namespacerun__tests.html#aaf208260d85a9dfebdb2f3871be9f247',1,'run_tests']]],
-  ['fargcount',['fArgcount',['../classdocopt_1_1_option.html#af8dfdfe65f0a4761cec25641f4e16b70',1,'docopt::Option']]],
-  ['fchildren',['fChildren',['../classdocopt_1_1_branch_pattern.html#ad34855b839d62d4bfcdfb9cf0b5903cc',1,'docopt::BranchPattern']]],
-  ['findex',['fIndex',['../class_tokens.html#a73f9ddb6f1b7a052033f7959e48cf406',1,'Tokens']]],
-  ['fisparsingargv',['fIsParsingArgv',['../class_tokens.html#a82c67e2a3025de1950d211e0f3243928',1,'Tokens']]],
-  ['flongoption',['fLongOption',['../classdocopt_1_1_option.html#ada9b9f4bc5cb18629ff28c6cfd225836',1,'docopt::Option']]],
-  ['fname',['fName',['../classdocopt_1_1_leaf_pattern.html#ae18ced5ac7fc20efc60d6906eed564a9',1,'docopt::LeafPattern']]],
-  ['fshortoption',['fShortOption',['../classdocopt_1_1_option.html#a03a0faef38c4e9776b1da3ed0082d98b',1,'docopt::Option']]],
-  ['ftokens',['fTokens',['../class_tokens.html#aa2e304b2b3017d0514aa582a1b2303ea',1,'Tokens']]],
-  ['fvalue',['fValue',['../classdocopt_1_1_leaf_pattern.html#a9fe0f4780c7d3f188c1f1924f304c704',1,'docopt::LeafPattern']]]
+  ['max_5ffoliation_5ffix_5fpasses',['MAX_FOLIATION_FIX_PASSES',['../_s3_triangulation_8h.html#a3a780d061ba64903ad59797eb5b14ad0',1,'S3Triangulation.h']]],
+  ['movable_5fedge_5ftypes_5f',['movable_edge_types_',['../class_metropolis.html#a7b049d61dc2082dcd311d49e708a98e9',1,'Metropolis::movable_edge_types_()'],['../class_pachner_move.html#acc5cdb6a787cc6cdcf40c587b99be028',1,'PachnerMove::movable_edge_types_()'],['../class_pachner_move_test.html#a4f34eb34d0cba05db972f0347f06ea03',1,'PachnerMoveTest::movable_edge_types_()']]],
+  ['movable_5fsimplex_5ftypes_5f',['movable_simplex_types_',['../class_metropolis.html#a195d3c11a7dcef0c139bb709bfa0357a',1,'Metropolis::movable_simplex_types_()'],['../class_pachner_move.html#aec3b7b3c060fb1cf58a1662eeb8bc53d',1,'PachnerMove::movable_simplex_types_()'],['../class_pachner_move_test.html#ad3e6dda76eb13d5709ed9d5c05e2d933',1,'PachnerMoveTest::movable_simplex_types_()']]]
 ];

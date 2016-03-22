@@ -46,7 +46,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
-      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
       <li>
@@ -91,7 +90,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="namespacedocopt.html">docopt</a></li><li class="navelem"><a class="el" href="classdocopt_1_1_pattern.html">Pattern</a></li>  </ul>
+<li class="navelem"><b>docopt</b></li><li class="navelem"><a class="el" href="classdocopt_1_1_pattern.html">Pattern</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -102,8 +101,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="title">docopt::Pattern Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
 </div><!--header-->
 <div class="contents">
-
-<p><code>#include &lt;<a class="el" href="docopt__private_8h_source.html">docopt_private.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for docopt::Pattern:</div>
 <div class="dyncontent">
@@ -124,208 +121,36 @@ Inheritance diagram for docopt::Pattern:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a0a235229a02694f2127df05a890dec94"><td class="memItemLeft" align="right" valign="top">virtual std::vector&lt; <a class="el" href="classdocopt_1_1_pattern.html">Pattern</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdocopt_1_1_pattern.html#a0a235229a02694f2127df05a890dec94">flat</a> (bool(*filter)(<a class="el" href="classdocopt_1_1_pattern.html">Pattern</a> const *))=0</td></tr>
+<tr class="memitem:a0a235229a02694f2127df05a890dec94"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0a235229a02694f2127df05a890dec94"></a>
+virtual std::vector&lt; <a class="el" href="classdocopt_1_1_pattern.html">Pattern</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>flat</b> (bool(*filter)(<a class="el" href="classdocopt_1_1_pattern.html">Pattern</a> const *))=0</td></tr>
 <tr class="separator:a0a235229a02694f2127df05a890dec94"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaa5f995199f97d5154f1fed56500ea3a"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdocopt_1_1_pattern.html#aaa5f995199f97d5154f1fed56500ea3a">collect_leaves</a> (std::vector&lt; <a class="el" href="classdocopt_1_1_leaf_pattern.html">LeafPattern</a> * &gt; &amp;)=0</td></tr>
+<tr class="memitem:aaa5f995199f97d5154f1fed56500ea3a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aaa5f995199f97d5154f1fed56500ea3a"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>collect_leaves</b> (std::vector&lt; <a class="el" href="classdocopt_1_1_leaf_pattern.html">LeafPattern</a> * &gt; &amp;)=0</td></tr>
 <tr class="separator:aaa5f995199f97d5154f1fed56500ea3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad59da51d2a5b75da4130765f45b59756"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classdocopt_1_1_leaf_pattern.html">LeafPattern</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdocopt_1_1_pattern.html#ad59da51d2a5b75da4130765f45b59756">leaves</a> ()</td></tr>
+<tr class="memitem:ad59da51d2a5b75da4130765f45b59756"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad59da51d2a5b75da4130765f45b59756"></a>
+std::vector&lt; <a class="el" href="classdocopt_1_1_leaf_pattern.html">LeafPattern</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>leaves</b> ()</td></tr>
 <tr class="separator:ad59da51d2a5b75da4130765f45b59756"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a54a562862b5b2566d4dd09560d2fd975"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdocopt_1_1_pattern.html#a54a562862b5b2566d4dd09560d2fd975">match</a> (<a class="el" href="namespacedocopt.html#a3bc7c7fd0f0e8fd57c665c1f06b0eadf">PatternList</a> &amp;left, std::vector&lt; std::shared_ptr&lt; <a class="el" href="classdocopt_1_1_leaf_pattern.html">LeafPattern</a> &gt;&gt; &amp;collected) const  =0</td></tr>
+<tr class="memitem:a54a562862b5b2566d4dd09560d2fd975"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a54a562862b5b2566d4dd09560d2fd975"></a>
+virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>match</b> (PatternList &amp;left, std::vector&lt; std::shared_ptr&lt; <a class="el" href="classdocopt_1_1_leaf_pattern.html">LeafPattern</a> &gt;&gt; &amp;collected) const  =0</td></tr>
 <tr class="separator:a54a562862b5b2566d4dd09560d2fd975"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a86a83e72b0b28f47509828cd9a2ef18d"><td class="memItemLeft" align="right" valign="top">virtual std::string const &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdocopt_1_1_pattern.html#a86a83e72b0b28f47509828cd9a2ef18d">name</a> () const  =0</td></tr>
+<tr class="memitem:a86a83e72b0b28f47509828cd9a2ef18d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a86a83e72b0b28f47509828cd9a2ef18d"></a>
+virtual std::string const &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>name</b> () const  =0</td></tr>
 <tr class="separator:a86a83e72b0b28f47509828cd9a2ef18d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5769da74b50164a58e9d686e1e143747"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdocopt_1_1_pattern.html#a5769da74b50164a58e9d686e1e143747">hasValue</a> () const </td></tr>
+<tr class="memitem:a5769da74b50164a58e9d686e1e143747"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5769da74b50164a58e9d686e1e143747"></a>
+virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>hasValue</b> () const </td></tr>
 <tr class="separator:a5769da74b50164a58e9d686e1e143747"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a96b3a7ceeaa708e777e4ba853080a344"><td class="memItemLeft" align="right" valign="top">virtual size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdocopt_1_1_pattern.html#a96b3a7ceeaa708e777e4ba853080a344">hash</a> () const  =0</td></tr>
+<tr class="memitem:a96b3a7ceeaa708e777e4ba853080a344"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a96b3a7ceeaa708e777e4ba853080a344"></a>
+virtual size_t&#160;</td><td class="memItemRight" valign="bottom"><b>hash</b> () const  =0</td></tr>
 <tr class="separator:a96b3a7ceeaa708e777e4ba853080a344"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="aaa5f995199f97d5154f1fed56500ea3a"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual void docopt::Pattern::collect_leaves </td>
-          <td>(</td>
-          <td class="paramtype">std::vector&lt; <a class="el" href="classdocopt_1_1_leaf_pattern.html">LeafPattern</a> * &gt; &amp;&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Implemented in <a class="el" href="classdocopt_1_1_branch_pattern.html#a8223c0727c53fb99d635707b05360865">docopt::BranchPattern</a>, and <a class="el" href="classdocopt_1_1_leaf_pattern.html#a85f6c59be9172da70046dcfac1d17a91">docopt::LeafPattern</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a0a235229a02694f2127df05a890dec94"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual std::vector&lt;<a class="el" href="classdocopt_1_1_pattern.html">Pattern</a>*&gt; docopt::Pattern::flat </td>
-          <td>(</td>
-          <td class="paramtype">bool(*)(<a class="el" href="classdocopt_1_1_pattern.html">Pattern</a> const *)&#160;</td>
-          <td class="paramname"><em>filter</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Implemented in <a class="el" href="classdocopt_1_1_branch_pattern.html#a7927fbc8ea5f3571f6b2e0e941f3b9b4">docopt::BranchPattern</a>, and <a class="el" href="classdocopt_1_1_leaf_pattern.html#a1bcf7e63fb2cac3e95999cb3ebd2282e">docopt::LeafPattern</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a96b3a7ceeaa708e777e4ba853080a344"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual size_t docopt::Pattern::hash </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Implemented in <a class="el" href="classdocopt_1_1_option.html#a8baa5601f868d5e847f7205b4c897237">docopt::Option</a>, <a class="el" href="classdocopt_1_1_branch_pattern.html#aa23d4223499075461b1415c0a403b78c">docopt::BranchPattern</a>, and <a class="el" href="classdocopt_1_1_leaf_pattern.html#a1fe84d11f15768bfa375c6b6aa2ff40e">docopt::LeafPattern</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a5769da74b50164a58e9d686e1e143747"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual bool docopt::Pattern::hasValue </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Reimplemented in <a class="el" href="classdocopt_1_1_leaf_pattern.html#ab6e10350d6695f0f853f20d52baae2e7">docopt::LeafPattern</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="ad59da51d2a5b75da4130765f45b59756"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt; <a class="el" href="classdocopt_1_1_leaf_pattern.html">LeafPattern</a> * &gt; Pattern::leaves </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a54a562862b5b2566d4dd09560d2fd975"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual bool docopt::Pattern::match </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="namespacedocopt.html#a3bc7c7fd0f0e8fd57c665c1f06b0eadf">PatternList</a> &amp;&#160;</td>
-          <td class="paramname"><em>left</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::vector&lt; std::shared_ptr&lt; <a class="el" href="classdocopt_1_1_leaf_pattern.html">LeafPattern</a> &gt;&gt; &amp;&#160;</td>
-          <td class="paramname"><em>collected</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Implemented in <a class="el" href="classdocopt_1_1_either.html#a938b7ff33207f0c88fd125139b5fab1a">docopt::Either</a>, <a class="el" href="classdocopt_1_1_one_or_more.html#a56be3158d1ae953f7127cacfaee3899d">docopt::OneOrMore</a>, <a class="el" href="classdocopt_1_1_optional.html#a69d031960dde9eaf81e98331a4fb0853">docopt::Optional</a>, <a class="el" href="classdocopt_1_1_required.html#a5c337854522000e07525fc880369a27e">docopt::Required</a>, and <a class="el" href="classdocopt_1_1_leaf_pattern.html#a985ecc3bdcf7810fdc02de874064b91c">docopt::LeafPattern</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a86a83e72b0b28f47509828cd9a2ef18d"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual std::string const&amp; docopt::Pattern::name </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Implemented in <a class="el" href="classdocopt_1_1_branch_pattern.html#ae77e6e47e2abe6d4da9666b7455e498c">docopt::BranchPattern</a>, and <a class="el" href="classdocopt_1_1_leaf_pattern.html#a3429a9b1f2f6b3bf6859eabda41bc8c5">docopt::LeafPattern</a>.</p>
-
-</div>
-</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>src/docopt/<a class="el" href="docopt__private_8h_source.html">docopt_private.h</a></li>
-<li>src/docopt/<a class="el" href="docopt_8cpp.html">docopt.cpp</a></li>
+<li>src/docopt/docopt.cpp</li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Mar 20 2016 10:49:27 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Mar 22 2016 11:25:07 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.11
 </small></address>

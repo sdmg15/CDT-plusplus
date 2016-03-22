@@ -1,7 +1,32 @@
 <map id="unittests/MetropolisTest.cpp" name="unittests/MetropolisTest.cpp">
-<area shape="rect" id="node6" href="$_metropolis_8h.html" title="Perform Metropolis&#45;Hasting algorithm on Delaunay Triangulations. " alt="" coords="570,79,664,104"/>
-<area shape="rect" id="node7" href="$_s3_ergodic_moves_8h.html" title="Pachner moves on 3D Delaunay Triangulations. " alt="" coords="481,152,614,177"/>
-<area shape="rect" id="node29" href="$_s3_action_8h.html" title="Calculate S3 bulk actions on 3D Delaunay Triangulations. " alt="" coords="1241,152,1326,177"/>
-<area shape="rect" id="node8" href="$_s3_triangulation_8h.html" title="Functions on 3D Spherical Delaunay Triangulations. " alt="" coords="485,225,610,251"/>
-<area shape="rect" id="node9" href="$utilities_8h.html" title="Utility functions. " alt="" coords="275,312,348,337"/>
+<area shape="rect" id="node5" href="$gmock_8h_source.html" title="gmock/gmock.h" alt="" coords="1143,79,1257,104"/>
+<area shape="rect" id="node44" href="$_metropolis_8h.html" title="Perform Metropolis&#45;Hasting algorithm on Delaunay Triangulations. " alt="" coords="2732,679,2826,704"/>
+<area shape="rect" id="node6" href="$gmock-actions_8h_source.html" title="gmock/gmock&#45;actions.h" alt="" coords="429,332,590,357"/>
+<area shape="rect" id="node10" href="$gmock-internal-utils_8h_source.html" title="gmock/internal/gmock\l&#45;internal&#45;utils.h" alt="" coords="743,412,894,451"/>
+<area shape="rect" id="node30" href="$gmock-cardinalities_8h_source.html" title="gmock/gmock&#45;cardinalities.h" alt="" coords="1058,419,1248,444"/>
+<area shape="rect" id="node32" href="$gmock-generated-actions_8h_source.html" title="gmock/gmock&#45;generated\l&#45;actions.h" alt="" coords="364,239,532,277"/>
+<area shape="rect" id="node34" href="$gmock-generated-function-mockers_8h_source.html" title="gmock/gmock&#45;generated\l&#45;function&#45;mockers.h" alt="" coords="909,152,1077,191"/>
+<area shape="rect" id="node36" href="$gmock-matchers_8h_source.html" title="gmock/gmock&#45;matchers.h" alt="" coords="1788,332,1962,357"/>
+<area shape="rect" id="node40" href="$gmock-generated-nice-strict_8h_source.html" title="gmock/gmock&#45;generated\l&#45;nice&#45;strict.h" alt="" coords="607,152,775,191"/>
+<area shape="rect" id="node41" href="$gmock-generated-matchers_8h_source.html" title="gmock/gmock&#45;generated\l&#45;matchers.h" alt="" coords="1791,239,1959,277"/>
+<area shape="rect" id="node42" href="$gmock-more-actions_8h_source.html" title="gmock/gmock&#45;more&#45;actions.h" alt="" coords="1102,159,1298,184"/>
+<area shape="rect" id="node43" href="$gmock-more-matchers_8h_source.html" title="gmock/gmock&#45;more&#45;matchers.h" alt="" coords="1734,159,1943,184"/>
+<area shape="rect" id="node14" href="$gmock-port_8h_source.html" title="gmock/internal/gmock\l&#45;port.h" alt="" coords="496,585,647,624"/>
+<area shape="rect" id="node13" href="$gmock-generated-internal-utils_8h_source.html" title="gmock/internal/gmock\l&#45;generated&#45;internal&#45;utils.h" alt="" coords="507,499,680,537"/>
+<area shape="rect" id="node22" href="$gtest_8h_source.html" title="gtest/gtest.h" alt="" coords="1428,505,1522,531"/>
+<area shape="rect" id="node18" href="$gtest-linked__ptr_8h_source.html" title="gtest/internal/gtest\l&#45;linked_ptr.h" alt="" coords="712,672,842,711"/>
+<area shape="rect" id="node19" href="$gtest-port_8h_source.html" title="gtest/internal/gtest\l&#45;port.h" alt="" coords="1275,845,1405,884"/>
+<area shape="rect" id="node21" href="$custom_2gmock-port_8h_source.html" title="gmock/internal/custom\l/gmock&#45;port.h" alt="" coords="483,672,637,711"/>
+<area shape="rect" id="node24" href="$gtest-internal_8h_source.html" title="gtest/internal/gtest\l&#45;internal.h" alt="" coords="1480,672,1610,711"/>
+<area shape="rect" id="node25" href="$gtest-message_8h_source.html" title="gtest/gtest&#45;message.h" alt="" coords="1530,765,1683,791"/>
+<area shape="rect" id="node26" href="$gtest-string_8h_source.html" title="gtest/internal/gtest\l&#45;string.h" alt="" coords="1069,759,1200,797"/>
+<area shape="rect" id="node27" href="$gtest-death-test_8h_source.html" title="gtest/gtest&#45;death&#45;test.h" alt="" coords="1221,592,1379,617"/>
+<area shape="rect" id="node28" href="$gtest-param-test_8h_source.html" title="gtest/gtest&#45;param&#45;test.h" alt="" coords="1622,592,1784,617"/>
+<area shape="rect" id="node29" href="$gtest-printers_8h_source.html" title="gtest/gtest&#45;printers.h" alt="" coords="1403,592,1546,617"/>
+<area shape="rect" id="node33" href="$internal_2custom_2gmock-generated-actions_8h_source.html" title="gmock/internal/custom\l/gmock&#45;generated&#45;actions.h" alt="" coords="43,325,229,364"/>
+<area shape="rect" id="node35" href="$gmock-spec-builders_8h_source.html" title="gmock/gmock&#45;spec&#45;builders.h" alt="" coords="899,245,1098,271"/>
+<area shape="rect" id="node39" href="$internal_2custom_2gmock-matchers_8h_source.html" title="gmock/internal/custom\l/gmock&#45;matchers.h" alt="" coords="2048,412,2203,451"/>
+<area shape="rect" id="node45" href="$_s3_ergodic_moves_8h.html" title="Pachner moves on 3D Delaunay Triangulations. " alt="" coords="3091,765,3224,791"/>
+<area shape="rect" id="node48" href="$_s3_action_8h.html" title="Calculate S3 bulk actions on 3D Delaunay Triangulations. " alt="" coords="2725,765,2811,791"/>
+<area shape="rect" id="node46" href="$_s3_triangulation_8h.html" title="Functions on 3D Spherical Delaunay Triangulations. " alt="" coords="3091,852,3216,877"/>
 </map>
