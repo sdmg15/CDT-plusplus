@@ -1,8 +1,0 @@
-<map id="testing::internal::KeyMatcherImpl&lt; PairType &gt;" name="testing::internal::KeyMatcherImpl&lt; PairType &gt;">
-<area shape="rect" id="node2" href="$classtesting_1_1_matcher_interface.html" title="testing::MatcherInterface\l\&lt; PairType \&gt;" alt="" coords="742,5,910,44"/>
-<area shape="rect" id="node3" href="$classtesting_1_1_matcher_describer_interface.html" title="testing::MatcherDescriber\lInterface" alt="" coords="494,5,667,44"/>
-<area shape="rect" id="node4" href="$classtesting_1_1_matcher.html" title="testing::Matcher\&lt; const\l KeyType &amp; \&gt;" alt="" coords="746,68,905,107"/>
-<area shape="rect" id="node5" href="$classtesting_1_1internal_1_1_matcher_base.html" title="testing::internal::\lMatcherBase\&lt; const KeyType &amp; \&gt;" alt="" coords="469,68,692,107"/>
-<area shape="rect" id="node6" href="$classtesting_1_1internal_1_1linked__ptr.html" title="testing::internal::\llinked_ptr\&lt; const testing\l::MatcherInterface\&lt; T \&gt; \&gt;" alt="" coords="215,61,386,113"/>
-<area shape="rect" id="node7" href="$classtesting_1_1internal_1_1linked__ptr__internal.html" title="testing::internal::\llinked_ptr_internal" alt="" coords="5,68,136,107"/>
-</map>

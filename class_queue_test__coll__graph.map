@@ -1,8 +1,0 @@
-<map id="QueueTest" name="QueueTest">
-<area shape="rect" id="node2" href="$class_quick_test.html" title="QuickTest" alt="" coords="129,219,209,244"/>
-<area shape="rect" id="node3" href="$classtesting_1_1_test.html" title="testing::Test" alt="" coords="52,119,144,144"/>
-<area shape="rect" id="node4" href="$classtesting_1_1internal_1_1scoped__ptr.html" title="testing::internal::\lscoped_ptr\&lt; GTEST_FLAG\l_SAVER_ \&gt;" alt="" coords="5,5,191,57"/>
-<area shape="rect" id="node5" href="$class_queue.html" title="Queue\&lt; int \&gt;" alt="" coords="233,219,331,244"/>
-<area shape="rect" id="node6" href="$class_queue_node.html" title="QueueNode\&lt; int \&gt;" alt="" coords="217,119,347,144"/>
-<area shape="rect" id="node7" href="$class_queue_node.html" title="QueueNode\&lt; E \&gt;" alt="" coords="220,19,345,44"/>
-</map>

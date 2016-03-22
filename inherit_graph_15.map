@@ -1,8 +1,0 @@
-<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node2" href="$class_failing_param_test.html" title="FailingParamTest" alt="" coords="202,5,326,31"/>
-<area shape="rect" id="node3" href="$classtesting_1_1_code_location_for_t_e_s_t_p.html" title="testing::CodeLocationFor\lTESTP" alt="" coords="179,55,349,93"/>
-<area shape="rect" id="node4" href="$classtesting_1_1gmock__matchers__test_1_1_bipartite_non_square_test.html" title="testing::gmock_matchers\l_test::BipartiteNonSquareTest" alt="" coords="165,117,364,156"/>
-<area shape="rect" id="node5" href="$classtesting_1_1gmock__matchers__test_1_1_bipartite_random_test.html" title="testing::gmock_matchers\l_test::BipartiteRandomTest" alt="" coords="174,180,355,219"/>
-<area shape="rect" id="node6" href="$classtesting_1_1gmock__matchers__test_1_1_bipartite_test.html" title="testing::gmock_matchers\l_test::BipartiteTest" alt="" coords="180,243,349,281"/>
-<area shape="rect" id="node7" href="$class_value_param_test.html" title="ValueParamTest" alt="" coords="205,305,323,331"/>
-</map>

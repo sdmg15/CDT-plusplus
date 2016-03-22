@@ -1,7 +1,4 @@
 var searchData=
 [
-  ['cookbook',['CookBook',['../md_googletest_googlemock_docs_CookBook.html',1,'']]],
-  ['cookbook',['CookBook',['../md_googletest_googlemock_docs_v1_5_CookBook.html',1,'']]],
-  ['cookbook',['CookBook',['../md_googletest_googlemock_docs_v1_6_CookBook.html',1,'']]],
-  ['cookbook',['CookBook',['../md_googletest_googlemock_docs_v1_7_CookBook.html',1,'']]]
+  ['how_20to_20contribute',['How to Contribute',['../md_CONTRIBUTING.html',1,'']]]
 ];

@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['lambda',['Lambda',['../class_metropolis.html#aad5a257fb4816ad4d8d81f2cbc57f9ac',1,'Metropolis']]]
+  ['operator_28_29',['operator()',['../class_metropolis.html#ae205f0f3f79ff9c4d441c30c224b5e19',1,'Metropolis']]],
+  ['output',['Output',['../class_metropolis.html#a66c5d22bafd7bc8756561d45f65a3337',1,'Metropolis']]]
 ];

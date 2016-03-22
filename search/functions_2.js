@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['branchfiles',['BranchFiles',['../classrelease__docs_1_1_wiki_brancher.html#a5ef284f7e1742f465ecd0c14d2667327',1,'release_docs::WikiBrancher']]]
+  ['expected_5fpoints_5fper_5fsimplex',['expected_points_per_simplex',['../utilities_8h.html#a860d24b97c1f710bf7181b8a10f9ef8b',1,'utilities.h']]]
 ];

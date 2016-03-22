@@ -1,10 +1,23 @@
 var searchData=
 [
-  ['quantifiermatcherimpl',['QuantifierMatcherImpl',['../classtesting_1_1internal_1_1_quantifier_matcher_impl.html',1,'testing::internal']]],
-  ['queue',['Queue',['../class_queue.html',1,'']]],
-  ['queue_3c_20int_20_3e',['Queue&lt; int &gt;',['../class_queue.html',1,'']]],
-  ['queuenode',['QueueNode',['../class_queue_node.html',1,'']]],
-  ['queuenode_3c_20int_20_3e',['QueueNode&lt; int &gt;',['../class_queue_node.html',1,'']]],
-  ['queuetest',['QueueTest',['../class_queue_test.html',1,'']]],
-  ['quicktest',['QuickTest',['../class_quick_test.html',1,'']]]
+  ['s3_5fbulk_5faction',['S3_bulk_action',['../_s3_action_8h.html#a2efe9f07ccfb005de21832dfe780539a',1,'S3Action.h']]],
+  ['s3_5fbulk_5faction_5falpha_5fminus_5fone',['S3_bulk_action_alpha_minus_one',['../_s3_action_8h.html#a56f7417bc949bb9a1feb2e8881524984',1,'S3Action.h']]],
+  ['s3_5fbulk_5faction_5falpha_5fone',['S3_bulk_action_alpha_one',['../_s3_action_8h.html#a835fd58e867f55dc84d049a5528c092c',1,'S3Action.h']]],
+  ['s3action',['S3Action',['../class_s3_action.html',1,'']]],
+  ['s3action_2eh',['S3Action.h',['../_s3_action_8h.html',1,'']]],
+  ['s3actiontest_2ecpp',['S3ActionTest.cpp',['../_s3_action_test_8cpp.html',1,'']]],
+  ['s3ergodicmoves',['S3ErgodicMoves',['../class_s3_ergodic_moves.html',1,'']]],
+  ['s3ergodicmoves_2eh',['S3ErgodicMoves.h',['../_s3_ergodic_moves_8h.html',1,'']]],
+  ['s3ergodicmovestest_2ecpp',['S3ErgodicMovesTest.cpp',['../_s3_ergodic_moves_test_8cpp.html',1,'']]],
+  ['s3triangulation_2eh',['S3Triangulation.h',['../_s3_triangulation_8h.html',1,'']]],
+  ['s3triangulationtest_2ecpp',['S3TriangulationTest.cpp',['../_s3_triangulation_test_8cpp.html',1,'']]],
+  ['sixtwomoves',['SixTwoMoves',['../class_metropolis.html#a78370a67a6003459b87f8398ffd45e96',1,'Metropolis']]],
+  ['sphere_5fd_2eh',['sphere_d.h',['../sphere__d_8h.html',1,'']]],
+  ['spheretest_2ecpp',['SphereTest.cpp',['../_sphere_test_8cpp.html',1,'']]],
+  ['successful_5fmoves_5f',['successful_moves_',['../class_metropolis.html#a241d076e3c0a246720a320ddbc3c260d',1,'Metropolis']]],
+  ['successfulfourfourmoves',['SuccessfulFourFourMoves',['../class_metropolis.html#ab98ab3863f1c2e7fa25f72c396f82d0a',1,'Metropolis']]],
+  ['successfulsixtwomoves',['SuccessfulSixTwoMoves',['../class_metropolis.html#a77fe64f652c9cf4e672fa9621d479654',1,'Metropolis']]],
+  ['successfulthreetwomoves',['SuccessfulThreeTwoMoves',['../class_metropolis.html#a28511dd80c74e39d2bc8bb42a7c52817',1,'Metropolis']]],
+  ['successfultwosixmoves',['SuccessfulTwoSixMoves',['../class_metropolis.html#abd8aa597b13f17ed5a1e1931554db59e',1,'Metropolis']]],
+  ['successfultwothreemoves',['SuccessfulTwoThreeMoves',['../class_metropolis.html#a9c333904c522d69b30dea797c884163f',1,'Metropolis']]]
 ];

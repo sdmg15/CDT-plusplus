@@ -1,6 +1,0 @@
-<map id="testing::internal::FieldMatcher&lt; Class, FieldType &gt;" name="testing::internal::FieldMatcher&lt; Class, FieldType &gt;">
-<area shape="rect" id="node2" href="$classtesting_1_1_matcher.html" title="testing::Matcher\&lt; const\l FieldType &amp; \&gt;" alt="" coords="40,307,200,345"/>
-<area shape="rect" id="node3" href="$classtesting_1_1internal_1_1_matcher_base.html" title="testing::internal::\lMatcherBase\&lt; const FieldType &amp; \&gt;" alt="" coords="5,219,234,257"/>
-<area shape="rect" id="node4" href="$classtesting_1_1internal_1_1linked__ptr.html" title="testing::internal::\llinked_ptr\&lt; const testing\l::MatcherInterface\&lt; T \&gt; \&gt;" alt="" coords="34,105,205,157"/>
-<area shape="rect" id="node5" href="$classtesting_1_1internal_1_1linked__ptr__internal.html" title="testing::internal::\llinked_ptr_internal" alt="" coords="55,5,185,44"/>
-</map>

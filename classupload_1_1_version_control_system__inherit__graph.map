@@ -1,5 +1,0 @@
-<map id="upload.VersionControlSystem" name="upload.VersionControlSystem">
-<area shape="rect" id="node3" href="$classupload_1_1_git_v_c_s.html" title="upload.GitVCS" alt="" coords="5,152,115,177"/>
-<area shape="rect" id="node4" href="$classupload_1_1_mercurial_v_c_s.html" title="upload.MercurialVCS" alt="" coords="138,152,286,177"/>
-<area shape="rect" id="node5" href="$classupload_1_1_subversion_v_c_s.html" title="upload.SubversionVCS" alt="" coords="310,152,469,177"/>
-</map>

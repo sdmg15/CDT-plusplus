@@ -1,9 +1,6 @@
 var searchData=
 [
-  ['hash_3c_20docopt_3a_3avalue_20_3e',['hash&lt; docopt::value &gt;',['../structstd_1_1hash_3_01docopt_1_1value_01_4.html',1,'std']]],
-  ['hasnewfatalfailurehelper',['HasNewFatalFailureHelper',['../classtesting_1_1internal_1_1_has_new_fatal_failure_helper.html',1,'testing::internal']]],
-  ['hassubstrmatcher',['HasSubstrMatcher',['../classtesting_1_1internal_1_1_has_substr_matcher.html',1,'testing::internal']]],
-  ['hostname',['hostname',['../utilities_8h.html#a8f61e089a794ff83b72a861ad406b75a',1,'utilities.h']]],
-  ['httprpcserver',['HttpRpcServer',['../classupload_1_1_http_rpc_server.html',1,'upload']]],
-  ['how_20to_20contribute',['How to Contribute',['../md_CONTRIBUTING.html',1,'']]]
+  ['implemented_20to_2ddo_27s',['Implemented To-do&apos;s',['../done.html',1,'']]],
+  ['insert_5finto_5ftriangulation',['insert_into_triangulation',['../_s3_triangulation_8h.html#ac1487cd1be573ca30cd313d871fb64e8',1,'S3Triangulation.h']]],
+  ['is_5f26_5fmovable',['is_26_movable',['../_s3_ergodic_moves_8h.html#a17e48c79bfe7134608f45e5a072e9055',1,'S3ErgodicMoves.h']]]
 ];
