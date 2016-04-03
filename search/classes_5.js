@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['foliatedtetrahedron',['FoliatedTetrahedron',['../class_foliated_tetrahedron.html',1,'']]]
+  ['foliatedtetrahedrontest',['FoliatedTetrahedronTest',['../class_foliated_tetrahedron_test.html',1,'']]]
 ];

@@ -16,12 +16,14 @@ var searchData=
   ['metropolis_2eh',['Metropolis.h',['../_metropolis_8h.html',1,'']]],
   ['metropolistest',['MetropolisTest',['../class_metropolis_test.html',1,'']]],
   ['metropolistest_2ecpp',['MetropolisTest.cpp',['../_metropolis_test_8cpp.html',1,'']]],
-  ['minimal26test',['Minimal26Test',['../class_minimal26_test.html',1,'']]],
-  ['minimal62test',['Minimal62Test',['../class_minimal62_test.html',1,'']]],
-  ['movable_5fedge_5ftypes_5f',['movable_edge_types_',['../class_metropolis.html#a7b049d61dc2082dcd311d49e708a98e9',1,'Metropolis::movable_edge_types_()'],['../class_pachner_move.html#acc5cdb6a787cc6cdcf40c587b99be028',1,'PachnerMove::movable_edge_types_()'],['../class_pachner_move_test.html#a4f34eb34d0cba05db972f0347f06ea03',1,'PachnerMoveTest::movable_edge_types_()']]],
-  ['movable_5fsimplex_5ftypes_5f',['movable_simplex_types_',['../class_metropolis.html#a195d3c11a7dcef0c139bb709bfa0357a',1,'Metropolis::movable_simplex_types_()'],['../class_pachner_move.html#aec3b7b3c060fb1cf58a1662eeb8bc53d',1,'PachnerMove::movable_simplex_types_()'],['../class_pachner_move_test.html#ad3e6dda76eb13d5709ed9d5c05e2d933',1,'PachnerMoveTest::movable_simplex_types_()']]],
+  ['minimalergodic26movetest',['MinimalErgodic26MoveTest',['../class_minimal_ergodic26_move_test.html',1,'']]],
+  ['movable_5fedge_5ftypes_5f',['movable_edge_types_',['../class_metropolis.html#a7b049d61dc2082dcd311d49e708a98e9',1,'Metropolis::movable_edge_types_()'],['../class_pachner_move.html#acc5cdb6a787cc6cdcf40c587b99be028',1,'PachnerMove::movable_edge_types_()'],['../class_move_manager_test.html#ac0fcb8000d48570edc364aca18d8c870',1,'MoveManagerTest::movable_edge_types_()'],['../class_s3_ergodic_move_test.html#ae2daf8fac5c27ccef24894555fe4a621',1,'S3ErgodicMoveTest::movable_edge_types_()']]],
+  ['movable_5fsimplex_5ftypes_5f',['movable_simplex_types_',['../class_metropolis.html#a195d3c11a7dcef0c139bb709bfa0357a',1,'Metropolis::movable_simplex_types_()'],['../class_pachner_move.html#aec3b7b3c060fb1cf58a1662eeb8bc53d',1,'PachnerMove::movable_simplex_types_()'],['../class_move_manager_test.html#a5ca84695e9c77579467e25f47cb34b75',1,'MoveManagerTest::movable_simplex_types_()'],['../class_s3_ergodic_move_test.html#afaa6d1d19d918a8d1d77cc8a3d5639af',1,'S3ErgodicMoveTest::movable_simplex_types_()']]],
   ['movableonethreesimplices',['MovableOneThreeSimplices',['../class_metropolis.html#ab382a17865dc313a129650db59c1eee7',1,'Metropolis']]],
   ['movablethreeonesimplices',['MovableThreeOneSimplices',['../class_metropolis.html#a1b8a12e2d60657b518cfd8ad44ee7799',1,'Metropolis']]],
   ['movabletimelikeedges',['MovableTimelikeEdges',['../class_metropolis.html#a45bca1932c1be40fb61f08bc5f0201cc',1,'Metropolis']]],
-  ['movabletwotwosimplices',['MovableTwoTwoSimplices',['../class_metropolis.html#a3f62de79a2ecac96aca8e85181292e4e',1,'Metropolis']]]
+  ['movabletwotwosimplices',['MovableTwoTwoSimplices',['../class_metropolis.html#a3f62de79a2ecac96aca8e85181292e4e',1,'Metropolis']]],
+  ['movemanager_2eh',['MoveManager.h',['../_move_manager_8h.html',1,'']]],
+  ['movemanagertest',['MoveManagerTest',['../class_move_manager_test.html',1,'']]],
+  ['movemanagertest_2ecpp',['MoveManagerTest.cpp',['../_move_manager_test_8cpp.html',1,'']]]
 ];

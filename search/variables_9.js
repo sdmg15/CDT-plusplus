@@ -1,7 +1,5 @@
 var searchData=
 [
-  ['universe',['universe',['../class_metropolis.html#a6079c2145506bf492955bdb598dffdb6',1,'Metropolis']]],
-  ['universe_5f',['universe_',['../class_pachner_move_test.html#a67e230e052e502a8abcb5b4dd14b6230',1,'PachnerMoveTest']]],
-  ['universe_5fptr_5f',['universe_ptr_',['../class_metropolis.html#afdd691a3ee9fa9102aea64d4ed22a3a4',1,'Metropolis']]],
-  ['usage',['USAGE',['../cdt-gv_8cpp.html#a6d6e26e7e3af2d4bd47f6582aff224f8',1,'USAGE():&#160;cdt-gv.cpp'],['../cdt_8cpp.html#a6d6e26e7e3af2d4bd47f6582aff224f8',1,'USAGE():&#160;cdt.cpp']]]
+  ['timelike_5fedges',['timelike_edges',['../class_s3_ergodic_move_test.html#a10dd6886523fa640159b300fecbc6e4a',1,'S3ErgodicMoveTest']]],
+  ['triangulation',['triangulation',['../class_s3_ergodic_move_test.html#ac5fa796e4f9c36a5a4c143a2a3e5e689',1,'S3ErgodicMoveTest']]]
 ];
