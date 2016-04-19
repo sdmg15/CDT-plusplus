@@ -6,5 +6,5 @@ var searchData=
   ['n3_5f22_5fbefore',['N3_22_before',['../class_s3_ergodic_move_test.html#a69959e2ebb82f914eb83cc17ec8b77d6',1,'S3ErgodicMoveTest']]],
   ['n3_5f31_5f',['N3_31_',['../class_metropolis.html#aec0d27e33be403d5bf86b8be8ea8cf2b',1,'Metropolis']]],
   ['n3_5f31_5fbefore',['N3_31_before',['../class_s3_ergodic_move_test.html#a258f63195044ec6cdec2912248c89a29',1,'S3ErgodicMoveTest']]],
-  ['number_5fof_5fvertices_5f',['number_of_vertices_',['../class_move_manager_test.html#a9efedae30a97585b310b9883db821063',1,'MoveManagerTest::number_of_vertices_()'],['../class_s3_ergodic_move_test.html#a72c4682eb5460f8705bcda41bd0814c7',1,'S3ErgodicMoveTest::number_of_vertices_()']]]
+  ['number_5fof_5fvertices_5f',['number_of_vertices_',['../class_pachner_move.html#aa3d35698df861cc93069f49a265febb2',1,'PachnerMove::number_of_vertices_()'],['../class_move_manager_test.html#a9efedae30a97585b310b9883db821063',1,'MoveManagerTest::number_of_vertices_()'],['../class_s3_ergodic_move_test.html#a72c4682eb5460f8705bcda41bd0814c7',1,'S3ErgodicMoveTest::number_of_vertices_()']]]
 ];

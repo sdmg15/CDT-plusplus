@@ -1,5 +1,5 @@
 <map id="unittests/MoveManagerTest.cpp" name="unittests/MoveManagerTest.cpp">
-<area shape="rect" id="node7" href="$_move_manager_8h.html" title="RAII class to manage exception&#45;safe foliation&#45;preserving Pachner moves. " alt="" coords="335,79,452,104"/>
+<area shape="rect" id="node7" href="$_move_manager_8h.html" title="RAII class to manage exception&#45;safe foliation&#45;preserving Pachner moves. " alt="" coords="324,79,463,104"/>
 <area shape="rect" id="node11" href="$_s3_ergodic_moves_8h.html" title="Pachner moves on 3D Delaunay Triangulations. " alt="" coords="641,225,775,251"/>
 <area shape="rect" id="node10" href="$_metropolis_8h.html" title="Perform Metropolis&#45;Hasting algorithm on Delaunay Triangulations. " alt="" coords="290,152,384,177"/>
 <area shape="rect" id="node32" href="$_s3_action_8h.html" title="Calculate S3 bulk actions on 3D Delaunay Triangulations. " alt="" coords="264,225,350,251"/>

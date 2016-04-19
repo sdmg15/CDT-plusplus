@@ -9,7 +9,7 @@ var searchData=
   ['todo_20list',['Todo List',['../todo.html',1,'']]],
   ['tokens',['Tokens',['../class_tokens.html',1,'']]],
   ['totalmoves',['TotalMoves',['../class_metropolis.html#afc9012698dcb9a84cb4da9fc0717129b',1,'Metropolis']]],
-  ['triangulation',['triangulation',['../class_s3_ergodic_move_test.html#ac5fa796e4f9c36a5a4c143a2a3e5e689',1,'S3ErgodicMoveTest']]],
+  ['triangulation',['triangulation',['../class_pachner_move.html#a49dce2d997c230e68d30ad2a67efc75c',1,'PachnerMove::triangulation()'],['../class_move_manager_test.html#ab51a8bf7bd801a2401c9c156a278142a',1,'MoveManagerTest::triangulation()'],['../class_s3_ergodic_move_test.html#ac5fa796e4f9c36a5a4c143a2a3e5e689',1,'S3ErgodicMoveTest::triangulation()']]],
   ['try_5f23_5fmove',['try_23_move',['../_s3_ergodic_moves_8h.html#a0ec4497ebad27bcae97de2eb2fa10490',1,'S3ErgodicMoves.h']]],
   ['try_5f32_5fmove',['try_32_move',['../_s3_ergodic_moves_8h.html#afc4cd1b9176c06d7fd186369e092b2d1',1,'S3ErgodicMoves.h']]],
   ['twosixmoves',['TwoSixMoves',['../class_metropolis.html#af3992251cae1593ccc2388c16831b444',1,'Metropolis']]],
