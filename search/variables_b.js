@@ -1,7 +1,9 @@
 var searchData=
 [
-  ['universe',['universe',['../class_metropolis.html#a6079c2145506bf492955bdb598dffdb6',1,'Metropolis']]],
-  ['universe_5f',['universe_',['../class_pachner_move.html#af953780739b51ddab62cd3a9d9bd1a5b',1,'PachnerMove::universe_()'],['../class_move_manager_test.html#ab204dfcc359f0d41cbdb61d31b31db41',1,'MoveManagerTest::universe_()'],['../class_s3_ergodic_move_test.html#a6dc35b97792d4d7801deac39065f7fcf',1,'S3ErgodicMoveTest::universe_()']]],
-  ['universe_5fptr_5f',['universe_ptr_',['../class_metropolis.html#afdd691a3ee9fa9102aea64d4ed22a3a4',1,'Metropolis']]],
-  ['usage',['USAGE',['../cdt-gv_8cpp.html#a6d6e26e7e3af2d4bd47f6582aff224f8',1,'USAGE():&#160;cdt-gv.cpp'],['../cdt_8cpp.html#a6d6e26e7e3af2d4bd47f6582aff224f8',1,'USAGE():&#160;cdt.cpp']]]
+  ['three_5fone',['three_one',['../struct_geometry_info.html#aec53865ae614fd81cd31c16ca557e816',1,'GeometryInfo']]],
+  ['timelike_5fedges',['timelike_edges',['../struct_geometry_info.html#a2dc4b59c60f743bf9019a8181bba48f8',1,'GeometryInfo']]],
+  ['timelike_5fedges_5f',['timelike_edges_',['../class_metropolis_test.html#a07346efe7607a3e3f803128d7bb4c695',1,'MetropolisTest']]],
+  ['timelike_5fedges_5fbefore',['timelike_edges_before',['../class_move_manager_test.html#ae0767090fd5d6d10a8a32b70593b8936',1,'MoveManagerTest::timelike_edges_before()'],['../class_s3_action_test.html#aedaad15fa95826a45381addccd747df2',1,'S3ActionTest::timelike_edges_before()'],['../class_s3_ergodic_move_test.html#a58ba40b36c943d08da63e5d5dd1031e7',1,'S3ErgodicMoveTest::timelike_edges_before()']]],
+  ['triangulation',['triangulation',['../class_pachner_move.html#a49dce2d997c230e68d30ad2a67efc75c',1,'PachnerMove::triangulation()'],['../struct_simplicial_manifold.html#a16783060e396f9aea448cd7f92824a26',1,'SimplicialManifold::triangulation()']]],
+  ['two_5ftwo',['two_two',['../struct_geometry_info.html#a57ac0dca72a21c03fdc4a95cdab9a0c5',1,'GeometryInfo']]]
 ];

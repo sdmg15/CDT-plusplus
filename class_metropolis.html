@@ -103,6 +103,15 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
  <a href="class_metropolis.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="_metropolis_8h_source.html">Metropolis.h</a>&gt;</code></p>
+<div class="dynheader">
+Collaboration diagram for Metropolis:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_metropolis__coll__graph.png" border="0" usemap="#_metropolis_coll__map" alt="Collaboration graph"/></div>
+<map name="_metropolis_coll__map" id="_metropolis_coll__map">
+<area shape="rect" id="node2" href="struct_simplicial_manifold.html" title="SimplicialManifold" alt="" coords="5,92,133,117"/>
+<area shape="rect" id="node3" href="struct_geometry_info.html" title="GeometryInfo" alt="" coords="18,5,120,31"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -212,19 +221,12 @@ auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="memitem:a0f0f29341a0621459c19aa8216561bc6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0f0f29341a0621459c19aa8216561bc6"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>reset_movable</b> ()</td></tr>
 <tr class="separator:a0f0f29341a0621459c19aa8216561bc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae205f0f3f79ff9c4d441c30c224b5e19"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:ae205f0f3f79ff9c4d441c30c224b5e19"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_metropolis.html#ae205f0f3f79ff9c4d441c30c224b5e19">operator()</a> (T &amp;&amp;universe_ptr) -&gt; decltype(universe_ptr)</td></tr>
-<tr class="memdesc:ae205f0f3f79ff9c4d441c30c224b5e19"><td class="mdescLeft">&#160;</td><td class="mdescRight">() operator  <a href="#ae205f0f3f79ff9c4d441c30c224b5e19">More...</a><br /></td></tr>
-<tr class="separator:ae205f0f3f79ff9c4d441c30c224b5e19"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:a6079c2145506bf492955bdb598dffdb6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6079c2145506bf492955bdb598dffdb6"></a>
-Delaunay&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_metropolis.html#a6079c2145506bf492955bdb598dffdb6">universe</a></td></tr>
-<tr class="memdesc:a6079c2145506bf492955bdb598dffdb6"><td class="mdescLeft">&#160;</td><td class="mdescRight">The type of triangulation. <br /></td></tr>
-<tr class="separator:a6079c2145506bf492955bdb598dffdb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afdd691a3ee9fa9102aea64d4ed22a3a4"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; decltype(<a class="el" href="class_metropolis.html#a6079c2145506bf492955bdb598dffdb6">universe</a>)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_metropolis.html#afdd691a3ee9fa9102aea64d4ed22a3a4">universe_ptr_</a> = std::make_unique&lt;decltype(<a class="el" href="class_metropolis.html#a6079c2145506bf492955bdb598dffdb6">universe</a>)&gt;(<a class="el" href="class_metropolis.html#a6079c2145506bf492955bdb598dffdb6">universe</a>)</td></tr>
-<tr class="separator:afdd691a3ee9fa9102aea64d4ed22a3a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac89d0eba33c4e175b6a8e4393fa5070b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_simplicial_manifold.html">SimplicialManifold</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_metropolis.html#ac89d0eba33c4e175b6a8e4393fa5070b">universe_ptr_</a></td></tr>
+<tr class="memdesc:ac89d0eba33c4e175b6a8e4393fa5070b"><td class="mdescLeft">&#160;</td><td class="mdescRight">() operator  <a href="#ac89d0eba33c4e175b6a8e4393fa5070b">More...</a><br /></td></tr>
+<tr class="separator:ac89d0eba33c4e175b6a8e4393fa5070b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a943281d3bd65d50063098cc9d2e37d46"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a943281d3bd65d50063098cc9d2e37d46"></a>
 long double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_metropolis.html#a943281d3bd65d50063098cc9d2e37d46">Alpha_</a></td></tr>
 <tr class="memdesc:a943281d3bd65d50063098cc9d2e37d46"><td class="mdescLeft">&#160;</td><td class="mdescRight">Alpha is the length of timelike edges. <br /></td></tr>
@@ -584,42 +586,6 @@ std::pair&lt; std::vector&lt; Edge_handle &gt;, std::uintmax_t &gt;&#160;</td><t
 
 </div>
 </div>
-<a class="anchor" id="ae205f0f3f79ff9c4d441c30c224b5e19"></a>
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">auto Metropolis::operator() </td>
-          <td>(</td>
-          <td class="paramtype">T &amp;&amp;&#160;</td>
-          <td class="paramname"><em>universe_ptr</em></td><td>)</td>
-          <td> -&gt; decltype(universe_ptr) </td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>() operator </p>
-<p>This makes the <a class="el" href="class_metropolis.html" title="Metropolis-Hastings algorithm functor. ">Metropolis</a> class into a functor. Minimal setup of runtime job parameters is handled by the constructor. This () operator conducts all of algorithmic work for Metropolis-Hastings on the Delaunay triangulation.</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">universe_ptr</td><td>A std::unique_ptr to the Delaunay triangulation, which should already be initialized with <b><a class="el" href="_s3_triangulation_8h.html#aac6e736d50e1e67931cc244e21bbca9f" title="Make a triangulation from foliated 2-spheres. ">make_triangulation()</a></b>. </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>The std::unique_ptr to the Delaunay triangulation. Note that this sets the data member <b>universe_ptr_</b> to null, and so no operations can be successfully carried out on <b>universe_ptr_</b> when operator() returns. Instead, they should be conducted on the std::move() results of this function call. </dd></dl>
-
-</div>
-</div>
 <h2 class="groupheader">Member Data Documentation</h2>
 <a class="anchor" id="a0e607efa296c45c2f7611d19857871e9"></a>
 <div class="memitem">
@@ -663,7 +629,7 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="afdd691a3ee9fa9102aea64d4ed22a3a4"></a>
+<a class="anchor" id="ac89d0eba33c4e175b6a8e4393fa5070b"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -671,7 +637,7 @@ template&lt;typename T &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::unique_ptr&lt;decltype(<a class="el" href="class_metropolis.html#a6079c2145506bf492955bdb598dffdb6">universe</a>)&gt; Metropolis::universe_ptr_ = std::make_unique&lt;decltype(<a class="el" href="class_metropolis.html#a6079c2145506bf492955bdb598dffdb6">universe</a>)&gt;(<a class="el" href="class_metropolis.html#a6079c2145506bf492955bdb598dffdb6">universe</a>)</td>
+          <td class="memname"><a class="el" href="struct_simplicial_manifold.html">SimplicialManifold</a> Metropolis::universe_ptr_</td>
         </tr>
       </table>
   </td>
@@ -680,7 +646,16 @@ template&lt;typename T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>A std::unique_ptr to the Delaunay triangulation. For this reason you should not access this member directly, as operator() may be called at any time and null it out via std::move(). </p>
+
+<p>() operator </p>
+<p>This makes the <a class="el" href="class_metropolis.html" title="Metropolis-Hastings algorithm functor. ">Metropolis</a> class into a functor. Minimal setup of runtime job parameters is handled by the constructor. This () operator conducts all of algorithmic work for Metropolis-Hastings on the Delaunay triangulation.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">universe_ptr</td><td>A std::unique_ptr to the Delaunay triangulation, which should already be initialized with <b><a class="el" href="_s3_triangulation_8h.html#aac6e736d50e1e67931cc244e21bbca9f" title="Make a triangulation from foliated 2-spheres. ">make_triangulation()</a></b>. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The std::unique_ptr to the Delaunay triangulation. Note that this sets the data member <b>universe_ptr_</b> to null, and so no operations can be successfully carried out on <b>universe_ptr_</b> when operator() returns. Instead, they should be conducted on the std::move() results of this function call. &lt; The type of triangulation. A std::unique_ptr to the Delaunay triangulation. For this reason you should not access this member directly, as operator() may be called at any time and null it out via std::move(). </dd></dl>
 
 </div>
 </div>
@@ -690,7 +665,7 @@ template&lt;typename T &gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Apr 21 2016 23:46:04 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Jun 16 2016 16:18:27 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.11
 </small></address>
