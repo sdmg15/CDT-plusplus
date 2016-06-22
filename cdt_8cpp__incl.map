@@ -1,6 +1,6 @@
 <map id="src/cdt.cpp" name="src/cdt.cpp">
 <area shape="rect" id="node10" href="$docopt_8h_source.html" title="docopt/docopt.h" alt="" coords="601,152,717,177"/>
-<area shape="rect" id="node14" href="$_metropolis_8h.html" title="Perform Metropolis&#45;Hasting algorithm on Delaunay Triangulations. " alt="" coords="2492,79,2586,104"/>
+<area shape="rect" id="node14" href="$_metropolis_8h.html" title="Perform Metropolis&#45;Hastings algorithm on Delaunay Triangulations. " alt="" coords="2492,79,2586,104"/>
 <area shape="rect" id="node11" href="$docopt__value_8h_source.html" title="docopt_value.h" alt="" coords="835,225,947,251"/>
 <area shape="rect" id="node15" href="$_s3_ergodic_moves_8h.html" title="Pachner moves on 3D Delaunay Triangulations. " alt="" coords="2211,152,2344,177"/>
 <area shape="rect" id="node37" href="$_s3_action_8h.html" title="Calculate S3 bulk actions on 3D Delaunay Triangulations. " alt="" coords="2687,152,2772,177"/>

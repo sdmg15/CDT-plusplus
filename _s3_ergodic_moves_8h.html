@@ -121,7 +121,7 @@ This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
 <div class="center"><img src="_s3_ergodic_moves_8h__dep__incl.png" border="0" usemap="#src_2_s3_ergodic_moves_8hdep" alt=""/></div>
 <map name="src_2_s3_ergodic_moves_8hdep" id="src_2_s3_ergodic_moves_8hdep">
-<area shape="rect" id="node2" href="_metropolis_8h.html" title="Perform Metropolis&#45;Hasting algorithm on Delaunay Triangulations. " alt="" coords="127,85,242,111"/>
+<area shape="rect" id="node2" href="_metropolis_8h.html" title="Perform Metropolis&#45;Hastings algorithm on Delaunay Triangulations. " alt="" coords="127,85,242,111"/>
 <area shape="rect" id="node7" href="_s3_ergodic_moves_test_8cpp.html" title="Tests for S3 ergodic moves. " alt="" coords="266,79,441,117"/>
 <area shape="rect" id="node3" href="cdt_8cpp.html" title="The main body of the program. " alt="" coords="5,165,91,191"/>
 <area shape="rect" id="node4" href="_move_manager_8h.html" title="RAII class to manage exception&#45;safe foliation&#45;preserving Pachner moves. " alt="" coords="115,165,253,191"/>
@@ -160,6 +160,14 @@ Functions</h2></td></tr>
 <tr class="memitem:ac024ba286bcffc33a8ea1547dced82d6"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="_s3_ergodic_moves_8h.html#ac024ba286bcffc33a8ea1547dced82d6">make_26_move</a> (T1 &amp;&amp;universe, T2 &amp;&amp;attempted_moves) -&gt; decltype(universe)</td></tr>
 <tr class="memdesc:ac024ba286bcffc33a8ea1547dced82d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Make a (2,6) move.  <a href="#ac024ba286bcffc33a8ea1547dced82d6">More...</a><br /></td></tr>
 <tr class="separator:ac024ba286bcffc33a8ea1547dced82d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad1bc335ca8dc1b9d7f00db64bdffa184"><td class="memTemplParams" colspan="2"><a class="anchor" id="ad1bc335ca8dc1b9d7f00db64bdffa184"></a>
+template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ad1bc335ca8dc1b9d7f00db64bdffa184"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><b>try_62_move</b> (T &amp;&amp;universe, Vertex_handle candidate)</td></tr>
+<tr class="separator:ad1bc335ca8dc1b9d7f00db64bdffa184"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a811857e6d27c380189137b161a2ded93"><td class="memTemplParams" colspan="2">template&lt;typename T1 , typename T2 &gt; </td></tr>
+<tr class="memitem:a811857e6d27c380189137b161a2ded93"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="_s3_ergodic_moves_8h.html#a811857e6d27c380189137b161a2ded93">make_62_move</a> (T1 &amp;&amp;universe, T2 &amp;&amp;attempted_moves) -&gt; decltype(universe)</td></tr>
+<tr class="memdesc:a811857e6d27c380189137b161a2ded93"><td class="mdescLeft">&#160;</td><td class="mdescRight">Make a (6,2) move.  <a href="#a811857e6d27c380189137b161a2ded93">More...</a><br /></td></tr>
+<tr class="separator:a811857e6d27c380189137b161a2ded93"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Pachner moves on 3D Delaunay Triangulations. </p>
@@ -174,10 +182,10 @@ Functions</h2></td></tr>
 <p class="enddd">Multi-threaded operations using Intel TBB </p>
 </dd></dl>
 <dl class="todo"><dt><b><a class="el" href="todo.html#_todo000006">Todo:</a></b></dt><dd><p class="startdd">Handle neighboring_31_index != 5 condition </p>
-<p>(6,2) move </p>
+<p>Debug (6,2) move </p>
 <p class="enddd">(4,4) move </p>
 </dd></dl>
-<dl class="section author"><dt>Author</dt><dd>Adam Getchell </dd></dl>
+<dl class="section author"><dt>Author</dt><dd>Adam Getchell, Guarav Nagar </dd></dl>
 <dl class="bug"><dt><b><a class="el" href="bug.html#_bug000004">Bug:</a></b></dt><dd><a href="http://clang-analyzer.llvm.org/scan-build.html">scan-build</a>: No bugs found. </dd></dl>
 </div><h2 class="groupheader">Function Documentation</h2>
 <a class="anchor" id="a9a6c57253810cb9c57fab47439c52b1f"></a>
@@ -396,6 +404,45 @@ template&lt;typename T1 , typename T2 &gt; </div>
 
 </div>
 </div>
+<a class="anchor" id="a811857e6d27c380189137b161a2ded93"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T1 , typename T2 &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">auto make_62_move </td>
+          <td>(</td>
+          <td class="paramtype">T1 &amp;&amp;&#160;</td>
+          <td class="paramname"><em>universe</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T2 &amp;&amp;&#160;</td>
+          <td class="paramname"><em>attempted_moves</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> -&gt; decltype(universe) </td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Make a (6,2) move. </p>
+<p>This function performs the (6,2) move by removing a vertex that has 3 (1,3) and 3 (3,1) simplices around it</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">universe</td><td>A <a class="el" href="struct_simplicial_manifold.html">SimplicialManifold</a> </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">attempted_moves</td><td>A tuple holding a count of the attempted moves of each type given by the <b>move_type</b> enum </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>universe The <a class="el" href="struct_simplicial_manifold.html">SimplicialManifold</a> after the move has been made </dd></dl>
+
+</div>
+</div>
 <a class="anchor" id="aa07fadb95320d1e284e75aeaf7ea7844"></a>
 <div class="memitem">
 <div class="memproto">
@@ -477,7 +524,7 @@ template&lt;typename T &gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Jun 17 2016 22:24:45 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Jun 22 2016 00:08:36 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.11
 </small></address>

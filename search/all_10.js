@@ -11,6 +11,7 @@ var searchData=
   ['s3ergodicmovetest',['S3ErgodicMoveTest',['../class_s3_ergodic_move_test.html',1,'']]],
   ['s3triangulation_2eh',['S3Triangulation.h',['../_s3_triangulation_8h.html',1,'']]],
   ['s3triangulationtest_2ecpp',['S3TriangulationTest.cpp',['../_s3_triangulation_test_8cpp.html',1,'']]],
+  ['shortestpaths_2eh',['ShortestPaths.h',['../_shortest_paths_8h.html',1,'']]],
   ['simplicialmanifold',['SimplicialManifold',['../struct_simplicial_manifold.html',1,'SimplicialManifold'],['../struct_simplicial_manifold.html#ac2ac0112454bd2197c086c4642018892',1,'SimplicialManifold::SimplicialManifold()'],['../struct_simplicial_manifold.html#aa32e46629eed81177fc4e8165d6f0a30',1,'SimplicialManifold::SimplicialManifold(std::unique_ptr&lt; Delaunay &gt; &amp;&amp;manifold)'],['../struct_simplicial_manifold.html#aac3dea5b8d1661bdfbbb14c007699cfa',1,'SimplicialManifold::SimplicialManifold(std::uintmax_t simplices, std::uintmax_t timeslices)'],['../struct_simplicial_manifold.html#a32ed6ddcbfdc898baa42e6392cbf47ee',1,'SimplicialManifold::SimplicialManifold(SimplicialManifold &amp;&amp;other)'],['../struct_simplicial_manifold.html#a3b726a28a6dcff6d77b47f5da201082d',1,'SimplicialManifold::SimplicialManifold(const SimplicialManifold &amp;)=default']]],
   ['sixtwomoves',['SixTwoMoves',['../class_metropolis.html#a78370a67a6003459b87f8398ffd45e96',1,'Metropolis']]],
   ['spacelike_5fedges',['spacelike_edges',['../struct_geometry_info.html#a360903f74e54c45e11ba2ef0cd6c74ab',1,'GeometryInfo']]],
