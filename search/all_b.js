@@ -16,7 +16,7 @@ var searchData=
   ['metropolis_2eh',['Metropolis.h',['../_metropolis_8h.html',1,'']]],
   ['metropolistest',['MetropolisTest',['../class_metropolis_test.html',1,'']]],
   ['metropolistest_2ecpp',['MetropolisTest.cpp',['../_metropolis_test_8cpp.html',1,'']]],
-  ['movable_5fedge_5ftypes_5f',['movable_edge_types_',['../class_metropolis.html#aa381a5b755f5d860d97a21dd1a1e21ca',1,'Metropolis::movable_edge_types_()'],['../class_pachner_move.html#a6afbcffc7f27f98bc18f5c23720a263e',1,'PachnerMove::movable_edge_types_()']]],
+  ['movable_5fedge_5ftypes_5f',['movable_edge_types_',['../class_metropolis.html#aa1f949ade3074f0fe11aa2d7345ba6c9',1,'Metropolis::movable_edge_types_()'],['../class_pachner_move.html#a6afbcffc7f27f98bc18f5c23720a263e',1,'PachnerMove::movable_edge_types_()']]],
   ['movable_5fsimplex_5ftypes_5f',['movable_simplex_types_',['../class_metropolis.html#a195d3c11a7dcef0c139bb709bfa0357a',1,'Metropolis::movable_simplex_types_()'],['../class_pachner_move.html#aec3b7b3c060fb1cf58a1662eeb8bc53d',1,'PachnerMove::movable_simplex_types_()']]],
   ['movableonethreesimplices',['MovableOneThreeSimplices',['../class_metropolis.html#ab382a17865dc313a129650db59c1eee7',1,'Metropolis']]],
   ['movablethreeonesimplices',['MovableThreeOneSimplices',['../class_metropolis.html#a1b8a12e2d60657b518cfd8ad44ee7799',1,'Metropolis']]],

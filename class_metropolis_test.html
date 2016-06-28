@@ -125,32 +125,33 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:abc6b667497bf40396c278b1a368a8c88"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abc6b667497bf40396c278b1a368a8c88"></a>
 Delaunay&#160;</td><td class="memItemRight" valign="bottom"><b>triangulation</b></td></tr>
 <tr class="separator:abc6b667497bf40396c278b1a368a8c88"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acb777862e6ab58d280875425f840d89a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="acb777862e6ab58d280875425f840d89a"></a>
-std::unique_ptr&lt; decltype(triangulation)&gt;&#160;</td><td class="memItemRight" valign="bottom"><b>universe_</b> = std::make_unique&lt;decltype(triangulation)&gt;(triangulation)</td></tr>
+<tr class="memitem:acb777862e6ab58d280875425f840d89a"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; decltype(triangulation)&gt;&#160;</td><td class="memItemRight" valign="bottom"><b>universe_</b></td></tr>
 <tr class="separator:acb777862e6ab58d280875425f840d89a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9f22ed5057151b91c3e3afedc019bac8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9f22ed5057151b91c3e3afedc019bac8"></a>
 std::tuple&lt; std::vector&lt; Cell_handle &gt;, std::vector&lt; Cell_handle &gt;, std::vector&lt; Cell_handle &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>movable_simplex_types_</b></td></tr>
 <tr class="separator:a9f22ed5057151b91c3e3afedc019bac8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a93aa406456b787e2544981fb76329f6c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a93aa406456b787e2544981fb76329f6c"></a>
-std::pair&lt; std::vector&lt; Edge_handle &gt;, std::uintmax_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>movable_edge_types_</b></td></tr>
-<tr class="separator:a93aa406456b787e2544981fb76329f6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf9c28f6f632d900032ca523a2dcd8a5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="adf9c28f6f632d900032ca523a2dcd8a5"></a>
+std::pair&lt; std::vector&lt; Edge_handle &gt;, std::vector&lt; Edge_handle &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>movable_edge_types_</b></td></tr>
+<tr class="separator:adf9c28f6f632d900032ca523a2dcd8a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaabb9cbd48c260b1b8cb100a9e4cd2e5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aaabb9cbd48c260b1b8cb100a9e4cd2e5"></a>
 Move_tuple&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_metropolis_test.html#aaabb9cbd48c260b1b8cb100a9e4cd2e5">attempted_moves_</a></td></tr>
 <tr class="memdesc:aaabb9cbd48c260b1b8cb100a9e4cd2e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">A count of all attempted moves. <br /></td></tr>
 <tr class="separator:aaabb9cbd48c260b1b8cb100a9e4cd2e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4311cfc5f8997f287007691e7c4a663a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4311cfc5f8997f287007691e7c4a663a"></a>
-std::uintmax_t&#160;</td><td class="memItemRight" valign="bottom"><b>starting_vertices_</b></td></tr>
+std::uintmax_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_metropolis_test.html#a4311cfc5f8997f287007691e7c4a663a">starting_vertices_</a></td></tr>
+<tr class="memdesc:a4311cfc5f8997f287007691e7c4a663a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initial number of vertices. <br /></td></tr>
 <tr class="separator:a4311cfc5f8997f287007691e7c4a663a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a624cb9f28a31a8d376e1dc1beff60b93"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a624cb9f28a31a8d376e1dc1beff60b93"></a>
 std::uintmax_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_metropolis_test.html#a624cb9f28a31a8d376e1dc1beff60b93">starting_edges_</a></td></tr>
-<tr class="memdesc:a624cb9f28a31a8d376e1dc1beff60b93"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initial number of timelike edges. <br /></td></tr>
+<tr class="memdesc:a624cb9f28a31a8d376e1dc1beff60b93"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initial number of timelike + spacelike edges. <br /></td></tr>
 <tr class="separator:a624cb9f28a31a8d376e1dc1beff60b93"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a660b6b8a5b59532a410cead04fb63554"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a660b6b8a5b59532a410cead04fb63554"></a>
 std::uintmax_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_metropolis_test.html#a660b6b8a5b59532a410cead04fb63554">starting_faces_</a></td></tr>
-<tr class="memdesc:a660b6b8a5b59532a410cead04fb63554"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initial number of spacelike edges. <br /></td></tr>
+<tr class="memdesc:a660b6b8a5b59532a410cead04fb63554"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initial number of 2D facets. <br /></td></tr>
 <tr class="separator:a660b6b8a5b59532a410cead04fb63554"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a44fe7ffdfecb0fe728d780dd271574fb"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a44fe7ffdfecb0fe728d780dd271574fb"></a>
-std::uintmax_t&#160;</td><td class="memItemRight" valign="bottom"><b>starting_cells_</b></td></tr>
+std::uintmax_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_metropolis_test.html#a44fe7ffdfecb0fe728d780dd271574fb">starting_cells_</a></td></tr>
+<tr class="memdesc:a44fe7ffdfecb0fe728d780dd271574fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initial number of 3D cells. <br /></td></tr>
 <tr class="separator:a44fe7ffdfecb0fe728d780dd271574fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a66ec05770051c88512e164bb7dc53eb7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a66ec05770051c88512e164bb7dc53eb7"></a>
 std::uintmax_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_metropolis_test.html#a66ec05770051c88512e164bb7dc53eb7">N3_31_before_</a> {0}</td></tr>
@@ -166,7 +167,7 @@ std::uintmax_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" 
 <tr class="separator:aaa8b3adfc4f1a53d21deb2ae861d7743"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a07346efe7607a3e3f803128d7bb4c695"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a07346efe7607a3e3f803128d7bb4c695"></a>
 std::uintmax_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_metropolis_test.html#a07346efe7607a3e3f803128d7bb4c695">timelike_edges_</a> {0}</td></tr>
-<tr class="memdesc:a07346efe7607a3e3f803128d7bb4c695"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initial number of vertices. <br /></td></tr>
+<tr class="memdesc:a07346efe7607a3e3f803128d7bb4c695"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initial number of timelike edges. <br /></td></tr>
 <tr class="separator:a07346efe7607a3e3f803128d7bb4c695"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
@@ -187,13 +188,26 @@ static constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><b>pass
 static constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><b>output_every_n_passes</b> = static_cast&lt;std::uintmax_t&gt;(10)</td></tr>
 <tr class="separator:aff2b338cd7a6cc080647366ee2776235"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a class="anchor" id="acb777862e6ab58d280875425f840d89a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::unique_ptr&lt;decltype(triangulation)&gt; MetropolisTest::universe_</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">=</div><div class="line">      std::make_unique&lt;decltype(triangulation)&gt;(triangulation)</div></div><!-- fragment -->
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
 <li>unittests/<a class="el" href="_metropolis_test_8cpp.html">MetropolisTest.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Jun 22 2016 00:08:37 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Jun 28 2016 01:24:49 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.11
 </small></address>

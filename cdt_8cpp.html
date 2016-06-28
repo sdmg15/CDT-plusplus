@@ -135,9 +135,8 @@ Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a6d6e26e7e3af2d4bd47f6582aff224f8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6d6e26e7e3af2d4bd47f6582aff224f8"></a>
-static const char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cdt_8cpp.html#a6d6e26e7e3af2d4bd47f6582aff224f8">USAGE</a> []</td></tr>
-<tr class="memdesc:a6d6e26e7e3af2d4bd47f6582aff224f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Help message parsed by docopt into options. <br /></td></tr>
+<tr class="memitem:a6d6e26e7e3af2d4bd47f6582aff224f8"><td class="memItemLeft" align="right" valign="top">static const char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cdt_8cpp.html#a6d6e26e7e3af2d4bd47f6582aff224f8">USAGE</a> []</td></tr>
+<tr class="memdesc:a6d6e26e7e3af2d4bd47f6582aff224f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Help message parsed by docopt into options.  <a href="#a6d6e26e7e3af2d4bd47f6582aff224f8">More...</a><br /></td></tr>
 <tr class="separator:a6d6e26e7e3af2d4bd47f6582aff224f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -190,10 +189,33 @@ static const char&#160;</td><td class="memItemRight" valign="bottom"><a class="e
 
 </div>
 </div>
+<h2 class="groupheader">Variable Documentation</h2>
+<a class="anchor" id="a6d6e26e7e3af2d4bd47f6582aff224f8"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const char USAGE[]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">{</div><div class="line">    R<span class="stringliteral">&quot;(Causal Dynamical Triangulations in C++ using CGAL.</span></div><div class="line"><span class="stringliteral"></span></div><div class="line"><span class="stringliteral">Copyright (c) 2014-2016 Adam Getchell</span></div><div class="line"><span class="stringliteral"></span></div><div class="line"><span class="stringliteral">A program that generates d-dimensional triangulated spacetimes</span></div><div class="line"><span class="stringliteral">with a defined causal structure and evolves them according</span></div><div class="line"><span class="stringliteral">to the Metropolis algorithm. Specify the number of passes to control</span></div><div class="line"><span class="stringliteral">how much evolution is desired. Each pass attempts a number of ergodic</span></div><div class="line"><span class="stringliteral">moves equal to the number of simplices in the simulation.</span></div><div class="line"><span class="stringliteral"></span></div><div class="line"><span class="stringliteral">Usage:./cdt (--spherical | --toroidal) -n SIMPLICES -t TIMESLICES [-d DIM] -k K --alpha ALPHA --lambda LAMBDA [-p PASSES] [-c CHECKPOINT]</span></div><div class="line"><span class="stringliteral"></span></div><div class="line"><span class="stringliteral">Examples:</span></div><div class="line"><span class="stringliteral">./cdt --spherical -n 64000 -t 256 --alpha 1.1 -k 2.2 --lambda 3.3 --passes 1000</span></div><div class="line"><span class="stringliteral">./cdt --s -n64000 -t256 -a1.1 -k2.2 -l3.3 -p1000</span></div><div class="line"><span class="stringliteral"></span></div><div class="line"><span class="stringliteral">Options:</span></div><div class="line"><span class="stringliteral">  -h --help                   Show this message</span></div><div class="line"><span class="stringliteral">  --version                   Show program version</span></div><div class="line"><span class="stringliteral">  -n SIMPLICES                Approximate number of simplices</span></div><div class="line"><span class="stringliteral">  -t TIMESLICES               Number of timeslices</span></div><div class="line"><span class="stringliteral">  -d DIM                      Dimensionality [default: 3]</span></div><div class="line"><span class="stringliteral">  -a --alpha ALPHA            Negative squared geodesic length of 1-d</span></div><div class="line"><span class="stringliteral">                              timelike edges</span></div><div class="line"><span class="stringliteral">  -k K                        K = 1/(8*pi*G_newton)</span></div><div class="line"><span class="stringliteral">  -l --lambda LAMBDA          K * Cosmological constant</span></div><div class="line"><span class="stringliteral">  -p --passes PASSES          Number of passes [default: 100]</span></div><div class="line"><span class="stringliteral">  -c --checkpoint CHECKPOINT  Checkpoint every n passes [default: 10]</span></div><div class="line"><span class="stringliteral">)&quot;}</span></div></div><!-- fragment -->
+<p>Help message parsed by docopt into options. </p>
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Jun 22 2016 00:08:36 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Jun 28 2016 01:24:48 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.11
 </small></address>
