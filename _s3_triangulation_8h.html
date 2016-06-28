@@ -305,7 +305,7 @@ template&lt;typename T &gt; </div>
 </div><div class="memdoc">
 
 <p>Classifies edges. </p>
-<p>This function iterates over all edges in the triangulation and classifies them as timelike or spacelike. Timelike edges are stored in the <b>timelike_edges</b> vector as an Edge_handle (tuple of Cell_handle, std::uintmax_t, std::uintmax_t) for later use by ergodic moves on timelike edges. Spacelike edges are also stored as a vector of Edge_handle <b>spacelike_edges</b>, for use by (4,4) moves as distance-finding algorithms. </p><dl class="params"><dt>Parameters</dt><dd>
+<p>This function iterates over all edges in the triangulation and classifies them as timelike or spacelike. Timelike edges are stored in the <b>timelike_edges</b> vector as an Edge_handle (tuple of Cell_handle, std::uintmax_t, std::uintmax_t) for later use by ergodic moves on timelike edges. Spacelike edges are also stored as a vector of Edge_handle <b>spacelike_edges</b>, for use by (4,4) moves as well as the distance-finding algorithms. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">universe_ptr</td><td>A std::unique_ptr&lt;Delaunay&gt; to the triangulation </td></tr>
   </table>
@@ -532,7 +532,7 @@ template&lt;typename T1 , typename T2 &gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jun 28 2016 01:48:27 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Jun 28 2016 01:51:49 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.11
 </small></address>
