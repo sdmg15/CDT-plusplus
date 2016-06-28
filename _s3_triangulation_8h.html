@@ -255,7 +255,7 @@ static constexpr std::uintmax_t&#160;</td><td class="memItemRight" valign="botto
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Functions on 3D Spherical Delaunay Triangulations. </p>
 <p>Causal Dynamical Triangulations in C++ using CGAL</p>
-<p>Copyright (c) 2015, 2016 Adam Getchell</p>
+<p>Copyright (c) 2015-2016 Adam Getchell</p>
 <p>Creates foliated spherical triangulations</p>
 <p>The number of desired timeslices is given, and successive spheres are created with increasing radii. Each vertex at a given radius is assigned a timeslice so that the entire triangulation will have a preferred foliation of time.</p>
 <dl class="done"><dt><b><a class="el" href="done.html#_done000006">Implemented To-do's:</a></b></dt><dd><p class="startdd">Insert a 3-sphere into the triangulation data structure. </p>
@@ -305,14 +305,13 @@ template&lt;typename T &gt; </div>
 </div><div class="memdoc">
 
 <p>Classifies edges. </p>
-<p>This function iterates over all edges in the triangulation and classifies them as timelike or spacelike. Timelike edges are stored in the <b>timelike_edges</b> vector as a tuple of (Cell_handle, std::uintmax_t, std::uintmax_t) for later use by ergodic moves on timelike edges. Spacelike edges are stored as an std::uintmax_t int <b>spacelike_edges</b>, since we don't do much with them other than use them to check correctness.</p>
-<dl class="params"><dt>Parameters</dt><dd>
+<p>This function iterates over all edges in the triangulation and classifies them as timelike or spacelike. Timelike edges are stored in the <b>timelike_edges</b> vector as an Edge_tuple (tuple of Cell_handle, std::uintmax_t, std::uintmax_t) for later use by ergodic moves on timelike edges. Spacelike edges are also stored as the Edge_tuple <b>spacelike_edges</b>, for use by (4,4) moves as well as the distance-finding algorithms. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">universe_ptr</td><td>A std::unique_ptr&lt;Delaunay&gt; to the triangulation </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>A std::pair&lt;std::vector&lt;Edge_handle&gt;, std::uintmax_t&gt; of timelike edges and spacelike edges </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>A std::pair&lt;std::vector&lt;Edge_handle&gt;, std::vector&lt;Edge_handle&gt;&gt; of timelike edges and spacelike edges </dd></dl>
 
 </div>
 </div>
@@ -533,7 +532,7 @@ template&lt;typename T1 , typename T2 &gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jun 28 2016 01:24:49 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Jun 28 2016 01:37:15 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.11
 </small></address>
