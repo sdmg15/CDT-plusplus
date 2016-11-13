@@ -1,5 +1,4 @@
 <map id="FoliatedTetrahedronTest" name="FoliatedTetrahedronTest">
-<area shape="rect" id="node2" href="$class_tetrahedron_test.html" title="TetrahedronTest" alt="" coords="29,179,146,204"/>
-<area shape="rect" id="node4" href="$struct_simplicial_manifold.html" title="SimplicialManifold" alt="" coords="96,92,224,117"/>
-<area shape="rect" id="node5" href="$struct_geometry_info.html" title="GeometryInfo" alt="" coords="108,5,211,31"/>
+<area shape="rect" id="node2" href="$class_tetrahedron_test.html" title="TetrahedronTest" alt="" coords="29,92,146,117"/>
+<area shape="rect" id="node4" href="$struct_simplicial_manifold.html" title="SimplicialManifold" alt="" coords="80,5,208,31"/>
 </map>

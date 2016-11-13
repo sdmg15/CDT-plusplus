@@ -1,6 +1,7 @@
 <map id="src/Metropolis.h" name="src/Metropolis.h">
-<area shape="rect" id="node2" href="$cdt_8cpp.html" title="The main body of the program. " alt="" coords="5,79,91,104"/>
-<area shape="rect" id="node3" href="$_move_manager_8h.html" title="RAII class to manage exception&#45;safe foliation&#45;preserving Pachner moves. " alt="" coords="115,79,253,104"/>
-<area shape="rect" id="node5" href="$_metropolis_test_8cpp.html" title="Tests for the Metropolis&#45;Hastings algorithm. " alt="" coords="278,79,464,104"/>
-<area shape="rect" id="node4" href="$_move_manager_test_8cpp.html" title="Tests for the MoveManager RAII class. " alt="" coords="79,152,289,177"/>
+<area shape="rect" id="node2" href="$cdt-opt_8cpp.html" title="Outputs values to determine optimizations. " alt="" coords="5,79,114,104"/>
+<area shape="rect" id="node3" href="$cdt_8cpp.html" title="The main body of the program. " alt="" coords="138,79,224,104"/>
+<area shape="rect" id="node4" href="$_move_manager_8h.html" title="RAII class to manage exception&#45;safe foliation&#45;preserving Pachner moves. " alt="" coords="248,79,386,104"/>
+<area shape="rect" id="node6" href="$_metropolis_test_8cpp.html" title="Tests for the Metropolis&#45;Hastings algorithm. " alt="" coords="411,79,597,104"/>
+<area shape="rect" id="node5" href="$_move_manager_test_8cpp.html" title="Tests for the MoveManager RAII class. " alt="" coords="212,152,422,177"/>
 </map>

@@ -74,29 +74,35 @@ $(function() {
 <dd><p class="startdd">Parse file and read in points only </p>
 <p class="enddd">Colorize/improve output  </p>
 </dd>
-<dt><a class="anchor" id="_todo000002"></a>File <a class="el" href="cdt_8cpp.html">cdt.cpp</a>  </dt>
+<dt><a class="anchor" id="_todo000002"></a>File <a class="el" href="cdt-opt_8cpp.html">cdt-opt.cpp</a>  </dt>
+<dd><p class="startdd">Invoke <a class="el" href="class_metropolis.html" title="Metropolis-Hastings algorithm functor. ">Metropolis</a> algorithm </p>
+<p class="enddd">Print out graph of time-value vs. volume vs. pass number  </p>
+</dd>
+<dt><a class="anchor" id="_todo000003"></a>File <a class="el" href="cdt_8cpp.html">cdt.cpp</a>  </dt>
 <dd><p class="startdd">Invoke complete set of ergodic (Pachner) moves </p>
 <p>Use Metropolis-Hastings algorithm </p>
 <p class="enddd">Fix <a class="el" href="utilities_8h.html#a1ecd8225225ac0dd821603e22795d320" title="Writes the runtime results to a file. ">write_file()</a> to include cell-&gt;info() and vertex-&gt;info()  </p>
 </dd>
-<dt><a class="anchor" id="_todo000004"></a>File <a class="el" href="_metropolis_8h.html">Metropolis.h</a>  </dt>
+<dt><a class="anchor" id="_todo000008"></a>Member <a class="el" href="_s3_ergodic_moves_8h.html#ad3ca0cec12997b41f7357613bc4e4c04">make_44_move</a>  (T1 &amp;&amp;universe, T2 &amp;&amp;attempted_moves) -&gt; decltype(universe)</dt>
+<dd>: Make (4,4) move aka 4,4 bistellar flip work. This is on the CGAL TODO list also  </dd>
+<dt><a class="anchor" id="_todo000005"></a>File <a class="el" href="_metropolis_8h.html">Metropolis.h</a>  </dt>
 <dd><p class="startdd">Atomic integral types for safe multithreading </p>
 <p>Debug occasional infinite loops and segfaults! </p>
 <p>Implement 3D <a class="el" href="class_metropolis.html" title="Metropolis-Hastings algorithm functor. ">Metropolis</a> algorithm in operator() </p>
 <p class="enddd">Implement concurrency  </p>
 </dd>
-<dt><a class="anchor" id="_todo000005"></a>Member <a class="el" href="class_metropolis.html#a0bd69839e0712d63a035ee0c6f186fec">Metropolis::make_move</a>  (const move_type move)</dt>
+<dt><a class="anchor" id="_todo000006"></a>Member <a class="el" href="class_metropolis.html#a0bd69839e0712d63a035ee0c6f186fec">Metropolis::make_move</a>  (const move_type move)</dt>
 <dd><p class="startdd">Add exception handling for moves to gracefully recover </p>
 <p class="enddd">Deprecate in favor of PachnerMove::make_move() </p>
 </dd>
-<dt><a class="anchor" id="_todo000006"></a>File <a class="el" href="_s3_ergodic_moves_8h.html">S3ErgodicMoves.h</a>  </dt>
+<dt><a class="anchor" id="_todo000007"></a>File <a class="el" href="_s3_ergodic_moves_8h.html">S3ErgodicMoves.h</a>  </dt>
 <dd><p class="startdd">Handle neighboring_31_index != 5 condition </p>
 <p>Debug (6,2) move </p>
 <p class="enddd">(4,4) move  </p>
 </dd>
-<dt><a class="anchor" id="_todo000009"></a>File <a class="el" href="_s3_ergodic_moves_test_8cpp.html">S3ErgodicMovesTest.cpp</a>  </dt>
+<dt><a class="anchor" id="_todo000011"></a>File <a class="el" href="_s3_ergodic_moves_test_8cpp.html">S3ErgodicMovesTest.cpp</a>  </dt>
 <dd>: (4,4)  </dd>
-<dt><a class="anchor" id="_todo000007"></a>File <a class="el" href="_shortest_paths_8h.html">ShortestPaths.h</a>  </dt>
+<dt><a class="anchor" id="_todo000009"></a>File <a class="el" href="_shortest_paths_8h.html">ShortestPaths.h</a>  </dt>
 <dd><p class="startdd"><a class="el" href="class_graph.html" title="Graph class that provides shortest paths functionalities. ">Graph</a> Initialization </p>
 <p>AddVertex() </p>
 <p>AddEdge() </p>
@@ -104,13 +110,17 @@ $(function() {
 <p>CalculateBellmanFord() </p>
 <p class="enddd">CalculateVoronoi()  </p>
 </dd>
-<dt><a class="anchor" id="_todo000008"></a>File <a class="el" href="sphere__d_8h.html">sphere_d.h</a>  </dt>
-<dd>Make the vector compatible with the triangulation data structure </dd>
+<dt><a class="anchor" id="_todo000010"></a>File <a class="el" href="sphere__d_8h.html">sphere_d.h</a>  </dt>
+<dd>Make the vector compatible with the triangulation data structure  </dd>
+<dt><a class="anchor" id="_todo000013"></a>Member <a class="el" href="_simplicial_manifold_test_8cpp.html#a1b50bd7d1f951e2c89c7459d5b3dc107">TEST</a>  (<a class="el" href="struct_simplicial_manifold.html">SimplicialManifold</a>, DISABLED_GeometryInfoStruct)</dt>
+<dd>: Fix GeometryInfoStruct test  </dd>
+<dt><a class="anchor" id="_todo000012"></a>Member <a class="el" href="_simplicial_manifold_test_8cpp.html#a170aecbdbbb7a4204f8bb4541a57a1de">TEST</a>  (<a class="el" href="struct_simplicial_manifold.html">SimplicialManifold</a>, DISABLED_SimplicialManifoldStruct)</dt>
+<dd>: Fix SimplicialManifoldStruct test </dd>
 </dl>
 </div></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Sep 20 2016 12:53:50 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Nov 12 2016 16:50:56 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.12
 </small></address>

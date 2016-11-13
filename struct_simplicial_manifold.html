@@ -68,19 +68,12 @@ $(function() {
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#friends">Friends</a> &#124;
 <a href="struct_simplicial_manifold-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">SimplicialManifold Struct Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="dynheader">
-Collaboration diagram for SimplicialManifold:</div>
-<div class="dyncontent">
-<div class="center"><img src="struct_simplicial_manifold__coll__graph.png" border="0" usemap="#_simplicial_manifold_coll__map" alt="Collaboration graph"/></div>
-<map name="_simplicial_manifold_coll__map" id="_simplicial_manifold_coll__map">
-<area shape="rect" id="node2" href="struct_geometry_info.html" title="GeometryInfo" alt="" coords="18,5,120,31"/>
-</map>
-<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -88,7 +81,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:ac2ac0112454bd2197c086c4642018892"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor.  <a href="#ac2ac0112454bd2197c086c4642018892">More...</a><br /></td></tr>
 <tr class="separator:ac2ac0112454bd2197c086c4642018892"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa32e46629eed81177fc4e8165d6f0a30"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_simplicial_manifold.html#aa32e46629eed81177fc4e8165d6f0a30">SimplicialManifold</a> (std::unique_ptr&lt; Delaunay &gt; &amp;&amp;manifold)</td></tr>
-<tr class="memdesc:aa32e46629eed81177fc4e8165d6f0a30"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor taking a std::unique_ptr&lt;Delaunay&gt;  <a href="#aa32e46629eed81177fc4e8165d6f0a30">More...</a><br /></td></tr>
+<tr class="memdesc:aa32e46629eed81177fc4e8165d6f0a30"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor with std::unique_ptr&lt;Delaunay&gt;  <a href="#aa32e46629eed81177fc4e8165d6f0a30">More...</a><br /></td></tr>
 <tr class="separator:aa32e46629eed81177fc4e8165d6f0a30"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aac3dea5b8d1661bdfbbb14c007699cfa"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_simplicial_manifold.html#aac3dea5b8d1661bdfbbb14c007699cfa">SimplicialManifold</a> (std::uintmax_t simplices, std::uintmax_t timeslices)</td></tr>
 <tr class="memdesc:aac3dea5b8d1661bdfbbb14c007699cfa"><td class="mdescLeft">&#160;</td><td class="mdescRight">make_triangulation constructor  <a href="#aac3dea5b8d1661bdfbbb14c007699cfa">More...</a><br /></td></tr>
@@ -97,21 +90,18 @@ Public Member Functions</h2></td></tr>
 virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_simplicial_manifold.html#a41d483ed94fbd8549d67047c5dd9a206">~SimplicialManifold</a> ()</td></tr>
 <tr class="memdesc:a41d483ed94fbd8549d67047c5dd9a206"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor. <br /></td></tr>
 <tr class="separator:a41d483ed94fbd8549d67047c5dd9a206"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a32ed6ddcbfdc898baa42e6392cbf47ee"><td class="memItemLeft" align="right" valign="top"><a id="a32ed6ddcbfdc898baa42e6392cbf47ee"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_simplicial_manifold.html#a32ed6ddcbfdc898baa42e6392cbf47ee">SimplicialManifold</a> (<a class="el" href="struct_simplicial_manifold.html">SimplicialManifold</a> &amp;&amp;other)</td></tr>
-<tr class="memdesc:a32ed6ddcbfdc898baa42e6392cbf47ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move constructor. <br /></td></tr>
+<tr class="memitem:a32ed6ddcbfdc898baa42e6392cbf47ee"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_simplicial_manifold.html#a32ed6ddcbfdc898baa42e6392cbf47ee">SimplicialManifold</a> (<a class="el" href="struct_simplicial_manifold.html">SimplicialManifold</a> &amp;&amp;other)</td></tr>
+<tr class="memdesc:a32ed6ddcbfdc898baa42e6392cbf47ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move constructor.  <a href="#a32ed6ddcbfdc898baa42e6392cbf47ee">More...</a><br /></td></tr>
 <tr class="separator:a32ed6ddcbfdc898baa42e6392cbf47ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abd805a4af755827466288a4c67a905f6"><td class="memItemLeft" align="right" valign="top"><a id="abd805a4af755827466288a4c67a905f6"></a>
-<a class="el" href="struct_simplicial_manifold.html">SimplicialManifold</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_simplicial_manifold.html#abd805a4af755827466288a4c67a905f6">operator=</a> (<a class="el" href="struct_simplicial_manifold.html">SimplicialManifold</a> &amp;&amp;other)</td></tr>
-<tr class="memdesc:abd805a4af755827466288a4c67a905f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move assignment operator. <br /></td></tr>
+<tr class="memitem:abd805a4af755827466288a4c67a905f6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_simplicial_manifold.html">SimplicialManifold</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_simplicial_manifold.html#abd805a4af755827466288a4c67a905f6">operator=</a> (<a class="el" href="struct_simplicial_manifold.html">SimplicialManifold</a> &amp;&amp;other)</td></tr>
+<tr class="memdesc:abd805a4af755827466288a4c67a905f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move assignment operator.  <a href="#abd805a4af755827466288a4c67a905f6">More...</a><br /></td></tr>
 <tr class="separator:abd805a4af755827466288a4c67a905f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a968764303213d3a1e7ba20a89f3829eb"><td class="memItemLeft" align="right" valign="top"><a id="a968764303213d3a1e7ba20a89f3829eb"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_simplicial_manifold.html#a968764303213d3a1e7ba20a89f3829eb">SimplicialManifold</a> (const <a class="el" href="struct_simplicial_manifold.html">SimplicialManifold</a> &amp;other)</td></tr>
-<tr class="memdesc:a968764303213d3a1e7ba20a89f3829eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy constructor. <br /></td></tr>
+<tr class="memitem:a968764303213d3a1e7ba20a89f3829eb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_simplicial_manifold.html#a968764303213d3a1e7ba20a89f3829eb">SimplicialManifold</a> (const <a class="el" href="struct_simplicial_manifold.html">SimplicialManifold</a> &amp;other)</td></tr>
+<tr class="memdesc:a968764303213d3a1e7ba20a89f3829eb"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="struct_simplicial_manifold.html">SimplicialManifold</a> copy constructor.  <a href="#a968764303213d3a1e7ba20a89f3829eb">More...</a><br /></td></tr>
 <tr class="separator:a968764303213d3a1e7ba20a89f3829eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab14a958019d88c55066db70168abfaf5"><td class="memItemLeft" align="right" valign="top"><a id="ab14a958019d88c55066db70168abfaf5"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>swap</b> (<a class="el" href="struct_simplicial_manifold.html">SimplicialManifold</a> &amp;rhs)</td></tr>
-<tr class="separator:ab14a958019d88c55066db70168abfaf5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3100da1634d360593df8903b523fa39b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_simplicial_manifold.html">SimplicialManifold</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_simplicial_manifold.html#a3100da1634d360593df8903b523fa39b">operator=</a> (const <a class="el" href="struct_simplicial_manifold.html">SimplicialManifold</a> &amp;)=default</td></tr>
+<tr class="memdesc:a3100da1634d360593df8903b523fa39b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default copy assignment operator.  <a href="#a3100da1634d360593df8903b523fa39b">More...</a><br /></td></tr>
+<tr class="separator:a3100da1634d360593df8903b523fa39b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -119,14 +109,20 @@ Public Attributes</h2></td></tr>
 std::unique_ptr&lt; Delaunay &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_simplicial_manifold.html#a16783060e396f9aea448cd7f92824a26">triangulation</a></td></tr>
 <tr class="memdesc:a16783060e396f9aea448cd7f92824a26"><td class="mdescLeft">&#160;</td><td class="mdescRight">std::unique_ptr to the Delaunay triangulation <br /></td></tr>
 <tr class="separator:a16783060e396f9aea448cd7f92824a26"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a81f5f9f2e57227ed71363bf8b49fb181"><td class="memItemLeft" align="right" valign="top"><a id="a81f5f9f2e57227ed71363bf8b49fb181"></a>
-<a class="el" href="struct_geometry_info.html">GeometryInfo</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_simplicial_manifold.html#a81f5f9f2e57227ed71363bf8b49fb181">geometry</a></td></tr>
-<tr class="memdesc:a81f5f9f2e57227ed71363bf8b49fb181"><td class="mdescLeft">&#160;</td><td class="mdescRight">The geometric structure of the triangulation. <br /></td></tr>
-<tr class="separator:a81f5f9f2e57227ed71363bf8b49fb181"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd200a6e0c7750a8875fa666ca68eb36"><td class="memItemLeft" align="right" valign="top"><a id="abd200a6e0c7750a8875fa666ca68eb36"></a>
+std::unique_ptr&lt; <a class="el" href="struct_geometry_info.html">GeometryInfo</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_simplicial_manifold.html#abd200a6e0c7750a8875fa666ca68eb36">geometry</a></td></tr>
+<tr class="memdesc:abd200a6e0c7750a8875fa666ca68eb36"><td class="mdescLeft">&#160;</td><td class="mdescRight">std::unique_ptr to <a class="el" href="struct_geometry_info.html">GeometryInfo</a>{} <br /></td></tr>
+<tr class="separator:abd200a6e0c7750a8875fa666ca68eb36"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
+Friends</h2></td></tr>
+<tr class="memitem:aaf9206823e6d6c95f2e1e53b30be5af1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_simplicial_manifold.html#aaf9206823e6d6c95f2e1e53b30be5af1">swap</a> (<a class="el" href="struct_simplicial_manifold.html">SimplicialManifold</a> &amp;first, <a class="el" href="struct_simplicial_manifold.html">SimplicialManifold</a> &amp;second)</td></tr>
+<tr class="memdesc:aaf9206823e6d6c95f2e1e53b30be5af1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Exception-safe swap.  <a href="#aaf9206823e6d6c95f2e1e53b30be5af1">More...</a><br /></td></tr>
+<tr class="separator:aaf9206823e6d6c95f2e1e53b30be5af1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ac2ac0112454bd2197c086c4642018892"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac2ac0112454bd2197c086c4642018892">&sect;&nbsp;</a></span>SimplicialManifold() <span class="overload">[1/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ac2ac0112454bd2197c086c4642018892">&sect;&nbsp;</a></span>SimplicialManifold() <span class="overload">[1/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -149,12 +145,12 @@ std::unique_ptr&lt; Delaunay &gt;&#160;</td><td class="memItemRight" valign="bot
 </div><div class="memdoc">
 
 <p>Default constructor. </p>
-<p>Default constructor with proper initialization </p>
+<dl class="section return"><dt>Returns</dt><dd>An empty <a class="el" href="struct_simplicial_manifold.html">SimplicialManifold</a>{} </dd></dl>
 
 </div>
 </div>
 <a id="aa32e46629eed81177fc4e8165d6f0a30"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa32e46629eed81177fc4e8165d6f0a30">&sect;&nbsp;</a></span>SimplicialManifold() <span class="overload">[2/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aa32e46629eed81177fc4e8165d6f0a30">&sect;&nbsp;</a></span>SimplicialManifold() <span class="overload">[2/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -177,13 +173,19 @@ std::unique_ptr&lt; Delaunay &gt;&#160;</td><td class="memItemRight" valign="bot
 </table>
 </div><div class="memdoc">
 
-<p>Constructor taking a std::unique_ptr&lt;Delaunay&gt; </p>
-<p>Constructor taking a std::unique_ptr&lt;Delaunay&gt; which should be created using <a class="el" href="_s3_triangulation_8h.html#aac6e736d50e1e67931cc244e21bbca9f" title="Make a triangulation from foliated 2-spheres. ">make_triangulation()</a>. If you wish to default initialize a <a class="el" href="struct_simplicial_manifold.html">SimplicialManifold</a> with no values, use the default constructor <a class="el" href="struct_simplicial_manifold.html#ac2ac0112454bd2197c086c4642018892" title="Default constructor. ">SimplicialManifold()</a> instead. </p>
+<p>Constructor with std::unique_ptr&lt;Delaunay&gt; </p>
+<p>Constructor taking a std::unique_ptr&lt;Delaunay&gt; which should be created using <a class="el" href="_s3_triangulation_8h.html#aac6e736d50e1e67931cc244e21bbca9f" title="Make a triangulation from foliated 2-spheres. ">make_triangulation()</a>. If you wish to default initialize a <a class="el" href="struct_simplicial_manifold.html">SimplicialManifold</a> with no values, use the default constructor <a class="el" href="struct_simplicial_manifold.html#ac2ac0112454bd2197c086c4642018892" title="Default constructor. ">SimplicialManifold::SimplicialManifold()</a> instead. Non-static data members are initialized in the order they are declared, (see <a href="http://open-std.org/JTC1/SC22/WG21/docs/papers/2016/n4594.pdf,">http://open-std.org/JTC1/SC22/WG21/docs/papers/2016/n4594.pdf,</a> \(\S\) 12.6.2.13.3), so <b>geometry</b> depending upon <b>triangulation</b> is fine. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">manifold</td><td>A std::unique_ptr&lt;Delaunay&gt; </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A <a class="el" href="struct_simplicial_manifold.html">SimplicialManifold</a>{} </dd></dl>
 
 </div>
 </div>
 <a id="aac3dea5b8d1661bdfbbb14c007699cfa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aac3dea5b8d1661bdfbbb14c007699cfa">&sect;&nbsp;</a></span>SimplicialManifold() <span class="overload">[3/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aac3dea5b8d1661bdfbbb14c007699cfa">&sect;&nbsp;</a></span>SimplicialManifold() <span class="overload">[3/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -219,8 +221,190 @@ std::unique_ptr&lt; Delaunay &gt;&#160;</td><td class="memItemRight" valign="bot
 <p>make_triangulation constructor </p>
 <p>Constructor that initializes <b>triangulation</b> by calling <a class="el" href="_s3_triangulation_8h.html#aac6e736d50e1e67931cc244e21bbca9f" title="Make a triangulation from foliated 2-spheres. ">make_triangulation()</a> and <b>geometry</b> by calling classify_all_simplices(). </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">simplices</td><td>The number of desired simplices in the triangulation </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">timeslices</td><td>The number of timeslices in the triangulation </td></tr>
+    <tr><td class="paramname">simplices</td><td>The number of desired simplices in the triangulation </td></tr>
+    <tr><td class="paramname">timeslices</td><td>The number of timeslices in the triangulation </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A populated <a class="el" href="struct_simplicial_manifold.html">SimplicialManifold</a>{} </dd></dl>
+
+</div>
+</div>
+<a id="a32ed6ddcbfdc898baa42e6392cbf47ee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a32ed6ddcbfdc898baa42e6392cbf47ee">&sect;&nbsp;</a></span>SimplicialManifold() <span class="overload">[4/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">SimplicialManifold::SimplicialManifold </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_simplicial_manifold.html">SimplicialManifold</a> &amp;&amp;&#160;</td>
+          <td class="paramname"><em>other</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Move constructor. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">other</td><td>The <a class="el" href="struct_simplicial_manifold.html">SimplicialManifold</a> to be move-constructed from </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A moved-to <a class="el" href="struct_simplicial_manifold.html">SimplicialManifold</a>{} </dd></dl>
+
+</div>
+</div>
+<a id="a968764303213d3a1e7ba20a89f3829eb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a968764303213d3a1e7ba20a89f3829eb">&sect;&nbsp;</a></span>SimplicialManifold() <span class="overload">[5/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">SimplicialManifold::SimplicialManifold </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_simplicial_manifold.html">SimplicialManifold</a> &amp;&#160;</td>
+          <td class="paramname"><em>other</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><a class="el" href="struct_simplicial_manifold.html">SimplicialManifold</a> copy constructor. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">other</td><td>The <a class="el" href="struct_simplicial_manifold.html">SimplicialManifold</a> to copy </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A copied <a class="el" href="struct_simplicial_manifold.html">SimplicialManifold</a>{} </dd></dl>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="abd805a4af755827466288a4c67a905f6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abd805a4af755827466288a4c67a905f6">&sect;&nbsp;</a></span>operator=() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_simplicial_manifold.html">SimplicialManifold</a>&amp; SimplicialManifold::operator= </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_simplicial_manifold.html">SimplicialManifold</a> &amp;&amp;&#160;</td>
+          <td class="paramname"><em>other</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Move assignment operator. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">other</td><td>The <a class="el" href="struct_simplicial_manifold.html">SimplicialManifold</a> to be moved from </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A moved-assigned <a class="el" href="struct_simplicial_manifold.html">SimplicialManifold</a>{} </dd></dl>
+
+</div>
+</div>
+<a id="a3100da1634d360593df8903b523fa39b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3100da1634d360593df8903b523fa39b">&sect;&nbsp;</a></span>operator=() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_simplicial_manifold.html">SimplicialManifold</a>&amp; SimplicialManifold::operator= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_simplicial_manifold.html">SimplicialManifold</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Default copy assignment operator. </p>
+<dl class="section return"><dt>Returns</dt><dd>A copy-assigned <a class="el" href="struct_simplicial_manifold.html">SimplicialManifold</a>{} </dd></dl>
+
+</div>
+</div>
+<h2 class="groupheader">Friends And Related Function Documentation</h2>
+<a id="aaf9206823e6d6c95f2e1e53b30be5af1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf9206823e6d6c95f2e1e53b30be5af1">&sect;&nbsp;</a></span>swap</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void swap </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_simplicial_manifold.html">SimplicialManifold</a> &amp;&#160;</td>
+          <td class="paramname"><em>first</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_simplicial_manifold.html">SimplicialManifold</a> &amp;&#160;</td>
+          <td class="paramname"><em>second</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Exception-safe swap. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">first</td><td>The first <a class="el" href="struct_simplicial_manifold.html">SimplicialManifold</a> to be swapped </td></tr>
+    <tr><td class="paramname">second</td><td>The second <a class="el" href="struct_simplicial_manifold.html">SimplicialManifold</a> to be swapped with. </td></tr>
   </table>
   </dd>
 </dl>
@@ -228,12 +412,12 @@ std::unique_ptr&lt; Delaunay &gt;&#160;</td><td class="memItemRight" valign="bot
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>src/<a class="el" href="_s3_triangulation_8h_source.html">S3Triangulation.h</a></li>
+<li>src/<a class="el" href="_simplicial_manifold_8h_source.html">SimplicialManifold.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Sep 20 2016 12:53:50 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Nov 12 2016 16:50:56 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.12
 </small></address>

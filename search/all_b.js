@@ -11,7 +11,7 @@ var searchData=
   ['make_5ffoliated_5fsphere',['make_foliated_sphere',['../_s3_triangulation_8h.html#a50c9ea3d0418950b059a9f5be3dff262',1,'S3Triangulation.h']]],
   ['make_5fmove',['make_move',['../class_metropolis.html#a0bd69839e0712d63a035ee0c6f186fec',1,'Metropolis']]],
   ['make_5ftriangulation',['make_triangulation',['../_s3_triangulation_8h.html#aac6e736d50e1e67931cc244e21bbca9f',1,'S3Triangulation.h']]],
-  ['match',['match',['../classdocopt_1_1_leaf_pattern.html#a93cfdf4f1867a11b9692ad4198a060e6',1,'docopt::LeafPattern']]],
+  ['match',['match',['../classdocopt_1_1_leaf_pattern.html#a634a7028ce2c71ebb89586088034b7e2',1,'docopt::LeafPattern']]],
   ['max_5ffoliation_5ffix_5fpasses',['MAX_FOLIATION_FIX_PASSES',['../_s3_triangulation_8h.html#a547bc2cb2dc27bbfc3d0a68c1557f389',1,'S3Triangulation.h']]],
   ['metropolis',['Metropolis',['../class_metropolis.html',1,'Metropolis'],['../class_metropolis.html#aa30aed1ada809551b6e9aedc8b9365f3',1,'Metropolis::Metropolis()']]],
   ['metropolis_2eh',['Metropolis.h',['../_metropolis_8h.html',1,'']]],
