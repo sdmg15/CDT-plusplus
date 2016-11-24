@@ -1,8 +1,3 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node2" href="$class_metropolis_test.html" title="MetropolisTest" alt="" coords="115,5,223,31"/>
-<area shape="rect" id="node3" href="$class_move_manager_test.html" title="MoveManagerTest" alt="" coords="104,55,235,80"/>
-<area shape="rect" id="node4" href="$class_s3_action_test.html" title="S3ActionTest" alt="" coords="119,104,219,129"/>
-<area shape="rect" id="node5" href="$class_s3_ergodic_move_test.html" title="S3ErgodicMoveTest" alt="" coords="99,153,239,179"/>
-<area shape="rect" id="node6" href="$class_tetrahedron_test.html" title="TetrahedronTest" alt="" coords="111,203,228,228"/>
-<area shape="rect" id="node7" href="$class_foliated_tetrahedron_test.html" title="FoliatedTetrahedronTest" alt="" coords="287,203,451,228"/>
+<area shape="rect" id="node1" href="$class_metropolis.html" title="Metropolis&#45;Hastings algorithm functor. " alt="" coords="5,5,88,31"/>
 </map>

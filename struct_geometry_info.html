@@ -110,6 +110,9 @@ virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="s
 <tr class="memitem:a6ec088bba14cecb25b1535ad70b4bf7e"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_geometry_info.html#a6ec088bba14cecb25b1535ad70b4bf7e">number_of_edges</a> ()</td></tr>
 <tr class="memdesc:a6ec088bba14cecb25b1535ad70b4bf7e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the number of edges in the triangulation.  <a href="#a6ec088bba14cecb25b1535ad70b4bf7e">More...</a><br /></td></tr>
 <tr class="separator:a6ec088bba14cecb25b1535ad70b4bf7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab65fe94248859b108e611a0b77e7512f"><td class="memItemLeft" align="right" valign="top"><a id="ab65fe94248859b108e611a0b77e7512f"></a>
+boost::optional&lt; std::uintmax_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>max_timevalue</b> ()</td></tr>
+<tr class="separator:ab65fe94248859b108e611a0b77e7512f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -137,6 +140,14 @@ std::vector&lt; Edge_handle &gt;&#160;</td><td class="memItemRight" valign="bott
 std::vector&lt; Vertex_handle &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_geometry_info.html#a78b482e2686c45a8343714b5b506a2c2">vertices</a></td></tr>
 <tr class="memdesc:a78b482e2686c45a8343714b5b506a2c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vertices of the foliation. <br /></td></tr>
 <tr class="separator:a78b482e2686c45a8343714b5b506a2c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac9a4b9ab2cae7139749a3566a8e24a3d"><td class="memItemLeft" align="right" valign="top"><a id="ac9a4b9ab2cae7139749a3566a8e24a3d"></a>
+boost::optional&lt; std::multimap&lt; uintmax_t, Facet &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_geometry_info.html#ac9a4b9ab2cae7139749a3566a8e24a3d">spacelike_facets</a></td></tr>
+<tr class="memdesc:ac9a4b9ab2cae7139749a3566a8e24a3d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Spacelike facets for each timeslice. <br /></td></tr>
+<tr class="separator:ac9a4b9ab2cae7139749a3566a8e24a3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac2cf4ad768582ea23a9ee0c50102982b"><td class="memItemLeft" align="right" valign="top"><a id="ac2cf4ad768582ea23a9ee0c50102982b"></a>
+boost::optional&lt; std::set&lt; uintmax_t &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_geometry_info.html#ac2cf4ad768582ea23a9ee0c50102982b">timevalues</a></td></tr>
+<tr class="memdesc:ac2cf4ad768582ea23a9ee0c50102982b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Actual timevalues of simulation. <br /></td></tr>
+<tr class="separator:ac2cf4ad768582ea23a9ee0c50102982b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="aeb0374bdd929e5be5cb0cd31dfd9503c"></a>
@@ -443,7 +454,7 @@ std::vector&lt; Vertex_handle &gt;&#160;</td><td class="memItemRight" valign="bo
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Nov 12 2016 16:50:56 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Nov 24 2016 00:27:55 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.12
 </small></address>

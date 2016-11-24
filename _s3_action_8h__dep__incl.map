@@ -2,7 +2,7 @@
 <area shape="rect" id="node2" href="$_metropolis_8h.html" title="Perform Metropolis&#45;Hastings algorithm on Delaunay Triangulations. " alt="" coords="191,79,307,104"/>
 <area shape="rect" id="node8" href="$_s3_action_test_8cpp.html" title="Tests for the S3 action functions. " alt="" coords="331,79,509,104"/>
 <area shape="rect" id="node3" href="$cdt-opt_8cpp.html" title="Outputs values to determine optimizations. " alt="" coords="5,152,114,177"/>
-<area shape="rect" id="node4" href="$cdt_8cpp.html" title="The main body of the program. " alt="" coords="138,152,224,177"/>
+<area shape="rect" id="node4" href="$cdt_8cpp.html" title="The main executable. " alt="" coords="138,152,224,177"/>
 <area shape="rect" id="node5" href="$_move_manager_8h.html" title="RAII class to manage exception&#45;safe foliation&#45;preserving Pachner moves. " alt="" coords="248,152,386,177"/>
 <area shape="rect" id="node7" href="$_metropolis_test_8cpp.html" title="Tests for the Metropolis&#45;Hastings algorithm. " alt="" coords="411,152,597,177"/>
 <area shape="rect" id="node6" href="$_move_manager_test_8cpp.html" title="Tests for the MoveManager RAII class. " alt="" coords="212,225,422,251"/>
