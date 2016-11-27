@@ -89,6 +89,7 @@ $(function() {
 <code>#include &lt;random&gt;</code><br />
 <code>#include &lt;stdexcept&gt;</code><br />
 <code>#include &lt;string&gt;</code><br />
+<code>#include &lt;typeindex&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for utilities.h:</div>
 <div class="dyncontent">
@@ -153,21 +154,21 @@ Functions</h2></td></tr>
 <tr class="memitem:a818c13be87ec4da63467744e051f84ab"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="utilities_8h.html#a818c13be87ec4da63467744e051f84ab">generate_filename</a> (const topology_type &amp;top, const std::uintmax_t dimensions, const std::uintmax_t number_of_simplices, const std::uintmax_t number_of_timeslices) noexcept</td></tr>
 <tr class="memdesc:a818c13be87ec4da63467744e051f84ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generate useful filenames.  <a href="#a818c13be87ec4da63467744e051f84ab">More...</a><br /></td></tr>
 <tr class="separator:a818c13be87ec4da63467744e051f84ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a151b9d8c2662b9676c767d2348c7b85d"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a151b9d8c2662b9676c767d2348c7b85d"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="utilities_8h.html#a151b9d8c2662b9676c767d2348c7b85d">print_results</a> (const T &amp;universe_ptr) noexcept</td></tr>
-<tr class="memdesc:a151b9d8c2662b9676c767d2348c7b85d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print out runtime results.  <a href="#a151b9d8c2662b9676c767d2348c7b85d">More...</a><br /></td></tr>
-<tr class="separator:a151b9d8c2662b9676c767d2348c7b85d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af232defb9f6b3b79f98a510bef1e94c3"><td class="memTemplParams" colspan="2">template&lt;typename T1 , typename T2 &gt; </td></tr>
-<tr class="memitem:af232defb9f6b3b79f98a510bef1e94c3"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="utilities_8h.html#af232defb9f6b3b79f98a510bef1e94c3">print_results</a> (const T1 &amp;universe_ptr, const T2 &amp;timer) noexcept</td></tr>
-<tr class="memdesc:af232defb9f6b3b79f98a510bef1e94c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print out runtime results including time elapsed.  <a href="#af232defb9f6b3b79f98a510bef1e94c3">More...</a><br /></td></tr>
-<tr class="separator:af232defb9f6b3b79f98a510bef1e94c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1ecd8225225ac0dd821603e22795d320"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a1ecd8225225ac0dd821603e22795d320"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="utilities_8h.html#a1ecd8225225ac0dd821603e22795d320">write_file</a> (const T &amp;universe_ptr, const topology_type &amp;topology, const std::uintmax_t dimensions, const std::uintmax_t number_of_simplices, const std::uintmax_t number_of_timeslices)</td></tr>
-<tr class="memdesc:a1ecd8225225ac0dd821603e22795d320"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes the runtime results to a file.  <a href="#a1ecd8225225ac0dd821603e22795d320">More...</a><br /></td></tr>
-<tr class="separator:a1ecd8225225ac0dd821603e22795d320"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a43895b203fdb39fdeb7f485f1835bc51"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="utilities_8h.html#a43895b203fdb39fdeb7f485f1835bc51">generate_random_unsigned</a> (const unsigned min_value, const unsigned max_value) noexcept</td></tr>
-<tr class="memdesc:a43895b203fdb39fdeb7f485f1835bc51"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generate random integers.  <a href="#a43895b203fdb39fdeb7f485f1835bc51">More...</a><br /></td></tr>
-<tr class="separator:a43895b203fdb39fdeb7f485f1835bc51"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae66d7a6f4322d030f65821ab80aaf362"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ae66d7a6f4322d030f65821ab80aaf362"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="utilities_8h.html#ae66d7a6f4322d030f65821ab80aaf362">print_results</a> (const T &amp;universe) noexcept</td></tr>
+<tr class="memdesc:ae66d7a6f4322d030f65821ab80aaf362"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print out runtime results.  <a href="#ae66d7a6f4322d030f65821ab80aaf362">More...</a><br /></td></tr>
+<tr class="separator:ae66d7a6f4322d030f65821ab80aaf362"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac9ee4737a66daac25a51333eb665804d"><td class="memTemplParams" colspan="2">template&lt;typename T1 , typename T2 &gt; </td></tr>
+<tr class="memitem:ac9ee4737a66daac25a51333eb665804d"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="utilities_8h.html#ac9ee4737a66daac25a51333eb665804d">print_results</a> (const T1 &amp;universe, const T2 &amp;timer) noexcept</td></tr>
+<tr class="memdesc:ac9ee4737a66daac25a51333eb665804d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print out runtime results including time elapsed.  <a href="#ac9ee4737a66daac25a51333eb665804d">More...</a><br /></td></tr>
+<tr class="separator:ac9ee4737a66daac25a51333eb665804d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a74ecc0c92288ea44e5f008fe73695c7f"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a74ecc0c92288ea44e5f008fe73695c7f"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="utilities_8h.html#a74ecc0c92288ea44e5f008fe73695c7f">write_file</a> (const T &amp;universe, const topology_type &amp;topology, const std::uintmax_t dimensions, const std::uintmax_t number_of_simplices, const std::uintmax_t number_of_timeslices)</td></tr>
+<tr class="memdesc:a74ecc0c92288ea44e5f008fe73695c7f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes the runtime results to a file.  <a href="#a74ecc0c92288ea44e5f008fe73695c7f">More...</a><br /></td></tr>
+<tr class="separator:a74ecc0c92288ea44e5f008fe73695c7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c5951472a107f92fc3832e81878cd47"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="utilities_8h.html#a3c5951472a107f92fc3832e81878cd47">generate_random_unsigned</a> (const uintmax_t min_value, const uintmax_t max_value) noexcept</td></tr>
+<tr class="memdesc:a3c5951472a107f92fc3832e81878cd47"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generate random integers.  <a href="#a3c5951472a107f92fc3832e81878cd47">More...</a><br /></td></tr>
+<tr class="separator:a3c5951472a107f92fc3832e81878cd47"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7bb6e844b0d40e2baa7e63c14726645f"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="utilities_8h.html#a7bb6e844b0d40e2baa7e63c14726645f">generate_random_timeslice</a> (const unsigned max_timeslice) noexcept</td></tr>
 <tr class="memdesc:a7bb6e844b0d40e2baa7e63c14726645f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generate a random timeslice.  <a href="#a7bb6e844b0d40e2baa7e63c14726645f">More...</a><br /></td></tr>
 <tr class="separator:a7bb6e844b0d40e2baa7e63c14726645f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -188,7 +189,7 @@ Functions</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Utility functions. </p>
 <p>Causal Dynamical Triangulations in C++ using CGAL</p>
-<p>Copyright (c) 2013 Adam Getchell</p>
+<p>Copyright (c) 2013-16 Adam Getchell</p>
 <p>Utility functions for <a class="el" href="cdt_8cpp.html" title="The main executable. ">cdt.cpp</a> </p><dl class="done"><dt><b><a class="el" href="done.html#_done000008">Implemented To-do's:</a></b></dt><dd><p class="startdd"><a href="http://www.cprogramming.com/tutorial/const_correctness.html">Const Correctness</a> </p>
 <p class="enddd">Use localtime_r() for thread safety </p>
 </dd></dl>
@@ -412,10 +413,16 @@ template&lt;typename T &gt; </div>
 
 <p>Generate random real numbers. </p>
 <p>This function generates a random real number from [min_value, max_value] using a non-deterministic random number generator, if supported. There may be exceptions thrown if a random device is not available. See: <a href="http://www.cplusplus.com/reference/random/random_device/">http://www.cplusplus.com/reference/random/random_device/</a> for more details.</p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">T</td><td>The real number type </td></tr>
+  </table>
+  </dd>
+</dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">min_value</td><td>The minimum value in the range </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">max_value</td><td>The maximum value in the range </td></tr>
+    <tr><td class="paramname">min_value</td><td>The minimum value in the range </td></tr>
+    <tr><td class="paramname">max_value</td><td>The maximum value in the range </td></tr>
   </table>
   </dd>
 </dl>
@@ -448,10 +455,10 @@ template&lt;typename T &gt; </div>
 </div><div class="memdoc">
 
 <p>Generate a random timeslice. </p>
-<p>This function generates a random timeslice using <b><a class="el" href="utilities_8h.html#a43895b203fdb39fdeb7f485f1835bc51" title="Generate random integers. ">generate_random_unsigned()</a></b>. Timeslices go from 1 to max_timeslice.</p>
+<p>This function generates a random timeslice using <b><a class="el" href="utilities_8h.html#a3c5951472a107f92fc3832e81878cd47" title="Generate random integers. ">generate_random_unsigned()</a></b>. Timeslices go from 1 to max_timeslice.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">max_timeslice</td><td>The maximum timeslice </td></tr>
+    <tr><td class="paramname">max_timeslice</td><td>The maximum timeslice </td></tr>
   </table>
   </dd>
 </dl>
@@ -459,8 +466,8 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="a43895b203fdb39fdeb7f485f1835bc51"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a43895b203fdb39fdeb7f485f1835bc51">&sect;&nbsp;</a></span>generate_random_unsigned()</h2>
+<a id="a3c5951472a107f92fc3832e81878cd47"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3c5951472a107f92fc3832e81878cd47">&sect;&nbsp;</a></span>generate_random_unsigned()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -471,13 +478,13 @@ template&lt;typename T &gt; </div>
         <tr>
           <td class="memname">auto generate_random_unsigned </td>
           <td>(</td>
-          <td class="paramtype">const unsigned&#160;</td>
+          <td class="paramtype">const uintmax_t&#160;</td>
           <td class="paramname"><em>min_value</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const unsigned&#160;</td>
+          <td class="paramtype">const uintmax_t&#160;</td>
           <td class="paramname"><em>max_value</em>&#160;</td>
         </tr>
         <tr>
@@ -563,7 +570,7 @@ template&lt;typename T &gt; </div>
 <p>This function is mainly for testing, since to_double() seems to work. However, if something more elaborate is required this function can be expanded.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">value</td><td>An exact Gmpzf multiple-precision floating point number </td></tr>
+    <tr><td class="paramname">value</td><td>An exact Gmpzf multiple-precision floating point number </td></tr>
   </table>
   </dd>
 </dl>
@@ -600,8 +607,8 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="a151b9d8c2662b9676c767d2348c7b85d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a151b9d8c2662b9676c767d2348c7b85d">&sect;&nbsp;</a></span>print_results() <span class="overload">[1/2]</span></h2>
+<a id="ae66d7a6f4322d030f65821ab80aaf362"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae66d7a6f4322d030f65821ab80aaf362">&sect;&nbsp;</a></span>print_results() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -615,7 +622,7 @@ template&lt;typename T &gt; </div>
           <td class="memname">void print_results </td>
           <td>(</td>
           <td class="paramtype">const T &amp;&#160;</td>
-          <td class="paramname"><em>universe_ptr</em></td><td>)</td>
+          <td class="paramname"><em>universe</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -628,17 +635,23 @@ template&lt;typename T &gt; </div>
 
 <p>Print out runtime results. </p>
 <p>This function prints out vertices, edges, facets (2D), and cells (3D).</p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">T</td><td>The manifold type </td></tr>
+  </table>
+  </dd>
+</dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">universe_ptr</td><td>A std::unique_ptr to a triangulation </td></tr>
+    <tr><td class="paramname">universe</td><td>A <a class="el" href="struct_simplicial_manifold.html">SimplicialManifold</a>{} </td></tr>
   </table>
   </dd>
 </dl>
 
 </div>
 </div>
-<a id="af232defb9f6b3b79f98a510bef1e94c3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af232defb9f6b3b79f98a510bef1e94c3">&sect;&nbsp;</a></span>print_results() <span class="overload">[2/2]</span></h2>
+<a id="ac9ee4737a66daac25a51333eb665804d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac9ee4737a66daac25a51333eb665804d">&sect;&nbsp;</a></span>print_results() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -652,7 +665,7 @@ template&lt;typename T1 , typename T2 &gt; </div>
           <td class="memname">void print_results </td>
           <td>(</td>
           <td class="paramtype">const T1 &amp;&#160;</td>
-          <td class="paramname"><em>universe_ptr</em>, </td>
+          <td class="paramname"><em>universe</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -675,18 +688,25 @@ template&lt;typename T1 , typename T2 &gt; </div>
 
 <p>Print out runtime results including time elapsed. </p>
 <p>This function prints out vertices, edges, facets (2D), cells (3D) and running time on a Triangulation. This calls a simpler version without a timer object.</p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">T1</td><td>The manifold type </td></tr>
+    <tr><td class="paramname">T2</td><td>The timer type </td></tr>
+  </table>
+  </dd>
+</dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">universe_ptr</td><td>A std::unique_ptr to a triangulation </td></tr>
-    <tr><td class="paramname">timer</td><td>A CGAL::Timer object used to determine elapsed time </td></tr>
+    <tr><td class="paramname">universe</td><td>A <a class="el" href="struct_simplicial_manifold.html">SimplicialManifold</a>{} </td></tr>
+    <tr><td class="paramname">timer</td><td>A timer object used to determine elapse time </td></tr>
   </table>
   </dd>
 </dl>
 
 </div>
 </div>
-<a id="a1ecd8225225ac0dd821603e22795d320"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1ecd8225225ac0dd821603e22795d320">&sect;&nbsp;</a></span>write_file()</h2>
+<a id="a74ecc0c92288ea44e5f008fe73695c7f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a74ecc0c92288ea44e5f008fe73695c7f">&sect;&nbsp;</a></span>write_file()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -697,7 +717,7 @@ template&lt;typename T &gt; </div>
           <td class="memname">void write_file </td>
           <td>(</td>
           <td class="paramtype">const T &amp;&#160;</td>
-          <td class="paramname"><em>universe_ptr</em>, </td>
+          <td class="paramname"><em>universe</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -733,9 +753,15 @@ template&lt;typename T &gt; </div>
 
 <p>Writes the runtime results to a file. </p>
 <p>This function writes the Delaunay triangulation to a file. The filename is generated by the <b><a class="el" href="utilities_8h.html#a818c13be87ec4da63467744e051f84ab" title="Generate useful filenames. ">generate_filename()</a></b> function. Provides strong exception-safety.</p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">T</td><td>The manifold type </td></tr>
+  </table>
+  </dd>
+</dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">universe_ptr</td><td>A std::unique_ptr to a triangulation </td></tr>
+    <tr><td class="paramname">universe</td><td>A <a class="el" href="struct_simplicial_manifold.html">SimplicialManifold</a>{} </td></tr>
     <tr><td class="paramname">topology</td><td>The topology type from the scoped enum topology_type </td></tr>
     <tr><td class="paramname">dimensions</td><td>The number of dimensions of the triangulation </td></tr>
     <tr><td class="paramname">number_of_simplices</td><td>The number of simplices in the triangulation </td></tr>
@@ -749,7 +775,7 @@ template&lt;typename T &gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Nov 24 2016 00:27:55 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sun Nov 27 2016 00:39:25 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.12
 </small></address>
