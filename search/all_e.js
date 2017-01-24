@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['pachnermove',['PachnerMove',['../class_pachner_move.html',1,'']]],
   ['passes',['Passes',['../class_metropolis.html#a2e97a379c8d07b03f719058ea8fbf7b0',1,'Metropolis::Passes()'],['../class_metropolis_test.html#ae8381a89e4f2d31e1c69998d7e9569ff',1,'MetropolisTest::passes()']]],
   ['passes_5f',['passes_',['../class_metropolis.html#ab72295ad7bf8370ba1cd3d2977b7c733',1,'Metropolis']]],
   ['pattern',['Pattern',['../classdocopt_1_1_pattern.html',1,'docopt']]],

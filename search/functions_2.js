@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['expected_5fpoints_5fper_5fsimplex',['expected_points_per_simplex',['../utilities_8h.html#a39878065c99a40e896bfcaf0824fbe70',1,'utilities.h']]]
+  ['expected_5fpoints_5fper_5fsimplex',['expected_points_per_simplex',['../utilities_8h.html#a9f8f8189e6b02f0b400ee9ae4b2c2777',1,'utilities.h']]]
 ];

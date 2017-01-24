@@ -1,5 +1,8 @@
 <map id="src/Function_ref.h" name="src/Function_ref.h">
-<area shape="rect" id="node2" href="$_simulation_8h.html" title="Simulation class. " alt="" coords="62,79,178,104"/>
+<area shape="rect" id="node2" href="$_simulation_8h.html" title="Simulation class. " alt="" coords="123,79,239,104"/>
+<area shape="rect" id="node5" href="$_move_manager_8h.html" title="RAII class to manage exception&#45;safe foliation&#45;preserving Pachner moves. " alt="" coords="273,79,412,104"/>
+<area shape="rect" id="node7" href="$_function_ref_test_8cpp.html" title="Tests for Function_ref.h. " alt="" coords="435,79,631,104"/>
 <area shape="rect" id="node3" href="$cdt-opt_8cpp.html" title="Outputs values to determine optimizations. " alt="" coords="5,152,114,177"/>
 <area shape="rect" id="node4" href="$cdt_8cpp.html" title="The main executable. " alt="" coords="138,152,224,177"/>
+<area shape="rect" id="node6" href="$_move_manager_test_8cpp.html" title="Tests for the MoveManager RAII class. " alt="" coords="248,152,458,177"/>
 </map>
