@@ -1,5 +1,5 @@
 <map id="docopt::LeafPattern" name="docopt::LeafPattern">
-<area shape="rect" id="node2" href="$classdocopt_1_1_pattern.html" title="docopt::Pattern" alt="" coords="5,92,117,117"/>
-<area shape="rect" id="node3" href="$structdocopt_1_1value.html" title="docopt::value" alt="" coords="142,92,242,117"/>
-<area shape="rect" id="node4" href="$uniondocopt_1_1value_1_1_variant.html" title="docopt::value::Variant" alt="" coords="117,5,267,31"/>
+<area shape="rect" id="node2" href="$classdocopt_1_1_pattern.html" title="{docopt::Pattern\n||+ flat()\l+ collect_leaves()\l+ leaves()\l+ match()\l+ name()\l+ hasValue()\l+ hash()\l+ ~Pattern()\l}" alt="" coords="5,227,131,393"/>
+<area shape="rect" id="node3" href="$structdocopt_1_1value.html" title="{docopt::value\n|&#45; kind\l|+ value()\l+ value()\l+ value()\l+ value()\l+ value()\l+ value()\l+ ~value()\l+ value()\l+ value()\l+ operator=()\land 11 more...\l&#45; throwIfNotKind()\l&#45; kindAsString()\l}" alt="" coords="154,193,280,427"/>
+<area shape="rect" id="node4" href="$uniondocopt_1_1value_1_1_variant.html" title="{docopt::value::Variant\n|+ boolValue\l+ longValue\l+ strValue\l+ strList\l|+ Variant()\l+ ~Variant()\l}" alt="" coords="143,5,292,132"/>
 </map>

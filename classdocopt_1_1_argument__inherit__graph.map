@@ -1,5 +1,5 @@
 <map id="docopt::Argument" name="docopt::Argument">
-<area shape="rect" id="node4" href="$classdocopt_1_1_command.html" title="docopt::Command" alt="" coords="9,225,139,251"/>
-<area shape="rect" id="node2" href="$classdocopt_1_1_leaf_pattern.html" title="docopt::LeafPattern" alt="" coords="5,79,143,104"/>
-<area shape="rect" id="node3" href="$classdocopt_1_1_pattern.html" title="docopt::Pattern" alt="" coords="18,5,130,31"/>
+<area shape="rect" id="node4" href="$classdocopt_1_1_command.html" title="{docopt::Command\n||+ Command()\l# single_match()\l}" alt="" coords="9,596,139,683"/>
+<area shape="rect" id="node2" href="$classdocopt_1_1_leaf_pattern.html" title="{docopt::LeafPattern\n|&#45; fName\l&#45; fValue\l|+ LeafPattern()\l+ flat()\l+ collect_leaves()\l+ match()\l+ hasValue()\l+ getValue()\l+ setValue()\l+ name()\l+ hash()\l# single_match()\l}" alt="" coords="5,220,143,427"/>
+<area shape="rect" id="node3" href="$classdocopt_1_1_pattern.html" title="{docopt::Pattern\n||+ flat()\l+ collect_leaves()\l+ leaves()\l+ match()\l+ name()\l+ hasValue()\l+ hash()\l+ ~Pattern()\l}" alt="" coords="11,5,137,172"/>
 </map>

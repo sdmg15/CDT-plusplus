@@ -74,6 +74,13 @@ $(function() {
 <div class="title">Simulation Struct Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+<div class="dynheader">
+Collaboration diagram for Simulation:</div>
+<div class="dyncontent">
+<div class="center"><img src="struct_simulation__coll__graph.png" border="0" usemap="#_simulation_coll__map" alt="Collaboration graph"/></div>
+<map name="_simulation_coll__map" id="_simulation_coll__map">
+</map>
+</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
@@ -83,13 +90,13 @@ using&#160;</td><td class="memItemRight" valign="bottom"><b>element</b> = <a cla
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a7bb911c07c2f8c340a2851da07ff8c31"><td class="memTemplParams" colspan="2"><a id="a7bb911c07c2f8c340a2851da07ff8c31"></a>
-template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a7bb911c07c2f8c340a2851da07ff8c31"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>queue</b> (T &amp;&amp;callable)</td></tr>
+<tr class="memitem:a7bb911c07c2f8c340a2851da07ff8c31"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a7bb911c07c2f8c340a2851da07ff8c31"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="struct_simulation.html#a7bb911c07c2f8c340a2851da07ff8c31">queue</a> (T &amp;&amp;callable)</td></tr>
+<tr class="memdesc:a7bb911c07c2f8c340a2851da07ff8c31"><td class="mdescLeft">&#160;</td><td class="mdescRight">Queue of function objects.  <a href="#a7bb911c07c2f8c340a2851da07ff8c31">More...</a><br /></td></tr>
 <tr class="separator:a7bb911c07c2f8c340a2851da07ff8c31"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae708a3a9fc0261047157e01fa587fc46"><td class="memItemLeft" align="right" valign="top"><a id="ae708a3a9fc0261047157e01fa587fc46"></a>
-<a class="el" href="struct_simplicial_manifold.html">SimplicialManifold</a>&#160;</td><td class="memItemRight" valign="bottom"><b>start</b> (<a class="el" href="struct_simplicial_manifold.html">SimplicialManifold</a> &amp;&amp;initial)</td></tr>
-<tr class="separator:ae708a3a9fc0261047157e01fa587fc46"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af8003b9c1510118e0219d2e19cda2ed5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_simplicial_manifold.html">SimplicialManifold</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_simulation.html#af8003b9c1510118e0219d2e19cda2ed5">start</a> (<a class="el" href="struct_simplicial_manifold.html">SimplicialManifold</a> &amp;&amp;universe)</td></tr>
+<tr class="memdesc:af8003b9c1510118e0219d2e19cda2ed5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Start running queued functions in <a class="el" href="struct_simulation.html">Simulation</a>.  <a href="#af8003b9c1510118e0219d2e19cda2ed5">More...</a><br /></td></tr>
+<tr class="separator:af8003b9c1510118e0219d2e19cda2ed5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -97,13 +104,91 @@ Public Attributes</h2></td></tr>
 std::vector&lt; <a class="el" href="classfunction__ref.html">element</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>queue_</b></td></tr>
 <tr class="separator:a2fd617c3930c8703bc37f9c83f07eab7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a7bb911c07c2f8c340a2851da07ff8c31"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7bb911c07c2f8c340a2851da07ff8c31">&#9670;&nbsp;</a></span>queue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Simulation::queue </td>
+          <td>(</td>
+          <td class="paramtype">T &amp;&amp;&#160;</td>
+          <td class="paramname"><em>callable</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Queue of function objects. </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">T</td><td>Function object type </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">callable</td><td>The function to be called </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="af8003b9c1510118e0219d2e19cda2ed5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af8003b9c1510118e0219d2e19cda2ed5">&#9670;&nbsp;</a></span>start()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_simplicial_manifold.html">SimplicialManifold</a> Simulation::start </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_simplicial_manifold.html">SimplicialManifold</a> &amp;&amp;&#160;</td>
+          <td class="paramname"><em>universe</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Start running queued functions in <a class="el" href="struct_simulation.html">Simulation</a>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">universe</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The <b>universe</b> after all queued functions have be called on it </dd></dl>
+
+</div>
+</div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
 <li>src/<a class="el" href="_simulation_8h_source.html">Simulation.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Jan 23 2017 22:12:56 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Jan 31 2017 13:33:58 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

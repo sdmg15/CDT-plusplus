@@ -1,12 +1,12 @@
 <map id="docopt::Pattern" name="docopt::Pattern">
-<area shape="rect" id="node2" href="$classdocopt_1_1_branch_pattern.html" title="docopt::BranchPattern" alt="" coords="165,104,319,129"/>
-<area shape="rect" id="node8" href="$classdocopt_1_1_leaf_pattern.html" title="docopt::LeafPattern" alt="" coords="173,203,311,228"/>
-<area shape="rect" id="node3" href="$classdocopt_1_1_either.html" title="docopt::Either" alt="" coords="385,5,488,31"/>
-<area shape="rect" id="node4" href="$classdocopt_1_1_one_or_more.html" title="docopt::OneOrMore" alt="" coords="367,55,506,80"/>
-<area shape="rect" id="node5" href="$classdocopt_1_1_optional.html" title="docopt::Optional" alt="" coords="377,104,496,129"/>
-<area shape="rect" id="node7" href="$classdocopt_1_1_required.html" title="docopt::Required" alt="" coords="375,153,498,179"/>
-<area shape="rect" id="node6" href="$classdocopt_1_1_options_shortcut.html" title="docopt::OptionsShortcut" alt="" coords="554,104,719,129"/>
-<area shape="rect" id="node9" href="$classdocopt_1_1_argument.html" title="docopt::Argument" alt="" coords="373,203,500,228"/>
-<area shape="rect" id="node11" href="$classdocopt_1_1_option.html" title="docopt::Option" alt="" coords="383,252,491,277"/>
-<area shape="rect" id="node10" href="$classdocopt_1_1_command.html" title="docopt::Command" alt="" coords="571,203,702,228"/>
+<area shape="rect" id="node2" href="$classdocopt_1_1_branch_pattern.html" title="{docopt::BranchPattern\n|# fChildren\l|+ BranchPattern()\l+ fix()\l+ name()\l+ getValue()\l+ flat()\l+ collect_leaves()\l+ setChildren()\l+ children()\l+ fix_identities()\l+ hash()\l&#45; fix_repeating_arguments()\l}" alt="" coords="263,220,448,427"/>
+<area shape="rect" id="node8" href="$classdocopt_1_1_leaf_pattern.html" title="{docopt::LeafPattern\n|&#45; fName\l&#45; fValue\l|+ LeafPattern()\l+ flat()\l+ collect_leaves()\l+ match()\l+ hasValue()\l+ getValue()\l+ setValue()\l+ name()\l+ hash()\l# single_match()\l}" alt="" coords="580,220,718,427"/>
+<area shape="rect" id="node3" href="$classdocopt_1_1_either.html" title="{docopt::Either\n||+ match()\l}" alt="" coords="5,555,109,628"/>
+<area shape="rect" id="node4" href="$classdocopt_1_1_one_or_more.html" title="{docopt::OneOrMore\n||+ match()\l}" alt="" coords="133,555,272,628"/>
+<area shape="rect" id="node5" href="$classdocopt_1_1_optional.html" title="{docopt::Optional\n||+ match()\l}" alt="" coords="297,555,415,628"/>
+<area shape="rect" id="node7" href="$classdocopt_1_1_required.html" title="{docopt::Required\n||+ match()\l}" alt="" coords="438,555,561,628"/>
+<area shape="rect" id="node6" href="$classdocopt_1_1_options_shortcut.html" title="{docopt::OptionsShortcut\n||}" alt="" coords="274,763,438,836"/>
+<area shape="rect" id="node9" href="$classdocopt_1_1_argument.html" title="{docopt::Argument\n||# single_match()\l}" alt="" coords="586,555,712,628"/>
+<area shape="rect" id="node11" href="$classdocopt_1_1_option.html" title="{docopt::Option\n|&#45; fShortOption\l&#45; fLongOption\l&#45; fArgcount\l|+ Option()\l+ Option()\l+ Option()\l+ operator=()\l+ operator=()\l+ longOption()\l+ shortOption()\l+ argCount()\l+ hash()\l+ parse()\l# single_match()\l}" alt="" coords="736,475,856,708"/>
+<area shape="rect" id="node10" href="$classdocopt_1_1_command.html" title="{docopt::Command\n||+ Command()\l# single_match()\l}" alt="" coords="584,756,714,843"/>
 </map>

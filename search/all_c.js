@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['n1_5ftl',['N1_TL',['../struct_geometry_info.html#af04c4ea156f05b6fc8671f60f3c3c5e3',1,'GeometryInfo']]],
   ['n1_5ftl_5f',['N1_TL_',['../class_metropolis.html#aa3365a395e65a7828ef2445cfa3b1f7a',1,'Metropolis']]],
   ['n3_5f13_5fbefore',['N3_13_before',['../class_s3_action_test.html#a7c8adb9c66909c0335612b08d4de10fb',1,'S3ActionTest::N3_13_before()'],['../class_s3_ergodic_move_test.html#affbb14a3450fa7be48fd0455b25e50f7',1,'S3ErgodicMoveTest::N3_13_before()']]],
   ['n3_5f22',['N3_22',['../struct_geometry_info.html#a0b7f76bb9727443361328571e9c09fc1',1,'GeometryInfo']]],

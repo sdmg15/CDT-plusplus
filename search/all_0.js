@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['alpha',['Alpha',['../class_metropolis_test.html#a158978870acb045773618ff740183de7',1,'MetropolisTest::Alpha()'],['../class_metropolis.html#aa21c66124bac577eafc481b6262715dc',1,'Metropolis::Alpha()']]],
+  ['alpha',['Alpha',['../class_metropolis_test.html#abb8aa4007ec59be75da4f167f05ab6a4',1,'MetropolisTest::Alpha()'],['../class_metropolis.html#aa21c66124bac577eafc481b6262715dc',1,'Metropolis::Alpha()']]],
   ['alpha_5f',['Alpha_',['../class_metropolis.html#a943281d3bd65d50063098cc9d2e37d46',1,'Metropolis']]],
   ['argument',['Argument',['../classdocopt_1_1_argument.html',1,'docopt']]],
   ['attempt_5fmove',['attempt_move',['../class_metropolis.html#ad5dee4d32e50f8e185193191b126da82',1,'Metropolis']]],

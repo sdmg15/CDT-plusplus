@@ -12,9 +12,5 @@ var searchData=
   ['make_5ftriangulation',['make_triangulation',['../_s3_triangulation_8h.html#aac6e736d50e1e67931cc244e21bbca9f',1,'S3Triangulation.h']]],
   ['match',['match',['../classdocopt_1_1_leaf_pattern.html#a634a7028ce2c71ebb89586088034b7e2',1,'docopt::LeafPattern']]],
   ['metropolis',['Metropolis',['../class_metropolis.html#aa30aed1ada809551b6e9aedc8b9365f3',1,'Metropolis']]],
-  ['movableonethreesimplices',['MovableOneThreeSimplices',['../class_metropolis.html#ab388d90d9a230bcdfb2e0feb67207eba',1,'Metropolis']]],
-  ['movablethreeonesimplices',['MovableThreeOneSimplices',['../class_metropolis.html#aa6ea939d7a0d878db7a6248861cc260c',1,'Metropolis']]],
-  ['movabletimelikeedges',['MovableTimelikeEdges',['../class_metropolis.html#a66cc7ed6f4720cc467035f6c5eb41faf',1,'Metropolis']]],
-  ['movabletwotwosimplices',['MovableTwoTwoSimplices',['../class_metropolis.html#ad825d702a52534ef9b5c09f37517c086',1,'Metropolis']]],
   ['movemanager',['MoveManager',['../class_move_manager.html#a0cbae347eb44bb22f1148c116bfc0b46',1,'MoveManager']]]
 ];
