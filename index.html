@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>CDT++: CDT-plusplus [![Build Status](https://travis-ci.org/acgetchell/CDT-plusplus.png?branch=master)](https://travis-ci.org/acgetchell/CDT-plusplus)  [![Join the chat at https://gitter.im/acgetchell/CDT-plusplus](https://img.shields.io/badge/gitter-join%20chat%20→-brightgreen.svg)](https://gitter.im/acgetchell/CDT-plusplus?utm_source=badge&amp;utm_medium=badge&amp;utm_campaign=pr-badge&amp;utm_content=badge)</title>
+<title>CDT++: CDT-plusplus</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -66,12 +66,13 @@ $(function() {
 
 <div class="header">
   <div class="headertitle">
-<div class="title">CDT-plusplus [![Build Status](<a href="https://travis-ci.org/acgetchell/CDT-plusplus.png?branch=master">https://travis-ci.org/acgetchell/CDT-plusplus.png?branch=master</a>)](<a href="https://travis-ci.org/acgetchell/CDT-plusplus">https://travis-ci.org/acgetchell/CDT-plusplus</a>) [![Join the chat at <a href="https://gitter.im/acgetchell/CDT-plusplus">https://gitter.im/acgetchell/CDT-plusplus</a>](<a href="https://img.shields.io/badge/gitter-join%20chat%20">https://img.shields.io/badge/gitter-join%20chat%20</a>→-brightgreen.svg)](<a href="https://gitter.im/acgetchell/CDT-plusplus?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge">https://gitter.im/acgetchell/CDT-plusplus?utm_source=badge&amp;utm_medium=badge&amp;utm_campaign=pr-badge&amp;utm_content=badge</a>) </div>  </div>
+<div class="title">CDT-plusplus </div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p><b>Quantize spacetime on your laptop.</b></p>
+<div class="textblock"><p><a href="https://travis-ci.org/acgetchell/CDT-plusplus"></a> <a href="https://gitter.im/acgetchell/CDT-plusplus?utm_source=badge&amp;utm_medium=badge&amp;utm_campaign=pr-badge&amp;utm_content=badge"></a></p>
+<p><b>Quantize spacetime on your laptop.</b></p>
 <p>For an introduction to <a href="https://github.com/acgetchell/CDT-plusplus/wiki">Causal Dynamical Triangulations</a>, including the foundations and recent results, please see the <a href="https://github.com/acgetchell/CDT-plusplus/wiki">wiki</a>.</p>
-<p><a href="http://arxiv.org/abs/hep-th/0105267">Causal Dynamical Triangulations</a> in C++ using the <a href="http://www.cgal.org">Computational Geometry Algorithms Library</a> and <a href="http://eigen.tuxfamily.org/index.php?title=Main_Page">Eigen</a>&gt;3.1.0, compiled with <a href="http://www.cmake.org">CMake</a> using <a href="http://clang.llvm.org">Clang</a>/<a href="http://llvm.org">LLVM</a>. Arbitrary-precision numbers and functions by <a href="http://www.mpfr.org">MPFR</a> and <a href="https://gmplib.org">GMP</a>. Option-types via <a href="http://www.boost.org">Boost</a> &gt;= 1.58.0. <a href="https://github.com/docopt/docopt.cpp">Docopt</a> provides a beautiful command-line interface. <a href="https://github.com/google/googletest/tree/master/googlemock">Gmock 1.7</a> may be optionally installed in order to build/run unit tests. <a href="https://martine.github.io/ninja/">Ninja</a> is a nice (but optional) replacement for <code>make</code>. Intel's <a href="https://www.threadingbuildingblocks.org">TBB</a> provides significantly better performance if present (3x+). Follows (mostly) the <a href="https://google.github.io/styleguide/cppguide.html">Google C++ Style Guide</a> as enforced by <a href="http://llvm.org/releases/3.6.0/tools/clang/docs/ClangFormatStyleOptions.html">clang-format</a>, which you can check by downloading and running the <a href="http://google-styleguide.googlecode.com/svn/trunk/cpplint/cpplint.py">cpplint.py</a> script:</p>
+<p><a href="http://arxiv.org/abs/hep-th/0105267">Causal Dynamical Triangulations</a> in C++ using the <a href="http://www.cgal.org">Computational Geometry Algorithms Library</a> and <a href="http://eigen.tuxfamily.org/index.php?title=Main_Page">Eigen</a>&gt;3.1.0, compiled with <a href="http://www.cmake.org">CMake</a> using <a href="http://clang.llvm.org">Clang</a>/<a href="http://llvm.org">LLVM</a>. Arbitrary-precision numbers and functions by <a href="http://www.mpfr.org">MPFR</a> and <a href="https://gmplib.org">GMP</a>. Option-types via <a href="http://www.boost.org">Boost</a> &gt;= 1.58.0. <a href="https://github.com/docopt/docopt.cpp">Docopt</a> provides a beautiful command-line interface. <a href="https://github.com/google/googletest/tree/master/googlemock">Gmock 1.8</a> may be optionally installed in order to build/run unit tests. <a href="https://martine.github.io/ninja/">Ninja</a> is a nice (but optional) replacement for <code>make</code>. Intel's <a href="https://www.threadingbuildingblocks.org">TBB</a> provides significantly better performance if present (3x+). Follows (mostly) the <a href="https://google.github.io/styleguide/cppguide.html">Google C++ Style Guide</a> as enforced by <a href="http://llvm.org/releases/3.6.0/tools/clang/docs/ClangFormatStyleOptions.html">clang-format</a>, which you can check by downloading and running the <a href="http://google-styleguide.googlecode.com/svn/trunk/cpplint/cpplint.py">cpplint.py</a> script:</p>
 <div class="fragment"><div class="line">python cpplint.py &lt;filename&gt;</div></div><!-- fragment --><p>(Or use your favorite linter plugin for your editor/IDE.)</p>
 <p>The goals and targets of this project are:</p>
 <ul>
@@ -147,7 +148,7 @@ $(function() {
 </div></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Feb 10 2017 11:50:14 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Feb 10 2017 12:13:04 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>
