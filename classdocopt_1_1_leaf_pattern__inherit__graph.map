@@ -1,6 +1,6 @@
 <map id="docopt::LeafPattern" name="docopt::LeafPattern">
 <area shape="rect" id="node3" href="$classdocopt_1_1_argument.html" title="{docopt::Argument\n||# single_match()\l}" alt="" coords="7,555,134,628"/>
-<area shape="rect" id="node5" href="$classdocopt_1_1_option.html" title="{docopt::Option\n|&#45; fShortOption\l&#45; fLongOption\l&#45; fArgcount\l|+ Option()\l+ Option()\l+ Option()\l+ operator=()\l+ operator=()\l+ longOption()\l+ shortOption()\l+ argCount()\l+ hash()\l+ parse()\l# single_match()\l}" alt="" coords="157,475,277,708"/>
-<area shape="rect" id="node2" href="$classdocopt_1_1_pattern.html" title="{docopt::Pattern\n||+ flat()\l+ collect_leaves()\l+ leaves()\l+ match()\l+ name()\l+ hasValue()\l+ hash()\l+ ~Pattern()\l}" alt="" coords="81,5,207,172"/>
+<area shape="rect" id="node5" href="$classdocopt_1_1_option.html" title="{docopt::Option\n|&#45; fArgcount\l&#45; fLongOption\l&#45; fShortOption\l|+ Option()\l+ Option()\l+ Option()\l+ argCount()\l+ hash()\l+ longOption()\l+ operator=()\l+ operator=()\l+ shortOption()\l+ parse()\l# single_match()\l}" alt="" coords="157,475,277,708"/>
+<area shape="rect" id="node2" href="$classdocopt_1_1_pattern.html" title="{docopt::Pattern\n||+ ~Pattern()\l+ collect_leaves()\l+ flat()\l+ hash()\l+ hasValue()\l+ leaves()\l+ match()\l+ name()\l}" alt="" coords="81,5,207,172"/>
 <area shape="rect" id="node4" href="$classdocopt_1_1_command.html" title="{docopt::Command\n||+ Command()\l# single_match()\l}" alt="" coords="5,756,136,843"/>
 </map>

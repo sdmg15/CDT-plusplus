@@ -1,3 +1,5 @@
 <map id="docopt::value" name="docopt::value">
-<area shape="rect" id="node2" href="$uniondocopt_1_1value_1_1_variant.html" title="{docopt::value::Variant\n|+ boolValue\l+ longValue\l+ strValue\l+ strList\l|+ Variant()\l+ ~Variant()\l}" alt="" coords="5,5,155,132"/>
+<area shape="rect" id="node2" href="$uniondocopt_1_1value_1_1_variant.html" title="{docopt::value::Variant\n|+ boolValue\l+ longValue\l|+ Variant()\l+ ~Variant()\l}" alt="" coords="5,411,155,511"/>
+<area shape="rect" id="node3" title="STL class. " alt="" coords="40,141,120,215"/>
+<area shape="rect" id="node4" title="STL class. " alt="" coords="17,5,143,92"/>
 </map>

@@ -1,3 +1,4 @@
 <map id="Metropolis" name="Metropolis">
-<area shape="rect" id="node2" href="$struct_simplicial_manifold.html" title="{SimplicialManifold\n|+ triangulation\l+ geometry\l|+ SimplicialManifold()\l+ SimplicialManifold()\l+ SimplicialManifold()\l+ ~SimplicialManifold()\l+ SimplicialManifold()\l+ operator=()\l+ SimplicialManifold()\l+ operator=()\l}" alt="" coords="30,5,186,185"/>
+<area shape="rect" id="node3" href="$struct_simplicial_manifold.html" title="{SimplicialManifold\n||+ SimplicialManifold()\l+ SimplicialManifold()\l+ SimplicialManifold()\l+ SimplicialManifold()\l+ SimplicialManifold()\l+ ~SimplicialManifold()\l+ operator=()\l+ operator=()\l}" alt="" coords="164,636,320,803"/>
+<area shape="rect" id="node6" href="$struct_geometry_info.html" title="{GeometryInfo\n|+ spacelike_facets\l+ timevalues\l|+ GeometryInfo()\l+ GeometryInfo()\l+ GeometryInfo()\l+ GeometryInfo()\l+ ~GeometryInfo()\l+ max_timevalue()\l+ N1_TL()\l+ N3_22()\l+ N3_31()\l+ number_of_cells()\l+ number_of_edges()\l+ operator=()\l+ operator=()\l}" alt="" coords="294,180,443,427"/>
 </map>

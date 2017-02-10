@@ -85,7 +85,8 @@ Collaboration diagram for MoveManagerTest:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_move_manager_test__coll__graph.png" border="0" usemap="#_move_manager_test_coll__map" alt="Collaboration graph"/></div>
 <map name="_move_manager_test_coll__map" id="_move_manager_test_coll__map">
-<area shape="rect" id="node3" href="struct_simplicial_manifold.html" title="{SimplicialManifold\n|+ triangulation\l+ geometry\l|+ SimplicialManifold()\l+ SimplicialManifold()\l+ SimplicialManifold()\l+ ~SimplicialManifold()\l+ SimplicialManifold()\l+ operator=()\l+ SimplicialManifold()\l+ operator=()\l}" alt="" coords="79,5,235,185"/>
+<area shape="rect" id="node3" href="struct_simplicial_manifold.html" title="{SimplicialManifold\n||+ SimplicialManifold()\l+ SimplicialManifold()\l+ SimplicialManifold()\l+ SimplicialManifold()\l+ SimplicialManifold()\l+ ~SimplicialManifold()\l+ operator=()\l+ operator=()\l}" alt="" coords="120,636,276,803"/>
+<area shape="rect" id="node6" href="struct_geometry_info.html" title="{GeometryInfo\n|+ spacelike_facets\l+ timevalues\l|+ GeometryInfo()\l+ GeometryInfo()\l+ GeometryInfo()\l+ GeometryInfo()\l+ ~GeometryInfo()\l+ max_timevalue()\l+ N1_TL()\l+ N3_22()\l+ N3_31()\l+ number_of_cells()\l+ number_of_edges()\l+ operator=()\l+ operator=()\l}" alt="" coords="250,180,399,427"/>
 </map>
 </div>
 <table class="memberdecls">
@@ -97,75 +98,49 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>SetUp</b> ()<
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:aefabf44ac5a45dfde566d06de92142e3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_simplicial_manifold.html">SimplicialManifold</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_move_manager_test.html#aefabf44ac5a45dfde566d06de92142e3">universe_</a></td></tr>
-<tr class="separator:aefabf44ac5a45dfde566d06de92142e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a768bbaf74c743ac31bb3dd1dc8d977f1"><td class="memItemLeft" align="right" valign="top"><a id="a768bbaf74c743ac31bb3dd1dc8d977f1"></a>
 Move_tuple&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_move_manager_test.html#a768bbaf74c743ac31bb3dd1dc8d977f1">attempted_moves_</a></td></tr>
 <tr class="memdesc:a768bbaf74c743ac31bb3dd1dc8d977f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">A count of all attempted moves. <br /></td></tr>
 <tr class="separator:a768bbaf74c743ac31bb3dd1dc8d977f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa92e6369d02e3cddcbb0e0d7d6f25b8b"><td class="memItemLeft" align="right" valign="top"><a id="aa92e6369d02e3cddcbb0e0d7d6f25b8b"></a>
+std::uintmax_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_move_manager_test.html#aa92e6369d02e3cddcbb0e0d7d6f25b8b">N3_13_before</a></td></tr>
+<tr class="memdesc:aa92e6369d02e3cddcbb0e0d7d6f25b8b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initial number of (1,3) simplices. <br /></td></tr>
+<tr class="separator:aa92e6369d02e3cddcbb0e0d7d6f25b8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a68b70083eeec4eb33e2334b28b59f88b"><td class="memItemLeft" align="right" valign="top"><a id="a68b70083eeec4eb33e2334b28b59f88b"></a>
+std::uintmax_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_move_manager_test.html#a68b70083eeec4eb33e2334b28b59f88b">N3_22_before</a></td></tr>
+<tr class="memdesc:a68b70083eeec4eb33e2334b28b59f88b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initial number of (2,2) simplices. <br /></td></tr>
+<tr class="separator:a68b70083eeec4eb33e2334b28b59f88b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7af9e460fb45c0b4cb1fb989e19a107b"><td class="memItemLeft" align="right" valign="top"><a id="a7af9e460fb45c0b4cb1fb989e19a107b"></a>
 std::uintmax_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_move_manager_test.html#a7af9e460fb45c0b4cb1fb989e19a107b">N3_31_before</a></td></tr>
 <tr class="memdesc:a7af9e460fb45c0b4cb1fb989e19a107b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initial number of (3,1) simplices. <br /></td></tr>
 <tr class="separator:a7af9e460fb45c0b4cb1fb989e19a107b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a68b70083eeec4eb33e2334b28b59f88b"><td class="memItemLeft" align="right" valign="top">std::uintmax_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_move_manager_test.html#a68b70083eeec4eb33e2334b28b59f88b">N3_22_before</a></td></tr>
-<tr class="memdesc:a68b70083eeec4eb33e2334b28b59f88b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initial number of (2,2) simplices.  <a href="#a68b70083eeec4eb33e2334b28b59f88b">More...</a><br /></td></tr>
-<tr class="separator:a68b70083eeec4eb33e2334b28b59f88b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa92e6369d02e3cddcbb0e0d7d6f25b8b"><td class="memItemLeft" align="right" valign="top"><a id="aa92e6369d02e3cddcbb0e0d7d6f25b8b"></a>
-std::uintmax_t&#160;</td><td class="memItemRight" valign="bottom"><b>N3_13_before</b></td></tr>
-<tr class="separator:aa92e6369d02e3cddcbb0e0d7d6f25b8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae0767090fd5d6d10a8a32b70593b8936"><td class="memItemLeft" align="right" valign="top"><a id="ae0767090fd5d6d10a8a32b70593b8936"></a>
-std::uintmax_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_move_manager_test.html#ae0767090fd5d6d10a8a32b70593b8936">timelike_edges_before</a></td></tr>
-<tr class="memdesc:ae0767090fd5d6d10a8a32b70593b8936"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initial number of timelike edges. <br /></td></tr>
-<tr class="separator:ae0767090fd5d6d10a8a32b70593b8936"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aee170328810851aa8176fcfa4a790043"><td class="memItemLeft" align="right" valign="top"><a id="aee170328810851aa8176fcfa4a790043"></a>
 std::uintmax_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_move_manager_test.html#aee170328810851aa8176fcfa4a790043">spacelike_edges_before</a></td></tr>
 <tr class="memdesc:aee170328810851aa8176fcfa4a790043"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initial number of spacelike edges. <br /></td></tr>
 <tr class="separator:aee170328810851aa8176fcfa4a790043"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0767090fd5d6d10a8a32b70593b8936"><td class="memItemLeft" align="right" valign="top"><a id="ae0767090fd5d6d10a8a32b70593b8936"></a>
+std::uintmax_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_move_manager_test.html#ae0767090fd5d6d10a8a32b70593b8936">timelike_edges_before</a></td></tr>
+<tr class="memdesc:ae0767090fd5d6d10a8a32b70593b8936"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initial number of timelike edges. <br /></td></tr>
+<tr class="separator:ae0767090fd5d6d10a8a32b70593b8936"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aefabf44ac5a45dfde566d06de92142e3"><td class="memItemLeft" align="right" valign="top"><a id="aefabf44ac5a45dfde566d06de92142e3"></a>
+<a class="el" href="struct_simplicial_manifold.html">SimplicialManifold</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_move_manager_test.html#aefabf44ac5a45dfde566d06de92142e3">universe_</a></td></tr>
+<tr class="memdesc:aefabf44ac5a45dfde566d06de92142e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Simplicial manifold containing pointer to triangulation and geometric information. <br /></td></tr>
+<tr class="separator:aefabf44ac5a45dfde566d06de92142e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a328034fe0eb7483c4286f24f2270e45e"><td class="memItemLeft" align="right" valign="top"><a id="a328034fe0eb7483c4286f24f2270e45e"></a>
 std::uintmax_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_move_manager_test.html#a328034fe0eb7483c4286f24f2270e45e">vertices_before</a></td></tr>
 <tr class="memdesc:a328034fe0eb7483c4286f24f2270e45e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initial number of vertices. <br /></td></tr>
 <tr class="separator:a328034fe0eb7483c4286f24f2270e45e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a id="a68b70083eeec4eb33e2334b28b59f88b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a68b70083eeec4eb33e2334b28b59f88b">&#9670;&nbsp;</a></span>N3_22_before</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::uintmax_t MoveManagerTest::N3_22_before</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Initial number of (2,2) simplices. </p>
-<p>Initial number of (1,3) simplices </p>
-
-</div>
-</div>
-<a id="aefabf44ac5a45dfde566d06de92142e3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aefabf44ac5a45dfde566d06de92142e3">&#9670;&nbsp;</a></span>universe_</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="struct_simplicial_manifold.html">SimplicialManifold</a> MoveManagerTest::universe_</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Simplicial manifold containing pointer to triangulation and geometric information. </p>
-
-</div>
-</div>
-<hr/>The documentation for this class was generated from the following file:<ul>
-<li>unittests/<a class="el" href="_move_manager_test_8cpp.html">MoveManagerTest.cpp</a></li>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock">
+<p class="definition">Definition at line <a class="el" href="_move_manager_test_8cpp_source.html#l00020">20</a> of file <a class="el" href="_move_manager_test_8cpp_source.html">MoveManagerTest.cpp</a>.</p>
+</div><hr/>The documentation for this class was generated from the following file:<ul>
+<li>unittests/<a class="el" href="_move_manager_test_8cpp_source.html">MoveManagerTest.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 31 2017 13:33:58 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Feb 10 2017 11:46:07 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

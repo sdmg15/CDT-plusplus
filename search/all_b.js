@@ -1,7 +1,6 @@
 var searchData=
 [
   ['main',['main',['../cdt-gv_8cpp.html#af3ed9c200de85b53c94cd18764b246a2',1,'main(int argc, char *const argv[]):&#160;cdt-gv.cpp'],['../cdt-opt_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4',1,'main():&#160;cdt-opt.cpp'],['../cdt_8cpp.html#af3ed9c200de85b53c94cd18764b246a2',1,'main(int argc, char *const argv[]):&#160;cdt.cpp']]],
-  ['main_2ecpp',['main.cpp',['../unittests_2main_8cpp.html',1,'']]],
   ['make_5f23_5fmove',['make_23_move',['../_s3_ergodic_moves_8h.html#a29fb7d5dcff06ad830c2cf58499a8d84',1,'S3ErgodicMoves.h']]],
   ['make_5f26_5fmove',['make_26_move',['../_s3_ergodic_moves_8h.html#ac024ba286bcffc33a8ea1547dced82d6',1,'S3ErgodicMoves.h']]],
   ['make_5f32_5fmove',['make_32_move',['../_s3_ergodic_moves_8h.html#a28a0f2345ba4d5aee5a6bd4887b1a192',1,'S3ErgodicMoves.h']]],

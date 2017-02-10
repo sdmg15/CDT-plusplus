@@ -81,15 +81,15 @@ Inheritance diagram for docopt::Pattern:</div>
 <div class="dyncontent">
 <div class="center"><img src="classdocopt_1_1_pattern__inherit__graph.png" border="0" usemap="#docopt_1_1_pattern_inherit__map" alt="Inheritance graph"/></div>
 <map name="docopt_1_1_pattern_inherit__map" id="docopt_1_1_pattern_inherit__map">
-<area shape="rect" id="node2" href="classdocopt_1_1_branch_pattern.html" title="{docopt::BranchPattern\n|# fChildren\l|+ BranchPattern()\l+ fix()\l+ name()\l+ getValue()\l+ flat()\l+ collect_leaves()\l+ setChildren()\l+ children()\l+ fix_identities()\l+ hash()\l&#45; fix_repeating_arguments()\l}" alt="" coords="263,220,448,427"/>
-<area shape="rect" id="node8" href="classdocopt_1_1_leaf_pattern.html" title="{docopt::LeafPattern\n|&#45; fName\l&#45; fValue\l|+ LeafPattern()\l+ flat()\l+ collect_leaves()\l+ match()\l+ hasValue()\l+ getValue()\l+ setValue()\l+ name()\l+ hash()\l# single_match()\l}" alt="" coords="580,220,718,427"/>
+<area shape="rect" id="node2" href="classdocopt_1_1_branch_pattern.html" title="{docopt::BranchPattern\n|# fChildren\l|+ BranchPattern()\l+ children()\l+ collect_leaves()\l+ fix()\l+ fix_identities()\l+ flat()\l+ getValue()\l+ hash()\l+ name()\l+ setChildren()\l&#45; fix_repeating_arguments()\l}" alt="" coords="263,220,448,427"/>
+<area shape="rect" id="node8" href="classdocopt_1_1_leaf_pattern.html" title="{docopt::LeafPattern\n|&#45; fName\l&#45; fValue\l|+ LeafPattern()\l+ collect_leaves()\l+ flat()\l+ getValue()\l+ hash()\l+ hasValue()\l+ match()\l+ name()\l+ setValue()\l# single_match()\l}" alt="" coords="580,220,718,427"/>
 <area shape="rect" id="node3" href="classdocopt_1_1_either.html" title="{docopt::Either\n||+ match()\l}" alt="" coords="5,555,109,628"/>
 <area shape="rect" id="node4" href="classdocopt_1_1_one_or_more.html" title="{docopt::OneOrMore\n||+ match()\l}" alt="" coords="133,555,272,628"/>
 <area shape="rect" id="node5" href="classdocopt_1_1_optional.html" title="{docopt::Optional\n||+ match()\l}" alt="" coords="297,555,415,628"/>
 <area shape="rect" id="node7" href="classdocopt_1_1_required.html" title="{docopt::Required\n||+ match()\l}" alt="" coords="438,555,561,628"/>
 <area shape="rect" id="node6" href="classdocopt_1_1_options_shortcut.html" title="{docopt::OptionsShortcut\n||}" alt="" coords="274,763,438,836"/>
 <area shape="rect" id="node9" href="classdocopt_1_1_argument.html" title="{docopt::Argument\n||# single_match()\l}" alt="" coords="586,555,712,628"/>
-<area shape="rect" id="node11" href="classdocopt_1_1_option.html" title="{docopt::Option\n|&#45; fShortOption\l&#45; fLongOption\l&#45; fArgcount\l|+ Option()\l+ Option()\l+ Option()\l+ operator=()\l+ operator=()\l+ longOption()\l+ shortOption()\l+ argCount()\l+ hash()\l+ parse()\l# single_match()\l}" alt="" coords="736,475,856,708"/>
+<area shape="rect" id="node11" href="classdocopt_1_1_option.html" title="{docopt::Option\n|&#45; fArgcount\l&#45; fLongOption\l&#45; fShortOption\l|+ Option()\l+ Option()\l+ Option()\l+ argCount()\l+ hash()\l+ longOption()\l+ operator=()\l+ operator=()\l+ shortOption()\l+ parse()\l# single_match()\l}" alt="" coords="736,475,856,708"/>
 <area shape="rect" id="node10" href="classdocopt_1_1_command.html" title="{docopt::Command\n||+ Command()\l# single_match()\l}" alt="" coords="584,756,714,843"/>
 </map>
 </div>
@@ -103,12 +103,18 @@ Collaboration diagram for docopt::Pattern:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a0a235229a02694f2127df05a890dec94"><td class="memItemLeft" align="right" valign="top"><a id="a0a235229a02694f2127df05a890dec94"></a>
-virtual std::vector&lt; <a class="el" href="classdocopt_1_1_pattern.html">Pattern</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>flat</b> (bool(*filter)(<a class="el" href="classdocopt_1_1_pattern.html">Pattern</a> const *))=0</td></tr>
-<tr class="separator:a0a235229a02694f2127df05a890dec94"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6a16e61f7fc1634ff90b23aaf4336e2f"><td class="memItemLeft" align="right" valign="top"><a id="a6a16e61f7fc1634ff90b23aaf4336e2f"></a>
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>collect_leaves</b> (std::vector&lt; <a class="el" href="classdocopt_1_1_leaf_pattern.html">LeafPattern</a> *&gt; &amp;)=0</td></tr>
 <tr class="separator:a6a16e61f7fc1634ff90b23aaf4336e2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a235229a02694f2127df05a890dec94"><td class="memItemLeft" align="right" valign="top"><a id="a0a235229a02694f2127df05a890dec94"></a>
+virtual std::vector&lt; <a class="el" href="classdocopt_1_1_pattern.html">Pattern</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>flat</b> (bool(*filter)(<a class="el" href="classdocopt_1_1_pattern.html">Pattern</a> const *))=0</td></tr>
+<tr class="separator:a0a235229a02694f2127df05a890dec94"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4fdb3144b57b5a9350529c42878f1578"><td class="memItemLeft" align="right" valign="top"><a id="a4fdb3144b57b5a9350529c42878f1578"></a>
+virtual size_t&#160;</td><td class="memItemRight" valign="bottom"><b>hash</b> () const =0</td></tr>
+<tr class="separator:a4fdb3144b57b5a9350529c42878f1578"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a952fcee01661ea94019fdcbe168005a7"><td class="memItemLeft" align="right" valign="top"><a id="a952fcee01661ea94019fdcbe168005a7"></a>
+virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>hasValue</b> () const</td></tr>
+<tr class="separator:a952fcee01661ea94019fdcbe168005a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae85dc8111e7786da5f19077d803683cb"><td class="memItemLeft" align="right" valign="top"><a id="ae85dc8111e7786da5f19077d803683cb"></a>
 std::vector&lt; <a class="el" href="classdocopt_1_1_leaf_pattern.html">LeafPattern</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>leaves</b> ()</td></tr>
 <tr class="separator:ae85dc8111e7786da5f19077d803683cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -118,20 +124,17 @@ virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>match</b> (Pa
 <tr class="memitem:a2334b803066089f752f75dfb8b6e6791"><td class="memItemLeft" align="right" valign="top"><a id="a2334b803066089f752f75dfb8b6e6791"></a>
 virtual std::string const  &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>name</b> () const =0</td></tr>
 <tr class="separator:a2334b803066089f752f75dfb8b6e6791"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a952fcee01661ea94019fdcbe168005a7"><td class="memItemLeft" align="right" valign="top"><a id="a952fcee01661ea94019fdcbe168005a7"></a>
-virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>hasValue</b> () const</td></tr>
-<tr class="separator:a952fcee01661ea94019fdcbe168005a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4fdb3144b57b5a9350529c42878f1578"><td class="memItemLeft" align="right" valign="top"><a id="a4fdb3144b57b5a9350529c42878f1578"></a>
-virtual size_t&#160;</td><td class="memItemRight" valign="bottom"><b>hash</b> () const =0</td></tr>
-<tr class="separator:a4fdb3144b57b5a9350529c42878f1578"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<hr/>The documentation for this class was generated from the following file:<ul>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock">
+<p class="definition">Definition at line <a class="el" href="docopt__private_8h_source.html#l00074">74</a> of file <a class="el" href="docopt__private_8h_source.html">docopt_private.h</a>.</p>
+</div><hr/>The documentation for this class was generated from the following file:<ul>
 <li>src/docopt/<a class="el" href="docopt__private_8h_source.html">docopt_private.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 31 2017 13:33:58 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Feb 10 2017 11:46:07 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

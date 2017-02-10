@@ -1,4 +1,4 @@
 <map id="docopt::Required" name="docopt::Required">
-<area shape="rect" id="node2" href="$classdocopt_1_1_branch_pattern.html" title="{docopt::BranchPattern\n|# fChildren\l|+ BranchPattern()\l+ fix()\l+ name()\l+ getValue()\l+ flat()\l+ collect_leaves()\l+ setChildren()\l+ children()\l+ fix_identities()\l+ hash()\l&#45; fix_repeating_arguments()\l}" alt="" coords="5,220,190,427"/>
-<area shape="rect" id="node3" href="$classdocopt_1_1_pattern.html" title="{docopt::Pattern\n||+ flat()\l+ collect_leaves()\l+ leaves()\l+ match()\l+ name()\l+ hasValue()\l+ hash()\l+ ~Pattern()\l}" alt="" coords="35,5,161,172"/>
+<area shape="rect" id="node2" href="$classdocopt_1_1_branch_pattern.html" title="{docopt::BranchPattern\n||+ BranchPattern()\l+ children()\l+ collect_leaves()\l+ fix()\l+ fix_identities()\l+ flat()\l+ getValue()\l+ hash()\l+ name()\l+ setChildren()\l&#45; fix_repeating_arguments()\l}" alt="" coords="58,233,243,440"/>
+<area shape="rect" id="node3" href="$classdocopt_1_1_pattern.html" title="{docopt::Pattern\n||+ ~Pattern()\l+ collect_leaves()\l+ flat()\l+ hash()\l+ hasValue()\l+ leaves()\l+ match()\l+ name()\l}" alt="" coords="5,5,131,172"/>
 </map>

@@ -1,6 +1,8 @@
 <map id="docopt::Argument" name="docopt::Argument">
-<area shape="rect" id="node2" href="$classdocopt_1_1_leaf_pattern.html" title="{docopt::LeafPattern\n|&#45; fName\l|+ LeafPattern()\l+ flat()\l+ collect_leaves()\l+ match()\l+ hasValue()\l+ getValue()\l+ setValue()\l+ name()\l+ hash()\l# single_match()\l}" alt="" coords="47,488,185,681"/>
-<area shape="rect" id="node3" href="$classdocopt_1_1_pattern.html" title="{docopt::Pattern\n||+ flat()\l+ collect_leaves()\l+ leaves()\l+ match()\l+ name()\l+ hasValue()\l+ hash()\l+ ~Pattern()\l}" alt="" coords="5,227,131,393"/>
-<area shape="rect" id="node4" href="$structdocopt_1_1value.html" title="{docopt::value\n|&#45; kind\l|+ value()\l+ value()\l+ value()\l+ value()\l+ value()\l+ value()\l+ ~value()\l+ value()\l+ value()\l+ operator=()\land 11 more...\l&#45; throwIfNotKind()\l&#45; kindAsString()\l}" alt="" coords="154,193,280,427"/>
-<area shape="rect" id="node5" href="$uniondocopt_1_1value_1_1_variant.html" title="{docopt::value::Variant\n|+ boolValue\l+ longValue\l+ strValue\l+ strList\l|+ Variant()\l+ ~Variant()\l}" alt="" coords="143,5,292,132"/>
+<area shape="rect" id="node2" href="$classdocopt_1_1_leaf_pattern.html" title="{docopt::LeafPattern\n||+ LeafPattern()\l+ collect_leaves()\l+ flat()\l+ getValue()\l+ hash()\l+ hasValue()\l+ match()\l+ name()\l+ setValue()\l# single_match()\l}" alt="" coords="99,867,237,1060"/>
+<area shape="rect" id="node3" href="$classdocopt_1_1_pattern.html" title="{docopt::Pattern\n||+ ~Pattern()\l+ collect_leaves()\l+ flat()\l+ hash()\l+ hasValue()\l+ leaves()\l+ match()\l+ name()\l}" alt="" coords="5,605,131,772"/>
+<area shape="rect" id="node4" href="$structdocopt_1_1value.html" title="{docopt::value\n|&#45; kind\l|+ value()\l+ value()\l+ value()\l+ value()\l+ value()\l+ value()\l+ value()\l+ value()\l+ ~value()\l+ asBool()\land 11 more...\l&#45; throwIfNotKind()\l&#45; kindAsString()\l}" alt="" coords="228,572,354,805"/>
+<area shape="rect" id="node5" href="$uniondocopt_1_1value_1_1_variant.html" title="{docopt::value::Variant\n|+ boolValue\l+ longValue\l|+ Variant()\l+ ~Variant()\l}" alt="" coords="240,411,389,511"/>
+<area shape="rect" id="node6" title="STL class. " alt="" coords="190,141,269,215"/>
+<area shape="rect" id="node7" title="STL class. " alt="" coords="167,5,292,92"/>
 </map>

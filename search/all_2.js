@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['calculatea1',['CalculateA1',['../class_metropolis.html#a66522142a3311b0e74cfcc8d90769d7b',1,'Metropolis']]],
-  ['calculatea2',['CalculateA2',['../class_metropolis.html#abd15b002164d0c7029cdf6311fd52bcb',1,'Metropolis']]],
+  ['calculatea1',['CalculateA1',['../class_metropolis.html#ac84f9ee639bd0458bc319048689d07ed',1,'Metropolis']]],
+  ['calculatea2',['CalculateA2',['../class_metropolis.html#a4ded13f65c50b08b81a9e92b2ba471fc',1,'Metropolis']]],
   ['cdt_2dgv_2ecpp',['cdt-gv.cpp',['../cdt-gv_8cpp.html',1,'']]],
   ['cdt_2dopt_2ecpp',['cdt-opt.cpp',['../cdt-opt_8cpp.html',1,'']]],
   ['cdt_2ecpp',['cdt.cpp',['../cdt_8cpp.html',1,'']]],
