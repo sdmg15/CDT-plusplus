@@ -72,6 +72,7 @@ $(function() {
   <div class="summary">
 <a href="#define-members">Macros</a> &#124;
 <a href="#typedef-members">Typedefs</a> &#124;
+<a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
@@ -97,13 +98,13 @@ $(function() {
 <code>#include &lt;tuple&gt;</code><br />
 <code>#include &lt;utility&gt;</code><br />
 <code>#include &lt;vector&gt;</code><br />
-<code>#include &quot;<a class="el" href="utilities_8h_source.html">src/utilities.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="utilities_8h_source.html">utilities.h</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for S3Triangulation.h:</div>
 <div class="dyncontent">
 <div class="center"><img src="_s3_triangulation_8h__incl.png" border="0" usemap="#src_2_s3_triangulation_8h" alt=""/></div>
 <map name="src_2_s3_triangulation_8h" id="src_2_s3_triangulation_8h">
-<area shape="rect" id="node18" href="utilities_8h.html" title="Utility functions. " alt="" coords="2117,92,2211,117"/>
+<area shape="rect" id="node18" href="utilities_8h.html" title="Utility functions. " alt="" coords="2122,92,2195,117"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
@@ -168,9 +169,9 @@ using&#160;</td><td class="memItemRight" valign="bottom"><b>K</b> = CGAL::Exact_
 <tr class="memitem:a87decb514fc2afbd121326c7c442fca0"><td class="memItemLeft" align="right" valign="top"><a id="a87decb514fc2afbd121326c7c442fca0"></a>
 using&#160;</td><td class="memItemRight" valign="bottom"><b>Locate_type</b> = Delaunay::Locate_type</td></tr>
 <tr class="separator:a87decb514fc2afbd121326c7c442fca0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3221ff4d5e6a7c8612ee5e6f9e70ab85"><td class="memItemLeft" align="right" valign="top"><a id="a3221ff4d5e6a7c8612ee5e6f9e70ab85"></a>
-using&#160;</td><td class="memItemRight" valign="bottom"><b>Move_tuple</b> = std::tuple&lt; std::uintmax_t, std::uintmax_t, std::uintmax_t, std::uintmax_t, std::uintmax_t &gt;</td></tr>
-<tr class="separator:a3221ff4d5e6a7c8612ee5e6f9e70ab85"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a10b781b0f27f93ac9238fae9fb041665"><td class="memItemLeft" align="right" valign="top"><a id="a10b781b0f27f93ac9238fae9fb041665"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>Move_tracker</b> = std::array&lt; uintmax_t, 5 &gt;</td></tr>
+<tr class="separator:a10b781b0f27f93ac9238fae9fb041665"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a06dd3f955d4305dfb7499100d15284d5"><td class="memItemLeft" align="right" valign="top"><a id="a06dd3f955d4305dfb7499100d15284d5"></a>
 using&#160;</td><td class="memItemRight" valign="bottom"><b>Point</b> = Delaunay::Point</td></tr>
 <tr class="separator:a06dd3f955d4305dfb7499100d15284d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -186,6 +187,19 @@ using&#160;</td><td class="memItemRight" valign="bottom"><b>Vb</b> = CGAL::Trian
 <tr class="memitem:a810e689a92350f09cd11cf40dac748a5"><td class="memItemLeft" align="right" valign="top"><a id="a810e689a92350f09cd11cf40dac748a5"></a>
 using&#160;</td><td class="memItemRight" valign="bottom"><b>Vertex_handle</b> = Delaunay::Vertex_handle</td></tr>
 <tr class="separator:a810e689a92350f09cd11cf40dac748a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:afacb89cb65e7bc872a93079c927634c9"><td class="memItemLeft" align="right" valign="top"><a id="afacb89cb65e7bc872a93079c927634c9"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>move_type</b> { <br />
+&#160;&#160;<b>TWO_THREE</b> = 0, 
+<b>THREE_TWO</b> = 1, 
+<b>TWO_SIX</b> = 2, 
+<b>SIX_TWO</b> = 3, 
+<br />
+&#160;&#160;<b>FOUR_FOUR</b> = 4
+<br />
+ }</td></tr>
+<tr class="separator:afacb89cb65e7bc872a93079c927634c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
@@ -213,9 +227,9 @@ template&lt;typename T &gt; </td></tr>
 <tr class="memitem:a518a0dd90cfd7332d0ddbe60eb71af48"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="_s3_triangulation_8h.html#a518a0dd90cfd7332d0ddbe60eb71af48">insert_into_triangulation</a> (T1 &amp;&amp;universe_ptr, T2 &amp;&amp;causal_vertices)</td></tr>
 <tr class="memdesc:a518a0dd90cfd7332d0ddbe60eb71af48"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inserts vertices with timeslices into Delaunay triangulation.  <a href="#a518a0dd90cfd7332d0ddbe60eb71af48">More...</a><br /></td></tr>
 <tr class="separator:a518a0dd90cfd7332d0ddbe60eb71af48"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a50c9ea3d0418950b059a9f5be3dff262"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_s3_triangulation_8h.html#a50c9ea3d0418950b059a9f5be3dff262">make_foliated_sphere</a> (const std::uintmax_t simplices, const std::uintmax_t timeslices) noexcept</td></tr>
-<tr class="memdesc:a50c9ea3d0418950b059a9f5be3dff262"><td class="mdescLeft">&#160;</td><td class="mdescRight">Make foliated spheres.  <a href="#a50c9ea3d0418950b059a9f5be3dff262">More...</a><br /></td></tr>
-<tr class="separator:a50c9ea3d0418950b059a9f5be3dff262"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a4abb1b1cbdb172f4affd98f9e5ba00"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_s3_triangulation_8h.html#a0a4abb1b1cbdb172f4affd98f9e5ba00">make_foliated_sphere</a> (const std::uintmax_t simplices, const std::uintmax_t timeslices)</td></tr>
+<tr class="memdesc:a0a4abb1b1cbdb172f4affd98f9e5ba00"><td class="mdescLeft">&#160;</td><td class="mdescRight">Make foliated spheres.  <a href="#a0a4abb1b1cbdb172f4affd98f9e5ba00">More...</a><br /></td></tr>
+<tr class="separator:a0a4abb1b1cbdb172f4affd98f9e5ba00"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aac6e736d50e1e67931cc244e21bbca9f"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_s3_triangulation_8h.html#aac6e736d50e1e67931cc244e21bbca9f">make_triangulation</a> (const std::uintmax_t simplices, const std::uintmax_t timeslices)</td></tr>
 <tr class="memdesc:aac6e736d50e1e67931cc244e21bbca9f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Make a triangulation from foliated 2-spheres.  <a href="#aac6e736d50e1e67931cc244e21bbca9f">More...</a><br /></td></tr>
 <tr class="separator:aac6e736d50e1e67931cc244e21bbca9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -288,7 +302,7 @@ template&lt;typename T &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A std::pair&lt;std::vector&lt;Edge_handle&gt;, std::vector&lt;Edge_handle&gt;&gt; of timelike edges and spacelike edges </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_s3_triangulation_8h_source.html#l00125">125</a> of file <a class="el" href="_s3_triangulation_8h_source.html">S3Triangulation.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_s3_triangulation_8h_source.html#l00132">132</a> of file <a class="el" href="_s3_triangulation_8h_source.html">S3Triangulation.h</a>.</p>
 
 </div>
 </div>
@@ -323,7 +337,7 @@ template&lt;typename T &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A std::tuple&lt;std::vector, std::vector, std::vector&gt; of <b>three_one</b>, <b>two_two</b>, and <b>one_three</b> </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_s3_triangulation_8h_source.html#l00184">184</a> of file <a class="el" href="_s3_triangulation_8h_source.html">S3Triangulation.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_s3_triangulation_8h_source.html#l00191">191</a> of file <a class="el" href="_s3_triangulation_8h_source.html">S3Triangulation.h</a>.</p>
 
 </div>
 </div>
@@ -355,7 +369,7 @@ template&lt;typename T &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A boolean value if there are invalid simplices </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_s3_triangulation_8h_source.html#l00277">277</a> of file <a class="el" href="_s3_triangulation_8h_source.html">S3Triangulation.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_s3_triangulation_8h_source.html#l00284">284</a> of file <a class="el" href="_s3_triangulation_8h_source.html">S3Triangulation.h</a>.</p>
 
 </div>
 </div>
@@ -386,7 +400,7 @@ template&lt;typename T &gt; </div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="_s3_triangulation_8h_source.html#l00360">360</a> of file <a class="el" href="_s3_triangulation_8h_source.html">S3Triangulation.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_s3_triangulation_8h_source.html#l00367">367</a> of file <a class="el" href="_s3_triangulation_8h_source.html">S3Triangulation.h</a>.</p>
 
 </div>
 </div>
@@ -428,12 +442,12 @@ template&lt;typename T1 , typename T2 &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A std::unique_ptr&lt;Delaunay&gt; to the triangulation </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_s3_triangulation_8h_source.html#l00379">379</a> of file <a class="el" href="_s3_triangulation_8h_source.html">S3Triangulation.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_s3_triangulation_8h_source.html#l00386">386</a> of file <a class="el" href="_s3_triangulation_8h_source.html">S3Triangulation.h</a>.</p>
 
 </div>
 </div>
-<a id="a50c9ea3d0418950b059a9f5be3dff262"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a50c9ea3d0418950b059a9f5be3dff262">&#9670;&nbsp;</a></span>make_foliated_sphere()</h2>
+<a id="a0a4abb1b1cbdb172f4affd98f9e5ba00"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0a4abb1b1cbdb172f4affd98f9e5ba00">&#9670;&nbsp;</a></span>make_foliated_sphere()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -461,7 +475,7 @@ template&lt;typename T1 , typename T2 &gt; </div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -477,7 +491,7 @@ template&lt;typename T1 , typename T2 &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A std::pair&lt;std::vector, std::uintmax_t&gt; containing random vertices and their corresponding timevalues </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_s3_triangulation_8h_source.html#l00396">396</a> of file <a class="el" href="_s3_triangulation_8h_source.html">S3Triangulation.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_s3_triangulation_8h_source.html#l00403">403</a> of file <a class="el" href="_s3_triangulation_8h_source.html">S3Triangulation.h</a>.</p>
 
 </div>
 </div>
@@ -516,7 +530,7 @@ template&lt;typename T1 , typename T2 &gt; </div>
 </div><div class="memdoc">
 
 <p>Make a triangulation from foliated 2-spheres. </p>
-<p>This function creates a triangulation from successive spheres. First, the number of points per leaf in the foliation is estimated given the desired number of simplices. Next, <a class="el" href="_s3_triangulation_8h.html#a50c9ea3d0418950b059a9f5be3dff262" title="Make foliated spheres. ">make_foliated_sphere()</a> is called to generate nested spheres. The radius of the sphere is assigned as the time value for each vertex in that sphere, which comprises a leaf in the foliation. All vertices in all spheres (along with their time values) are then inserted with <a class="el" href="_s3_triangulation_8h.html#a518a0dd90cfd7332d0ddbe60eb71af48" title="Inserts vertices with timeslices into Delaunay triangulation. ">insert_into_triangulation()</a> into a Delaunay triangulation (see <a href="http://en.wikipedia.org/wiki/Delaunay_triangulation">http://en.wikipedia.org/wiki/Delaunay_triangulation</a> for details). Finally, <a class="el" href="_s3_triangulation_8h.html#a0d939d0fe25d510cf2dd42c01c4a43b3" title="Fixes the foliation of the triangulation. ">fix_triangulation()</a> removes cells in the Delaunay triangulation with invalid foliations using <a class="el" href="_s3_triangulation_8h.html#aabd64c632d626dd0e481bedb95b2b05c" title="Fix simplices with incorrect foliation. ">fix_timeslices()</a>. A last check is performed to ensure a valid Delaunay triangulation.</p>
+<p>This function creates a triangulation from successive spheres. First, the number of points per leaf in the foliation is estimated given the desired number of simplices. Next, <a class="el" href="_s3_triangulation_8h.html#a0a4abb1b1cbdb172f4affd98f9e5ba00" title="Make foliated spheres. ">make_foliated_sphere()</a> is called to generate nested spheres. The radius of the sphere is assigned as the time value for each vertex in that sphere, which comprises a leaf in the foliation. All vertices in all spheres (along with their time values) are then inserted with <a class="el" href="_s3_triangulation_8h.html#a518a0dd90cfd7332d0ddbe60eb71af48" title="Inserts vertices with timeslices into Delaunay triangulation. ">insert_into_triangulation()</a> into a Delaunay triangulation (see <a href="http://en.wikipedia.org/wiki/Delaunay_triangulation">http://en.wikipedia.org/wiki/Delaunay_triangulation</a> for details). Finally, <a class="el" href="_s3_triangulation_8h.html#a0d939d0fe25d510cf2dd42c01c4a43b3" title="Fixes the foliation of the triangulation. ">fix_triangulation()</a> removes cells in the Delaunay triangulation with invalid foliations using <a class="el" href="_s3_triangulation_8h.html#aabd64c632d626dd0e481bedb95b2b05c" title="Fix simplices with incorrect foliation. ">fix_timeslices()</a>. A last check is performed to ensure a valid Delaunay triangulation.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">simplices</td><td>The number of desired simplices in the triangulation </td></tr>
@@ -526,14 +540,14 @@ template&lt;typename T1 , typename T2 &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A std::unique_ptr&lt;Delaunay&gt; to the foliated triangulation </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_s3_triangulation_8h_source.html#l00434">434</a> of file <a class="el" href="_s3_triangulation_8h_source.html">S3Triangulation.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_s3_triangulation_8h_source.html#l00441">441</a> of file <a class="el" href="_s3_triangulation_8h_source.html">S3Triangulation.h</a>.</p>
 
 </div>
 </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Feb 10 2017 12:13:04 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon Mar 13 2017 20:58:13 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

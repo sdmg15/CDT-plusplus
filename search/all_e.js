@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['passes',['passes',['../class_metropolis_test.html#ab1ad890797fa24d3c3e6cf6b306edc12',1,'MetropolisTest::passes()'],['../class_metropolis.html#a2e97a379c8d07b03f719058ea8fbf7b0',1,'Metropolis::Passes()']]],
+  ['passes',['Passes',['../class_metropolis.html#a2e97a379c8d07b03f719058ea8fbf7b0',1,'Metropolis::Passes()'],['../class_metropolis_test.html#ab1ad890797fa24d3c3e6cf6b306edc12',1,'MetropolisTest::passes()']]],
   ['passes_5f',['passes_',['../class_metropolis.html#ab72295ad7bf8370ba1cd3d2977b7c733',1,'Metropolis']]],
   ['pattern',['Pattern',['../classdocopt_1_1_pattern.html',1,'docopt']]],
   ['patternhasher',['PatternHasher',['../structdocopt_1_1_pattern_hasher.html',1,'docopt']]],
