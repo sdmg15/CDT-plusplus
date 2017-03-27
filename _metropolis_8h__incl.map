@@ -1,10 +1,10 @@
 <map id="src/Metropolis.h" name="src/Metropolis.h">
-<area shape="rect" id="node2" href="$_measurements_8h.html" title="Measurements of the simulation. " alt="" coords="109,79,230,104"/>
-<area shape="rect" id="node33" href="$_move_manager_8h.html" title="RAII class to manage exception&#45;safe foliation&#45;preserving Pachner moves. " alt="" coords="826,79,943,104"/>
-<area shape="rect" id="node37" href="$_s3_action_8h.html" title="Calculate S3 bulk actions on 3D Delaunay Triangulations. " alt="" coords="2227,79,2312,104"/>
-<area shape="rect" id="node40" href="$_s3_ergodic_moves_8h.html" title="Pachner moves on 3D Delaunay Triangulations. " alt="" coords="1227,152,1360,177"/>
-<area shape="rect" id="node3" href="$_simplicial_manifold_8h.html" title="Data structures for simplicial manifolds. " alt="" coords="397,152,536,177"/>
-<area shape="rect" id="node4" href="$_s3_triangulation_8h.html" title="Functions on 3D Spherical Delaunay Triangulations. " alt="" coords="1155,225,1280,251"/>
-<area shape="rect" id="node21" href="$utilities_8h.html" title="Utility functions. " alt="" coords="790,312,863,337"/>
-<area shape="rect" id="node35" href="$_function__ref_8h.html" title="Efficient, type&#45;erasing, non&#45;owning function reference. " alt="" coords="715,152,821,177"/>
+<area shape="rect" id="node2" href="$_measurements_8h.html" title="Measurements of the simulation. " alt="" coords="1880,79,2001,104"/>
+<area shape="rect" id="node31" href="$_move_manager_8h.html" title="RAII class to manage exception&#45;safe foliation&#45;preserving Pachner moves. " alt="" coords="1194,79,1311,104"/>
+<area shape="rect" id="node35" href="$_s3_action_8h.html" title="Calculate S3 bulk actions on 3D Delaunay Triangulations. " alt="" coords="2142,79,2228,104"/>
+<area shape="rect" id="node38" href="$_s3_ergodic_moves_8h.html" title="Pachner moves on 3D Delaunay Triangulations. " alt="" coords="609,152,742,177"/>
+<area shape="rect" id="node3" href="$_simplicial_manifold_8h.html" title="Data structures for simplicial manifolds. " alt="" coords="1557,152,1696,177"/>
+<area shape="rect" id="node4" href="$_s3_triangulation_8h.html" title="Functions on 3D Spherical Delaunay Triangulations. " alt="" coords="817,225,942,251"/>
+<area shape="rect" id="node19" href="$utilities_8h.html" title="Utility functions. " alt="" coords="440,312,513,337"/>
+<area shape="rect" id="node33" href="$_function__ref_8h.html" title="Efficient, type&#45;erasing, non&#45;owning function reference. " alt="" coords="1199,152,1306,177"/>
 </map>
