@@ -10,6 +10,6 @@ var searchData=
   ['classify_5fedges',['classify_edges',['../_s3_triangulation_8h.html#a5d1faf454aae17fccb2378ae149f8b79',1,'S3Triangulation.h']]],
   ['classify_5fsimplices',['classify_simplices',['../_s3_triangulation_8h.html#a6eae5e81fbc86f691083957d5f7aa96d',1,'S3Triangulation.h']]],
   ['command',['Command',['../classdocopt_1_1_command.html',1,'docopt']]],
-  ['currentdatetime',['currentDateTime',['../utilities_8h.html#a3e7e7bf45c802195fdf84da5707763bc',1,'utilities.h']]],
+  ['currentdatetime',['currentDateTime',['../_utilities_8h.html#a3e7e7bf45c802195fdf84da5707763bc',1,'Utilities.h']]],
   ['cdt_2dplusplus',['CDT-plusplus',['../index.html',1,'']]]
 ];

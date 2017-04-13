@@ -10,6 +10,6 @@ var searchData=
   ['simplicialmanifold_2eh',['SimplicialManifold.h',['../_simplicial_manifold_8h.html',1,'']]],
   ['simplicialmanifoldtest_2ecpp',['SimplicialManifoldTest.cpp',['../_simplicial_manifold_test_8cpp.html',1,'']]],
   ['simulation_2eh',['Simulation.h',['../_simulation_8h.html',1,'']]],
-  ['sphere_5fd_2eh',['sphere_d.h',['../sphere__d_8h.html',1,'']]],
+  ['sphere_5fd_2eh',['Sphere_d.h',['../_sphere__d_8h.html',1,'']]],
   ['spheretest_2ecpp',['SphereTest.cpp',['../_sphere_test_8cpp.html',1,'']]]
 ];

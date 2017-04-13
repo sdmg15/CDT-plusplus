@@ -79,7 +79,7 @@ $(function() {
 <dt><a class="anchor" id="_todo000004"></a>File <a class="el" href="cdt_8cpp.html">cdt.cpp</a>  </dt>
 <dd><p class="startdd">Invoke complete set of ergodic (Pachner) moves </p>
 <p>Use Metropolis-Hastings algorithm </p>
-<p class="enddd">Fix <a class="el" href="utilities_8h.html#a74ecc0c92288ea44e5f008fe73695c7f" title="Writes the runtime results to a file. ">write_file()</a> to include cell-&gt;info() and vertex-&gt;info()  </p>
+<p class="enddd">Fix <a class="el" href="_utilities_8h.html#a74ecc0c92288ea44e5f008fe73695c7f" title="Writes the runtime results to a file. ">write_file()</a> to include cell-&gt;info() and vertex-&gt;info()  </p>
 </dd>
 <dt><a class="anchor" id="_todo000010"></a>Member <a class="el" href="_simplicial_manifold_8h.html#ad93c2ac3e569f3ccced1f37f6500d600">Facet</a>  </dt>
 <dd>: Devise a way to copy the boost::optional data in move/copy ctors  </dd>
@@ -91,18 +91,20 @@ $(function() {
 <dd>Fix <a class="el" href="struct_simplicial_manifold.html">SimplicialManifold</a> move and copy operators to save optionals  </dd>
 <dt><a class="anchor" id="_todo000008"></a>Member <a class="el" href="_s3_ergodic_moves_8h.html#ad3ca0cec12997b41f7357613bc4e4c04">make_44_move</a>  (T1 &amp;&amp;universe, T2 &amp;&amp;attempted_moves) -&gt; decltype(universe)</dt>
 <dd>: Make (4,4) move aka 4,4 bistellar flip work. This is on the CGAL TODO list also  </dd>
-<dt><a class="anchor" id="_todo000006"></a>File <a class="el" href="_metropolis_8h.html">Metropolis.h</a>  </dt>
+<dt><a class="anchor" id="_todo000005"></a>File <a class="el" href="_metropolis_8h.html">Metropolis.h</a>  </dt>
 <dd><p class="startdd">Atomic integral types for safe multithreading </p>
 <p>Debug occasional infinite loops and segfaults! </p>
 <p>Implement 3D <a class="el" href="class_metropolis.html" title="Metropolis-Hastings algorithm function object. ">Metropolis</a> algorithm in operator() </p>
 <p class="enddd">Implement concurrency  </p>
 </dd>
+<dt><a class="anchor" id="_todo000006"></a>Member <a class="el" href="class_metropolis.html#a8494a344bc5db6a3e41e27f0878dc031">Metropolis::operator()</a>  (T &amp;&amp;universe) -&gt; decltype(universe)</dt>
+<dd>: Fix segfaults here  </dd>
 <dt><a class="anchor" id="_todo000007"></a>File <a class="el" href="_s3_ergodic_moves_8h.html">S3ErgodicMoves.h</a>  </dt>
 <dd><p class="startdd">Handle neighboring_31_index != 5 condition </p>
 <p>Debug (6,2) move </p>
 <p class="enddd">(4,4) move  </p>
 </dd>
-<dt><a class="anchor" id="_todo000016"></a>File <a class="el" href="_s3_ergodic_moves_test_8cpp.html">S3ErgodicMovesTest.cpp</a>  </dt>
+<dt><a class="anchor" id="_todo000017"></a>File <a class="el" href="_s3_ergodic_moves_test_8cpp.html">S3ErgodicMovesTest.cpp</a>  </dt>
 <dd>: (4,4)  </dd>
 <dt><a class="anchor" id="_todo000009"></a>File <a class="el" href="_shortest_paths_8h.html">ShortestPaths.h</a>  </dt>
 <dd><p class="startdd"><a class="el" href="class_graph.html" title="Graph class that provides shortest paths functionalities. ">Graph</a> Initialization </p>
@@ -112,21 +114,21 @@ $(function() {
 <p>CalculateBellmanFord() </p>
 <p class="enddd">CalculateVoronoi()  </p>
 </dd>
-<dt><a class="anchor" id="_todo000013"></a>File <a class="el" href="sphere__d_8h.html">sphere_d.h</a>  </dt>
+<dt><a class="anchor" id="_todo000013"></a>File <a class="el" href="_sphere__d_8h.html">Sphere_d.h</a>  </dt>
 <dd>Make the vector compatible with the triangulation data structure  </dd>
-<dt><a class="anchor" id="_todo000018"></a>Member <a class="el" href="_simplicial_manifold_test_8cpp.html#a9d48f85d816e9b6d1d564fa830642ae5">TEST</a>  (<a class="el" href="struct_simplicial_manifold.html">SimplicialManifold</a>, GeometryInfoStruct)</dt>
+<dt><a class="anchor" id="_todo000018"></a>Member <a class="el" href="_simplicial_manifold_test_8cpp.html#a170aecbdbbb7a4204f8bb4541a57a1de">TEST</a>  (<a class="el" href="struct_simplicial_manifold.html">SimplicialManifold</a>, DISABLED_SimplicialManifoldStruct)</dt>
+<dd>: Fix SimplicialManifoldStruct test  </dd>
+<dt><a class="anchor" id="_todo000019"></a>Member <a class="el" href="_simplicial_manifold_test_8cpp.html#a9d48f85d816e9b6d1d564fa830642ae5">TEST</a>  (<a class="el" href="struct_simplicial_manifold.html">SimplicialManifold</a>, GeometryInfoStruct)</dt>
 <dd>: Fix GeometryInfoStruct test  </dd>
-<dt><a class="anchor" id="_todo000014"></a>Member <a class="el" href="_function_ref_test_8cpp.html#a1857eacfcc49ef3bfab4891ffbad3c10">TEST</a>  (FunctionRefTest, DISABLED_ComplexLambda)</dt>
+<dt><a class="anchor" id="_todo000015"></a>Member <a class="el" href="_function_ref_test_8cpp.html#a1857eacfcc49ef3bfab4891ffbad3c10">TEST</a>  (FunctionRefTest, DISABLED_ComplexLambda)</dt>
 <dd><p class="startdd">Figure out why move_23_lambda invalidates the tds </p>
-<p class="enddd">Investigate why move_23_lambda doesn't add timelike edges  </p>
+<p class="enddd">Investigate why move_23_lambda doesn't add timelike edges </p>
 </dd>
-<dt><a class="anchor" id="_todo000017"></a>Member <a class="el" href="_simplicial_manifold_test_8cpp.html#a170aecbdbbb7a4204f8bb4541a57a1de">TEST</a>  (<a class="el" href="struct_simplicial_manifold.html">SimplicialManifold</a>, DISABLED_SimplicialManifoldStruct)</dt>
-<dd>: Fix SimplicialManifoldStruct test </dd>
 </dl>
 </div></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Mar 27 2017 16:40:41 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Apr 12 2017 23:14:31 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

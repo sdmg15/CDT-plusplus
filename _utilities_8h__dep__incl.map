@@ -1,4 +1,4 @@
-<map id="src/utilities.h" name="src/utilities.h">
+<map id="src/Utilities.h" name="src/Utilities.h">
 <area shape="rect" id="node2" href="$_s3_triangulation_8h.html" title="Functions on 3D Spherical Delaunay Triangulations. " alt="" coords="1033,79,1180,104"/>
 <area shape="rect" id="node14" href="$_s3_action_test_8cpp.html" title="Tests for the S3 action functions. " alt="" coords="1707,232,1885,257"/>
 <area shape="rect" id="node16" href="$_s3_triangulation_test_8cpp.html" title="Tests for correctly foliated triangulations. " alt="" coords="5,225,173,264"/>
