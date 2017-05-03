@@ -139,7 +139,7 @@ $(function() {
 <div class="fragment"><div class="line">cmake --build . --target test</div></div><!-- fragment --><p>In addition to the command line output, you can see detailed results in the <code>build/Testing</code> directory which is generated thereby.</p>
 <h2>### Static Analysis ### </h2>
 <p>The <a href="https://github.com/acgetchell/CDT-plusplus/blob/master/cppcheck-build.sh">cppcheck-build.sh</a> script runs a quick static analysis using <a href="http://cppcheck.sourceforge.net">cppcheck</a>.</p>
-<p><a href="http://clang.llvm.org">Clang</a> comes with <a href="http://clang-analyzer.llvm.org/scan-build.html">scan-build</a> which can run a much more thorough, but slower static analysis integrated with <a href="http://www.cmake.org">CMake</a> and <a href="https://martine.github.io/ninja/">Ninja</a>. Simply run the <a href="https://github.com/acgetchell/CDT-plusplus/blob/master/scan-build.sh">scan-build.sh</a> script. Note that this script is somewhat fragile, as it depends upon the version of <a href="http://llvm.org">llvm</a> installed, and links directly to those directories without helpful symlinks to abstract version numbers away.</p>
+<p><a href="http://clang.llvm.org">Clang</a> comes with <a href="http://clang-analyzer.llvm.org/scan-build.html">scan-build</a> which can run a much more thorough, but slower static analysis integrated with <a href="http://www.cmake.org">CMake</a> and <a href="https://martine.github.io/ninja/">Ninja</a>. Simply run the <a href="https://github.com/acgetchell/CDT-plusplus/blob/master/scan.sh">scan.sh</a> script.</p>
 <p>Also, these tools build in <b>DEBUG</b> mode. You should probably not then run <code>unittests</code> as you will get thousands of lines of debugging output from the tests that create large triangulations. (You could use <code>--gtest_filter</code> to run just the tests that you want.)</p>
 <p>One of the <a href="http://about.travis-ci.org/docs/user/getting-started/">Travis-CI</a> jobs runs <a href="http://valgrind.org/docs/manual/quick-start.html#quick-start.mcrun">Valgrind</a>; be sure to look at the results to ensure you're not leaking memory.</p>
 <h3>Contributing</h3>
@@ -147,7 +147,7 @@ $(function() {
 </div></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Apr 12 2017 23:14:31 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue May 2 2017 17:06:44 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>
