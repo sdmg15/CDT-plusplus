@@ -167,12 +167,12 @@ Functions</h2></td></tr>
 <tr class="memitem:a38f78f101db43d860c23c7410c41c45b"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="_utilities_8h.html#a38f78f101db43d860c23c7410c41c45b">generate_random_real</a> (const T min_value, const T max_value) noexcept</td></tr>
 <tr class="memdesc:a38f78f101db43d860c23c7410c41c45b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generate random real numbers.  <a href="#a38f78f101db43d860c23c7410c41c45b">More...</a><br /></td></tr>
 <tr class="separator:a38f78f101db43d860c23c7410c41c45b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7aeb61a8627c6db36f02014d960c661d"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_utilities_8h.html#a7aeb61a8627c6db36f02014d960c661d">generate_random_signed</a> (const intmax_t min_value, const intmax_t max_value) noexcept</td></tr>
+<tr class="memdesc:a7aeb61a8627c6db36f02014d960c661d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generate random integers.  <a href="#a7aeb61a8627c6db36f02014d960c661d">More...</a><br /></td></tr>
+<tr class="separator:a7aeb61a8627c6db36f02014d960c661d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7bb6e844b0d40e2baa7e63c14726645f"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_utilities_8h.html#a7bb6e844b0d40e2baa7e63c14726645f">generate_random_timeslice</a> (const unsigned max_timeslice) noexcept</td></tr>
 <tr class="memdesc:a7bb6e844b0d40e2baa7e63c14726645f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generate a random timeslice.  <a href="#a7bb6e844b0d40e2baa7e63c14726645f">More...</a><br /></td></tr>
 <tr class="separator:a7bb6e844b0d40e2baa7e63c14726645f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa36367e1a6ffe24ab0ad646587c3e433"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_utilities_8h.html#aa36367e1a6ffe24ab0ad646587c3e433">generate_random_unsigned</a> (const intmax_t min_value, const intmax_t max_value) noexcept</td></tr>
-<tr class="memdesc:aa36367e1a6ffe24ab0ad646587c3e433"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generate random integers.  <a href="#aa36367e1a6ffe24ab0ad646587c3e433">More...</a><br /></td></tr>
-<tr class="separator:aa36367e1a6ffe24ab0ad646587c3e433"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a454ed391397253f92f0f54b8930d7ec4"><td class="memItemLeft" align="right" valign="top">&lt; cstdlib/&gt; **which has a char *rvalue **param key The string value *return The environment variable corresponding to the key as a std::string *auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_utilities_8h.html#a454ed391397253f92f0f54b8930d7ec4">getEnvVar</a> (std::string const &amp;key) noexcept</td></tr>
 <tr class="memdesc:a454ed391397253f92f0f54b8930d7ec4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return an environment variable.  <a href="#a454ed391397253f92f0f54b8930d7ec4">More...</a><br /></td></tr>
 <tr class="separator:a454ed391397253f92f0f54b8930d7ec4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -238,7 +238,7 @@ Functions</h2></td></tr>
 <p><b>Auto</b> doesn't work here as a return type because <b>time_str</b> is a stack memory address.</p>
 <dl class="section return"><dt>Returns</dt><dd>The current data and time in a thread-safe manner using <b>localtime_r()</b> as a std::string. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_utilities_8h_source.html#l00078">78</a> of file <a class="el" href="_utilities_8h_source.html">Utilities.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_utilities_8h_source.html#l00086">86</a> of file <a class="el" href="_utilities_8h_source.html">Utilities.h</a>.</p>
 
 </div>
 </div>
@@ -301,7 +301,7 @@ Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The number of points per timeslice to obtain the desired number of simplices </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_utilities_8h_source.html#l00291">291</a> of file <a class="el" href="_utilities_8h_source.html">Utilities.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_utilities_8h_source.html#l00313">313</a> of file <a class="el" href="_utilities_8h_source.html">Utilities.h</a>.</p>
 
 </div>
 </div>
@@ -363,7 +363,7 @@ Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A filename as a std::string </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_utilities_8h_source.html#l00097">97</a> of file <a class="el" href="_utilities_8h_source.html">Utilities.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_utilities_8h_source.html#l00108">108</a> of file <a class="el" href="_utilities_8h_source.html">Utilities.h</a>.</p>
 
 </div>
 </div>
@@ -394,7 +394,7 @@ Functions</h2></td></tr>
 <p>This function generates a probability using <b><a class="el" href="_utilities_8h.html#a38f78f101db43d860c23c7410c41c45b" title="Generate random real numbers. ">generate_random_real()</a></b>.</p>
 <dl class="section return"><dt>Returns</dt><dd>A probability from 0 to 1 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_utilities_8h_source.html#l00271">271</a> of file <a class="el" href="_utilities_8h_source.html">Utilities.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_utilities_8h_source.html#l00292">292</a> of file <a class="el" href="_utilities_8h_source.html">Utilities.h</a>.</p>
 
 </div>
 </div>
@@ -451,12 +451,12 @@ template&lt;typename T &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A random real number between min_value and max_value, inclusive </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_utilities_8h_source.html#l00252">252</a> of file <a class="el" href="_utilities_8h_source.html">Utilities.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_utilities_8h_source.html#l00272">272</a> of file <a class="el" href="_utilities_8h_source.html">Utilities.h</a>.</p>
 
 </div>
 </div>
-<a id="a7bb6e844b0d40e2baa7e63c14726645f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7bb6e844b0d40e2baa7e63c14726645f">&#9670;&nbsp;</a></span>generate_random_timeslice()</h2>
+<a id="a7aeb61a8627c6db36f02014d960c661d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7aeb61a8627c6db36f02014d960c661d">&#9670;&nbsp;</a></span>generate_random_signed()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -465,45 +465,7 @@ template&lt;typename T &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">auto generate_random_timeslice </td>
-          <td>(</td>
-          <td class="paramtype">const unsigned&#160;</td>
-          <td class="paramname"><em>max_timeslice</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Generate a random timeslice. </p>
-<p>This function generates a random timeslice using <b><a class="el" href="_utilities_8h.html#aa36367e1a6ffe24ab0ad646587c3e433" title="Generate random integers. ">generate_random_unsigned()</a></b>. Timeslices go from 1 to max_timeslice.</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">max_timeslice</td><td>The maximum timeslice </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>A random timeslice from 1 to max_timeslice </dd></dl>
-
-<p class="definition">Definition at line <a class="el" href="_utilities_8h_source.html#l00235">235</a> of file <a class="el" href="_utilities_8h_source.html">Utilities.h</a>.</p>
-
-</div>
-</div>
-<a id="aa36367e1a6ffe24ab0ad646587c3e433"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa36367e1a6ffe24ab0ad646587c3e433">&#9670;&nbsp;</a></span>generate_random_unsigned()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">auto generate_random_unsigned </td>
+          <td class="memname">auto generate_random_signed </td>
           <td>(</td>
           <td class="paramtype">const intmax_t&#160;</td>
           <td class="paramname"><em>min_value</em>, </td>
@@ -538,7 +500,45 @@ template&lt;typename T &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A random integer between min_value and max_value </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_utilities_8h_source.html#l00211">211</a> of file <a class="el" href="_utilities_8h_source.html">Utilities.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_utilities_8h_source.html#l00229">229</a> of file <a class="el" href="_utilities_8h_source.html">Utilities.h</a>.</p>
+
+</div>
+</div>
+<a id="a7bb6e844b0d40e2baa7e63c14726645f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7bb6e844b0d40e2baa7e63c14726645f">&#9670;&nbsp;</a></span>generate_random_timeslice()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto generate_random_timeslice </td>
+          <td>(</td>
+          <td class="paramtype">const unsigned&#160;</td>
+          <td class="paramname"><em>max_timeslice</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Generate a random timeslice. </p>
+<p>This function generates a random timeslice using <b>generate_random_unsigned()</b>. Timeslices go from 1 to max_timeslice.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">max_timeslice</td><td>The maximum timeslice </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A random timeslice from 1 to max_timeslice </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="_utilities_8h_source.html#l00254">254</a> of file <a class="el" href="_utilities_8h_source.html">Utilities.h</a>.</p>
 
 </div>
 </div>
@@ -569,7 +569,7 @@ template&lt;typename T &gt; </div>
 <p>Return an environment variable. </p>
 <p>Uses <b>getenv</b> from </p>
 
-<p class="definition">Definition at line <a class="el" href="_utilities_8h_source.html#l00053">53</a> of file <a class="el" href="_utilities_8h_source.html">Utilities.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_utilities_8h_source.html#l00057">57</a> of file <a class="el" href="_utilities_8h_source.html">Utilities.h</a>.</p>
 
 </div>
 </div>
@@ -607,7 +607,7 @@ template&lt;typename T &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The double version </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_utilities_8h_source.html#l00328">328</a> of file <a class="el" href="_utilities_8h_source.html">Utilities.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_utilities_8h_source.html#l00362">362</a> of file <a class="el" href="_utilities_8h_source.html">Utilities.h</a>.</p>
 
 </div>
 </div>
@@ -638,7 +638,7 @@ template&lt;typename T &gt; </div>
 <p><b>auto</b> doesn't work here as a return type because <b>name.nodename</b> is a stack memory address.</p>
 <dl class="section return"><dt>Returns</dt><dd>The hostname as a std::string </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_utilities_8h_source.html#l00064">64</a> of file <a class="el" href="_utilities_8h_source.html">Utilities.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_utilities_8h_source.html#l00069">69</a> of file <a class="el" href="_utilities_8h_source.html">Utilities.h</a>.</p>
 
 </div>
 </div>
@@ -693,7 +693,7 @@ template&lt;typename T &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>True if arg lies within [lower, upper] </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_utilities_8h_source.html#l00337">337</a> of file <a class="el" href="_utilities_8h_source.html">Utilities.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_utilities_8h_source.html#l00371">371</a> of file <a class="el" href="_utilities_8h_source.html">Utilities.h</a>.</p>
 
 </div>
 </div>
@@ -738,7 +738,7 @@ template&lt;typename T &gt; </div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="_utilities_8h_source.html#l00141">141</a> of file <a class="el" href="_utilities_8h_source.html">Utilities.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_utilities_8h_source.html#l00156">156</a> of file <a class="el" href="_utilities_8h_source.html">Utilities.h</a>.</p>
 
 </div>
 </div>
@@ -795,7 +795,7 @@ template&lt;typename T1 , typename T2 &gt; </div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="_utilities_8h_source.html#l00160">160</a> of file <a class="el" href="_utilities_8h_source.html">Utilities.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_utilities_8h_source.html#l00176">176</a> of file <a class="el" href="_utilities_8h_source.html">Utilities.h</a>.</p>
 
 </div>
 </div>
@@ -864,14 +864,14 @@ template&lt;typename T &gt; </div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="_utilities_8h_source.html#l00180">180</a> of file <a class="el" href="_utilities_8h_source.html">Utilities.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_utilities_8h_source.html#l00197">197</a> of file <a class="el" href="_utilities_8h_source.html">Utilities.h</a>.</p>
 
 </div>
 </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue May 2 2017 17:06:44 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat May 20 2017 18:41:32 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>
