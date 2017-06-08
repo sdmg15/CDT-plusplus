@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['facet',['Facet',['../_simplicial_manifold_8h.html#ad93c2ac3e569f3ccced1f37f6500d600',1,'SimplicialManifold.h']]]
+  ['gmpzf',['Gmpzf',['../_s3_action_8h.html#ab09035cfa5e10fa4ee88d95ef5fa7ac5',1,'S3Action.h']]]
 ];
