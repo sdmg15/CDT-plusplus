@@ -1,8 +1,9 @@
 <map id="src/S3ErgodicMoves.h" name="src/S3ErgodicMoves.h">
 <area shape="rect" id="node2" href="$_metropolis_8h.html" title="Perform Metropolis&#45;Hastings algorithm on Delaunay Triangulations. " alt="" coords="123,85,239,111"/>
 <area shape="rect" id="node6" href="$_function_ref_test_8cpp.html" title="Tests for Function_ref.h. " alt="" coords="263,85,459,111"/>
-<area shape="rect" id="node7" href="$_move_manager_test_8cpp.html" title="Tests for the MoveManager RAII class. " alt="" coords="483,85,693,111"/>
-<area shape="rect" id="node8" href="$_s3_ergodic_moves_test_8cpp.html" title="Tests for S3 ergodic moves. " alt="" coords="716,79,891,117"/>
+<area shape="rect" id="node7" href="$_measurements_test_8cpp.html" title="Tests for the various measurement functions. " alt="" coords="483,85,695,111"/>
+<area shape="rect" id="node8" href="$_move_manager_test_8cpp.html" title="Tests for the MoveManager RAII class. " alt="" coords="719,85,929,111"/>
+<area shape="rect" id="node9" href="$_s3_ergodic_moves_test_8cpp.html" title="Tests for S3 ergodic moves. " alt="" coords="952,79,1127,117"/>
 <area shape="rect" id="node3" href="$cdt-opt_8cpp.html" title="Outputs values to determine optimizations. " alt="" coords="5,165,114,191"/>
 <area shape="rect" id="node4" href="$cdt_8cpp.html" title="The main executable. " alt="" coords="138,165,224,191"/>
 <area shape="rect" id="node5" href="$_metropolis_test_8cpp.html" title="Tests for the Metropolis&#45;Hastings algorithm. " alt="" coords="248,165,434,191"/>

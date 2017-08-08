@@ -11,5 +11,6 @@ var searchData=
   ['classify_5fsimplices',['classify_simplices',['../_s3_triangulation_8h.html#a6eae5e81fbc86f691083957d5f7aa96d',1,'S3Triangulation.h']]],
   ['command',['Command',['../classdocopt_1_1_command.html',1,'docopt']]],
   ['currentdatetime',['currentDateTime',['../_utilities_8h.html#a3e7e7bf45c802195fdf84da5707763bc',1,'Utilities.h']]],
-  ['cdt_2dplusplus',['CDT-plusplus',['../index.html',1,'']]]
+  ['cdt_2dplusplus',['CDT-plusplus',['../index.html',1,'']]],
+  ['contributor_20covenant_20code_20of_20conduct',['Contributor Covenant Code of Conduct',['../md__c_o_d_e__o_f__c_o_n_d_u_c_t.html',1,'']]]
 ];
