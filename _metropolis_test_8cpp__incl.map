@@ -1,11 +1,11 @@
 <map id="unittests/MetropolisTest.cpp" name="unittests/MetropolisTest.cpp">
-<area shape="rect" id="node6" href="$_metropolis_8h.html" title="Perform Metropolis&#45;Hastings algorithm on Delaunay Triangulations. " alt="" coords="1926,79,2020,104"/>
-<area shape="rect" id="node7" href="$_measurements_8h.html" title="Measurements of the simulation. " alt="" coords="1659,152,1780,177"/>
-<area shape="rect" id="node33" href="$_move_manager_8h.html" title="RAII class to manage exception&#45;safe foliation&#45;preserving Pachner moves. " alt="" coords="1864,152,1981,177"/>
-<area shape="rect" id="node36" href="$_s3_action_8h.html" title="Calculate S3 bulk actions on 3D Delaunay Triangulations. " alt="" coords="1186,152,1272,177"/>
-<area shape="rect" id="node39" href="$_s3_ergodic_moves_8h.html" title="Pachner moves on 3D Delaunay Triangulations. " alt="" coords="953,225,1086,251"/>
-<area shape="rect" id="node8" href="$_simplicial_manifold_8h.html" title="Data structures for simplicial manifolds. " alt="" coords="1590,225,1729,251"/>
-<area shape="rect" id="node9" href="$_s3_triangulation_8h.html" title="Functions on 3D Spherical Delaunay Triangulations. " alt="" coords="1069,299,1194,324"/>
-<area shape="rect" id="node21" href="$_utilities_8h.html" title="Utility functions. " alt="" coords="1282,385,1358,411"/>
-<area shape="rect" id="node35" href="$_function__ref_8h.html" title="Efficient, type&#45;erasing, non&#45;owning function reference. " alt="" coords="2213,225,2320,251"/>
+<area shape="rect" id="node6" href="$_metropolis_8h.html" title="Perform Metropolis&#45;Hastings algorithm on Delaunay Triangulations. " alt="" coords="1781,79,1875,104"/>
+<area shape="rect" id="node7" href="$_measurements_8h.html" title="Measurements of the simulation. " alt="" coords="1514,152,1635,177"/>
+<area shape="rect" id="node32" href="$_move_manager_8h.html" title="RAII class to manage exception&#45;safe foliation&#45;preserving Pachner moves. " alt="" coords="1719,152,1836,177"/>
+<area shape="rect" id="node35" href="$_s3_action_8h.html" title="Calculate S3 bulk actions on 3D Delaunay Triangulations. " alt="" coords="1042,152,1128,177"/>
+<area shape="rect" id="node38" href="$_s3_ergodic_moves_8h.html" title="Pachner moves on 3D Delaunay Triangulations. " alt="" coords="808,225,941,251"/>
+<area shape="rect" id="node8" href="$_simplicial_manifold_8h.html" title="Data structures for simplicial manifolds. " alt="" coords="1445,225,1584,251"/>
+<area shape="rect" id="node9" href="$_s3_triangulation_8h.html" title="Functions on 3D Spherical Delaunay Triangulations. " alt="" coords="924,299,1049,324"/>
+<area shape="rect" id="node20" href="$_utilities_8h.html" title="Utility functions. " alt="" coords="847,385,923,411"/>
+<area shape="rect" id="node34" href="$_function__ref_8h.html" title="Efficient, type&#45;erasing, non&#45;owning function reference. " alt="" coords="2068,225,2174,251"/>
 </map>
