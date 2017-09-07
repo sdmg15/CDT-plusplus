@@ -1,0 +1,4 @@
+<map id="islamic::month_day" name="islamic::month_day">
+<area shape="rect" id="node2" href="$classislamic_1_1month.html" title="{islamic::month\n|&#45; m_\l|+ month()\l+ ok()\l+ operator unsigned()\l+ operator++()\l+ operator++()\l+ operator+=()\l+ operator&#45;&#45;()\l+ operator&#45;&#45;()\l+ operator&#45;=()\l}" alt="" coords="5,5,155,185"/>
+<area shape="rect" id="node3" href="$classislamic_1_1day.html" title="{islamic::day\n|&#45; d_\l|+ day()\l+ ok()\l+ operator unsigned()\l+ operator++()\l+ operator++()\l+ operator+=()\l+ operator&#45;&#45;()\l+ operator&#45;&#45;()\l+ operator&#45;=()\l}" alt="" coords="179,5,328,185"/>
+</map>

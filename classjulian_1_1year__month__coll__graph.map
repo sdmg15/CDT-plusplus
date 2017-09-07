@@ -1,0 +1,4 @@
+<map id="julian::year_month" name="julian::year_month">
+<area shape="rect" id="node2" href="$classjulian_1_1month.html" title="{julian::month\n|&#45; m_\l|+ month()\l+ ok()\l+ operator unsigned()\l+ operator++()\l+ operator++()\l+ operator+=()\l+ operator&#45;&#45;()\l+ operator&#45;&#45;()\l+ operator&#45;=()\l}" alt="" coords="5,25,155,205"/>
+<area shape="rect" id="node3" href="$classjulian_1_1year.html" title="{julian::year\n|&#45; y_\l|+ year()\l+ is_leap()\l+ ok()\l+ operator int()\l+ operator++()\l+ operator++()\l+ operator+=()\l+ operator&#45;&#45;()\l+ operator&#45;&#45;()\l+ operator&#45;=()\l+ max()\l+ min()\l}" alt="" coords="179,5,288,225"/>
+</map>

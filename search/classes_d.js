@@ -1,7 +1,8 @@
 var searchData=
 [
-  ['s3actiontest',['S3ActionTest',['../class_s3_action_test.html',1,'']]],
-  ['s3ergodicmovetest',['S3ErgodicMoveTest',['../class_s3_ergodic_move_test.html',1,'']]],
-  ['simplicialmanifold',['SimplicialManifold',['../struct_simplicial_manifold.html',1,'']]],
-  ['simulation',['Simulation',['../struct_simulation.html',1,'']]]
+  ['required',['Required',['../classdocopt_1_1_required.html',1,'docopt']]],
+  ['rld',['rld',['../structdate_1_1detail_1_1rld.html',1,'date::detail']]],
+  ['rs',['rs',['../structdate_1_1detail_1_1rs.html',1,'date::detail']]],
+  ['ru',['ru',['../structdate_1_1detail_1_1ru.html',1,'date::detail']]],
+  ['rule',['Rule',['../classdate_1_1detail_1_1_rule.html',1,'date::detail']]]
 ];

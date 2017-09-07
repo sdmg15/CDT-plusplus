@@ -1,0 +1,6 @@
+<map id="date::detail::MonthDayTime::pair" name="date::detail::MonthDayTime::pair">
+<area shape="rect" id="node2" href="$classdate_1_1month__day.html" title="{date::month_day\n||+ month_day()\l+ month_day()\l+ day()\l+ month()\l+ ok()\l}" alt="" coords="106,327,227,453"/>
+<area shape="rect" id="node3" href="$classdate_1_1day.html" title="{date::day\n|&#45; d_\l|+ day()\l+ day()\l+ ok()\l+ operator unsigned()\l+ operator++()\l+ operator++()\l+ operator+=()\l+ operator&#45;&#45;()\l+ operator&#45;&#45;()\l+ operator&#45;=()\l}" alt="" coords="5,5,155,199"/>
+<area shape="rect" id="node4" href="$classdate_1_1month.html" title="{date::month\n|&#45; m_\l|+ month()\l+ month()\l+ ok()\l+ operator unsigned()\l+ operator++()\l+ operator++()\l+ operator+=()\l+ operator&#45;&#45;()\l+ operator&#45;&#45;()\l+ operator&#45;=()\l}" alt="" coords="179,5,328,199"/>
+<area shape="rect" id="node5" href="$classdate_1_1weekday.html" title="{date::weekday\n|&#45; wd_\l|+ weekday()\l+ weekday()\l+ weekday()\l+ weekday()\l+ ok()\l+ operator unsigned()\l+ operator++()\l+ operator++()\l+ operator+=()\l+ operator&#45;&#45;()\l+ operator&#45;&#45;()\l+ operator&#45;=()\l+ operator[]()\l+ operator[]()\l&#45; weekday_from_days()\l}" alt="" coords="250,260,411,520"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="iso_week::year_weeknum" name="iso_week::year_weeknum">
+<area shape="rect" id="node2" href="$classiso__week_1_1weeknum.html" title="{iso_week::weeknum\n|&#45; wn_\l|+ weeknum()\l+ ok()\l+ operator unsigned()\l+ operator++()\l+ operator++()\l+ operator+=()\l+ operator&#45;&#45;()\l+ operator&#45;&#45;()\l+ operator&#45;=()\l}" alt="" coords="5,19,155,199"/>
+<area shape="rect" id="node3" href="$classiso__week_1_1year.html" title="{iso_week::year\n|&#45; y_\l|+ year()\l+ ok()\l+ operator int()\l+ operator++()\l+ operator++()\l+ operator+=()\l+ operator&#45;&#45;()\l+ operator&#45;&#45;()\l+ operator&#45;=()\l+ max()\l+ min()\l}" alt="" coords="178,5,288,212"/>
+</map>

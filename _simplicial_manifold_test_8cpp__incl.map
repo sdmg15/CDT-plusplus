@@ -1,6 +1,8 @@
 <map id="unittests/SimplicialManifoldTest.cpp" name="unittests/SimplicialManifoldTest.cpp">
-<area shape="rect" id="node4" href="$_measurements_8h.html" title="Measurements of the simulation. " alt="" coords="1678,92,1798,117"/>
-<area shape="rect" id="node5" href="$_simplicial_manifold_8h.html" title="Data structures for simplicial manifolds. " alt="" coords="1556,165,1696,191"/>
-<area shape="rect" id="node6" href="$_s3_triangulation_8h.html" title="Functions on 3D Spherical Delaunay Triangulations. " alt="" coords="1413,239,1538,264"/>
-<area shape="rect" id="node18" href="$_utilities_8h.html" title="Utility functions. " alt="" coords="444,325,520,351"/>
+<area shape="rect" id="node4" href="$_measurements_8h.html" title="Measurements of the simulation. " alt="" coords="1816,92,1936,117"/>
+<area shape="rect" id="node5" href="$_simplicial_manifold_8h.html" title="Data structures for simplicial manifolds. " alt="" coords="1642,165,1782,191"/>
+<area shape="rect" id="node6" href="$_s3_triangulation_8h.html" title="Functions on 3D Spherical Delaunay Triangulations. " alt="" coords="1196,239,1321,264"/>
+<area shape="rect" id="node18" href="$_utilities_8h.html" title="Utility functions. " alt="" coords="1300,325,1375,351"/>
+<area shape="rect" id="node28" href="$tz_8h_source.html" title="date/tz.h" alt="" coords="718,412,791,437"/>
+<area shape="rect" id="node29" href="$date_8h_source.html" title="date.h" alt="" coords="959,485,1017,511"/>
 </map>

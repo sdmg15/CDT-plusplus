@@ -91,11 +91,14 @@ $(function() {
 <code>#include &lt;stdexcept&gt;</code><br />
 <code>#include &lt;string&gt;</code><br />
 <code>#include &lt;typeindex&gt;</code><br />
+<code>#include &quot;date/tz.h&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for Utilities.h:</div>
 <div class="dyncontent">
 <div class="center"><img src="_utilities_8h__incl.png" border="0" usemap="#src_2_utilities_8h" alt=""/></div>
 <map name="src_2_utilities_8h" id="src_2_utilities_8h">
+<area shape="rect" id="node12" href="tz_8h_source.html" title="date/tz.h" alt="" coords="1002,79,1075,104"/>
+<area shape="rect" id="node13" href="date_8h_source.html" title="date.h" alt="" coords="943,152,1001,177"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
@@ -151,9 +154,9 @@ Enumerations</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a3e7e7bf45c802195fdf84da5707763bc"><td class="memItemLeft" align="right" valign="top">const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_utilities_8h.html#a3e7e7bf45c802195fdf84da5707763bc">currentDateTime</a> () noexcept</td></tr>
-<tr class="memdesc:a3e7e7bf45c802195fdf84da5707763bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the current date and time.  <a href="#a3e7e7bf45c802195fdf84da5707763bc">More...</a><br /></td></tr>
-<tr class="separator:a3e7e7bf45c802195fdf84da5707763bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa46369f3c8adbff876c82270346fffa2"><td class="memItemLeft" align="right" valign="top">const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_utilities_8h.html#aa46369f3c8adbff876c82270346fffa2">currentDateTime</a> ()</td></tr>
+<tr class="memdesc:aa46369f3c8adbff876c82270346fffa2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return current date and time.  <a href="#aa46369f3c8adbff876c82270346fffa2">More...</a><br /></td></tr>
+<tr class="separator:aa46369f3c8adbff876c82270346fffa2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a57d46d37099d671ba7eaf5ff20e464e7"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_utilities_8h.html#a57d46d37099d671ba7eaf5ff20e464e7">expected_points_per_simplex</a> (const int dimension, const std::intmax_t simplices, const std::intmax_t timeslices, const bool output=true)</td></tr>
 <tr class="memdesc:a57d46d37099d671ba7eaf5ff20e464e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate expected # of points per simplex.  <a href="#a57d46d37099d671ba7eaf5ff20e464e7">More...</a><br /></td></tr>
 <tr class="separator:a57d46d37099d671ba7eaf5ff20e464e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -211,8 +214,8 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition in file <a class="el" href="_utilities_8h_source.html">Utilities.h</a>.</p>
 </div><h2 class="groupheader">Function Documentation</h2>
-<a id="a3e7e7bf45c802195fdf84da5707763bc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3e7e7bf45c802195fdf84da5707763bc">&#9670;&nbsp;</a></span>currentDateTime()</h2>
+<a id="aa46369f3c8adbff876c82270346fffa2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa46369f3c8adbff876c82270346fffa2">&#9670;&nbsp;</a></span>currentDateTime()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -229,16 +232,16 @@ Functions</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Return the current date and time. </p>
-<p><b>Auto</b> doesn't work here as a return type because <b>time_str</b> is a stack memory address.</p>
-<dl class="section return"><dt>Returns</dt><dd>The current data and time in a thread-safe manner using <b>localtime_r()</b> as a std::string. </dd></dl>
+<p>Return current date and time. </p>
+<p>Use's Howard Hinnant's C++11/14 data and time library and Time Zone Database Parser Visit <a href="https://github.com/HowardHinnant/date">https://github.com/HowardHinnant/date</a></p>
+<dl class="section return"><dt>Returns</dt><dd>A formatted string with the system local time </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_utilities_8h_source.html#l00086">86</a> of file <a class="el" href="_utilities_8h_source.html">Utilities.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_utilities_8h_source.html#l00092">92</a> of file <a class="el" href="_utilities_8h_source.html">Utilities.h</a>.</p>
 
 </div>
 </div>
@@ -301,7 +304,7 @@ Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The number of points per timeslice to obtain the desired number of simplices </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_utilities_8h_source.html#l00313">313</a> of file <a class="el" href="_utilities_8h_source.html">Utilities.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_utilities_8h_source.html#l00312">312</a> of file <a class="el" href="_utilities_8h_source.html">Utilities.h</a>.</p>
 
 </div>
 </div>
@@ -363,7 +366,7 @@ Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A filename as a std::string </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_utilities_8h_source.html#l00108">108</a> of file <a class="el" href="_utilities_8h_source.html">Utilities.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_utilities_8h_source.html#l00107">107</a> of file <a class="el" href="_utilities_8h_source.html">Utilities.h</a>.</p>
 
 </div>
 </div>
@@ -394,7 +397,7 @@ Functions</h2></td></tr>
 <p>This function generates a probability using <b><a class="el" href="_utilities_8h.html#a38f78f101db43d860c23c7410c41c45b" title="Generate random real numbers. ">generate_random_real()</a></b>.</p>
 <dl class="section return"><dt>Returns</dt><dd>A probability from 0 to 1 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_utilities_8h_source.html#l00292">292</a> of file <a class="el" href="_utilities_8h_source.html">Utilities.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_utilities_8h_source.html#l00291">291</a> of file <a class="el" href="_utilities_8h_source.html">Utilities.h</a>.</p>
 
 </div>
 </div>
@@ -451,7 +454,7 @@ template&lt;typename T &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A random real number between min_value and max_value, inclusive </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_utilities_8h_source.html#l00272">272</a> of file <a class="el" href="_utilities_8h_source.html">Utilities.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_utilities_8h_source.html#l00271">271</a> of file <a class="el" href="_utilities_8h_source.html">Utilities.h</a>.</p>
 
 </div>
 </div>
@@ -500,7 +503,7 @@ template&lt;typename T &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A random integer between min_value and max_value </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_utilities_8h_source.html#l00229">229</a> of file <a class="el" href="_utilities_8h_source.html">Utilities.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_utilities_8h_source.html#l00228">228</a> of file <a class="el" href="_utilities_8h_source.html">Utilities.h</a>.</p>
 
 </div>
 </div>
@@ -538,7 +541,7 @@ template&lt;typename T &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A random timeslice from 1 to max_timeslice </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_utilities_8h_source.html#l00254">254</a> of file <a class="el" href="_utilities_8h_source.html">Utilities.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_utilities_8h_source.html#l00253">253</a> of file <a class="el" href="_utilities_8h_source.html">Utilities.h</a>.</p>
 
 </div>
 </div>
@@ -569,7 +572,7 @@ template&lt;typename T &gt; </div>
 <p>Return an environment variable. </p>
 <p>Uses <b>getenv</b> from </p>
 
-<p class="definition">Definition at line <a class="el" href="_utilities_8h_source.html#l00057">57</a> of file <a class="el" href="_utilities_8h_source.html">Utilities.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_utilities_8h_source.html#l00059">59</a> of file <a class="el" href="_utilities_8h_source.html">Utilities.h</a>.</p>
 
 </div>
 </div>
@@ -607,7 +610,7 @@ template&lt;typename T &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The double version </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_utilities_8h_source.html#l00362">362</a> of file <a class="el" href="_utilities_8h_source.html">Utilities.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_utilities_8h_source.html#l00361">361</a> of file <a class="el" href="_utilities_8h_source.html">Utilities.h</a>.</p>
 
 </div>
 </div>
@@ -638,7 +641,7 @@ template&lt;typename T &gt; </div>
 <p><b>auto</b> doesn't work here as a return type because <b>name.nodename</b> is a stack memory address.</p>
 <dl class="section return"><dt>Returns</dt><dd>The hostname as a std::string </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_utilities_8h_source.html#l00069">69</a> of file <a class="el" href="_utilities_8h_source.html">Utilities.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_utilities_8h_source.html#l00071">71</a> of file <a class="el" href="_utilities_8h_source.html">Utilities.h</a>.</p>
 
 </div>
 </div>
@@ -693,7 +696,7 @@ template&lt;typename T &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>True if arg lies within [lower, upper] </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_utilities_8h_source.html#l00371">371</a> of file <a class="el" href="_utilities_8h_source.html">Utilities.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_utilities_8h_source.html#l00370">370</a> of file <a class="el" href="_utilities_8h_source.html">Utilities.h</a>.</p>
 
 </div>
 </div>
@@ -738,7 +741,7 @@ template&lt;typename T &gt; </div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="_utilities_8h_source.html#l00156">156</a> of file <a class="el" href="_utilities_8h_source.html">Utilities.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_utilities_8h_source.html#l00155">155</a> of file <a class="el" href="_utilities_8h_source.html">Utilities.h</a>.</p>
 
 </div>
 </div>
@@ -795,7 +798,7 @@ template&lt;typename T1 , typename T2 &gt; </div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="_utilities_8h_source.html#l00176">176</a> of file <a class="el" href="_utilities_8h_source.html">Utilities.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_utilities_8h_source.html#l00175">175</a> of file <a class="el" href="_utilities_8h_source.html">Utilities.h</a>.</p>
 
 </div>
 </div>
@@ -864,14 +867,14 @@ template&lt;typename T &gt; </div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="_utilities_8h_source.html#l00197">197</a> of file <a class="el" href="_utilities_8h_source.html">Utilities.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_utilities_8h_source.html#l00196">196</a> of file <a class="el" href="_utilities_8h_source.html">Utilities.h</a>.</p>
 
 </div>
 </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Aug 21 2017 22:09:08 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Sep 7 2017 08:29:39 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

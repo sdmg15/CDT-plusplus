@@ -1,0 +1,4 @@
+<map id="iso_week::year_lastweek_weekday" name="iso_week::year_lastweek_weekday">
+<area shape="rect" id="node2" href="$classiso__week_1_1weekday.html" title="{iso_week::weekday\n|&#45; wd_\l|+ weekday()\l+ weekday()\l+ weekday()\l+ weekday()\l+ weekday()\l+ ok()\l+ operator date::weekday()\l+ operator unsigned()\l+ operator++()\l+ operator++()\l+ operator+=()\l+ operator&#45;&#45;()\l+ operator&#45;&#45;()\l+ operator&#45;=()\l&#45; from_iso_encoding()\l&#45; to_iso_encoding()\l&#45; weekday_from_days()\l}" alt="" coords="5,5,186,292"/>
+<area shape="rect" id="node3" href="$classiso__week_1_1year.html" title="{iso_week::year\n|&#45; y_\l|+ year()\l+ ok()\l+ operator int()\l+ operator++()\l+ operator++()\l+ operator+=()\l+ operator&#45;&#45;()\l+ operator&#45;&#45;()\l+ operator&#45;=()\l+ max()\l+ min()\l}" alt="" coords="210,45,320,252"/>
+</map>

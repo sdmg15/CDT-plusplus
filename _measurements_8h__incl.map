@@ -1,5 +1,7 @@
 <map id="src/Measurements.h" name="src/Measurements.h">
-<area shape="rect" id="node2" href="$_simplicial_manifold_8h.html" title="Data structures for simplicial manifolds. " alt="" coords="646,79,785,104"/>
-<area shape="rect" id="node3" href="$_s3_triangulation_8h.html" title="Functions on 3D Spherical Delaunay Triangulations. " alt="" coords="653,152,778,177"/>
-<area shape="rect" id="node16" href="$_utilities_8h.html" title="Utility functions. " alt="" coords="439,239,514,264"/>
+<area shape="rect" id="node2" href="$_simplicial_manifold_8h.html" title="Data structures for simplicial manifolds. " alt="" coords="1261,79,1400,104"/>
+<area shape="rect" id="node3" href="$_s3_triangulation_8h.html" title="Functions on 3D Spherical Delaunay Triangulations. " alt="" coords="1111,152,1236,177"/>
+<area shape="rect" id="node16" href="$_utilities_8h.html" title="Utility functions. " alt="" coords="474,239,550,264"/>
+<area shape="rect" id="node26" href="$tz_8h_source.html" title="date/tz.h" alt="" coords="400,325,472,351"/>
+<area shape="rect" id="node27" href="$date_8h_source.html" title="date.h" alt="" coords="895,399,953,424"/>
 </map>
