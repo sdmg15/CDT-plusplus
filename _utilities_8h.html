@@ -84,6 +84,7 @@ $(function() {
 <div class="textblock"><code>#include &lt;CGAL/Gmpzf.h&gt;</code><br />
 <code>#include &lt;CGAL/Timer.h&gt;</code><br />
 <code>#include &lt;sys/utsname.h&gt;</code><br />
+<code>#include &lt;cstdlib&gt;</code><br />
 <code>#include &lt;fstream&gt;</code><br />
 <code>#include &lt;iostream&gt;</code><br />
 <code>#include &lt;mutex&gt;</code><br />
@@ -97,8 +98,8 @@ Include dependency graph for Utilities.h:</div>
 <div class="dyncontent">
 <div class="center"><img src="_utilities_8h__incl.png" border="0" usemap="#src_2_utilities_8h" alt=""/></div>
 <map name="src_2_utilities_8h" id="src_2_utilities_8h">
-<area shape="rect" id="node12" href="tz_8h_source.html" title="date/tz.h" alt="" coords="1002,79,1075,104"/>
-<area shape="rect" id="node13" href="date_8h_source.html" title="date.h" alt="" coords="943,152,1001,177"/>
+<area shape="rect" id="node13" href="tz_8h_source.html" title="date/tz.h" alt="" coords="1317,79,1389,104"/>
+<area shape="rect" id="node14" href="date_8h_source.html" title="date.h" alt="" coords="1207,152,1265,177"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
@@ -176,9 +177,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a7bb6e844b0d40e2baa7e63c14726645f"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_utilities_8h.html#a7bb6e844b0d40e2baa7e63c14726645f">generate_random_timeslice</a> (const unsigned max_timeslice) noexcept</td></tr>
 <tr class="memdesc:a7bb6e844b0d40e2baa7e63c14726645f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generate a random timeslice.  <a href="#a7bb6e844b0d40e2baa7e63c14726645f">More...</a><br /></td></tr>
 <tr class="separator:a7bb6e844b0d40e2baa7e63c14726645f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a454ed391397253f92f0f54b8930d7ec4"><td class="memItemLeft" align="right" valign="top">&lt; cstdlib/&gt; **which has a char *rvalue **param key The string value *return The environment variable corresponding to the key as a std::string *auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_utilities_8h.html#a454ed391397253f92f0f54b8930d7ec4">getEnvVar</a> (std::string const &amp;key) noexcept</td></tr>
-<tr class="memdesc:a454ed391397253f92f0f54b8930d7ec4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return an environment variable.  <a href="#a454ed391397253f92f0f54b8930d7ec4">More...</a><br /></td></tr>
-<tr class="separator:a454ed391397253f92f0f54b8930d7ec4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b0fa0942c91c21970824df135948a77"><td class="memItemLeft" align="right" valign="top">&lt; cstdlib/&gt; **which has a char *rvalue **param key The string value *return The environment variable corresponding to the key *auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_utilities_8h.html#a2b0fa0942c91c21970824df135948a77">getEnvVar</a> (std::string const &amp;key) noexcept</td></tr>
+<tr class="memdesc:a2b0fa0942c91c21970824df135948a77"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return an environment variable.  <a href="#a2b0fa0942c91c21970824df135948a77">More...</a><br /></td></tr>
+<tr class="separator:a2b0fa0942c91c21970824df135948a77"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae44ced243bfedecb2716c8a8f1db5255"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_utilities_8h.html#ae44ced243bfedecb2716c8a8f1db5255">Gmpzf_to_double</a> (const <a class="el" href="_s3_action_8h.html#ab09035cfa5e10fa4ee88d95ef5fa7ac5">Gmpzf</a> &amp;value)</td></tr>
 <tr class="memdesc:ae44ced243bfedecb2716c8a8f1db5255"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert Gmpzf into a double.  <a href="#ae44ced243bfedecb2716c8a8f1db5255">More...</a><br /></td></tr>
 <tr class="separator:ae44ced243bfedecb2716c8a8f1db5255"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -206,7 +207,7 @@ Functions</h2></td></tr>
 <div class="textblock"><p>Utility functions. </p>
 <p>Causal Dynamical Triangulations in C++ using CGAL</p>
 <p>Copyright © 2013-2017 Adam Getchell</p>
-<p>Utility functions for <a class="el" href="cdt_8cpp.html" title="The main executable. ">cdt.cpp</a> </p><dl class="done"><dt><b><a class="el" href="done.html#_done000009">Implemented To-do's:</a></b></dt><dd><p class="startdd"><a href="http://www.cprogramming.com/tutorial/const_correctness.html">Const Correctness</a> </p>
+<p>Utility functions </p><dl class="done"><dt><b><a class="el" href="done.html#_done000009">Implemented To-do's:</a></b></dt><dd><p class="startdd"><a href="http://www.cprogramming.com/tutorial/const_correctness.html">Const Correctness</a> </p>
 <p class="enddd">Use localtime_r() for thread safety </p>
 </dd></dl>
 <dl class="section author"><dt>Author</dt><dd>Adam Getchell </dd></dl>
@@ -238,10 +239,10 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Return current date and time. </p>
-<p>Use's Howard Hinnant's C++11/14 data and time library and Time Zone Database Parser Visit <a href="https://github.com/HowardHinnant/date">https://github.com/HowardHinnant/date</a></p>
+<p>Use's Howard Hinnant's C++11/14 data and time library and Time Zone Database Parser. <a href="https://github.com/HowardHinnant/date">https://github.com/HowardHinnant/date</a></p>
 <dl class="section return"><dt>Returns</dt><dd>A formatted string with the system local time </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_utilities_8h_source.html#l00092">92</a> of file <a class="el" href="_utilities_8h_source.html">Utilities.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_utilities_8h_source.html#l00095">95</a> of file <a class="el" href="_utilities_8h_source.html">Utilities.h</a>.</p>
 
 </div>
 </div>
@@ -304,7 +305,7 @@ Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The number of points per timeslice to obtain the desired number of simplices </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_utilities_8h_source.html#l00312">312</a> of file <a class="el" href="_utilities_8h_source.html">Utilities.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_utilities_8h_source.html#l00315">315</a> of file <a class="el" href="_utilities_8h_source.html">Utilities.h</a>.</p>
 
 </div>
 </div>
@@ -364,9 +365,9 @@ Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>A filename as a std::string </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>A filename </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_utilities_8h_source.html#l00107">107</a> of file <a class="el" href="_utilities_8h_source.html">Utilities.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_utilities_8h_source.html#l00109">109</a> of file <a class="el" href="_utilities_8h_source.html">Utilities.h</a>.</p>
 
 </div>
 </div>
@@ -397,7 +398,7 @@ Functions</h2></td></tr>
 <p>This function generates a probability using <b><a class="el" href="_utilities_8h.html#a38f78f101db43d860c23c7410c41c45b" title="Generate random real numbers. ">generate_random_real()</a></b>.</p>
 <dl class="section return"><dt>Returns</dt><dd>A probability from 0 to 1 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_utilities_8h_source.html#l00291">291</a> of file <a class="el" href="_utilities_8h_source.html">Utilities.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_utilities_8h_source.html#l00294">294</a> of file <a class="el" href="_utilities_8h_source.html">Utilities.h</a>.</p>
 
 </div>
 </div>
@@ -454,7 +455,7 @@ template&lt;typename T &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A random real number between min_value and max_value, inclusive </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_utilities_8h_source.html#l00271">271</a> of file <a class="el" href="_utilities_8h_source.html">Utilities.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_utilities_8h_source.html#l00274">274</a> of file <a class="el" href="_utilities_8h_source.html">Utilities.h</a>.</p>
 
 </div>
 </div>
@@ -503,7 +504,7 @@ template&lt;typename T &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A random integer between min_value and max_value </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_utilities_8h_source.html#l00228">228</a> of file <a class="el" href="_utilities_8h_source.html">Utilities.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_utilities_8h_source.html#l00231">231</a> of file <a class="el" href="_utilities_8h_source.html">Utilities.h</a>.</p>
 
 </div>
 </div>
@@ -541,12 +542,12 @@ template&lt;typename T &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A random timeslice from 1 to max_timeslice </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_utilities_8h_source.html#l00253">253</a> of file <a class="el" href="_utilities_8h_source.html">Utilities.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_utilities_8h_source.html#l00256">256</a> of file <a class="el" href="_utilities_8h_source.html">Utilities.h</a>.</p>
 
 </div>
 </div>
-<a id="a454ed391397253f92f0f54b8930d7ec4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a454ed391397253f92f0f54b8930d7ec4">&#9670;&nbsp;</a></span>getEnvVar()</h2>
+<a id="a2b0fa0942c91c21970824df135948a77"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2b0fa0942c91c21970824df135948a77">&#9670;&nbsp;</a></span>getEnvVar()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -555,7 +556,7 @@ template&lt;typename T &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">&lt;cstdlib/&gt; ** which has a char* rvalue* * param key The string value* return The environment variable corresponding to the key as a std::string* auto getEnvVar </td>
+          <td class="memname">&lt;cstdlib/&gt; ** which has a char* rvalue* * param key The string value* return The environment variable corresponding to the key* auto getEnvVar </td>
           <td>(</td>
           <td class="paramtype">std::string const &amp;&#160;</td>
           <td class="paramname"><em>key</em></td><td>)</td>
@@ -572,7 +573,7 @@ template&lt;typename T &gt; </div>
 <p>Return an environment variable. </p>
 <p>Uses <b>getenv</b> from </p>
 
-<p class="definition">Definition at line <a class="el" href="_utilities_8h_source.html#l00059">59</a> of file <a class="el" href="_utilities_8h_source.html">Utilities.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_utilities_8h_source.html#l00060">60</a> of file <a class="el" href="_utilities_8h_source.html">Utilities.h</a>.</p>
 
 </div>
 </div>
@@ -608,9 +609,9 @@ template&lt;typename T &gt; </div>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>The double version </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>The double conversion </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_utilities_8h_source.html#l00361">361</a> of file <a class="el" href="_utilities_8h_source.html">Utilities.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_utilities_8h_source.html#l00364">364</a> of file <a class="el" href="_utilities_8h_source.html">Utilities.h</a>.</p>
 
 </div>
 </div>
@@ -638,10 +639,10 @@ template&lt;typename T &gt; </div>
 </div><div class="memdoc">
 
 <p>Return the hostname. </p>
-<p><b>auto</b> doesn't work here as a return type because <b>name.nodename</b> is a stack memory address.</p>
-<dl class="section return"><dt>Returns</dt><dd>The hostname as a std::string </dd></dl>
+<p><b>auto</b> doesn't work here as a return type because <b>name.nodename</b> is a stack memory address. Uses utsname.h, which isn't present in Windows (easily) so just default to "windows" on that platform.</p>
+<dl class="section return"><dt>Returns</dt><dd>The hostname </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_utilities_8h_source.html#l00071">71</a> of file <a class="el" href="_utilities_8h_source.html">Utilities.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_utilities_8h_source.html#l00074">74</a> of file <a class="el" href="_utilities_8h_source.html">Utilities.h</a>.</p>
 
 </div>
 </div>
@@ -696,7 +697,7 @@ template&lt;typename T &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>True if arg lies within [lower, upper] </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_utilities_8h_source.html#l00370">370</a> of file <a class="el" href="_utilities_8h_source.html">Utilities.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_utilities_8h_source.html#l00373">373</a> of file <a class="el" href="_utilities_8h_source.html">Utilities.h</a>.</p>
 
 </div>
 </div>
@@ -736,12 +737,12 @@ template&lt;typename T &gt; </div>
 </dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">universe</td><td>A <a class="el" href="struct_simplicial_manifold.html">SimplicialManifold</a>{} </td></tr>
+    <tr><td class="paramname">universe</td><td>A <a class="el" href="struct_simplicial_manifold.html">SimplicialManifold</a> </td></tr>
   </table>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="_utilities_8h_source.html#l00155">155</a> of file <a class="el" href="_utilities_8h_source.html">Utilities.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_utilities_8h_source.html#l00158">158</a> of file <a class="el" href="_utilities_8h_source.html">Utilities.h</a>.</p>
 
 </div>
 </div>
@@ -792,13 +793,13 @@ template&lt;typename T1 , typename T2 &gt; </div>
 </dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">universe</td><td>A <a class="el" href="struct_simplicial_manifold.html">SimplicialManifold</a>{} </td></tr>
-    <tr><td class="paramname">timer</td><td>A timer object used to determine elapse time </td></tr>
+    <tr><td class="paramname">universe</td><td>A <a class="el" href="struct_simplicial_manifold.html">SimplicialManifold</a> </td></tr>
+    <tr><td class="paramname">timer</td><td>A timer object used to determine elapsed time </td></tr>
   </table>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="_utilities_8h_source.html#l00175">175</a> of file <a class="el" href="_utilities_8h_source.html">Utilities.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_utilities_8h_source.html#l00178">178</a> of file <a class="el" href="_utilities_8h_source.html">Utilities.h</a>.</p>
 
 </div>
 </div>
@@ -858,7 +859,7 @@ template&lt;typename T &gt; </div>
 </dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">universe</td><td>A <a class="el" href="struct_simplicial_manifold.html">SimplicialManifold</a>{} </td></tr>
+    <tr><td class="paramname">universe</td><td>A <a class="el" href="struct_simplicial_manifold.html">SimplicialManifold</a> </td></tr>
     <tr><td class="paramname">topology</td><td>The topology type from the scoped enum topology_type </td></tr>
     <tr><td class="paramname">dimensions</td><td>The number of dimensions of the triangulation </td></tr>
     <tr><td class="paramname">number_of_simplices</td><td>The number of simplices in the triangulation </td></tr>
@@ -867,14 +868,14 @@ template&lt;typename T &gt; </div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="_utilities_8h_source.html#l00196">196</a> of file <a class="el" href="_utilities_8h_source.html">Utilities.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_utilities_8h_source.html#l00199">199</a> of file <a class="el" href="_utilities_8h_source.html">Utilities.h</a>.</p>
 
 </div>
 </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Sep 7 2017 08:29:39 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Sep 21 2017 07:12:04 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

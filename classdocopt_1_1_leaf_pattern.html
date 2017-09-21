@@ -107,26 +107,26 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:af9d71f5fdb74eddcb3150f9baaa815ce"><td class="memItemLeft" align="right" valign="top"><a id="af9d71f5fdb74eddcb3150f9baaa815ce"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>LeafPattern</b> (std::string name, <a class="el" href="structdocopt_1_1value.html">value</a> v={})</td></tr>
 <tr class="separator:af9d71f5fdb74eddcb3150f9baaa815ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2b66e388e2c0f283ec28d61fc29f8fbf"><td class="memItemLeft" align="right" valign="top"><a id="a2b66e388e2c0f283ec28d61fc29f8fbf"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>collect_leaves</b> (std::vector&lt; <a class="el" href="classdocopt_1_1_leaf_pattern.html">LeafPattern</a> *&gt; &amp;lst) final</td></tr>
-<tr class="separator:a2b66e388e2c0f283ec28d61fc29f8fbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a96c39d5a983ca50fa61b73b646d4e97f"><td class="memItemLeft" align="right" valign="top"><a id="a96c39d5a983ca50fa61b73b646d4e97f"></a>
-std::vector&lt; <a class="el" href="classdocopt_1_1_pattern.html">Pattern</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>flat</b> (bool(*filter)(<a class="el" href="classdocopt_1_1_pattern.html">Pattern</a> const *)) override</td></tr>
-<tr class="separator:a96c39d5a983ca50fa61b73b646d4e97f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe958fb191f74b453d8fa6ef588ae8f2"><td class="memItemLeft" align="right" valign="top"><a id="afe958fb191f74b453d8fa6ef588ae8f2"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>collect_leaves</b> (std::vector&lt; <a class="el" href="classdocopt_1_1_leaf_pattern.html">LeafPattern</a> *&gt; &amp;lst) override final</td></tr>
+<tr class="separator:afe958fb191f74b453d8fa6ef588ae8f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1bcf7e63fb2cac3e95999cb3ebd2282e"><td class="memItemLeft" align="right" valign="top"><a id="a1bcf7e63fb2cac3e95999cb3ebd2282e"></a>
+virtual std::vector&lt; <a class="el" href="classdocopt_1_1_pattern.html">Pattern</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>flat</b> (bool(*filter)(<a class="el" href="classdocopt_1_1_pattern.html">Pattern</a> const *)) override</td></tr>
+<tr class="separator:a1bcf7e63fb2cac3e95999cb3ebd2282e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa98d57a742abf8f194fe483e35ce5b67"><td class="memItemLeft" align="right" valign="top"><a id="aa98d57a742abf8f194fe483e35ce5b67"></a>
 <a class="el" href="structdocopt_1_1value.html">value</a> const  &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>getValue</b> () const</td></tr>
 <tr class="separator:aa98d57a742abf8f194fe483e35ce5b67"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa1bc470ae9cbc4b7907cb874d9e653cb"><td class="memItemLeft" align="right" valign="top"><a id="aa1bc470ae9cbc4b7907cb874d9e653cb"></a>
-size_t&#160;</td><td class="memItemRight" valign="bottom"><b>hash</b> () const override</td></tr>
-<tr class="separator:aa1bc470ae9cbc4b7907cb874d9e653cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aba0b182004a01018a143f7cba06ed18b"><td class="memItemLeft" align="right" valign="top"><a id="aba0b182004a01018a143f7cba06ed18b"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>hasValue</b> () const override</td></tr>
-<tr class="separator:aba0b182004a01018a143f7cba06ed18b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a634a7028ce2c71ebb89586088034b7e2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdocopt_1_1_leaf_pattern.html#a634a7028ce2c71ebb89586088034b7e2">match</a> (PatternList &amp;left, std::vector&lt; std::shared_ptr&lt; <a class="el" href="classdocopt_1_1_leaf_pattern.html">LeafPattern</a> &gt;&gt; &amp;collected) const override</td></tr>
+<tr class="memitem:a14d89a711b87a8d5d84a081a602d97b9"><td class="memItemLeft" align="right" valign="top"><a id="a14d89a711b87a8d5d84a081a602d97b9"></a>
+virtual size_t&#160;</td><td class="memItemRight" valign="bottom"><b>hash</b> () const override</td></tr>
+<tr class="separator:a14d89a711b87a8d5d84a081a602d97b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa410655d7bc5b2fa6676569f70065535"><td class="memItemLeft" align="right" valign="top"><a id="aa410655d7bc5b2fa6676569f70065535"></a>
+virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>hasValue</b> () const override</td></tr>
+<tr class="separator:aa410655d7bc5b2fa6676569f70065535"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a634a7028ce2c71ebb89586088034b7e2"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdocopt_1_1_leaf_pattern.html#a634a7028ce2c71ebb89586088034b7e2">match</a> (PatternList &amp;left, std::vector&lt; std::shared_ptr&lt; <a class="el" href="classdocopt_1_1_leaf_pattern.html">LeafPattern</a> &gt;&gt; &amp;collected) const override</td></tr>
 <tr class="separator:a634a7028ce2c71ebb89586088034b7e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8c1a2a9496dfa9fb455c333d370ab04b"><td class="memItemLeft" align="right" valign="top"><a id="a8c1a2a9496dfa9fb455c333d370ab04b"></a>
-std::string const  &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>name</b> () const override</td></tr>
-<tr class="separator:a8c1a2a9496dfa9fb455c333d370ab04b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f93d0ff7fb9ad327bfcddcfb8738c4e"><td class="memItemLeft" align="right" valign="top"><a id="a1f93d0ff7fb9ad327bfcddcfb8738c4e"></a>
+virtual std::string const  &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>name</b> () const override</td></tr>
+<tr class="separator:a1f93d0ff7fb9ad327bfcddcfb8738c4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a44655164a427a6f6e0d98f1f30a88bac"><td class="memItemLeft" align="right" valign="top"><a id="a44655164a427a6f6e0d98f1f30a88bac"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>setValue</b> (<a class="el" href="structdocopt_1_1value.html">value</a> &amp;&amp;v)</td></tr>
 <tr class="separator:a44655164a427a6f6e0d98f1f30a88bac"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -201,7 +201,7 @@ std::string&#160;</td><td class="memItemRight" valign="bottom"><b>fName</b></td>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Sep 7 2017 08:29:39 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Sep 21 2017 07:12:05 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

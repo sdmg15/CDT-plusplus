@@ -1,8 +1,8 @@
 <map id="unittests/S3ActionTest.cpp" name="unittests/S3ActionTest.cpp">
-<area shape="rect" id="node4" href="$_utilities_8h.html" title="Utility functions. " alt="" coords="629,239,704,264"/>
-<area shape="rect" id="node36" href="$_s3_action_8h.html" title="Calculate S3 bulk actions on 3D Delaunay Triangulations. " alt="" coords="1201,79,1287,104"/>
-<area shape="rect" id="node39" href="$_s3_triangulation_8h.html" title="Functions on 3D Spherical Delaunay Triangulations. " alt="" coords="1593,152,1719,177"/>
-<area shape="rect" id="node47" href="$_simplicial_manifold_8h.html" title="Data structures for simplicial manifolds. " alt="" coords="2436,79,2575,104"/>
-<area shape="rect" id="node15" href="$tz_8h_source.html" title="date/tz.h" alt="" coords="1472,325,1544,351"/>
-<area shape="rect" id="node16" href="$date_8h_source.html" title="date.h" alt="" coords="1479,399,1537,424"/>
+<area shape="rect" id="node4" href="$_utilities_8h.html" title="Utility functions. " alt="" coords="733,239,809,264"/>
+<area shape="rect" id="node36" href="$_s3_action_8h.html" title="Calculate S3 bulk actions on 3D Delaunay Triangulations. " alt="" coords="949,79,1035,104"/>
+<area shape="rect" id="node39" href="$_s3_triangulation_8h.html" title="Functions on 3D Spherical Delaunay Triangulations. " alt="" coords="1432,152,1558,177"/>
+<area shape="rect" id="node47" href="$_simplicial_manifold_8h.html" title="Data structures for simplicial manifolds. " alt="" coords="2272,79,2411,104"/>
+<area shape="rect" id="node16" href="$tz_8h_source.html" title="date/tz.h" alt="" coords="615,325,687,351"/>
+<area shape="rect" id="node17" href="$date_8h_source.html" title="date.h" alt="" coords="722,399,780,424"/>
 </map>
