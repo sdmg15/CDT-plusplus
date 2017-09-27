@@ -2,7 +2,7 @@ var searchData=
 [
   ['pair',['pair',['../structdate_1_1detail_1_1_month_day_time_1_1pair.html',1,'date::detail::MonthDayTime']]],
   ['parse_5fmanip',['parse_manip',['../structdate_1_1parse__manip.html',1,'date']]],
-  ['passes',['passes',['../class_metropolis_test.html#aaa87503658a940f917413e5cefc764bd',1,'MetropolisTest::passes()'],['../class_metropolis.html#a2e97a379c8d07b03f719058ea8fbf7b0',1,'Metropolis::Passes()']]],
+  ['passes',['Passes',['../class_metropolis.html#a2e97a379c8d07b03f719058ea8fbf7b0',1,'Metropolis::Passes()'],['../class_metropolis_test.html#aaa87503658a940f917413e5cefc764bd',1,'MetropolisTest::passes()']]],
   ['passes_5f',['passes_',['../class_metropolis.html#a60bc043f1b1062bc119bd45d289db8a5',1,'Metropolis']]],
   ['pattern',['Pattern',['../classdocopt_1_1_pattern.html',1,'docopt']]],
   ['patternhasher',['PatternHasher',['../structdocopt_1_1_pattern_hasher.html',1,'docopt']]],

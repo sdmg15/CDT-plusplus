@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>CDT++: date::detail::make_precision&lt; w, in_range &gt; Struct Template Reference</title>
+<title>CDT++: date::detail::make_precision&lt; Rep, w, in_range &gt; Struct Template Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -74,42 +74,42 @@ $(function() {
 <a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="structdate_1_1detail_1_1make__precision-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">date::detail::make_precision&lt; w, in_range &gt; Struct Template Reference</div>  </div>
+<div class="title">date::detail::make_precision&lt; Rep, w, in_range &gt; Struct Template Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="dynheader">
-Collaboration diagram for date::detail::make_precision&lt; w, in_range &gt;:</div>
+Collaboration diagram for date::detail::make_precision&lt; Rep, w, in_range &gt;:</div>
 <div class="dyncontent">
-<div class="center"><img src="structdate_1_1detail_1_1make__precision__coll__graph.png" border="0" usemap="#date_1_1detail_1_1make__precision_3_01w_00_01in__range_01_4_coll__map" alt="Collaboration graph"/></div>
-<map name="date_1_1detail_1_1make__precision_3_01w_00_01in__range_01_4_coll__map" id="date_1_1detail_1_1make__precision_3_01w_00_01in__range_01_4_coll__map">
+<div class="center"><img src="structdate_1_1detail_1_1make__precision__coll__graph.png" border="0" usemap="#date_1_1detail_1_1make__precision_3_01_rep_00_01w_00_01in__range_01_4_coll__map" alt="Collaboration graph"/></div>
+<map name="date_1_1detail_1_1make__precision_3_01_rep_00_01w_00_01in__range_01_4_coll__map" id="date_1_1detail_1_1make__precision_3_01_rep_00_01w_00_01in__range_01_4_coll__map">
 </map>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a7b3c48a4d263a8b90055980f73c09b18"><td class="memItemLeft" align="right" valign="top"><a id="a7b3c48a4d263a8b90055980f73c09b18"></a>
-using&#160;</td><td class="memItemRight" valign="bottom"><b>type</b> = std::chrono::duration&lt; std::int64_t, std::ratio&lt; 1, <a class="el" href="structdate_1_1detail_1_1static__pow10.html">static_pow10</a>&lt; w &gt;::value &gt; &gt;</td></tr>
-<tr class="separator:a7b3c48a4d263a8b90055980f73c09b18"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d55736e11ee6f2a35c35d6d2ce3f7dd"><td class="memItemLeft" align="right" valign="top"><a id="a0d55736e11ee6f2a35c35d6d2ce3f7dd"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>type</b> = std::chrono::duration&lt; Rep, std::ratio&lt; 1, <a class="el" href="structdate_1_1detail_1_1static__pow10.html">static_pow10</a>&lt; w &gt;::value &gt; &gt;</td></tr>
+<tr class="separator:a0d55736e11ee6f2a35c35d6d2ce3f7dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
-<tr class="memitem:a7980eae66c33317e94af11d33aa9c7bd"><td class="memItemLeft" align="right" valign="top"><a id="a7980eae66c33317e94af11d33aa9c7bd"></a>
+<tr class="memitem:a6c06b4458e2437a731abdba463722f5c"><td class="memItemLeft" align="right" valign="top"><a id="a6c06b4458e2437a731abdba463722f5c"></a>
 static CONSTDATA unsigned&#160;</td><td class="memItemRight" valign="bottom"><b>width</b> = w</td></tr>
-<tr class="separator:a7980eae66c33317e94af11d33aa9c7bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:a6c06b4458e2437a731abdba463722f5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><h3>template&lt;unsigned w, bool in_range = (w &lt; 19)&gt;<br />
-struct date::detail::make_precision&lt; w, in_range &gt;</h3>
+<div class="textblock"><h3>template&lt;class Rep, unsigned w, bool in_range = (w &lt; 19)&gt;<br />
+struct date::detail::make_precision&lt; Rep, w, in_range &gt;</h3>
 
 
-<p class="definition">Definition at line <a class="el" href="date_8h_source.html#l03498">3498</a> of file <a class="el" href="date_8h_source.html">date.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="date_8h_source.html#l03586">3586</a> of file <a class="el" href="date_8h_source.html">date.h</a>.</p>
 </div><hr/>The documentation for this struct was generated from the following file:<ul>
-<li>src/date/<a class="el" href="date_8h_source.html">date.h</a></li>
+<li>src/date/include/date/<a class="el" href="date_8h_source.html">date.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Sep 21 2017 07:12:04 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Sep 26 2017 21:01:51 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

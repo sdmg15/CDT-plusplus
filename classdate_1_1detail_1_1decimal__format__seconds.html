@@ -85,15 +85,18 @@ Collaboration diagram for date::detail::decimal_format_seconds&lt; Duration, w &
 <div class="dyncontent">
 <div class="center"><img src="classdate_1_1detail_1_1decimal__format__seconds__coll__graph.png" border="0" usemap="#date_1_1detail_1_1decimal__format__seconds_3_01_duration_00_01w_01_4_coll__map" alt="Collaboration graph"/></div>
 <map name="date_1_1detail_1_1decimal__format__seconds_3_01_duration_00_01w_01_4_coll__map" id="date_1_1detail_1_1decimal__format__seconds_3_01_duration_00_01w_01_4_coll__map">
-<area shape="rect" id="node2" href="structdate_1_1detail_1_1make__precision.html" title="{date::detail::make\l_precision\&lt; w \&gt;\n|+ width\l|}" alt="" coords="49,5,176,92"/>
+<area shape="rect" id="node2" href="structdate_1_1detail_1_1make__precision.html" title="{date::detail::make\l_precision\&lt; rep, w \&gt;\n|+ width\l|}" alt="" coords="42,5,183,92"/>
 </map>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:ac3c300d92b80b857b59094168d75e344"><td class="memItemLeft" align="right" valign="top"><a id="ac3c300d92b80b857b59094168d75e344"></a>
-using&#160;</td><td class="memItemRight" valign="bottom"><b>precision</b> = typename <a class="el" href="structdate_1_1detail_1_1make__precision.html">make_precision</a>&lt; w &gt;::type</td></tr>
-<tr class="separator:ac3c300d92b80b857b59094168d75e344"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afffa0a7bc591178fbf92a535ea7ef9b6"><td class="memItemLeft" align="right" valign="top"><a id="afffa0a7bc591178fbf92a535ea7ef9b6"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>precision</b> = typename <a class="el" href="structdate_1_1detail_1_1make__precision.html">make_precision</a>&lt; rep, w &gt;::type</td></tr>
+<tr class="separator:afffa0a7bc591178fbf92a535ea7ef9b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb3f59f88de171f071d23b11c2555bdd"><td class="memItemLeft" align="right" valign="top"><a id="adb3f59f88de171f071d23b11c2555bdd"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>rep</b> = typename std::common_type&lt; Duration, std::chrono::seconds &gt;::type::rep</td></tr>
+<tr class="separator:adb3f59f88de171f071d23b11c2555bdd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -119,7 +122,7 @@ CONSTCD14 precision&#160;</td><td class="memItemRight" valign="bottom"><b>to_dur
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
 <tr class="memitem:ab2cb745fcdedebec1e1b217ae191efa4"><td class="memItemLeft" align="right" valign="top"><a id="ab2cb745fcdedebec1e1b217ae191efa4"></a>
-static auto CONSTDATA&#160;</td><td class="memItemRight" valign="bottom"><b>width</b> = <a class="el" href="structdate_1_1detail_1_1make__precision.html">make_precision</a>&lt;w&gt;::<a class="el" href="structdate_1_1detail_1_1width.html">width</a></td></tr>
+static auto CONSTDATA&#160;</td><td class="memItemRight" valign="bottom"><b>width</b> = <a class="el" href="structdate_1_1detail_1_1make__precision.html">make_precision</a>&lt;rep, w&gt;::<a class="el" href="structdate_1_1detail_1_1width.html">width</a></td></tr>
 <tr class="separator:ab2cb745fcdedebec1e1b217ae191efa4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
@@ -143,14 +146,14 @@ template&lt;class CharT , class Traits &gt; </td></tr>
 class date::detail::decimal_format_seconds&lt; Duration, w &gt;</h3>
 
 
-<p class="definition">Definition at line <a class="el" href="date_8h_source.html#l03516">3516</a> of file <a class="el" href="date_8h_source.html">date.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="date_8h_source.html#l03604">3604</a> of file <a class="el" href="date_8h_source.html">date.h</a>.</p>
 </div><hr/>The documentation for this class was generated from the following file:<ul>
-<li>src/date/<a class="el" href="date_8h_source.html">date.h</a></li>
+<li>src/date/include/date/<a class="el" href="date_8h_source.html">date.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Sep 21 2017 07:12:04 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Sep 26 2017 21:01:51 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>
