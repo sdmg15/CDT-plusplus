@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['checkpoint_5f',['checkpoint_',['../class_metropolis.html#af5ce3a0b45be0bbae977650fe6e6e18d',1,'Metropolis']]]
+  ['checkpoint_5f',['checkpoint_',['../class_move_algorithm.html#a338b7e902556b98bc7dd5eb87ab1df98',1,'MoveAlgorithm']]]
 ];

@@ -10,6 +10,5 @@ var searchData=
   ['getenvvar',['getEnvVar',['../_utilities_8h.html#a2b0fa0942c91c21970824df135948a77',1,'Utilities.h']]],
   ['gmpzf',['Gmpzf',['../_s3_action_8h.html#ab09035cfa5e10fa4ee88d95ef5fa7ac5',1,'S3Action.h']]],
   ['gmpzf_5fto_5fdouble',['Gmpzf_to_double',['../_utilities_8h.html#ae44ced243bfedecb2716c8a8f1db5255',1,'Utilities.h']]],
-  ['gps_5fclock',['gps_clock',['../classdate_1_1gps__clock.html',1,'date']]],
-  ['graph',['Graph',['../class_graph.html',1,'']]]
+  ['gps_5fclock',['gps_clock',['../classdate_1_1gps__clock.html',1,'date']]]
 ];

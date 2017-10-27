@@ -6,7 +6,7 @@ var searchData=
   ['cdt_2dopt_2ecpp',['cdt-opt.cpp',['../cdt-opt_8cpp.html',1,'']]],
   ['cdt_2ecpp',['cdt.cpp',['../cdt_8cpp.html',1,'']]],
   ['checkpoint',['Checkpoint',['../class_metropolis.html#a1ed1b229fe9a77ab9429ce7bd97a4aed',1,'Metropolis']]],
-  ['checkpoint_5f',['checkpoint_',['../class_metropolis.html#af5ce3a0b45be0bbae977650fe6e6e18d',1,'Metropolis']]],
+  ['checkpoint_5f',['checkpoint_',['../class_move_algorithm.html#a338b7e902556b98bc7dd5eb87ab1df98',1,'MoveAlgorithm']]],
   ['choose_5ftrunc_5ftype',['choose_trunc_type',['../structdate_1_1detail_1_1choose__trunc__type.html',1,'date::detail']]],
   ['classify_5fduration',['classify_duration',['../structdate_1_1detail_1_1classify__duration.html',1,'date::detail']]],
   ['classify_5fedges',['classify_edges',['../_s3_triangulation_8h.html#a5d1faf454aae17fccb2378ae149f8b79',1,'S3Triangulation.h']]],
@@ -14,6 +14,7 @@ var searchData=
   ['command',['Command',['../classdocopt_1_1_command.html',1,'docopt']]],
   ['const_5fiterator',['const_iterator',['../classdate_1_1tzdb__list_1_1const__iterator.html',1,'date::tzdb_list']]],
   ['currentdatetime',['currentDateTime',['../_utilities_8h.html#aa46369f3c8adbff876c82270346fffa2',1,'Utilities.h']]],
+  ['currenttotalsimplices',['CurrentTotalSimplices',['../class_move_algorithm.html#a29d5fd3e91e3dba7a41622894c1eb795',1,'MoveAlgorithm']]],
   ['cdt_2dplusplus',['CDT-plusplus',['../index.html',1,'']]],
   ['contributor_20covenant_20code_20of_20conduct',['Contributor Covenant Code of Conduct',['../md__c_o_d_e__o_f__c_o_n_d_u_c_t.html',1,'']]]
 ];

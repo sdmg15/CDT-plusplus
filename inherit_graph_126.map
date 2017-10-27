@@ -1,3 +1,9 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classjulian_1_1year__month__weekday.html" title="julian::year_month\l_weekday" alt="" coords="5,5,136,44"/>
+<area shape="rect" id="node2" href="$class_measurements_test.html" title="MeasurementsTest" alt="" coords="102,5,236,31"/>
+<area shape="rect" id="node3" href="$class_metropolis_test.html" title="MetropolisTest" alt="" coords="115,55,223,80"/>
+<area shape="rect" id="node4" href="$class_move_manager_test.html" title="MoveManagerTest" alt="" coords="104,104,235,129"/>
+<area shape="rect" id="node5" href="$class_s3_action_test.html" title="S3ActionTest" alt="" coords="119,153,219,179"/>
+<area shape="rect" id="node6" href="$class_s3_ergodic_move_test.html" title="S3ErgodicMoveTest" alt="" coords="99,203,239,228"/>
+<area shape="rect" id="node7" href="$class_tetrahedron_test.html" title="TetrahedronTest" alt="" coords="111,252,228,277"/>
+<area shape="rect" id="node8" href="$class_foliated_tetrahedron_test.html" title="FoliatedTetrahedronTest" alt="" coords="287,252,451,277"/>
 </map>

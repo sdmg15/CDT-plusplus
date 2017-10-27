@@ -72,7 +72,6 @@ $(function() {
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#typedef-members">Typedefs</a> &#124;
-<a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">Metropolis.h File Reference</div>  </div>
@@ -81,10 +80,8 @@ $(function() {
 
 <p>Perform Metropolis-Hastings algorithm on Delaunay Triangulations.  
 <a href="#details">More...</a></p>
-<div class="textblock"><code>#include &quot;<a class="el" href="_measurements_8h_source.html">Measurements.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="_move_manager_8h_source.html">MoveManager.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="_move_algorithm_8h_source.html">MoveAlgorithm.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="_s3_action_8h_source.html">S3Action.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="_s3_ergodic_moves_8h_source.html">S3ErgodicMoves.h</a>&quot;</code><br />
 <code>#include &lt;algorithm&gt;</code><br />
 <code>#include &lt;atomic&gt;</code><br />
 <code>#include &lt;type_traits&gt;</code><br />
@@ -95,16 +92,17 @@ Include dependency graph for Metropolis.h:</div>
 <div class="dyncontent">
 <div class="center"><img src="_metropolis_8h__incl.png" border="0" usemap="#src_2_metropolis_8h" alt=""/></div>
 <map name="src_2_metropolis_8h" id="src_2_metropolis_8h">
-<area shape="rect" id="node2" href="_measurements_8h.html" title="Measurements of the simulation. " alt="" coords="286,79,407,104"/>
-<area shape="rect" id="node44" href="_move_manager_8h.html" title="RAII class to manage exception&#45;safe foliation&#45;preserving Pachner moves. " alt="" coords="1098,79,1214,104"/>
-<area shape="rect" id="node46" href="_s3_action_8h.html" title="Calculate S3 bulk actions on 3D Delaunay Triangulations. " alt="" coords="2789,79,2875,104"/>
-<area shape="rect" id="node49" href="_s3_ergodic_moves_8h.html" title="Pachner moves on 3D Delaunay Triangulations. " alt="" coords="2132,152,2265,177"/>
-<area shape="rect" id="node3" href="_simplicial_manifold_8h.html" title="Data structures for simplicial manifolds. " alt="" coords="416,152,555,177"/>
-<area shape="rect" id="node4" href="_s3_triangulation_8h.html" title="Functions on 3D Spherical Delaunay Triangulations. " alt="" coords="1645,225,1771,251"/>
-<area shape="rect" id="node17" href="_utilities_8h.html" title="Utility functions. " alt="" coords="2132,312,2207,337"/>
-<area shape="rect" id="node28" href="tz_8h_source.html" title="date/tz.h" alt="" coords="1982,399,2055,424"/>
-<area shape="rect" id="node29" href="date_8h_source.html" title="date.h" alt="" coords="1672,472,1731,497"/>
-<area shape="rect" id="node45" href="_function__ref_8h.html" title="Efficient, type&#45;erasing, non&#45;owning function reference. " alt="" coords="635,472,741,497"/>
+<area shape="rect" id="node2" href="_move_algorithm_8h.html" title="Base class for move algorithms on Delaunay Triangulations. " alt="" coords="1233,79,1354,104"/>
+<area shape="rect" id="node48" href="_s3_action_8h.html" title="Calculate S3 bulk actions on 3D Delaunay Triangulations. " alt="" coords="2421,79,2507,104"/>
+<area shape="rect" id="node3" href="_measurements_8h.html" title="Measurements of the simulation. " alt="" coords="881,152,1002,177"/>
+<area shape="rect" id="node44" href="_move_manager_8h.html" title="RAII class to manage exception&#45;safe foliation&#45;preserving Pachner moves. " alt="" coords="454,152,570,177"/>
+<area shape="rect" id="node46" href="_s3_ergodic_moves_8h.html" title="Pachner moves on 3D Delaunay Triangulations. " alt="" coords="2137,225,2271,251"/>
+<area shape="rect" id="node4" href="_simplicial_manifold_8h.html" title="Data structures for simplicial manifolds. " alt="" coords="714,225,854,251"/>
+<area shape="rect" id="node5" href="_s3_triangulation_8h.html" title="Functions on 3D Spherical Delaunay Triangulations. " alt="" coords="1131,299,1256,324"/>
+<area shape="rect" id="node18" href="_utilities_8h.html" title="Utility functions. " alt="" coords="941,385,1016,411"/>
+<area shape="rect" id="node29" href="tz_8h_source.html" title="date/tz.h" alt="" coords="956,472,1028,497"/>
+<area shape="rect" id="node30" href="date_8h_source.html" title="date.h" alt="" coords="1131,545,1189,571"/>
+<area shape="rect" id="node45" href="_function__ref_8h.html" title="Efficient, type&#45;erasing, non&#45;owning function reference. " alt="" coords="245,545,352,571"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
@@ -132,13 +130,6 @@ Typedefs</h2></td></tr>
 using&#160;</td><td class="memItemRight" valign="bottom"><b>Gmpzf</b> = CGAL::Gmpzf</td></tr>
 <tr class="separator:ab09035cfa5e10fa4ee88d95ef5fa7ac5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:aa1ac7cb4ed8c8d7262a584345a30e68c"><td class="memTemplParams" colspan="2">template&lt;typename E &gt; </td></tr>
-<tr class="memitem:aa1ac7cb4ed8c8d7262a584345a30e68c"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="_metropolis_8h.html#aa1ac7cb4ed8c8d7262a584345a30e68c">to_integral</a> (E e) -&gt; typename std::underlying_type&lt; E &gt;::type</td></tr>
-<tr class="memdesc:aa1ac7cb4ed8c8d7262a584345a30e68c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert enum class to its underlying type.  <a href="#aa1ac7cb4ed8c8d7262a584345a30e68c">More...</a><br /></td></tr>
-<tr class="separator:aa1ac7cb4ed8c8d7262a584345a30e68c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
 <tr class="memitem:a7e137cb6eb8d45572c8f0648f700b44a"><td class="memItemLeft" align="right" valign="top"><a id="a7e137cb6eb8d45572c8f0648f700b44a"></a>
@@ -153,60 +144,23 @@ const std::intmax_t&#160;</td><td class="memItemRight" valign="bottom"><b>PRECIS
 <p>operator() </p>
 <p>CalculateA1 </p>
 <p>CalculateA2 </p>
-<p class="enddd">Update N1_TL_, N3_31_ and N3_22_ after successful moves </p>
+<p>Update N1_TL_, N3_31_ and N3_22_ after successful moves </p>
+<p class="enddd">Implement 3D <a class="el" href="class_metropolis.html" title="Metropolis-Hastings algorithm function object. ">Metropolis</a> algorithm in operator()</p>
 </dd></dl>
 <dl class="todo"><dt><b><a class="el" href="todo.html#_todo000004">Todo:</a></b></dt><dd><p class="startdd">Atomic integral types for safe multithreading </p>
 <p>Debug occasional infinite loops and segfaults! </p>
-<p>Implement 3D <a class="el" href="class_metropolis.html" title="Metropolis-Hastings algorithm function object. ">Metropolis</a> algorithm in operator() </p>
 <p class="enddd">Implement concurrency </p>
 </dd></dl>
 <dl class="section author"><dt>Author</dt><dd>Adam Getchell </dd></dl>
-<dl class="bug"><dt><b><a class="el" href="bug.html#_bug000002">Bug:</a></b></dt><dd>There's a segfault in CalculateA1 on MacOS/gcc. </dd></dl>
+<dl class="bug"><dt><b><a class="el" href="bug.html#_bug000002">Bug:</a></b></dt><dd><p class="startdd">There's a segfault in CalculateA1 on MacOS/gcc. </p>
+<p class="enddd">The call operator segfaults in Release mode </p>
+</dd></dl>
 
 <p class="definition">Definition in file <a class="el" href="_metropolis_8h_source.html">Metropolis.h</a>.</p>
-</div><h2 class="groupheader">Function Documentation</h2>
-<a id="aa1ac7cb4ed8c8d7262a584345a30e68c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa1ac7cb4ed8c8d7262a584345a30e68c">&#9670;&nbsp;</a></span>to_integral()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename E &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">constexpr auto to_integral </td>
-          <td>(</td>
-          <td class="paramtype">E&#160;</td>
-          <td class="paramname"><em>e</em></td><td>)</td>
-          <td> -&gt; typename std::underlying_type&lt;E&gt;::type
-</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Convert enum class to its underlying type. </p>
-<p><a href="http://stackoverflow.com/questions/14589417/can-an-enum-class-be-converted-to-the-underlying-type">http://stackoverflow.com/questions/14589417/can-an-enum-class-be-converted-to-the-underlying-type</a> // NOLINT </p><dl class="tparams"><dt>Template Parameters</dt><dd>
-  <table class="tparams">
-    <tr><td class="paramname">E</td><td>Enum class type </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">e</td><td>Enum class </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>Integral type of enum member </dd></dl>
-
-<p class="definition">Definition at line <a class="el" href="_metropolis_8h_source.html#l00061">61</a> of file <a class="el" href="_metropolis_8h_source.html">Metropolis.h</a>.</p>
-
-</div>
-</div>
-</div><!-- contents -->
+</div></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Sep 26 2017 21:01:51 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Oct 26 2017 20:48:43 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

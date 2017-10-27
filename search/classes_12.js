@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['weekday',['weekday',['../classjulian_1_1weekday.html',1,'julian::weekday'],['../classdate_1_1weekday.html',1,'date::weekday'],['../classislamic_1_1weekday.html',1,'islamic::weekday'],['../classiso__week_1_1weekday.html',1,'iso_week::weekday']]],
-  ['weekday_5findexed',['weekday_indexed',['../classislamic_1_1weekday__indexed.html',1,'islamic::weekday_indexed'],['../classjulian_1_1weekday__indexed.html',1,'julian::weekday_indexed'],['../classdate_1_1weekday__indexed.html',1,'date::weekday_indexed']]],
+  ['weekday',['weekday',['../classislamic_1_1weekday.html',1,'islamic::weekday'],['../classjulian_1_1weekday.html',1,'julian::weekday'],['../classdate_1_1weekday.html',1,'date::weekday'],['../classiso__week_1_1weekday.html',1,'iso_week::weekday']]],
+  ['weekday_5findexed',['weekday_indexed',['../classjulian_1_1weekday__indexed.html',1,'julian::weekday_indexed'],['../classislamic_1_1weekday__indexed.html',1,'islamic::weekday_indexed'],['../classdate_1_1weekday__indexed.html',1,'date::weekday_indexed']]],
   ['weekday_5flast',['weekday_last',['../classjulian_1_1weekday__last.html',1,'julian::weekday_last'],['../classdate_1_1weekday__last.html',1,'date::weekday_last'],['../classislamic_1_1weekday__last.html',1,'islamic::weekday_last']]],
   ['weeknum',['weeknum',['../classiso__week_1_1weeknum.html',1,'iso_week']]],
   ['weeknum_5fweekday',['weeknum_weekday',['../classiso__week_1_1weeknum__weekday.html',1,'iso_week']]],
