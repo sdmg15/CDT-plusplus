@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['last_5fspec',['last_spec',['../structislamic_1_1last__spec.html',1,'islamic::last_spec'],['../structdate_1_1last__spec.html',1,'date::last_spec'],['../structjulian_1_1last__spec.html',1,'julian::last_spec']]],
+  ['last_5fspec',['last_spec',['../structdate_1_1last__spec.html',1,'date::last_spec'],['../structislamic_1_1last__spec.html',1,'islamic::last_spec'],['../structjulian_1_1last__spec.html',1,'julian::last_spec']]],
   ['last_5fweek',['last_week',['../structiso__week_1_1last__week.html',1,'iso_week']]],
   ['lastweek_5fweekday',['lastweek_weekday',['../classiso__week_1_1lastweek__weekday.html',1,'iso_week']]],
   ['leafpattern',['LeafPattern',['../classdocopt_1_1_leaf_pattern.html',1,'docopt']]],

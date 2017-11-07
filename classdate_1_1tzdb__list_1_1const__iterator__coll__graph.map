@@ -1,5 +1,5 @@
 <map id="date::tzdb_list::const_iterator" name="date::tzdb_list::const_iterator">
-<area shape="rect" id="node2" href="$structdate_1_1_t_z___d_b.html" title="{date::TZ_DB\n||+ TZ_DB()\l+ TZ_DB()\l+ current_zone()\l+ locate_zone()\l+ operator=()\l}" alt="" coords="513,2397,633,2524"/>
+<area shape="rect" id="node2" href="$structdate_1_1tzdb.html" title="{date::tzdb\n||+ tzdb()\l+ tzdb()\l+ current_zone()\l+ locate_zone()\l+ operator=()\l}" alt="" coords="513,2397,633,2524"/>
 <area shape="rect" id="node4" href="$classdate_1_1link.html" title="{date::link\n||+ link()\l+ name()\l+ target()\l}" alt="" coords="29,1161,104,1261"/>
 <area shape="rect" id="node5" title="STL class. " alt="" coords="338,709,417,783"/>
 <area shape="rect" id="node10" href="$classdate_1_1time__zone.html" title="{date::time_zone\n||+ time_zone()\l+ time_zone()\l+ add()\l+ get_info()\l+ get_info()\l+ name()\l+ operator=()\l+ to_local()\l+ to_sys()\l+ to_sys()\l&#45; adjust_infos()\l&#45; get_info_impl()\l&#45; get_info_impl()\l&#45; get_info_impl()\l&#45; parse_info()\l&#45; to_sys_impl()\l&#45; to_sys_impl()\l}" alt="" coords="344,1901,461,2188"/>

@@ -1,11 +1,11 @@
 <map id="src/MoveAlgorithm.h" name="src/MoveAlgorithm.h">
-<area shape="rect" id="node2" href="$_measurements_8h.html" title="Measurements of the simulation. " alt="" coords="1714,79,1835,104"/>
-<area shape="rect" id="node47" href="$_move_manager_8h.html" title="RAII class to manage exception&#45;safe foliation&#45;preserving Pachner moves. " alt="" coords="2006,79,2122,104"/>
-<area shape="rect" id="node49" href="$_s3_ergodic_moves_8h.html" title="Pachner moves on 3D Delaunay Triangulations. " alt="" coords="172,152,305,177"/>
-<area shape="rect" id="node3" href="$_simplicial_manifold_8h.html" title="Data structures for simplicial manifolds. " alt="" coords="1812,152,1951,177"/>
-<area shape="rect" id="node4" href="$_s3_triangulation_8h.html" title="Functions on 3D Spherical Delaunay Triangulations. " alt="" coords="1472,225,1597,251"/>
-<area shape="rect" id="node17" href="$_utilities_8h.html" title="Utility functions. " alt="" coords="1661,312,1736,337"/>
-<area shape="rect" id="node28" href="$tz_8h_source.html" title="date/tz.h" alt="" coords="1596,399,1668,424"/>
-<area shape="rect" id="node29" href="$date_8h_source.html" title="date.h" alt="" coords="1384,472,1443,497"/>
-<area shape="rect" id="node48" href="$_function__ref_8h.html" title="Efficient, type&#45;erasing, non&#45;owning function reference. " alt="" coords="2309,472,2416,497"/>
+<area shape="rect" id="node2" href="$_measurements_8h.html" title="Measurements of the simulation. " alt="" coords="2381,79,2502,104"/>
+<area shape="rect" id="node47" href="$_move_manager_8h.html" title="RAII class to manage exception&#45;safe foliation&#45;preserving Pachner moves. " alt="" coords="1963,79,2080,104"/>
+<area shape="rect" id="node49" href="$_s3_ergodic_moves_8h.html" title="Pachner moves on 3D Delaunay Triangulations. " alt="" coords="173,152,307,177"/>
+<area shape="rect" id="node3" href="$_simplicial_manifold_8h.html" title="Data structures for simplicial manifolds. " alt="" coords="2208,152,2347,177"/>
+<area shape="rect" id="node4" href="$_s3_triangulation_8h.html" title="Functions on 3D Spherical Delaunay Triangulations. " alt="" coords="1308,225,1433,251"/>
+<area shape="rect" id="node17" href="$_utilities_8h.html" title="Utility functions. " alt="" coords="1489,312,1564,337"/>
+<area shape="rect" id="node30" href="$tz_8h_source.html" title="date/tz.h" alt="" coords="1474,399,1547,424"/>
+<area shape="rect" id="node31" href="$date_8h_source.html" title="date.h" alt="" coords="1440,472,1499,497"/>
+<area shape="rect" id="node48" href="$_function__ref_8h.html" title="Efficient, type&#45;erasing, non&#45;owning function reference. " alt="" coords="1960,472,2067,497"/>
 </map>

@@ -121,12 +121,14 @@ template&lt;class T  = TimeZonePtr, class  = typename std::enable_if &lt;       
 template&lt;class T  = TimeZonePtr, class  = typename std::enable_if &lt;                  std::is_convertible                  &lt;                      decltype(std::declval&lt;T&amp;&gt;()-&gt;to_sys(local_time&lt;Duration&gt;{},                                                          choose::earliest)),                      sys_time&lt;duration&gt;                  &gt;::value, ::type &gt; </td></tr>
 <tr class="memitem:ab7bc419518b9e645c974e0241d48cf8f"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><b>zoned_time</b> (TimeZonePtr z, const local_time&lt; Duration &gt; &amp;tp, choose c)</td></tr>
 <tr class="separator:ab7bc419518b9e645c974e0241d48cf8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adb034f477a2a8f2fbe7da3780c28829e"><td class="memItemLeft" align="right" valign="top"><a id="adb034f477a2a8f2fbe7da3780c28829e"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>zoned_time</b> (TimeZonePtr z, const <a class="el" href="classdate_1_1zoned__time.html">zoned_time</a> &amp;zt)</td></tr>
-<tr class="separator:adb034f477a2a8f2fbe7da3780c28829e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af2c49c801b500d05085a5b5823b4ddd3"><td class="memItemLeft" align="right" valign="top"><a id="af2c49c801b500d05085a5b5823b4ddd3"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>zoned_time</b> (TimeZonePtr z, const <a class="el" href="classdate_1_1zoned__time.html">zoned_time</a> &amp;zt, choose)</td></tr>
-<tr class="separator:af2c49c801b500d05085a5b5823b4ddd3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7445248e487a43f2578884edcfaa3e2a"><td class="memTemplParams" colspan="2"><a id="a7445248e487a43f2578884edcfaa3e2a"></a>
+template&lt;class Duration2 , class TimeZonePtr2 , class  = typename std::enable_if &lt;                          std::is_convertible&lt;sys_time&lt;Duration2&gt;,                                              sys_time&lt;Duration&gt;&gt;::value                      &gt;::type&gt; </td></tr>
+<tr class="memitem:a7445248e487a43f2578884edcfaa3e2a"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><b>zoned_time</b> (TimeZonePtr z, const <a class="el" href="classdate_1_1zoned__time.html">zoned_time</a>&lt; Duration2, TimeZonePtr2 &gt; &amp;zt)</td></tr>
+<tr class="separator:a7445248e487a43f2578884edcfaa3e2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abcb33ad213245d8f089710613b01c821"><td class="memTemplParams" colspan="2"><a id="abcb33ad213245d8f089710613b01c821"></a>
+template&lt;class Duration2 , class TimeZonePtr2 , class  = typename std::enable_if &lt;                          std::is_convertible&lt;sys_time&lt;Duration2&gt;,                                              sys_time&lt;Duration&gt;&gt;::value                      &gt;::type&gt; </td></tr>
+<tr class="memitem:abcb33ad213245d8f089710613b01c821"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><b>zoned_time</b> (TimeZonePtr z, const <a class="el" href="classdate_1_1zoned__time.html">zoned_time</a>&lt; Duration2, TimeZonePtr2 &gt; &amp;zt, choose)</td></tr>
+<tr class="separator:abcb33ad213245d8f089710613b01c821"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a57d5ccedc613e0bff80d5a65355827e4"><td class="memTemplParams" colspan="2"><a id="a57d5ccedc613e0bff80d5a65355827e4"></a>
 template&lt;class T  = TimeZonePtr, class  = typename std::enable_if &lt;                  std::is_constructible                  &lt;                      zoned_time,                      decltype(zoned_traits&lt;T&gt;::locate_zone(std::string())),                      sys_time&lt;Duration&gt;                  &gt;::value              &gt;::type&gt; </td></tr>
 <tr class="memitem:a57d5ccedc613e0bff80d5a65355827e4"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><b>zoned_time</b> (const std::string &amp;name, const sys_time&lt; Duration &gt; &amp;st)</td></tr>
@@ -229,14 +231,14 @@ template&lt;class Duration1 , class Duration2 , class TimeZonePtr1 &gt; </td></t
 class date::zoned_time&lt; Duration, TimeZonePtr &gt;</h3>
 
 
-<p class="definition">Definition at line <a class="el" href="tz_8h_source.html#l00348">348</a> of file <a class="el" href="tz_8h_source.html">tz.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="tz_8h_source.html#l00335">335</a> of file <a class="el" href="tz_8h_source.html">tz.h</a>.</p>
 </div><hr/>The documentation for this class was generated from the following file:<ul>
 <li>src/date/include/date/<a class="el" href="tz_8h_source.html">tz.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Oct 26 2017 20:48:43 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Nov 7 2017 10:40:24 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

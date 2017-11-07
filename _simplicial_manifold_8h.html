@@ -71,7 +71,8 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#typedef-members">Typedefs</a>  </div>
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">SimplicialManifold.h File Reference</div>  </div>
 </div><!--header-->
@@ -91,10 +92,10 @@ Include dependency graph for SimplicialManifold.h:</div>
 <div class="dyncontent">
 <div class="center"><img src="_simplicial_manifold_8h__incl.png" border="0" usemap="#src_2_simplicial_manifold_8h" alt=""/></div>
 <map name="src_2_simplicial_manifold_8h" id="src_2_simplicial_manifold_8h">
-<area shape="rect" id="node2" href="_s3_triangulation_8h.html" title="Functions on 3D Spherical Delaunay Triangulations. " alt="" coords="882,79,1007,104"/>
-<area shape="rect" id="node15" href="_utilities_8h.html" title="Utility functions. " alt="" coords="757,165,833,191"/>
-<area shape="rect" id="node26" href="tz_8h_source.html" title="date/tz.h" alt="" coords="664,252,737,277"/>
-<area shape="rect" id="node27" href="date_8h_source.html" title="date.h" alt="" coords="738,325,796,351"/>
+<area shape="rect" id="node2" href="_s3_triangulation_8h.html" title="Functions on 3D Spherical Delaunay Triangulations. " alt="" coords="1090,79,1215,104"/>
+<area shape="rect" id="node15" href="_utilities_8h.html" title="Utility functions. " alt="" coords="1032,165,1108,191"/>
+<area shape="rect" id="node28" href="tz_8h_source.html" title="date/tz.h" alt="" coords="910,252,982,277"/>
+<area shape="rect" id="node29" href="date_8h_source.html" title="date.h" alt="" coords="800,325,858,351"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
@@ -138,18 +139,106 @@ Typedefs</h2></td></tr>
 <tr class="memitem:ad93c2ac3e569f3ccced1f37f6500d600"><td class="memItemLeft" align="right" valign="top"><a id="ad93c2ac3e569f3ccced1f37f6500d600"></a>
 using&#160;</td><td class="memItemRight" valign="bottom"><b>Facet</b> = Delaunay::Facet</td></tr>
 <tr class="separator:ad93c2ac3e569f3ccced1f37f6500d600"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a1052a41d72ffed9752451117846481a7"><td class="memTemplParams" colspan="2"><a id="a1052a41d72ffed9752451117846481a7"></a>
+template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a1052a41d72ffed9752451117846481a7"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><b>classify_all_simplices</b> (T &amp;&amp;universe_ptr)</td></tr>
+<tr class="separator:a1052a41d72ffed9752451117846481a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d1faf454aae17fccb2378ae149f8b79"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a5d1faf454aae17fccb2378ae149f8b79"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="_simplicial_manifold_8h.html#a5d1faf454aae17fccb2378ae149f8b79">classify_edges</a> (T &amp;&amp;universe_ptr)</td></tr>
+<tr class="memdesc:a5d1faf454aae17fccb2378ae149f8b79"><td class="mdescLeft">&#160;</td><td class="mdescRight">Classifies edges.  <a href="#a5d1faf454aae17fccb2378ae149f8b79">More...</a><br /></td></tr>
+<tr class="separator:a5d1faf454aae17fccb2378ae149f8b79"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6eae5e81fbc86f691083957d5f7aa96d"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a6eae5e81fbc86f691083957d5f7aa96d"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="_simplicial_manifold_8h.html#a6eae5e81fbc86f691083957d5f7aa96d">classify_simplices</a> (T &amp;&amp;universe_ptr)</td></tr>
+<tr class="memdesc:a6eae5e81fbc86f691083957d5f7aa96d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Classify simplices as (3,1), (2,2), or (1,3)  <a href="#a6eae5e81fbc86f691083957d5f7aa96d">More...</a><br /></td></tr>
+<tr class="separator:a6eae5e81fbc86f691083957d5f7aa96d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Data structures for simplicial manifolds. </p>
 <p>Causal Dynamical Triangulations in C++ using CGAL</p>
 <p>Copyright © 2016-2017 Adam Getchell</p>
-<p>Data structures for operations on simplicial manifolds </p><dl class="section author"><dt>Author</dt><dd>Adam Getchell </dd></dl>
+<p>Data structures for operations on simplicial manifolds</p>
+<dl class="done"><dt><b><a class="el" href="done.html#_done000009">Implemented To-do's:</a></b></dt><dd><p class="startdd">Classify cells as (3,1), (2,2), or (1,3) based on their foliation. A tuple of vectors contain cell handles to the simplices of type (3,1), (2,2), and (1,3) respectively. </p>
+<p>Classify edges as timelike or spacelike so that action can be calculated. </p>
+<p><a class="el" href="struct_simplicial_manifold.html">SimplicialManifold</a> data structure holding a std::unique_ptr to the Delaunay triangulation and a std::tuple of geometry information. </p>
+<p class="enddd">Move constructor recalculates geometry.</p>
+</dd></dl>
+<dl class="section author"><dt>Author</dt><dd>Adam Getchell </dd></dl>
 
 <p class="definition">Definition in file <a class="el" href="_simplicial_manifold_8h_source.html">SimplicialManifold.h</a>.</p>
-</div></div><!-- contents -->
+</div><h2 class="groupheader">Function Documentation</h2>
+<a id="a5d1faf454aae17fccb2378ae149f8b79"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5d1faf454aae17fccb2378ae149f8b79">&#9670;&nbsp;</a></span>classify_edges()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">auto classify_edges </td>
+          <td>(</td>
+          <td class="paramtype">T &amp;&amp;&#160;</td>
+          <td class="paramname"><em>universe_ptr</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Classifies edges. </p>
+<p>This function iterates over all edges in the triangulation and classifies them as timelike or spacelike. Timelike edges are stored in the <b>timelike_edges</b> vector as an Edge_handle (tuple of Cell_handle, std::intmax_t, std::intmax_t) for later use by ergodic moves on timelike edges. Spacelike edges are also stored as a vector of Edge_handle <b>spacelike_edges</b>, for use by (4,4) moves as well as the distance-finding algorithms. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">universe_ptr</td><td>A std::unique_ptr&lt;Delaunay&gt; to the triangulation </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A std::pair&lt;std::vector&lt;Edge_handle&gt;, std::vector&lt;Edge_handle&gt;&gt; of timelike edges and spacelike edges </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="_simplicial_manifold_8h_source.html#l00048">48</a> of file <a class="el" href="_simplicial_manifold_8h_source.html">SimplicialManifold.h</a>.</p>
+
+</div>
+</div>
+<a id="a6eae5e81fbc86f691083957d5f7aa96d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6eae5e81fbc86f691083957d5f7aa96d">&#9670;&nbsp;</a></span>classify_simplices()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">auto classify_simplices </td>
+          <td>(</td>
+          <td class="paramtype">T &amp;&amp;&#160;</td>
+          <td class="paramname"><em>universe_ptr</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Classify simplices as (3,1), (2,2), or (1,3) </p>
+<p>This function iterates over all cells in the triangulation and classifies them as: </p><p class="formulaDsp">
+\begin{eqnarray*} 31 &amp;=&amp; (3, 1) \\ 22 &amp;=&amp; (2, 2) \\ 13 &amp;=&amp; (1, 3) \end{eqnarray*}
+</p>
+<p> The vectors <b>three_one</b>, <b>two_two</b>, and <b>one_three</b> contain Cell_handles to all the simplices in the triangulation of that corresponding type.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">universe_ptr</td><td>A std::unique_ptr&lt;Delaunay&gt; to the triangulation </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A std::tuple&lt;std::vector, std::vector, std::vector&gt; of <b>three_one</b>, <b>two_two</b>, and <b>one_three</b> </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="_simplicial_manifold_8h_source.html#l00111">111</a> of file <a class="el" href="_simplicial_manifold_8h_source.html">SimplicialManifold.h</a>.</p>
+
+</div>
+</div>
+</div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Oct 26 2017 20:48:43 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Nov 7 2017 10:40:24 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

@@ -1,8 +1,9 @@
 var searchData=
 [
   ['s3actiontest',['S3ActionTest',['../class_s3_action_test.html',1,'']]],
-  ['s3ergodicmovetest',['S3ErgodicMoveTest',['../class_s3_ergodic_move_test.html',1,'']]],
+  ['s3ergodicmovestest',['S3ErgodicMovesTest',['../class_s3_ergodic_moves_test.html',1,'']]],
   ['save_5fstream',['save_stream',['../classdate_1_1detail_1_1save__stream.html',1,'date::detail']]],
+  ['seedseq',['SeedSeq',['../struct_seed_seq.html',1,'']]],
   ['simplicialmanifold',['SimplicialManifold',['../struct_simplicial_manifold.html',1,'']]],
   ['simulation',['Simulation',['../struct_simulation.html',1,'']]],
   ['static_5fgcd',['static_gcd',['../structdate_1_1detail_1_1static__gcd.html',1,'date::detail']]],

@@ -1,4 +1,4 @@
-<map id="date::TZ_DB" name="date::TZ_DB">
+<map id="date::tzdb" name="date::tzdb">
 <area shape="rect" id="node3" href="$classdate_1_1link.html" title="{date::link\n||+ link()\l+ name()\l+ target()\l}" alt="" coords="29,1161,104,1261"/>
 <area shape="rect" id="node4" title="STL class. " alt="" coords="338,709,417,783"/>
 <area shape="rect" id="node9" href="$classdate_1_1time__zone.html" title="{date::time_zone\n||+ time_zone()\l+ time_zone()\l+ add()\l+ get_info()\l+ get_info()\l+ name()\l+ operator=()\l+ to_local()\l+ to_sys()\l+ to_sys()\l&#45; adjust_infos()\l&#45; get_info_impl()\l&#45; get_info_impl()\l&#45; get_info_impl()\l&#45; parse_info()\l&#45; to_sys_impl()\l&#45; to_sys_impl()\l}" alt="" coords="344,1901,461,2188"/>
