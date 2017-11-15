@@ -1,7 +1,7 @@
 var searchData=
 [
   ['tai_5fclock',['tai_clock',['../classdate_1_1tai__clock.html',1,'date']]],
-  ['test',['TEST',['../_function_ref_test_8cpp.html#a1857eacfcc49ef3bfab4891ffbad3c10',1,'TEST(FunctionRefTest, DISABLED_ComplexLambda):&#160;FunctionRefTest.cpp'],['../_simplicial_manifold_test_8cpp.html#aaac75afd60fc8de1a46e6e97a6e2a23c',1,'TEST(SimplicialManifold, SimplicialManifold_Properties):&#160;SimplicialManifoldTest.cpp']]],
+  ['test',['TEST',['../_function_ref_test_8cpp.html#a1857eacfcc49ef3bfab4891ffbad3c10',1,'TEST(FunctionRefTest, DISABLED_ComplexLambda):&#160;FunctionRefTest.cpp'],['../_s3_triangulation_test_8cpp.html#ad70aa806ae38cefa7c95f51dac995243',1,'TEST(S3Triangulation, DISABLED_CreateWithLargeNumbersOfSimplices):&#160;S3TriangulationTest.cpp'],['../_simplicial_manifold_test_8cpp.html#aaac75afd60fc8de1a46e6e97a6e2a23c',1,'TEST(SimplicialManifold, SimplicialManifold_Properties):&#160;SimplicialManifoldTest.cpp']]],
   ['tetrahedrontest',['TetrahedronTest',['../class_tetrahedron_test.html',1,'']]],
   ['tetrahedrontest_2ecpp',['TetrahedronTest.cpp',['../_tetrahedron_test_8cpp.html',1,'']]],
   ['three_5fone',['three_one',['../struct_geometry_info.html#aec53865ae614fd81cd31c16ca557e816',1,'GeometryInfo']]],

@@ -3,7 +3,8 @@
 <area shape="rect" id="node3" href="$_move_algorithm_8h.html" title="Base class for move algorithms on Delaunay Triangulations. " alt="" coords="123,85,266,111"/>
 <area shape="rect" id="node7" href="$_move_always_8h.html" title="Always randomly selects moves to perform on Delaunay Triangulations. " alt="" coords="263,165,392,191"/>
 <area shape="rect" id="node9" href="$_measurements_test_8cpp.html" title="Tests for the various measurement functions. " alt="" coords="341,85,554,111"/>
-<area shape="rect" id="node10" href="$_simplicial_manifold_test_8cpp.html" title="Rule of 5 tests: Destructor, move constructor, move assignment, copy constructor, and copy assignment..." alt="" coords="578,79,760,117"/>
+<area shape="rect" id="node10" href="$_s3_triangulation_test_8cpp.html" title="Tests for correctly foliated triangulations. " alt="" coords="579,79,746,117"/>
+<area shape="rect" id="node11" href="$_simplicial_manifold_test_8cpp.html" title="Rule of 5 tests: Destructor, move constructor, move assignment, copy constructor, and copy assignment..." alt="" coords="770,79,952,117"/>
 <area shape="rect" id="node4" href="$_metropolis_8h.html" title="Perform Metropolis&#45;Hastings algorithm on Delaunay Triangulations. " alt="" coords="123,165,239,191"/>
 <area shape="rect" id="node5" href="$cdt_8cpp.html" title="The main executable. " alt="" coords="138,239,224,264"/>
 <area shape="rect" id="node6" href="$_metropolis_test_8cpp.html" title="Tests for the Metropolis&#45;Hastings algorithm. " alt="" coords="248,239,434,264"/>
