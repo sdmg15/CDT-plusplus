@@ -67,7 +67,6 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="#friends">Friends</a> &#124;
 <a href="struct_geometry_info-members.html">List of all members</a>  </div>
@@ -104,6 +103,12 @@ Public Member Functions</h2></td></tr>
 &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_geometry_info.html#a98f264ef65b659a3f0f06041dbd27676">~GeometryInfo</a> ()=default</td></tr>
 <tr class="memdesc:a98f264ef65b659a3f0f06041dbd27676"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default destructor. <br /></td></tr>
 <tr class="separator:a98f264ef65b659a3f0f06041dbd27676"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a1d9e7a0507931676fd0e3e6fcd15d1"><td class="memItemLeft" align="right" valign="top">const boost::optional&lt; std::multimap&lt; intmax_t, Facet &gt; &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_geometry_info.html#a7a1d9e7a0507931676fd0e3e6fcd15d1">getSpacelike_facets</a> () const</td></tr>
+<tr class="memdesc:a7a1d9e7a0507931676fd0e3e6fcd15d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Getter for spacelike facets.  <a href="#a7a1d9e7a0507931676fd0e3e6fcd15d1">More...</a><br /></td></tr>
+<tr class="separator:a7a1d9e7a0507931676fd0e3e6fcd15d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7230978d91de1adc9a1c3d37f151cc65"><td class="memItemLeft" align="right" valign="top">const boost::optional&lt; std::set&lt; intmax_t &gt; &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_geometry_info.html#a7230978d91de1adc9a1c3d37f151cc65">getTimevalues</a> () const</td></tr>
+<tr class="memdesc:a7230978d91de1adc9a1c3d37f151cc65"><td class="mdescLeft">&#160;</td><td class="mdescRight">Getter for timevalues.  <a href="#a7230978d91de1adc9a1c3d37f151cc65">More...</a><br /></td></tr>
+<tr class="separator:a7230978d91de1adc9a1c3d37f151cc65"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae9f4bc0bc992466631b25112ee802b0e"><td class="memItemLeft" align="right" valign="top"><a id="ae9f4bc0bc992466631b25112ee802b0e"></a>
 boost::optional&lt; std::intmax_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>max_timevalue</b> ()</td></tr>
 <tr class="separator:ae9f4bc0bc992466631b25112ee802b0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -145,17 +150,12 @@ boost::optional&lt; std::intmax_t &gt;&#160;</td><td class="memItemRight" valign
 <a class="el" href="struct_geometry_info.html">GeometryInfo</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_geometry_info.html#ab5622170d84e7f69480aec7307e64928">operator=</a> (const <a class="el" href="struct_geometry_info.html">GeometryInfo</a> &amp;)=default</td></tr>
 <tr class="memdesc:ab5622170d84e7f69480aec7307e64928"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default copy assignment operator. <br /></td></tr>
 <tr class="separator:ab5622170d84e7f69480aec7307e64928"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
-Public Attributes</h2></td></tr>
-<tr class="memitem:a58dd6d0f7f96a416e44409c318a40ab6"><td class="memItemLeft" align="right" valign="top"><a id="a58dd6d0f7f96a416e44409c318a40ab6"></a>
-boost::optional&lt; std::multimap&lt; intmax_t, Facet &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_geometry_info.html#a58dd6d0f7f96a416e44409c318a40ab6">spacelike_facets</a></td></tr>
-<tr class="memdesc:a58dd6d0f7f96a416e44409c318a40ab6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Spacelike facets for each timeslice. <br /></td></tr>
-<tr class="separator:a58dd6d0f7f96a416e44409c318a40ab6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aab2270bbe395915cadc5b06b753b430b"><td class="memItemLeft" align="right" valign="top"><a id="aab2270bbe395915cadc5b06b753b430b"></a>
-boost::optional&lt; std::set&lt; intmax_t &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_geometry_info.html#aab2270bbe395915cadc5b06b753b430b">timevalues</a></td></tr>
-<tr class="memdesc:aab2270bbe395915cadc5b06b753b430b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Actual timevalues of simulation. <br /></td></tr>
-<tr class="separator:aab2270bbe395915cadc5b06b753b430b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e843c3a71fdb2e44d24a8262a49e438"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_geometry_info.html#a2e843c3a71fdb2e44d24a8262a49e438">setSpacelike_facets</a> (const boost::optional&lt; std::multimap&lt; intmax_t, Facet &gt;&gt; &amp;<a class="el" href="struct_geometry_info.html#a58dd6d0f7f96a416e44409c318a40ab6">spacelike_facets</a>)</td></tr>
+<tr class="memdesc:a2e843c3a71fdb2e44d24a8262a49e438"><td class="mdescLeft">&#160;</td><td class="mdescRight">Setter for spacelike facets.  <a href="#a2e843c3a71fdb2e44d24a8262a49e438">More...</a><br /></td></tr>
+<tr class="separator:a2e843c3a71fdb2e44d24a8262a49e438"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a26135b230183a9a06ff08412e366bf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_geometry_info.html#a5a26135b230183a9a06ff08412e366bf">setTimevalues</a> (const boost::optional&lt; std::set&lt; intmax_t &gt;&gt; &amp;<a class="el" href="struct_geometry_info.html#aab2270bbe395915cadc5b06b753b430b">timevalues</a>)</td></tr>
+<tr class="memdesc:a5a26135b230183a9a06ff08412e366bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Setter for timevalues.  <a href="#a5a26135b230183a9a06ff08412e366bf">More...</a><br /></td></tr>
+<tr class="separator:a5a26135b230183a9a06ff08412e366bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -167,6 +167,10 @@ std::vector&lt; Cell_handle &gt;&#160;</td><td class="memItemRight" valign="bott
 std::vector&lt; Edge_handle &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_geometry_info.html#aeec8eb20c4c29c2e9eabc2bdf8f51404">spacelike_edges</a></td></tr>
 <tr class="memdesc:aeec8eb20c4c29c2e9eabc2bdf8f51404"><td class="mdescLeft">&#160;</td><td class="mdescRight">Non-spanning edges in the foliation. <br /></td></tr>
 <tr class="separator:aeec8eb20c4c29c2e9eabc2bdf8f51404"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a58dd6d0f7f96a416e44409c318a40ab6"><td class="memItemLeft" align="right" valign="top"><a id="a58dd6d0f7f96a416e44409c318a40ab6"></a>
+boost::optional&lt; std::multimap&lt; intmax_t, Facet &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_geometry_info.html#a58dd6d0f7f96a416e44409c318a40ab6">spacelike_facets</a></td></tr>
+<tr class="memdesc:a58dd6d0f7f96a416e44409c318a40ab6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Spacelike facets for each timeslice. <br /></td></tr>
+<tr class="separator:a58dd6d0f7f96a416e44409c318a40ab6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aec53865ae614fd81cd31c16ca557e816"><td class="memItemLeft" align="right" valign="top"><a id="aec53865ae614fd81cd31c16ca557e816"></a>
 std::vector&lt; Cell_handle &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_geometry_info.html#aec53865ae614fd81cd31c16ca557e816">three_one</a></td></tr>
 <tr class="memdesc:aec53865ae614fd81cd31c16ca557e816"><td class="mdescLeft">&#160;</td><td class="mdescRight">(3,1) cells in the foliation <br /></td></tr>
@@ -175,6 +179,10 @@ std::vector&lt; Cell_handle &gt;&#160;</td><td class="memItemRight" valign="bott
 std::vector&lt; Edge_handle &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_geometry_info.html#a2dc4b59c60f743bf9019a8181bba48f8">timelike_edges</a></td></tr>
 <tr class="memdesc:a2dc4b59c60f743bf9019a8181bba48f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Edges spanning two adjacent time slices in the foliation. <br /></td></tr>
 <tr class="separator:a2dc4b59c60f743bf9019a8181bba48f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab2270bbe395915cadc5b06b753b430b"><td class="memItemLeft" align="right" valign="top"><a id="aab2270bbe395915cadc5b06b753b430b"></a>
+boost::optional&lt; std::set&lt; intmax_t &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_geometry_info.html#aab2270bbe395915cadc5b06b753b430b">timevalues</a></td></tr>
+<tr class="memdesc:aab2270bbe395915cadc5b06b753b430b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Actual timevalues of simulation. <br /></td></tr>
+<tr class="separator:aab2270bbe395915cadc5b06b753b430b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a57ac0dca72a21c03fdc4a95cdab9a0c5"><td class="memItemLeft" align="right" valign="top"><a id="a57ac0dca72a21c03fdc4a95cdab9a0c5"></a>
 std::vector&lt; Cell_handle &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_geometry_info.html#a57ac0dca72a21c03fdc4a95cdab9a0c5">two_two</a></td></tr>
 <tr class="memdesc:a57ac0dca72a21c03fdc4a95cdab9a0c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">(2,2) cells in the foliation <br /></td></tr>
@@ -213,7 +221,7 @@ template&lt;typename T &gt; </td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="_simplicial_manifold_8h_source.html#l00208">208</a> of file <a class="el" href="_simplicial_manifold_8h_source.html">SimplicialManifold.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_simplicial_manifold_8h_source.html#l00212">212</a> of file <a class="el" href="_simplicial_manifold_8h_source.html">SimplicialManifold.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="af7d6e1decb35a00efe46049ce4ae9c8d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af7d6e1decb35a00efe46049ce4ae9c8d">&#9670;&nbsp;</a></span>GeometryInfo()</h2>
@@ -248,11 +256,71 @@ template&lt;typename T &gt; </td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A populated <a class="el" href="struct_geometry_info.html">GeometryInfo</a>{} </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_simplicial_manifold_8h_source.html#l00245">245</a> of file <a class="el" href="_simplicial_manifold_8h_source.html">SimplicialManifold.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_simplicial_manifold_8h_source.html#l00279">279</a> of file <a class="el" href="_simplicial_manifold_8h_source.html">SimplicialManifold.h</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a7a1d9e7a0507931676fd0e3e6fcd15d1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7a1d9e7a0507931676fd0e3e6fcd15d1">&#9670;&nbsp;</a></span>getSpacelike_facets()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const boost::optional&lt;std::multimap&lt;intmax_t, Facet&gt; &gt;&amp; GeometryInfo::getSpacelike_facets </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Getter for spacelike facets. </p>
+<dl class="section return"><dt>Returns</dt><dd>The multimap of facets </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="_simplicial_manifold_8h_source.html#l00242">242</a> of file <a class="el" href="_simplicial_manifold_8h_source.html">SimplicialManifold.h</a>.</p>
+
+</div>
+</div>
+<a id="a7230978d91de1adc9a1c3d37f151cc65"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7230978d91de1adc9a1c3d37f151cc65">&#9670;&nbsp;</a></span>getTimevalues()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const boost::optional&lt;std::set&lt;intmax_t&gt; &gt;&amp; GeometryInfo::getTimevalues </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Getter for timevalues. </p>
+<dl class="section return"><dt>Returns</dt><dd>The set of timevalues </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="_simplicial_manifold_8h_source.html#l00258">258</a> of file <a class="el" href="_simplicial_manifold_8h_source.html">SimplicialManifold.h</a>.</p>
+
+</div>
+</div>
 <a id="a1cc4d5b0465a9f569ea29bf7007ab626"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1cc4d5b0465a9f569ea29bf7007ab626">&#9670;&nbsp;</a></span>N0()</h2>
 
@@ -279,7 +347,7 @@ template&lt;typename T &gt; </td></tr>
 <p>Number of vertices. </p>
 <dl class="section return"><dt>Returns</dt><dd>The number of vertices in the triangulation </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_simplicial_manifold_8h_source.html#l00340">340</a> of file <a class="el" href="_simplicial_manifold_8h_source.html">SimplicialManifold.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_simplicial_manifold_8h_source.html#l00374">374</a> of file <a class="el" href="_simplicial_manifold_8h_source.html">SimplicialManifold.h</a>.</p>
 
 </div>
 </div>
@@ -309,7 +377,7 @@ template&lt;typename T &gt; </td></tr>
 <p>Spacelike edges. </p>
 <dl class="section return"><dt>Returns</dt><dd>The number of edges on same timeslice </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_simplicial_manifold_8h_source.html#l00288">288</a> of file <a class="el" href="_simplicial_manifold_8h_source.html">SimplicialManifold.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_simplicial_manifold_8h_source.html#l00322">322</a> of file <a class="el" href="_simplicial_manifold_8h_source.html">SimplicialManifold.h</a>.</p>
 
 </div>
 </div>
@@ -339,7 +407,7 @@ template&lt;typename T &gt; </td></tr>
 <p>Timelike edges. </p>
 <dl class="section return"><dt>Returns</dt><dd>The number of edges spanning timeslices </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_simplicial_manifold_8h_source.html#l00284">284</a> of file <a class="el" href="_simplicial_manifold_8h_source.html">SimplicialManifold.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_simplicial_manifold_8h_source.html#l00318">318</a> of file <a class="el" href="_simplicial_manifold_8h_source.html">SimplicialManifold.h</a>.</p>
 
 </div>
 </div>
@@ -369,7 +437,7 @@ template&lt;typename T &gt; </td></tr>
 <p>(1,3) simplices </p>
 <dl class="section return"><dt>Returns</dt><dd>The total number of simplices with 1 vertex on the t timeslice and 3 vertices on the t+1 timeslice </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_simplicial_manifold_8h_source.html#l00298">298</a> of file <a class="el" href="_simplicial_manifold_8h_source.html">SimplicialManifold.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_simplicial_manifold_8h_source.html#l00332">332</a> of file <a class="el" href="_simplicial_manifold_8h_source.html">SimplicialManifold.h</a>.</p>
 
 </div>
 </div>
@@ -399,7 +467,7 @@ template&lt;typename T &gt; </td></tr>
 <p>(2,2) simplices </p>
 <dl class="section return"><dt>Returns</dt><dd>The total number of simplices with 2 vertices on one timeslice and 2 vertices on the adjacent timeslice. Used to calculate the change in action. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_simplicial_manifold_8h_source.html#l00310">310</a> of file <a class="el" href="_simplicial_manifold_8h_source.html">SimplicialManifold.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_simplicial_manifold_8h_source.html#l00344">344</a> of file <a class="el" href="_simplicial_manifold_8h_source.html">SimplicialManifold.h</a>.</p>
 
 </div>
 </div>
@@ -429,7 +497,7 @@ template&lt;typename T &gt; </td></tr>
 <p>(3,1) simplices </p>
 <dl class="section return"><dt>Returns</dt><dd>The total number of simplices with 3 vertices on the t timeslice and 1 vertex on the t+1 timeslice </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_simplicial_manifold_8h_source.html#l00293">293</a> of file <a class="el" href="_simplicial_manifold_8h_source.html">SimplicialManifold.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_simplicial_manifold_8h_source.html#l00327">327</a> of file <a class="el" href="_simplicial_manifold_8h_source.html">SimplicialManifold.h</a>.</p>
 
 </div>
 </div>
@@ -459,7 +527,7 @@ template&lt;typename T &gt; </td></tr>
 <p>(3,1) and (1,3) simplices </p>
 <dl class="section return"><dt>Returns</dt><dd>The total number of simplices with 3 vertices on one timeslice and 1 vertex on the adjacent timeslice. Used to calculate the change in action. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_simplicial_manifold_8h_source.html#l00304">304</a> of file <a class="el" href="_simplicial_manifold_8h_source.html">SimplicialManifold.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_simplicial_manifold_8h_source.html#l00338">338</a> of file <a class="el" href="_simplicial_manifold_8h_source.html">SimplicialManifold.h</a>.</p>
 
 </div>
 </div>
@@ -489,7 +557,7 @@ template&lt;typename T &gt; </td></tr>
 <p>Number of cells. </p>
 <p>This should be the equivalent of <a class="el" href="struct_simplicial_manifold.html#a16783060e396f9aea448cd7f92824a26" title="Owning pointer to the Delaunay triangulation. ">SimplicialManifold::triangulation</a>-&gt;number_of_finite_cells(), and is used as a check to ensure that <a class="el" href="struct_geometry_info.html">GeometryInfo</a>{} matches. </p><dl class="section return"><dt>Returns</dt><dd>The number of cells in <a class="el" href="struct_geometry_info.html">GeometryInfo</a>{} </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_simplicial_manifold_8h_source.html#l00318">318</a> of file <a class="el" href="_simplicial_manifold_8h_source.html">SimplicialManifold.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_simplicial_manifold_8h_source.html#l00352">352</a> of file <a class="el" href="_simplicial_manifold_8h_source.html">SimplicialManifold.h</a>.</p>
 
 </div>
 </div>
@@ -519,7 +587,79 @@ template&lt;typename T &gt; </td></tr>
 <p>Number of edges. </p>
 <p>This should be the equivalent of <a class="el" href="struct_simplicial_manifold.html#a16783060e396f9aea448cd7f92824a26" title="Owning pointer to the Delaunay triangulation. ">SimplicialManifold::triangulation</a>-&gt;number_of_finite_edges(), and is used as a check to ensure that <a class="el" href="struct_geometry_info.html">GeometryInfo</a>{} matches. </p><dl class="section return"><dt>Returns</dt><dd>The number of edges in the triangulation </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_simplicial_manifold_8h_source.html#l00326">326</a> of file <a class="el" href="_simplicial_manifold_8h_source.html">SimplicialManifold.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_simplicial_manifold_8h_source.html#l00360">360</a> of file <a class="el" href="_simplicial_manifold_8h_source.html">SimplicialManifold.h</a>.</p>
+
+</div>
+</div>
+<a id="a2e843c3a71fdb2e44d24a8262a49e438"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2e843c3a71fdb2e44d24a8262a49e438">&#9670;&nbsp;</a></span>setSpacelike_facets()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GeometryInfo::setSpacelike_facets </td>
+          <td>(</td>
+          <td class="paramtype">const boost::optional&lt; std::multimap&lt; intmax_t, Facet &gt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>spacelike_facets</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Setter for spacelike facets. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">spacelike_facets</td><td>The multimap of facets </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="_simplicial_manifold_8h_source.html#l00250">250</a> of file <a class="el" href="_simplicial_manifold_8h_source.html">SimplicialManifold.h</a>.</p>
+
+</div>
+</div>
+<a id="a5a26135b230183a9a06ff08412e366bf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5a26135b230183a9a06ff08412e366bf">&#9670;&nbsp;</a></span>setTimevalues()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GeometryInfo::setTimevalues </td>
+          <td>(</td>
+          <td class="paramtype">const boost::optional&lt; std::set&lt; intmax_t &gt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>timevalues</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Setter for timevalues. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">timevalues</td><td>The set of timevalues </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="_simplicial_manifold_8h_source.html#l00265">265</a> of file <a class="el" href="_simplicial_manifold_8h_source.html">SimplicialManifold.h</a>.</p>
 
 </div>
 </div>
@@ -843,7 +983,7 @@ template&lt;typename T1 , typename T2 &gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Nov 15 2017 06:49:36 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Nov 21 2017 23:50:46 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

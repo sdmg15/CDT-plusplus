@@ -13,6 +13,8 @@ var searchData=
   ['s3triangulationtest_2ecpp',['S3TriangulationTest.cpp',['../_s3_triangulation_test_8cpp.html',1,'']]],
   ['save_5fstream',['save_stream',['../classdate_1_1detail_1_1save__stream.html',1,'date::detail']]],
   ['seedseq',['SeedSeq',['../struct_seed_seq.html',1,'']]],
+  ['setspacelike_5ffacets',['setSpacelike_facets',['../struct_geometry_info.html#a2e843c3a71fdb2e44d24a8262a49e438',1,'GeometryInfo']]],
+  ['settimevalues',['setTimevalues',['../struct_geometry_info.html#a5a26135b230183a9a06ff08412e366bf',1,'GeometryInfo']]],
   ['simplicialmanifold',['SimplicialManifold',['../struct_simplicial_manifold.html',1,'SimplicialManifold'],['../struct_simplicial_manifold.html#ac2ac0112454bd2197c086c4642018892',1,'SimplicialManifold::SimplicialManifold()'],['../struct_simplicial_manifold.html#aa32e46629eed81177fc4e8165d6f0a30',1,'SimplicialManifold::SimplicialManifold(std::unique_ptr&lt; Delaunay &gt; &amp;&amp;manifold)'],['../struct_simplicial_manifold.html#aa6240ef2de98e82d9d419cd3d21e8d81',1,'SimplicialManifold::SimplicialManifold(std::intmax_t simplices, std::intmax_t timeslices)'],['../struct_simplicial_manifold.html#a32ed6ddcbfdc898baa42e6392cbf47ee',1,'SimplicialManifold::SimplicialManifold(SimplicialManifold &amp;&amp;other)'],['../struct_simplicial_manifold.html#a968764303213d3a1e7ba20a89f3829eb',1,'SimplicialManifold::SimplicialManifold(const SimplicialManifold &amp;other)']]],
   ['simplicialmanifold_2eh',['SimplicialManifold.h',['../_simplicial_manifold_8h.html',1,'']]],
   ['simplicialmanifoldtest_2ecpp',['SimplicialManifoldTest.cpp',['../_simplicial_manifold_test_8cpp.html',1,'']]],

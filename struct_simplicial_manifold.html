@@ -79,7 +79,7 @@ Collaboration diagram for SimplicialManifold:</div>
 <div class="dyncontent">
 <div class="center"><img src="struct_simplicial_manifold__coll__graph.png" border="0" usemap="#_simplicial_manifold_coll__map" alt="Collaboration graph"/></div>
 <map name="_simplicial_manifold_coll__map" id="_simplicial_manifold_coll__map">
-<area shape="rect" id="node4" href="struct_geometry_info.html" title="{GeometryInfo\n|+ spacelike_facets\l+ timevalues\l|+ GeometryInfo()\l+ GeometryInfo()\l+ GeometryInfo()\l+ GeometryInfo()\l+ ~GeometryInfo()\l+ max_timevalue()\l+ min_timevalue()\l+ N0()\l+ N1_SL()\l+ N1_TL()\land 8 more...\l}" alt="" coords="242,180,373,400"/>
+<area shape="rect" id="node4" href="struct_geometry_info.html" title="{GeometryInfo\n|&#45; spacelike_facets\l&#45; timevalues\l|+ GeometryInfo()\l+ GeometryInfo()\l+ GeometryInfo()\l+ GeometryInfo()\l+ ~GeometryInfo()\l+ getSpacelike_facets()\l+ getTimevalues()\l+ max_timevalue()\l+ min_timevalue()\l+ N0()\land 12 more...\l}" alt="" coords="227,180,388,400"/>
 </map>
 </div>
 <table class="memberdecls">
@@ -114,6 +114,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aa650ea716f1e1fbda40026048746262b"><td class="memItemLeft" align="right" valign="top"><a id="aa650ea716f1e1fbda40026048746262b"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>reconcile</b> ()</td></tr>
 <tr class="separator:aa650ea716f1e1fbda40026048746262b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5502e3df48785e440d06ebef2ef4dc8d"><td class="memItemLeft" align="right" valign="top"><a id="a5502e3df48785e440d06ebef2ef4dc8d"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>update</b> ()</td></tr>
+<tr class="separator:a5502e3df48785e440d06ebef2ef4dc8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -134,7 +137,7 @@ Friends</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="_simplicial_manifold_8h_source.html#l00371">371</a> of file <a class="el" href="_simplicial_manifold_8h_source.html">SimplicialManifold.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_simplicial_manifold_8h_source.html#l00405">405</a> of file <a class="el" href="_simplicial_manifold_8h_source.html">SimplicialManifold.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="aa32e46629eed81177fc4e8165d6f0a30"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa32e46629eed81177fc4e8165d6f0a30">&#9670;&nbsp;</a></span>SimplicialManifold() <span class="overload">[1/4]</span></h2>
@@ -169,7 +172,7 @@ Friends</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A <a class="el" href="struct_simplicial_manifold.html">SimplicialManifold</a>{} </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_simplicial_manifold_8h_source.html#l00401">401</a> of file <a class="el" href="_simplicial_manifold_8h_source.html">SimplicialManifold.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_simplicial_manifold_8h_source.html#l00435">435</a> of file <a class="el" href="_simplicial_manifold_8h_source.html">SimplicialManifold.h</a>.</p>
 
 </div>
 </div>
@@ -217,7 +220,7 @@ Friends</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A populated <a class="el" href="struct_simplicial_manifold.html">SimplicialManifold</a>{} </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_simplicial_manifold_8h_source.html#l00419">419</a> of file <a class="el" href="_simplicial_manifold_8h_source.html">SimplicialManifold.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_simplicial_manifold_8h_source.html#l00453">453</a> of file <a class="el" href="_simplicial_manifold_8h_source.html">SimplicialManifold.h</a>.</p>
 
 </div>
 </div>
@@ -254,7 +257,7 @@ Friends</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A moved-to <a class="el" href="struct_simplicial_manifold.html">SimplicialManifold</a>{} </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_simplicial_manifold_8h_source.html#l00442">442</a> of file <a class="el" href="_simplicial_manifold_8h_source.html">SimplicialManifold.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_simplicial_manifold_8h_source.html#l00476">476</a> of file <a class="el" href="_simplicial_manifold_8h_source.html">SimplicialManifold.h</a>.</p>
 
 </div>
 </div>
@@ -291,7 +294,7 @@ Friends</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A copied <a class="el" href="struct_simplicial_manifold.html">SimplicialManifold</a>{} </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_simplicial_manifold_8h_source.html#l00471">471</a> of file <a class="el" href="_simplicial_manifold_8h_source.html">SimplicialManifold.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_simplicial_manifold_8h_source.html#l00507">507</a> of file <a class="el" href="_simplicial_manifold_8h_source.html">SimplicialManifold.h</a>.</p>
 
 </div>
 </div>
@@ -329,7 +332,7 @@ Friends</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A moved-assigned <a class="el" href="struct_simplicial_manifold.html">SimplicialManifold</a>{} </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_simplicial_manifold_8h_source.html#l00456">456</a> of file <a class="el" href="_simplicial_manifold_8h_source.html">SimplicialManifold.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_simplicial_manifold_8h_source.html#l00491">491</a> of file <a class="el" href="_simplicial_manifold_8h_source.html">SimplicialManifold.h</a>.</p>
 
 </div>
 </div>
@@ -406,7 +409,7 @@ Friends</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="_simplicial_manifold_8h_source.html#l00487">487</a> of file <a class="el" href="_simplicial_manifold_8h_source.html">SimplicialManifold.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_simplicial_manifold_8h_source.html#l00523">523</a> of file <a class="el" href="_simplicial_manifold_8h_source.html">SimplicialManifold.h</a>.</p>
 
 </div>
 </div>
@@ -416,7 +419,7 @@ Friends</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Nov 15 2017 06:49:36 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Nov 21 2017 23:50:46 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>
