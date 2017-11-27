@@ -94,7 +94,7 @@ Static Public Attributes</h2></td></tr>
 struct date::detail::classify_duration&lt; Duration &gt;</h3>
 
 
-<p class="definition">Definition at line <a class="el" href="date_8h_source.html#l03712">3712</a> of file <a class="el" href="date_8h_source.html">date.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="date_8h_source.html#l03731">3731</a> of file <a class="el" href="date_8h_source.html">date.h</a>.</p>
 </div><h2 class="groupheader">Member Data Documentation</h2>
 <a id="a4125a52c076b499e6e1dfa0b257f8fa8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4125a52c076b499e6e1dfa0b257f8fa8">&#9670;&nbsp;</a></span>value</h2>
@@ -118,7 +118,7 @@ template&lt;class Duration &gt; </div>
 </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">=</div><div class="line">        std::is_convertible&lt;Duration, std::chrono::hours&gt;::value</div><div class="line">                ? classify::hour :</div><div class="line">        std::is_convertible&lt;Duration, std::chrono::minutes&gt;::value</div><div class="line">                ? classify::minute :</div><div class="line">        std::is_convertible&lt;Duration, std::chrono::seconds&gt;::value</div><div class="line">                ? classify::second :</div><div class="line">        std::chrono::treat_as_floating_point&lt;typename Duration::rep&gt;::value</div><div class="line">                ? classify::not_valid :</div><div class="line">                classify::subsecond</div></div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="date_8h_source.html#l03714">3714</a> of file <a class="el" href="date_8h_source.html">date.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="date_8h_source.html#l03733">3733</a> of file <a class="el" href="date_8h_source.html">date.h</a>.</p>
 
 </div>
 </div>
@@ -128,7 +128,7 @@ template&lt;class Duration &gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Nov 21 2017 23:50:46 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon Nov 27 2017 00:26:34 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

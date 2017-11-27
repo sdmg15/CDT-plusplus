@@ -39,6 +39,6 @@ var searchData=
   ['successfulthreetwomoves',['SuccessfulThreeTwoMoves',['../class_move_algorithm.html#a2ff4f7cd6597f787f60dd329ea38510a',1,'MoveAlgorithm']]],
   ['successfultwosixmoves',['SuccessfulTwoSixMoves',['../class_move_algorithm.html#a71d5f2dab196ef5f449d5663473ffab1',1,'MoveAlgorithm']]],
   ['successfultwothreemoves',['SuccessfulTwoThreeMoves',['../class_move_algorithm.html#a6d0dad066094ace354070583b9f04173',1,'MoveAlgorithm']]],
-  ['swap',['swap',['../struct_simplicial_manifold.html#aaf9206823e6d6c95f2e1e53b30be5af1',1,'SimplicialManifold']]],
+  ['swap',['swap',['../struct_simplicial_manifold.html#a6b2f76aacf53811ed6cc2f36837c2ebf',1,'SimplicialManifold']]],
   ['sys_5finfo',['sys_info',['../structdate_1_1sys__info.html',1,'date']]]
 ];
