@@ -1,0 +1,4 @@
+<map id="Catch::MatchExpr&lt; ArgT, MatcherT &gt;" name="Catch::MatchExpr&lt; ArgT, MatcherT &gt;">
+<area shape="rect" id="node2" href="$struct_catch_1_1_i_transient_expression.html" title="{Catch::ITransientExpression\n||+ ~ITransientExpression()\l+ getResult()\l+ isBinaryExpression()\l+ streamReconstructedExpression()\l}" alt="" coords="5,92,240,205"/>
+<area shape="rect" id="node3" href="$class_catch_1_1_string_ref.html" title="{Catch::StringRef\n|&#45; m_data\l&#45; m_size\l&#45; m_start\l|+ StringRef()\l+ StringRef()\l+ StringRef()\l+ StringRef()\l+ StringRef()\l+ StringRef()\l+ ~StringRef()\l+ c_str()\l+ empty()\l+ numberOfCharacters()\land 8 more...\l&#45; data()\l&#45; isOwned()\l&#45; isSubstring()\l&#45; takeOwnership()\l}" alt="" coords="263,5,430,292"/>
+</map>

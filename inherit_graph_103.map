@@ -1,3 +1,7 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classiso__week_1_1weeknum.html" title="iso_week::weeknum" alt="" coords="5,5,147,31"/>
+<area shape="rect" id="node1" href="$classdate_1_1detail_1_1time__of__day__base.html" title="date::detail::time\l_of_day_base" alt="" coords="5,180,124,219"/>
+<area shape="rect" id="node2" href="$classdate_1_1detail_1_1time__of__day__storage_3_01std_1_1chrono_1_1duration_3_01_rep_00_01_periof6e2d5ee0d1e3852f1e52c62f81e1bb7.html" title="date::detail::time\l_of_day_storage\&lt; std\l::chrono::duration\&lt; Rep,\l Period \&gt;, detail::classify\l::hour \&gt;" alt="" coords="172,5,338,84"/>
+<area shape="rect" id="node3" href="$classdate_1_1detail_1_1time__of__day__storage_3_01std_1_1chrono_1_1duration_3_01_rep_00_01_perio2f7e02f06472a83980e1d0196ea2746d.html" title="date::detail::time\l_of_day_storage\&lt; std\l::chrono::duration\&lt; Rep,\l Period \&gt;, detail::classify\l::minute \&gt;" alt="" coords="172,108,338,187"/>
+<area shape="rect" id="node4" href="$classdate_1_1detail_1_1time__of__day__storage_3_01std_1_1chrono_1_1duration_3_01_rep_00_01_perioa4aafe6bf337ed7dabca38dd6be843a3.html" title="date::detail::time\l_of_day_storage\&lt; std\l::chrono::duration\&lt; Rep,\l Period \&gt;, detail::classify\l::second \&gt;" alt="" coords="172,211,338,289"/>
+<area shape="rect" id="node5" href="$classdate_1_1detail_1_1time__of__day__storage_3_01std_1_1chrono_1_1duration_3_01_rep_00_01_period1e03169a7045e50b0409508214ed655.html" title="date::detail::time\l_of_day_storage\&lt; std\l::chrono::duration\&lt; Rep,\l Period \&gt;, detail::classify\l::subsecond \&gt;" alt="" coords="172,313,338,392"/>
 </map>

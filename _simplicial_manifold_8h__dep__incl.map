@@ -1,21 +1,21 @@
 <map id="src/SimplicialManifold.h" name="src/SimplicialManifold.h">
-<area shape="rect" id="node2" href="$_measurements_8h.html" title="Measurements of the simulation. " alt="" coords="621,79,763,104"/>
-<area shape="rect" id="node11" href="$_s3_ergodic_moves_test_8cpp.html" title="Tests for S3 ergodic moves. " alt="" coords="795,152,970,191"/>
-<area shape="rect" id="node12" href="$_s3_triangulation_test_8cpp.html" title="Tests for correctly foliated triangulations. " alt="" coords="994,152,1162,191"/>
-<area shape="rect" id="node13" href="$_simplicial_manifold_test_8cpp.html" title="Rule of 5 tests: Destructor, move constructor, move assignment, copy constructor, and copy assignment..." alt="" coords="1186,152,1368,191"/>
-<area shape="rect" id="node14" href="$_move_manager_8h.html" title="RAII class to manage exception&#45;safe foliation&#45;preserving Pachner moves. " alt="" coords="290,79,429,104"/>
-<area shape="rect" id="node16" href="$_simulation_8h.html" title="Simulation class. " alt="" coords="315,239,431,264"/>
-<area shape="rect" id="node17" href="$_function_ref_test_8cpp.html" title="Tests for Function_ref.h. " alt="" coords="993,79,1190,104"/>
-<area shape="rect" id="node18" href="$_s3_action_test_8cpp.html" title="Tests for the S3 action functions. " alt="" coords="1213,79,1391,104"/>
-<area shape="rect" id="node19" href="$_tetrahedron_test_8cpp.html" title="Tests for 3D triangulated and foliated tetrahedrons. " alt="" coords="1415,79,1611,104"/>
-<area shape="rect" id="node20" href="$_vertex_test_8cpp.html" title="Tests on vertices. " alt="" coords="1635,79,1797,104"/>
-<area shape="rect" id="node3" href="$cdt-opt_8cpp.html" title="Outputs values to determine optimizations. " alt="" coords="325,312,434,337"/>
-<area shape="rect" id="node4" href="$_move_algorithm_8h.html" title="Base class for move algorithms on Delaunay Triangulations. " alt="" coords="288,159,431,184"/>
-<area shape="rect" id="node8" href="$_move_always_8h.html" title="Always randomly selects moves to perform on Delaunay Triangulations. " alt="" coords="506,239,635,264"/>
-<area shape="rect" id="node10" href="$_measurements_test_8cpp.html" title="Tests for the various measurement functions. " alt="" coords="557,159,770,184"/>
-<area shape="rect" id="node5" href="$_metropolis_8h.html" title="Perform Metropolis&#45;Hastings algorithm on Delaunay Triangulations. " alt="" coords="175,239,291,264"/>
-<area shape="rect" id="node6" href="$cdt_8cpp.html" title="The main executable. " alt="" coords="215,312,301,337"/>
-<area shape="rect" id="node7" href="$_metropolis_test_8cpp.html" title="Tests for the Metropolis&#45;Hastings algorithm. " alt="" coords="5,312,191,337"/>
-<area shape="rect" id="node9" href="$_simulation_test_8cpp.html" title="Push function objects and lambdas onto Simulation queue and run. " alt="" coords="470,312,657,337"/>
-<area shape="rect" id="node15" href="$_move_manager_test_8cpp.html" title="Tests for the MoveManager RAII class. " alt="" coords="55,159,264,184"/>
+<area shape="rect" id="node2" href="$_measurements_8h.html" title="Measurements of the simulation. " alt="" coords="736,79,878,104"/>
+<area shape="rect" id="node17" href="$_move_manager_8h.html" title="RAII class to manage exception&#45;safe foliation&#45;preserving Pachner moves. " alt="" coords="248,79,387,104"/>
+<area shape="rect" id="node18" href="$_simulation_8h.html" title="Simulation class. " alt="" coords="686,239,802,264"/>
+<area shape="rect" id="node19" href="$_tetrahedron_test_8cpp_source.html" title="tests/TetrahedronTest.cpp" alt="" coords="903,79,1077,104"/>
+<area shape="rect" id="node20" href="$_vertex_test_8cpp_source.html" title="tests/VertexTest.cpp" alt="" coords="1101,79,1241,104"/>
+<area shape="rect" id="node3" href="$cdt-opt_8cpp.html" title="Outputs values to determine optimizations. " alt="" coords="751,312,860,337"/>
+<area shape="rect" id="node4" href="$_move_algorithm_8h.html" title="Base class for move algorithms on Delaunay Triangulations. " alt="" coords="246,159,389,184"/>
+<area shape="rect" id="node8" href="$_move_always_8h.html" title="Always randomly selects moves to perform on Delaunay Triangulations. " alt="" coords="1464,239,1593,264"/>
+<area shape="rect" id="node10" href="$_function_ref_test_8cpp_source.html" title="tests/FunctionRefTest.cpp" alt="" coords="1541,159,1716,184"/>
+<area shape="rect" id="node11" href="$_measurements_test_8cpp.html" title="Tests for the various measurement functions. " alt="" coords="413,159,604,184"/>
+<area shape="rect" id="node12" href="$_move_manager_test_8cpp_source.html" title="tests/MoveManagerTest.cpp" alt="" coords="34,159,222,184"/>
+<area shape="rect" id="node13" href="$_s3_action_test_8cpp_source.html" title="tests/S3ActionTest.cpp" alt="" coords="627,159,784,184"/>
+<area shape="rect" id="node14" href="$_s3_ergodic_moves_test_8cpp_source.html" title="tests/S3ErgodicMovesTest.cpp" alt="" coords="808,159,1011,184"/>
+<area shape="rect" id="node15" href="$_s3_triangulation_test_8cpp_source.html" title="tests/S3TriangulationTest.cpp" alt="" coords="1036,159,1231,184"/>
+<area shape="rect" id="node16" href="$_simplicial_manifold_test_8cpp_source.html" title="tests/SimplicialManifold\lTest.cpp" alt="" coords="1255,152,1415,191"/>
+<area shape="rect" id="node5" href="$_metropolis_8h.html" title="Perform Metropolis&#45;Hastings algorithm on Delaunay Triangulations. " alt="" coords="473,239,589,264"/>
+<area shape="rect" id="node6" href="$cdt_8cpp.html" title="The main executable. " alt="" coords="641,312,727,337"/>
+<area shape="rect" id="node7" href="$_move_algorithms_test_8cpp.html" title="Tests for the Metropolis&#45;Hastings algorithm. " alt="" coords="418,312,617,337"/>
+<area shape="rect" id="node9" href="$_simulation_test_8cpp_source.html" title="tests/SimulationTest.cpp" alt="" coords="1259,312,1424,337"/>
 </map>

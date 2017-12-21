@@ -1,0 +1,4 @@
+<map id="Catch::AssertionInfo" name="Catch::AssertionInfo">
+<area shape="rect" id="node2" href="$struct_catch_1_1_source_line_info.html" title="{Catch::SourceLineInfo\n|+ file\l+ line\l|+ SourceLineInfo()\l+ SourceLineInfo()\l+ SourceLineInfo()\l+ SourceLineInfo()\l+ empty()\l+ operator\&lt;()\l+ operator=()\l+ operator=()\l+ operator==()\l}" alt="" coords="5,52,159,245"/>
+<area shape="rect" id="node3" href="$class_catch_1_1_string_ref.html" title="{Catch::StringRef\n|&#45; m_data\l&#45; m_size\l&#45; m_start\l|+ StringRef()\l+ StringRef()\l+ StringRef()\l+ StringRef()\l+ StringRef()\l+ StringRef()\l+ ~StringRef()\l+ c_str()\l+ empty()\l+ numberOfCharacters()\land 8 more...\l&#45; data()\l&#45; isOwned()\l&#45; isSubstring()\l&#45; takeOwnership()\l}" alt="" coords="183,5,349,292"/>
+</map>

@@ -1,11 +1,13 @@
 var searchData=
 [
-  ['last_5fspec',['last_spec',['../structdate_1_1last__spec.html',1,'date::last_spec'],['../structislamic_1_1last__spec.html',1,'islamic::last_spec'],['../structjulian_1_1last__spec.html',1,'julian::last_spec']]],
-  ['last_5fweek',['last_week',['../structiso__week_1_1last__week.html',1,'iso_week']]],
-  ['lastweek_5fweekday',['lastweek_weekday',['../classiso__week_1_1lastweek__weekday.html',1,'iso_week']]],
-  ['leafpattern',['LeafPattern',['../classdocopt_1_1_leaf_pattern.html',1,'docopt']]],
-  ['leap',['leap',['../classdate_1_1leap.html',1,'date']]],
-  ['link',['link',['../classdate_1_1link.html',1,'date']]],
-  ['local_5finfo',['local_info',['../structdate_1_1local__info.html',1,'date']]],
-  ['local_5ft',['local_t',['../structdate_1_1local__t.html',1,'date']]]
+  ['iexceptiontranslator',['IExceptionTranslator',['../struct_catch_1_1_i_exception_translator.html',1,'Catch']]],
+  ['iexceptiontranslatorregistry',['IExceptionTranslatorRegistry',['../struct_catch_1_1_i_exception_translator_registry.html',1,'Catch']]],
+  ['imutableregistryhub',['IMutableRegistryHub',['../struct_catch_1_1_i_mutable_registry_hub.html',1,'Catch']]],
+  ['iregistryhub',['IRegistryHub',['../struct_catch_1_1_i_registry_hub.html',1,'Catch']]],
+  ['iresultcapture',['IResultCapture',['../struct_catch_1_1_i_result_capture.html',1,'Catch']]],
+  ['irunner',['IRunner',['../struct_catch_1_1_i_runner.html',1,'Catch']]],
+  ['isstreaminsertable',['IsStreamInsertable',['../class_catch_1_1_detail_1_1_is_stream_insertable.html',1,'Catch::Detail']]],
+  ['itestcaseregistry',['ITestCaseRegistry',['../struct_catch_1_1_i_test_case_registry.html',1,'Catch']]],
+  ['itestinvoker',['ITestInvoker',['../struct_catch_1_1_i_test_invoker.html',1,'Catch']]],
+  ['itransientexpression',['ITransientExpression',['../struct_catch_1_1_i_transient_expression.html',1,'Catch']]]
 ];

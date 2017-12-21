@@ -1,0 +1,6 @@
+<map id="Catch::Matchers::Impl::MatcherBase&lt; ObjectT, ComparatorT &gt;" name="Catch::Matchers::Impl::MatcherBase&lt; ObjectT, ComparatorT &gt;">
+<area shape="rect" id="node2" href="$class_catch_1_1_matchers_1_1_impl_1_1_matcher_untyped_base.html" title="{Catch::Matchers::Impl\l::MatcherUntypedBase\n||+ MatcherUntypedBase()\l+ MatcherUntypedBase()\l+ operator=()\l+ toString()\l# ~MatcherUntypedBase()\l# describe()\l}" alt="" coords="5,276,183,429"/>
+<area shape="rect" id="node3" title="STL class. " alt="" coords="54,141,134,215"/>
+<area shape="rect" id="node4" title="STL class. " alt="" coords="31,5,157,92"/>
+<area shape="rect" id="node5" href="$struct_catch_1_1_matchers_1_1_impl_1_1_matcher_method.html" title="{Catch::Matchers::Impl\l::MatcherMethod\&lt; ObjectT \&gt;\n||+ match()\l}" alt="" coords="207,309,397,396"/>
+</map>

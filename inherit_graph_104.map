@@ -1,3 +1,4 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classiso__week_1_1weeknum__weekday.html" title="iso_week::weeknum_weekday" alt="" coords="5,5,207,31"/>
+<area shape="rect" id="node1" href="$classdate_1_1detail_1_1time__of__day__storage.html" title="date::detail::time\l_of_day_storage\&lt; Duration \&gt;" alt="" coords="5,5,199,44"/>
+<area shape="rect" id="node2" href="$classdate_1_1time__of__day.html" title="date::time_of_day\&lt;\l Duration \&gt;" alt="" coords="247,5,382,44"/>
 </map>

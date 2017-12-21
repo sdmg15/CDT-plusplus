@@ -1,9 +1,13 @@
 var searchData=
 [
-  ['alpha',['Alpha',['../class_metropolis_test.html#abb8aa4007ec59be75da4f167f05ab6a4',1,'MetropolisTest::Alpha()'],['../class_metropolis.html#aa21c66124bac577eafc481b6262715dc',1,'Metropolis::Alpha()']]],
+  ['alpha',['Alpha',['../class_metropolis.html#aa21c66124bac577eafc481b6262715dc',1,'Metropolis']]],
   ['alpha_5f',['Alpha_',['../class_metropolis.html#a943281d3bd65d50063098cc9d2e37d46',1,'Metropolis']]],
   ['ambiguous_5flocal_5ftime',['ambiguous_local_time',['../classdate_1_1ambiguous__local__time.html',1,'date']]],
+  ['approx',['Approx',['../class_catch_1_1_detail_1_1_approx.html',1,'Catch::Detail']]],
   ['argument',['Argument',['../classdocopt_1_1_argument.html',1,'docopt']]],
+  ['assertionhandler',['AssertionHandler',['../class_catch_1_1_assertion_handler.html',1,'Catch']]],
+  ['assertioninfo',['AssertionInfo',['../struct_catch_1_1_assertion_info.html',1,'Catch']]],
   ['attempt_5fmove',['attempt_move',['../class_metropolis.html#acbb912b7ece7f277f76b8f501f6d213a',1,'Metropolis']]],
-  ['attempted_5fmoves_5f',['attempted_moves_',['../class_move_algorithm.html#abcd606de28e6a33d225336634afbfaef',1,'MoveAlgorithm::attempted_moves_()'],['../class_move_manager.html#a29ddb361a19dde65ab854fe9c331c364',1,'MoveManager::attempted_moves_()'],['../class_metropolis_test.html#a543b771db0b596492851b231ffabfcc9',1,'MetropolisTest::attempted_moves_()'],['../class_move_manager_test.html#a56e0ce3d578ff1ed224818636a6c2a36',1,'MoveManagerTest::attempted_moves_()'],['../class_s3_action_test.html#ad6a922cf09159d622a75861ad11fc3fd',1,'S3ActionTest::attempted_moves_()'],['../class_s3_ergodic_moves_test.html#a9e804a07d9d921b3cdad0f556a27aa17',1,'S3ErgodicMovesTest::attempted_moves_()']]]
+  ['attempted_5fmoves_5f',['attempted_moves_',['../class_move_algorithm.html#abcd606de28e6a33d225336634afbfaef',1,'MoveAlgorithm::attempted_moves_()'],['../class_move_manager.html#a29ddb361a19dde65ab854fe9c331c364',1,'MoveManager::attempted_moves_()']]],
+  ['autoreg',['AutoReg',['../struct_catch_1_1_auto_reg.html',1,'Catch']]]
 ];

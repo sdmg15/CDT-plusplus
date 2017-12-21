@@ -73,7 +73,7 @@ $(function() {
 <p>This is the complete list of members for <a class="el" href="struct_geometry_info.html">GeometryInfo</a>, including all inherited members.</p>
 <table class="directory">
   <tr class="even"><td class="entry"><a class="el" href="struct_geometry_info.html#aeb0374bdd929e5be5cb0cd31dfd9503c">GeometryInfo</a>()=default</td><td class="entry"><a class="el" href="struct_geometry_info.html">GeometryInfo</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="struct_geometry_info.html#af7d6e1decb35a00efe46049ce4ae9c8d">GeometryInfo</a>(const Geometry_tuple &amp;&amp;geometry)</td><td class="entry"><a class="el" href="struct_geometry_info.html">GeometryInfo</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">explicit</span></td></tr>
+  <tr><td class="entry"><a class="el" href="struct_geometry_info.html#a40bc1854955c1f6798a16a1b14354211">GeometryInfo</a>(const Geometry_tuple &amp;&amp;geometry) noexcept</td><td class="entry"><a class="el" href="struct_geometry_info.html">GeometryInfo</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">explicit</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="struct_geometry_info.html#a9466be6ed60b3bcc76940eb196882235">GeometryInfo</a>(GeometryInfo &amp;&amp;)=default</td><td class="entry"><a class="el" href="struct_geometry_info.html">GeometryInfo</a></td><td class="entry"></td></tr>
   <tr><td class="entry"><a class="el" href="struct_geometry_info.html#a89b996c9ceb6446b6265d0a11f3113e0">GeometryInfo</a>(const GeometryInfo &amp;)=default</td><td class="entry"><a class="el" href="struct_geometry_info.html">GeometryInfo</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="struct_geometry_info.html#a7a1d9e7a0507931676fd0e3e6fcd15d1">getSpacelike_facets</a>() const</td><td class="entry"><a class="el" href="struct_geometry_info.html">GeometryInfo</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
@@ -95,7 +95,7 @@ $(function() {
   <tr class="even"><td class="entry"><a class="el" href="struct_geometry_info.html#a1e1a653677bd937b9a05d6d95a8e64d9">number_of_cells</a>()</td><td class="entry"><a class="el" href="struct_geometry_info.html">GeometryInfo</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
   <tr><td class="entry"><a class="el" href="struct_geometry_info.html#a6ec088bba14cecb25b1535ad70b4bf7e">number_of_edges</a>()</td><td class="entry"><a class="el" href="struct_geometry_info.html">GeometryInfo</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="struct_geometry_info.html#a4b2b4aab68d1bea6a7baaba5bd00c5e5">one_three</a></td><td class="entry"><a class="el" href="struct_geometry_info.html">GeometryInfo</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
-  <tr><td class="entry"><a class="el" href="struct_geometry_info.html#a7c320cffec78760441afe64bdb20240c">operator=</a>(GeometryInfo &amp;&amp;)=default</td><td class="entry"><a class="el" href="struct_geometry_info.html">GeometryInfo</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="struct_geometry_info.html#a916b8b17f5d9fff2d43398464e14317a">operator=</a>(Geometry_tuple &amp;&amp;other)</td><td class="entry"><a class="el" href="struct_geometry_info.html">GeometryInfo</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="struct_geometry_info.html#ab5622170d84e7f69480aec7307e64928">operator=</a>(const GeometryInfo &amp;)=default</td><td class="entry"><a class="el" href="struct_geometry_info.html">GeometryInfo</a></td><td class="entry"></td></tr>
   <tr><td class="entry"><a class="el" href="struct_geometry_info.html#a2e843c3a71fdb2e44d24a8262a49e438">setSpacelike_facets</a>(const boost::optional&lt; std::multimap&lt; intmax_t, Facet &gt;&gt; &amp;spacelike_facets)</td><td class="entry"><a class="el" href="struct_geometry_info.html">GeometryInfo</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="struct_geometry_info.html#a5a26135b230183a9a06ff08412e366bf">setTimevalues</a>(const boost::optional&lt; std::set&lt; intmax_t &gt;&gt; &amp;timevalues)</td><td class="entry"><a class="el" href="struct_geometry_info.html">GeometryInfo</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
@@ -111,7 +111,7 @@ $(function() {
 </table></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Nov 29 2017 03:55:43 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Dec 20 2017 22:07:23 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

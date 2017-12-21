@@ -2,6 +2,8 @@ var searchData=
 [
   ['calculatea1',['CalculateA1',['../class_metropolis.html#ac84f9ee639bd0458bc319048689d07ed',1,'Metropolis']]],
   ['calculatea2',['CalculateA2',['../class_metropolis.html#a4ded13f65c50b08b81a9e92b2ba471fc',1,'Metropolis']]],
+  ['casedstring',['CasedString',['../struct_catch_1_1_matchers_1_1_std_string_1_1_cased_string.html',1,'Catch::Matchers::StdString']]],
+  ['casesensitive',['CaseSensitive',['../struct_catch_1_1_case_sensitive.html',1,'Catch']]],
   ['cdt_2dgv_2ecpp',['cdt-gv.cpp',['../cdt-gv_8cpp.html',1,'']]],
   ['cdt_2dopt_2ecpp',['cdt-opt.cpp',['../cdt-opt_8cpp.html',1,'']]],
   ['cdt_2ecpp',['cdt.cpp',['../cdt_8cpp.html',1,'']]],
@@ -13,6 +15,9 @@ var searchData=
   ['classify_5fsimplices',['classify_simplices',['../_simplicial_manifold_8h.html#a6eae5e81fbc86f691083957d5f7aa96d',1,'SimplicialManifold.h']]],
   ['command',['Command',['../classdocopt_1_1_command.html',1,'docopt']]],
   ['const_5fiterator',['const_iterator',['../classdate_1_1tzdb__list_1_1const__iterator.html',1,'date::tzdb_list']]],
+  ['containselementmatcher',['ContainsElementMatcher',['../struct_catch_1_1_matchers_1_1_vector_1_1_contains_element_matcher.html',1,'Catch::Matchers::Vector']]],
+  ['containsmatcher',['ContainsMatcher',['../struct_catch_1_1_matchers_1_1_std_string_1_1_contains_matcher.html',1,'Catch::Matchers::StdString::ContainsMatcher'],['../struct_catch_1_1_matchers_1_1_vector_1_1_contains_matcher.html',1,'Catch::Matchers::Vector::ContainsMatcher&lt; T &gt;']]],
+  ['counts',['Counts',['../struct_catch_1_1_counts.html',1,'Catch']]],
   ['currentdatetime',['currentDateTime',['../_utilities_8h.html#a587a84ca40e2cf2839ab987065ca89ed',1,'Utilities.h']]],
   ['currenttotalsimplices',['CurrentTotalSimplices',['../class_move_algorithm.html#a29d5fd3e91e3dba7a41622894c1eb795',1,'MoveAlgorithm']]],
   ['cdt_2dplusplus',['CDT-plusplus',['../index.html',1,'']]],

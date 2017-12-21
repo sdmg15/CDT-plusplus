@@ -1,0 +1,14 @@
+<map id="tests/MoveAlgorithmsTest.cpp" name="tests/MoveAlgorithmsTest.cpp">
+<area shape="rect" id="node2" href="$catch_8hpp_source.html" title="catch.hpp" alt="" coords="624,545,704,571"/>
+<area shape="rect" id="node14" href="$_metropolis_8h.html" title="Perform Metropolis&#45;Hastings algorithm on Delaunay Triangulations. " alt="" coords="2572,79,2666,104"/>
+<area shape="rect" id="node15" href="$_move_algorithm_8h.html" title="Base class for move algorithms on Delaunay Triangulations. " alt="" coords="2209,152,2330,177"/>
+<area shape="rect" id="node48" href="$_s3_action_8h.html" title="Calculate S3 bulk actions on 3D Delaunay Triangulations. " alt="" coords="2906,152,2992,177"/>
+<area shape="rect" id="node16" href="$_measurements_8h.html" title="Measurements of the simulation. " alt="" coords="2580,225,2700,251"/>
+<area shape="rect" id="node44" href="$_move_manager_8h.html" title="RAII class to manage exception&#45;safe foliation&#45;preserving Pachner moves. " alt="" coords="2210,225,2326,251"/>
+<area shape="rect" id="node46" href="$_s3_ergodic_moves_8h.html" title="Pachner moves on 3D Delaunay Triangulations. " alt="" coords="427,299,560,324"/>
+<area shape="rect" id="node17" href="$_simplicial_manifold_8h.html" title="Data structures for simplicial manifolds. " alt="" coords="2406,299,2546,324"/>
+<area shape="rect" id="node18" href="$_s3_triangulation_8h.html" title="Functions on 3D Spherical Delaunay Triangulations. " alt="" coords="1285,372,1411,397"/>
+<area shape="rect" id="node28" href="$_utilities_8h.html" title="Utility functions. " alt="" coords="1728,459,1803,484"/>
+<area shape="rect" id="node40" href="$tz_8h_source.html" title="date/tz.h" alt="" coords="880,545,952,571"/>
+<area shape="rect" id="node45" href="$_function__ref_8h.html" title="Efficient, type&#45;erasing, non&#45;owning function reference. " alt="" coords="2241,545,2348,571"/>
+</map>

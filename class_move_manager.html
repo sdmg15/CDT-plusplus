@@ -187,7 +187,7 @@ template&lt;class T1, class T2&gt; </div>
 </div><div class="memdoc">
 
 <p>Perfect forwarding constructor initializer. </p>
-<p>Because a <a class="el" href="struct_simplicial_manifold.html">SimplicialManifold</a> is move-only and uses std::unique_ptrs, this RAII class should be initialized with option types. The general pattern is to make option-types and pass those to the ctor, and then check that the returned data structures are non-empty before consuming them. Any thrown exceptions will call the destructor, so the returned data structures will be empty (point to nullptr).</p>
+<p>Because a <a class="el" href="struct_simplicial_manifold.html">SimplicialManifold</a> is move-only and uses std::unique_ptrs, this RAII class should be initialized with option types. The general pattern is to make option-types and pass those to the ctor, and then check that the returned data structures are non-empty before consuming them. Any thrown exceptions will call the destructor, so the returned data structures will be empty and the option types will evaluate to false.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">universe</td><td>Initializes universe_ </td></tr>
@@ -246,7 +246,7 @@ template&lt;class T1, class T2&gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Nov 29 2017 03:55:43 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Dec 20 2017 22:07:23 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>
