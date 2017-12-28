@@ -1,4 +1,4 @@
-<map id="tests/MeasurementsTest.cpp" name="tests/MeasurementsTest.cpp">
+<map id="test/MeasurementsTest.cpp" name="test/MeasurementsTest.cpp">
 <area shape="rect" id="node2" href="$catch_8hpp_source.html" title="catch.hpp" alt="" coords="402,399,481,424"/>
 <area shape="rect" id="node14" href="$_measurements_8h.html" title="Measurements of the simulation. " alt="" coords="2568,79,2688,104"/>
 <area shape="rect" id="node49" href="$_s3_ergodic_moves_8h.html" title="Pachner moves on 3D Delaunay Triangulations. " alt="" coords="684,152,817,177"/>

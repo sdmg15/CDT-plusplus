@@ -48,7 +48,7 @@ var searchData=
   ['month_5fday',['month_day',['../classdate_1_1month__day.html',1,'date::month_day'],['../classislamic_1_1month__day.html',1,'islamic::month_day'],['../classjulian_1_1month__day.html',1,'julian::month_day']]],
   ['month_5fday_5flast',['month_day_last',['../classdate_1_1month__day__last.html',1,'date::month_day_last'],['../classislamic_1_1month__day__last.html',1,'islamic::month_day_last'],['../classjulian_1_1month__day__last.html',1,'julian::month_day_last']]],
   ['month_5fweekday',['month_weekday',['../classdate_1_1month__weekday.html',1,'date::month_weekday'],['../classislamic_1_1month__weekday.html',1,'islamic::month_weekday'],['../classjulian_1_1month__weekday.html',1,'julian::month_weekday']]],
-  ['month_5fweekday_5flast',['month_weekday_last',['../classdate_1_1month__weekday__last.html',1,'date::month_weekday_last'],['../classjulian_1_1month__weekday__last.html',1,'julian::month_weekday_last'],['../classislamic_1_1month__weekday__last.html',1,'islamic::month_weekday_last']]],
+  ['month_5fweekday_5flast',['month_weekday_last',['../classdate_1_1month__weekday__last.html',1,'date::month_weekday_last'],['../classislamic_1_1month__weekday__last.html',1,'islamic::month_weekday_last'],['../classjulian_1_1month__weekday__last.html',1,'julian::month_weekday_last']]],
   ['monthdaytime',['MonthDayTime',['../classdate_1_1detail_1_1_month_day_time.html',1,'date::detail']]],
   ['movealgorithm',['MoveAlgorithm',['../class_move_algorithm.html',1,'MoveAlgorithm'],['../class_move_algorithm.html#a27c9907c4c20eb4b912da0b68c4122a5',1,'MoveAlgorithm::MoveAlgorithm()']]],
   ['movealgorithm_2eh',['MoveAlgorithm.h',['../_move_algorithm_8h.html',1,'']]],

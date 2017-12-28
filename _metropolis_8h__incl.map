@@ -1,4 +1,4 @@
-<map id="src/Metropolis.h" name="src/Metropolis.h">
+<map id="include/Metropolis.h" name="include/Metropolis.h">
 <area shape="rect" id="node2" href="$_move_algorithm_8h.html" title="Base class for move algorithms on Delaunay Triangulations. " alt="" coords="2595,79,2717,104"/>
 <area shape="rect" id="node48" href="$_s3_action_8h.html" title="Calculate S3 bulk actions on 3D Delaunay Triangulations. " alt="" coords="2921,79,3007,104"/>
 <area shape="rect" id="node3" href="$_measurements_8h.html" title="Measurements of the simulation. " alt="" coords="2545,152,2666,177"/>

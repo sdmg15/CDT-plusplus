@@ -1,4 +1,4 @@
-<map id="src/MoveAlways.h" name="src/MoveAlways.h">
+<map id="include/MoveAlways.h" name="include/MoveAlways.h">
 <area shape="rect" id="node2" href="$_measurements_8h.html" title="Measurements of the simulation. " alt="" coords="288,152,408,177"/>
 <area shape="rect" id="node46" href="$_move_algorithm_8h.html" title="Base class for move algorithms on Delaunay Triangulations. " alt="" coords="898,79,1019,104"/>
 <area shape="rect" id="node3" href="$_simplicial_manifold_8h.html" title="Data structures for simplicial manifolds. " alt="" coords="279,225,418,251"/>
