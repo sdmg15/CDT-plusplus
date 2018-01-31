@@ -86,7 +86,7 @@ Inheritance diagram for Catch::BinaryExpr&lt; LhsT, RhsT &gt;:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_catch_1_1_binary_expr__inherit__graph.png" border="0" usemap="#_catch_1_1_binary_expr_3_01_lhs_t_00_01_rhs_t_01_4_inherit__map" alt="Inheritance graph"/></div>
 <map name="_catch_1_1_binary_expr_3_01_lhs_t_00_01_rhs_t_01_4_inherit__map" id="_catch_1_1_binary_expr_3_01_lhs_t_00_01_rhs_t_01_4_inherit__map">
-<area shape="rect" id="node2" href="struct_catch_1_1_i_transient_expression.html" title="{Catch::ITransientExpression\n||+ ~ITransientExpression()\l+ getResult()\l+ isBinaryExpression()\l+ streamReconstructedExpression()\l}" alt="" coords="5,5,240,119"/>
+<area shape="rect" id="node2" href="struct_catch_1_1_i_transient_expression.html" title="{Catch::ITransientExpression\n|+ m_isBinaryExpression\l+ m_result\l|+ ITransientExpression()\l+ ~ITransientExpression()\l+ getResult()\l+ isBinaryExpression()\l+ streamReconstructedExpression()\l}" alt="" coords="5,5,240,145"/>
 </map>
 </div>
 <div class="dynheader">
@@ -94,8 +94,8 @@ Collaboration diagram for Catch::BinaryExpr&lt; LhsT, RhsT &gt;:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_catch_1_1_binary_expr__coll__graph.png" border="0" usemap="#_catch_1_1_binary_expr_3_01_lhs_t_00_01_rhs_t_01_4_coll__map" alt="Collaboration graph"/></div>
 <map name="_catch_1_1_binary_expr_3_01_lhs_t_00_01_rhs_t_01_4_coll__map" id="_catch_1_1_binary_expr_3_01_lhs_t_00_01_rhs_t_01_4_coll__map">
-<area shape="rect" id="node2" href="struct_catch_1_1_i_transient_expression.html" title="{Catch::ITransientExpression\n||+ ~ITransientExpression()\l+ getResult()\l+ isBinaryExpression()\l+ streamReconstructedExpression()\l}" alt="" coords="5,92,240,205"/>
-<area shape="rect" id="node3" href="class_catch_1_1_string_ref.html" title="{Catch::StringRef\n|&#45; m_data\l&#45; m_size\l&#45; m_start\l|+ StringRef()\l+ StringRef()\l+ StringRef()\l+ StringRef()\l+ StringRef()\l+ StringRef()\l+ ~StringRef()\l+ c_str()\l+ empty()\l+ numberOfCharacters()\land 8 more...\l&#45; data()\l&#45; isOwned()\l&#45; isSubstring()\l&#45; takeOwnership()\l}" alt="" coords="263,5,430,292"/>
+<area shape="rect" id="node2" href="struct_catch_1_1_i_transient_expression.html" title="{Catch::ITransientExpression\n|+ m_isBinaryExpression\l+ m_result\l|+ ITransientExpression()\l+ ~ITransientExpression()\l+ getResult()\l+ isBinaryExpression()\l+ streamReconstructedExpression()\l}" alt="" coords="5,85,240,225"/>
+<area shape="rect" id="node3" href="class_catch_1_1_string_ref.html" title="{Catch::StringRef\n|&#45; m_data\l&#45; m_size\l&#45; m_start\l&#45; s_empty\l|+ StringRef()\l+ StringRef()\l+ StringRef()\l+ StringRef()\l+ StringRef()\l+ StringRef()\l+ ~StringRef()\l+ c_str()\l+ empty()\l+ numberOfCharacters()\land 8 more...\l&#45; data()\l&#45; isOwned()\l&#45; isSubstring()\l&#45; takeOwnership()\l}" alt="" coords="263,5,430,305"/>
 </map>
 </div>
 <table class="memberdecls">
@@ -104,15 +104,19 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a657d66346aef97a760c22776fe6008b6"><td class="memItemLeft" align="right" valign="top"><a id="a657d66346aef97a760c22776fe6008b6"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>BinaryExpr</b> (bool comparisonResult, LhsT lhs, <a class="el" href="class_catch_1_1_string_ref.html">StringRef</a> op, RhsT rhs)</td></tr>
 <tr class="separator:a657d66346aef97a760c22776fe6008b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_struct_catch_1_1_i_transient_expression"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_struct_catch_1_1_i_transient_expression')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="struct_catch_1_1_i_transient_expression.html">Catch::ITransientExpression</a></td></tr>
+<tr class="memitem:aafe69572b7ed884e63ec81f58d4afd8c inherit pub_methods_struct_catch_1_1_i_transient_expression"><td class="memItemLeft" align="right" valign="top"><a id="aafe69572b7ed884e63ec81f58d4afd8c"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>ITransientExpression</b> (bool isBinaryExpression, bool result)</td></tr>
+<tr class="separator:aafe69572b7ed884e63ec81f58d4afd8c inherit pub_methods_struct_catch_1_1_i_transient_expression"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a101c7db86c87eff93a8ff496720e6320 inherit pub_methods_struct_catch_1_1_i_transient_expression"><td class="memItemLeft" align="right" valign="top"><a id="a101c7db86c87eff93a8ff496720e6320"></a>
+auto&#160;</td><td class="memItemRight" valign="bottom"><b>getResult</b> () const -&gt; bool</td></tr>
+<tr class="separator:a101c7db86c87eff93a8ff496720e6320 inherit pub_methods_struct_catch_1_1_i_transient_expression"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b436e13a0a6d3522bbf70d4e31deb22 inherit pub_methods_struct_catch_1_1_i_transient_expression"><td class="memItemLeft" align="right" valign="top"><a id="a3b436e13a0a6d3522bbf70d4e31deb22"></a>
+auto&#160;</td><td class="memItemRight" valign="bottom"><b>isBinaryExpression</b> () const -&gt; bool</td></tr>
+<tr class="separator:a3b436e13a0a6d3522bbf70d4e31deb22 inherit pub_methods_struct_catch_1_1_i_transient_expression"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
-<tr class="memitem:af9423f32a7e84a5af7369b220dd26ad1"><td class="memItemLeft" align="right" valign="top"><a id="af9423f32a7e84a5af7369b220dd26ad1"></a>
-auto&#160;</td><td class="memItemRight" valign="bottom"><b>getResult</b> () const -&gt; bool override</td></tr>
-<tr class="separator:af9423f32a7e84a5af7369b220dd26ad1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5b980b67028f6f329839c56144c6245d"><td class="memItemLeft" align="right" valign="top"><a id="a5b980b67028f6f329839c56144c6245d"></a>
-auto&#160;</td><td class="memItemRight" valign="bottom"><b>isBinaryExpression</b> () const -&gt; bool override</td></tr>
-<tr class="separator:a5b980b67028f6f329839c56144c6245d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af998022712d4bd3e4fc7ab9b8a38b445"><td class="memItemLeft" align="right" valign="top"><a id="af998022712d4bd3e4fc7ab9b8a38b445"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>streamReconstructedExpression</b> (std::ostream &amp;os) const override</td></tr>
 <tr class="separator:af998022712d4bd3e4fc7ab9b8a38b445"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -125,26 +129,33 @@ LhsT&#160;</td><td class="memItemRight" valign="bottom"><b>m_lhs</b></td></tr>
 <tr class="memitem:ab21dea40c53fd64d4f7a073dbe93ec95"><td class="memItemLeft" align="right" valign="top"><a id="ab21dea40c53fd64d4f7a073dbe93ec95"></a>
 <a class="el" href="class_catch_1_1_string_ref.html">StringRef</a>&#160;</td><td class="memItemRight" valign="bottom"><b>m_op</b></td></tr>
 <tr class="separator:ab21dea40c53fd64d4f7a073dbe93ec95"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a165bb4e8b2590486c217b863102369e2"><td class="memItemLeft" align="right" valign="top"><a id="a165bb4e8b2590486c217b863102369e2"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>m_result</b></td></tr>
-<tr class="separator:a165bb4e8b2590486c217b863102369e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a54cb1629bf304ebe0c1560f4cc2bc186"><td class="memItemLeft" align="right" valign="top"><a id="a54cb1629bf304ebe0c1560f4cc2bc186"></a>
 RhsT&#160;</td><td class="memItemRight" valign="bottom"><b>m_rhs</b></td></tr>
 <tr class="separator:a54cb1629bf304ebe0c1560f4cc2bc186"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
+Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header pub_attribs_struct_catch_1_1_i_transient_expression"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_struct_catch_1_1_i_transient_expression')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="struct_catch_1_1_i_transient_expression.html">Catch::ITransientExpression</a></td></tr>
+<tr class="memitem:a75ce48da824d514d08152d396abb28d8 inherit pub_attribs_struct_catch_1_1_i_transient_expression"><td class="memItemLeft" align="right" valign="top"><a id="a75ce48da824d514d08152d396abb28d8"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>m_isBinaryExpression</b></td></tr>
+<tr class="separator:a75ce48da824d514d08152d396abb28d8 inherit pub_attribs_struct_catch_1_1_i_transient_expression"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4646e2b5e0156e913653ec3b9b60c942 inherit pub_attribs_struct_catch_1_1_i_transient_expression"><td class="memItemLeft" align="right" valign="top"><a id="a4646e2b5e0156e913653ec3b9b60c942"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>m_result</b></td></tr>
+<tr class="separator:a4646e2b5e0156e913653ec3b9b60c942 inherit pub_attribs_struct_catch_1_1_i_transient_expression"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><h3>template&lt;typename LhsT, typename RhsT&gt;<br />
 class Catch::BinaryExpr&lt; LhsT, RhsT &gt;</h3>
 
 
-<p class="definition">Definition at line <a class="el" href="catch_8hpp_source.html#l01000">1000</a> of file <a class="el" href="catch_8hpp_source.html">catch.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="catch_8hpp_source.html#l01231">1231</a> of file <a class="el" href="catch_8hpp_source.html">catch.hpp</a>.</p>
 </div><hr/>The documentation for this class was generated from the following file:<ul>
 <li>test/<a class="el" href="catch_8hpp_source.html">catch.hpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Jan 5 2018 03:05:13 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Jan 31 2018 09:11:14 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>

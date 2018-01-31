@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['last_5fspec',['last_spec',['../structdate_1_1last__spec.html',1,'date::last_spec'],['../structislamic_1_1last__spec.html',1,'islamic::last_spec'],['../structjulian_1_1last__spec.html',1,'julian::last_spec']]],
+  ['last_5fspec',['last_spec',['../structislamic_1_1last__spec.html',1,'islamic::last_spec'],['../structdate_1_1last__spec.html',1,'date::last_spec'],['../structjulian_1_1last__spec.html',1,'julian::last_spec']]],
   ['last_5fweek',['last_week',['../structiso__week_1_1last__week.html',1,'iso_week']]],
   ['lastweek_5fweekday',['lastweek_weekday',['../classiso__week_1_1lastweek__weekday.html',1,'iso_week']]],
   ['lazyexpression',['LazyExpression',['../class_catch_1_1_lazy_expression.html',1,'Catch']]],

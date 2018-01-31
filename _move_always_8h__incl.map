@@ -1,12 +1,12 @@
 <map id="include/MoveAlways.h" name="include/MoveAlways.h">
-<area shape="rect" id="node2" href="$_measurements_8h.html" title="Measurements of the simulation. " alt="" coords="288,152,408,177"/>
-<area shape="rect" id="node46" href="$_move_algorithm_8h.html" title="Base class for move algorithms on Delaunay Triangulations. " alt="" coords="898,79,1019,104"/>
-<area shape="rect" id="node3" href="$_simplicial_manifold_8h.html" title="Data structures for simplicial manifolds. " alt="" coords="279,225,418,251"/>
-<area shape="rect" id="node4" href="$_s3_triangulation_8h.html" title="Functions on 3D Spherical Delaunay Triangulations. " alt="" coords="1040,299,1165,324"/>
-<area shape="rect" id="node17" href="$_utilities_8h.html" title="Utility functions. " alt="" coords="624,385,699,411"/>
-<area shape="rect" id="node30" href="$tz_8h_source.html" title="date/tz.h" alt="" coords="675,472,747,497"/>
-<area shape="rect" id="node31" href="$date_8h_source.html" title="date.h" alt="" coords="956,545,1015,571"/>
-<area shape="rect" id="node47" href="$_move_manager_8h.html" title="RAII class to manage exception&#45;safe foliation&#45;preserving Pachner moves. " alt="" coords="2008,152,2125,177"/>
-<area shape="rect" id="node49" href="$_s3_ergodic_moves_8h.html" title="Pachner moves on 3D Delaunay Triangulations. " alt="" coords="1739,225,1872,251"/>
-<area shape="rect" id="node48" href="$_function__ref_8h.html" title="Efficient, type&#45;erasing, non&#45;owning function reference. " alt="" coords="2256,545,2363,571"/>
+<area shape="rect" id="node2" href="$_measurements_8h.html" title="Measurements of the simulation. " alt="" coords="148,152,268,177"/>
+<area shape="rect" id="node46" href="$_move_algorithm_8h.html" title="Base class for move algorithms on Delaunay Triangulations. " alt="" coords="1375,79,1497,104"/>
+<area shape="rect" id="node3" href="$_simplicial_manifold_8h.html" title="Data structures for simplicial manifolds. " alt="" coords="364,225,503,251"/>
+<area shape="rect" id="node4" href="$_s3_triangulation_8h.html" title="Functions on 3D Spherical Delaunay Triangulations. " alt="" coords="997,299,1123,324"/>
+<area shape="rect" id="node17" href="$_utilities_8h.html" title="Utility functions. " alt="" coords="581,385,656,411"/>
+<area shape="rect" id="node30" href="$tz_8h_source.html" title="date/tz.h" alt="" coords="1089,472,1162,497"/>
+<area shape="rect" id="node31" href="$date_8h_source.html" title="date.h" alt="" coords="979,545,1037,571"/>
+<area shape="rect" id="node47" href="$_move_manager_8h.html" title="RAII class to manage exception&#45;safe foliation&#45;preserving Pachner moves. " alt="" coords="2016,152,2133,177"/>
+<area shape="rect" id="node49" href="$_s3_ergodic_moves_8h.html" title="Pachner moves on 3D Delaunay Triangulations. " alt="" coords="1696,225,1829,251"/>
+<area shape="rect" id="node48" href="$_function__ref_8h.html" title="Efficient, type&#45;erasing, non&#45;owning function reference. " alt="" coords="2264,545,2371,571"/>
 </map>

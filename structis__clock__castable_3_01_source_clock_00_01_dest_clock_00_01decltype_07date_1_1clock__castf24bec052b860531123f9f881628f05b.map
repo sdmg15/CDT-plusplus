@@ -1,0 +1,2 @@
+<map id="is_clock_castable&lt; SourceClock, DestClock, decltype(date::clock_cast&lt; DestClock &gt;(typename SourceClock::time_point()), void())&gt;" name="is_clock_castable&lt; SourceClock, DestClock, decltype(date::clock_cast&lt; DestClock &gt;(typename SourceClock::time_point()), void())&gt;">
+</map>

@@ -4,6 +4,5 @@
 <area shape="rect" id="node4" href="$struct_catch_1_1_source_line_info.html" title="{Catch::SourceLineInfo\n|+ file\l+ line\l|+ SourceLineInfo()\l+ SourceLineInfo()\l+ SourceLineInfo()\l+ SourceLineInfo()\l+ empty()\l+ operator\&lt;()\l+ operator=()\l+ operator=()\l+ operator==()\l}" alt="" coords="98,141,251,335"/>
 <area shape="rect" id="node5" title="STL class. " alt="" coords="294,201,373,275"/>
 <area shape="rect" id="node6" title="STL class. " alt="" coords="271,5,396,92"/>
-<area shape="rect" id="node7" href="$class_catch_1_1_timer.html" title="{Catch::Timer\n|&#45; m_nanoseconds\l|+ getElapsedMicroseconds()\l+ getElapsedMilliseconds()\l+ getElapsedNanoseconds()\l+ getElapsedSeconds()\l+ start()\l}" alt="" coords="437,423,628,549"/>
-<area shape="rect" id="node8" href="$struct_catch_1_1_counts.html" title="{Catch::Counts\n|+ failed\l+ failedButOk\l+ passed\l|+ allOk()\l+ allPassed()\l+ operator+=()\l+ operator&#45;()\l+ total()\l}" alt="" coords="652,409,759,563"/>
+<area shape="rect" id="node7" href="$struct_catch_1_1_counts.html" title="{Catch::Counts\n|+ failed\l+ failedButOk\l+ passed\l|+ allOk()\l+ allPassed()\l+ operator+=()\l+ operator&#45;()\l+ total()\l}" alt="" coords="436,409,543,563"/>
 </map>

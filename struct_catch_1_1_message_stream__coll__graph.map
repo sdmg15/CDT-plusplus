@@ -1,7 +1,7 @@
 <map id="Catch::MessageStream" name="Catch::MessageStream">
-<area shape="rect" id="node2" title="STL class. " alt="" coords="25,523,152,596"/>
-<area shape="rect" id="node3" title="STL class. " alt="" coords="5,387,171,473"/>
-<area shape="rect" id="node4" title="STL class. " alt="" coords="22,251,155,337"/>
-<area shape="rect" id="node5" title="STL class. " alt="" coords="11,128,165,201"/>
-<area shape="rect" id="node6" title="STL class. " alt="" coords="38,5,138,79"/>
+<area shape="rect" id="node2" href="$class_catch_1_1_reusable_string_stream.html" title="{Catch::ReusableStringStream\n|&#45; m_index\l|+ ReusableStringStream()\l+ ~ReusableStringStream()\l+ get()\l+ operator\&lt;\&lt;()\l+ str()\l+ cleanup()\l}" alt="" coords="5,521,203,661"/>
+<area shape="rect" id="node3" title="STL class. " alt="" coords="57,387,152,460"/>
+<area shape="rect" id="node4" title="STL class. " alt="" coords="38,251,171,337"/>
+<area shape="rect" id="node5" title="STL class. " alt="" coords="27,128,181,201"/>
+<area shape="rect" id="node6" title="STL class. " alt="" coords="54,5,154,79"/>
 </map>

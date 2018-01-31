@@ -74,6 +74,7 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-types">Public Types</a> &#124;
+<a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="classdate_1_1tai__clock-members.html">List of all members</a>  </div>
@@ -104,11 +105,30 @@ using&#160;</td><td class="memItemRight" valign="bottom"><b>rep</b> = duration::
 using&#160;</td><td class="memItemRight" valign="bottom"><b>time_point</b> = std::chrono::time_point&lt; <a class="el" href="classdate_1_1tai__clock.html">tai_clock</a> &gt;</td></tr>
 <tr class="separator:aff2014cf52a8445cd037c1fbebf556ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:ab97e6ebbbe781abcdfab9c6ae8e1d8cc"><td class="memTemplParams" colspan="2"><a id="ab97e6ebbbe781abcdfab9c6ae8e1d8cc"></a>
+template&lt;class Duration &gt; </td></tr>
+<tr class="memitem:ab97e6ebbbe781abcdfab9c6ae8e1d8cc"><td class="memTemplItemLeft" align="right" valign="top">tai_time&lt; typename std::common_type&lt; Duration, std::chrono::seconds &gt;::type &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><b>from_utc</b> (const utc_time&lt; Duration &gt; &amp;t) NOEXCEPT</td></tr>
+<tr class="separator:ab97e6ebbbe781abcdfab9c6ae8e1d8cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8efd8a24da3e416cb741656bc4b79d93"><td class="memTemplParams" colspan="2"><a id="a8efd8a24da3e416cb741656bc4b79d93"></a>
+template&lt;class Duration &gt; </td></tr>
+<tr class="memitem:a8efd8a24da3e416cb741656bc4b79d93"><td class="memTemplItemLeft" align="right" valign="top">utc_time&lt; typename std::common_type&lt; Duration, std::chrono::seconds &gt;::type &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><b>to_utc</b> (const tai_time&lt; Duration &gt; &amp;t) NOEXCEPT</td></tr>
+<tr class="separator:a8efd8a24da3e416cb741656bc4b79d93"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:ade24972deed3690fa756f8180e0c4874"><td class="memItemLeft" align="right" valign="top"><a id="ade24972deed3690fa756f8180e0c4874"></a>
-static time_point&#160;</td><td class="memItemRight" valign="bottom"><b>now</b> () NOEXCEPT</td></tr>
-<tr class="separator:ade24972deed3690fa756f8180e0c4874"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1855cc2214c6556526c5cc599c27881c"><td class="memTemplParams" colspan="2"><a id="a1855cc2214c6556526c5cc599c27881c"></a>
+template&lt;typename Duration &gt; </td></tr>
+<tr class="memitem:a1855cc2214c6556526c5cc599c27881c"><td class="memTemplItemLeft" align="right" valign="top">static std::chrono::time_point&lt; <a class="el" href="classdate_1_1tai__clock.html">tai_clock</a>, typename std::common_type&lt; Duration, std::chrono::seconds &gt;::type &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><b>from_utc</b> (const std::chrono::time_point&lt; <a class="el" href="classdate_1_1utc__clock.html">utc_clock</a>, Duration &gt; &amp;) NOEXCEPT</td></tr>
+<tr class="separator:a1855cc2214c6556526c5cc599c27881c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab7e077b9a62c6805d47cff98c24c42ac"><td class="memItemLeft" align="right" valign="top"><a id="ab7e077b9a62c6805d47cff98c24c42ac"></a>
+static time_point&#160;</td><td class="memItemRight" valign="bottom"><b>now</b> ()</td></tr>
+<tr class="separator:ab7e077b9a62c6805d47cff98c24c42ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a64d269e55d68ecf210f2224ff0e709d5"><td class="memTemplParams" colspan="2"><a id="a64d269e55d68ecf210f2224ff0e709d5"></a>
+template&lt;typename Duration &gt; </td></tr>
+<tr class="memitem:a64d269e55d68ecf210f2224ff0e709d5"><td class="memTemplItemLeft" align="right" valign="top">static std::chrono::time_point&lt; <a class="el" href="classdate_1_1utc__clock.html">utc_clock</a>, typename std::common_type&lt; Duration, std::chrono::seconds &gt;::type &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><b>to_utc</b> (const std::chrono::time_point&lt; <a class="el" href="classdate_1_1tai__clock.html">tai_clock</a>, Duration &gt; &amp;) NOEXCEPT</td></tr>
+<tr class="separator:a64d269e55d68ecf210f2224ff0e709d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
@@ -118,14 +138,14 @@ static const bool&#160;</td><td class="memItemRight" valign="bottom"><b>is_stead
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="tz_8h_source.html#l01972">1972</a> of file <a class="el" href="tz_8h_source.html">tz.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="tz_8h_source.html#l01981">1981</a> of file <a class="el" href="tz_8h_source.html">tz.h</a>.</p>
 </div><hr/>The documentation for this class was generated from the following file:<ul>
 <li>src/date/include/date/<a class="el" href="tz_8h_source.html">tz.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Jan 5 2018 03:05:13 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Jan 31 2018 09:11:14 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>

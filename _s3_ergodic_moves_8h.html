@@ -92,10 +92,10 @@ Include dependency graph for S3ErgodicMoves.h:</div>
 <div class="dyncontent">
 <div class="center"><img src="_s3_ergodic_moves_8h__incl.png" border="0" usemap="#include_2_s3_ergodic_moves_8h" alt=""/></div>
 <map name="include_2_s3_ergodic_moves_8h" id="include_2_s3_ergodic_moves_8h">
-<area shape="rect" id="node2" href="_s3_triangulation_8h.html" title="Functions on 3D Spherical Delaunay Triangulations. " alt="" coords="1620,79,1745,104"/>
-<area shape="rect" id="node15" href="_utilities_8h.html" title="Utility functions. " alt="" coords="972,165,1047,191"/>
-<area shape="rect" id="node28" href="tz_8h_source.html" title="date/tz.h" alt="" coords="1460,252,1532,277"/>
-<area shape="rect" id="node29" href="date_8h_source.html" title="date.h" alt="" coords="1324,325,1383,351"/>
+<area shape="rect" id="node2" href="_s3_triangulation_8h.html" title="Functions on 3D Spherical Delaunay Triangulations. " alt="" coords="1487,79,1612,104"/>
+<area shape="rect" id="node15" href="_utilities_8h.html" title="Utility functions. " alt="" coords="786,165,862,191"/>
+<area shape="rect" id="node28" href="tz_8h_source.html" title="date/tz.h" alt="" coords="1274,252,1347,277"/>
+<area shape="rect" id="node29" href="date_8h_source.html" title="date.h" alt="" coords="1189,325,1248,351"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
@@ -165,7 +165,7 @@ Functions</h2></td></tr>
 <p>Causal Dynamical Triangulations in C++ using CGAL</p>
 <p>Copyright © 2014-2017 Adam Getchell</p>
 <p>Performs the 5 types of ergodic moves on S3 (2+1) spacetimes.</p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000003">Todo:</a></b></dt><dd><p class="startdd">Handle neighboring_31_index != 5 condition </p>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000006">Todo:</a></b></dt><dd><p class="startdd">Handle neighboring_31_index != 5 condition </p>
 <p>Debug (6,2) move </p>
 <p class="enddd">(4,4) move </p>
 </dd></dl>
@@ -403,7 +403,7 @@ template&lt;typename T1 , typename T2 &gt; </div>
 <p>Make a (2,6) move. </p>
 <p>A (2,6) move adds 2 (1,3) simplices and 2 (3,1) simplices for a total of 3 (1,3) simplices and 3 (3,1) simplices. It also adds 2 timelike edges and 3 spacelike edges, for a total of 8 timelike edges and 6 spacelike edges.</p>
 <p>This function performs the (2,6) move by picking a random (1,3) simplex from <a class="el" href="struct_geometry_info.html">GeometryInfo</a>. The <b><a class="el" href="_s3_ergodic_moves_8h.html#a1930ef571fbb282f44ac7c06efdc290f" title="Find a (2,6) move. ">find_26_movable()</a></b> function finds the index of the neighboring (3,1) simplex, <b>neighboring_31_index</b>, and <b>has_neighbor()</b> is used to check the results.</p>
-<p>After some other values are gathered for debugging purposes, the <b>v_center</b> vertex is inserted into the facet delineated by <b>neighboring_31_index</b> using <b>tds().insert_in_facet()</b>. Finally, the centroid of the common face calculated using <b>CGAL::centroid()</b> and assigned to <b>v_center</b>, along with a timevalue taken from one of the vertices of the common face. </p><dl class="todo"><dt><b><a class="el" href="todo.html#_todo000004">Todo:</a></b></dt><dd>Check Euler condition on insert, ensure not inserting outside</dd></dl>
+<p>After some other values are gathered for debugging purposes, the <b>v_center</b> vertex is inserted into the facet delineated by <b>neighboring_31_index</b> using <b>tds().insert_in_facet()</b>. Finally, the centroid of the common face calculated using <b>CGAL::centroid()</b> and assigned to <b>v_center</b>, along with a timevalue taken from one of the vertices of the common face. </p><dl class="todo"><dt><b><a class="el" href="todo.html#_todo000007">Todo:</a></b></dt><dd>Check Euler condition on insert, ensure not inserting outside</dd></dl>
 <div class="image">
 <img src="26.png" alt="26.png"/>
 </div>
@@ -517,7 +517,7 @@ template&lt;typename T1 , typename T2 &gt; </div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>universe The <a class="el" href="struct_simplicial_manifold.html">SimplicialManifold</a> after the move has been made </dd></dl>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000005">Todo:</a></b></dt><dd>: Make (4,4) move aka 4,4 bistellar flip work. This is on the CGAL TODO list also </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000008">Todo:</a></b></dt><dd>: Make (4,4) move aka 4,4 bistellar flip work. This is on the CGAL TODO list also </dd></dl>
 <p>This function performs the (4,4) move by replacing a space-like edge with another space-like edge that maintains the number of simplices.</p>
 <dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
@@ -698,7 +698,7 @@ template&lt;typename T &gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Jan 5 2018 03:05:13 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Jan 31 2018 09:11:14 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>

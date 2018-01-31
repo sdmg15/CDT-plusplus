@@ -85,9 +85,11 @@ Collaboration diagram for Catch::AssertionHandler:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_catch_1_1_assertion_handler__coll__graph.png" border="0" usemap="#_catch_1_1_assertion_handler_coll__map" alt="Collaboration graph"/></div>
 <map name="_catch_1_1_assertion_handler_coll__map" id="_catch_1_1_assertion_handler_coll__map">
-<area shape="rect" id="node2" href="struct_catch_1_1_assertion_info.html" title="{Catch::AssertionInfo\n|+ resultDisposition\l|}" alt="" coords="103,367,245,440"/>
-<area shape="rect" id="node3" href="struct_catch_1_1_source_line_info.html" title="{Catch::SourceLineInfo\n|+ file\l+ line\l|+ SourceLineInfo()\l+ SourceLineInfo()\l+ SourceLineInfo()\l+ SourceLineInfo()\l+ empty()\l+ operator\&lt;()\l+ operator=()\l+ operator=()\l+ operator==()\l}" alt="" coords="5,52,159,245"/>
-<area shape="rect" id="node4" href="class_catch_1_1_string_ref.html" title="{Catch::StringRef\n|&#45; m_data\l&#45; m_size\l&#45; m_start\l|+ StringRef()\l+ StringRef()\l+ StringRef()\l+ StringRef()\l+ StringRef()\l+ StringRef()\l+ ~StringRef()\l+ c_str()\l+ empty()\l+ numberOfCharacters()\land 8 more...\l&#45; data()\l&#45; isOwned()\l&#45; isSubstring()\l&#45; takeOwnership()\l}" alt="" coords="183,5,349,292"/>
+<area shape="rect" id="node2" href="struct_catch_1_1_assertion_reaction.html" title="{Catch::AssertionReaction\n|+ shouldDebugBreak\l+ shouldThrow\l|}" alt="" coords="5,440,177,527"/>
+<area shape="rect" id="node3" href="struct_catch_1_1_i_result_capture.html" title="{Catch::IResultCapture\n||+ ~IResultCapture()\l+ assertionPassed()\l+ benchmarkEnded()\l+ benchmarkStarting()\l+ exceptionEarlyReported()\l+ getCurrentTestName()\l+ getLastResult()\l+ handleExpr()\l+ handleFatalErrorCondition()\l+ handleIncomplete()\land 10 more...\l}" alt="" coords="201,380,398,587"/>
+<area shape="rect" id="node4" href="struct_catch_1_1_assertion_info.html" title="{Catch::AssertionInfo\n|+ resultDisposition\l|}" alt="" coords="422,447,563,520"/>
+<area shape="rect" id="node5" href="struct_catch_1_1_source_line_info.html" title="{Catch::SourceLineInfo\n|+ file\l+ line\l|+ SourceLineInfo()\l+ SourceLineInfo()\l+ SourceLineInfo()\l+ SourceLineInfo()\l+ empty()\l+ operator\&lt;()\l+ operator=()\l+ operator=()\l+ operator==()\l}" alt="" coords="324,59,477,252"/>
+<area shape="rect" id="node6" href="class_catch_1_1_string_ref.html" title="{Catch::StringRef\n|&#45; m_data\l&#45; m_size\l&#45; m_start\l&#45; s_empty\l|+ StringRef()\l+ StringRef()\l+ StringRef()\l+ StringRef()\l+ StringRef()\l+ StringRef()\l+ ~StringRef()\l+ c_str()\l+ empty()\l+ numberOfCharacters()\land 8 more...\l&#45; data()\l&#45; isOwned()\l&#45; isSubstring()\l&#45; takeOwnership()\l}" alt="" coords="501,5,668,305"/>
 </map>
 </div>
 <table class="memberdecls">
@@ -99,69 +101,63 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a193bb3999494c46457f3059184c6b251"><td class="memItemLeft" align="right" valign="top"><a id="a193bb3999494c46457f3059184c6b251"></a>
 auto&#160;</td><td class="memItemRight" valign="bottom"><b>allowThrows</b> () const -&gt; bool</td></tr>
 <tr class="separator:a193bb3999494c46457f3059184c6b251"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a39b33cd04bf5ddaf81bd0aa64cbe65aa"><td class="memItemLeft" align="right" valign="top"><a id="a39b33cd04bf5ddaf81bd0aa64cbe65aa"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>handle</b> (<a class="el" href="struct_catch_1_1_i_transient_expression.html">ITransientExpression</a> const &amp;expr)</td></tr>
-<tr class="separator:a39b33cd04bf5ddaf81bd0aa64cbe65aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a307f27a86452decea7384a5ab524fcfd"><td class="memTemplParams" colspan="2"><a id="a307f27a86452decea7384a5ab524fcfd"></a>
+<tr class="memitem:a878a9eb828d8a1863c8dcb6575f6f40e"><td class="memItemLeft" align="right" valign="top"><a id="a878a9eb828d8a1863c8dcb6575f6f40e"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>complete</b> ()</td></tr>
+<tr class="separator:a878a9eb828d8a1863c8dcb6575f6f40e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a51e4936e3af43b74690cedae6d2e297a"><td class="memItemLeft" align="right" valign="top"><a id="a51e4936e3af43b74690cedae6d2e297a"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>handleExceptionNotThrownAsExpected</b> ()</td></tr>
+<tr class="separator:a51e4936e3af43b74690cedae6d2e297a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab6caf765764a4064e90fce829eec201d"><td class="memItemLeft" align="right" valign="top"><a id="ab6caf765764a4064e90fce829eec201d"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>handleExceptionThrownAsExpected</b> ()</td></tr>
+<tr class="separator:ab6caf765764a4064e90fce829eec201d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ef387e567bad90ec6e4b5bf5c367388"><td class="memTemplParams" colspan="2"><a id="a2ef387e567bad90ec6e4b5bf5c367388"></a>
 template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a307f27a86452decea7384a5ab524fcfd"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>handle</b> (<a class="el" href="class_catch_1_1_expr_lhs.html">ExprLhs</a>&lt; T &gt; const &amp;expr)</td></tr>
-<tr class="separator:a307f27a86452decea7384a5ab524fcfd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af04d943755b1f27374f7edf32c190942"><td class="memItemLeft" align="right" valign="top"><a id="af04d943755b1f27374f7edf32c190942"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>handle</b> (ResultWas::OfType resultType)</td></tr>
-<tr class="separator:af04d943755b1f27374f7edf32c190942"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a50c299532997985f6fce55dc63545aa4"><td class="memItemLeft" align="right" valign="top"><a id="a50c299532997985f6fce55dc63545aa4"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>handle</b> (ResultWas::OfType resultType, <a class="el" href="class_catch_1_1_string_ref.html">StringRef</a> const &amp;message)</td></tr>
-<tr class="separator:a50c299532997985f6fce55dc63545aa4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3878e2f677cfc46bb91511969f81db5a"><td class="memItemLeft" align="right" valign="top"><a id="a3878e2f677cfc46bb91511969f81db5a"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>handle</b> (ResultWas::OfType resultType, <a class="el" href="struct_catch_1_1_i_transient_expression.html">ITransientExpression</a> const *expr, bool negated)</td></tr>
-<tr class="separator:a3878e2f677cfc46bb91511969f81db5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac45dca96196b397b3e587650bf6b1a65"><td class="memItemLeft" align="right" valign="top"><a id="ac45dca96196b397b3e587650bf6b1a65"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>handle</b> (AssertionResultData const &amp;resultData, <a class="el" href="struct_catch_1_1_i_transient_expression.html">ITransientExpression</a> const *expr)</td></tr>
-<tr class="separator:ac45dca96196b397b3e587650bf6b1a65"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad853c2b10cb31f58de26e91d66d2fd66"><td class="memItemLeft" align="right" valign="top"><a id="ad853c2b10cb31f58de26e91d66d2fd66"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>reactWithDebugBreak</b> () const</td></tr>
-<tr class="separator:ad853c2b10cb31f58de26e91d66d2fd66"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa3d5009f5f576abdaa0428ec7d4adf63"><td class="memItemLeft" align="right" valign="top"><a id="aa3d5009f5f576abdaa0428ec7d4adf63"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>reactWithoutDebugBreak</b> () const</td></tr>
-<tr class="separator:aa3d5009f5f576abdaa0428ec7d4adf63"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5eb26e497cd96b2b2fe3ac1eddce51ce"><td class="memItemLeft" align="right" valign="top"><a id="a5eb26e497cd96b2b2fe3ac1eddce51ce"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>setExceptionGuard</b> ()</td></tr>
-<tr class="separator:a5eb26e497cd96b2b2fe3ac1eddce51ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aecae77fafb26b9525969d8f6132973e5"><td class="memItemLeft" align="right" valign="top"><a id="aecae77fafb26b9525969d8f6132973e5"></a>
-auto&#160;</td><td class="memItemRight" valign="bottom"><b>shouldDebugBreak</b> () const -&gt; bool</td></tr>
-<tr class="separator:aecae77fafb26b9525969d8f6132973e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5638dc6be96257de59b111b6c3dc49f1"><td class="memItemLeft" align="right" valign="top"><a id="a5638dc6be96257de59b111b6c3dc49f1"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>unsetExceptionGuard</b> ()</td></tr>
-<tr class="separator:a5638dc6be96257de59b111b6c3dc49f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae5c135c28109bf82efeefeb00c0ddb22"><td class="memItemLeft" align="right" valign="top"><a id="ae5c135c28109bf82efeefeb00c0ddb22"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>useActiveException</b> ()</td></tr>
-<tr class="separator:ae5c135c28109bf82efeefeb00c0ddb22"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ef387e567bad90ec6e4b5bf5c367388"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>handleExpr</b> (<a class="el" href="class_catch_1_1_expr_lhs.html">ExprLhs</a>&lt; T &gt; const &amp;expr)</td></tr>
+<tr class="separator:a2ef387e567bad90ec6e4b5bf5c367388"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe14d9cf1b1c7f70dae439fbdb51d0c4"><td class="memItemLeft" align="right" valign="top"><a id="afe14d9cf1b1c7f70dae439fbdb51d0c4"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>handleExpr</b> (<a class="el" href="struct_catch_1_1_i_transient_expression.html">ITransientExpression</a> const &amp;expr)</td></tr>
+<tr class="separator:afe14d9cf1b1c7f70dae439fbdb51d0c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abdb4c180ed83ec2858b2fb87712c516d"><td class="memItemLeft" align="right" valign="top"><a id="abdb4c180ed83ec2858b2fb87712c516d"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>handleMessage</b> (ResultWas::OfType resultType, <a class="el" href="class_catch_1_1_string_ref.html">StringRef</a> const &amp;message)</td></tr>
+<tr class="separator:abdb4c180ed83ec2858b2fb87712c516d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a67a194d5518f307c4a16faa03a7f7442"><td class="memItemLeft" align="right" valign="top"><a id="a67a194d5518f307c4a16faa03a7f7442"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>handleThrowingCallSkipped</b> ()</td></tr>
+<tr class="separator:a67a194d5518f307c4a16faa03a7f7442"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7764d0adb6ed5eeb10964f6abc02fab1"><td class="memItemLeft" align="right" valign="top"><a id="a7764d0adb6ed5eeb10964f6abc02fab1"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>handleUnexpectedExceptionNotThrown</b> ()</td></tr>
+<tr class="separator:a7764d0adb6ed5eeb10964f6abc02fab1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa2504dad6a91f3645e5f52c932c11270"><td class="memItemLeft" align="right" valign="top"><a id="aa2504dad6a91f3645e5f52c932c11270"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>handleUnexpectedInflightException</b> ()</td></tr>
+<tr class="separator:aa2504dad6a91f3645e5f52c932c11270"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6756bd5395c0ddd28764a9fb4612d5e4"><td class="memItemLeft" align="right" valign="top"><a id="a6756bd5395c0ddd28764a9fb4612d5e4"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>setCompleted</b> ()</td></tr>
+<tr class="separator:a6756bd5395c0ddd28764a9fb4612d5e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
 <tr class="memitem:ad171e8724bb771d97949b7270f400303"><td class="memItemLeft" align="right" valign="top"><a id="ad171e8724bb771d97949b7270f400303"></a>
 <a class="el" href="struct_catch_1_1_assertion_info.html">AssertionInfo</a>&#160;</td><td class="memItemRight" valign="bottom"><b>m_assertionInfo</b></td></tr>
 <tr class="separator:ad171e8724bb771d97949b7270f400303"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a462cd1314df75f9d90bfdedb309cd468"><td class="memItemLeft" align="right" valign="top"><a id="a462cd1314df75f9d90bfdedb309cd468"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>m_inExceptionGuard</b> = false</td></tr>
-<tr class="separator:a462cd1314df75f9d90bfdedb309cd468"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a516febe12384e34b978d0e58492bf920"><td class="memItemLeft" align="right" valign="top"><a id="a516febe12384e34b978d0e58492bf920"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>m_shouldDebugBreak</b> = false</td></tr>
-<tr class="separator:a516febe12384e34b978d0e58492bf920"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae398bb6c0d4abdf7949f5b99c1d144b6"><td class="memItemLeft" align="right" valign="top"><a id="ae398bb6c0d4abdf7949f5b99c1d144b6"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>m_shouldThrow</b> = false</td></tr>
-<tr class="separator:ae398bb6c0d4abdf7949f5b99c1d144b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a756818dff781c155e8eb970d1d4c68"><td class="memItemLeft" align="right" valign="top"><a id="a5a756818dff781c155e8eb970d1d4c68"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>m_completed</b> = false</td></tr>
+<tr class="separator:a5a756818dff781c155e8eb970d1d4c68"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8203c08a43a3761b5f400ee6587fad55"><td class="memItemLeft" align="right" valign="top"><a id="a8203c08a43a3761b5f400ee6587fad55"></a>
+<a class="el" href="struct_catch_1_1_assertion_reaction.html">AssertionReaction</a>&#160;</td><td class="memItemRight" valign="bottom"><b>m_reaction</b></td></tr>
+<tr class="separator:a8203c08a43a3761b5f400ee6587fad55"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea5283ee36124ce5c51dc2a697b22a39"><td class="memItemLeft" align="right" valign="top"><a id="aea5283ee36124ce5c51dc2a697b22a39"></a>
+<a class="el" href="struct_catch_1_1_i_result_capture.html">IResultCapture</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>m_resultCapture</b></td></tr>
+<tr class="separator:aea5283ee36124ce5c51dc2a697b22a39"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="catch_8hpp_source.html#l01215">1215</a> of file <a class="el" href="catch_8hpp_source.html">catch.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="catch_8hpp_source.html#l01457">1457</a> of file <a class="el" href="catch_8hpp_source.html">catch.hpp</a>.</p>
 </div><hr/>The documentation for this class was generated from the following file:<ul>
 <li>test/<a class="el" href="catch_8hpp_source.html">catch.hpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Jan 5 2018 03:05:13 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Jan 31 2018 09:11:14 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>

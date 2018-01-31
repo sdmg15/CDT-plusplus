@@ -74,6 +74,7 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-types">Public Types</a> &#124;
+<a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="classdate_1_1gps__clock-members.html">List of all members</a>  </div>
@@ -104,11 +105,30 @@ using&#160;</td><td class="memItemRight" valign="bottom"><b>rep</b> = duration::
 using&#160;</td><td class="memItemRight" valign="bottom"><b>time_point</b> = std::chrono::time_point&lt; <a class="el" href="classdate_1_1gps__clock.html">gps_clock</a> &gt;</td></tr>
 <tr class="separator:a4cf3f9117178a55eac9f3ff9dbe3afb5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:aa7d421834e634024ff16b3b3847f4785"><td class="memTemplParams" colspan="2"><a id="aa7d421834e634024ff16b3b3847f4785"></a>
+template&lt;class Duration &gt; </td></tr>
+<tr class="memitem:aa7d421834e634024ff16b3b3847f4785"><td class="memTemplItemLeft" align="right" valign="top">gps_time&lt; typename std::common_type&lt; Duration, std::chrono::seconds &gt;::type &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><b>from_utc</b> (const utc_time&lt; Duration &gt; &amp;t) NOEXCEPT</td></tr>
+<tr class="separator:aa7d421834e634024ff16b3b3847f4785"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a94b9deb44984c8e89d108351c3fb6baf"><td class="memTemplParams" colspan="2"><a id="a94b9deb44984c8e89d108351c3fb6baf"></a>
+template&lt;class Duration &gt; </td></tr>
+<tr class="memitem:a94b9deb44984c8e89d108351c3fb6baf"><td class="memTemplItemLeft" align="right" valign="top">utc_time&lt; typename std::common_type&lt; Duration, std::chrono::seconds &gt;::type &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><b>to_utc</b> (const gps_time&lt; Duration &gt; &amp;t) NOEXCEPT</td></tr>
+<tr class="separator:a94b9deb44984c8e89d108351c3fb6baf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:af2bc5c7e41cf232c21c977b80eafac81"><td class="memItemLeft" align="right" valign="top"><a id="af2bc5c7e41cf232c21c977b80eafac81"></a>
-static time_point&#160;</td><td class="memItemRight" valign="bottom"><b>now</b> () NOEXCEPT</td></tr>
-<tr class="separator:af2bc5c7e41cf232c21c977b80eafac81"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaaf5d9ab7641275f4d8124137e57abfa"><td class="memTemplParams" colspan="2"><a id="aaaf5d9ab7641275f4d8124137e57abfa"></a>
+template&lt;typename Duration &gt; </td></tr>
+<tr class="memitem:aaaf5d9ab7641275f4d8124137e57abfa"><td class="memTemplItemLeft" align="right" valign="top">static std::chrono::time_point&lt; <a class="el" href="classdate_1_1gps__clock.html">gps_clock</a>, typename std::common_type&lt; Duration, std::chrono::seconds &gt;::type &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><b>from_utc</b> (const std::chrono::time_point&lt; <a class="el" href="classdate_1_1utc__clock.html">utc_clock</a>, Duration &gt; &amp;) NOEXCEPT</td></tr>
+<tr class="separator:aaaf5d9ab7641275f4d8124137e57abfa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5783dfbdd98b618b0efd979717c997c8"><td class="memItemLeft" align="right" valign="top"><a id="a5783dfbdd98b618b0efd979717c997c8"></a>
+static time_point&#160;</td><td class="memItemRight" valign="bottom"><b>now</b> ()</td></tr>
+<tr class="separator:a5783dfbdd98b618b0efd979717c997c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a77df6079d4dd41b552926efbfdde09b9"><td class="memTemplParams" colspan="2"><a id="a77df6079d4dd41b552926efbfdde09b9"></a>
+template&lt;typename Duration &gt; </td></tr>
+<tr class="memitem:a77df6079d4dd41b552926efbfdde09b9"><td class="memTemplItemLeft" align="right" valign="top">static std::chrono::time_point&lt; <a class="el" href="classdate_1_1utc__clock.html">utc_clock</a>, typename std::common_type&lt; Duration, std::chrono::seconds &gt;::type &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><b>to_utc</b> (const std::chrono::time_point&lt; <a class="el" href="classdate_1_1gps__clock.html">gps_clock</a>, Duration &gt; &amp;) NOEXCEPT</td></tr>
+<tr class="separator:a77df6079d4dd41b552926efbfdde09b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
@@ -118,14 +138,14 @@ static const bool&#160;</td><td class="memItemRight" valign="bottom"><b>is_stead
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="tz_8h_source.html#l02080">2080</a> of file <a class="el" href="tz_8h_source.html">tz.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="tz_8h_source.html#l02091">2091</a> of file <a class="el" href="tz_8h_source.html">tz.h</a>.</p>
 </div><hr/>The documentation for this class was generated from the following file:<ul>
 <li>src/date/include/date/<a class="el" href="tz_8h_source.html">tz.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Jan 5 2018 03:05:13 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Jan 31 2018 09:11:14 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>

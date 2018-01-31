@@ -13,7 +13,7 @@ var searchData=
   ['time_5fof_5fday_5fstorage_3c_20std_3a_3achrono_3a_3aduration_3c_20rep_2c_20period_20_3e_2c_20detail_3a_3aclassify_3a_3aminute_20_3e',['time_of_day_storage&lt; std::chrono::duration&lt; Rep, Period &gt;, detail::classify::minute &gt;',['../classdate_1_1detail_1_1time__of__day__storage_3_01std_1_1chrono_1_1duration_3_01_rep_00_01_perio2f7e02f06472a83980e1d0196ea2746d.html',1,'date::detail']]],
   ['time_5fof_5fday_5fstorage_3c_20std_3a_3achrono_3a_3aduration_3c_20rep_2c_20period_20_3e_2c_20detail_3a_3aclassify_3a_3asecond_20_3e',['time_of_day_storage&lt; std::chrono::duration&lt; Rep, Period &gt;, detail::classify::second &gt;',['../classdate_1_1detail_1_1time__of__day__storage_3_01std_1_1chrono_1_1duration_3_01_rep_00_01_perioa4aafe6bf337ed7dabca38dd6be843a3.html',1,'date::detail']]],
   ['time_5fof_5fday_5fstorage_3c_20std_3a_3achrono_3a_3aduration_3c_20rep_2c_20period_20_3e_2c_20detail_3a_3aclassify_3a_3asubsecond_20_3e',['time_of_day_storage&lt; std::chrono::duration&lt; Rep, Period &gt;, detail::classify::subsecond &gt;',['../classdate_1_1detail_1_1time__of__day__storage_3_01std_1_1chrono_1_1duration_3_01_rep_00_01_period1e03169a7045e50b0409508214ed655.html',1,'date::detail']]],
-  ['time_5fzone',['time_zone',['../classdate_1_1time__zone.html',1,'date']]],
+  ['time_5fzone',['time_zone',['../class_posix_1_1time__zone.html',1,'Posix::time_zone'],['../classdate_1_1time__zone.html',1,'date::time_zone']]],
   ['timer',['Timer',['../class_catch_1_1_timer.html',1,'Catch']]],
   ['tokens',['Tokens',['../class_tokens.html',1,'']]],
   ['totals',['Totals',['../struct_catch_1_1_totals.html',1,'Catch']]],

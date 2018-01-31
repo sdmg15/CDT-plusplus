@@ -1,0 +1,7 @@
+<map id="Catch::Matchers::Floating::WithinAbsMatcher" name="Catch::Matchers::Floating::WithinAbsMatcher">
+<area shape="rect" id="node2" href="$struct_catch_1_1_matchers_1_1_impl_1_1_matcher_base.html" title="{Catch::Matchers::Impl\l::MatcherBase\&lt; double \&gt;\n||+ operator!()\l+ operator&amp;&amp;()\l+ operator\|\|()\l}" alt="" coords="104,479,274,592"/>
+<area shape="rect" id="node3" href="$class_catch_1_1_matchers_1_1_impl_1_1_matcher_untyped_base.html" title="{Catch::Matchers::Impl\l::MatcherUntypedBase\n||+ MatcherUntypedBase()\l+ MatcherUntypedBase()\l+ operator=()\l+ toString()\l# ~MatcherUntypedBase()\l# describe()\l}" alt="" coords="5,276,183,429"/>
+<area shape="rect" id="node4" title="STL class. " alt="" coords="54,141,134,215"/>
+<area shape="rect" id="node5" title="STL class. " alt="" coords="31,5,157,92"/>
+<area shape="rect" id="node6" href="$struct_catch_1_1_matchers_1_1_impl_1_1_matcher_method.html" title="{Catch::Matchers::Impl\l::MatcherMethod\&lt; T \&gt;\n||+ match()\l}" alt="" coords="207,309,359,396"/>
+</map>

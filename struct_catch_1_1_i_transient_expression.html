@@ -74,6 +74,7 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="struct_catch_1_1_i_transient_expression-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Catch::ITransientExpression Struct Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
@@ -84,9 +85,9 @@ Inheritance diagram for Catch::ITransientExpression:</div>
 <div class="dyncontent">
 <div class="center"><img src="struct_catch_1_1_i_transient_expression__inherit__graph.png" border="0" usemap="#_catch_1_1_i_transient_expression_inherit__map" alt="Inheritance graph"/></div>
 <map name="_catch_1_1_i_transient_expression_inherit__map" id="_catch_1_1_i_transient_expression_inherit__map">
-<area shape="rect" id="node2" href="class_catch_1_1_binary_expr.html" title="{Catch::BinaryExpr\&lt;\l LhsT, RhsT \&gt;\n|&#45; m_lhs\l&#45; m_op\l&#45; m_result\l&#45; m_rhs\l|+ BinaryExpr()\l&#45; getResult()\l&#45; isBinaryExpression()\l&#45; streamReconstructedExpression()\l}" alt="" coords="5,167,236,333"/>
-<area shape="rect" id="node3" href="class_catch_1_1_match_expr.html" title="{Catch::MatchExpr\&lt; ArgT,\l MatcherT \&gt;\n|&#45; m_arg\l&#45; m_matcher\l&#45; m_matcherString\l&#45; m_result\l|+ MatchExpr()\l+ getResult()\l+ isBinaryExpression()\l+ streamReconstructedExpression()\l}" alt="" coords="261,167,495,333"/>
-<area shape="rect" id="node4" href="class_catch_1_1_unary_expr.html" title="{Catch::UnaryExpr\&lt; LhsT \&gt;\n|&#45; m_lhs\l|+ UnaryExpr()\l&#45; getResult()\l&#45; isBinaryExpression()\l&#45; streamReconstructedExpression()\l}" alt="" coords="520,193,751,307"/>
+<area shape="rect" id="node2" href="class_catch_1_1_binary_expr.html" title="{Catch::BinaryExpr\&lt;\l LhsT, RhsT \&gt;\n|&#45; m_lhs\l&#45; m_op\l&#45; m_rhs\l|+ BinaryExpr()\l&#45; streamReconstructedExpression()\l}" alt="" coords="5,193,236,320"/>
+<area shape="rect" id="node3" href="class_catch_1_1_match_expr.html" title="{Catch::MatchExpr\&lt; ArgT,\l MatcherT \&gt;\n|&#45; m_arg\l&#45; m_matcher\l&#45; m_matcherString\l|+ MatchExpr()\l+ streamReconstructedExpression()\l}" alt="" coords="261,193,495,320"/>
+<area shape="rect" id="node4" href="class_catch_1_1_unary_expr.html" title="{Catch::UnaryExpr\&lt; LhsT \&gt;\n|&#45; m_lhs\l|+ UnaryExpr()\l&#45; streamReconstructedExpression()\l}" alt="" coords="520,213,751,300"/>
 </map>
 </div>
 <div class="dynheader">
@@ -99,26 +100,38 @@ Collaboration diagram for Catch::ITransientExpression:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ade7e988c982fd6befc47c7154ca0ec6b"><td class="memItemLeft" align="right" valign="top"><a id="ade7e988c982fd6befc47c7154ca0ec6b"></a>
-virtual auto&#160;</td><td class="memItemRight" valign="bottom"><b>getResult</b> () const -&gt; bool=0</td></tr>
-<tr class="separator:ade7e988c982fd6befc47c7154ca0ec6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa93e6bb9392c8c99c695ec9f0ef147dc"><td class="memItemLeft" align="right" valign="top"><a id="aa93e6bb9392c8c99c695ec9f0ef147dc"></a>
-virtual auto&#160;</td><td class="memItemRight" valign="bottom"><b>isBinaryExpression</b> () const -&gt; bool=0</td></tr>
-<tr class="separator:aa93e6bb9392c8c99c695ec9f0ef147dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aafe69572b7ed884e63ec81f58d4afd8c"><td class="memItemLeft" align="right" valign="top"><a id="aafe69572b7ed884e63ec81f58d4afd8c"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>ITransientExpression</b> (bool isBinaryExpression, bool result)</td></tr>
+<tr class="separator:aafe69572b7ed884e63ec81f58d4afd8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a101c7db86c87eff93a8ff496720e6320"><td class="memItemLeft" align="right" valign="top"><a id="a101c7db86c87eff93a8ff496720e6320"></a>
+auto&#160;</td><td class="memItemRight" valign="bottom"><b>getResult</b> () const -&gt; bool</td></tr>
+<tr class="separator:a101c7db86c87eff93a8ff496720e6320"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b436e13a0a6d3522bbf70d4e31deb22"><td class="memItemLeft" align="right" valign="top"><a id="a3b436e13a0a6d3522bbf70d4e31deb22"></a>
+auto&#160;</td><td class="memItemRight" valign="bottom"><b>isBinaryExpression</b> () const -&gt; bool</td></tr>
+<tr class="separator:a3b436e13a0a6d3522bbf70d4e31deb22"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aabe1889df9c6e639a24afb08d8a0fe9e"><td class="memItemLeft" align="right" valign="top"><a id="aabe1889df9c6e639a24afb08d8a0fe9e"></a>
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>streamReconstructedExpression</b> (std::ostream &amp;os) const =0</td></tr>
 <tr class="separator:aabe1889df9c6e639a24afb08d8a0fe9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:a75ce48da824d514d08152d396abb28d8"><td class="memItemLeft" align="right" valign="top"><a id="a75ce48da824d514d08152d396abb28d8"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>m_isBinaryExpression</b></td></tr>
+<tr class="separator:a75ce48da824d514d08152d396abb28d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4646e2b5e0156e913653ec3b9b60c942"><td class="memItemLeft" align="right" valign="top"><a id="a4646e2b5e0156e913653ec3b9b60c942"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>m_result</b></td></tr>
+<tr class="separator:a4646e2b5e0156e913653ec3b9b60c942"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="catch_8hpp_source.html#l00987">987</a> of file <a class="el" href="catch_8hpp_source.html">catch.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="catch_8hpp_source.html#l01209">1209</a> of file <a class="el" href="catch_8hpp_source.html">catch.hpp</a>.</p>
 </div><hr/>The documentation for this struct was generated from the following file:<ul>
 <li>test/<a class="el" href="catch_8hpp_source.html">catch.hpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Jan 5 2018 03:05:13 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Jan 31 2018 09:11:14 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>

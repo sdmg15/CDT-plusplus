@@ -89,18 +89,9 @@ Collaboration diagram for Catch::IResultCapture:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ae45e08bccc5fb434656d4f2e44742223"><td class="memItemLeft" align="right" valign="top"><a id="ae45e08bccc5fb434656d4f2e44742223"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>assertionEnded</b> (AssertionResult const &amp;result)=0</td></tr>
-<tr class="separator:ae45e08bccc5fb434656d4f2e44742223"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9b0ef2cb071e9a9dc6ec1b533026aea7"><td class="memItemLeft" align="right" valign="top"><a id="a9b0ef2cb071e9a9dc6ec1b533026aea7"></a>
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>assertionPassed</b> ()=0</td></tr>
 <tr class="separator:a9b0ef2cb071e9a9dc6ec1b533026aea7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad4f4424484b803c24e84ac16e63c9086"><td class="memItemLeft" align="right" valign="top"><a id="ad4f4424484b803c24e84ac16e63c9086"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>assertionRun</b> ()=0</td></tr>
-<tr class="separator:ad4f4424484b803c24e84ac16e63c9086"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af04a4d75346314376286633aba2a6614"><td class="memItemLeft" align="right" valign="top"><a id="af04a4d75346314376286633aba2a6614"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>assertionStarting</b> (<a class="el" href="struct_catch_1_1_assertion_info.html">AssertionInfo</a> const &amp;info)=0</td></tr>
-<tr class="separator:af04a4d75346314376286633aba2a6614"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6e5e64f9d94211a888249012ab6cc7fb"><td class="memItemLeft" align="right" valign="top"><a id="a6e5e64f9d94211a888249012ab6cc7fb"></a>
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>benchmarkEnded</b> (BenchmarkStats const &amp;stats)=0</td></tr>
 <tr class="separator:a6e5e64f9d94211a888249012ab6cc7fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -116,9 +107,27 @@ virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><b>getCur
 <tr class="memitem:ab18872c89fab97405a56e9c6a4919736"><td class="memItemLeft" align="right" valign="top"><a id="ab18872c89fab97405a56e9c6a4919736"></a>
 virtual const AssertionResult *&#160;</td><td class="memItemRight" valign="bottom"><b>getLastResult</b> () const =0</td></tr>
 <tr class="separator:ab18872c89fab97405a56e9c6a4919736"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a59a2b05391e464954575d2afb6d5d607"><td class="memItemLeft" align="right" valign="top"><a id="a59a2b05391e464954575d2afb6d5d607"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>handleExpr</b> (<a class="el" href="struct_catch_1_1_assertion_info.html">AssertionInfo</a> const &amp;info, <a class="el" href="struct_catch_1_1_i_transient_expression.html">ITransientExpression</a> const &amp;expr, <a class="el" href="struct_catch_1_1_assertion_reaction.html">AssertionReaction</a> &amp;reaction)=0</td></tr>
+<tr class="separator:a59a2b05391e464954575d2afb6d5d607"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a48559e6598ba9474b903697b69c769b2"><td class="memItemLeft" align="right" valign="top"><a id="a48559e6598ba9474b903697b69c769b2"></a>
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>handleFatalErrorCondition</b> (<a class="el" href="class_catch_1_1_string_ref.html">StringRef</a> message)=0</td></tr>
 <tr class="separator:a48559e6598ba9474b903697b69c769b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a89b89372eb09cc44f8dcad363de6157d"><td class="memItemLeft" align="right" valign="top"><a id="a89b89372eb09cc44f8dcad363de6157d"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>handleIncomplete</b> (<a class="el" href="struct_catch_1_1_assertion_info.html">AssertionInfo</a> const &amp;info)=0</td></tr>
+<tr class="separator:a89b89372eb09cc44f8dcad363de6157d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a21788ebc64571abf322b80c8cc51794d"><td class="memItemLeft" align="right" valign="top"><a id="a21788ebc64571abf322b80c8cc51794d"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>handleMessage</b> (<a class="el" href="struct_catch_1_1_assertion_info.html">AssertionInfo</a> const &amp;info, ResultWas::OfType resultType, <a class="el" href="class_catch_1_1_string_ref.html">StringRef</a> const &amp;message, <a class="el" href="struct_catch_1_1_assertion_reaction.html">AssertionReaction</a> &amp;reaction)=0</td></tr>
+<tr class="separator:a21788ebc64571abf322b80c8cc51794d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab7dbdf8aa28427119583e24dbb302c63"><td class="memItemLeft" align="right" valign="top"><a id="ab7dbdf8aa28427119583e24dbb302c63"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>handleNonExpr</b> (<a class="el" href="struct_catch_1_1_assertion_info.html">AssertionInfo</a> const &amp;info, ResultWas::OfType resultType, <a class="el" href="struct_catch_1_1_assertion_reaction.html">AssertionReaction</a> &amp;reaction)=0</td></tr>
+<tr class="separator:ab7dbdf8aa28427119583e24dbb302c63"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6382ed20486e2d9a020da971c6d5c53d"><td class="memItemLeft" align="right" valign="top"><a id="a6382ed20486e2d9a020da971c6d5c53d"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>handleUnexpectedExceptionNotThrown</b> (<a class="el" href="struct_catch_1_1_assertion_info.html">AssertionInfo</a> const &amp;info, <a class="el" href="struct_catch_1_1_assertion_reaction.html">AssertionReaction</a> &amp;reaction)=0</td></tr>
+<tr class="separator:a6382ed20486e2d9a020da971c6d5c53d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc97bc69829185222f955ebeef97adfe"><td class="memItemLeft" align="right" valign="top"><a id="afc97bc69829185222f955ebeef97adfe"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>handleUnexpectedInflightException</b> (<a class="el" href="struct_catch_1_1_assertion_info.html">AssertionInfo</a> const &amp;info, std::string const &amp;message, <a class="el" href="struct_catch_1_1_assertion_reaction.html">AssertionReaction</a> &amp;reaction)=0</td></tr>
+<tr class="separator:afc97bc69829185222f955ebeef97adfe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a973435fbdcb2f6f07a0ec5719a01e956"><td class="memItemLeft" align="right" valign="top"><a id="a973435fbdcb2f6f07a0ec5719a01e956"></a>
 virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>lastAssertionPassed</b> ()=0</td></tr>
 <tr class="separator:a973435fbdcb2f6f07a0ec5719a01e956"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -140,14 +149,14 @@ virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>sectionStarte
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="catch_8hpp_source.html#l01330">1330</a> of file <a class="el" href="catch_8hpp_source.html">catch.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="catch_8hpp_source.html#l01375">1375</a> of file <a class="el" href="catch_8hpp_source.html">catch.hpp</a>.</p>
 </div><hr/>The documentation for this struct was generated from the following file:<ul>
 <li>test/<a class="el" href="catch_8hpp_source.html">catch.hpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Jan 5 2018 03:05:13 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Jan 31 2018 09:11:14 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>

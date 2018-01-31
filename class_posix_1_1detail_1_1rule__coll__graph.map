@@ -1,0 +1,4 @@
+<map id="Posix::detail::rule" name="Posix::detail::rule">
+<area shape="rect" id="node2" href="$classdate_1_1month.html" title="{date::month\n|&#45; m_\l|+ month()\l+ month()\l+ ok()\l+ operator unsigned()\l+ operator++()\l+ operator++()\l+ operator+=()\l+ operator&#45;&#45;()\l+ operator&#45;&#45;()\l+ operator&#45;=()\l}" alt="" coords="5,39,155,232"/>
+<area shape="rect" id="node3" href="$classdate_1_1weekday.html" title="{date::weekday\n|&#45; wd_\l|+ weekday()\l+ weekday()\l+ weekday()\l+ weekday()\l+ ok()\l+ operator unsigned()\l+ operator++()\l+ operator++()\l+ operator+=()\l+ operator&#45;&#45;()\l+ operator&#45;&#45;()\l+ operator&#45;=()\l+ operator[]()\l+ operator[]()\l&#45; weekday_from_days()\l}" alt="" coords="178,5,339,265"/>
+</map>

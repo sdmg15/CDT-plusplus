@@ -74,6 +74,7 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-types">Public Types</a> &#124;
+<a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="classdate_1_1utc__clock-members.html">List of all members</a>  </div>
@@ -104,11 +105,30 @@ using&#160;</td><td class="memItemRight" valign="bottom"><b>rep</b> = duration::
 using&#160;</td><td class="memItemRight" valign="bottom"><b>time_point</b> = std::chrono::time_point&lt; <a class="el" href="classdate_1_1utc__clock.html">utc_clock</a> &gt;</td></tr>
 <tr class="separator:abeadacba40207457c1c9256abab30025"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:aec0d22fd02a0ef351103e0ddfbc1f41c"><td class="memTemplParams" colspan="2"><a id="aec0d22fd02a0ef351103e0ddfbc1f41c"></a>
+template&lt;class Duration &gt; </td></tr>
+<tr class="memitem:aec0d22fd02a0ef351103e0ddfbc1f41c"><td class="memTemplItemLeft" align="right" valign="top">utc_time&lt; typename std::common_type&lt; Duration, std::chrono::seconds &gt;::type &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><b>from_sys</b> (const sys_time&lt; Duration &gt; &amp;st)</td></tr>
+<tr class="separator:aec0d22fd02a0ef351103e0ddfbc1f41c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a14e7bab007a8da1826d0ed5343dc2322"><td class="memTemplParams" colspan="2"><a id="a14e7bab007a8da1826d0ed5343dc2322"></a>
+template&lt;class Duration &gt; </td></tr>
+<tr class="memitem:a14e7bab007a8da1826d0ed5343dc2322"><td class="memTemplItemLeft" align="right" valign="top">sys_time&lt; typename std::common_type&lt; Duration, std::chrono::seconds &gt;::type &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><b>to_sys</b> (const utc_time&lt; Duration &gt; &amp;ut)</td></tr>
+<tr class="separator:a14e7bab007a8da1826d0ed5343dc2322"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a9abf73298ab48ec0d8b04a211fb3277a"><td class="memTemplParams" colspan="2"><a id="a9abf73298ab48ec0d8b04a211fb3277a"></a>
+template&lt;typename Duration &gt; </td></tr>
+<tr class="memitem:a9abf73298ab48ec0d8b04a211fb3277a"><td class="memTemplItemLeft" align="right" valign="top">static std::chrono::time_point&lt; <a class="el" href="classdate_1_1utc__clock.html">utc_clock</a>, typename std::common_type&lt; Duration, std::chrono::seconds &gt;::type &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><b>from_sys</b> (const std::chrono::time_point&lt; std::chrono::system_clock, Duration &gt; &amp;)</td></tr>
+<tr class="separator:a9abf73298ab48ec0d8b04a211fb3277a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abf3fe8ad34e5c036bb841882d04bcb22"><td class="memItemLeft" align="right" valign="top"><a id="abf3fe8ad34e5c036bb841882d04bcb22"></a>
 static time_point&#160;</td><td class="memItemRight" valign="bottom"><b>now</b> ()</td></tr>
 <tr class="separator:abf3fe8ad34e5c036bb841882d04bcb22"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f29b1fb370dacd20c4fd74905e6dcd7"><td class="memTemplParams" colspan="2"><a id="a1f29b1fb370dacd20c4fd74905e6dcd7"></a>
+template&lt;typename Duration &gt; </td></tr>
+<tr class="memitem:a1f29b1fb370dacd20c4fd74905e6dcd7"><td class="memTemplItemLeft" align="right" valign="top">static std::chrono::time_point&lt; std::chrono::system_clock, typename std::common_type&lt; Duration, std::chrono::seconds &gt;::type &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><b>to_sys</b> (const std::chrono::time_point&lt; <a class="el" href="classdate_1_1utc__clock.html">utc_clock</a>, Duration &gt; &amp;)</td></tr>
+<tr class="separator:a1f29b1fb370dacd20c4fd74905e6dcd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
@@ -118,14 +138,14 @@ static CONSTDATA bool&#160;</td><td class="memItemRight" valign="bottom"><b>is_s
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="tz_8h_source.html#l01829">1829</a> of file <a class="el" href="tz_8h_source.html">tz.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="tz_8h_source.html#l01830">1830</a> of file <a class="el" href="tz_8h_source.html">tz.h</a>.</p>
 </div><hr/>The documentation for this class was generated from the following file:<ul>
 <li>src/date/include/date/<a class="el" href="tz_8h_source.html">tz.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Jan 5 2018 03:05:13 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Jan 31 2018 09:11:14 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>
