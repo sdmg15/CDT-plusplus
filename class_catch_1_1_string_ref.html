@@ -120,6 +120,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a1669cb2765e820ca258159676cbd82a5"><td class="memItemLeft" align="right" valign="top"><a id="a1669cb2765e820ca258159676cbd82a5"></a>
 auto&#160;</td><td class="memItemRight" valign="bottom"><b>c_str</b> () const -&gt; char const *</td></tr>
 <tr class="separator:a1669cb2765e820ca258159676cbd82a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee240387305ca8b249169d79f36e7002"><td class="memItemLeft" align="right" valign="top"><a id="aee240387305ca8b249169d79f36e7002"></a>
+auto&#160;</td><td class="memItemRight" valign="bottom"><b>currentData</b> () const noexcept -&gt; char const *</td></tr>
+<tr class="separator:aee240387305ca8b249169d79f36e7002"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac6b68b9dc1e1dec69e884e3f7be581bd"><td class="memItemLeft" align="right" valign="top"><a id="ac6b68b9dc1e1dec69e884e3f7be581bd"></a>
 auto&#160;</td><td class="memItemRight" valign="bottom"><b>empty</b> () const noexcept -&gt; bool</td></tr>
 <tr class="separator:ac6b68b9dc1e1dec69e884e3f7be581bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -153,9 +156,6 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>swap</b> (<a class="e
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
-<tr class="memitem:ab0f85edde9f97153fc758fac3bb14507"><td class="memItemLeft" align="right" valign="top"><a id="ab0f85edde9f97153fc758fac3bb14507"></a>
-auto&#160;</td><td class="memItemRight" valign="bottom"><b>data</b> () const noexcept -&gt; char const *</td></tr>
-<tr class="separator:ab0f85edde9f97153fc758fac3bb14507"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a911d426c9a979736da4bf44bec2b174c"><td class="memItemLeft" align="right" valign="top"><a id="a911d426c9a979736da4bf44bec2b174c"></a>
 auto&#160;</td><td class="memItemRight" valign="bottom"><b>isOwned</b> () const noexcept -&gt; bool</td></tr>
 <tr class="separator:a911d426c9a979736da4bf44bec2b174c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -193,14 +193,14 @@ struct&#160;</td><td class="memItemRight" valign="bottom"><b>StringRefTestAccess
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A non-owning string class (similar to the forthcoming std::string_view) Note that, because a <a class="el" href="class_catch_1_1_string_ref.html">StringRef</a> may be a substring of another string, it may not be null terminated. c_str() must return a null terminated string, however, and so the <a class="el" href="class_catch_1_1_string_ref.html">StringRef</a> will internally take ownership (taking a copy), if necessary. In theory this ownership is not externally visible - but it does mean (substring) StringRefs should not be shared between threads. </p>
 
-<p class="definition">Definition at line <a class="el" href="catch_8hpp_source.html#l00344">344</a> of file <a class="el" href="catch_8hpp_source.html">catch.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="catch_8hpp_source.html#l00377">377</a> of file <a class="el" href="catch_8hpp_source.html">catch.hpp</a>.</p>
 </div><hr/>The documentation for this class was generated from the following file:<ul>
 <li>test/<a class="el" href="catch_8hpp_source.html">catch.hpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Jan 31 2018 09:11:14 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Mar 23 2018 16:42:37 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>

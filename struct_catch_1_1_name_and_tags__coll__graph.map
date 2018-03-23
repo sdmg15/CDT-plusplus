@@ -1,3 +1,3 @@
 <map id="Catch::NameAndTags" name="Catch::NameAndTags">
-<area shape="rect" id="node2" href="$class_catch_1_1_string_ref.html" title="{Catch::StringRef\n|&#45; m_data\l&#45; m_size\l&#45; m_start\l&#45; s_empty\l|+ StringRef()\l+ StringRef()\l+ StringRef()\l+ StringRef()\l+ StringRef()\l+ StringRef()\l+ ~StringRef()\l+ c_str()\l+ empty()\l+ numberOfCharacters()\land 8 more...\l&#45; data()\l&#45; isOwned()\l&#45; isSubstring()\l&#45; takeOwnership()\l}" alt="" coords="5,5,172,305"/>
+<area shape="rect" id="node2" href="$class_catch_1_1_string_ref.html" title="{Catch::StringRef\n|&#45; m_data\l&#45; m_size\l&#45; m_start\l&#45; s_empty\l|+ StringRef()\l+ StringRef()\l+ StringRef()\l+ StringRef()\l+ StringRef()\l+ StringRef()\l+ ~StringRef()\l+ c_str()\l+ currentData()\l+ empty()\land 9 more...\l&#45; isOwned()\l&#45; isSubstring()\l&#45; takeOwnership()\l}" alt="" coords="17,5,144,292"/>
 </map>

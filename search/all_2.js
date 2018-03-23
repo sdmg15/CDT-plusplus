@@ -13,8 +13,8 @@ var searchData=
   ['checkpoint_5f',['checkpoint_',['../class_move_algorithm.html#afd12607f4895b2903187cfc168d1a28a',1,'MoveAlgorithm']]],
   ['choose_5ftrunc_5ftype',['choose_trunc_type',['../structdate_1_1detail_1_1choose__trunc__type.html',1,'date::detail']]],
   ['classify_5fduration',['classify_duration',['../structdate_1_1detail_1_1classify__duration.html',1,'date::detail']]],
-  ['classify_5fedges',['classify_edges',['../_simplicial_manifold_8h.html#a5d1faf454aae17fccb2378ae149f8b79',1,'SimplicialManifold.h']]],
-  ['classify_5fsimplices',['classify_simplices',['../_simplicial_manifold_8h.html#a6eae5e81fbc86f691083957d5f7aa96d',1,'SimplicialManifold.h']]],
+  ['classify_5fedges',['classify_edges',['../_simplicial_manifold_8hpp.html#a5d1faf454aae17fccb2378ae149f8b79',1,'SimplicialManifold.hpp']]],
+  ['classify_5fsimplices',['classify_simplices',['../_simplicial_manifold_8hpp.html#a6eae5e81fbc86f691083957d5f7aa96d',1,'SimplicialManifold.hpp']]],
   ['clock_5ftime_5fconversion',['clock_time_conversion',['../structdate_1_1clock__time__conversion.html',1,'date']]],
   ['clock_5ftime_5fconversion_3c_20amb1_5fclock_2c_20amb2_5fclock_20_3e',['clock_time_conversion&lt; amb1_clock, amb2_clock &gt;',['../structdate_1_1clock__time__conversion_3_01amb1__clock_00_01amb2__clock_01_4.html',1,'date']]],
   ['clock_5ftime_5fconversion_3c_20clock_2c_20clock_20_3e',['clock_time_conversion&lt; Clock, Clock &gt;',['../structdate_1_1clock__time__conversion_3_01_clock_00_01_clock_01_4.html',1,'date']]],
@@ -34,7 +34,7 @@ var searchData=
   ['containselementmatcher',['ContainsElementMatcher',['../struct_catch_1_1_matchers_1_1_vector_1_1_contains_element_matcher.html',1,'Catch::Matchers::Vector']]],
   ['containsmatcher',['ContainsMatcher',['../struct_catch_1_1_matchers_1_1_std_string_1_1_contains_matcher.html',1,'Catch::Matchers::StdString::ContainsMatcher'],['../struct_catch_1_1_matchers_1_1_vector_1_1_contains_matcher.html',1,'Catch::Matchers::Vector::ContainsMatcher&lt; T &gt;']]],
   ['counts',['Counts',['../struct_catch_1_1_counts.html',1,'Catch']]],
-  ['currentdatetime',['currentDateTime',['../_utilities_8h.html#a587a84ca40e2cf2839ab987065ca89ed',1,'Utilities.h']]],
+  ['currentdatetime',['currentDateTime',['../_utilities_8hpp.html#a587a84ca40e2cf2839ab987065ca89ed',1,'Utilities.hpp']]],
   ['currenttotalsimplices',['CurrentTotalSimplices',['../class_move_algorithm.html#a29d5fd3e91e3dba7a41622894c1eb795',1,'MoveAlgorithm']]],
   ['cdt_2dplusplus',['CDT-plusplus',['../index.html',1,'']]]
 ];

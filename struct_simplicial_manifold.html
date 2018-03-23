@@ -140,7 +140,7 @@ Friends</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="_simplicial_manifold_8h_source.html#l00418">418</a> of file <a class="el" href="_simplicial_manifold_8h_source.html">SimplicialManifold.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_simplicial_manifold_8hpp_source.html#l00418">418</a> of file <a class="el" href="_simplicial_manifold_8hpp_source.html">SimplicialManifold.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="aa32e46629eed81177fc4e8165d6f0a30"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa32e46629eed81177fc4e8165d6f0a30">&#9670;&nbsp;</a></span>SimplicialManifold() <span class="overload">[1/4]</span></h2>
@@ -167,7 +167,7 @@ Friends</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Constructor with std::unique_ptr&lt;Delaunay&gt; </p>
-<p>Constructor taking a std::unique_ptr&lt;Delaunay&gt; which should be created using <a class="el" href="_s3_triangulation_8h.html#a16f8fffc75c6a028ea7cee840a02ffce" title="Make a triangulation from foliated 2-spheres. ">make_triangulation()</a>. If you wish to default initialize a <a class="el" href="struct_simplicial_manifold.html">SimplicialManifold</a> with no values, use the default constructor <a class="el" href="struct_simplicial_manifold.html#ac2ac0112454bd2197c086c4642018892" title="Default constructor. ">SimplicialManifold::SimplicialManifold()</a> instead. Non-static data members are initialized in the order they are declared, (see <a href="http://open-std.org/JTC1/SC22/WG21/docs/papers/2016/n4594.pdf,">http://open-std.org/JTC1/SC22/WG21/docs/papers/2016/n4594.pdf,</a> \(\S\) 12.6.2.13.3), so <b>geometry</b> depending upon <b>triangulation</b> is fine. </p><dl class="params"><dt>Parameters</dt><dd>
+<p>Constructor taking a std::unique_ptr&lt;Delaunay&gt; which should be created using <a class="el" href="_s3_triangulation_8hpp.html#a16f8fffc75c6a028ea7cee840a02ffce" title="Make a triangulation from foliated 2-spheres. ">make_triangulation()</a>. If you wish to default initialize a <a class="el" href="struct_simplicial_manifold.html">SimplicialManifold</a> with no values, use the default constructor <a class="el" href="struct_simplicial_manifold.html#ac2ac0112454bd2197c086c4642018892" title="Default constructor. ">SimplicialManifold::SimplicialManifold()</a> instead. Non-static data members are initialized in the order they are declared, (see <a href="http://open-std.org/JTC1/SC22/WG21/docs/papers/2016/n4594.pdf,">http://open-std.org/JTC1/SC22/WG21/docs/papers/2016/n4594.pdf,</a> \(\S\) 12.6.2.13.3), so <b>geometry</b> depending upon <b>triangulation</b> is fine. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">manifold</td><td>A std::unique_ptr&lt;Delaunay&gt; </td></tr>
   </table>
@@ -175,7 +175,7 @@ Friends</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A <a class="el" href="struct_simplicial_manifold.html">SimplicialManifold</a>{} </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_simplicial_manifold_8h_source.html#l00448">448</a> of file <a class="el" href="_simplicial_manifold_8h_source.html">SimplicialManifold.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_simplicial_manifold_8hpp_source.html#l00448">448</a> of file <a class="el" href="_simplicial_manifold_8hpp_source.html">SimplicialManifold.hpp</a>.</p>
 
 </div>
 </div>
@@ -214,7 +214,7 @@ Friends</h2></td></tr>
 </div><div class="memdoc">
 
 <p>make_triangulation constructor </p>
-<p>Constructor that initializes <b>triangulation</b> by calling <a class="el" href="_s3_triangulation_8h.html#a16f8fffc75c6a028ea7cee840a02ffce" title="Make a triangulation from foliated 2-spheres. ">make_triangulation()</a> and <b>geometry</b> by calling classify_all_simplices(). </p><dl class="params"><dt>Parameters</dt><dd>
+<p>Constructor that initializes <b>triangulation</b> by calling <a class="el" href="_s3_triangulation_8hpp.html#a16f8fffc75c6a028ea7cee840a02ffce" title="Make a triangulation from foliated 2-spheres. ">make_triangulation()</a> and <b>geometry</b> by calling classify_all_simplices(). </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">simplices</td><td>The number of desired simplices in the triangulation </td></tr>
     <tr><td class="paramname">timeslices</td><td>The number of timeslices in the triangulation </td></tr>
@@ -223,7 +223,7 @@ Friends</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A populated <a class="el" href="struct_simplicial_manifold.html">SimplicialManifold</a>{} </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_simplicial_manifold_8h_source.html#l00466">466</a> of file <a class="el" href="_simplicial_manifold_8h_source.html">SimplicialManifold.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_simplicial_manifold_8hpp_source.html#l00466">466</a> of file <a class="el" href="_simplicial_manifold_8hpp_source.html">SimplicialManifold.hpp</a>.</p>
 
 </div>
 </div>
@@ -260,7 +260,7 @@ Friends</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A moved-to <a class="el" href="struct_simplicial_manifold.html">SimplicialManifold</a>{} </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_simplicial_manifold_8h_source.html#l00489">489</a> of file <a class="el" href="_simplicial_manifold_8h_source.html">SimplicialManifold.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_simplicial_manifold_8hpp_source.html#l00489">489</a> of file <a class="el" href="_simplicial_manifold_8hpp_source.html">SimplicialManifold.hpp</a>.</p>
 
 </div>
 </div>
@@ -297,7 +297,7 @@ Friends</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A copied <a class="el" href="struct_simplicial_manifold.html">SimplicialManifold</a>{} </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_simplicial_manifold_8h_source.html#l00520">520</a> of file <a class="el" href="_simplicial_manifold_8h_source.html">SimplicialManifold.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_simplicial_manifold_8hpp_source.html#l00520">520</a> of file <a class="el" href="_simplicial_manifold_8hpp_source.html">SimplicialManifold.hpp</a>.</p>
 
 </div>
 </div>
@@ -335,7 +335,7 @@ Friends</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A moved-assigned <a class="el" href="struct_simplicial_manifold.html">SimplicialManifold</a>{} </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_simplicial_manifold_8h_source.html#l00504">504</a> of file <a class="el" href="_simplicial_manifold_8h_source.html">SimplicialManifold.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_simplicial_manifold_8hpp_source.html#l00504">504</a> of file <a class="el" href="_simplicial_manifold_8hpp_source.html">SimplicialManifold.hpp</a>.</p>
 
 </div>
 </div>
@@ -366,7 +366,7 @@ Friends</h2></td></tr>
 <p>Copy assignment operator. </p>
 <dl class="section return"><dt>Returns</dt><dd>A copy-assigned <a class="el" href="struct_simplicial_manifold.html">SimplicialManifold</a>{} </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_simplicial_manifold_8h_source.html#l00532">532</a> of file <a class="el" href="_simplicial_manifold_8h_source.html">SimplicialManifold.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_simplicial_manifold_8hpp_source.html#l00532">532</a> of file <a class="el" href="_simplicial_manifold_8hpp_source.html">SimplicialManifold.hpp</a>.</p>
 
 </div>
 </div>
@@ -414,17 +414,17 @@ Friends</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="_simplicial_manifold_8h_source.html#l00546">546</a> of file <a class="el" href="_simplicial_manifold_8h_source.html">SimplicialManifold.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_simplicial_manifold_8hpp_source.html#l00546">546</a> of file <a class="el" href="_simplicial_manifold_8hpp_source.html">SimplicialManifold.hpp</a>.</p>
 
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>include/<a class="el" href="_simplicial_manifold_8h_source.html">SimplicialManifold.h</a></li>
+<li>include/<a class="el" href="_simplicial_manifold_8hpp_source.html">SimplicialManifold.hpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Jan 31 2018 09:11:14 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Mar 23 2018 16:42:37 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>
