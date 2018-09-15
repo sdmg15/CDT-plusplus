@@ -1,5 +1,0 @@
-<map id="islamic::year_month_day" name="islamic::year_month_day">
-<area shape="rect" id="node2" href="$classislamic_1_1month.html" title="{islamic::month\n|&#45; m_\l|+ month()\l+ ok()\l+ operator unsigned()\l+ operator++()\l+ operator++()\l+ operator+=()\l+ operator&#45;&#45;()\l+ operator&#45;&#45;()\l+ operator&#45;=()\l}" alt="" coords="5,25,155,205"/>
-<area shape="rect" id="node3" href="$classislamic_1_1year.html" title="{islamic::year\n|&#45; y_\l|+ year()\l+ is_leap()\l+ ok()\l+ operator int()\l+ operator++()\l+ operator++()\l+ operator+=()\l+ operator&#45;&#45;()\l+ operator&#45;&#45;()\l+ operator&#45;=()\l+ max()\l+ min()\l}" alt="" coords="179,5,288,225"/>
-<area shape="rect" id="node4" href="$classislamic_1_1day.html" title="{islamic::day\n|&#45; d_\l|+ day()\l+ ok()\l+ operator unsigned()\l+ operator++()\l+ operator++()\l+ operator+=()\l+ operator&#45;&#45;()\l+ operator&#45;&#45;()\l+ operator&#45;=()\l}" alt="" coords="312,25,461,205"/>
-</map>

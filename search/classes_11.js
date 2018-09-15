@@ -1,9 +1,0 @@
-var searchData=
-[
-  ['u',['U',['../uniondate_1_1detail_1_1zonelet_1_1_u.html',1,'date::detail::zonelet::U'],['../uniondate_1_1detail_1_1_month_day_time_1_1_u.html',1,'date::detail::MonthDayTime::U']]],
-  ['unaryexpr',['UnaryExpr',['../class_catch_1_1_unary_expr.html',1,'Catch']]],
-  ['undocumented',['undocumented',['../structdate_1_1detail_1_1undocumented.html',1,'date::detail']]],
-  ['undocumented_5fhelper',['undocumented_helper',['../structdate_1_1tzdb__list_1_1undocumented__helper.html',1,'date::tzdb_list']]],
-  ['unorderedequalsmatcher',['UnorderedEqualsMatcher',['../struct_catch_1_1_matchers_1_1_vector_1_1_unordered_equals_matcher.html',1,'Catch::Matchers::Vector']]],
-  ['utc_5fclock',['utc_clock',['../classdate_1_1utc__clock.html',1,'date']]]
-];

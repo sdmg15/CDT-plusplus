@@ -1,6 +1,0 @@
-<map id="julian::year_month_weekday_last" name="julian::year_month_weekday_last">
-<area shape="rect" id="node2" href="$classjulian_1_1month.html" title="{julian::month\n|&#45; m_\l|+ month()\l+ ok()\l+ operator unsigned()\l+ operator++()\l+ operator++()\l+ operator+=()\l+ operator&#45;&#45;()\l+ operator&#45;&#45;()\l+ operator&#45;=()\l}" alt="" coords="5,347,155,527"/>
-<area shape="rect" id="node3" href="$classjulian_1_1weekday__last.html" title="{julian::weekday_last\n||+ weekday_last()\l+ ok()\l+ weekday()\l}" alt="" coords="179,387,320,487"/>
-<area shape="rect" id="node4" href="$classjulian_1_1weekday.html" title="{julian::weekday\n|&#45; wd_\l|+ weekday()\l+ weekday()\l+ weekday()\l+ weekday()\l+ ok()\l+ operator unsigned()\l+ operator++()\l+ operator++()\l+ operator+=()\l+ operator&#45;&#45;()\l+ operator&#45;&#45;()\l+ operator&#45;=()\l+ operator[]()\l+ operator[]()\l&#45; weekday_from_days()\l}" alt="" coords="169,5,330,265"/>
-<area shape="rect" id="node5" href="$classjulian_1_1year.html" title="{julian::year\n|&#45; y_\l|+ year()\l+ is_leap()\l+ ok()\l+ operator int()\l+ operator++()\l+ operator++()\l+ operator+=()\l+ operator&#45;&#45;()\l+ operator&#45;&#45;()\l+ operator&#45;=()\l+ max()\l+ min()\l}" alt="" coords="344,327,453,547"/>
-</map>

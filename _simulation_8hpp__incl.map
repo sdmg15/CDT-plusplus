@@ -1,8 +1,6 @@
 <map id="include/Simulation.hpp" name="include/Simulation.hpp">
-<area shape="rect" id="node2" href="$_function__ref_8hpp.html" title="Efficient, type&#45;erasing, non&#45;owning function reference. " alt="" coords="197,399,318,424"/>
-<area shape="rect" id="node6" href="$_simplicial_manifold_8hpp.html" title="Data structures for simplicial manifolds. " alt="" coords="1037,79,1191,104"/>
-<area shape="rect" id="node7" href="$_s3_triangulation_8hpp.html" title="Functions on 3D Spherical Delaunay Triangulations. " alt="" coords="1102,152,1243,177"/>
-<area shape="rect" id="node19" href="$_utilities_8hpp.html" title="Utility functions. " alt="" coords="1086,239,1176,264"/>
-<area shape="rect" id="node32" href="$tz_8h_source.html" title="date/tz.h" alt="" coords="1010,325,1082,351"/>
-<area shape="rect" id="node33" href="$date_8h_source.html" title="date.h" alt="" coords="1017,399,1075,424"/>
+<area shape="rect" id="node2" href="$_function__ref_8h.html" title="Efficient, type&#45;erasing, non&#45;owning function reference. " alt="" coords="443,79,550,104"/>
+<area shape="rect" id="node6" href="$_simplicial_manifold_8h.html" title="Data structures for simplicial manifolds. " alt="" coords="923,79,1062,104"/>
+<area shape="rect" id="node7" href="$_s3_triangulation_8h.html" title="Functions on 3D Spherical Delaunay Triangulations. " alt="" coords="1112,152,1238,177"/>
+<area shape="rect" id="node19" href="$_utilities_8h.html" title="Utility functions. " alt="" coords="625,239,701,264"/>
 </map>

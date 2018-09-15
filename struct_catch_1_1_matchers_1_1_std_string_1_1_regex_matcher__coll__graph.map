@@ -1,7 +1,0 @@
-<map id="Catch::Matchers::StdString::RegexMatcher" name="Catch::Matchers::StdString::RegexMatcher">
-<area shape="rect" id="node2" href="$struct_catch_1_1_matchers_1_1_impl_1_1_matcher_base.html" title="{Catch::Matchers::Impl\l::MatcherBase\&lt; std::string \&gt;\n||+ operator!()\l+ operator&amp;&amp;()\l+ operator\|\|()\l}" alt="" coords="118,491,306,604"/>
-<area shape="rect" id="node3" href="$class_catch_1_1_matchers_1_1_impl_1_1_matcher_untyped_base.html" title="{Catch::Matchers::Impl\l::MatcherUntypedBase\n||+ MatcherUntypedBase()\l+ MatcherUntypedBase()\l+ operator=()\l+ toString()\l# ~MatcherUntypedBase()\l# describe()\l}" alt="" coords="118,276,295,429"/>
-<area shape="rect" id="node4" title="STL class. " alt="" coords="61,141,141,215"/>
-<area shape="rect" id="node5" title="STL class. " alt="" coords="38,5,164,92"/>
-<area shape="rect" id="node6" href="$struct_catch_1_1_matchers_1_1_impl_1_1_matcher_method.html" title="{Catch::Matchers::Impl\l::MatcherMethod\&lt; T \&gt;\n||+ match()\l}" alt="" coords="320,309,472,396"/>
-</map>

@@ -1,8 +1,0 @@
-<map id="docopt::BranchPattern" name="docopt::BranchPattern">
-<area shape="rect" id="node3" href="$classdocopt_1_1_either.html" title="{docopt::Either\n||+ BranchPattern()\l+ match()\l}" alt="" coords="5,475,132,561"/>
-<area shape="rect" id="node4" href="$classdocopt_1_1_one_or_more.html" title="{docopt::OneOrMore\n||+ BranchPattern()\l+ match()\l}" alt="" coords="157,475,296,561"/>
-<area shape="rect" id="node5" href="$classdocopt_1_1_optional.html" title="{docopt::Optional\n||+ BranchPattern()\l+ match()\l}" alt="" coords="320,475,447,561"/>
-<area shape="rect" id="node7" href="$classdocopt_1_1_required.html" title="{docopt::Required\n||+ BranchPattern()\l+ match()\l}" alt="" coords="471,475,598,561"/>
-<area shape="rect" id="node2" href="$classdocopt_1_1_pattern.html" title="{docopt::Pattern\n||+ ~Pattern()\l+ collect_leaves()\l+ flat()\l+ hash()\l+ hasValue()\l+ leaves()\l+ match()\l+ name()\l}" alt="" coords="242,5,368,172"/>
-<area shape="rect" id="node6" href="$classdocopt_1_1_options_shortcut.html" title="{docopt::OptionsShortcut\n||}" alt="" coords="301,609,466,683"/>
-</map>

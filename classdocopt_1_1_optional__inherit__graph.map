@@ -1,5 +1,0 @@
-<map id="docopt::Optional" name="docopt::Optional">
-<area shape="rect" id="node4" href="$classdocopt_1_1_options_shortcut.html" title="{docopt::OptionsShortcut\n||}" alt="" coords="16,609,180,683"/>
-<area shape="rect" id="node2" href="$classdocopt_1_1_branch_pattern.html" title="{docopt::BranchPattern\n|# fChildren\l|+ BranchPattern()\l+ children()\l+ collect_leaves()\l+ fix()\l+ fix_identities()\l+ flat()\l+ getValue()\l+ hash()\l+ name()\l+ setChildren()\l&#45; fix_repeating_arguments()\l}" alt="" coords="5,220,190,427"/>
-<area shape="rect" id="node3" href="$classdocopt_1_1_pattern.html" title="{docopt::Pattern\n||+ ~Pattern()\l+ collect_leaves()\l+ flat()\l+ hash()\l+ hasValue()\l+ leaves()\l+ match()\l+ name()\l}" alt="" coords="35,5,161,172"/>
-</map>

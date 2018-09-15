@@ -1,6 +1,0 @@
-<map id="Catch::ScopedMessage" name="Catch::ScopedMessage">
-<area shape="rect" id="node2" href="$struct_catch_1_1_message_info.html" title="{Catch::MessageInfo\n|+ sequence\l+ type\l&#45; globalCount\l|+ MessageInfo()\l+ operator\&lt;()\l+ operator==()\l}" alt="" coords="55,409,195,536"/>
-<area shape="rect" id="node3" href="$struct_catch_1_1_source_line_info.html" title="{Catch::SourceLineInfo\n|+ file\l+ line\l|+ SourceLineInfo()\l+ SourceLineInfo()\l+ SourceLineInfo()\l+ SourceLineInfo()\l+ empty()\l+ operator\&lt;()\l+ operator=()\l+ operator=()\l+ operator==()\l}" alt="" coords="5,141,159,335"/>
-<area shape="rect" id="node4" title="STL class. " alt="" coords="182,201,262,275"/>
-<area shape="rect" id="node5" title="STL class. " alt="" coords="159,5,285,92"/>
-</map>

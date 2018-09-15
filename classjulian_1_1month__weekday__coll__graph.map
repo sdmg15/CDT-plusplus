@@ -1,4 +1,0 @@
-<map id="julian::month_weekday" name="julian::month_weekday">
-<area shape="rect" id="node2" href="$classjulian_1_1month.html" title="{julian::month\n|&#45; m_\l|+ month()\l+ ok()\l+ operator unsigned()\l+ operator++()\l+ operator++()\l+ operator+=()\l+ operator&#45;&#45;()\l+ operator&#45;&#45;()\l+ operator&#45;=()\l}" alt="" coords="5,5,155,185"/>
-<area shape="rect" id="node3" href="$classjulian_1_1weekday__indexed.html" title="{julian::weekday_indexed\n|&#45; index_\l&#45; wd_\l|+ weekday_indexed()\l+ index()\l+ ok()\l+ weekday()\l}" alt="" coords="178,32,345,159"/>
-</map>

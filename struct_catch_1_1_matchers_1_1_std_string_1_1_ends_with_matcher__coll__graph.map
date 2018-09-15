@@ -1,9 +1,0 @@
-<map id="Catch::Matchers::StdString::EndsWithMatcher" name="Catch::Matchers::StdString::EndsWithMatcher">
-<area shape="rect" id="node2" href="$struct_catch_1_1_matchers_1_1_std_string_1_1_string_matcher_base.html" title="{Catch::Matchers::StdString\l::StringMatcherBase\n||+ StringMatcherBase()\l+ describe()\l}" alt="" coords="94,753,275,853"/>
-<area shape="rect" id="node3" href="$struct_catch_1_1_matchers_1_1_impl_1_1_matcher_base.html" title="{Catch::Matchers::Impl\l::MatcherBase\&lt; std::string \&gt;\n||+ operator!()\l+ operator&amp;&amp;()\l+ operator\|\|()\l}" alt="" coords="306,591,494,704"/>
-<area shape="rect" id="node4" href="$class_catch_1_1_matchers_1_1_impl_1_1_matcher_untyped_base.html" title="{Catch::Matchers::Impl\l::MatcherUntypedBase\n||+ MatcherUntypedBase()\l+ MatcherUntypedBase()\l+ operator=()\l+ toString()\l# ~MatcherUntypedBase()\l# describe()\l}" alt="" coords="154,276,332,429"/>
-<area shape="rect" id="node5" title="STL class. " alt="" coords="77,141,156,215"/>
-<area shape="rect" id="node8" href="$struct_catch_1_1_matchers_1_1_std_string_1_1_cased_string.html" title="{Catch::Matchers::StdString\l::CasedString\n|+ m_caseSensitivity\l|+ CasedString()\l+ adjustString()\l+ caseSensitivitySuffix()\l}" alt="" coords="115,453,296,567"/>
-<area shape="rect" id="node6" title="STL class. " alt="" coords="53,5,179,92"/>
-<area shape="rect" id="node7" href="$struct_catch_1_1_matchers_1_1_impl_1_1_matcher_method.html" title="{Catch::Matchers::Impl\l::MatcherMethod\&lt; T \&gt;\n||+ match()\l}" alt="" coords="356,309,508,396"/>
-</map>

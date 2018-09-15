@@ -1,27 +1,4 @@
 var searchData=
 [
-  ['casedstring',['CasedString',['../struct_catch_1_1_matchers_1_1_std_string_1_1_cased_string.html',1,'Catch::Matchers::StdString']]],
-  ['casesensitive',['CaseSensitive',['../struct_catch_1_1_case_sensitive.html',1,'Catch']]],
-  ['catch_5fglobal_5fnamespace_5fdummy',['Catch_global_namespace_dummy',['../struct_catch__global__namespace__dummy.html',1,'']]],
-  ['choose_5ftrunc_5ftype',['choose_trunc_type',['../structdate_1_1detail_1_1choose__trunc__type.html',1,'date::detail']]],
-  ['classify_5fduration',['classify_duration',['../structdate_1_1detail_1_1classify__duration.html',1,'date::detail']]],
-  ['clock_5ftime_5fconversion',['clock_time_conversion',['../structdate_1_1clock__time__conversion.html',1,'date']]],
-  ['clock_5ftime_5fconversion_3c_20amb1_5fclock_2c_20amb2_5fclock_20_3e',['clock_time_conversion&lt; amb1_clock, amb2_clock &gt;',['../structdate_1_1clock__time__conversion_3_01amb1__clock_00_01amb2__clock_01_4.html',1,'date']]],
-  ['clock_5ftime_5fconversion_3c_20clock_2c_20clock_20_3e',['clock_time_conversion&lt; Clock, Clock &gt;',['../structdate_1_1clock__time__conversion_3_01_clock_00_01_clock_01_4.html',1,'date']]],
-  ['clock_5ftime_5fconversion_3c_20dstclock_2c_20std_3a_3achrono_3a_3asystem_5fclock_20_3e',['clock_time_conversion&lt; DstClock, std::chrono::system_clock &gt;',['../structdate_1_1clock__time__conversion_3_01_dst_clock_00_01std_1_1chrono_1_1system__clock_01_4.html',1,'date']]],
-  ['clock_5ftime_5fconversion_3c_20dstclock_2c_20utc_5fclock_20_3e',['clock_time_conversion&lt; DstClock, utc_clock &gt;',['../structdate_1_1clock__time__conversion_3_01_dst_clock_00_01utc__clock_01_4.html',1,'date']]],
-  ['clock_5ftime_5fconversion_3c_20mil_5fclock_2c_20s2s_5fclock_20_3e',['clock_time_conversion&lt; mil_clock, s2s_clock &gt;',['../structdate_1_1clock__time__conversion_3_01mil__clock_00_01s2s__clock_01_4.html',1,'date']]],
-  ['clock_5ftime_5fconversion_3c_20std_3a_3achrono_3a_3asteady_5fclock_2c_20steady_5fbased_5fclock_20_3e',['clock_time_conversion&lt; std::chrono::steady_clock, steady_based_clock &gt;',['../structdate_1_1clock__time__conversion_3_01std_1_1chrono_1_1steady__clock_00_01steady__based__clock_01_4.html',1,'date']]],
-  ['clock_5ftime_5fconversion_3c_20std_3a_3achrono_3a_3asystem_5fclock_2c_20srcclock_20_3e',['clock_time_conversion&lt; std::chrono::system_clock, SrcClock &gt;',['../structdate_1_1clock__time__conversion_3_01std_1_1chrono_1_1system__clock_00_01_src_clock_01_4.html',1,'date']]],
-  ['clock_5ftime_5fconversion_3c_20std_3a_3achrono_3a_3asystem_5fclock_2c_20std_3a_3achrono_3a_3asystem_5fclock_20_3e',['clock_time_conversion&lt; std::chrono::system_clock, std::chrono::system_clock &gt;',['../structdate_1_1clock__time__conversion_3_01std_1_1chrono_1_1system__clock_00_01std_1_1chrono_1_1system__clock_01_4.html',1,'date']]],
-  ['clock_5ftime_5fconversion_3c_20std_3a_3achrono_3a_3asystem_5fclock_2c_20utc_5fclock_20_3e',['clock_time_conversion&lt; std::chrono::system_clock, utc_clock &gt;',['../structdate_1_1clock__time__conversion_3_01std_1_1chrono_1_1system__clock_00_01utc__clock_01_4.html',1,'date']]],
-  ['clock_5ftime_5fconversion_3c_20steady_5fbased_5fclock_2c_20std_3a_3achrono_3a_3asteady_5fclock_20_3e',['clock_time_conversion&lt; steady_based_clock, std::chrono::steady_clock &gt;',['../structdate_1_1clock__time__conversion_3_01steady__based__clock_00_01std_1_1chrono_1_1steady__clock_01_4.html',1,'date']]],
-  ['clock_5ftime_5fconversion_3c_20utc_5fclock_2c_20srcclock_20_3e',['clock_time_conversion&lt; utc_clock, SrcClock &gt;',['../structdate_1_1clock__time__conversion_3_01utc__clock_00_01_src_clock_01_4.html',1,'date']]],
-  ['clock_5ftime_5fconversion_3c_20utc_5fclock_2c_20std_3a_3achrono_3a_3asystem_5fclock_20_3e',['clock_time_conversion&lt; utc_clock, std::chrono::system_clock &gt;',['../structdate_1_1clock__time__conversion_3_01utc__clock_00_01std_1_1chrono_1_1system__clock_01_4.html',1,'date']]],
-  ['clock_5ftime_5fconversion_3c_20utc_5fclock_2c_20utc_5fclock_20_3e',['clock_time_conversion&lt; utc_clock, utc_clock &gt;',['../structdate_1_1clock__time__conversion_3_01utc__clock_00_01utc__clock_01_4.html',1,'date']]],
-  ['command',['Command',['../classdocopt_1_1_command.html',1,'docopt']]],
-  ['const_5fiterator',['const_iterator',['../classdate_1_1tzdb__list_1_1const__iterator.html',1,'date::tzdb_list']]],
-  ['containselementmatcher',['ContainsElementMatcher',['../struct_catch_1_1_matchers_1_1_vector_1_1_contains_element_matcher.html',1,'Catch::Matchers::Vector']]],
-  ['containsmatcher',['ContainsMatcher',['../struct_catch_1_1_matchers_1_1_std_string_1_1_contains_matcher.html',1,'Catch::Matchers::StdString::ContainsMatcher'],['../struct_catch_1_1_matchers_1_1_vector_1_1_contains_matcher.html',1,'Catch::Matchers::Vector::ContainsMatcher&lt; T &gt;']]],
-  ['counts',['Counts',['../struct_catch_1_1_counts.html',1,'Catch']]]
+  ['geometryinfo',['GeometryInfo',['../struct_geometry_info.html',1,'']]]
 ];

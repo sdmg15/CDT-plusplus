@@ -1,4 +1,0 @@
-<map id="docopt::Optional" name="docopt::Optional">
-<area shape="rect" id="node2" href="$classdocopt_1_1_branch_pattern.html" title="{docopt::BranchPattern\n||+ BranchPattern()\l+ children()\l+ collect_leaves()\l+ fix()\l+ fix_identities()\l+ flat()\l+ getValue()\l+ hash()\l+ name()\l+ setChildren()\l&#45; fix_repeating_arguments()\l}" alt="" coords="58,233,243,440"/>
-<area shape="rect" id="node3" href="$classdocopt_1_1_pattern.html" title="{docopt::Pattern\n||+ ~Pattern()\l+ collect_leaves()\l+ flat()\l+ hash()\l+ hasValue()\l+ leaves()\l+ match()\l+ name()\l}" alt="" coords="5,5,131,172"/>
-</map>

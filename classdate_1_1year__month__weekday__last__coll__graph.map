@@ -1,6 +1,0 @@
-<map id="date::year_month_weekday_last" name="date::year_month_weekday_last">
-<area shape="rect" id="node2" href="$classdate_1_1weekday__last.html" title="{date::weekday_last\n||+ weekday_last()\l+ ok()\l+ weekday()\l}" alt="" coords="18,407,153,507"/>
-<area shape="rect" id="node3" href="$classdate_1_1weekday.html" title="{date::weekday\n|&#45; wd_\l|+ weekday()\l+ weekday()\l+ weekday()\l+ weekday()\l+ ok()\l+ operator unsigned()\l+ operator++()\l+ operator++()\l+ operator+=()\l+ operator&#45;&#45;()\l+ operator&#45;&#45;()\l+ operator&#45;=()\l+ operator[]()\l+ operator[]()\l&#45; weekday_from_days()\l}" alt="" coords="5,5,166,265"/>
-<area shape="rect" id="node4" href="$classdate_1_1month.html" title="{date::month\n|&#45; m_\l|+ month()\l+ month()\l+ ok()\l+ operator unsigned()\l+ operator++()\l+ operator++()\l+ operator+=()\l+ operator&#45;&#45;()\l+ operator&#45;&#45;()\l+ operator&#45;=()\l}" alt="" coords="178,360,327,553"/>
-<area shape="rect" id="node5" href="$classdate_1_1year.html" title="{date::year\n|&#45; y_\l|+ year()\l+ year()\l+ is_leap()\l+ ok()\l+ operator int()\l+ operator+()\l+ operator++()\l+ operator++()\l+ operator+=()\l+ operator&#45;()\l+ operator&#45;&#45;()\l+ operator&#45;&#45;()\l+ operator&#45;=()\l+ max()\l+ min()\l}" alt="" coords="351,327,460,587"/>
-</map>

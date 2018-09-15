@@ -1,5 +1,0 @@
-<map id="islamic::year_month_day_last" name="islamic::year_month_day_last">
-<area shape="rect" id="node2" href="$classislamic_1_1year.html" title="{islamic::year\n|&#45; y_\l|+ year()\l+ is_leap()\l+ ok()\l+ operator int()\l+ operator++()\l+ operator++()\l+ operator+=()\l+ operator&#45;&#45;()\l+ operator&#45;&#45;()\l+ operator&#45;=()\l+ max()\l+ min()\l}" alt="" coords="9,247,118,467"/>
-<area shape="rect" id="node3" href="$classislamic_1_1month__day__last.html" title="{islamic::month_day_last\n||+ month_day_last()\l+ month()\l+ ok()\l}" alt="" coords="141,307,305,407"/>
-<area shape="rect" id="node4" href="$classislamic_1_1month.html" title="{islamic::month\n|&#45; m_\l|+ month()\l+ ok()\l+ operator unsigned()\l+ operator++()\l+ operator++()\l+ operator+=()\l+ operator&#45;&#45;()\l+ operator&#45;&#45;()\l+ operator&#45;=()\l}" alt="" coords="149,5,298,185"/>
-</map>
