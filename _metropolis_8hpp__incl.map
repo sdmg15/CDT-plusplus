@@ -1,0 +1,11 @@
+<map id="include/Metropolis.hpp" name="include/Metropolis.hpp">
+<area shape="rect" id="node2" href="$_move_algorithm_8hpp.html" title="Base class for move algorithms on Delaunay Triangulations. " alt="" coords="1545,79,1681,104"/>
+<area shape="rect" id="node41" href="$_s3_action_8hpp.html" title="Calculate S3 bulk actions on 3D Delaunay Triangulations. " alt="" coords="107,79,208,104"/>
+<area shape="rect" id="node3" href="$_measurements_8hpp.html" title="Measurements of the simulation. " alt="" coords="1655,152,1790,177"/>
+<area shape="rect" id="node35" href="$_move_manager_8hpp.html" title="RAII class to manage exception&#45;safe foliation&#45;preserving Pachner moves. " alt="" coords="659,152,791,177"/>
+<area shape="rect" id="node39" href="$_s3_ergodic_moves_8hpp.html" title="Pachner moves on 3D Delaunay Triangulations. " alt="" coords="1539,225,1687,251"/>
+<area shape="rect" id="node4" href="$_simplicial_manifold_8hpp.html" title="Data structures for simplicial manifolds. " alt="" coords="1164,225,1318,251"/>
+<area shape="rect" id="node5" href="$_s3_triangulation_8hpp.html" title="Functions on 3D Spherical Delaunay Triangulations. " alt="" coords="1171,299,1311,324"/>
+<area shape="rect" id="node18" href="$_utilities_8hpp.html" title="Utility functions. " alt="" coords="593,385,684,411"/>
+<area shape="rect" id="node36" href="$_function__ref_8hpp.html" title="Efficient, type&#45;erasing, non&#45;owning function reference. " alt="" coords="414,225,535,251"/>
+</map>

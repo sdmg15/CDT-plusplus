@@ -1,7 +1,0 @@
-<map id="include/S3Action.h" name="include/S3Action.h">
-<area shape="rect" id="node2" href="$_metropolis_8h.html" title="Perform Metropolis&#45;Hastings algorithm on Delaunay Triangulations. " alt="" coords="111,79,251,104"/>
-<area shape="rect" id="node6" href="$_s3_action_test_8cpp_source.html" title="tests/S3ActionTest.cpp" alt="" coords="275,79,431,104"/>
-<area shape="rect" id="node3" href="$cdt-opt_8cpp.html" title="Outputs values to determine optimizations. " alt="" coords="5,152,114,177"/>
-<area shape="rect" id="node4" href="$cdt_8cpp.html" title="The main executable. " alt="" coords="138,152,224,177"/>
-<area shape="rect" id="node5" href="$_move_algorithms_test_8cpp.html" title="Tests for the Metropolis&#45;Hastings algorithm. " alt="" coords="249,152,447,177"/>
-</map>

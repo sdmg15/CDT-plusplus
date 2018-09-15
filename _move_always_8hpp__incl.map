@@ -1,0 +1,10 @@
+<map id="include/MoveAlways.hpp" name="include/MoveAlways.hpp">
+<area shape="rect" id="node2" href="$_measurements_8hpp.html" title="Measurements of the simulation. " alt="" coords="767,152,903,177"/>
+<area shape="rect" id="node34" href="$_move_algorithm_8hpp.html" title="Base class for move algorithms on Delaunay Triangulations. " alt="" coords="1200,79,1337,104"/>
+<area shape="rect" id="node3" href="$_simplicial_manifold_8hpp.html" title="Data structures for simplicial manifolds. " alt="" coords="758,225,912,251"/>
+<area shape="rect" id="node4" href="$_s3_triangulation_8hpp.html" title="Functions on 3D Spherical Delaunay Triangulations. " alt="" coords="1038,299,1179,324"/>
+<area shape="rect" id="node17" href="$_utilities_8hpp.html" title="Utility functions. " alt="" coords="591,385,682,411"/>
+<area shape="rect" id="node35" href="$_move_manager_8hpp.html" title="RAII class to manage exception&#45;safe foliation&#45;preserving Pachner moves. " alt="" coords="1665,152,1797,177"/>
+<area shape="rect" id="node39" href="$_s3_ergodic_moves_8hpp.html" title="Pachner moves on 3D Delaunay Triangulations. " alt="" coords="1305,225,1453,251"/>
+<area shape="rect" id="node36" href="$_function__ref_8hpp.html" title="Efficient, type&#45;erasing, non&#45;owning function reference. " alt="" coords="1773,225,1895,251"/>
+</map>
