@@ -12,6 +12,7 @@ var searchData=
   ['make_5frandom_5ft3_5fsimplicial_5fcomplex',['make_random_T3_simplicial_complex',['../_periodic__3__complex_8hpp.html#a77af2727b5f5883202b20e8ce9326d60',1,'Periodic_3_complex.hpp']]],
   ['make_5frandom_5ft3_5ftriangulation',['make_random_T3_triangulation',['../_periodic__3__triangulations_8hpp.html#a80761c04c540a5fdc40101d4c10f41b9',1,'Periodic_3_triangulations.hpp']]],
   ['make_5ftriangulation',['make_triangulation',['../_s3_triangulation_8hpp.html#a7fce0ad347a578d1dea1c88e7094f128',1,'S3Triangulation.hpp']]],
+  ['manifold',['Manifold',['../struct_manifold_3_013_01_4.html#a9c2d311392ab8f88e017d9fc04623fda',1,'Manifold&lt; 3 &gt;']]],
   ['metropolis',['Metropolis',['../class_metropolis.html#a2a2999f0eafeff0186cc5929d306cd8f',1,'Metropolis']]],
   ['movealgorithm',['MoveAlgorithm',['../class_move_algorithm.html#ad825504ef55cde1b6840341f7b1564e4',1,'MoveAlgorithm']]],
   ['movealways',['MoveAlways',['../class_move_always.html#a7cfb10f8f64b9845e034e5097664a308',1,'MoveAlways::MoveAlways()=default'],['../class_move_always.html#a101ead160e31ddad9871ca298c77f1ec',1,'MoveAlways::MoveAlways(const std::int32_t passes, const std::int32_t checkpoint)']]],

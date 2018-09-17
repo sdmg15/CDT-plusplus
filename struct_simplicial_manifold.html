@@ -82,7 +82,7 @@ Collaboration diagram for SimplicialManifold:</div>
 <div class="dyncontent">
 <div class="center"><img src="struct_simplicial_manifold__coll__graph.png" border="0" usemap="#_simplicial_manifold_coll__map" alt="Collaboration graph"/></div>
 <map name="_simplicial_manifold_coll__map" id="_simplicial_manifold_coll__map">
-<area shape="rect" id="node4" href="struct_geometry_info.html" title="{GeometryInfo\n|&#45; spacelike_facets\l&#45; timevalues\l|+ GeometryInfo()\l+ GeometryInfo()\l+ GeometryInfo()\l+ GeometryInfo()\l+ ~GeometryInfo()\l+ getSpacelike_facets()\l+ getTimevalues()\l+ max_timevalue()\l+ min_timevalue()\l+ N0()\land 12 more...\l}" alt="" coords="227,180,388,400"/>
+<area shape="rect" id="node4" href="struct_geometry_info.html" title="{GeometryInfo\n|&#45; spacelike_facets\l&#45; timevalues\l|+ GeometryInfo()\l+ GeometryInfo()\l+ GeometryInfo()\l+ GeometryInfo()\l+ ~GeometryInfo()\l+ getSpacelike_facets()\l+ getTimevalues()\l+ max_timevalue()\l+ min_timevalue()\l+ N0()\land 12 more...\l}" alt="" coords="235,180,396,400"/>
 </map>
 </div>
 <table class="memberdecls">
@@ -92,9 +92,9 @@ Public Member Functions</h2></td></tr>
 &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_simplicial_manifold.html#ac2ac0112454bd2197c086c4642018892">SimplicialManifold</a> ()</td></tr>
 <tr class="memdesc:ac2ac0112454bd2197c086c4642018892"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor. <br /></td></tr>
 <tr class="separator:ac2ac0112454bd2197c086c4642018892"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa32e46629eed81177fc4e8165d6f0a30"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_simplicial_manifold.html#aa32e46629eed81177fc4e8165d6f0a30">SimplicialManifold</a> (std::unique_ptr&lt; Delaunay &gt; &amp;&amp;manifold)</td></tr>
-<tr class="memdesc:aa32e46629eed81177fc4e8165d6f0a30"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor with std::unique_ptr&lt;Delaunay&gt;  <a href="#aa32e46629eed81177fc4e8165d6f0a30">More...</a><br /></td></tr>
-<tr class="separator:aa32e46629eed81177fc4e8165d6f0a30"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3df61c643eb75a5b0ece580d898d3002"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_simplicial_manifold.html#a3df61c643eb75a5b0ece580d898d3002">SimplicialManifold</a> (std::unique_ptr&lt; Delaunay3 &gt; &amp;&amp;manifold)</td></tr>
+<tr class="memdesc:a3df61c643eb75a5b0ece580d898d3002"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor with std::unique_ptr&lt;Delaunay&gt;  <a href="#a3df61c643eb75a5b0ece580d898d3002">More...</a><br /></td></tr>
+<tr class="separator:a3df61c643eb75a5b0ece580d898d3002"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a51f8bbc23260d933fa51e30bc0aed48b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_simplicial_manifold.html#a51f8bbc23260d933fa51e30bc0aed48b">SimplicialManifold</a> (std::int32_t simplices, std::int32_t timeslices)</td></tr>
 <tr class="memdesc:a51f8bbc23260d933fa51e30bc0aed48b"><td class="mdescLeft">&#160;</td><td class="mdescRight">make_triangulation constructor  <a href="#a51f8bbc23260d933fa51e30bc0aed48b">More...</a><br /></td></tr>
 <tr class="separator:a51f8bbc23260d933fa51e30bc0aed48b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -127,10 +127,10 @@ Public Attributes</h2></td></tr>
 std::unique_ptr&lt; <a class="el" href="struct_geometry_info.html">GeometryInfo</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_simplicial_manifold.html#abd200a6e0c7750a8875fa666ca68eb36">geometry</a></td></tr>
 <tr class="memdesc:abd200a6e0c7750a8875fa666ca68eb36"><td class="mdescLeft">&#160;</td><td class="mdescRight">Owning pointer to <a class="el" href="struct_geometry_info.html">GeometryInfo</a>. <br /></td></tr>
 <tr class="separator:abd200a6e0c7750a8875fa666ca68eb36"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a16783060e396f9aea448cd7f92824a26"><td class="memItemLeft" align="right" valign="top"><a id="a16783060e396f9aea448cd7f92824a26"></a>
-std::unique_ptr&lt; Delaunay &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_simplicial_manifold.html#a16783060e396f9aea448cd7f92824a26">triangulation</a></td></tr>
-<tr class="memdesc:a16783060e396f9aea448cd7f92824a26"><td class="mdescLeft">&#160;</td><td class="mdescRight">Owning pointer to the Delaunay triangulation. <br /></td></tr>
-<tr class="separator:a16783060e396f9aea448cd7f92824a26"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a539e6a163d62076aac4067a16e7f16be"><td class="memItemLeft" align="right" valign="top"><a id="a539e6a163d62076aac4067a16e7f16be"></a>
+std::unique_ptr&lt; Delaunay3 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_simplicial_manifold.html#a539e6a163d62076aac4067a16e7f16be">triangulation</a></td></tr>
+<tr class="memdesc:a539e6a163d62076aac4067a16e7f16be"><td class="mdescLeft">&#160;</td><td class="mdescRight">Owning pointer to the Delaunay triangulation. <br /></td></tr>
+<tr class="separator:a539e6a163d62076aac4067a16e7f16be"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
 Friends</h2></td></tr>
@@ -142,8 +142,8 @@ Friends</h2></td></tr>
 <div class="textblock">
 <p class="definition">Definition at line <a class="el" href="_simplicial_manifold_8hpp_source.html#l00417">417</a> of file <a class="el" href="_simplicial_manifold_8hpp_source.html">SimplicialManifold.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="aa32e46629eed81177fc4e8165d6f0a30"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa32e46629eed81177fc4e8165d6f0a30">&#9670;&nbsp;</a></span>SimplicialManifold() <span class="overload">[1/4]</span></h2>
+<a id="a3df61c643eb75a5b0ece580d898d3002"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3df61c643eb75a5b0ece580d898d3002">&#9670;&nbsp;</a></span>SimplicialManifold() <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -154,7 +154,7 @@ Friends</h2></td></tr>
         <tr>
           <td class="memname">SimplicialManifold::SimplicialManifold </td>
           <td>(</td>
-          <td class="paramtype">std::unique_ptr&lt; Delaunay &gt; &amp;&amp;&#160;</td>
+          <td class="paramtype">std::unique_ptr&lt; Delaunay3 &gt; &amp;&amp;&#160;</td>
           <td class="paramname"><em>manifold</em></td><td>)</td>
           <td></td>
         </tr>
@@ -424,7 +424,7 @@ Friends</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Sep 15 2018 09:02:42 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sun Sep 16 2018 22:20:51 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>
