@@ -12,8 +12,8 @@ var searchData=
   ['geometryinfo',['GeometryInfo',['../struct_geometry_info.html',1,'GeometryInfo'],['../struct_geometry_info.html#aeb0374bdd929e5be5cb0cd31dfd9503c',1,'GeometryInfo::GeometryInfo()=default'],['../struct_geometry_info.html#a40bc1854955c1f6798a16a1b14354211',1,'GeometryInfo::GeometryInfo(const Geometry_tuple &amp;&amp;geometry) noexcept'],['../struct_geometry_info.html#a9466be6ed60b3bcc76940eb196882235',1,'GeometryInfo::GeometryInfo(GeometryInfo &amp;&amp;)=default'],['../struct_geometry_info.html#a89b996c9ceb6446b6265d0a11f3113e0',1,'GeometryInfo::GeometryInfo(const GeometryInfo &amp;)=default']]],
   ['geometrytest_2ecpp',['GeometryTest.cpp',['../_geometry_test_8cpp.html',1,'']]],
   ['getenvvar',['getEnvVar',['../_utilities_8hpp.html#a2b0fa0942c91c21970824df135948a77',1,'Utilities.hpp']]],
-  ['getspacelike_5ffacets',['getSpacelike_facets',['../struct_geometry_info.html#a0f7b65c705beb560ad06703098293406',1,'GeometryInfo']]],
-  ['gettimevalues',['getTimevalues',['../struct_geometry_info.html#a90f66ff05a3c3b34ef4985d799d5b40a',1,'GeometryInfo']]],
+  ['getspacelike_5ffacets',['getSpacelike_facets',['../struct_geometry_info.html#a4bcb96e351ad10e70d879436f36ff620',1,'GeometryInfo']]],
+  ['gettimevalues',['getTimevalues',['../struct_geometry_info.html#a58afc1db166d439ac09ec8c5df5321e2',1,'GeometryInfo']]],
   ['gmpzf',['Gmpzf',['../_s3_action_8hpp.html#ab09035cfa5e10fa4ee88d95ef5fa7ac5',1,'S3Action.hpp']]],
   ['gmpzf_5fto_5fdouble',['Gmpzf_to_double',['../_utilities_8hpp.html#ae44ced243bfedecb2716c8a8f1db5255',1,'Utilities.hpp']]]
 ];

@@ -95,9 +95,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a3df61c643eb75a5b0ece580d898d3002"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_simplicial_manifold.html#a3df61c643eb75a5b0ece580d898d3002">SimplicialManifold</a> (std::unique_ptr&lt; Delaunay3 &gt; &amp;&amp;manifold)</td></tr>
 <tr class="memdesc:a3df61c643eb75a5b0ece580d898d3002"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor with std::unique_ptr&lt;Delaunay&gt;  <a href="#a3df61c643eb75a5b0ece580d898d3002">More...</a><br /></td></tr>
 <tr class="separator:a3df61c643eb75a5b0ece580d898d3002"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a51f8bbc23260d933fa51e30bc0aed48b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_simplicial_manifold.html#a51f8bbc23260d933fa51e30bc0aed48b">SimplicialManifold</a> (std::int32_t simplices, std::int32_t timeslices)</td></tr>
-<tr class="memdesc:a51f8bbc23260d933fa51e30bc0aed48b"><td class="mdescLeft">&#160;</td><td class="mdescRight">make_triangulation constructor  <a href="#a51f8bbc23260d933fa51e30bc0aed48b">More...</a><br /></td></tr>
-<tr class="separator:a51f8bbc23260d933fa51e30bc0aed48b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69c9e15bf4a819399ad17d6db3754db9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_simplicial_manifold.html#a69c9e15bf4a819399ad17d6db3754db9">SimplicialManifold</a> (std::size_t simplices, std::size_t timeslices)</td></tr>
+<tr class="memdesc:a69c9e15bf4a819399ad17d6db3754db9"><td class="mdescLeft">&#160;</td><td class="mdescRight">make_triangulation constructor  <a href="#a69c9e15bf4a819399ad17d6db3754db9">More...</a><br /></td></tr>
+<tr class="separator:a69c9e15bf4a819399ad17d6db3754db9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a32ed6ddcbfdc898baa42e6392cbf47ee"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_simplicial_manifold.html#a32ed6ddcbfdc898baa42e6392cbf47ee">SimplicialManifold</a> (<a class="el" href="struct_simplicial_manifold.html">SimplicialManifold</a> &amp;&amp;other)</td></tr>
 <tr class="memdesc:a32ed6ddcbfdc898baa42e6392cbf47ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move constructor.  <a href="#a32ed6ddcbfdc898baa42e6392cbf47ee">More...</a><br /></td></tr>
 <tr class="separator:a32ed6ddcbfdc898baa42e6392cbf47ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -140,7 +140,7 @@ Friends</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="_simplicial_manifold_8hpp_source.html#l00417">417</a> of file <a class="el" href="_simplicial_manifold_8hpp_source.html">SimplicialManifold.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_simplicial_manifold_8hpp_source.html#l00418">418</a> of file <a class="el" href="_simplicial_manifold_8hpp_source.html">SimplicialManifold.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a3df61c643eb75a5b0ece580d898d3002"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3df61c643eb75a5b0ece580d898d3002">&#9670;&nbsp;</a></span>SimplicialManifold() <span class="overload">[1/4]</span></h2>
@@ -167,7 +167,7 @@ Friends</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Constructor with std::unique_ptr&lt;Delaunay&gt; </p>
-<p>Constructor taking a std::unique_ptr&lt;Delaunay&gt; which should be created using <a class="el" href="_s3_triangulation_8hpp.html#a7fce0ad347a578d1dea1c88e7094f128" title="Make a triangulation from foliated 2-spheres. ">make_triangulation()</a>. If you wish to default initialize a <a class="el" href="struct_simplicial_manifold.html">SimplicialManifold</a> with no values, use the default constructor <a class="el" href="struct_simplicial_manifold.html#ac2ac0112454bd2197c086c4642018892" title="Default constructor. ">SimplicialManifold::SimplicialManifold()</a> instead. Non-static data members are initialized in the order they are declared, (see <a href="http://open-std.org/JTC1/SC22/WG21/docs/papers/2016/n4594.pdf,">http://open-std.org/JTC1/SC22/WG21/docs/papers/2016/n4594.pdf,</a> \(\S\) 12.6.2.13.3), so <b>geometry</b> depending upon <b>triangulation</b> is fine. </p><dl class="params"><dt>Parameters</dt><dd>
+<p>Constructor taking a std::unique_ptr&lt;Delaunay&gt; which should be created using <a class="el" href="_s3_triangulation_8hpp.html#a4c8c8d19931b19a52166f0be62613534" title="Make a triangulation from foliated 2-spheres. ">make_triangulation()</a>. If you wish to default initialize a <a class="el" href="struct_simplicial_manifold.html">SimplicialManifold</a> with no values, use the default constructor <a class="el" href="struct_simplicial_manifold.html#ac2ac0112454bd2197c086c4642018892" title="Default constructor. ">SimplicialManifold::SimplicialManifold()</a> instead. Non-static data members are initialized in the order they are declared, (see <a href="http://open-std.org/JTC1/SC22/WG21/docs/papers/2016/n4594.pdf,">http://open-std.org/JTC1/SC22/WG21/docs/papers/2016/n4594.pdf,</a> \(\S\) 12.6.2.13.3), so <b>geometry</b> depending upon <b>triangulation</b> is fine. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">manifold</td><td>A std::unique_ptr&lt;Delaunay&gt; </td></tr>
   </table>
@@ -175,12 +175,12 @@ Friends</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A <a class="el" href="struct_simplicial_manifold.html">SimplicialManifold</a>{} </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_simplicial_manifold_8hpp_source.html#l00447">447</a> of file <a class="el" href="_simplicial_manifold_8hpp_source.html">SimplicialManifold.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_simplicial_manifold_8hpp_source.html#l00448">448</a> of file <a class="el" href="_simplicial_manifold_8hpp_source.html">SimplicialManifold.hpp</a>.</p>
 
 </div>
 </div>
-<a id="a51f8bbc23260d933fa51e30bc0aed48b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a51f8bbc23260d933fa51e30bc0aed48b">&#9670;&nbsp;</a></span>SimplicialManifold() <span class="overload">[2/4]</span></h2>
+<a id="a69c9e15bf4a819399ad17d6db3754db9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a69c9e15bf4a819399ad17d6db3754db9">&#9670;&nbsp;</a></span>SimplicialManifold() <span class="overload">[2/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -191,13 +191,13 @@ Friends</h2></td></tr>
         <tr>
           <td class="memname">SimplicialManifold::SimplicialManifold </td>
           <td>(</td>
-          <td class="paramtype">std::int32_t&#160;</td>
+          <td class="paramtype">std::size_t&#160;</td>
           <td class="paramname"><em>simplices</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::int32_t&#160;</td>
+          <td class="paramtype">std::size_t&#160;</td>
           <td class="paramname"><em>timeslices</em>&#160;</td>
         </tr>
         <tr>
@@ -214,7 +214,7 @@ Friends</h2></td></tr>
 </div><div class="memdoc">
 
 <p>make_triangulation constructor </p>
-<p>Constructor that initializes <b>triangulation</b> by calling <a class="el" href="_s3_triangulation_8hpp.html#a7fce0ad347a578d1dea1c88e7094f128" title="Make a triangulation from foliated 2-spheres. ">make_triangulation()</a> and <b>geometry</b> by calling classify_all_simplices(). </p><dl class="params"><dt>Parameters</dt><dd>
+<p>Constructor that initializes <b>triangulation</b> by calling <a class="el" href="_s3_triangulation_8hpp.html#a4c8c8d19931b19a52166f0be62613534" title="Make a triangulation from foliated 2-spheres. ">make_triangulation()</a> and <b>geometry</b> by calling classify_all_simplices(). </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">simplices</td><td>The number of desired simplices in the triangulation </td></tr>
     <tr><td class="paramname">timeslices</td><td>The number of timeslices in the triangulation </td></tr>
@@ -223,7 +223,7 @@ Friends</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A populated <a class="el" href="struct_simplicial_manifold.html">SimplicialManifold</a>{} </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_simplicial_manifold_8hpp_source.html#l00465">465</a> of file <a class="el" href="_simplicial_manifold_8hpp_source.html">SimplicialManifold.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_simplicial_manifold_8hpp_source.html#l00466">466</a> of file <a class="el" href="_simplicial_manifold_8hpp_source.html">SimplicialManifold.hpp</a>.</p>
 
 </div>
 </div>
@@ -260,7 +260,7 @@ Friends</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A moved-to <a class="el" href="struct_simplicial_manifold.html">SimplicialManifold</a>{} </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_simplicial_manifold_8hpp_source.html#l00488">488</a> of file <a class="el" href="_simplicial_manifold_8hpp_source.html">SimplicialManifold.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_simplicial_manifold_8hpp_source.html#l00489">489</a> of file <a class="el" href="_simplicial_manifold_8hpp_source.html">SimplicialManifold.hpp</a>.</p>
 
 </div>
 </div>
@@ -297,7 +297,7 @@ Friends</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A copied <a class="el" href="struct_simplicial_manifold.html">SimplicialManifold</a>{} </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_simplicial_manifold_8hpp_source.html#l00519">519</a> of file <a class="el" href="_simplicial_manifold_8hpp_source.html">SimplicialManifold.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_simplicial_manifold_8hpp_source.html#l00520">520</a> of file <a class="el" href="_simplicial_manifold_8hpp_source.html">SimplicialManifold.hpp</a>.</p>
 
 </div>
 </div>
@@ -335,7 +335,7 @@ Friends</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A moved-assigned <a class="el" href="struct_simplicial_manifold.html">SimplicialManifold</a>{} </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_simplicial_manifold_8hpp_source.html#l00503">503</a> of file <a class="el" href="_simplicial_manifold_8hpp_source.html">SimplicialManifold.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_simplicial_manifold_8hpp_source.html#l00504">504</a> of file <a class="el" href="_simplicial_manifold_8hpp_source.html">SimplicialManifold.hpp</a>.</p>
 
 </div>
 </div>
@@ -366,7 +366,7 @@ Friends</h2></td></tr>
 <p>Copy assignment operator. </p>
 <dl class="section return"><dt>Returns</dt><dd>A copy-assigned <a class="el" href="struct_simplicial_manifold.html">SimplicialManifold</a>{} </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_simplicial_manifold_8hpp_source.html#l00531">531</a> of file <a class="el" href="_simplicial_manifold_8hpp_source.html">SimplicialManifold.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_simplicial_manifold_8hpp_source.html#l00532">532</a> of file <a class="el" href="_simplicial_manifold_8hpp_source.html">SimplicialManifold.hpp</a>.</p>
 
 </div>
 </div>
@@ -414,7 +414,7 @@ Friends</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="_simplicial_manifold_8hpp_source.html#l00545">545</a> of file <a class="el" href="_simplicial_manifold_8hpp_source.html">SimplicialManifold.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_simplicial_manifold_8hpp_source.html#l00546">546</a> of file <a class="el" href="_simplicial_manifold_8hpp_source.html">SimplicialManifold.hpp</a>.</p>
 
 </div>
 </div>
@@ -424,7 +424,7 @@ Friends</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Sep 16 2018 22:20:51 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Sep 18 2018 18:52:41 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>
