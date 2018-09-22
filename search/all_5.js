@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['filter_5fcells',['filter_cells',['../struct_geometry_3_013_01_4.html#a3f0485e0a780b2e7927ece5743d34d85',1,'Geometry&lt; 3 &gt;']]],
   ['find_5f26_5fmovable',['find_26_movable',['../_s3_ergodic_moves_8hpp.html#a3e00cd7737f0467bd37da92f712d2448',1,'S3ErgodicMoves.hpp']]],
   ['find_5f62_5fmovable',['find_62_movable',['../_s3_ergodic_moves_8hpp.html#a322c3348ea873fe48b80e8b45b8d9072',1,'S3ErgodicMoves.hpp']]],
   ['fix_5ftimeslices',['fix_timeslices',['../_s3_triangulation_8hpp.html#aabd64c632d626dd0e481bedb95b2b05c',1,'S3Triangulation.hpp']]],

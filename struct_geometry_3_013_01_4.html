@@ -91,25 +91,37 @@ Collaboration diagram for Geometry&lt; 3 &gt;:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a4fd82f5f8654b4bb0457f08d62c3ae62"><td class="memItemLeft" align="right" valign="top"><a id="a4fd82f5f8654b4bb0457f08d62c3ae62"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_geometry_3_013_01_4.html#a4fd82f5f8654b4bb0457f08d62c3ae62">Geometry</a> () noexcept</td></tr>
-<tr class="memdesc:a4fd82f5f8654b4bb0457f08d62c3ae62"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default ctor. <br /></td></tr>
-<tr class="separator:a4fd82f5f8654b4bb0457f08d62c3ae62"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aab236a0582caf6cf31bab603e94a13c9"><td class="memItemLeft" align="right" valign="top"><a id="aab236a0582caf6cf31bab603e94a13c9"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>Geometry</b> (std::size_t desired_simplices, std::size_t desired_timeslices)</td></tr>
-<tr class="separator:aab236a0582caf6cf31bab603e94a13c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af01dae5d8b386acd2dd0d991802e885e"><td class="memItemLeft" align="right" valign="top"><a id="af01dae5d8b386acd2dd0d991802e885e"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>Geometry</b> (std::unique_ptr&lt; Delaunay3 &gt; &amp;triangulation)</td></tr>
-<tr class="separator:af01dae5d8b386acd2dd0d991802e885e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab925777b39fb2210238437af7d6daeb4"><td class="memItemLeft" align="right" valign="top"><a id="ab925777b39fb2210238437af7d6daeb4"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_geometry_3_013_01_4.html#ab925777b39fb2210238437af7d6daeb4">Geometry</a> ()</td></tr>
+<tr class="memdesc:ab925777b39fb2210238437af7d6daeb4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default ctor. <br /></td></tr>
+<tr class="separator:ab925777b39fb2210238437af7d6daeb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a75a2aad1fa4ff705c27e7176f5779b72"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_geometry_3_013_01_4.html#a75a2aad1fa4ff705c27e7176f5779b72">Geometry</a> (const std::unique_ptr&lt; Delaunay3 &gt; &amp;triangulation)</td></tr>
+<tr class="memdesc:a75a2aad1fa4ff705c27e7176f5779b72"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor with triangulation.  <a href="#a75a2aad1fa4ff705c27e7176f5779b72">More...</a><br /></td></tr>
+<tr class="separator:a75a2aad1fa4ff705c27e7176f5779b72"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9dfe1726966bf41298f9acd66bf4d5c2"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a9dfe1726966bf41298f9acd66bf4d5c2"><td class="memTemplItemLeft" align="right" valign="top">std::vector&lt; Cell_handle &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="struct_geometry_3_013_01_4.html#a9dfe1726966bf41298f9acd66bf4d5c2">collect_cells</a> (T &amp;universe)</td></tr>
+<tr class="memdesc:a9dfe1726966bf41298f9acd66bf4d5c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Collect all finite cells of the triangulation.  <a href="#a9dfe1726966bf41298f9acd66bf4d5c2">More...</a><br /></td></tr>
+<tr class="separator:a9dfe1726966bf41298f9acd66bf4d5c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af7f13e77bb5a94e231e50ecb061ea84e"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:af7f13e77bb5a94e231e50ecb061ea84e"><td class="memTemplItemLeft" align="right" valign="top">std::vector&lt; Edge_handle &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="struct_geometry_3_013_01_4.html#af7f13e77bb5a94e231e50ecb061ea84e">collect_edges</a> (T &amp;universe)</td></tr>
+<tr class="memdesc:af7f13e77bb5a94e231e50ecb061ea84e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Collect all finite edges of the triangulation.  <a href="#af7f13e77bb5a94e231e50ecb061ea84e">More...</a><br /></td></tr>
+<tr class="separator:af7f13e77bb5a94e231e50ecb061ea84e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a30feed20c741d6ae08724cd7e7b664e3"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a30feed20c741d6ae08724cd7e7b664e3"><td class="memTemplItemLeft" align="right" valign="top">std::vector&lt; Vertex_handle &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="struct_geometry_3_013_01_4.html#a30feed20c741d6ae08724cd7e7b664e3">collect_vertices</a> (T &amp;universe)</td></tr>
+<tr class="memdesc:a30feed20c741d6ae08724cd7e7b664e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Collect all finite vertices of the triangulation.  <a href="#a30feed20c741d6ae08724cd7e7b664e3">More...</a><br /></td></tr>
+<tr class="separator:a30feed20c741d6ae08724cd7e7b664e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f0485e0a780b2e7927ece5743d34d85"><td class="memItemLeft" align="right" valign="top">std::vector&lt; Cell_handle &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_geometry_3_013_01_4.html#a3f0485e0a780b2e7927ece5743d34d85">filter_cells</a> (std::vector&lt; Cell_handle &gt; cells_v, const Cell_type cell_t)</td></tr>
+<tr class="memdesc:a3f0485e0a780b2e7927ece5743d34d85"><td class="mdescLeft">&#160;</td><td class="mdescRight">Filter simplices by Cell_type.  <a href="#a3f0485e0a780b2e7927ece5743d34d85">More...</a><br /></td></tr>
+<tr class="separator:a3f0485e0a780b2e7927ece5743d34d85"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:ac278f0b0c89e5eeced3be20b189231e2"><td class="memItemLeft" align="right" valign="top"><a id="ac278f0b0c89e5eeced3be20b189231e2"></a>
-std::size_t&#160;</td><td class="memItemRight" valign="bottom"><b>desired_simplices</b></td></tr>
-<tr class="separator:ac278f0b0c89e5eeced3be20b189231e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a33fba7ef502ad3d0fbe36bb78a78f478"><td class="memItemLeft" align="right" valign="top"><a id="a33fba7ef502ad3d0fbe36bb78a78f478"></a>
-std::size_t&#160;</td><td class="memItemRight" valign="bottom"><b>desired_timeslices</b></td></tr>
-<tr class="separator:a33fba7ef502ad3d0fbe36bb78a78f478"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a909ec9b794cd01711eb833c8a6f5536f"><td class="memItemLeft" align="right" valign="top"><a id="a909ec9b794cd01711eb833c8a6f5536f"></a>
+std::vector&lt; Cell_handle &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>cells</b></td></tr>
+<tr class="separator:a909ec9b794cd01711eb833c8a6f5536f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a12fe437545c02b703b5fe4136bc3dd79"><td class="memItemLeft" align="right" valign="top"><a id="a12fe437545c02b703b5fe4136bc3dd79"></a>
+std::vector&lt; Edge_handle &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>edges</b></td></tr>
+<tr class="separator:a12fe437545c02b703b5fe4136bc3dd79"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac7b97f649e92aa448941283037194800"><td class="memItemLeft" align="right" valign="top"><a id="ac7b97f649e92aa448941283037194800"></a>
 std::size_t&#160;</td><td class="memItemRight" valign="bottom"><b>number_of_cells</b></td></tr>
 <tr class="separator:ac7b97f649e92aa448941283037194800"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -122,6 +134,24 @@ std::size_t&#160;</td><td class="memItemRight" valign="bottom"><b>number_of_face
 <tr class="memitem:adaf43b01e407cc2d32f6947ff40b28b3"><td class="memItemLeft" align="right" valign="top"><a id="adaf43b01e407cc2d32f6947ff40b28b3"></a>
 std::size_t&#160;</td><td class="memItemRight" valign="bottom"><b>number_of_vertices</b></td></tr>
 <tr class="separator:adaf43b01e407cc2d32f6947ff40b28b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa424a8d483646e5fea2f67df94ab4575"><td class="memItemLeft" align="right" valign="top"><a id="aa424a8d483646e5fea2f67df94ab4575"></a>
+std::vector&lt; Cell_handle &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>one_three</b></td></tr>
+<tr class="separator:aa424a8d483646e5fea2f67df94ab4575"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8171abb8463d3c57d4d5b6a1b82f7adb"><td class="memItemLeft" align="right" valign="top"><a id="a8171abb8463d3c57d4d5b6a1b82f7adb"></a>
+std::vector&lt; Edge_handle &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>spacelike_edges</b></td></tr>
+<tr class="separator:a8171abb8463d3c57d4d5b6a1b82f7adb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a06c208bf6c3dbcdc44ead912e17dcf0c"><td class="memItemLeft" align="right" valign="top"><a id="a06c208bf6c3dbcdc44ead912e17dcf0c"></a>
+std::vector&lt; Cell_handle &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>three_one</b></td></tr>
+<tr class="separator:a06c208bf6c3dbcdc44ead912e17dcf0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16e71ef1dbc03d77e9a3e0fab73ea32f"><td class="memItemLeft" align="right" valign="top"><a id="a16e71ef1dbc03d77e9a3e0fab73ea32f"></a>
+std::vector&lt; Edge_handle &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>timelike_edges</b></td></tr>
+<tr class="separator:a16e71ef1dbc03d77e9a3e0fab73ea32f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a66e17907f33e70954c81fe9c9ab66ca7"><td class="memItemLeft" align="right" valign="top"><a id="a66e17907f33e70954c81fe9c9ab66ca7"></a>
+std::vector&lt; Cell_handle &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>two_two</b></td></tr>
+<tr class="separator:a66e17907f33e70954c81fe9c9ab66ca7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a668de56fc106aad61adc0fe0d6dff2a9"><td class="memItemLeft" align="right" valign="top"><a id="a668de56fc106aad61adc0fe0d6dff2a9"></a>
+std::vector&lt; Vertex_handle &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>vertices</b></td></tr>
+<tr class="separator:a668de56fc106aad61adc0fe0d6dff2a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><h3>template&lt;&gt;<br />
@@ -129,14 +159,235 @@ struct Geometry&lt; 3 &gt;</h3>
 
 <p>3D <a class="el" href="struct_geometry.html">Geometry</a> </p>
 
-<p class="definition">Definition at line <a class="el" href="_geometry_8hpp_source.html#l00024">24</a> of file <a class="el" href="_geometry_8hpp_source.html">Geometry.hpp</a>.</p>
-</div><hr/>The documentation for this struct was generated from the following file:<ul>
+<p class="definition">Definition at line <a class="el" href="_geometry_8hpp_source.html#l00033">33</a> of file <a class="el" href="_geometry_8hpp_source.html">Geometry.hpp</a>.</p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a75a2aad1fa4ff705c27e7176f5779b72"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a75a2aad1fa4ff705c27e7176f5779b72">&#9670;&nbsp;</a></span>Geometry()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_geometry.html">Geometry</a>&lt; 3 &gt;::<a class="el" href="struct_geometry.html">Geometry</a> </td>
+          <td>(</td>
+          <td class="paramtype">const std::unique_ptr&lt; Delaunay3 &gt; &amp;&#160;</td>
+          <td class="paramname"><em>triangulation</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">explicit</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Constructor with triangulation. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">triangulation</td><td>Triangulation for which <a class="el" href="struct_geometry.html">Geometry</a> is being calculated </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="_geometry_8hpp_source.html#l00046">46</a> of file <a class="el" href="_geometry_8hpp_source.html">Geometry.hpp</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a9dfe1726966bf41298f9acd66bf4d5c2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9dfe1726966bf41298f9acd66bf4d5c2">&#9670;&nbsp;</a></span>collect_cells()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;Cell_handle&gt; <a class="el" href="struct_geometry.html">Geometry</a>&lt; 3 &gt;::collect_cells </td>
+          <td>(</td>
+          <td class="paramtype">T &amp;&#160;</td>
+          <td class="paramname"><em>universe</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Collect all finite cells of the triangulation. </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">T</td><td>Reference type of triangulation </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">universe</td><td>Reference to triangulation </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Vector of all the finite cells in the triangulation </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="_geometry_8hpp_source.html#l00062">62</a> of file <a class="el" href="_geometry_8hpp_source.html">Geometry.hpp</a>.</p>
+
+</div>
+</div>
+<a id="af7f13e77bb5a94e231e50ecb061ea84e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af7f13e77bb5a94e231e50ecb061ea84e">&#9670;&nbsp;</a></span>collect_edges()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;Edge_handle&gt; <a class="el" href="struct_geometry.html">Geometry</a>&lt; 3 &gt;::collect_edges </td>
+          <td>(</td>
+          <td class="paramtype">T &amp;&#160;</td>
+          <td class="paramname"><em>universe</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Collect all finite edges of the triangulation. </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">T</td><td>Reference type of triangulation </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">universe</td><td>Reference to triangulation </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Vector of all the finite edges in the triangulation </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="_geometry_8hpp_source.html#l00097">97</a> of file <a class="el" href="_geometry_8hpp_source.html">Geometry.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a30feed20c741d6ae08724cd7e7b664e3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a30feed20c741d6ae08724cd7e7b664e3">&#9670;&nbsp;</a></span>collect_vertices()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;Vertex_handle&gt; <a class="el" href="struct_geometry.html">Geometry</a>&lt; 3 &gt;::collect_vertices </td>
+          <td>(</td>
+          <td class="paramtype">T &amp;&#160;</td>
+          <td class="paramname"><em>universe</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Collect all finite vertices of the triangulation. </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">T</td><td>Reference type of triangulation </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">universe</td><td>Reference to triangulation </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Vector of all finite vertices in the triangulation </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="_geometry_8hpp_source.html#l00120">120</a> of file <a class="el" href="_geometry_8hpp_source.html">Geometry.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a3f0485e0a780b2e7927ece5743d34d85"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3f0485e0a780b2e7927ece5743d34d85">&#9670;&nbsp;</a></span>filter_cells()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;Cell_handle&gt; <a class="el" href="struct_geometry.html">Geometry</a>&lt; 3 &gt;::filter_cells </td>
+          <td>(</td>
+          <td class="paramtype">std::vector&lt; Cell_handle &gt;&#160;</td>
+          <td class="paramname"><em>cells_v</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Cell_type&#160;</td>
+          <td class="paramname"><em>cell_t</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Filter simplices by Cell_type. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">cells_v</td><td>The vector of simplices to filter </td></tr>
+    <tr><td class="paramname">cell_t</td><td>The Cell_type to filter by </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A vector of Cell_type simplices </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="_geometry_8hpp_source.html#l00079">79</a> of file <a class="el" href="_geometry_8hpp_source.html">Geometry.hpp</a>.</p>
+
+</div>
+</div>
+<hr/>The documentation for this struct was generated from the following file:<ul>
 <li>include/<a class="el" href="_geometry_8hpp_source.html">Geometry.hpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Sep 18 2018 18:52:41 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Sep 22 2018 15:25:01 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>
