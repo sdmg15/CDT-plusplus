@@ -1,0 +1,8 @@
+digraph "FoliatedTriangulation&lt; 3 &gt;"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node0 [label="{FoliatedTriangulation\< 3 \>\n|- delaunay_\l- is_foliated_\l|+ FoliatedTriangulation()\l+ FoliatedTriangulation()\l+ FoliatedTriangulation()\l+ get_delaunay()\l+ is_foliated()\l- fix_timeslices()\l- make_foliated_sphere()\l- make_triangulation()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node0 [dir="back",color="firebrick4",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node1 [label="{Delaunay3\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+}

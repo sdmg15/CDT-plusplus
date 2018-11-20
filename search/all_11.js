@@ -9,8 +9,8 @@ var searchData=
   ['torus_5fd_2ehpp',['Torus_d.hpp',['../_torus__d_8hpp.html',1,'']]],
   ['totalmoves',['TotalMoves',['../class_metropolis.html#a15cbe9592ee36b309f6ed940b4557a6b',1,'Metropolis']]],
   ['triangulation',['triangulation',['../struct_simplicial_manifold.html#a539e6a163d62076aac4067a16e7f16be',1,'SimplicialManifold']]],
-  ['try_5f23_5fmove',['try_23_move',['../_s3_ergodic_moves_8hpp.html#aa07fadb95320d1e284e75aeaf7ea7844',1,'S3ErgodicMoves.hpp']]],
-  ['try_5f32_5fmove',['try_32_move',['../_s3_ergodic_moves_8hpp.html#a621d1355e04673f405e18b5574f3d6d1',1,'S3ErgodicMoves.hpp']]],
+  ['try_5f23_5fmove',['try_23_move',['../class_move_command_3_013_01_4.html#a66d7bb70139927513c559c111a3cd07e',1,'MoveCommand&lt; 3 &gt;::try_23_move()'],['../_s3_ergodic_moves_8hpp.html#a77761339686ecc1665eb66d53b5caa84',1,'try_23_move():&#160;S3ErgodicMoves.hpp']]],
+  ['try_5f32_5fmove',['try_32_move',['../_s3_ergodic_moves_8hpp.html#a71ccfff437ed4296d8c5e00ac586efbc',1,'S3ErgodicMoves.hpp']]],
   ['two_5ftwo',['two_two',['../struct_geometry_info.html#a57ac0dca72a21c03fdc4a95cdab9a0c5',1,'GeometryInfo']]],
   ['twosixmoves',['TwoSixMoves',['../class_move_algorithm.html#ad654e051037310c86766a22172082a4b',1,'MoveAlgorithm']]],
   ['twothreemoves',['TwoThreeMoves',['../class_move_algorithm.html#ac31c7ff42bb88c8360bb4324955c08c6',1,'MoveAlgorithm']]]

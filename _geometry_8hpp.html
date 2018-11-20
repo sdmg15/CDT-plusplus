@@ -74,8 +74,7 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#typedef-members">Typedefs</a> &#124;
-<a href="#enum-members">Enumerations</a>  </div>
+<a href="#typedef-members">Typedefs</a>  </div>
   <div class="headertitle">
 <div class="title">Geometry.hpp File Reference</div>  </div>
 </div><!--header-->
@@ -83,17 +82,16 @@ $(function() {
 
 <p>Data structures for geometry.  
 <a href="#details">More...</a></p>
-<div class="textblock"><code>#include &lt;<a class="el" href="_s3_triangulation_8hpp_source.html">S3Triangulation.hpp</a>&gt;</code><br />
+<div class="textblock"><code>#include &lt;<a class="el" href="_foliated_triangulation_8hpp_source.html">FoliatedTriangulation.hpp</a>&gt;</code><br />
 <code>#include &lt;algorithm&gt;</code><br />
 <code>#include &lt;cstddef&gt;</code><br />
 <code>#include &lt;gsl/gsl&gt;</code><br />
+<code>#include &lt;set&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for Geometry.hpp:</div>
 <div class="dyncontent">
 <div class="center"><img src="_geometry_8hpp__incl.png" border="0" usemap="#include_2_geometry_8hpp" alt=""/></div>
 <map name="include_2_geometry_8hpp" id="include_2_geometry_8hpp">
-<area shape="rect" id="node2" href="_s3_triangulation_8hpp.html" title="Functions on 3D Spherical Delaunay Triangulations. " alt="" coords="867,79,1007,104"/>
-<area shape="rect" id="node15" href="_utilities_8hpp.html" title="Utility functions. " alt="" coords="749,165,839,191"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
@@ -101,9 +99,6 @@ This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
 <div class="center"><img src="_geometry_8hpp__dep__incl.png" border="0" usemap="#include_2_geometry_8hppdep" alt=""/></div>
 <map name="include_2_geometry_8hppdep" id="include_2_geometry_8hppdep">
-<area shape="rect" id="node2" href="_geometry_test_8cpp.html" title="Tests of new geometry data structure. " alt="" coords="5,79,167,104"/>
-<area shape="rect" id="node3" href="_manifold_8hpp.html" title="Data structures for manifolds. " alt="" coords="190,79,334,104"/>
-<area shape="rect" id="node4" href="_manifold_test_8cpp.html" title="Tests of new manifold data structure. " alt="" coords="185,152,339,177"/>
 </map>
 </div>
 </div>
@@ -111,25 +106,32 @@ This graph shows which files directly or indirectly include this file:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_geometry.html">Geometry&lt; dimension &gt;</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_geometry.html">Geometry&lt; dimension &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_geometry_3_013_01_4.html">Geometry&lt; 3 &gt;</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">3D <a class="el" href="struct_geometry.html">Geometry</a>  <a href="struct_geometry_3_013_01_4.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_geometry_3_013_01_4.html">Geometry&lt; 3 &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">3D <a class="el" href="class_geometry.html">Geometry</a>  <a href="class_geometry_3_013_01_4.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
+<tr class="memitem:acb0f3fe1b4a90062f6c2b90df8c771a8"><td class="memItemLeft" align="right" valign="top"><a id="acb0f3fe1b4a90062f6c2b90df8c771a8"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>Cell_handle</b> = Delaunay3::Cell_handle</td></tr>
+<tr class="separator:acb0f3fe1b4a90062f6c2b90df8c771a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16a3c0964e7dc7b87b5188d6b8f61986"><td class="memItemLeft" align="right" valign="top"><a id="a16a3c0964e7dc7b87b5188d6b8f61986"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>Edge_handle</b> = std::tuple&lt; Cell_handle, int, int &gt;</td></tr>
+<tr class="separator:a16a3c0964e7dc7b87b5188d6b8f61986"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ed35122120e43f31ac215b234428f4c"><td class="memItemLeft" align="right" valign="top"><a id="a9ed35122120e43f31ac215b234428f4c"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>Face_handle</b> = std::pair&lt; Cell_handle, int &gt;</td></tr>
+<tr class="separator:a9ed35122120e43f31ac215b234428f4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae5a618cd46adf8b6216c9441f587f8e3"><td class="memItemLeft" align="right" valign="top"><a id="ae5a618cd46adf8b6216c9441f587f8e3"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>Facet</b> = Delaunay3::Facet</td></tr>
+<tr class="separator:ae5a618cd46adf8b6216c9441f587f8e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a03e1bcf4cb3602c102f6f330ed5b7111"><td class="memItemLeft" align="right" valign="top"><a id="a03e1bcf4cb3602c102f6f330ed5b7111"></a>
-using&#160;</td><td class="memItemRight" valign="bottom"><b>Geometry3</b> = <a class="el" href="struct_geometry.html">Geometry</a>&lt; 3 &gt;</td></tr>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>Geometry3</b> = <a class="el" href="class_geometry.html">Geometry</a>&lt; 3 &gt;</td></tr>
 <tr class="separator:a03e1bcf4cb3602c102f6f330ed5b7111"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
-Enumerations</h2></td></tr>
-<tr class="memitem:a73e46a0d9bc77f21cc68798c73282a1e"><td class="memItemLeft" align="right" valign="top"><a id="a73e46a0d9bc77f21cc68798c73282a1e"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>Cell_type</b> { <b>THREE_ONE</b> = 0, 
-<b>TWO_TWO</b> = 1, 
-<b>ONE_THREE</b> = 2
- }</td></tr>
-<tr class="separator:a73e46a0d9bc77f21cc68798c73282a1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a764a6ebde328c3649892b6fc866d90d4"><td class="memItemLeft" align="right" valign="top"><a id="a764a6ebde328c3649892b6fc866d90d4"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>Vertex_handle</b> = Delaunay3::Vertex_handle</td></tr>
+<tr class="separator:a764a6ebde328c3649892b6fc866d90d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Data structures for geometry. </p>
@@ -142,7 +144,7 @@ Enumerations</h2></td></tr>
 </div></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Sep 22 2018 15:25:01 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon Nov 19 2018 21:49:24 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>

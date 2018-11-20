@@ -95,8 +95,6 @@ Include dependency graph for SimplicialManifold.hpp:</div>
 <div class="dyncontent">
 <div class="center"><img src="_simplicial_manifold_8hpp__incl.png" border="0" usemap="#include_2_simplicial_manifold_8hpp" alt=""/></div>
 <map name="include_2_simplicial_manifold_8hpp" id="include_2_simplicial_manifold_8hpp">
-<area shape="rect" id="node2" href="_s3_triangulation_8hpp.html" title="Functions on 3D Spherical Delaunay Triangulations. " alt="" coords="943,79,1083,104"/>
-<area shape="rect" id="node15" href="_utilities_8hpp.html" title="Utility functions. " alt="" coords="602,165,693,191"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
@@ -104,26 +102,6 @@ This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
 <div class="center"><img src="_simplicial_manifold_8hpp__dep__incl.png" border="0" usemap="#include_2_simplicial_manifold_8hppdep" alt=""/></div>
 <map name="include_2_simplicial_manifold_8hppdep" id="include_2_simplicial_manifold_8hppdep">
-<area shape="rect" id="node2" href="_measurements_8hpp.html" title="Measurements of the simulation. " alt="" coords="827,79,1008,104"/>
-<area shape="rect" id="node4" href="initialize_8cpp.html" title="Generates initial spacetimes. " alt="" coords="5,159,121,184"/>
-<area shape="rect" id="node18" href="_tetrahedron_test_8cpp_source.html" title="tests/TetrahedronTest.cpp" alt="" coords="1087,79,1261,104"/>
-<area shape="rect" id="node19" href="_vertex_test_8cpp_source.html" title="tests/VertexTest.cpp" alt="" coords="1285,79,1425,104"/>
-<area shape="rect" id="node20" href="_move_manager_8hpp.html" title="RAII class to manage exception&#45;safe foliation&#45;preserving Pachner moves. " alt="" coords="1477,79,1655,104"/>
-<area shape="rect" id="node21" href="_simulation_8hpp.html" title="Simulation class. " alt="" coords="1541,239,1697,264"/>
-<area shape="rect" id="node3" href="cdt-opt_8cpp.html" title="Outputs values to determine optimizations. " alt="" coords="1558,312,1667,337"/>
-<area shape="rect" id="node5" href="_function_ref_test_8cpp_source.html" title="tests/FunctionRefTest.cpp" alt="" coords="196,159,370,184"/>
-<area shape="rect" id="node6" href="_measurements_test_8cpp.html" title="Tests for the various measurement functions. " alt="" coords="394,159,585,184"/>
-<area shape="rect" id="node7" href="_move_manager_test_8cpp_source.html" title="tests/MoveManagerTest.cpp" alt="" coords="1472,159,1660,184"/>
-<area shape="rect" id="node8" href="_s3_action_test_8cpp_source.html" title="tests/S3ActionTest.cpp" alt="" coords="609,159,765,184"/>
-<area shape="rect" id="node9" href="_s3_ergodic_moves_test_8cpp_source.html" title="tests/S3ErgodicMovesTest.cpp" alt="" coords="789,159,993,184"/>
-<area shape="rect" id="node10" href="_s3_triangulation_test_8cpp_source.html" title="tests/S3TriangulationTest.cpp" alt="" coords="1017,159,1213,184"/>
-<area shape="rect" id="node11" href="_simplicial_manifold_test_8cpp_source.html" title="tests/SimplicialManifold\lTest.cpp" alt="" coords="1236,152,1396,191"/>
-<area shape="rect" id="node12" href="_move_always_8hpp.html" title="Always randomly selects moves to perform on Delaunay Triangulations. " alt="" coords="1350,239,1518,264"/>
-<area shape="rect" id="node14" href="_move_algorithm_8hpp.html" title="Base class for move algorithms on Delaunay Triangulations. " alt="" coords="1684,159,1866,184"/>
-<area shape="rect" id="node13" href="_simulation_test_8cpp_source.html" title="tests/SimulationTest.cpp" alt="" coords="1363,312,1528,337"/>
-<area shape="rect" id="node15" href="_metropolis_8hpp.html" title="Perform Metropolis&#45;Hastings algorithm on Delaunay Triangulations. " alt="" coords="1720,239,1875,264"/>
-<area shape="rect" id="node16" href="cdt_8cpp.html" title="The main executable. " alt="" coords="1691,312,1777,337"/>
-<area shape="rect" id="node17" href="_move_algorithms_test_8cpp.html" title="Tests for the Metropolis&#45;Hastings algorithm. " alt="" coords="1801,312,2000,337"/>
 </map>
 </div>
 </div>
@@ -165,12 +143,13 @@ template&lt;typename T &gt; </td></tr>
 <p>Causal Dynamical Triangulations in C++ using CGAL</p>
 <p>Copyright © 2016-2017 Adam Getchell</p>
 <p>Data structures for operations on simplicial manifolds</p>
-<dl class="done"><dt><b><a class="el" href="done.html#_done000003">Implemented To-do's:</a></b></dt><dd><p class="startdd">Classify cells as (3,1), (2,2), or (1,3) based on their foliation. A tuple of vectors contain cell handles to the simplices of type (3,1), (2,2), and (1,3) respectively. </p>
+<dl class="done"><dt><b><a class="el" href="done.html#_done000004">Implemented To-do's:</a></b></dt><dd><p class="startdd">Classify cells as (3,1), (2,2), or (1,3) based on their foliation. A tuple of vectors contain cell handles to the simplices of type (3,1), (2,2), and (1,3) respectively. </p>
 <p>Classify edges as timelike or spacelike so that action can be calculated. </p>
 <p><a class="el" href="struct_simplicial_manifold.html">SimplicialManifold</a> data structure holding a std::unique_ptr to the Delaunay triangulation and a std::tuple of geometry information. </p>
 <p class="enddd">Move constructor recalculates geometry.</p>
 </dd></dl>
 <dl class="section author"><dt>Author</dt><dd>Adam Getchell </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000007">Todo:</a></b></dt><dd>Deprecated </dd></dl>
 
 <p class="definition">Definition in file <a class="el" href="_simplicial_manifold_8hpp_source.html">SimplicialManifold.hpp</a>.</p>
 </div><h2 class="groupheader">Typedef Documentation</h2>
@@ -190,7 +169,7 @@ template&lt;typename T &gt; </td></tr>
 <p>The first element is the vector of (3,1) simplices The second element is the vector of (2,2) simplices The third element is the vector of (1,3) simplices The fourth element is the vector of timelike edges The fifth element is the vector of spacelike edges The sixth element is the vector of vertices</p>
 <p>Useful for constructing <a class="el" href="struct_geometry_info.html">GeometryInfo</a>, which contains this and other information, and in comparing the results of moves, which will change one or more elements of the Geometry_tuple. </p>
 
-<p class="definition">Definition at line <a class="el" href="_simplicial_manifold_8hpp_source.html#l00048">48</a> of file <a class="el" href="_simplicial_manifold_8hpp_source.html">SimplicialManifold.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_simplicial_manifold_8hpp_source.html#l00049">49</a> of file <a class="el" href="_simplicial_manifold_8hpp_source.html">SimplicialManifold.hpp</a>.</p>
 
 </div>
 </div>
@@ -222,7 +201,7 @@ template&lt;typename T &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A std::pair&lt;std::vector&lt;Edge_handle&gt;, std::vector&lt;Edge_handle&gt;&gt; of timelike edges and spacelike edges </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_simplicial_manifold_8hpp_source.html#l00065">65</a> of file <a class="el" href="_simplicial_manifold_8hpp_source.html">SimplicialManifold.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_simplicial_manifold_8hpp_source.html#l00066">66</a> of file <a class="el" href="_simplicial_manifold_8hpp_source.html">SimplicialManifold.hpp</a>.</p>
 
 </div>
 </div>
@@ -257,14 +236,14 @@ template&lt;typename T &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A std::tuple&lt;std::vector, std::vector, std::vector&gt; of <b>three_one</b>, <b>two_two</b>, and <b>one_three</b> </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_simplicial_manifold_8hpp_source.html#l00129">129</a> of file <a class="el" href="_simplicial_manifold_8hpp_source.html">SimplicialManifold.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_simplicial_manifold_8hpp_source.html#l00130">130</a> of file <a class="el" href="_simplicial_manifold_8hpp_source.html">SimplicialManifold.hpp</a>.</p>
 
 </div>
 </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Sep 22 2018 15:25:01 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon Nov 19 2018 21:49:24 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>

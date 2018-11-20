@@ -81,8 +81,8 @@ $(function() {
 
 <p>Pachner moves on 3D Delaunay Triangulations.  
 <a href="#details">More...</a></p>
-<div class="textblock"><code>#include &lt;<a class="el" href="_s3_triangulation_8hpp_source.html">S3Triangulation.hpp</a>&gt;</code><br />
-<code>#include &lt;CGAL/barycenter.h&gt;</code><br />
+<div class="textblock"><code>#include &lt;CGAL/barycenter.h&gt;</code><br />
+<code>#include &lt;<a class="el" href="_s3_triangulation_8hpp_source.html">S3Triangulation.hpp</a>&gt;</code><br />
 <code>#include &lt;algorithm&gt;</code><br />
 <code>#include &lt;tuple&gt;</code><br />
 <code>#include &lt;utility&gt;</code><br />
@@ -92,8 +92,6 @@ Include dependency graph for S3ErgodicMoves.hpp:</div>
 <div class="dyncontent">
 <div class="center"><img src="_s3_ergodic_moves_8hpp__incl.png" border="0" usemap="#include_2_s3_ergodic_moves_8hpp" alt=""/></div>
 <map name="include_2_s3_ergodic_moves_8hpp" id="include_2_s3_ergodic_moves_8hpp">
-<area shape="rect" id="node2" href="_s3_triangulation_8hpp.html" title="Functions on 3D Spherical Delaunay Triangulations. " alt="" coords="1074,79,1215,104"/>
-<area shape="rect" id="node15" href="_utilities_8hpp.html" title="Utility functions. " alt="" coords="758,165,848,191"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
@@ -101,17 +99,6 @@ This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
 <div class="center"><img src="_s3_ergodic_moves_8hpp__dep__incl.png" border="0" usemap="#include_2_s3_ergodic_moves_8hppdep" alt=""/></div>
 <map name="include_2_s3_ergodic_moves_8hppdep" id="include_2_s3_ergodic_moves_8hppdep">
-<area shape="rect" id="node2" href="_function_ref_test_8cpp_source.html" title="tests/FunctionRefTest.cpp" alt="" coords="5,79,180,104"/>
-<area shape="rect" id="node3" href="_measurements_test_8cpp.html" title="Tests for the various measurement functions. " alt="" coords="204,79,395,104"/>
-<area shape="rect" id="node4" href="_move_manager_test_8cpp_source.html" title="tests/MoveManagerTest.cpp" alt="" coords="419,79,607,104"/>
-<area shape="rect" id="node5" href="_s3_ergodic_moves_test_8cpp_source.html" title="tests/S3ErgodicMovesTest.cpp" alt="" coords="631,79,835,104"/>
-<area shape="rect" id="node6" href="_move_algorithm_8hpp.html" title="Base class for move algorithms on Delaunay Triangulations. " alt="" coords="859,79,1041,104"/>
-<area shape="rect" id="node7" href="_metropolis_8hpp.html" title="Perform Metropolis&#45;Hastings algorithm on Delaunay Triangulations. " alt="" coords="754,152,909,177"/>
-<area shape="rect" id="node11" href="_move_always_8hpp.html" title="Always randomly selects moves to perform on Delaunay Triangulations. " alt="" coords="985,152,1153,177"/>
-<area shape="rect" id="node8" href="cdt-opt_8cpp.html" title="Outputs values to determine optimizations. " alt="" coords="573,225,682,251"/>
-<area shape="rect" id="node9" href="cdt_8cpp.html" title="The main executable. " alt="" coords="706,225,792,251"/>
-<area shape="rect" id="node10" href="_move_algorithms_test_8cpp.html" title="Tests for the Metropolis&#45;Hastings algorithm. " alt="" coords="816,225,1015,251"/>
-<area shape="rect" id="node12" href="_simulation_test_8cpp_source.html" title="tests/SimulationTest.cpp" alt="" coords="1038,225,1203,251"/>
 </map>
 </div>
 </div>
@@ -122,48 +109,48 @@ Functions</h2></td></tr>
 <tr class="memitem:a3e00cd7737f0467bd37da92f712d2448"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_s3_ergodic_moves_8hpp.html#a3e00cd7737f0467bd37da92f712d2448">find_26_movable</a> (const Cell_handle &amp;c, int &amp;n)</td></tr>
 <tr class="memdesc:a3e00cd7737f0467bd37da92f712d2448"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find a (2,6) move.  <a href="#a3e00cd7737f0467bd37da92f712d2448">More...</a><br /></td></tr>
 <tr class="separator:a3e00cd7737f0467bd37da92f712d2448"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a322c3348ea873fe48b80e8b45b8d9072"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a322c3348ea873fe48b80e8b45b8d9072"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="_s3_ergodic_moves_8hpp.html#a322c3348ea873fe48b80e8b45b8d9072">find_62_movable</a> (T &amp;&amp;universe, Vertex_handle candidate)</td></tr>
-<tr class="memdesc:a322c3348ea873fe48b80e8b45b8d9072"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find a (6,2) move.  <a href="#a322c3348ea873fe48b80e8b45b8d9072">More...</a><br /></td></tr>
-<tr class="separator:a322c3348ea873fe48b80e8b45b8d9072"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6a414cde19061cb967875e61b0263f08"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_s3_ergodic_moves_8hpp.html#a6a414cde19061cb967875e61b0263f08">is_26_movable</a> (const Cell_handle &amp;c, unsigned i)</td></tr>
-<tr class="memdesc:a6a414cde19061cb967875e61b0263f08"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check a (2,6) move.  <a href="#a6a414cde19061cb967875e61b0263f08">More...</a><br /></td></tr>
-<tr class="separator:a6a414cde19061cb967875e61b0263f08"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a29fb7d5dcff06ad830c2cf58499a8d84"><td class="memTemplParams" colspan="2">template&lt;typename T1 , typename T2 &gt; </td></tr>
-<tr class="memitem:a29fb7d5dcff06ad830c2cf58499a8d84"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="_s3_ergodic_moves_8hpp.html#a29fb7d5dcff06ad830c2cf58499a8d84">make_23_move</a> (T1 &amp;&amp;universe, T2 &amp;&amp;attempted_moves) -&gt; decltype(universe)</td></tr>
-<tr class="memdesc:a29fb7d5dcff06ad830c2cf58499a8d84"><td class="mdescLeft">&#160;</td><td class="mdescRight">Make a (2,3) move.  <a href="#a29fb7d5dcff06ad830c2cf58499a8d84">More...</a><br /></td></tr>
-<tr class="separator:a29fb7d5dcff06ad830c2cf58499a8d84"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac024ba286bcffc33a8ea1547dced82d6"><td class="memTemplParams" colspan="2">template&lt;typename T1 , typename T2 &gt; </td></tr>
-<tr class="memitem:ac024ba286bcffc33a8ea1547dced82d6"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="_s3_ergodic_moves_8hpp.html#ac024ba286bcffc33a8ea1547dced82d6">make_26_move</a> (T1 &amp;&amp;universe, T2 &amp;&amp;attempted_moves) -&gt; decltype(universe)</td></tr>
-<tr class="memdesc:ac024ba286bcffc33a8ea1547dced82d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Make a (2,6) move.  <a href="#ac024ba286bcffc33a8ea1547dced82d6">More...</a><br /></td></tr>
-<tr class="separator:ac024ba286bcffc33a8ea1547dced82d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a28a0f2345ba4d5aee5a6bd4887b1a192"><td class="memTemplParams" colspan="2">template&lt;typename T1 , typename T2 &gt; </td></tr>
-<tr class="memitem:a28a0f2345ba4d5aee5a6bd4887b1a192"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="_s3_ergodic_moves_8hpp.html#a28a0f2345ba4d5aee5a6bd4887b1a192">make_32_move</a> (T1 &amp;&amp;universe, T2 &amp;&amp;attempted_moves) -&gt; decltype(universe)</td></tr>
-<tr class="memdesc:a28a0f2345ba4d5aee5a6bd4887b1a192"><td class="mdescLeft">&#160;</td><td class="mdescRight">Make a (3,2) move.  <a href="#a28a0f2345ba4d5aee5a6bd4887b1a192">More...</a><br /></td></tr>
-<tr class="separator:a28a0f2345ba4d5aee5a6bd4887b1a192"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad3ca0cec12997b41f7357613bc4e4c04"><td class="memTemplParams" colspan="2">template&lt;typename T1 , typename T2 &gt; </td></tr>
-<tr class="memitem:ad3ca0cec12997b41f7357613bc4e4c04"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="_s3_ergodic_moves_8hpp.html#ad3ca0cec12997b41f7357613bc4e4c04">make_44_move</a> (T1 &amp;&amp;universe, T2 &amp;&amp;attempted_moves) -&gt; decltype(universe)</td></tr>
-<tr class="memdesc:ad3ca0cec12997b41f7357613bc4e4c04"><td class="mdescLeft">&#160;</td><td class="mdescRight">Make a (4,4) move.  <a href="#ad3ca0cec12997b41f7357613bc4e4c04">More...</a><br /></td></tr>
-<tr class="separator:ad3ca0cec12997b41f7357613bc4e4c04"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a811857e6d27c380189137b161a2ded93"><td class="memTemplParams" colspan="2">template&lt;typename T1 , typename T2 &gt; </td></tr>
-<tr class="memitem:a811857e6d27c380189137b161a2ded93"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="_s3_ergodic_moves_8hpp.html#a811857e6d27c380189137b161a2ded93">make_62_move</a> (T1 &amp;&amp;universe, T2 &amp;&amp;attempted_moves) -&gt; decltype(universe)</td></tr>
-<tr class="memdesc:a811857e6d27c380189137b161a2ded93"><td class="mdescLeft">&#160;</td><td class="mdescRight">Make a (6,2) move.  <a href="#a811857e6d27c380189137b161a2ded93">More...</a><br /></td></tr>
-<tr class="separator:a811857e6d27c380189137b161a2ded93"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa07fadb95320d1e284e75aeaf7ea7844"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:aa07fadb95320d1e284e75aeaf7ea7844"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="_s3_ergodic_moves_8hpp.html#aa07fadb95320d1e284e75aeaf7ea7844">try_23_move</a> (T &amp;&amp;universe, Cell_handle to_be_moved)</td></tr>
-<tr class="memdesc:aa07fadb95320d1e284e75aeaf7ea7844"><td class="mdescLeft">&#160;</td><td class="mdescRight">Try a (2,3) move.  <a href="#aa07fadb95320d1e284e75aeaf7ea7844">More...</a><br /></td></tr>
-<tr class="separator:aa07fadb95320d1e284e75aeaf7ea7844"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a621d1355e04673f405e18b5574f3d6d1"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a621d1355e04673f405e18b5574f3d6d1"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="_s3_ergodic_moves_8hpp.html#a621d1355e04673f405e18b5574f3d6d1">try_32_move</a> (T &amp;&amp;universe, Edge_handle to_be_moved)</td></tr>
-<tr class="memdesc:a621d1355e04673f405e18b5574f3d6d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Try a (3,2) move.  <a href="#a621d1355e04673f405e18b5574f3d6d1">More...</a><br /></td></tr>
-<tr class="separator:a621d1355e04673f405e18b5574f3d6d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab260fd5e81344d585264b65a5cd1efcf"><td class="memTemplParams" colspan="2">template&lt;typename Manifold &gt; </td></tr>
+<tr class="memitem:ab260fd5e81344d585264b65a5cd1efcf"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="_s3_ergodic_moves_8hpp.html#ab260fd5e81344d585264b65a5cd1efcf">find_62_movable</a> (<a class="el" href="class_manifold.html">Manifold</a> &amp;&amp;universe, Vertex_handle candidate)</td></tr>
+<tr class="memdesc:ab260fd5e81344d585264b65a5cd1efcf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find a (6,2) move.  <a href="#ab260fd5e81344d585264b65a5cd1efcf">More...</a><br /></td></tr>
+<tr class="separator:ab260fd5e81344d585264b65a5cd1efcf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad5ade2db3dd9f9f568af6c4ae4f3fa98"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_s3_ergodic_moves_8hpp.html#ad5ade2db3dd9f9f568af6c4ae4f3fa98">is_26_movable</a> (const Cell_handle &amp;c, int i)</td></tr>
+<tr class="memdesc:ad5ade2db3dd9f9f568af6c4ae4f3fa98"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check a (2,6) move.  <a href="#ad5ade2db3dd9f9f568af6c4ae4f3fa98">More...</a><br /></td></tr>
+<tr class="separator:ad5ade2db3dd9f9f568af6c4ae4f3fa98"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab91ed11ef58b49edad0297ef5fc33324"><td class="memTemplParams" colspan="2">template&lt;typename Manifold , typename Moves &gt; </td></tr>
+<tr class="memitem:ab91ed11ef58b49edad0297ef5fc33324"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="_s3_ergodic_moves_8hpp.html#ab91ed11ef58b49edad0297ef5fc33324">make_23_move</a> (<a class="el" href="class_manifold.html">Manifold</a> &amp;&amp;universe, Moves &amp;&amp;attempted_moves) -&gt; decltype(universe)</td></tr>
+<tr class="memdesc:ab91ed11ef58b49edad0297ef5fc33324"><td class="mdescLeft">&#160;</td><td class="mdescRight">Make a (2,3) move.  <a href="#ab91ed11ef58b49edad0297ef5fc33324">More...</a><br /></td></tr>
+<tr class="separator:ab91ed11ef58b49edad0297ef5fc33324"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ec8eb0557a6c1bdb25cbd68c5f86e38"><td class="memTemplParams" colspan="2">template&lt;typename Manifold , typename Moves &gt; </td></tr>
+<tr class="memitem:a8ec8eb0557a6c1bdb25cbd68c5f86e38"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="_s3_ergodic_moves_8hpp.html#a8ec8eb0557a6c1bdb25cbd68c5f86e38">make_26_move</a> (<a class="el" href="class_manifold.html">Manifold</a> &amp;&amp;universe, Moves &amp;&amp;attempted_moves) -&gt; decltype(universe)</td></tr>
+<tr class="memdesc:a8ec8eb0557a6c1bdb25cbd68c5f86e38"><td class="mdescLeft">&#160;</td><td class="mdescRight">Make a (2,6) move.  <a href="#a8ec8eb0557a6c1bdb25cbd68c5f86e38">More...</a><br /></td></tr>
+<tr class="separator:a8ec8eb0557a6c1bdb25cbd68c5f86e38"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aabdf2c94726a19af7e3b71d1e18a3620"><td class="memTemplParams" colspan="2">template&lt;typename Manifold , typename Moves &gt; </td></tr>
+<tr class="memitem:aabdf2c94726a19af7e3b71d1e18a3620"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="_s3_ergodic_moves_8hpp.html#aabdf2c94726a19af7e3b71d1e18a3620">make_32_move</a> (<a class="el" href="class_manifold.html">Manifold</a> &amp;&amp;universe, Moves &amp;&amp;attempted_moves) -&gt; decltype(universe)</td></tr>
+<tr class="memdesc:aabdf2c94726a19af7e3b71d1e18a3620"><td class="mdescLeft">&#160;</td><td class="mdescRight">Make a (3,2) move.  <a href="#aabdf2c94726a19af7e3b71d1e18a3620">More...</a><br /></td></tr>
+<tr class="separator:aabdf2c94726a19af7e3b71d1e18a3620"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a27a236924fa3254230c56d64c26f3870"><td class="memTemplParams" colspan="2">template&lt;typename Manifold , typename Moves &gt; </td></tr>
+<tr class="memitem:a27a236924fa3254230c56d64c26f3870"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="_s3_ergodic_moves_8hpp.html#a27a236924fa3254230c56d64c26f3870">make_44_move</a> (<a class="el" href="class_manifold.html">Manifold</a> &amp;&amp;universe, Moves &amp;&amp;attempted_moves) -&gt; decltype(universe)</td></tr>
+<tr class="memdesc:a27a236924fa3254230c56d64c26f3870"><td class="mdescLeft">&#160;</td><td class="mdescRight">Make a (4,4) move.  <a href="#a27a236924fa3254230c56d64c26f3870">More...</a><br /></td></tr>
+<tr class="separator:a27a236924fa3254230c56d64c26f3870"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac0e029bd2c96c790b47d0ec6f9c3942b"><td class="memTemplParams" colspan="2">template&lt;typename Manifold , typename Moves &gt; </td></tr>
+<tr class="memitem:ac0e029bd2c96c790b47d0ec6f9c3942b"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="_s3_ergodic_moves_8hpp.html#ac0e029bd2c96c790b47d0ec6f9c3942b">make_62_move</a> (<a class="el" href="class_manifold.html">Manifold</a> &amp;&amp;universe, Moves &amp;&amp;attempted_moves) -&gt; decltype(universe)</td></tr>
+<tr class="memdesc:ac0e029bd2c96c790b47d0ec6f9c3942b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Make a (6,2) move.  <a href="#ac0e029bd2c96c790b47d0ec6f9c3942b">More...</a><br /></td></tr>
+<tr class="separator:ac0e029bd2c96c790b47d0ec6f9c3942b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a77761339686ecc1665eb66d53b5caa84"><td class="memTemplParams" colspan="2">template&lt;typename Manifold &gt; </td></tr>
+<tr class="memitem:a77761339686ecc1665eb66d53b5caa84"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="_s3_ergodic_moves_8hpp.html#a77761339686ecc1665eb66d53b5caa84">try_23_move</a> (<a class="el" href="class_manifold.html">Manifold</a> &amp;&amp;universe, Cell_handle to_be_moved)</td></tr>
+<tr class="memdesc:a77761339686ecc1665eb66d53b5caa84"><td class="mdescLeft">&#160;</td><td class="mdescRight">Try a (2,3) move.  <a href="#a77761339686ecc1665eb66d53b5caa84">More...</a><br /></td></tr>
+<tr class="separator:a77761339686ecc1665eb66d53b5caa84"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71ccfff437ed4296d8c5e00ac586efbc"><td class="memTemplParams" colspan="2">template&lt;typename Manifold &gt; </td></tr>
+<tr class="memitem:a71ccfff437ed4296d8c5e00ac586efbc"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="_s3_ergodic_moves_8hpp.html#a71ccfff437ed4296d8c5e00ac586efbc">try_32_move</a> (<a class="el" href="class_manifold.html">Manifold</a> &amp;&amp;universe, Edge_handle to_be_moved)</td></tr>
+<tr class="memdesc:a71ccfff437ed4296d8c5e00ac586efbc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Try a (3,2) move.  <a href="#a71ccfff437ed4296d8c5e00ac586efbc">More...</a><br /></td></tr>
+<tr class="separator:a71ccfff437ed4296d8c5e00ac586efbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Pachner moves on 3D Delaunay Triangulations. </p>
 <p>Causal Dynamical Triangulations in C++ using CGAL</p>
 <p>Copyright © 2014-2017 Adam Getchell</p>
 <p>Performs the 5 types of ergodic moves on S3 (2+1) spacetimes.</p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000011">Todo:</a></b></dt><dd><p class="startdd">Handle neighboring_31_index != 5 condition </p>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000003">Todo:</a></b></dt><dd><p class="startdd">Handle neighboring_31_index != 5 condition </p>
 <p>Debug (6,2) move </p>
 <p class="enddd">(4,4) move </p>
 </dd></dl>
@@ -216,22 +203,22 @@ Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd><b>True</b> if the (2,6) move is possible </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_s3_ergodic_moves_8hpp_source.html#l00211">211</a> of file <a class="el" href="_s3_ergodic_moves_8hpp_source.html">S3ErgodicMoves.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_s3_ergodic_moves_8hpp_source.html#l00210">210</a> of file <a class="el" href="_s3_ergodic_moves_8hpp_source.html">S3ErgodicMoves.hpp</a>.</p>
 
 </div>
 </div>
-<a id="a322c3348ea873fe48b80e8b45b8d9072"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a322c3348ea873fe48b80e8b45b8d9072">&#9670;&nbsp;</a></span>find_62_movable()</h2>
+<a id="ab260fd5e81344d585264b65a5cd1efcf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab260fd5e81344d585264b65a5cd1efcf">&#9670;&nbsp;</a></span>find_62_movable()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T &gt; </div>
+template&lt;typename Manifold &gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">auto find_62_movable </td>
           <td>(</td>
-          <td class="paramtype">T &amp;&amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="class_manifold.html">Manifold</a> &amp;&amp;&#160;</td>
           <td class="paramname"><em>universe</em>, </td>
         </tr>
         <tr>
@@ -251,7 +238,7 @@ template&lt;typename T &gt; </div>
 <p>Find a (6,2) move. </p>
 <dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
-    <tr><td class="paramname">T</td><td>The manifold type </td></tr>
+    <tr><td class="paramname"><a class="el" href="class_manifold.html">Manifold</a></td><td>The manifold type </td></tr>
   </table>
   </dd>
 </dl>
@@ -264,12 +251,12 @@ template&lt;typename T &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>True if a (6,2) move can be made on the candidate vertex </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_s3_ergodic_moves_8hpp_source.html#l00419">419</a> of file <a class="el" href="_s3_ergodic_moves_8hpp_source.html">S3ErgodicMoves.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_s3_ergodic_moves_8hpp_source.html#l00421">421</a> of file <a class="el" href="_s3_ergodic_moves_8hpp_source.html">S3ErgodicMoves.hpp</a>.</p>
 
 </div>
 </div>
-<a id="a6a414cde19061cb967875e61b0263f08"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6a414cde19061cb967875e61b0263f08">&#9670;&nbsp;</a></span>is_26_movable()</h2>
+<a id="ad5ade2db3dd9f9f568af6c4ae4f3fa98"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad5ade2db3dd9f9f568af6c4ae4f3fa98">&#9670;&nbsp;</a></span>is_26_movable()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -286,7 +273,7 @@ template&lt;typename T &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">unsigned&#160;</td>
+          <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>i</em>&#160;</td>
         </tr>
         <tr>
@@ -313,28 +300,28 @@ template&lt;typename T &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd><b>True</b> if c is a (1,3) cell and it's i-th neighbor is a (3,1) </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_s3_ergodic_moves_8hpp_source.html#l00193">193</a> of file <a class="el" href="_s3_ergodic_moves_8hpp_source.html">S3ErgodicMoves.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_s3_ergodic_moves_8hpp_source.html#l00192">192</a> of file <a class="el" href="_s3_ergodic_moves_8hpp_source.html">S3ErgodicMoves.hpp</a>.</p>
 
 </div>
 </div>
-<a id="a29fb7d5dcff06ad830c2cf58499a8d84"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a29fb7d5dcff06ad830c2cf58499a8d84">&#9670;&nbsp;</a></span>make_23_move()</h2>
+<a id="ab91ed11ef58b49edad0297ef5fc33324"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab91ed11ef58b49edad0297ef5fc33324">&#9670;&nbsp;</a></span>make_23_move()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T1 , typename T2 &gt; </div>
+template&lt;typename Manifold , typename Moves &gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">auto make_23_move </td>
           <td>(</td>
-          <td class="paramtype">T1 &amp;&amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="class_manifold.html">Manifold</a> &amp;&amp;&#160;</td>
           <td class="paramname"><em>universe</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">T2 &amp;&amp;&#160;</td>
+          <td class="paramtype">Moves &amp;&amp;&#160;</td>
           <td class="paramname"><em>attempted_moves</em>&#160;</td>
         </tr>
         <tr>
@@ -348,11 +335,11 @@ template&lt;typename T1 , typename T2 &gt; </div>
 
 <p>Make a (2,3) move. </p>
 <p>A (2,3) moves adds a (2,2) simplex and a timelike edge.</p>
-<p>This function calls <b><a class="el" href="_s3_ergodic_moves_8hpp.html#aa07fadb95320d1e284e75aeaf7ea7844" title="Try a (2,3) move. ">try_23_move()</a></b> until it succeeds; the triangulation is no longer Delaunay.</p>
+<p>This function calls <b><a class="el" href="_s3_ergodic_moves_8hpp.html#a77761339686ecc1665eb66d53b5caa84" title="Try a (2,3) move. ">try_23_move()</a></b> until it succeeds; the triangulation is no longer Delaunay.</p>
 <dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
-    <tr><td class="paramname">T1</td><td>The manifold type </td></tr>
-    <tr><td class="paramname">T2</td><td>The type of the tuple holding attempted moves </td></tr>
+    <tr><td class="paramname"><a class="el" href="class_manifold.html">Manifold</a></td><td>The manifold type </td></tr>
+    <tr><td class="paramname">Moves</td><td>The type of the tuple holding attempted moves </td></tr>
   </table>
   </dd>
 </dl>
@@ -365,28 +352,28 @@ template&lt;typename T1 , typename T2 &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The <a class="el" href="struct_simplicial_manifold.html">SimplicialManifold</a> after the move has been made </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_s3_ergodic_moves_8hpp_source.html#l00079">79</a> of file <a class="el" href="_s3_ergodic_moves_8hpp_source.html">S3ErgodicMoves.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_s3_ergodic_moves_8hpp_source.html#l00073">73</a> of file <a class="el" href="_s3_ergodic_moves_8hpp_source.html">S3ErgodicMoves.hpp</a>.</p>
 
 </div>
 </div>
-<a id="ac024ba286bcffc33a8ea1547dced82d6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac024ba286bcffc33a8ea1547dced82d6">&#9670;&nbsp;</a></span>make_26_move()</h2>
+<a id="a8ec8eb0557a6c1bdb25cbd68c5f86e38"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8ec8eb0557a6c1bdb25cbd68c5f86e38">&#9670;&nbsp;</a></span>make_26_move()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T1 , typename T2 &gt; </div>
+template&lt;typename Manifold , typename Moves &gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">auto make_26_move </td>
           <td>(</td>
-          <td class="paramtype">T1 &amp;&amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="class_manifold.html">Manifold</a> &amp;&amp;&#160;</td>
           <td class="paramname"><em>universe</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">T2 &amp;&amp;&#160;</td>
+          <td class="paramtype">Moves &amp;&amp;&#160;</td>
           <td class="paramname"><em>attempted_moves</em>&#160;</td>
         </tr>
         <tr>
@@ -401,14 +388,14 @@ template&lt;typename T1 , typename T2 &gt; </div>
 <p>Make a (2,6) move. </p>
 <p>A (2,6) move adds 2 (1,3) simplices and 2 (3,1) simplices for a total of 3 (1,3) simplices and 3 (3,1) simplices. It also adds 2 timelike edges and 3 spacelike edges, for a total of 8 timelike edges and 6 spacelike edges.</p>
 <p>This function performs the (2,6) move by picking a random (1,3) simplex from <a class="el" href="struct_geometry_info.html">GeometryInfo</a>. The <b><a class="el" href="_s3_ergodic_moves_8hpp.html#a3e00cd7737f0467bd37da92f712d2448" title="Find a (2,6) move. ">find_26_movable()</a></b> function finds the index of the neighboring (3,1) simplex, <b>neighboring_31_index</b>, and <b>has_neighbor()</b> is used to check the results.</p>
-<p>After some other values are gathered for debugging purposes, the <b>v_center</b> vertex is inserted into the facet delineated by <b>neighboring_31_index</b> using <b>tds().insert_in_facet()</b>. Finally, the centroid of the common face calculated using <b>CGAL::centroid()</b> and assigned to <b>v_center</b>, along with a timevalue taken from one of the vertices of the common face. </p><dl class="todo"><dt><b><a class="el" href="todo.html#_todo000012">Todo:</a></b></dt><dd>Check Euler condition on insert, ensure not inserting outside</dd></dl>
+<p>After some other values are gathered for debugging purposes, the <b>v_center</b> vertex is inserted into the facet delineated by <b>neighboring_31_index</b> using <b>tds().insert_in_facet()</b>. Finally, the centroid of the common face calculated using <b>CGAL::centroid()</b> and assigned to <b>v_center</b>, along with a timevalue taken from one of the vertices of the common face. </p><dl class="todo"><dt><b><a class="el" href="todo.html#_todo000004">Todo:</a></b></dt><dd>Check Euler condition on insert, ensure not inserting outside</dd></dl>
 <div class="image">
 <img src="26.png" alt="26.png"/>
 </div>
  <dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
-    <tr><td class="paramname">T1</td><td>The manifold type </td></tr>
-    <tr><td class="paramname">T2</td><td>The type of the tuple holding attempted moves </td></tr>
+    <tr><td class="paramname"><a class="el" href="class_manifold.html">Manifold</a></td><td>The manifold type </td></tr>
+    <tr><td class="paramname">Moves</td><td>The type of the tuple holding attempted moves </td></tr>
   </table>
   </dd>
 </dl>
@@ -421,28 +408,28 @@ template&lt;typename T1 , typename T2 &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The <a class="el" href="struct_simplicial_manifold.html">SimplicialManifold</a>{} after the move has been made </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_s3_ergodic_moves_8hpp_source.html#l00260">260</a> of file <a class="el" href="_s3_ergodic_moves_8hpp_source.html">S3ErgodicMoves.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_s3_ergodic_moves_8hpp_source.html#l00259">259</a> of file <a class="el" href="_s3_ergodic_moves_8hpp_source.html">S3ErgodicMoves.hpp</a>.</p>
 
 </div>
 </div>
-<a id="a28a0f2345ba4d5aee5a6bd4887b1a192"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a28a0f2345ba4d5aee5a6bd4887b1a192">&#9670;&nbsp;</a></span>make_32_move()</h2>
+<a id="aabdf2c94726a19af7e3b71d1e18a3620"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aabdf2c94726a19af7e3b71d1e18a3620">&#9670;&nbsp;</a></span>make_32_move()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T1 , typename T2 &gt; </div>
+template&lt;typename Manifold , typename Moves &gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">auto make_32_move </td>
           <td>(</td>
-          <td class="paramtype">T1 &amp;&amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="class_manifold.html">Manifold</a> &amp;&amp;&#160;</td>
           <td class="paramname"><em>universe</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">T2 &amp;&amp;&#160;</td>
+          <td class="paramtype">Moves &amp;&amp;&#160;</td>
           <td class="paramname"><em>attempted_moves</em>&#160;</td>
         </tr>
         <tr>
@@ -456,11 +443,11 @@ template&lt;typename T1 , typename T2 &gt; </div>
 
 <p>Make a (3,2) move. </p>
 <p>A (3,2) move removes a (2,2) simplex and a timelike edge.</p>
-<p>This function calls <b><a class="el" href="_s3_ergodic_moves_8hpp.html#a621d1355e04673f405e18b5574f3d6d1" title="Try a (3,2) move. ">try_32_move()</a></b> until it succeeds; the triangulation is no longer Delaunay.</p>
+<p>This function calls <b><a class="el" href="_s3_ergodic_moves_8hpp.html#a71ccfff437ed4296d8c5e00ac586efbc" title="Try a (3,2) move. ">try_32_move()</a></b> until it succeeds; the triangulation is no longer Delaunay.</p>
 <dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
-    <tr><td class="paramname">T1</td><td>The manifold type </td></tr>
-    <tr><td class="paramname">T2</td><td>The type of the tuple holding attempted moves </td></tr>
+    <tr><td class="paramname"><a class="el" href="class_manifold.html">Manifold</a></td><td>The manifold type </td></tr>
+    <tr><td class="paramname">Moves</td><td>The type of the tuple holding attempted moves </td></tr>
   </table>
   </dd>
 </dl>
@@ -473,28 +460,28 @@ template&lt;typename T1 , typename T2 &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The <a class="el" href="struct_simplicial_manifold.html">SimplicialManifold</a> after the move has been made </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_s3_ergodic_moves_8hpp_source.html#l00141">141</a> of file <a class="el" href="_s3_ergodic_moves_8hpp_source.html">S3ErgodicMoves.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_s3_ergodic_moves_8hpp_source.html#l00138">138</a> of file <a class="el" href="_s3_ergodic_moves_8hpp_source.html">S3ErgodicMoves.hpp</a>.</p>
 
 </div>
 </div>
-<a id="ad3ca0cec12997b41f7357613bc4e4c04"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad3ca0cec12997b41f7357613bc4e4c04">&#9670;&nbsp;</a></span>make_44_move()</h2>
+<a id="a27a236924fa3254230c56d64c26f3870"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a27a236924fa3254230c56d64c26f3870">&#9670;&nbsp;</a></span>make_44_move()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T1 , typename T2 &gt; </div>
+template&lt;typename Manifold , typename Moves &gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">auto make_44_move </td>
           <td>(</td>
-          <td class="paramtype">T1 &amp;&amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="class_manifold.html">Manifold</a> &amp;&amp;&#160;</td>
           <td class="paramname"><em>universe</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">T2 &amp;&amp;&#160;</td>
+          <td class="paramtype">Moves &amp;&amp;&#160;</td>
           <td class="paramname"><em>attempted_moves</em>&#160;</td>
         </tr>
         <tr>
@@ -515,12 +502,12 @@ template&lt;typename T1 , typename T2 &gt; </div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>universe The <a class="el" href="struct_simplicial_manifold.html">SimplicialManifold</a> after the move has been made </dd></dl>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000013">Todo:</a></b></dt><dd>: Make (4,4) move aka 4,4 bistellar flip work. This is on the CGAL TODO list also </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000005">Todo:</a></b></dt><dd>: Make (4,4) move aka 4,4 bistellar flip work. This is on the CGAL TODO list also </dd></dl>
 <p>This function performs the (4,4) move by replacing a space-like edge with another space-like edge that maintains the number of simplices.</p>
 <dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
-    <tr><td class="paramname">T1</td><td>The manifold type </td></tr>
-    <tr><td class="paramname">T2</td><td>The type of the tuple holding attempted moves </td></tr>
+    <tr><td class="paramname"><a class="el" href="class_manifold.html">Manifold</a></td><td>The manifold type </td></tr>
+    <tr><td class="paramname">Moves</td><td>The type of the tuple holding attempted moves </td></tr>
   </table>
   </dd>
 </dl>
@@ -533,28 +520,28 @@ template&lt;typename T1 , typename T2 &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The <a class="el" href="struct_simplicial_manifold.html">SimplicialManifold</a> after the move has been made </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_s3_ergodic_moves_8hpp_source.html#l00522">522</a> of file <a class="el" href="_s3_ergodic_moves_8hpp_source.html">S3ErgodicMoves.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_s3_ergodic_moves_8hpp_source.html#l00526">526</a> of file <a class="el" href="_s3_ergodic_moves_8hpp_source.html">S3ErgodicMoves.hpp</a>.</p>
 
 </div>
 </div>
-<a id="a811857e6d27c380189137b161a2ded93"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a811857e6d27c380189137b161a2ded93">&#9670;&nbsp;</a></span>make_62_move()</h2>
+<a id="ac0e029bd2c96c790b47d0ec6f9c3942b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac0e029bd2c96c790b47d0ec6f9c3942b">&#9670;&nbsp;</a></span>make_62_move()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T1 , typename T2 &gt; </div>
+template&lt;typename Manifold , typename Moves &gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">auto make_62_move </td>
           <td>(</td>
-          <td class="paramtype">T1 &amp;&amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="class_manifold.html">Manifold</a> &amp;&amp;&#160;</td>
           <td class="paramname"><em>universe</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">T2 &amp;&amp;&#160;</td>
+          <td class="paramtype">Moves &amp;&amp;&#160;</td>
           <td class="paramname"><em>attempted_moves</em>&#160;</td>
         </tr>
         <tr>
@@ -577,8 +564,8 @@ template&lt;typename T1 , typename T2 &gt; </div>
 <dl class="section return"><dt>Returns</dt><dd>universe The <a class="el" href="struct_simplicial_manifold.html">SimplicialManifold</a> after the move has been madeThis function performs the (6,2) move by removing a vertex that has 3 (1,3) and 3 (3,1) simplices around it</dd></dl>
 <dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
-    <tr><td class="paramname">T1</td><td>The manifold type </td></tr>
-    <tr><td class="paramname">T2</td><td>The type of the tuple holding attempted moves </td></tr>
+    <tr><td class="paramname"><a class="el" href="class_manifold.html">Manifold</a></td><td>The manifold type </td></tr>
+    <tr><td class="paramname">Moves</td><td>The type of the tuple holding attempted moves </td></tr>
   </table>
   </dd>
 </dl>
@@ -591,22 +578,22 @@ template&lt;typename T1 , typename T2 &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The <a class="el" href="struct_simplicial_manifold.html">SimplicialManifold</a> after the move has been made </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_s3_ergodic_moves_8hpp_source.html#l00471">471</a> of file <a class="el" href="_s3_ergodic_moves_8hpp_source.html">S3ErgodicMoves.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_s3_ergodic_moves_8hpp_source.html#l00473">473</a> of file <a class="el" href="_s3_ergodic_moves_8hpp_source.html">S3ErgodicMoves.hpp</a>.</p>
 
 </div>
 </div>
-<a id="aa07fadb95320d1e284e75aeaf7ea7844"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa07fadb95320d1e284e75aeaf7ea7844">&#9670;&nbsp;</a></span>try_23_move()</h2>
+<a id="a77761339686ecc1665eb66d53b5caa84"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a77761339686ecc1665eb66d53b5caa84">&#9670;&nbsp;</a></span>try_23_move()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T &gt; </div>
+template&lt;typename Manifold &gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">auto try_23_move </td>
           <td>(</td>
-          <td class="paramtype">T &amp;&amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="class_manifold.html">Manifold</a> &amp;&amp;&#160;</td>
           <td class="paramname"><em>universe</em>, </td>
         </tr>
         <tr>
@@ -627,7 +614,7 @@ template&lt;typename T &gt; </div>
 <p>This function performs the (2,3) move by converting the facet between a (3,1) simplex and a (2,2) simplex into its dual edge.</p>
 <dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
-    <tr><td class="paramname">T</td><td>The manifold type </td></tr>
+    <tr><td class="paramname"><a class="el" href="class_manifold.html">Manifold</a></td><td>The manifold type </td></tr>
   </table>
   </dd>
 </dl>
@@ -640,22 +627,22 @@ template&lt;typename T &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A boolean value whether the move succeeded </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_s3_ergodic_moves_8hpp_source.html#l00041">41</a> of file <a class="el" href="_s3_ergodic_moves_8hpp_source.html">S3ErgodicMoves.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_s3_ergodic_moves_8hpp_source.html#l00035">35</a> of file <a class="el" href="_s3_ergodic_moves_8hpp_source.html">S3ErgodicMoves.hpp</a>.</p>
 
 </div>
 </div>
-<a id="a621d1355e04673f405e18b5574f3d6d1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a621d1355e04673f405e18b5574f3d6d1">&#9670;&nbsp;</a></span>try_32_move()</h2>
+<a id="a71ccfff437ed4296d8c5e00ac586efbc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a71ccfff437ed4296d8c5e00ac586efbc">&#9670;&nbsp;</a></span>try_32_move()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T &gt; </div>
+template&lt;typename Manifold &gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">auto try_32_move </td>
           <td>(</td>
-          <td class="paramtype">T &amp;&amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="class_manifold.html">Manifold</a> &amp;&amp;&#160;</td>
           <td class="paramname"><em>universe</em>, </td>
         </tr>
         <tr>
@@ -676,7 +663,7 @@ template&lt;typename T &gt; </div>
 <p>This function performs a foliation-preserving (3,2) move by converting timelike edge into it's dual facet.</p>
 <dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
-    <tr><td class="paramname">T</td><td>The manifold type </td></tr>
+    <tr><td class="paramname"><a class="el" href="class_manifold.html">Manifold</a></td><td>The manifold type </td></tr>
   </table>
   </dd>
 </dl>
@@ -689,14 +676,14 @@ template&lt;typename T &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A boolean value whether the move succeeded </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_s3_ergodic_moves_8hpp_source.html#l00119">119</a> of file <a class="el" href="_s3_ergodic_moves_8hpp_source.html">S3ErgodicMoves.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_s3_ergodic_moves_8hpp_source.html#l00115">115</a> of file <a class="el" href="_s3_ergodic_moves_8hpp_source.html">S3ErgodicMoves.hpp</a>.</p>
 
 </div>
 </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Sep 22 2018 15:25:01 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon Nov 19 2018 21:49:24 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>

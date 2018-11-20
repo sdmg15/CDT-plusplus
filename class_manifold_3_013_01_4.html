@@ -71,6 +71,7 @@ $(function() {
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
+<a href="#friends">Friends</a> &#124;
 <a href="class_manifold_3_013_01_4-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Manifold&lt; 3 &gt; Class Template Reference</div>  </div>
@@ -86,7 +87,6 @@ Collaboration diagram for Manifold&lt; 3 &gt;:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_manifold_3_013_01_4__coll__graph.png" border="0" usemap="#_manifold_3_013_01_4_coll__map" alt="Collaboration graph"/></div>
 <map name="_manifold_3_013_01_4_coll__map" id="_manifold_3_013_01_4_coll__map">
-<area shape="rect" id="node2" href="struct_geometry_3_013_01_4.html" title="3D Geometry " alt="" coords="179,193,329,373"/>
 </map>
 </div>
 <table class="memberdecls">
@@ -96,28 +96,43 @@ Public Member Functions</h2></td></tr>
 &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_manifold_3_013_01_4.html#a9c2d311392ab8f88e017d9fc04623fda">Manifold</a> ()=default</td></tr>
 <tr class="memdesc:a9c2d311392ab8f88e017d9fc04623fda"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default ctor. <br /></td></tr>
 <tr class="separator:a9c2d311392ab8f88e017d9fc04623fda"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adc7b2d1b10cc0a67580c435ea6bd5eab"><td class="memItemLeft" align="right" valign="top"><a id="adc7b2d1b10cc0a67580c435ea6bd5eab"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>Manifold</b> (std::size_t desired_simplices, std::size_t desired_timeslices)</td></tr>
-<tr class="separator:adc7b2d1b10cc0a67580c435ea6bd5eab"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab3452ab7d7f815b30b43a689737d672d"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="struct_geometry_3_013_01_4.html">Geometry3</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_manifold_3_013_01_4.html#ab3452ab7d7f815b30b43a689737d672d">getGeometry</a> () const</td></tr>
-<tr class="memdesc:ab3452ab7d7f815b30b43a689737d672d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Obtain a reference to the <a class="el" href="struct_geometry.html">Geometry</a>.  <a href="#ab3452ab7d7f815b30b43a689737d672d">More...</a><br /></td></tr>
-<tr class="separator:ab3452ab7d7f815b30b43a689737d672d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a04a7f2c6e3ac9916476a9414bbfc1281"><td class="memItemLeft" align="right" valign="top">const std::unique_ptr&lt; Delaunay3 &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_manifold_3_013_01_4.html#a04a7f2c6e3ac9916476a9414bbfc1281">getUniverse</a> () const</td></tr>
-<tr class="memdesc:a04a7f2c6e3ac9916476a9414bbfc1281"><td class="mdescLeft">&#160;</td><td class="mdescRight">Obtain a reference to the triangulation pointer Note: would prefer observer_ptr&lt;T&gt;, GotW91 suggests a T*.  <a href="#a04a7f2c6e3ac9916476a9414bbfc1281">More...</a><br /></td></tr>
-<tr class="separator:a04a7f2c6e3ac9916476a9414bbfc1281"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3a50bbd526750a49bf545204da5bab57"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a3a50bbd526750a49bf545204da5bab57"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="struct_geometry_3_013_01_4.html">Geometry3</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_manifold_3_013_01_4.html#a3a50bbd526750a49bf545204da5bab57">make_geometry</a> (T &amp;universe)</td></tr>
-<tr class="memdesc:a3a50bbd526750a49bf545204da5bab57"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a <a class="el" href="struct_geometry.html">Geometry</a> of useful data from a triangulation.  <a href="#a3a50bbd526750a49bf545204da5bab57">More...</a><br /></td></tr>
-<tr class="separator:a3a50bbd526750a49bf545204da5bab57"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a68934fd27b03e7955f78fdb152a4aa7a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_manifold_3_013_01_4.html#a68934fd27b03e7955f78fdb152a4aa7a">Manifold</a> (Delaunay3 const &amp;delaunay_triangulation)</td></tr>
+<tr class="memdesc:a68934fd27b03e7955f78fdb152a4aa7a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct manifold from a triangulation.  <a href="#a68934fd27b03e7955f78fdb152a4aa7a">More...</a><br /></td></tr>
+<tr class="separator:a68934fd27b03e7955f78fdb152a4aa7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a376fe26a04c52d7055fe62ccc021cf56"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_manifold_3_013_01_4.html#a376fe26a04c52d7055fe62ccc021cf56">Manifold</a> (int_fast64_t desired_simplices, int_fast64_t desired_timeslices)</td></tr>
+<tr class="memdesc:a376fe26a04c52d7055fe62ccc021cf56"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct manifold using arguments.  <a href="#a376fe26a04c52d7055fe62ccc021cf56">More...</a><br /></td></tr>
+<tr class="separator:a376fe26a04c52d7055fe62ccc021cf56"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6aa86c74a7332878053f88a0880fd2b7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_manifold_3_013_01_4.html#a6aa86c74a7332878053f88a0880fd2b7">Manifold</a> (int_fast64_t desired_simplices, int_fast64_t desired_timeslices, double initial_radius, double radial_factor)</td></tr>
+<tr class="memdesc:a6aa86c74a7332878053f88a0880fd2b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct manifold using arguments.  <a href="#a6aa86c74a7332878053f88a0880fd2b7">More...</a><br /></td></tr>
+<tr class="separator:a6aa86c74a7332878053f88a0880fd2b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a37a1263e3a1d83bdcc7ee8f12e42872f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_geometry_3_013_01_4.html">Geometry3</a> const  &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_manifold_3_013_01_4.html#a37a1263e3a1d83bdcc7ee8f12e42872f">get_geometry</a> () const</td></tr>
+<tr class="separator:a37a1263e3a1d83bdcc7ee8f12e42872f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6185e35ab5967be30b8feca1933ebcdb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_foliated_triangulation_3_013_01_4.html">FoliatedTriangulation3</a> const  &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_manifold_3_013_01_4.html#a6185e35ab5967be30b8feca1933ebcdb">get_triangulation</a> () const</td></tr>
+<tr class="separator:a6185e35ab5967be30b8feca1933ebcdb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd3344861b8f84d2ae7ec1fd9d792530"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_manifold_3_013_01_4.html#afd3344861b8f84d2ae7ec1fd9d792530">is_valid</a> () const</td></tr>
+<tr class="separator:afd3344861b8f84d2ae7ec1fd9d792530"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ccfe34d7f8d5fc417d832e96a454ea2"><td class="memTemplParams" colspan="2">template&lt;typename Manifold &gt; </td></tr>
+<tr class="memitem:a8ccfe34d7f8d5fc417d832e96a454ea2"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="class_geometry_3_013_01_4.html">Geometry3</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="class_manifold_3_013_01_4.html#a8ccfe34d7f8d5fc417d832e96a454ea2">make_geometry</a> (<a class="el" href="class_manifold.html">Manifold</a> &amp;manifold)</td></tr>
+<tr class="memdesc:a8ccfe34d7f8d5fc417d832e96a454ea2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a <a class="el" href="class_geometry.html">Geometry</a> of useful data from a triangulation.  <a href="#a8ccfe34d7f8d5fc417d832e96a454ea2">More...</a><br /></td></tr>
+<tr class="separator:a8ccfe34d7f8d5fc417d832e96a454ea2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7929646bdc486d987c134696086a631"><td class="memItemLeft" align="right" valign="top">auto &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_manifold_3_013_01_4.html#ac7929646bdc486d987c134696086a631">set_triangulation</a> ()</td></tr>
+<tr class="separator:ac7929646bdc486d987c134696086a631"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:a12aea7ea2110e3c0943a6d2ae0b4bced"><td class="memItemLeft" align="right" valign="top"><a id="a12aea7ea2110e3c0943a6d2ae0b4bced"></a>
-<a class="el" href="struct_geometry_3_013_01_4.html">Geometry3</a>&#160;</td><td class="memItemRight" valign="bottom"><b>geometry</b></td></tr>
-<tr class="separator:a12aea7ea2110e3c0943a6d2ae0b4bced"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a003149c3c40a158a5d4d76a9b85330d4"><td class="memItemLeft" align="right" valign="top"><a id="a003149c3c40a158a5d4d76a9b85330d4"></a>
-std::unique_ptr&lt; Delaunay3 &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>universe</b></td></tr>
-<tr class="separator:a003149c3c40a158a5d4d76a9b85330d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a201b1ce3456c7002627e8bc258036435"><td class="memItemLeft" align="right" valign="top"><a id="a201b1ce3456c7002627e8bc258036435"></a>
+<a class="el" href="class_geometry_3_013_01_4.html">Geometry3</a>&#160;</td><td class="memItemRight" valign="bottom"><b>geometry_</b></td></tr>
+<tr class="separator:a201b1ce3456c7002627e8bc258036435"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a763a94da4145e1e3423c88f7781d27c2"><td class="memItemLeft" align="right" valign="top"><a id="a763a94da4145e1e3423c88f7781d27c2"></a>
+<a class="el" href="class_foliated_triangulation_3_013_01_4.html">FoliatedTriangulation3</a>&#160;</td><td class="memItemRight" valign="bottom"><b>triangulation_</b></td></tr>
+<tr class="separator:a763a94da4145e1e3423c88f7781d27c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
+Friends</h2></td></tr>
+<tr class="memitem:a3475f7bc5446b716a352688edfdf454c"><td class="memTemplParams" colspan="2"><a id="a3475f7bc5446b716a352688edfdf454c"></a>
+template&lt;std::int_fast64_t &gt; </td></tr>
+<tr class="memitem:a3475f7bc5446b716a352688edfdf454c"><td class="memTemplItemLeft" align="right" valign="top">class&#160;</td><td class="memTemplItemRight" valign="bottom"><b>MoveCommand</b></td></tr>
+<tr class="separator:a3475f7bc5446b716a352688edfdf454c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><h3>template&lt;&gt;<br />
@@ -125,10 +140,10 @@ class Manifold&lt; 3 &gt;</h3>
 
 <p>3D <a class="el" href="class_manifold.html">Manifold</a> </p>
 
-<p class="definition">Definition at line <a class="el" href="_manifold_8hpp_source.html#l00025">25</a> of file <a class="el" href="_manifold_8hpp_source.html">Manifold.hpp</a>.</p>
-</div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="ab3452ab7d7f815b30b43a689737d672d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab3452ab7d7f815b30b43a689737d672d">&#9670;&nbsp;</a></span>getGeometry()</h2>
+<p class="definition">Definition at line <a class="el" href="_manifold_8hpp_source.html#l00026">26</a> of file <a class="el" href="_manifold_8hpp_source.html">Manifold.hpp</a>.</p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a68934fd27b03e7955f78fdb152a4aa7a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a68934fd27b03e7955f78fdb152a4aa7a">&#9670;&nbsp;</a></span>Manifold() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -137,7 +152,152 @@ class Manifold&lt; 3 &gt;</h3>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="struct_geometry_3_013_01_4.html">Geometry3</a>&amp; <a class="el" href="class_manifold.html">Manifold</a>&lt; 3 &gt;::getGeometry </td>
+          <td class="memname"><a class="el" href="class_manifold.html">Manifold</a>&lt; 3 &gt;::<a class="el" href="class_manifold.html">Manifold</a> </td>
+          <td>(</td>
+          <td class="paramtype">Delaunay3 const &amp;&#160;</td>
+          <td class="paramname"><em>delaunay_triangulation</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">explicit</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Construct manifold from a triangulation. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">delaunay_triangulation</td><td>Triangulation used to construct manifold </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="_manifold_8hpp_source.html#l00034">34</a> of file <a class="el" href="_manifold_8hpp_source.html">Manifold.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a376fe26a04c52d7055fe62ccc021cf56"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a376fe26a04c52d7055fe62ccc021cf56">&#9670;&nbsp;</a></span>Manifold() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_manifold.html">Manifold</a>&lt; 3 &gt;::<a class="el" href="class_manifold.html">Manifold</a> </td>
+          <td>(</td>
+          <td class="paramtype">int_fast64_t&#160;</td>
+          <td class="paramname"><em>desired_simplices</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int_fast64_t&#160;</td>
+          <td class="paramname"><em>desired_timeslices</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Construct manifold using arguments. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">desired_simplices</td><td>Number of desired simplices </td></tr>
+    <tr><td class="paramname">desired_timeslices</td><td>Number of desired timeslices </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="_manifold_8hpp_source.html#l00042">42</a> of file <a class="el" href="_manifold_8hpp_source.html">Manifold.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a6aa86c74a7332878053f88a0880fd2b7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6aa86c74a7332878053f88a0880fd2b7">&#9670;&nbsp;</a></span>Manifold() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_manifold.html">Manifold</a>&lt; 3 &gt;::<a class="el" href="class_manifold.html">Manifold</a> </td>
+          <td>(</td>
+          <td class="paramtype">int_fast64_t&#160;</td>
+          <td class="paramname"><em>desired_simplices</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int_fast64_t&#160;</td>
+          <td class="paramname"><em>desired_timeslices</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>initial_radius</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>radial_factor</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Construct manifold using arguments. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">desired_simplices</td><td>Number of desired simplices </td></tr>
+    <tr><td class="paramname">desired_timeslices</td><td>Number of desired timeslices </td></tr>
+    <tr><td class="paramname">initial_radius</td><td>Radius of first timeslice </td></tr>
+    <tr><td class="paramname">radial_factor</td><td>Radial separation between timeslices </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="_manifold_8hpp_source.html#l00053">53</a> of file <a class="el" href="_manifold_8hpp_source.html">Manifold.hpp</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a37a1263e3a1d83bdcc7ee8f12e42872f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a37a1263e3a1d83bdcc7ee8f12e42872f">&#9670;&nbsp;</a></span>get_geometry()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_geometry_3_013_01_4.html">Geometry3</a> const&amp; <a class="el" href="class_manifold.html">Manifold</a>&lt; 3 &gt;::get_geometry </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -149,16 +309,14 @@ class Manifold&lt; 3 &gt;</h3>
   </tr>
 </table>
 </div><div class="memdoc">
+<dl class="section return"><dt>Returns</dt><dd>A read-only reference to the <a class="el" href="class_geometry.html">Geometry</a> </dd></dl>
 
-<p>Obtain a reference to the <a class="el" href="struct_geometry.html">Geometry</a>. </p>
-<dl class="section return"><dt>Returns</dt><dd>A read-only reference to the <a class="el" href="struct_geometry.html">Geometry</a> </dd></dl>
-
-<p class="definition">Definition at line <a class="el" href="_manifold_8hpp_source.html#l00058">58</a> of file <a class="el" href="_manifold_8hpp_source.html">Manifold.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_manifold_8hpp_source.html#l00086">86</a> of file <a class="el" href="_manifold_8hpp_source.html">Manifold.hpp</a>.</p>
 
 </div>
 </div>
-<a id="a04a7f2c6e3ac9916476a9414bbfc1281"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a04a7f2c6e3ac9916476a9414bbfc1281">&#9670;&nbsp;</a></span>getUniverse()</h2>
+<a id="a6185e35ab5967be30b8feca1933ebcdb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6185e35ab5967be30b8feca1933ebcdb">&#9670;&nbsp;</a></span>get_triangulation()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -167,7 +325,7 @@ class Manifold&lt; 3 &gt;</h3>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const std::unique_ptr&lt;Delaunay3&gt;&amp; <a class="el" href="class_manifold.html">Manifold</a>&lt; 3 &gt;::getUniverse </td>
+          <td class="memname"><a class="el" href="class_foliated_triangulation_3_013_01_4.html">FoliatedTriangulation3</a> const&amp; <a class="el" href="class_manifold.html">Manifold</a>&lt; 3 &gt;::get_triangulation </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -179,30 +337,56 @@ class Manifold&lt; 3 &gt;</h3>
   </tr>
 </table>
 </div><div class="memdoc">
+<dl class="section return"><dt>Returns</dt><dd>A read-only reference to the triangulation </dd></dl>
 
-<p>Obtain a reference to the triangulation pointer Note: would prefer observer_ptr&lt;T&gt;, GotW91 suggests a T*. </p>
-<dl class="section return"><dt>Returns</dt><dd>A read-only reference to the triangulation pointer </dd></dl>
-
-<p class="definition">Definition at line <a class="el" href="_manifold_8hpp_source.html#l00054">54</a> of file <a class="el" href="_manifold_8hpp_source.html">Manifold.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_manifold_8hpp_source.html#l00077">77</a> of file <a class="el" href="_manifold_8hpp_source.html">Manifold.hpp</a>.</p>
 
 </div>
 </div>
-<a id="a3a50bbd526750a49bf545204da5bab57"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3a50bbd526750a49bf545204da5bab57">&#9670;&nbsp;</a></span>make_geometry()</h2>
+<a id="afd3344861b8f84d2ae7ec1fd9d792530"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afd3344861b8f84d2ae7ec1fd9d792530">&#9670;&nbsp;</a></span>is_valid()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="class_manifold.html">Manifold</a>&lt; 3 &gt;::is_valid </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Returns</dt><dd>True if the Foliated triangulation's Delaunay triangulation is valid </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="_manifold_8hpp_source.html#l00090">90</a> of file <a class="el" href="_manifold_8hpp_source.html">Manifold.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a8ccfe34d7f8d5fc417d832e96a454ea2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8ccfe34d7f8d5fc417d832e96a454ea2">&#9670;&nbsp;</a></span>make_geometry()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T &gt; </div>
+template&lt;typename Manifold &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="struct_geometry_3_013_01_4.html">Geometry3</a> <a class="el" href="class_manifold.html">Manifold</a>&lt; 3 &gt;::make_geometry </td>
+          <td class="memname"><a class="el" href="class_geometry_3_013_01_4.html">Geometry3</a> <a class="el" href="class_manifold.html">Manifold</a>&lt; 3 &gt;::make_geometry </td>
           <td>(</td>
-          <td class="paramtype">T &amp;&#160;</td>
-          <td class="paramname"><em>universe</em></td><td>)</td>
+          <td class="paramtype"><a class="el" href="class_manifold.html">Manifold</a>&lt; 3 &gt; &amp;&#160;</td>
+          <td class="paramname"><em>manifold</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -213,22 +397,50 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Construct a <a class="el" href="struct_geometry.html">Geometry</a> of useful data from a triangulation. </p>
+<p>Construct a <a class="el" href="class_geometry.html">Geometry</a> of useful data from a triangulation. </p>
 <dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
-    <tr><td class="paramname">T</td><td>Reference type of triangulation </td></tr>
+    <tr><td class="paramname"><a class="el" href="class_manifold.html">Manifold</a></td><td>Reference type of triangulation </td></tr>
   </table>
   </dd>
 </dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">universe</td><td>Reference to triangulation </td></tr>
+    <tr><td class="paramname">manifold</td><td>Reference to triangulation </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd><a class="el" href="struct_geometry.html">Geometry</a> of triangulation </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd><a class="el" href="class_geometry.html">Geometry</a> of triangulation </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_manifold_8hpp_source.html#l00041">41</a> of file <a class="el" href="_manifold_8hpp_source.html">Manifold.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_manifold_8hpp_source.html#l00066">66</a> of file <a class="el" href="_manifold_8hpp_source.html">Manifold.hpp</a>.</p>
+
+</div>
+</div>
+<a id="ac7929646bdc486d987c134696086a631"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac7929646bdc486d987c134696086a631">&#9670;&nbsp;</a></span>set_triangulation()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto&amp; <a class="el" href="class_manifold.html">Manifold</a>&lt; 3 &gt;::set_triangulation </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Returns</dt><dd>A mutable reference to the triangulation </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="_manifold_8hpp_source.html#l00083">83</a> of file <a class="el" href="_manifold_8hpp_source.html">Manifold.hpp</a>.</p>
 
 </div>
 </div>
@@ -238,7 +450,7 @@ template&lt;typename T &gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Sep 22 2018 15:25:01 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon Nov 19 2018 21:49:24 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.14
 </small></address>
