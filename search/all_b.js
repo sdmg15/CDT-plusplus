@@ -32,8 +32,12 @@ var searchData=
   ['movealways',['MoveAlways',['../class_move_always.html',1,'MoveAlways'],['../class_move_always.html#a7cfb10f8f64b9845e034e5097664a308',1,'MoveAlways::MoveAlways()=default'],['../class_move_always.html#a03cc4f81b3fcb240a78613ce99b9ca27',1,'MoveAlways::MoveAlways(const std::size_t passes, const std::size_t checkpoint)']]],
   ['movealways_2ehpp',['MoveAlways.hpp',['../_move_always_8hpp.html',1,'']]],
   ['movecommand',['MoveCommand',['../class_move_command.html',1,'MoveCommand&lt; dimension &gt;'],['../class_move_command_3_013_01_4.html#a44474fd345a916909a7488b9ee5941cd',1,'MoveCommand&lt; 3 &gt;::MoveCommand()'],['../class_move_command_3_013_01_4.html#a5dd540705231e4886672d02b830b22f7',1,'MoveCommand&lt; 3 &gt;::MoveCommand(Manifold3 manifold)'],['../class_move_command_3_013_01_4.html#a03a9c59dae9dc2967c938475cf954856',1,'MoveCommand&lt; 3 &gt;::MoveCommand(Manifold3 manifold, Move_type move)']]],
+  ['movecommand_2ehpp',['MoveCommand.hpp',['../_move_command_8hpp.html',1,'']]],
   ['movecommand_3c_203_20_3e',['MoveCommand&lt; 3 &gt;',['../class_move_command_3_013_01_4.html',1,'']]],
   ['movecommandtest_2ecpp',['MoveCommandTest.cpp',['../_move_command_test_8cpp.html',1,'']]],
+  ['moveguard',['MoveGuard',['../class_move_guard.html',1,'']]],
+  ['moveguard_2ehpp',['MoveGuard.hpp',['../_move_guard_8hpp.html',1,'']]],
+  ['moveguardtest_2ecpp',['MoveGuardTest.cpp',['../_move_guard_test_8cpp.html',1,'']]],
   ['movemanager',['MoveManager',['../class_move_manager.html',1,'MoveManager&lt; Manifold, Moves &gt;'],['../class_move_manager.html#a8160218f9827c932b06c201339a8f2ea',1,'MoveManager::MoveManager(Manifold &amp;&amp;universe, Moves &amp;&amp;attempted_moves)'],['../class_move_manager.html#ab43ae96eb5d92aec109fe3f344adca55',1,'MoveManager::MoveManager(MoveManager const &amp;source)=delete'],['../class_move_manager.html#a7ebbfe6927add0db67c6673b35d72ecb',1,'MoveManager::MoveManager(MoveManager &amp;&amp;source)=delete']]],
   ['movemanager_2ehpp',['MoveManager.hpp',['../_move_manager_8hpp.html',1,'']]]
 ];

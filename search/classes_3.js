@@ -7,5 +7,6 @@ var searchData=
   ['movealways',['MoveAlways',['../class_move_always.html',1,'']]],
   ['movecommand',['MoveCommand',['../class_move_command.html',1,'']]],
   ['movecommand_3c_203_20_3e',['MoveCommand&lt; 3 &gt;',['../class_move_command_3_013_01_4.html',1,'']]],
+  ['moveguard',['MoveGuard',['../class_move_guard.html',1,'']]],
   ['movemanager',['MoveManager',['../class_move_manager.html',1,'']]]
 ];
