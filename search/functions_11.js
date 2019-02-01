@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['write_5ffile',['write_file',['../_utilities_8hpp.html#ab33d6916de76ea9cd1307d89c4cef330',1,'Utilities.hpp']]]
+  ['update_5fgeometry',['update_geometry',['../class_manifold_3_013_01_4.html#a46046fe5490e4dde4d7a7b2f12d84ce9',1,'Manifold&lt; 3 &gt;']]]
 ];

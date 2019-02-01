@@ -6,7 +6,7 @@ var searchData=
   ['cdt_2dgv_2ecpp',['cdt-gv.cpp',['../cdt-gv_8cpp.html',1,'']]],
   ['cdt_2dopt_2ecpp',['cdt-opt.cpp',['../cdt-opt_8cpp.html',1,'']]],
   ['cdt_2ecpp',['cdt.cpp',['../cdt_8cpp.html',1,'']]],
-  ['cell_5ftype',['Cell_type',['../_foliated_triangulation_8hpp.html#a73e46a0d9bc77f21cc68798c73282a1e',1,'FoliatedTriangulation.hpp']]],
+  ['cell_5ftype',['Cell_type',['../_foliated__triangulation_8hpp.html#a73e46a0d9bc77f21cc68798c73282a1e',1,'Foliated_triangulation.hpp']]],
   ['check',['check',['../class_move_manager.html#a883f01628315a867d5c12ebc22682efe',1,'MoveManager']]],
   ['checkpoint',['Checkpoint',['../class_metropolis.html#a1ed1b229fe9a77ab9429ce7bd97a4aed',1,'Metropolis']]],
   ['checkpoint_5f',['checkpoint_',['../class_move_algorithm.html#a763fa271dcee6b0ae893b93602cff90e',1,'MoveAlgorithm']]],

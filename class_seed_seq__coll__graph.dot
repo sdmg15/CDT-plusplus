@@ -1,6 +1,7 @@
 digraph "SeedSeq&lt; NumberType &gt;"
 {
+ // LATEX_PDF_SIZE
   edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
   node [fontname="Helvetica",fontsize="10",shape=record];
-  Node1 [label="{SeedSeq\< NumberType \>\n|- begin_\l- end_\l|+ SeedSeq()\l+ generate()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 [label="{SeedSeq\< NumberType \>\n|- begin_\l- end_\l|+ SeedSeq()\l+ generate()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Seed sequence class for high-quality pseudo-random number generator."];
 }

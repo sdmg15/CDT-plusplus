@@ -1,6 +1,4 @@
 var searchData=
 [
-  ['_7egeometryinfo',['~GeometryInfo',['../struct_geometry_info.html#a98f264ef65b659a3f0f06041dbd27676',1,'GeometryInfo']]],
-  ['_7emovemanager',['~MoveManager',['../class_move_manager.html#a7b0a03743f1bb7abc10ea5ca0ecb5b3e',1,'MoveManager']]],
-  ['_7esimplicialmanifold',['~SimplicialManifold',['../struct_simplicial_manifold.html#ad49f9c530dc4abceec0b87d4b514bf55',1,'SimplicialManifold']]]
+  ['volume_5fper_5ftimeslice',['volume_per_timeslice',['../class_geometry_3_013_01_4.html#a08e0f7e7725ab15ec2371812c3c9c384',1,'Geometry&lt; 3 &gt;']]]
 ];
