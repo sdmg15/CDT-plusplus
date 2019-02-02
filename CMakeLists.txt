@@ -134,6 +134,9 @@ else()
     )
 endif()
 
+# Qt
+find_package(Qt5 COMPONENTS Core Widgets REQUIRED)
+
 include_directories(BEFORE ${PROJECT_SOURCE_DIR}/include)
 add_executable(cdt ${PROJECT_SOURCE_DIR}/src/cdt.cpp)
 target_link_libraries(cdt
