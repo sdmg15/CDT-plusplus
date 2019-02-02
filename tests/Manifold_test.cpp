@@ -12,6 +12,7 @@
 #include <Manifold.hpp>
 #include <algorithm>
 #include <catch2/catch.hpp>
+#include <CGAL/draw_triangulation_3.h>
 
 using namespace std;
 
@@ -312,6 +313,7 @@ SCENARIO("Changing a 3-manifold", "[manifold]")
         cout << "Manifold 1 N0 is now " << manifold1.get_geometry().N0()
              << "\n";
         CHECK(manifold1.get_geometry().N0() == manifold2_N0);
+        CGAL::draw(manifold1.get_triangulation().get_delaunay());
       }
     }
   }
