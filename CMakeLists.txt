@@ -79,8 +79,7 @@ endif()
 
 # Turn off CGAL Triangulation Assertions and Postconditions
 add_definitions(-DCGAL_TRIANGULATION_NO_ASSERTIONS
-                -DCGAL_TRIANGULATION_NO_POSTCONDITIONS
-                -DCGAL_USE_BASIC_VIEWER)
+                -DCGAL_TRIANGULATION_NO_POSTCONDITIONS -DCGAL_USE_BASIC_VIEWER)
 
 # Disable CLion generation of RelWithDebInfo and MinSizeRel to avoid conflicts
 # with CGAL_SetupFlags.cmake
@@ -91,23 +90,10 @@ set(CMAKE_CONFIGURATION_TYPES
     CACHE STRING ""
     FORCE)
 
-# Extra warnings
-#add_compile_options(-Wall
-#                    -Wno-comment
-#                    -Wextra
-#                    -Wshadow
-#                    -Wnon-virtual-dtor
-#                    -Wold-style-cast
-#                    -Wcast-align
-#                    -Wunused
-#                    -Woverloaded-virtual
-#                    -Wpedantic
-#                    -Wconversion
-#                    -Wsign-conversion
-#                    -Wnull-dereference
-#                    -Wdouble-promotion
-#                    -Wformat=2
-#                    -Werror=return-type)
+# Extra warnings add_compile_options(-Wall -Wno-comment -Wextra -Wshadow -Wnon-
+# virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual
+# -Wpedantic -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-
+# promotion -Wformat=2 -Werror=return-type)
 
 # Easier navigation in an IDE when projects are organized in folders.
 set_property(GLOBAL PROPERTY USE_FOLDERS ON)
@@ -135,17 +121,20 @@ else()
 endif()
 
 # Qt
-find_package(Qt5 COMPONENTS Core Widgets REQUIRED)
+set(CMAKE_INCLUDE_CURRENT_DIR ON)
+set(CMAKE_AUTOMOC ON)
+set(CMAKE_AUTOUIC ON)
+find_package(Qt5Widgets CONFIG REQUIRED)
 
-include_directories(BEFORE ${PROJECT_SOURCE_DIR}/include)
+include_directories(BEFORE
+                    ${PROJECT_SOURCE_DIR}/include
+                    ${Qt5Widgets_INCLUDES})
 add_executable(cdt ${PROJECT_SOURCE_DIR}/src/cdt.cpp)
 target_link_libraries(cdt
-                      PRIVATE ${CGAL_LIBRARIES}
-                              CONAN_PKG::boost
-#                              CONAN_PKG::eigen
-#                              CONAN_PKG::TBB
-                              CONAN_PKG::docopt
-                              CONAN_PKG::date
+                      PRIVATE ${CGAL_LIBRARIES} CONAN_PKG::boost
+                              # CONAN_PKG::eigen
+                              # CONAN_PKG::TBB
+                              CONAN_PKG::docopt CONAN_PKG::date
                               CONAN_PKG::gsl_microsoft)
 # Activate C++17
 target_compile_features(cdt PRIVATE cxx_std_17)
