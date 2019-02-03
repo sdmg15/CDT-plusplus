@@ -79,8 +79,7 @@ endif()
 
 # Turn off CGAL Triangulation Assertions and Postconditions
 add_definitions(-DCGAL_TRIANGULATION_NO_ASSERTIONS
-                -DCGAL_TRIANGULATION_NO_POSTCONDITIONS
-                -DCGAL_USE_BASIC_VIEWER)
+                -DCGAL_TRIANGULATION_NO_POSTCONDITIONS -DCGAL_USE_BASIC_VIEWER)
 
 # Disable CLion generation of RelWithDebInfo and MinSizeRel to avoid conflicts
 # with CGAL_SetupFlags.cmake
