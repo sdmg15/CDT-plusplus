@@ -1,0 +1,5 @@
+<map id="include/Ergodic_moves_3.hpp" name="include/Ergodic_moves_3.hpp">
+<area shape="rect" id="node1" title="Pachner moves on 2+1 dimensional foliated Delaunay triangulations." alt="" coords="92,5,251,44"/>
+<area shape="rect" id="node2" href="$_ergodic__moves__3__test_8cpp.html" title="Tests for ergodic moves on foliated triangulations." alt="" coords="5,92,150,131"/>
+<area shape="rect" id="node3" href="$_move__guard__test_8cpp.html" title="Tests for MoveGuard RAII." alt="" coords="174,99,355,124"/>
+</map>
