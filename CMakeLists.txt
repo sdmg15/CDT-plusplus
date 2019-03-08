@@ -90,10 +90,23 @@ set(CMAKE_CONFIGURATION_TYPES
     CACHE STRING ""
     FORCE)
 
-# Extra warnings add_compile_options(-Wall -Wno-comment -Wextra -Wshadow -Wnon-
-# virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual
-# -Wpedantic -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-
-# promotion -Wformat=2 -Werror=return-type)
+# Extra warnings
+#add_compile_options(-Wall
+#                    -Wno-comment
+#                    -Wextra
+#                    -Wshadow
+#                    -Wnon-virtual-dtor
+#                    -Wold-style-cast
+#                    -Wcast-align
+#                    -Wunused
+#                    -Woverloaded-virtual
+#                    -Wpedantic
+#                    -Wconversion
+#                    -Wsign-conversion
+#                    -Wnull-dereference
+#                    -Wdouble-promotion
+#                    -Wformat=2
+#                    -Werror=return-type)
 
 # Easier navigation in an IDE when projects are organized in folders.
 set_property(GLOBAL PROPERTY USE_FOLDERS ON)
@@ -120,15 +133,7 @@ else()
     )
 endif()
 
-# Qt
-set(CMAKE_INCLUDE_CURRENT_DIR ON)
-set(CMAKE_AUTOMOC ON)
-set(CMAKE_AUTOUIC ON)
-find_package(Qt5Widgets CONFIG REQUIRED)
-
-include_directories(BEFORE
-                    ${PROJECT_SOURCE_DIR}/include
-                    ${Qt5Widgets_INCLUDES})
+include_directories(BEFORE ${PROJECT_SOURCE_DIR}/include)
 add_executable(cdt ${PROJECT_SOURCE_DIR}/src/cdt.cpp)
 target_link_libraries(cdt
                       PRIVATE ${CGAL_LIBRARIES} CONAN_PKG::boost
@@ -172,6 +177,17 @@ endif(UNIX)
 # add_executable(delaunay_triangulation
 # ${PROJECT_SOURCE_DIR}/src/delaunay_triangulation.cpp)
 # target_link_libraries(delaunay_triangulation PRIVATE ${CGAL_LIBRARIES})
+
+# Qt
+set(CMAKE_INCLUDE_CURRENT_DIR ON)
+set(CMAKE_AUTOMOC ON)
+set(CMAKE_AUTOUIC ON)
+set(CMAKE_PREFIX_PATH "/usr/local/Cellar/qt/5.12.1/lib/cmake/Qt5/")
+find_package(Qt5 COMPONENTS Core Widgets Xml OpenGL REQUIRED)
+#find_package(Qt5Xml REQUIRED)
+# Draw triangulations uses Qt
+add_executable(draw_triangulation_3 ${PROJECT_SOURCE_DIR}/src/draw_triangulation_3.cpp)
+target_link_libraries(draw_triangulation_3 PRIVATE ${CGAL_LIBRARIES} Qt5::Core Qt5::Widgets Qt5::Xml Qt5::OpenGL)
 
 #
 # Tests    ##
