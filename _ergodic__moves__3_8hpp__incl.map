@@ -1,10 +1,12 @@
 <map id="include/Ergodic_moves_3.hpp" name="include/Ergodic_moves_3.hpp">
-<area shape="rect" id="node1" title="Pachner moves on 2+1 dimensional foliated Delaunay triangulations." alt="" coords="1495,5,1654,44"/>
-<area shape="rect" id="node2" href="$_manifold_8hpp.html" title="Data structures for manifolds." alt="" coords="1526,92,1624,117"/>
+<area shape="rect" id="node1" title="Pachner moves on 2+1 dimensional foliated Delaunay triangulations." alt="" coords="1601,5,1760,44"/>
+<area shape="rect" id="node2" href="$_manifold_8hpp.html" title="Data structures for manifolds." alt="" coords="1578,92,1676,117"/>
+<area shape="rect" id="node32" title=" " alt="" coords="1700,92,1768,117"/>
 <area shape="rect" id="node3" href="$_foliated__triangulation_8hpp.html" title="Create foliated spherical triangulations." alt="" coords="865,239,1040,264"/>
 <area shape="rect" id="node17" title=" " alt="" coords="1672,412,1750,437"/>
-<area shape="rect" id="node27" href="$_geometry_8hpp.html" title="Data structures for geometry." alt="" coords="1444,165,1549,191"/>
+<area shape="rect" id="node27" href="$_geometry_8hpp.html" title="Data structures for geometry." alt="" coords="1445,165,1550,191"/>
 <area shape="rect" id="node30" title=" " alt="" coords="1664,165,1733,191"/>
+<area shape="rect" id="node31" title=" " alt="" coords="1757,165,1865,191"/>
 <area shape="rect" id="node4" title=" " alt="" coords="623,325,847,351"/>
 <area shape="rect" id="node5" title=" " alt="" coords="870,312,1034,364"/>
 <area shape="rect" id="node6" title=" " alt="" coords="5,319,176,357"/>

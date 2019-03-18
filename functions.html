@@ -77,6 +77,12 @@ $(function() {
 <li>Alpha_
 : <a class="el" href="class_metropolis.html#a943281d3bd65d50063098cc9d2e37d46">Metropolis</a>
 </li>
+<li>are_simplex_types_valid()
+: <a class="el" href="class_manifold_3_013_01_4.html#a4a09beca4af9d64d96aed33c22790172">Manifold&lt; 3 &gt;</a>
+</li>
+<li>are_vertex_timevalues_valid()
+: <a class="el" href="class_manifold_3_013_01_4.html#a9754b2d4cb44aed21a71cb767b21cbf4">Manifold&lt; 3 &gt;</a>
+</li>
 <li>attempt_move()
 : <a class="el" href="class_metropolis.html#acbb912b7ece7f277f76b8f501f6d213a">Metropolis</a>
 </li>
@@ -96,6 +102,12 @@ $(function() {
 </li>
 <li>check
 : <a class="el" href="class_move_manager.html#a883f01628315a867d5c12ebc22682efe">MoveManager&lt; Manifold, Moves &gt;</a>
+</li>
+<li>check_cells()
+: <a class="el" href="class_geometry_3_013_01_4.html#af1293e92bd70f1c9c7bef07794a8664b">Geometry&lt; 3 &gt;</a>
+</li>
+<li>check_simplices()
+: <a class="el" href="class_manifold_3_013_01_4.html#a190d6c42d623757b98f36f18425d1260">Manifold&lt; 3 &gt;</a>
 </li>
 <li>Checkpoint()
 : <a class="el" href="class_metropolis.html#a1ed1b229fe9a77ab9429ce7bd97a4aed">Metropolis</a>
@@ -143,8 +155,11 @@ $(function() {
 : <a class="el" href="class_foliated__triangulation_3_013_01_4.html#a19644248f7a488c79466f3ee6c14c798">Foliated_triangulation&lt; 3 &gt;</a>
 , <a class="el" href="class_manifold_3_013_01_4.html#aaf6fced4df10c837691068b976a15a0c">Manifold&lt; 3 &gt;</a>
 </li>
+<li>enqueue()
+: <a class="el" href="class_command.html#aa91fd84aa12d5dd52c4317ee319da123">Command&lt; ManifoldType, FunctionType &gt;</a>
+</li>
 <li>execute()
-: <a class="el" href="class_move__command_3_013_01_4.html#ae5b919925804529da18f4456cc5da410">Move_command&lt; 3 &gt;</a>
+: <a class="el" href="class_command.html#acfebd1536af4acaa8dda207281cd85a7">Command&lt; ManifoldType, FunctionType &gt;</a>
 </li>
 </ul>
 
@@ -198,10 +213,13 @@ $(function() {
 : <a class="el" href="class_manifold_3_013_01_4.html#a37a1263e3a1d83bdcc7ee8f12e42872f">Manifold&lt; 3 &gt;</a>
 </li>
 <li>get_manifold()
-: <a class="el" href="class_move__command_3_013_01_4.html#a6d0ee2e5def43062e86e568dd9925fd9">Move_command&lt; 3 &gt;</a>
+: <a class="el" href="class_command.html#a1343ce6fe37bb710255d06600fe4677f">Command&lt; ManifoldType, FunctionType &gt;</a>
 </li>
 <li>get_one_three()
 : <a class="el" href="class_geometry_3_013_01_4.html#a844e859cee9d6a22d11e3b7541479c07">Geometry&lt; 3 &gt;</a>
+</li>
+<li>get_results()
+: <a class="el" href="class_command.html#a85f6ba2e96f6cb997c4122f5d4f29282">Command&lt; ManifoldType, FunctionType &gt;</a>
 </li>
 <li>get_spacelike_edges()
 : <a class="el" href="class_geometry_3_013_01_4.html#aa6428c2d2020f26782d13071e065efea">Geometry&lt; 3 &gt;</a>
@@ -221,8 +239,8 @@ $(function() {
 <li>get_vertices()
 : <a class="el" href="class_geometry_3_013_01_4.html#a69ac67747848c8aaa3b07075e734aaa5">Geometry&lt; 3 &gt;</a>
 </li>
-<li>getMoves()
-: <a class="el" href="class_move__command_3_013_01_4.html#a5cecf8aff259a5409ada37b03c4cb04a">Move_command&lt; 3 &gt;</a>
+<li>get_vertices_from_cells()
+: <a class="el" href="class_manifold_3_013_01_4.html#a16ee0051a765573959684f8b281b5218">Manifold&lt; 3 &gt;</a>
 </li>
 <li>getSpacelike_facets()
 : <a class="el" href="struct_geometry_info.html#a4bcb96e351ad10e70d879436f36ff620">GeometryInfo</a>
@@ -241,9 +259,6 @@ $(function() {
 <li>is_foliated()
 : <a class="el" href="class_foliated__triangulation_3_013_01_4.html#aa33957dbf85569e88bf5bfd68354cb9e">Foliated_triangulation&lt; 3 &gt;</a>
 , <a class="el" href="class_manifold_3_013_01_4.html#ab04f89ba176ccf06c38438f6153e996d">Manifold&lt; 3 &gt;</a>
-</li>
-<li>is_updated()
-: <a class="el" href="class_move__command_3_013_01_4.html#a8c4887670493e2f397fd0873d32c2dc9">Move_command&lt; 3 &gt;</a>
 </li>
 <li>is_valid()
 : <a class="el" href="class_foliated__triangulation_3_013_01_4.html#a2bae08eac22093f609c9164f948626a8">Foliated_triangulation&lt; 3 &gt;</a>
@@ -289,7 +304,7 @@ $(function() {
 : <a class="el" href="class_foliated__triangulation_3_013_01_4.html#aeffcdcbede3f7b863ffe70de39538d00">Foliated_triangulation&lt; 3 &gt;</a>
 </li>
 <li>Manifold()
-: <a class="el" href="class_manifold_3_013_01_4.html#a68934fd27b03e7955f78fdb152a4aa7a">Manifold&lt; 3 &gt;</a>
+: <a class="el" href="class_manifold_3_013_01_4.html#a04910244458a92c66b1c308119fa04be">Manifold&lt; 3 &gt;</a>
 </li>
 <li>max_time()
 : <a class="el" href="class_geometry_3_013_01_4.html#ae9378ddc22e040fe16fa5bfac6fae936">Geometry&lt; 3 &gt;</a>
@@ -301,12 +316,6 @@ $(function() {
 <li>min_time()
 : <a class="el" href="class_geometry_3_013_01_4.html#a2b575189d3b20c3631fcc9aa17314473">Geometry&lt; 3 &gt;</a>
 , <a class="el" href="class_manifold_3_013_01_4.html#a7ab906279a458131e9041cfffdd8f498">Manifold&lt; 3 &gt;</a>
-</li>
-<li>move_23()
-: <a class="el" href="class_move__command_3_013_01_4.html#a446cba72fffaa1035aea7b24d2a6df2e">Move_command&lt; 3 &gt;</a>
-</li>
-<li>Move_command()
-: <a class="el" href="class_move__command_3_013_01_4.html#aca55fd8592be936d4f515e46e12e2074">Move_command&lt; 3 &gt;</a>
 </li>
 <li>MoveAlgorithm()
 : <a class="el" href="class_move_algorithm.html#aa237e50a94d78ef47615fd692d251dcb">MoveAlgorithm</a>
@@ -437,12 +446,6 @@ $(function() {
 <li>set_delaunay()
 : <a class="el" href="class_foliated__triangulation_3_013_01_4.html#a11c1989af81d0e09aeadf6960404f1a8">Foliated_triangulation&lt; 3 &gt;</a>
 </li>
-<li>set_geometry()
-: <a class="el" href="class_manifold_3_013_01_4.html#ad6ae301f74e8cb5fd86d4c184f38a3df">Manifold&lt; 3 &gt;</a>
-</li>
-<li>set_successful_moves()
-: <a class="el" href="class_move__command_3_013_01_4.html#acfe343bbc0eacf64ca4b4fc2e4b20452">Move_command&lt; 3 &gt;</a>
-</li>
 <li>set_triangulation()
 : <a class="el" href="class_manifold_3_013_01_4.html#ac7929646bdc486d987c134696086a631">Manifold&lt; 3 &gt;</a>
 </li>
@@ -457,7 +460,7 @@ $(function() {
 , <a class="el" href="class_manifold_3_013_01_4.html#a0e5e838c5fa360fae30e36558cfd923d">Manifold&lt; 3 &gt;</a>
 </li>
 <li>SimplicialManifold()
-: <a class="el" href="struct_simplicial_manifold.html#ac2ac0112454bd2197c086c4642018892">SimplicialManifold</a>
+: <a class="el" href="struct_simplicial_manifold.html#a968764303213d3a1e7ba20a89f3829eb">SimplicialManifold</a>
 </li>
 <li>SixTwoMoves()
 : <a class="el" href="class_move_algorithm.html#afe84123bec895551c5c19d200522c21c">MoveAlgorithm</a>
@@ -470,21 +473,6 @@ $(function() {
 </li>
 <li>start()
 : <a class="el" href="struct_simulation.html#aaa18a4889fe4a15cba8fb1b1f37bfa62">Simulation</a>
-</li>
-<li>successful_23_moves()
-: <a class="el" href="class_move__command_3_013_01_4.html#a0f374e1b895c687c67c1fd7a4e978c11">Move_command&lt; 3 &gt;</a>
-</li>
-<li>successful_26_moves()
-: <a class="el" href="class_move__command_3_013_01_4.html#a2fa9640ad3d9903ec269f623cafa8115">Move_command&lt; 3 &gt;</a>
-</li>
-<li>successful_32_moves()
-: <a class="el" href="class_move__command_3_013_01_4.html#a5b011abd4d8fea734a735fe19e049084">Move_command&lt; 3 &gt;</a>
-</li>
-<li>successful_44_moves()
-: <a class="el" href="class_move__command_3_013_01_4.html#ac730ccd2903e66922cb783db5a4ad02e">Move_command&lt; 3 &gt;</a>
-</li>
-<li>successful_62_moves()
-: <a class="el" href="class_move__command_3_013_01_4.html#a29fae862bef912bba0e8b6ea4a69890e">Move_command&lt; 3 &gt;</a>
 </li>
 <li>successful_moves_
 : <a class="el" href="class_move_algorithm.html#ac92b39278cdd4a49b9e0dc34289b0f26">MoveAlgorithm</a>
@@ -528,9 +516,6 @@ $(function() {
 </li>
 <li>triangulation
 : <a class="el" href="struct_simplicial_manifold.html#a539e6a163d62076aac4067a16e7f16be">SimplicialManifold</a>
-</li>
-<li>try_23_move()
-: <a class="el" href="class_move__command_3_013_01_4.html#ae3d3b081823a39eed89c5dcbd1085204">Move_command&lt; 3 &gt;</a>
 </li>
 <li>two_two
 : <a class="el" href="struct_geometry_info.html#a57ac0dca72a21c03fdc4a95cdab9a0c5">GeometryInfo</a>
@@ -581,7 +566,7 @@ $(function() {
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Feb 24 2019 22:54:13 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon Mar 18 2019 16:30:26 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.15
 </small></address>

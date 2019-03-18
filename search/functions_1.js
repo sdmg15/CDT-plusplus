@@ -2,7 +2,9 @@ var searchData=
 [
   ['calculatea1',['CalculateA1',['../class_metropolis.html#ac84f9ee639bd0458bc319048689d07ed',1,'Metropolis']]],
   ['calculatea2',['CalculateA2',['../class_metropolis.html#a4ded13f65c50b08b81a9e92b2ba471fc',1,'Metropolis']]],
+  ['check_5fcells',['check_cells',['../class_geometry_3_013_01_4.html#af1293e92bd70f1c9c7bef07794a8664b',1,'Geometry&lt; 3 &gt;']]],
   ['check_5fmove',['check_move',['../_ergodic__moves__3_8hpp.html#a8b1b8c6bc065858ba3abde8e1b53553f',1,'manifold3_moves']]],
+  ['check_5fsimplices',['check_simplices',['../class_manifold_3_013_01_4.html#a190d6c42d623757b98f36f18425d1260',1,'Manifold&lt; 3 &gt;']]],
   ['checkpoint',['Checkpoint',['../class_metropolis.html#a1ed1b229fe9a77ab9429ce7bd97a4aed',1,'Metropolis']]],
   ['classify_5fcells',['classify_cells',['../class_geometry_3_013_01_4.html#a9ee263821c4030bef902da70159fd63e',1,'Geometry&lt; 3 &gt;']]],
   ['classify_5fedge',['classify_edge',['../class_geometry_3_013_01_4.html#ad196b4674880b61fa074eba13c994a9f',1,'Geometry&lt; 3 &gt;']]],
