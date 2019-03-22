@@ -120,12 +120,6 @@ else()
     )
 endif()
 
-# Qt
-set(CMAKE_INCLUDE_CURRENT_DIR ON)
-set(CMAKE_AUTOMOC ON)
-set(CMAKE_AUTOUIC ON)
-find_package(Qt5Widgets CONFIG REQUIRED)
-
 include_directories(BEFORE
                     ${PROJECT_SOURCE_DIR}/include
                     ${Qt5Widgets_INCLUDES})
@@ -169,19 +163,11 @@ if(UNIX)
 
 endif(UNIX)
 
-# Examples
-add_subdirectory(examples)
+#
+# Examples ##
+#
 
-# Qt
-set(CMAKE_INCLUDE_CURRENT_DIR ON)
-set(CMAKE_AUTOMOC ON)
-set(CMAKE_AUTOUIC ON)
-set(CMAKE_PREFIX_PATH "/usr/local/Cellar/qt/5.12.1/lib/cmake/Qt5/")
-find_package(Qt5 COMPONENTS Core Widgets Xml OpenGL REQUIRED)
-#find_package(Qt5Xml REQUIRED)
-# Draw triangulations uses Qt
-add_executable(draw_triangulation_3 ${PROJECT_SOURCE_DIR}/src/draw_triangulation_3.cpp)
-target_link_libraries(draw_triangulation_3 PRIVATE ${CGAL_LIBRARIES} Qt5::Core Qt5::Widgets Qt5::Xml Qt5::OpenGL)
+add_subdirectory(examples)
 
 #
 # Tests    ##

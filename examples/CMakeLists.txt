@@ -47,6 +47,6 @@ if(UNIX)
   # Tests
   enable_testing()
 
-  add_test(NAME DrawTriangulation COMMAND $<TARGET_FILE:draw_triangulation_3>)
+#  add_test(NAME DrawTriangulation COMMAND $<TARGET_FILE:draw_triangulation_3>)
 
 endif(UNIX)
