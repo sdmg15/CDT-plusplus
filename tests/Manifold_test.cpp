@@ -12,6 +12,7 @@
 #include <Manifold.hpp>
 #include <algorithm>
 #include <catch2/catch.hpp>
+#include <CGAL/draw_triangulation_3.h>
 
 using namespace std;
 
