@@ -67,7 +67,7 @@ is the [PitchFork Layout], as follows:
 ### Prerequisites
 
 - AppleClang, [clang-6], or [gcc-8]
-- [Homebrew] or [Linuxbrew]
+- [Homebrew]
 - [Conan]
 - [CMake]
 - [Ninja]
@@ -356,7 +356,6 @@ Please see [CONTRIBUTING.md](.github/CONTRIBUTING.md) and our [CODE_OF_CONDUCT.m
 [Model Optimization]: https://www.comet.ml/parameter-optimization
 [virtual environment]: https://docs.python.org/3/tutorial/venv.html
 [Conan]: https://github.com/conan-io/conan
-[Linuxbrew]: https://linuxbrew.sh/
 [clang-6]: https://releases.llvm.org/6.0.1/tools/clang/docs/ReleaseNotes.html
 [gcc-8]: https://gcc.gnu.org/gcc-8/
 [C++]: https://isocpp.org/

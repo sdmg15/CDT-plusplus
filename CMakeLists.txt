@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.11)
+cmake_minimum_required(VERSION 3.10)
 
 project(CDT-plusplus VERSION 0.1.8 LANGUAGES CXX)
 
@@ -176,9 +176,8 @@ if(UNIX)
 
 endif(UNIX)
 
-# add_executable(delaunay_triangulation
-# ${PROJECT_SOURCE_DIR}/src/delaunay_triangulation.cpp)
-# target_link_libraries(delaunay_triangulation PRIVATE ${CGAL_LIBRARIES})
+# Examples
+add_subdirectory(examples)
 
 #
 # Tests    ##

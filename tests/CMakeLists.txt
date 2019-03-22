@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.11)
+cmake_minimum_required(VERSION 3.10)
 
 add_executable(CDT_test
                ${PROJECT_SOURCE_DIR}/tests/main.cpp
