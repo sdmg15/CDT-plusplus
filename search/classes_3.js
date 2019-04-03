@@ -6,5 +6,6 @@ var searchData=
   ['move_5fguard',['Move_guard',['../class_move__guard.html',1,'']]],
   ['movealgorithm',['MoveAlgorithm',['../class_move_algorithm.html',1,'']]],
   ['movealways',['MoveAlways',['../class_move_always.html',1,'']]],
+  ['movecommand',['MoveCommand',['../class_move_command.html',1,'']]],
   ['movemanager',['MoveManager',['../class_move_manager.html',1,'']]]
 ];

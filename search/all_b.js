@@ -35,6 +35,7 @@ var searchData=
   ['movealgorithmstest_2ecpp',['MoveAlgorithmsTest.cpp',['../_move_algorithms_test_8cpp.html',1,'']]],
   ['movealways',['MoveAlways',['../class_move_always.html',1,'MoveAlways'],['../class_move_always.html#a7cfb10f8f64b9845e034e5097664a308',1,'MoveAlways::MoveAlways()=default'],['../class_move_always.html#a03cc4f81b3fcb240a78613ce99b9ca27',1,'MoveAlways::MoveAlways(const std::size_t passes, const std::size_t checkpoint)']]],
   ['movealways_2ehpp',['MoveAlways.hpp',['../_move_always_8hpp.html',1,'']]],
+  ['movecommand',['MoveCommand',['../class_move_command.html',1,'']]],
   ['movemanager',['MoveManager',['../class_move_manager.html',1,'MoveManager&lt; Manifold, Moves &gt;'],['../class_move_manager.html#a8160218f9827c932b06c201339a8f2ea',1,'MoveManager::MoveManager(Manifold &amp;&amp;universe, Moves &amp;&amp;attempted_moves)'],['../class_move_manager.html#ab43ae96eb5d92aec109fe3f344adca55',1,'MoveManager::MoveManager(MoveManager const &amp;source)=delete'],['../class_move_manager.html#a7ebbfe6927add0db67c6673b35d72ecb',1,'MoveManager::MoveManager(MoveManager &amp;&amp;source)=delete']]],
   ['movemanager_2ehpp',['MoveManager.hpp',['../_move_manager_8hpp.html',1,'']]]
 ];

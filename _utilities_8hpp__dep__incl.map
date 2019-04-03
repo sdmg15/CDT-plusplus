@@ -1,22 +1,22 @@
 <map id="include/Utilities.hpp" name="include/Utilities.hpp">
 <area shape="rect" id="node1" title="Utility functions." alt="" coords="1116,5,1252,31"/>
 <area shape="rect" id="node2" href="$_foliated__triangulation_8hpp.html" title="Create foliated spherical triangulations." alt="" coords="761,79,981,104"/>
-<area shape="rect" id="node14" href="$_utilities__test_8cpp.html" title="Tests on utility functions." alt="" coords="1109,332,1260,357"/>
+<area shape="rect" id="node13" href="$_utilities__test_8cpp.html" title="Tests on utility functions." alt="" coords="1109,332,1260,357"/>
 <area shape="rect" id="node18" href="$_s3_triangulation_8hpp.html" title="Functions on 3D Spherical Delaunay Triangulations." alt="" coords="1426,79,1612,104"/>
-<area shape="rect" id="node3" href="$_geometry_8hpp.html" title="Data structures for geometry." alt="" coords="852,159,1002,184"/>
-<area shape="rect" id="node4" href="$_manifold_8hpp.html" title="Data structures for manifolds." alt="" coords="709,245,852,271"/>
+<area shape="rect" id="node3" href="$_manifold_8hpp.html" title="Data structures for manifolds." alt="" coords="709,245,852,271"/>
+<area shape="rect" id="node15" href="$_geometry_8hpp.html" title="Data structures for geometry." alt="" coords="852,159,1002,184"/>
 <area shape="rect" id="node17" href="$_foliated__triangulation__test_8cpp.html" title="Tests for foliated triangulations." alt="" coords="595,152,776,191"/>
+<area shape="rect" id="node4" href="$_ergodic__moves__3_8hpp.html" title="Pachner moves on 2+1 dimensional foliated Delaunay triangulations." alt="" coords="926,325,1085,364"/>
+<area shape="rect" id="node5" href="$_move__command_8hpp.html" title="Do ergodic moves using the Command pattern." alt="" coords="746,419,938,444"/>
+<area shape="rect" id="node9" href="$initialize_8cpp.html" title="Generates initial spacetimes." alt="" coords="5,332,121,357"/>
+<area shape="rect" id="node10" href="$_manifold__test_8cpp_source.html" title=" " alt="" coords="144,332,302,357"/>
+<area shape="rect" id="node11" href="$_s3_action_test_8cpp_source.html" title=" " alt="" coords="326,332,482,357"/>
+<area shape="rect" id="node12" href="$_tetrahedron__test_8cpp_source.html" title=" " alt="" coords="507,332,686,357"/>
+<area shape="rect" id="node14" href="$_vertex_test_8cpp_source.html" title=" " alt="" coords="710,332,851,357"/>
+<area shape="rect" id="node7" href="$_ergodic__moves__3__test_8cpp.html" title="Tests for ergodic moves on foliated triangulations." alt="" coords="1167,412,1312,451"/>
+<area shape="rect" id="node8" href="$_move__guard__test_8cpp.html" title="Tests for MoveGuard RAII." alt="" coords="962,419,1143,444"/>
+<area shape="rect" id="node6" href="$_move__command__test_8cpp.html" title="Tests for moves." alt="" coords="766,499,918,537"/>
 <area shape="rect" id="node16" href="$_geometry__test_8cpp_source.html" title=" " alt="" coords="876,245,1042,271"/>
-<area shape="rect" id="node5" href="$_ergodic__moves__3_8hpp.html" title="Pachner moves on 2+1 dimensional foliated Delaunay triangulations." alt="" coords="926,325,1085,364"/>
-<area shape="rect" id="node6" href="$_move__command_8hpp.html" title="Do ergodic moves using the Command pattern." alt="" coords="746,419,938,444"/>
-<area shape="rect" id="node10" href="$initialize_8cpp.html" title="Generates initial spacetimes." alt="" coords="5,332,121,357"/>
-<area shape="rect" id="node11" href="$_manifold__test_8cpp_source.html" title=" " alt="" coords="144,332,302,357"/>
-<area shape="rect" id="node12" href="$_s3_action_test_8cpp_source.html" title=" " alt="" coords="326,332,482,357"/>
-<area shape="rect" id="node13" href="$_tetrahedron__test_8cpp_source.html" title=" " alt="" coords="507,332,686,357"/>
-<area shape="rect" id="node15" href="$_vertex_test_8cpp_source.html" title=" " alt="" coords="710,332,851,357"/>
-<area shape="rect" id="node8" href="$_ergodic__moves__3__test_8cpp.html" title="Tests for ergodic moves on foliated triangulations." alt="" coords="1167,412,1312,451"/>
-<area shape="rect" id="node9" href="$_move__guard__test_8cpp.html" title="Tests for MoveGuard RAII." alt="" coords="962,419,1143,444"/>
-<area shape="rect" id="node7" href="$_move__command__test_8cpp.html" title="Tests for moves." alt="" coords="766,499,918,537"/>
 <area shape="rect" id="node19" href="$_s3_ergodic_moves_8hpp.html" title="Pachner moves on 3D Delaunay Triangulations." alt="" coords="1478,245,1672,271"/>
 <area shape="rect" id="node31" href="$_simplicial_manifold_8hpp.html" title="Data structures for simplicial manifolds." alt="" coords="1871,159,2071,184"/>
 <area shape="rect" id="node36" href="$_sphere_test_8cpp.html" title="Tests for spheres." alt="" coords="1391,159,1537,184"/>
