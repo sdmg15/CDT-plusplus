@@ -71,7 +71,6 @@ $(function() {
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pri-methods">Private Member Functions</a> &#124;
-<a href="#pri-static-methods">Static Private Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_geometry_3_013_01_4-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -88,7 +87,7 @@ Collaboration diagram for Geometry&lt; 3 &gt;:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_geometry_3_013_01_4__coll__graph.png" border="0" usemap="#_geometry_3_013_01_4_coll__map" alt="Collaboration graph"/></div>
 <map name="_geometry_3_013_01_4_coll__map" id="_geometry_3_013_01_4_coll__map">
-<area shape="rect"  title="3D Geometry" alt="" coords="377,207,544,613"/>
+<area shape="rect"  title="3D Geometry" alt="" coords="377,207,544,600"/>
 <area shape="rect"  title=" " alt="" coords="5,19,188,92"/>
 <area shape="rect"  title=" " alt="" coords="212,12,344,99"/>
 <area shape="rect"  title=" " alt="" coords="369,19,553,92"/>
@@ -106,9 +105,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a7ce72e159359beb2716e508cad5fd45c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_geometry_3_013_01_4.html#a7ce72e159359beb2716e508cad5fd45c">Geometry</a> (<a class="el" href="class_foliated__triangulation_3_013_01_4.html">FoliatedTriangulation3</a> const &amp;triangulation)</td></tr>
 <tr class="memdesc:a7ce72e159359beb2716e508cad5fd45c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor with triangulation.  <a href="#a7ce72e159359beb2716e508cad5fd45c">More...</a><br /></td></tr>
 <tr class="separator:a7ce72e159359beb2716e508cad5fd45c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af1293e92bd70f1c9c7bef07794a8664b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_geometry_3_013_01_4.html#af1293e92bd70f1c9c7bef07794a8664b">check_cells</a> (std::vector&lt; Cell_handle &gt; const &amp;cells) const</td></tr>
-<tr class="memdesc:af1293e92bd70f1c9c7bef07794a8664b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check that all cells are correctly classified.  <a href="#af1293e92bd70f1c9c7bef07794a8664b">More...</a><br /></td></tr>
-<tr class="separator:af1293e92bd70f1c9c7bef07794a8664b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a26ad87b39c83955d5af9f6d6cb44a693"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_geometry_3_013_01_4.html#a26ad87b39c83955d5af9f6d6cb44a693">check_cells</a> (std::vector&lt; Cell_handle &gt; const &amp;cells) const -&gt; bool</td></tr>
+<tr class="memdesc:a26ad87b39c83955d5af9f6d6cb44a693"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check that all cells are correctly classified.  <a href="#a26ad87b39c83955d5af9f6d6cb44a693">More...</a><br /></td></tr>
+<tr class="separator:a26ad87b39c83955d5af9f6d6cb44a693"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad196b4674880b61fa074eba13c994a9f"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_geometry_3_013_01_4.html#ad196b4674880b61fa074eba13c994a9f">classify_edge</a> (Edge_handle const &amp;edge, bool debugging=false) const -&gt; bool</td></tr>
 <tr class="memdesc:ad196b4674880b61fa074eba13c994a9f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Predicate to classify edge as timelike or spacelike.  <a href="#ad196b4674880b61fa074eba13c994a9f">More...</a><br /></td></tr>
 <tr class="separator:ad196b4674880b61fa074eba13c994a9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -204,12 +203,6 @@ Private Member Functions</h2></td></tr>
 <tr class="memdesc:a08e0f7e7725ab15ec2371812c3c9c384"><td class="mdescLeft">&#160;</td><td class="mdescRight">Collect spacelike facets into a container indexed by time value.  <a href="#a08e0f7e7725ab15ec2371812c3c9c384">More...</a><br /></td></tr>
 <tr class="separator:a08e0f7e7725ab15ec2371812c3c9c384"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-methods"></a>
-Static Private Member Functions</h2></td></tr>
-<tr class="memitem:a798cf1dbd725ec2c3c9cdf827e85d973"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_geometry_3_013_01_4.html#a798cf1dbd725ec2c3c9cdf827e85d973">compare_v_info</a> (Vertex_handle const &amp;lhs, Vertex_handle const &amp;rhs)</td></tr>
-<tr class="memdesc:a798cf1dbd725ec2c3c9cdf827e85d973"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compare vertex info.  <a href="#a798cf1dbd725ec2c3c9cdf827e85d973">More...</a><br /></td></tr>
-<tr class="separator:a798cf1dbd725ec2c3c9cdf827e85d973"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
 <tr class="memitem:a3bd5fbbf9a76c69e3cf1a3ebc5b03588"><td class="memItemLeft" align="right" valign="top"><a id="a3bd5fbbf9a76c69e3cf1a3ebc5b03588"></a>
@@ -267,7 +260,7 @@ class Geometry&lt; 3 &gt;</h3>
 
 <p>3D <a class="el" href="class_geometry.html">Geometry</a> </p>
 
-<p class="definition">Definition at line <a class="el" href="_geometry_8hpp_source.html#l00034">34</a> of file <a class="el" href="_geometry_8hpp_source.html">Geometry.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_geometry_8hpp_source.html#l00039">39</a> of file <a class="el" href="_geometry_8hpp_source.html">Geometry.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a7ce72e159359beb2716e508cad5fd45c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7ce72e159359beb2716e508cad5fd45c">&#9670;&nbsp;</a></span>Geometry()</h2>
@@ -301,13 +294,13 @@ class Geometry&lt; 3 &gt;</h3>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="_geometry_8hpp_source.html#l00050">50</a> of file <a class="el" href="_geometry_8hpp_source.html">Geometry.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_geometry_8hpp_source.html#l00055">55</a> of file <a class="el" href="_geometry_8hpp_source.html">Geometry.hpp</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="af1293e92bd70f1c9c7bef07794a8664b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af1293e92bd70f1c9c7bef07794a8664b">&#9670;&nbsp;</a></span>check_cells()</h2>
+<a id="a26ad87b39c83955d5af9f6d6cb44a693"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a26ad87b39c83955d5af9f6d6cb44a693">&#9670;&nbsp;</a></span>check_cells()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -316,11 +309,12 @@ class Geometry&lt; 3 &gt;</h3>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool <a class="el" href="class_geometry.html">Geometry</a>&lt; 3 &gt;::check_cells </td>
+          <td class="memname">auto <a class="el" href="class_geometry.html">Geometry</a>&lt; 3 &gt;::check_cells </td>
           <td>(</td>
           <td class="paramtype">std::vector&lt; Cell_handle &gt; const &amp;&#160;</td>
           <td class="paramname"><em>cells</em></td><td>)</td>
-          <td> const</td>
+          <td> const -&gt; bool
+  </td>
         </tr>
       </table>
   </td>
@@ -339,7 +333,7 @@ class Geometry&lt; 3 &gt;</h3>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>True if all cells are valid </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_geometry_8hpp_source.html#l00231">231</a> of file <a class="el" href="_geometry_8hpp_source.html">Geometry.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_geometry_8hpp_source.html#l00246">246</a> of file <a class="el" href="_geometry_8hpp_source.html">Geometry.hpp</a>.</p>
 
 </div>
 </div>
@@ -387,7 +381,7 @@ class Geometry&lt; 3 &gt;</h3>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A container of simplices with Cell_type written to cell-&gt;info() </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_geometry_8hpp_source.html#l00271">271</a> of file <a class="el" href="_geometry_8hpp_source.html">Geometry.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_geometry_8hpp_source.html#l00287">287</a> of file <a class="el" href="_geometry_8hpp_source.html">Geometry.hpp</a>.</p>
 
 </div>
 </div>
@@ -436,7 +430,7 @@ class Geometry&lt; 3 &gt;</h3>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>true if timelike and false if spacelike </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_geometry_8hpp_source.html#l00194">194</a> of file <a class="el" href="_geometry_8hpp_source.html">Geometry.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_geometry_8hpp_source.html#l00211">211</a> of file <a class="el" href="_geometry_8hpp_source.html">Geometry.hpp</a>.</p>
 
 </div>
 </div>
@@ -482,7 +476,7 @@ template&lt;typename Triangulation &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Container of all the finite simplices in the triangulation </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_geometry_8hpp_source.html#l00250">250</a> of file <a class="el" href="_geometry_8hpp_source.html">Geometry.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_geometry_8hpp_source.html#l00266">266</a> of file <a class="el" href="_geometry_8hpp_source.html">Geometry.hpp</a>.</p>
 
 </div>
 </div>
@@ -528,7 +522,7 @@ template&lt;typename Manifold &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Container of all the finite edges in the triangulation </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_geometry_8hpp_source.html#l00412">412</a> of file <a class="el" href="_geometry_8hpp_source.html">Geometry.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_geometry_8hpp_source.html#l00428">428</a> of file <a class="el" href="_geometry_8hpp_source.html">Geometry.hpp</a>.</p>
 
 </div>
 </div>
@@ -574,7 +568,7 @@ template&lt;typename Manifold &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Container of all the finite facets in the triangulation </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_geometry_8hpp_source.html#l00342">342</a> of file <a class="el" href="_geometry_8hpp_source.html">Geometry.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_geometry_8hpp_source.html#l00358">358</a> of file <a class="el" href="_geometry_8hpp_source.html">Geometry.hpp</a>.</p>
 
 </div>
 </div>
@@ -620,55 +614,7 @@ template&lt;typename Manifold &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Container of all finite vertices in the triangulation </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_geometry_8hpp_source.html#l00456">456</a> of file <a class="el" href="_geometry_8hpp_source.html">Geometry.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a798cf1dbd725ec2c3c9cdf827e85d973"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a798cf1dbd725ec2c3c9cdf827e85d973">&#9670;&nbsp;</a></span>compare_v_info()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static bool <a class="el" href="class_geometry.html">Geometry</a>&lt; 3 &gt;::compare_v_info </td>
-          <td>(</td>
-          <td class="paramtype">Vertex_handle const &amp;&#160;</td>
-          <td class="paramname"><em>lhs</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">Vertex_handle const &amp;&#160;</td>
-          <td class="paramname"><em>rhs</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Compare vertex info. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">lhs</td><td>Left hand side vertex </td></tr>
-    <tr><td class="paramname">rhs</td><td>Right hand side vertex </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>True if left vertex info &lt; right vertex info </dd></dl>
-
-<p class="definition">Definition at line <a class="el" href="_geometry_8hpp_source.html#l00477">477</a> of file <a class="el" href="_geometry_8hpp_source.html">Geometry.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_geometry_8hpp_source.html#l00472">472</a> of file <a class="el" href="_geometry_8hpp_source.html">Geometry.hpp</a>.</p>
 
 </div>
 </div>
@@ -717,7 +663,7 @@ template&lt;typename Manifold &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A container of Cell_type simplices </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_geometry_8hpp_source.html#l00214">214</a> of file <a class="el" href="_geometry_8hpp_source.html">Geometry.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_geometry_8hpp_source.html#l00229">229</a> of file <a class="el" href="_geometry_8hpp_source.html">Geometry.hpp</a>.</p>
 
 </div>
 </div>
@@ -766,7 +712,7 @@ template&lt;typename Manifold &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A container of is_Timelike edges </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_geometry_8hpp_source.html#l00438">438</a> of file <a class="el" href="_geometry_8hpp_source.html">Geometry.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_geometry_8hpp_source.html#l00454">454</a> of file <a class="el" href="_geometry_8hpp_source.html">Geometry.hpp</a>.</p>
 
 </div>
 </div>
@@ -804,7 +750,7 @@ template&lt;typename Manifold &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The maximum timevalue </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_geometry_8hpp_source.html#l00486">486</a> of file <a class="el" href="_geometry_8hpp_source.html">Geometry.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_geometry_8hpp_source.html#l00492">492</a> of file <a class="el" href="_geometry_8hpp_source.html">Geometry.hpp</a>.</p>
 
 </div>
 </div>
@@ -842,7 +788,7 @@ template&lt;typename Manifold &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The minimum timevalue </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_geometry_8hpp_source.html#l00501">501</a> of file <a class="el" href="_geometry_8hpp_source.html">Geometry.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_geometry_8hpp_source.html#l00507">507</a> of file <a class="el" href="_geometry_8hpp_source.html">Geometry.hpp</a>.</p>
 
 </div>
 </div>
@@ -870,7 +816,7 @@ template&lt;typename Manifold &gt; </div>
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>Container of cells </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_geometry_8hpp_source.html#l00148">148</a> of file <a class="el" href="_geometry_8hpp_source.html">Geometry.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_geometry_8hpp_source.html#l00153">153</a> of file <a class="el" href="_geometry_8hpp_source.html">Geometry.hpp</a>.</p>
 
 </div>
 </div>
@@ -898,7 +844,7 @@ template&lt;typename Manifold &gt; </div>
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>Container of (1,3) cells </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_geometry_8hpp_source.html#l00124">124</a> of file <a class="el" href="_geometry_8hpp_source.html">Geometry.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_geometry_8hpp_source.html#l00129">129</a> of file <a class="el" href="_geometry_8hpp_source.html">Geometry.hpp</a>.</p>
 
 </div>
 </div>
@@ -926,7 +872,7 @@ template&lt;typename Manifold &gt; </div>
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>Container of spacelike edges </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_geometry_8hpp_source.html#l00136">136</a> of file <a class="el" href="_geometry_8hpp_source.html">Geometry.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_geometry_8hpp_source.html#l00141">141</a> of file <a class="el" href="_geometry_8hpp_source.html">Geometry.hpp</a>.</p>
 
 </div>
 </div>
@@ -954,7 +900,7 @@ template&lt;typename Manifold &gt; </div>
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>Container of (3,1) cells </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_geometry_8hpp_source.html#l00112">112</a> of file <a class="el" href="_geometry_8hpp_source.html">Geometry.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_geometry_8hpp_source.html#l00117">117</a> of file <a class="el" href="_geometry_8hpp_source.html">Geometry.hpp</a>.</p>
 
 </div>
 </div>
@@ -982,7 +928,7 @@ template&lt;typename Manifold &gt; </div>
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>Container of timelike edges </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_geometry_8hpp_source.html#l00130">130</a> of file <a class="el" href="_geometry_8hpp_source.html">Geometry.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_geometry_8hpp_source.html#l00135">135</a> of file <a class="el" href="_geometry_8hpp_source.html">Geometry.hpp</a>.</p>
 
 </div>
 </div>
@@ -1010,7 +956,7 @@ template&lt;typename Manifold &gt; </div>
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>Container of (2,2) cells </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_geometry_8hpp_source.html#l00118">118</a> of file <a class="el" href="_geometry_8hpp_source.html">Geometry.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_geometry_8hpp_source.html#l00123">123</a> of file <a class="el" href="_geometry_8hpp_source.html">Geometry.hpp</a>.</p>
 
 </div>
 </div>
@@ -1038,7 +984,7 @@ template&lt;typename Manifold &gt; </div>
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>Container of vertices </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_geometry_8hpp_source.html#l00142">142</a> of file <a class="el" href="_geometry_8hpp_source.html">Geometry.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_geometry_8hpp_source.html#l00147">147</a> of file <a class="el" href="_geometry_8hpp_source.html">Geometry.hpp</a>.</p>
 
 </div>
 </div>
@@ -1066,7 +1012,7 @@ template&lt;typename Manifold &gt; </div>
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>Maximum time value in triangulation </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_geometry_8hpp_source.html#l00100">100</a> of file <a class="el" href="_geometry_8hpp_source.html">Geometry.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_geometry_8hpp_source.html#l00105">105</a> of file <a class="el" href="_geometry_8hpp_source.html">Geometry.hpp</a>.</p>
 
 </div>
 </div>
@@ -1094,7 +1040,7 @@ template&lt;typename Manifold &gt; </div>
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>Minimum time value in triangulation </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_geometry_8hpp_source.html#l00103">103</a> of file <a class="el" href="_geometry_8hpp_source.html">Geometry.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_geometry_8hpp_source.html#l00108">108</a> of file <a class="el" href="_geometry_8hpp_source.html">Geometry.hpp</a>.</p>
 
 </div>
 </div>
@@ -1122,7 +1068,7 @@ template&lt;typename Manifold &gt; </div>
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>Number of finite vertices in triangulation </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_geometry_8hpp_source.html#l00097">97</a> of file <a class="el" href="_geometry_8hpp_source.html">Geometry.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_geometry_8hpp_source.html#l00102">102</a> of file <a class="el" href="_geometry_8hpp_source.html">Geometry.hpp</a>.</p>
 
 </div>
 </div>
@@ -1150,7 +1096,7 @@ template&lt;typename Manifold &gt; </div>
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>Number of finite edges in triangulation </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_geometry_8hpp_source.html#l00088">88</a> of file <a class="el" href="_geometry_8hpp_source.html">Geometry.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_geometry_8hpp_source.html#l00093">93</a> of file <a class="el" href="_geometry_8hpp_source.html">Geometry.hpp</a>.</p>
 
 </div>
 </div>
@@ -1178,7 +1124,7 @@ template&lt;typename Manifold &gt; </div>
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>Number of spacelike edges </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_geometry_8hpp_source.html#l00094">94</a> of file <a class="el" href="_geometry_8hpp_source.html">Geometry.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_geometry_8hpp_source.html#l00099">99</a> of file <a class="el" href="_geometry_8hpp_source.html">Geometry.hpp</a>.</p>
 
 </div>
 </div>
@@ -1206,7 +1152,7 @@ template&lt;typename Manifold &gt; </div>
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>Number of timelike edges </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_geometry_8hpp_source.html#l00091">91</a> of file <a class="el" href="_geometry_8hpp_source.html">Geometry.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_geometry_8hpp_source.html#l00096">96</a> of file <a class="el" href="_geometry_8hpp_source.html">Geometry.hpp</a>.</p>
 
 </div>
 </div>
@@ -1234,7 +1180,7 @@ template&lt;typename Manifold &gt; </div>
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>Number of finite facets in triangulation </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_geometry_8hpp_source.html#l00085">85</a> of file <a class="el" href="_geometry_8hpp_source.html">Geometry.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_geometry_8hpp_source.html#l00090">90</a> of file <a class="el" href="_geometry_8hpp_source.html">Geometry.hpp</a>.</p>
 
 </div>
 </div>
@@ -1262,7 +1208,7 @@ template&lt;typename Manifold &gt; </div>
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>Container of spacelike facets indexed by time value </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_geometry_8hpp_source.html#l00106">106</a> of file <a class="el" href="_geometry_8hpp_source.html">Geometry.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_geometry_8hpp_source.html#l00111">111</a> of file <a class="el" href="_geometry_8hpp_source.html">Geometry.hpp</a>.</p>
 
 </div>
 </div>
@@ -1290,7 +1236,7 @@ template&lt;typename Manifold &gt; </div>
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>Number of finite cells from triangulation </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_geometry_8hpp_source.html#l00070">70</a> of file <a class="el" href="_geometry_8hpp_source.html">Geometry.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_geometry_8hpp_source.html#l00075">75</a> of file <a class="el" href="_geometry_8hpp_source.html">Geometry.hpp</a>.</p>
 
 </div>
 </div>
@@ -1318,7 +1264,7 @@ template&lt;typename Manifold &gt; </div>
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>Number of (1,3) simplices </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_geometry_8hpp_source.html#l00079">79</a> of file <a class="el" href="_geometry_8hpp_source.html">Geometry.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_geometry_8hpp_source.html#l00084">84</a> of file <a class="el" href="_geometry_8hpp_source.html">Geometry.hpp</a>.</p>
 
 </div>
 </div>
@@ -1346,7 +1292,7 @@ template&lt;typename Manifold &gt; </div>
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>Number of (2,2) simplices </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_geometry_8hpp_source.html#l00076">76</a> of file <a class="el" href="_geometry_8hpp_source.html">Geometry.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_geometry_8hpp_source.html#l00081">81</a> of file <a class="el" href="_geometry_8hpp_source.html">Geometry.hpp</a>.</p>
 
 </div>
 </div>
@@ -1374,7 +1320,7 @@ template&lt;typename Manifold &gt; </div>
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>Number of (3,1) simplices </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_geometry_8hpp_source.html#l00073">73</a> of file <a class="el" href="_geometry_8hpp_source.html">Geometry.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_geometry_8hpp_source.html#l00078">78</a> of file <a class="el" href="_geometry_8hpp_source.html">Geometry.hpp</a>.</p>
 
 </div>
 </div>
@@ -1402,7 +1348,7 @@ template&lt;typename Manifold &gt; </div>
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>Number of (3,1) and (1,3) simplices </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_geometry_8hpp_source.html#l00082">82</a> of file <a class="el" href="_geometry_8hpp_source.html">Geometry.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_geometry_8hpp_source.html#l00087">87</a> of file <a class="el" href="_geometry_8hpp_source.html">Geometry.hpp</a>.</p>
 
 </div>
 </div>
@@ -1438,7 +1384,7 @@ template&lt;typename Manifold &gt; </div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="_geometry_8hpp_source.html#l00160">160</a> of file <a class="el" href="_geometry_8hpp_source.html">Geometry.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_geometry_8hpp_source.html#l00165">165</a> of file <a class="el" href="_geometry_8hpp_source.html">Geometry.hpp</a>.</p>
 
 </div>
 </div>
@@ -1486,7 +1432,7 @@ template&lt;typename Manifold &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Container with spacelike facets per timeslice </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_geometry_8hpp_source.html#l00365">365</a> of file <a class="el" href="_geometry_8hpp_source.html">Geometry.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_geometry_8hpp_source.html#l00381">381</a> of file <a class="el" href="_geometry_8hpp_source.html">Geometry.hpp</a>.</p>
 
 </div>
 </div>
@@ -1496,7 +1442,7 @@ template&lt;typename Manifold &gt; </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Apr 3 2019 16:02:59 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon Jun 10 2019 22:59:42 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.15
 </small></address>

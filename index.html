@@ -105,6 +105,7 @@ Small foliated Delaunay triangulation</div></div>
 <li>[x] 3D Ergodic moves</li>
 <li>[x] Multithreading via <a href="https://www.threadingbuildingblocks.org">TBB</a></li>
 <li>[x] <a class="el" href="class_metropolis.html" title="Metropolis-Hastings algorithm function object.">Metropolis</a> algorithm</li>
+<li><a href="https://doc.cgal.org/latest/Surface_mesher/index.html"></a> manifold of 3D Triangulation</li>
 <li>[ ] Output via <a href="https://www.hdfgroup.org">HDF5</a></li>
 <li>[ ] 4D Simplex</li>
 <li>[ ] 4D Spherical triangulation</li>
@@ -133,25 +134,25 @@ Small foliated Delaunay triangulation</div></div>
 <h3>Prerequisites</h3>
 <ul>
 <li>AppleClang, <a href="https://releases.llvm.org/7.0.0/tools/clang/docs/ReleaseNotes.html">clang-7</a>, or <a href="https://gcc.gnu.org/gcc-8/">gcc-8</a></li>
-<li><a href="https://brew.sh">Homebrew</a> or <a href="https://linuxbrew.sh/">Linuxbrew</a></li>
+<li><a href="https://brew.sh">Homebrew</a> or <a href="https://docs.brew.sh/Homebrew-on-Linux">Linuxbrew</a></li>
 <li><a href="https://github.com/conan-io/conan">Conan</a></li>
 <li><a href="https://www.cmake.org">CMake</a></li>
 <li><a href="https://ninja-build.org">Ninja</a></li>
 <li><a href="https://www.cgal.org">CGAL</a></li>
 <li><a href="https://www.threadingbuildingblocks.org">TBB</a></li>
 </ul>
-<p><a href="https://github.com/acgetchell/CDT-plusplus">CDT++</a> uses the <a href="https://github.com/conan-io/conan">Conan</a> open source C/C++ package manager. However, <a href="https://github.com/conan-io/conan">Conan</a> does not have a package for <a href="https://www.cgal.org">CGAL</a>, and does not handle <a href="https://www.threadingbuildingblocks.org">TBB</a> properly. So, you need <a href="https://brew.sh">Homebrew</a>/<a href="https://linuxbrew.sh/">Linuxbrew</a>.</p>
+<p><a href="https://github.com/acgetchell/CDT-plusplus">CDT++</a> uses the <a href="https://github.com/conan-io/conan">Conan</a> open source C/C++ package manager. However, <a href="https://github.com/conan-io/conan">Conan</a> does not have a package for <a href="https://www.cgal.org">CGAL</a>, and does not handle <a href="https://www.threadingbuildingblocks.org">TBB</a> properly. So, you need <a href="https://brew.sh">Homebrew</a>/<a href="https://docs.brew.sh/Homebrew-on-Linux">Linuxbrew</a>.</p>
 <p>MacOS:</p>
 <div class="fragment"><div class="line">/usr/bin/ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;</div></div><!-- fragment --><p>Linux (Ubuntu):</p>
 <div class="fragment"><div class="line">sudo apt install linuxbrew-wrapper</div><div class="line">PATH=&quot;$HOME/.linuxbrew/bin:$PATH&quot;</div><div class="line">echo &#39;export PATH=&quot;/home/travis/.linuxbrew/bin:$PATH&quot;&#39; &gt;&gt; ~/.bash_profile</div><div class="line">brew --version</div><div class="line">export MANPATH=&quot;$(brew --prefix)/share/man:$MANPATH&quot;</div><div class="line">export INFOPATH=&quot;$(brew --prefix)/share/info:$INFOPATH&quot;</div><div class="line">brew doctor</div><div class="line">brew config</div></div><!-- fragment --><p>Then, you can install the prerequisites with:</p>
-<div class="fragment"><div class="line">brew update</div><div class="line">brew upgrade cmake</div><div class="line">brew install ninja</div><div class="line">brew install tbb</div><div class="line">brew install cgal</div></div><!-- fragment --><p>Homebrew/Linuxbrew <a href="https://brew.sh/2019/02/02/homebrew-2.0.0/">have been merged</a> and no longer support options, so the <a href="https://www.cgal.org">CGAL</a> package dependency on QT fails. As of now, you have to manually install QT to get the (forthcoming) visualizations to work.</p>
+<div class="fragment"><div class="line">brew update</div><div class="line">brew upgrade cmake</div><div class="line">brew install ninja</div><div class="line">brew install tbb</div><div class="line">brew install cgal</div></div><!-- fragment --><p>Homebrew/Linuxbrew <a href="https://brew.sh/2019/02/02/homebrew-2.0.0/">have been merged</a> and no longer support options, so the <a href="https://www.cgal.org">CGAL</a> package dependency on <a href="https://www.qt.io">Qt</a> fails. As of now, you have to manually install <a href="https://www.cgal.org">CGAL</a>+<a href="https://www.qt.io">Qt</a> to get the (forthcoming) visualizations to work.</p>
 <p>Finally, you can install conan:</p>
 <div class="fragment"><div class="line">brew install conan</div></div><!-- fragment --><p>You can test your Conan installation by typing:</p>
 <div class="fragment"><div class="line">conan</div></div><!-- fragment --><p>Next, create a <a href="https://github.com/conan-io/conan">Conan</a> profile (named <code>cdt</code> here) automatically, using:</p>
 <div class="fragment"><div class="line">conan profile new cdt --detect</div></div><!-- fragment --><p>This (usually) finds your compiler settings, and allows the <a href="https://github.com/acgetchell/CDT-plusplus/blob/develop/build.sh">build.sh</a> script to run correctly.</p>
 <p>There are a few packages that use the <a href="https://bincrafters.github.io/2017/06/06/using-bincrafters-conan-repository/">bincrafters</a> repository. Add that via:</p>
 <div class="fragment"><div class="line">conan remote add bincrafters https://api.bintray.com/conan/bincrafters/public-conan</div></div><!-- fragment --><p>Using <a href="https://www.cmake.org">CMake</a> and <a href="https://ninja-build.org">Ninja</a>, Conan handles the remaining dependencies.</p>
-<p>This project uses <a href="https://isocpp.org/">C++</a>17 features, and successfully builds with AppleClang, <a href="https://gcc.gnu.org/gcc-8/">gcc-8</a>, and [clang-6]. On Ubuntu, you may need updated versions of <a href="https://clang.llvm.org">Clang</a> or <a href="https://gcc.gnu.org/">gcc</a>, and <a href="https://www.cmake.org">CMake</a>, which is scripted in <a href="https://github.com/acgetchell/CDT-plusplus/blob/master/.travis.yml">.travis.yml</a>.</p>
+<p>This project uses <a href="https://isocpp.org/">C++</a>17 features, and successfully builds with AppleClang, <a href="https://gcc.gnu.org/gcc-8/">gcc-8</a>, and <a href="https://releases.llvm.org/7.0.0/tools/clang/docs/ReleaseNotes.html">clang-7</a>. On Ubuntu, you may need updated versions of <a href="https://clang.llvm.org">Clang</a> or <a href="https://gcc.gnu.org/">gcc</a>, and <a href="https://www.cmake.org">CMake</a>, which is scripted in <a href="https://github.com/acgetchell/CDT-plusplus/blob/master/.travis.yml">.travis.yml</a>.</p>
 <p>Windows is almost there with <a href="https://clang.llvm.org/docs/MSVCCompatibility.html">clang-cl</a>, there is a <a href="https://ci.appveyor.com/project/acgetchell/cdt-test/build/job/6tltjqyu37oan89v#L93594">bug</a> with <a href="https://howardhinnant.github.io/date/date.html">date</a>.</p>
 <h3>Installing</h3>
 <p>This project uses a separate <code>build/</code> directory, which allows you to rebuild the project without cluttering the source code. Thus, download this source code (clone this repo from GitHub or grab a <a href="https://github.com/acgetchell/CDT-plusplus/releases">release</a>) and run the <a href="https://github.com/acgetchell/CDT-plusplus/blob/develop/build.sh">build.sh</a> script.</p>
@@ -191,12 +192,16 @@ Small foliated Delaunay triangulation</div></div>
 <p><a href="https://www.comet.ml/">CometML</a> is used to record <a href="https://www.comet.ml/acgetchell/cdt-plusplus">Experiments</a> which conduct <a href="https://www.comet.ml/parameter-optimization">Model Optimization</a>. The script to do this is <code><a class="el" href="optimize-initialize_8py_source.html">optimize-initialize.py</a></code>. In order for this to work, you must install the following into your Python <a href="https://docs.python.org/3/tutorial/venv.html">virtual environment</a>.</p>
 <div class="fragment"><div class="line">pip install tensorflow</div><div class="line">pip install comet-ml</div></div><!-- fragment --><p>You can then run experiments and look at results on Comet.ml!</p>
 <h2>Contributing</h2>
-<p>Please see CONTRIBUTING.md and our CODE_OF_CONDUCT.md. </p>
+<p>Please see CONTRIBUTING.md and our CODE_OF_CONDUCT.md.</p>
+<h2>Upstream issues</h2>
+<p>Various Travis-CI and AppVeyor builds are ignored:</p>
+<p>String view error in date.h for Visual Studio 2015 and 2017 <a href="https://github.com/HowardHinnant/date/issues/434">https://github.com/HowardHinnant/date/issues/434</a></p>
+<p><code>brew install ninja</code> broken on linux <a href="https://github.com/Homebrew/linuxbrew-core/issues/12430">https://github.com/Homebrew/linuxbrew-core/issues/12430</a> </p>
 </div></div><!-- PageDoc -->
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Apr 3 2019 16:02:59 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon Jun 10 2019 22:59:42 for CDT++ by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.15
 </small></address>

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['queue',['queue',['../struct_simulation.html#a7bb911c07c2f8c340a2851da07ff8c31',1,'Simulation']]]
+  ['queue',['queue',['../class_simulation.html#a6307e044fb1dd3defec882719a64cc17',1,'Simulation']]]
 ];

@@ -8,7 +8,7 @@ var searchData=
   ['cdt_2ecpp',['cdt.cpp',['../cdt_8cpp.html',1,'']]],
   ['cell_5ftype',['Cell_type',['../_foliated__triangulation_8hpp.html#a73e46a0d9bc77f21cc68798c73282a1e',1,'Foliated_triangulation.hpp']]],
   ['check',['check',['../class_move_manager.html#a883f01628315a867d5c12ebc22682efe',1,'MoveManager']]],
-  ['check_5fcells',['check_cells',['../class_geometry_3_013_01_4.html#af1293e92bd70f1c9c7bef07794a8664b',1,'Geometry&lt; 3 &gt;']]],
+  ['check_5fcells',['check_cells',['../class_geometry_3_013_01_4.html#a26ad87b39c83955d5af9f6d6cb44a693',1,'Geometry&lt; 3 &gt;']]],
   ['check_5fmove',['check_move',['../_ergodic__moves__3_8hpp.html#a8b1b8c6bc065858ba3abde8e1b53553f',1,'manifold3_moves']]],
   ['check_5fsimplices',['check_simplices',['../class_manifold_3_013_01_4.html#a190d6c42d623757b98f36f18425d1260',1,'Manifold&lt; 3 &gt;']]],
   ['checkpoint',['Checkpoint',['../class_metropolis.html#a1ed1b229fe9a77ab9429ce7bd97a4aed',1,'Metropolis']]],
@@ -21,7 +21,6 @@ var searchData=
   ['collect_5fedges',['collect_edges',['../class_geometry_3_013_01_4.html#a339a334e92315a96bfdabeb5022505a9',1,'Geometry&lt; 3 &gt;']]],
   ['collect_5ffaces',['collect_faces',['../class_geometry_3_013_01_4.html#aa1e4c0ec9f92be85b2f5ca4f8e2fbf95',1,'Geometry&lt; 3 &gt;']]],
   ['collect_5fvertices',['collect_vertices',['../class_geometry_3_013_01_4.html#a38f0b3fd168d2df35b958a40b0b34d38',1,'Geometry&lt; 3 &gt;']]],
-  ['compare_5fv_5finfo',['compare_v_info',['../class_geometry_3_013_01_4.html#a798cf1dbd725ec2c3c9cdf827e85d973',1,'Geometry&lt; 3 &gt;']]],
   ['currentdatetime',['currentDateTime',['../_utilities_8hpp.html#aa19186e57b36341a554e2b650de915dd',1,'Utilities.hpp']]],
   ['currenttotalsimplices',['CurrentTotalSimplices',['../class_move_algorithm.html#a29d5fd3e91e3dba7a41622894c1eb795',1,'MoveAlgorithm']]],
   ['cdt_2dplusplus',['CDT-plusplus',['../index.html',1,'']]]
