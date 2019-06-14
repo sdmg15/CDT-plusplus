@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['cdt_2dplusplus',['CDT-plusplus',['../index.html',1,'']]]
+  ['contributing',['Contributing',['../md_external_pcg-cpp__c_o_n_t_r_i_b_u_t_i_n_g.html',1,'']]]
 ];

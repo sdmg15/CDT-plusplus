@@ -2,6 +2,7 @@ var searchData=
 [
   ['calculatea1',['CalculateA1',['../class_metropolis.html#ac84f9ee639bd0458bc319048689d07ed',1,'Metropolis']]],
   ['calculatea2',['CalculateA2',['../class_metropolis.html#a4ded13f65c50b08b81a9e92b2ba471fc',1,'Metropolis']]],
+  ['can_5fspecify_5fstream_5ftag',['can_specify_stream_tag',['../structpcg__detail_1_1engine_1_1can__specify__stream__tag.html',1,'pcg_detail::engine']]],
   ['causaldynamicaltriangulations',['CausalDynamicalTriangulations',['../classconanfile_1_1_causal_dynamical_triangulations.html',1,'conanfile']]],
   ['cdt_2dgv_2ecpp',['cdt-gv.cpp',['../cdt-gv_8cpp.html',1,'']]],
   ['cdt_2dopt_2ecpp',['cdt-opt.cpp',['../cdt-opt_8cpp.html',1,'']]],
@@ -23,5 +24,5 @@ var searchData=
   ['collect_5fvertices',['collect_vertices',['../class_geometry_3_013_01_4.html#a38f0b3fd168d2df35b958a40b0b34d38',1,'Geometry&lt; 3 &gt;']]],
   ['currentdatetime',['currentDateTime',['../_utilities_8hpp.html#aa19186e57b36341a554e2b650de915dd',1,'Utilities.hpp']]],
   ['currenttotalsimplices',['CurrentTotalSimplices',['../class_move_algorithm.html#a29d5fd3e91e3dba7a41622894c1eb795',1,'MoveAlgorithm']]],
-  ['cdt_2dplusplus',['CDT-plusplus',['../index.html',1,'']]]
+  ['contributing',['Contributing',['../md_external_pcg-cpp__c_o_n_t_r_i_b_u_t_i_n_g.html',1,'']]]
 ];
