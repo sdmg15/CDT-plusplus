@@ -1,8 +1,5 @@
 var searchData=
 [
-  ['default_5fincrement',['default_increment',['../structpcg__detail_1_1default__increment.html',1,'pcg_detail']]],
-  ['default_5fincrement_3c_20itype_20_3e',['default_increment&lt; itype &gt;',['../structpcg__detail_1_1default__increment.html',1,'pcg_detail']]],
-  ['default_5fmultiplier',['default_multiplier',['../structpcg__detail_1_1default__multiplier.html',1,'pcg_detail']]],
   ['detailed_5fdebugging',['DETAILED_DEBUGGING',['../_foliated__triangulation_8hpp.html#a9a0c2b3d03bbbef60eff20621e4e951a',1,'DETAILED_DEBUGGING():&#160;Foliated_triangulation.hpp'],['../_measurements_8hpp.html#a9a0c2b3d03bbbef60eff20621e4e951a',1,'DETAILED_DEBUGGING():&#160;Measurements.hpp'],['../_s3_triangulation_8hpp.html#a9a0c2b3d03bbbef60eff20621e4e951a',1,'DETAILED_DEBUGGING():&#160;S3Triangulation.hpp'],['../_utilities_8hpp.html#a9a0c2b3d03bbbef60eff20621e4e951a',1,'DETAILED_DEBUGGING():&#160;Utilities.hpp']]],
   ['die_5froll',['die_roll',['../_utilities_8hpp.html#a171c31ff047c94717de089933f7dab45',1,'Utilities.hpp']]],
   ['dim',['dim',['../class_foliated__triangulation_3_013_01_4.html#a9e753d5075fc03306dcef2dbd61d6241',1,'Foliated_triangulation&lt; 3 &gt;::dim()'],['../class_manifold_3_013_01_4.html#ab032df052f4af07c1ff66e1938be6806',1,'Manifold&lt; 3 &gt;::dim()']]],

@@ -20,8 +20,6 @@ var searchData=
   ['manifold_3c_203_20_3e',['Manifold&lt; 3 &gt;',['../class_manifold_3_013_01_4.html',1,'']]],
   ['max_5ffoliation_5ffix_5fpasses',['MAX_FOLIATION_FIX_PASSES',['../_s3_triangulation_8hpp.html#a20d1331155a3fd0fac92b5683506dd19',1,'S3Triangulation.hpp']]],
   ['max_5ftime',['max_time',['../class_geometry_3_013_01_4.html#ae9378ddc22e040fe16fa5bfac6fae936',1,'Geometry&lt; 3 &gt;::max_time()'],['../class_manifold_3_013_01_4.html#a466f16dff7afc7bb0f1cf7761373be5c',1,'Manifold&lt; 3 &gt;::max_time()']]],
-  ['mcg_5fmultiplier',['mcg_multiplier',['../structpcg__detail_1_1mcg__multiplier.html',1,'pcg_detail']]],
-  ['mcg_5funmultiplier',['mcg_unmultiplier',['../structpcg__detail_1_1mcg__unmultiplier.html',1,'pcg_detail']]],
   ['measurements_2ehpp',['Measurements.hpp',['../_measurements_8hpp.html',1,'']]],
   ['measurementstest_2ecpp',['MeasurementsTest.cpp',['../_measurements_test_8cpp.html',1,'']]],
   ['metropolis',['Metropolis',['../class_metropolis.html',1,'Metropolis'],['../class_metropolis.html#ae819cbd0a642c631e546d33bd12b8e41',1,'Metropolis::Metropolis()']]],

@@ -1,9 +1,6 @@
 var searchData=
 [
-  ['uint_5fx4',['uint_x4',['../classpcg__extras_1_1uint__x4.html',1,'pcg_extras']]],
-  ['universe_5f',['universe_',['../class_move_algorithm.html#a93e4f29cde77f863c976beecc122a38e',1,'MoveAlgorithm::universe_()'],['../class_move_manager.html#ad83dbfc32ef032ca6b19e82ce398f8ea',1,'MoveManager::universe_()']]],
-  ['update_5fgeometry',['update_geometry',['../class_manifold_3_013_01_4.html#a46046fe5490e4dde4d7a7b2f12d84ce9',1,'Manifold&lt; 3 &gt;']]],
-  ['usage',['USAGE',['../cdt-gv_8cpp.html#a6d6e26e7e3af2d4bd47f6582aff224f8',1,'USAGE():&#160;cdt-gv.cpp'],['../cdt_8cpp.html#a6d6e26e7e3af2d4bd47f6582aff224f8',1,'USAGE():&#160;cdt.cpp'],['../initialize_8cpp.html#a6d6e26e7e3af2d4bd47f6582aff224f8',1,'USAGE():&#160;initialize.cpp']]],
-  ['utilities_2ehpp',['Utilities.hpp',['../_utilities_8hpp.html',1,'']]],
-  ['utilities_5ftest_2ecpp',['Utilities_test.cpp',['../_utilities__test_8cpp.html',1,'']]]
+  ['vbinfo',['VbInfo',['../_periodic__3__triangulations_8hpp.html#a2bec3309c3094ede5986a80db48dd19d',1,'Periodic_3_triangulations.hpp']]],
+  ['vertices',['vertices',['../struct_geometry_info.html#a78b482e2686c45a8343714b5b506a2c2',1,'GeometryInfo::vertices()'],['../class_foliated__triangulation_3_013_01_4.html#a76cfa2254f51801122ecb0c002411ae8',1,'Foliated_triangulation&lt; 3 &gt;::vertices()'],['../class_manifold_3_013_01_4.html#a07419970ce21176ff14b4dd95db05a9e',1,'Manifold&lt; 3 &gt;::vertices()']]],
+  ['volume_5fper_5ftimeslice',['volume_per_timeslice',['../class_geometry_3_013_01_4.html#a08e0f7e7725ab15ec2371812c3c9c384',1,'Geometry&lt; 3 &gt;']]]
 ];

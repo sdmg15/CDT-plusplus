@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['pcg_20random_20number_20generation_2c_20c_2b_2b_20edition',['PCG Random Number Generation, C++ Edition',['../index.html',1,'']]],
   ['passes',['Passes',['../class_metropolis.html#a2e97a379c8d07b03f719058ea8fbf7b0',1,'Metropolis']]],
   ['passes_5f',['passes_',['../class_move_algorithm.html#acde0c2303a5a732817def9045800de43',1,'MoveAlgorithm']]],
   ['periodic_5f3_5fcomplex_2ehpp',['Periodic_3_complex.hpp',['../_periodic__3__complex_8hpp.html',1,'']]],
